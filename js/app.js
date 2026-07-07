@@ -12,7 +12,7 @@ import { renderAdmin } from './pages/admin.js';
 import { renderBiblioteca } from './pages/biblioteca.js';
 import { renderLanding } from './pages/landing.js';
 import { renderSubscription } from './pages/subscription.js';
-import { startPathEssay } from './essay-runner.js';
+import { startPathEssay } from './essay-engine.js';
 import { getAppShellMode, getRedirectForGuest } from './guards.js';
 
 const view = document.getElementById('view');
@@ -37,12 +37,12 @@ function setShell(path) {
 }
 
 function showError(err) {
+  if (!view) return;
   view.innerHTML = `
     <div class="card">
       <h3>Error al cargar la plataforma</h3>
       <p>${err?.message || 'Error desconocido'}</p>
       <button class="btn btn-primary" onclick="location.reload()">Recargar página</button>
-      <a href="#/" class="btn btn-secondary" data-route style="margin-left:0.5rem">Ir al inicio</a>
     </div>`;
 }
 
@@ -51,33 +51,27 @@ async function render() {
 
   try {
     const { path, params } = parseRoute();
-
     const redirect = getRedirectForGuest(path);
+
     if (redirect) {
       const target = redirect.replace(/^#/, '');
       const current = (location.hash || '#/').replace(/^#/, '');
       if (current !== target) {
         location.hash = redirect;
+        return;
       }
     }
 
     setShell(path);
     view.innerHTML = '<p class="empty">Cargando…</p>';
 
-    if (redirect) {
-      const target = redirect.replace(/^#/, '');
-      const current = (location.hash || '#/').replace(/^#/, '');
-      if (current !== target) return;
-    }
-
     switch (path) {
       case 'home':
         if (getUser()) {
-          await renderHome(view);
-          if (location.hash === '#/' || location.hash === '') location.hash = '#/app';
-        } else {
-          renderLanding(view);
+          location.hash = '#/app';
+          return;
         }
+        renderLanding(view);
         break;
       case 'app':
         await renderHome(view);
@@ -120,11 +114,8 @@ async function render() {
         await renderBiblioteca(view);
         break;
       default:
-        if (getUser()) {
-          location.hash = '#/app';
-        } else {
-          renderLanding(view);
-        }
+        if (getUser()) location.hash = '#/app';
+        else renderLanding(view);
     }
   } catch (err) {
     console.error(err);
@@ -132,25 +123,23 @@ async function render() {
   }
 }
 
-async function boot() {
+function boot() {
   if (booted) return;
   booted = true;
 
-  if ('serviceWorker' in navigator) {
-    try {
-      const regs = await navigator.serviceWorker.getRegistrations();
-      await Promise.all(regs.map(r => r.unregister()));
-    } catch (_) {}
-  }
-
   onRouteChange(render);
+  render();
 
   initAuth(() => {
     renderAuthButton(authSlot);
     render();
-  });
+  }).catch(() => render());
 
-  await render();
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations()
+      .then(regs => Promise.all(regs.map(r => r.unregister())))
+      .catch(() => {});
+  }
 }
 
-boot().catch(err => showError(err));
+boot();

@@ -11,9 +11,8 @@ export const APP_CONFIG = {
     trialDays: 0,
   },
   essays: {
-    diagnosticCount: 35,
     unitCount: 30,
-    checkpointCount: 35,
+    unitDurationMinutes: 45,
     checkpointEveryUnits: 2,
   },
 };

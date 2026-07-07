@@ -188,11 +188,14 @@ export async function startPathEssay(container, type, lessonId = null) {
   const tests = await loadTests();
   const test = tests.find(t => t.id === testId);
   const meta = getEssayMeta(type, test);
-  const targetCount = type === 'unit' ? meta.count : Math.min(meta.count, meta.count);
-  const questions = await buildQuestionSet(testId, { type, lessonId, count: targetCount });
+  const questions = await buildQuestionSet(testId, { type, lessonId, count: meta.count });
+  const extra = questions.length < meta.count
+    ? ` · Banco actual: ${questions.length}/${meta.count} preguntas (usa el PDF oficial en Ensayos para el simulacro completo en papel)`
+    : '';
 
   await runTimedEssay(container, {
     ...meta,
+    description: meta.description + extra,
     questions,
     testId,
     essayType: type,

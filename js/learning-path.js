@@ -13,7 +13,7 @@ export function getGate(testId) {
     return {
       type: 'diagnostic',
       title: 'Ensayo diagnóstico inicial',
-      description: 'Antes de ver contenido debes rendir un ensayo diagnóstico de tu prueba PAES.',
+      description: 'Rinde el ensayo diagnóstico completo (igual duración y preguntas que la PAES real) antes de ver el contenido.',
       route: '#/ensayo/diagnostico',
       blocked: ['contenido'],
     };
@@ -197,26 +197,29 @@ export async function buildQuestionSet(testId, { type, lessonId = null, count })
 
 export function getEssayMeta(type, test) {
   const cfg = APP_CONFIG.essays;
+  const total = test?.questions || 65;
+  const duration = test?.durationMinutes || 140;
+
   if (type === 'diagnostic') {
     return {
-      title: `Diagnóstico ${test?.short || 'PAES'}`,
-      description: 'Ensayo inicial obligatorio. Mide tu punto de partida antes de estudiar.',
-      count: Math.min(cfg.diagnosticCount, test?.questions || cfg.diagnosticCount),
-      durationMinutes: test?.durationMinutes || 140,
+      title: `Ensayo diagnóstico ${test?.short || 'PAES'}`,
+      description: `Simulacro completo inicial (${total} preguntas · ${duration} min). Obligatorio antes de estudiar.`,
+      count: total,
+      durationMinutes: duration,
     };
   }
   if (type === 'unit') {
     return {
       title: 'Mini ensayo de unidad',
-      description: '30 preguntas para verificar lo aprendido en esta unidad.',
+      description: `${cfg.unitCount} preguntas para verificar lo aprendido en esta unidad.`,
       count: cfg.unitCount,
-      durationMinutes: 45,
+      durationMinutes: cfg.unitDurationMinutes,
     };
   }
   return {
-    title: 'Ensayo de progreso',
-    description: 'Evaluación obligatoria cada 2 unidades para medir tu avance.',
-    count: cfg.checkpointCount,
-    durationMinutes: 60,
+    title: `Ensayo de progreso ${test?.short || ''}`,
+    description: `Evaluación completa cada ${cfg.checkpointEveryUnits} unidades (${total} preguntas).`,
+    count: total,
+    durationMinutes: duration,
   };
 }

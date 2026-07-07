@@ -30,3 +30,9 @@ export function getRedirectForGuest(path) {
   if (!requireSubscription(path)) return '#/suscripcion';
   return null;
 }
+
+export function getRedirectIfLoggedIn(path) {
+  if (!getUser()) return null;
+  if (path === 'login' || path === 'registro' || path === 'home') return '#/app';
+  return null;
+}

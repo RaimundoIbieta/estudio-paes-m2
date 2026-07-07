@@ -13,7 +13,7 @@ import { renderBiblioteca } from './pages/biblioteca.js';
 import { renderLanding } from './pages/landing.js';
 import { renderSubscription } from './pages/subscription.js';
 import { startPathEssay } from './essay-engine.js';
-import { getAppShellMode, getRedirectForGuest } from './guards.js';
+import { getAppShellMode, getRedirectForGuest, getRedirectIfLoggedIn } from './guards.js';
 
 const view = document.getElementById('view');
 const nav = document.getElementById('main-nav');
@@ -38,11 +38,13 @@ function setShell(path) {
 
 function showError(err) {
   if (!view) return;
+  const back = getUser() ? '#/app' : '#/';
   view.innerHTML = `
     <div class="card">
       <h3>Error al cargar la plataforma</h3>
       <p>${err?.message || 'Error desconocido'}</p>
-      <button class="btn btn-primary" onclick="location.reload()">Recargar página</button>
+      <a href="${back}" class="btn btn-primary" data-route>Volver al inicio</a>
+      <button class="btn btn-secondary" onclick="location.reload()" style="margin-left:0.5rem">Recargar</button>
     </div>`;
 }
 
@@ -51,7 +53,7 @@ async function render() {
 
   try {
     const { path, params } = parseRoute();
-    const redirect = getRedirectForGuest(path);
+    const redirect = getRedirectForGuest(path) || getRedirectIfLoggedIn(path);
 
     if (redirect) {
       const target = redirect.replace(/^#/, '');
@@ -80,9 +82,11 @@ async function render() {
         await renderSelectTest(view);
         break;
       case 'login':
+        if (getUser()) { location.hash = '#/app'; return; }
         renderLogin(view, 'login');
         break;
       case 'registro':
+        if (getUser()) { location.hash = '#/app'; return; }
         renderLogin(view, 'registro');
         break;
       case 'suscripcion':

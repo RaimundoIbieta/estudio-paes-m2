@@ -40,11 +40,11 @@ export async function renderEssays(container) {
       <h3>Ruta de estudio (interactivo)</h3>
       <div class="topic-list">
         <a class="topic-item" href="#/ensayo/diagnostico" data-route>
-          <div><strong>Ensayo diagnóstico inicial</strong><div class="topic-meta">Obligatorio · ~35 preguntas interactivas</div></div>
+          <div><strong>Ensayo diagnóstico inicial</strong><div class="topic-meta">Obligatorio · ${test?.questions || 65} preguntas · ${test?.durationMinutes || 140} min</div></div>
           <span class="badge">${gate.type === 'diagnostic' ? 'Pendiente' : '✓'}</span>
         </a>
         <a class="topic-item" href="#/ensayo/progreso" data-route>
-          <div><strong>Ensayo de progreso</strong><div class="topic-meta">Cada 2 unidades · interactivo</div></div>
+          <div><strong>Ensayo de progreso</strong><div class="topic-meta">Cada 2 unidades · ${test?.questions || 65} preguntas</div></div>
           <span class="badge">Ruta</span>
         </a>
       </div>

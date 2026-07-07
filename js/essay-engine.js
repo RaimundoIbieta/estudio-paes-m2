@@ -1,4 +1,4 @@
-import { getCurrentTest } from './test-context.js';
+import { getCurrentTest, loadTests } from './test-context.js';
 import { recordEssay } from './storage.js';
 
 function formatTime(sec) {

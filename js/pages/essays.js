@@ -15,7 +15,12 @@ export async function loadEssays() {
 export async function renderEssays(container) {
   const testId = getCurrentTest();
   if (!testId) {
-    location.hash = '#/pruebas';
+    container.innerHTML = `
+      <h1 class="page-title">Ensayos PAES</h1>
+      <div class="card">
+        <p>Primero elige la prueba que quieres preparar.</p>
+        <a href="#/pruebas" class="btn btn-primary" data-route>Elegir prueba</a>
+      </div>`;
     return;
   }
   const tests = await loadTests();

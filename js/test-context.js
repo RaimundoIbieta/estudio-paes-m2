@@ -1,4 +1,4 @@
-import { renderDiagram } from '../diagrams.js';
+import { renderDiagram } from './diagrams.js';
 
 export function getCurrentTest() {
   return localStorage.getItem('paes-test') || null;

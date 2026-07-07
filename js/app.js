@@ -58,20 +58,26 @@ async function render() {
       const current = (location.hash || '#/').replace(/^#/, '');
       if (current !== target) {
         location.hash = redirect;
-        return;
       }
     }
 
     setShell(path);
     view.innerHTML = '<p class="empty">Cargando…</p>';
 
+    if (redirect) {
+      const target = redirect.replace(/^#/, '');
+      const current = (location.hash || '#/').replace(/^#/, '');
+      if (current !== target) return;
+    }
+
     switch (path) {
       case 'home':
         if (getUser()) {
-          location.hash = '#/app';
-          return;
+          await renderHome(view);
+          if (location.hash === '#/' || location.hash === '') location.hash = '#/app';
+        } else {
+          renderLanding(view);
         }
-        renderLanding(view);
         break;
       case 'app':
         await renderHome(view);

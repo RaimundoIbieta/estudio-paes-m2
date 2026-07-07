@@ -108,8 +108,8 @@ async function startClassicEssay(container, essayId) {
   const essay = essays.find(e => e.id === essayId);
   if (!essay) return;
 
-  const { loadQuestions, normalizeQuestion } = await import(`../question-bank.js?v=${CACHE_VERSION}`);
-  const all = (await loadQuestions(getCurrentTest())).map(normalizeQuestion);
+  const { loadQuestions } = await import(`../question-bank.js?v=${CACHE_VERSION}`);
+  const all = await loadQuestions(getCurrentTest());
   const questions = essay.questionIds.map(id => all.find(q => q.id === id)).filter(Boolean);
   const testId = getCurrentTest();
 

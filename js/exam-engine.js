@@ -1,7 +1,7 @@
 import { getCurrentTest, loadTests } from './test-context.js';
 import { recordEssay } from './storage.js';
 
-const _build = new URL(import.meta.url).searchParams.get('v') || '21';
+const _build = new URL(import.meta.url).searchParams.get('v') || '22';
 const { CACHE_VERSION } = await import(`./config.js?v=${_build}`);
 export const ESSAY_ENGINE_BUILD = CACHE_VERSION;
 

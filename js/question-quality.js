@@ -38,7 +38,11 @@ function formatChileanNumbers(text) {
 /** Artefactos de extraccion PDF DEMRE (espacios faltantes, pies de pagina). */
 function fixPdfArtifacts(text) {
   return text
+    // Pie de pagina con digitos espaciados: " 1 0 1 - 4 -"
+    .replace(/\s+\d+(?:\s+\d+)+\s*[-\u2013]\s*\d+\s*[-\u2013](?:\s*[\s\S]*)?$/g, '')
     .replace(/\s*[-\u2013]\s*\d+\s*[-\u2013](?:\s*[\s\S]*)?$/g, '')
+    // Unidad antes del numero: kg60 -> 60 kg
+    .replace(/\b(kg|g|mg|ml|cm|mm|L)(\d+(?:[.,]\d+)?)\b/gi, '$2 $1')
     .replace(/(\d+(?:[.,]\d+)?)\s*(g|kg|mg|ml|cm|mm)de\b/gi, '$1 $2 de')
     .replace(/(\$[\d\s.,]+)([a-z\u00e1\u00e9\u00ed\u00f3\u00fa\u00f1])/gi, '$1 $2')
     .replace(/([a-z\u00e1\u00e9\u00ed\u00f3\u00fa\u00f1)])(\$)/gi, '$1 $2');
@@ -91,6 +95,30 @@ export function isUsableQuestion(q) {
   if (uniqueOpts.size < 3) return false;
 
   return true;
+}
+
+export function isPracticeQuestion(q) {
+  if (!q?.question || !Array.isArray(q.options) || q.options.length < 4) return false;
+  const question = sanitizeText(q.question);
+  const options = q.options.slice(0, 4).map(sanitizeText);
+  if (question.length < 15) return false;
+  if (typeof q.answer !== 'number' || q.answer < 0 || q.answer > 3) return false;
+  if (options.some(opt => !opt)) return false;
+  return true;
+}
+
+export function filterPracticeQuestions(questions) {
+  const seen = new Set();
+  const out = [];
+  for (const raw of questions) {
+    const q = sanitizeQuestion(raw);
+    if (!isPracticeQuestion(q)) continue;
+    const key = q.id || `${q.question.slice(0, 80)}|${q.options.join('|')}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(q);
+  }
+  return out;
 }
 
 export function filterUsableQuestions(questions) {

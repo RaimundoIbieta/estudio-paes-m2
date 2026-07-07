@@ -1,7 +1,7 @@
 import { fetchTestData } from './test-context.js';
 import { CACHE_VERSION } from './config.js';
 
-const { filterUsableQuestions, sanitizeQuestion } = await import(`./question-quality.js?v=${CACHE_VERSION}`);
+const { filterUsableQuestions, filterPracticeQuestions, sanitizeQuestion } = await import(`./question-quality.js?v=${CACHE_VERSION}`);
 
 const bankCache = new Map();
 const poolCache = new Map();
@@ -24,7 +24,10 @@ const AREA_LABELS = {
 };
 
 export function labelArea(area) {
-  return AREA_LABELS[area] || area;
+  if (!area) return '';
+  if (AREA_LABELS[area]) return AREA_LABELS[area];
+  const key = Object.keys(AREA_LABELS).find(k => k.toLowerCase() === String(area).toLowerCase());
+  return key ? AREA_LABELS[key] : area;
 }
 
 export function normalizeQuestion(q) {
@@ -32,7 +35,7 @@ export function normalizeQuestion(q) {
   const letter = clean.answerKey || (typeof clean.answer === 'number' ? String.fromCharCode(65 + clean.answer) : '');
   return {
     ...clean,
-    area: labelArea(clean.area || ''),
+    area: labelArea(q.area || clean.area || ''),
     explanation: clean.explanation || (letter ? `La alternativa correcta es ${letter}.` : ''),
     difficulty: clean.difficulty || 'Oficial',
   };
@@ -70,11 +73,16 @@ export async function loadBank(testId) {
       return null;
     }
     const bank = await res.json();
-    const official = usableBankQuestions(bank.questions || []);
-    const poolClean = usableBankQuestions(pool);
+    const officialRaw = bank.questions || [];
+    const official = usableBankQuestions(officialRaw);
+    const poolStrict = usableBankQuestions(pool);
+    const practice = filterPracticeQuestions([...officialRaw, ...pool]).map(normalizeQuestion);
     bank.officialQuestions = official;
-    bank.questions = [...official, ...poolClean];
-    bank.poolCount = poolClean.length;
+    bank.questions = [...official, ...poolStrict];
+    bank.practiceQuestions = practice;
+    bank.practiceCount = practice.length;
+    bank.poolCount = poolStrict.length;
+    bank.rawTotal = officialRaw.length + pool.length;
     bankCache.set(testId, bank);
     return bank;
   } catch {
@@ -84,10 +92,12 @@ export async function loadBank(testId) {
 
 export async function loadQuestions(testId) {
   const bank = await loadBank(testId);
-  if (bank?.questions?.length) return bank.questions;
+  if (bank?.practiceQuestions?.length) return bank.practiceQuestions;
+  if (bank?.questions?.length) return bank.questions.map(normalizeQuestion);
   const pool = await loadPool(testId);
-  if (pool.length) return pool;
-  return fetchTestData(testId, 'exercises');
+  if (pool.length) return filterPracticeQuestions(pool).map(normalizeQuestion);
+  const legacy = await fetchTestData(testId, 'exercises');
+  return legacy.map(normalizeQuestion);
 }
 
 export function pickOfficialSet(bank, totalNeeded) {

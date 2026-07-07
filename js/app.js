@@ -16,7 +16,7 @@ import { CACHE_VERSION } from './config.js';
 import { getAppShellMode, getRedirectForGuest, getRedirectIfLoggedIn } from './guards.js';
 
 async function loadEssayEngine() {
-  return import(`./essay-engine.js?v=${CACHE_VERSION}`);
+  return import(`./exam-engine.js?v=${CACHE_VERSION}`);
 }
 
 const view = document.getElementById('view');

@@ -113,7 +113,7 @@ async function startClassicEssay(container, essayId) {
   const questions = essay.questionIds.map(id => all.find(q => q.id === id)).filter(Boolean);
   const testId = getCurrentTest();
 
-  const { runTimedEssay } = await import(`../essay-engine.js?v=${CACHE_VERSION}`);
+  const { runTimedEssay } = await import(`../exam-engine.js?v=${CACHE_VERSION}`);
   await runTimedEssay(container, {
     title: essay.title,
     description: essay.description,

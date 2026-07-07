@@ -302,7 +302,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q01.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q02",
@@ -320,7 +322,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q02.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q03",
@@ -338,7 +342,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q03.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q05",
@@ -356,7 +362,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q05.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q06",
@@ -374,7 +382,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q06.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q07",
@@ -392,7 +402,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q07.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q08",
@@ -410,7 +422,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q08.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q10",
@@ -428,7 +442,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q10.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q11",
@@ -446,7 +462,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q11.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q12",
@@ -464,7 +482,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q12.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q13",
@@ -482,7 +502,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q13.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q15",
@@ -500,7 +522,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q15.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q16",
@@ -518,7 +542,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q16.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q17",
@@ -536,7 +562,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q17.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q18",
@@ -554,7 +582,9 @@
       "answerKey": "C",
       "countsForScore": false,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q18.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q24",
@@ -572,7 +602,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q24.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q25",
@@ -590,7 +622,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q25.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q26",
@@ -608,7 +642,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q26.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q27",
@@ -626,7 +662,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q27.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q29",
@@ -644,7 +682,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q29.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q30",
@@ -662,7 +702,9 @@
       "answerKey": "C",
       "countsForScore": false,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q30.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q32",
@@ -680,7 +722,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q32.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q33",
@@ -698,7 +742,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q33.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q34",
@@ -716,7 +762,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q34.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q35",
@@ -734,7 +782,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q35.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q38",
@@ -752,7 +802,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q38.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q39",
@@ -770,7 +822,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q39.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q42",
@@ -788,7 +842,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q42.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q44",
@@ -806,7 +862,9 @@
       "answerKey": "B",
       "countsForScore": false,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q44.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q45",
@@ -824,7 +882,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q45.png",
+      "needsFigure": true
     },
     {
       "id": "hcs-2025-q46",
@@ -842,7 +902,9 @@
       "answerKey": "E",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q46.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q47",
@@ -860,7 +922,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q47.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q48",
@@ -878,7 +942,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q48.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q49",
@@ -896,7 +962,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q49.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q52",
@@ -914,7 +982,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q52.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q53",
@@ -932,7 +1002,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q53.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q55",
@@ -950,7 +1022,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q55.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q56",
@@ -968,7 +1042,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q56.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q58",
@@ -986,7 +1062,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q58.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q59",
@@ -1004,7 +1082,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q59.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q60",
@@ -1022,7 +1102,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q60.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q61",
@@ -1040,7 +1122,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q61.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q62",
@@ -1058,7 +1142,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q62.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q64",
@@ -1076,7 +1162,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q64.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2025-q65",
@@ -1094,7 +1182,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2025",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2025-q65.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q01",
@@ -1112,7 +1202,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q01.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q02",
@@ -1130,7 +1222,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q02.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q03",
@@ -1148,7 +1242,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q03.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q04",
@@ -1166,7 +1262,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q04.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q06",
@@ -1184,7 +1282,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q06.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q07",
@@ -1202,7 +1302,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q07.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q08",
@@ -1220,7 +1322,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q08.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q09",
@@ -1238,7 +1342,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q09.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q10",
@@ -1256,7 +1362,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q10.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q11",
@@ -1274,7 +1382,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q11.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q12",
@@ -1292,7 +1402,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q12.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q13",
@@ -1310,7 +1422,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q13.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q14",
@@ -1328,7 +1442,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q14.png",
+      "needsFigure": true
     },
     {
       "id": "hcs-2026-q15",
@@ -1346,7 +1462,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q15.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q16",
@@ -1364,7 +1482,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q16.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q17",
@@ -1382,7 +1502,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q17.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q20",
@@ -1400,7 +1522,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q20.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q21",
@@ -1418,7 +1542,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q21.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q23",
@@ -1436,7 +1562,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q23.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q24",
@@ -1454,7 +1582,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q24.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q27",
@@ -1472,7 +1602,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q27.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q28",
@@ -1490,7 +1622,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q28.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q30",
@@ -1508,7 +1642,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q30.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q32",
@@ -1526,7 +1662,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q32.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q35",
@@ -1544,7 +1682,9 @@
       "answerKey": "A",
       "countsForScore": false,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q35.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q36",
@@ -1562,7 +1702,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q36.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q37",
@@ -1580,7 +1722,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q37.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q40",
@@ -1598,7 +1742,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q40.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q42",
@@ -1616,7 +1762,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q42.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q43",
@@ -1634,7 +1782,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q43.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q45",
@@ -1652,7 +1802,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q45.png",
+      "needsFigure": true
     },
     {
       "id": "hcs-2026-q46",
@@ -1670,7 +1822,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q46.png",
+      "needsFigure": true
     },
     {
       "id": "hcs-2026-q47",
@@ -1688,7 +1842,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q47.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q48",
@@ -1706,7 +1862,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q48.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q50",
@@ -1724,7 +1882,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q50.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q52",
@@ -1742,7 +1902,9 @@
       "answerKey": "C",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q52.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q53",
@@ -1760,7 +1922,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q53.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q55",
@@ -1778,7 +1942,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q55.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q56",
@@ -1796,7 +1962,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q56.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q58",
@@ -1814,7 +1982,9 @@
       "answerKey": "C",
       "countsForScore": false,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q58.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q59",
@@ -1832,7 +2002,9 @@
       "answerKey": "C",
       "countsForScore": false,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q59.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q60",
@@ -1850,7 +2022,9 @@
       "answerKey": "C",
       "countsForScore": false,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q60.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q62",
@@ -1868,7 +2042,9 @@
       "answerKey": "A",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q62.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q63",
@@ -1886,7 +2062,9 @@
       "answerKey": "D",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q63.png",
+      "needsFigure": false
     },
     {
       "id": "hcs-2026-q64",
@@ -1904,7 +2082,9 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial"
+      "difficulty": "Oficial",
+      "figure": "data/hcs/figures/2026-q64.png",
+      "needsFigure": false
     }
   ],
   "generatedFrom": "PAES oficial DEMRE + clavijero"

@@ -1,7 +1,8 @@
 import { getCurrentTest, loadTests } from './test-context.js';
 import { recordEssay } from './storage.js';
+import { questionFigureHtml, prefersFigurePrimary } from './question-figure.js';
 
-const _build = new URL(import.meta.url).searchParams.get('v') || '23';
+const _build = new URL(import.meta.url).searchParams.get('v') || '24';
 const { CACHE_VERSION } = await import(`./config.js?v=${_build}`);
 export const ESSAY_ENGINE_BUILD = CACHE_VERSION;
 
@@ -182,7 +183,7 @@ function runExamQuiz(container, questions, { onSubmit }) {
             <span class="essay-answered">${countAnswered()} respondidas · ${omittedCount} omitidas · ${questions.length - visited.size} sin ver</span>
           </div>
 
-          <div class="question-text">${q.question}</div>
+          ${prefersFigurePrimary(q) ? questionFigureHtml(q) : `${questionFigureHtml(q)}<div class="question-text">${q.question}</div>`}
           <div class="options" id="options">
             ${q.options.map((opt, i) => `
               <button type="button" class="option ${answers[index] === i ? 'selected' : ''}" data-i="${i}">

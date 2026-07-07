@@ -99,27 +99,48 @@ export function sanitizeQuestion(q) {
     question: sanitizeText(q.question),
     options: options.length >= 4 ? options.slice(0, 4) : options,
     explanation: q.explanation ? sanitizeText(q.explanation) : q.explanation,
+    figure: q.figure || null,
+    needsFigure: q.needsFigure || needsVisualAsset(q),
   };
-}
-
-function hasEmbeddedVisual(text) {
-  return /<(img|svg|figure|canvas)\b/i.test(text) || /data:image\//i.test(text);
 }
 
 function mentionsParenthesesWithoutThem(text) {
   return /par[e\u00e9]ntesis/i.test(text) && !/[()]/.test(text);
 }
 
-/** Pregunta legible sin figura externa ni texto matematico roto. */
+function hasEmbeddedVisual(text) {
+  return /<(img|svg|figure|canvas)\b/i.test(text) || /data:image\//i.test(text);
+}
+
+export function needsVisualAsset(q) {
+  if (!q?.question) return false;
+  const blob = `${sanitizeText(q.question)} ${(q.options || []).map(sanitizeText).join(' ')}`;
+  return VISUAL_DEPENDENCY_PATTERNS.some(pat => pat.test(blob));
+}
+
+function hasGarbledMath(blob) {
+  return GARBLED_MATH_PATTERNS.some(pat => pat.test(blob));
+}
+
+/** Pregunta legible: texto OK o figura oficial del PDF adjunta. */
 export function isReadableQuestion(q) {
   if (!q?.question) return false;
   const question = sanitizeText(q.question);
   const options = (q.options || []).slice(0, 4).map(sanitizeText);
   const blob = `${question} ${options.join(' ')}`;
+  const hasFigure = Boolean(q.figure || q.figures?.length);
 
-  if (hasEmbeddedVisual(question)) return true;
-  if (VISUAL_DEPENDENCY_PATTERNS.some(pat => pat.test(blob))) return false;
-  if (GARBLED_MATH_PATTERNS.some(pat => pat.test(blob))) return false;
+  if (hasEmbeddedVisual(question)) return options.length === 4 && options.every(o => o && o.length >= 2);
+
+  if (needsVisualAsset(q)) {
+    if (!hasFigure) return false;
+    for (const opt of options) {
+      if (BROKEN_OPTION_PATTERNS.some(pat => pat.test(opt))) return false;
+    }
+    return options.length === 4 && options.every(o => o && o.length >= 2);
+  }
+
+  if (hasGarbledMath(blob)) return false;
   if (mentionsParenthesesWithoutThem(blob)) return false;
 
   for (const opt of options) {

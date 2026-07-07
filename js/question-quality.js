@@ -2,21 +2,51 @@ const JUNK_PATTERNS = [
   /\bFORMA\s+\d+/i,
   /\bLECTURA\s+\d+/i,
   /Registro de Propiedad Intelectual/i,
-  /^\d+\s*[-–]\s*\d+\s*$/,
+  /^\d+\s*[-\u2013]\s*\d+\s*$/,
   /^[\d\s\-\+\*\/\=\.]+$/,
 ];
 
 const INCOMPLETE_PATTERNS = [
-  /en este orden:\s*¿/i,
-  /siguientes cartas, en este orden:\s*¿/i,
-  /la siguiente tabla:\s*¿/i,
-  /el siguiente gr[aá]fico:\s*¿/i,
-  /de la imagen:\s*¿/i,
+  /en este orden:\s*\u00bf/i,
+  /siguientes cartas, en este orden:\s*\u00bf/i,
+  /la siguiente tabla:\s*\u00bf/i,
+  /el siguiente gr[a\u00e1]fico:\s*\u00bf/i,
+  /de la imagen:\s*\u00bf/i,
 ];
+
+const MONEY_PATTERN = /\$(\d{1,3}(?:\s\d{3})+(?:,\d+)?|\d{4,}(?:,\d+)?)/g;
+const SPACED_THOUSANDS_PATTERN = /(?<=[\s=+\-*/(,])(\d{1,3}(?:\s\d{3})+)(?=[\s.,;:?)\]]|$)/g;
+
+function formatChileanDigits(raw) {
+  let digits = raw.replace(/\s/g, '');
+  let decimal = null;
+  if (digits.includes(',')) {
+    [digits, decimal] = digits.split(',', 2);
+  }
+  digits = digits.replace(/\./g, '');
+  const grouped = digits.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+  return decimal != null ? `${grouped},${decimal}` : grouped;
+}
+
+/** Formato chileno: miles con punto y decimales con coma ($13.700, 0,5). */
+function formatChileanNumbers(text) {
+  return text
+    .replace(MONEY_PATTERN, (_, num) => `$${formatChileanDigits(num)}`)
+    .replace(SPACED_THOUSANDS_PATTERN, (_, num) => formatChileanDigits(num));
+}
+
+/** Artefactos de extraccion PDF DEMRE (espacios faltantes, pies de pagina). */
+function fixPdfArtifacts(text) {
+  return text
+    .replace(/\s*[-\u2013]\s*\d+\s*[-\u2013](?:\s*[\s\S]*)?$/g, '')
+    .replace(/(\d+(?:[.,]\d+)?)\s*(g|kg|mg|ml|cm|mm)de\b/gi, '$1 $2 de')
+    .replace(/(\$[\d\s.,]+)([a-z\u00e1\u00e9\u00ed\u00f3\u00fa\u00f1])/gi, '$1 $2')
+    .replace(/([a-z\u00e1\u00e9\u00ed\u00f3\u00fa\u00f1)])(\$)/gi, '$1 $2');
+}
 
 export function sanitizeText(text) {
   if (!text || typeof text !== 'string') return '';
-  return text
+  return formatChileanNumbers(fixPdfArtifacts(text))
     .replace(/\s*FORMA\s+\d+[\s\S]*$/gi, '')
     .replace(/\s*LECTURA\s+\d+[\s\S]*$/gi, '')
     .replace(/[\uF000-\uF0FF]/g, '')

@@ -112,10 +112,39 @@ def parse_transform_table(text: str) -> dict:
     return table
 
 
+def format_chilean_digits(raw: str) -> str:
+    digits = raw.replace(" ", "")
+    decimal = None
+    if "," in digits:
+        digits, decimal = digits.split(",", 1)
+    digits = digits.replace(".", "")
+    grouped = re.sub(r"(?<=\d)(?=(\d{3})+(?!\d))", ".", digits)
+    return f"{grouped},{decimal}" if decimal is not None else grouped
+
+
+def format_chilean_numbers(text: str) -> str:
+    text = re.sub(
+        r"\$(\d{1,3}(?:\s\d{3})+(?:,\d+)?|\d{4,}(?:,\d+)?)",
+        lambda m: f"${format_chilean_digits(m.group(1))}",
+        text,
+    )
+    text = re.sub(
+        r"(?<=[\s=+\-*/(,])(\d{1,3}(?:\s\d{3})+)(?=[\s.,;:?)\]]|$)",
+        lambda m: format_chilean_digits(m.group(1)),
+        text,
+    )
+    return text
+
+
 def clean_text(s: str) -> str:
     s = re.sub(r"\s*FORMA\s+\d+.*", "", s, flags=re.I)
     s = re.sub(r"\s*LECTURA\s+\d+.*", "", s, flags=re.I)
     s = re.sub(r"[\uF000-\uF0FF]", "", s)
+    s = re.sub(r"\s*[-\u2013]\s*\d+\s*[-\u2013](?:\s*.*)?$", "", s)
+    s = re.sub(r"(\d+(?:[.,]\d+)?)\s*(g|kg|mg|ml|cm|mm)de\b", r"\1 \2 de", s, flags=re.I)
+    s = re.sub(r"(\$[\d\s.,]+)([a-z\u00e1\u00e9\u00ed\u00f3\u00fa\u00f1])", r"\1 \2", s, flags=re.I)
+    s = re.sub(r"([a-z\u00e1\u00e9\u00ed\u00f3\u00fa\u00f1)])(\$)", r"\1 \2", s, flags=re.I)
+    s = format_chilean_numbers(s)
     s = re.sub(r"\s+", " ", s)
     return s.strip()
 

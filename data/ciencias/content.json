@@ -1,17 +1,124 @@
 [
   {
-    "id": "placeholder",
-    "area": "Próximamente",
-    "title": "Ciencias — en desarrollo",
-    "duration": "—",
+    "id": "ci-formato",
+    "area": "Ciencias",
+    "title": "Formato de la prueba de Ciencias PAES",
+    "duration": "8 min",
     "sections": [
       {
-        "heading": "Temario DEMRE",
+        "heading": "Estructura",
         "items": [
-          "Biología",
-          "Física",
-          "Química",
-          "80 preguntas · 2 horas"
+          "80 preguntas de alternativa",
+          "2 horas de duración",
+          "Tres disciplinas: Biología, Física y Química",
+          "Contenidos de enseñanza media según temario DEMRE"
+        ]
+      },
+      {
+        "heading": "Habilidades",
+        "items": [
+          "Reconocer conceptos y leyes científicas",
+          "Aplicar modelos a situaciones nuevas",
+          "Analizar datos experimentales y gráficos",
+          "Evaluar procedimientos y conclusiones"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ci-bio-celula",
+    "area": "Biología",
+    "title": "La célula y los procesos vitales",
+    "duration": "14 min",
+    "sections": [
+      {
+        "heading": "Organización celular",
+        "items": [
+          "Célula procariota vs. eucariota",
+          "Orgánulos: núcleo, mitocondria, cloroplasto, ribosomas, membrana",
+          "Teoría celular: todas las células provienen de células"
+        ]
+      },
+      {
+        "heading": "Metabolismo",
+        "items": [
+          "Fotosíntesis: CO₂ + H₂O + luz → glucosa + O₂ (cloroplastos)",
+          "Respiración celular: glucosa + O₂ → CO₂ + H₂O + ATP (mitocondrias)",
+          "Homeostasis y transporte a través de membranas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ci-bio-evolucion",
+    "area": "Biología",
+    "title": "Genética, evolución y ecosistemas",
+    "duration": "14 min",
+    "sections": [
+      {
+        "heading": "Genética básica",
+        "items": [
+          "ADN, genes y cromosomas",
+          "Herencia: dominante, recesivo, genotipo y fenotipo",
+          "Mutaciones y variabilidad"
+        ]
+      },
+      {
+        "heading": "Evolución y ecología",
+        "items": [
+          "Selección natural y adaptación",
+          "Cadenas y redes tróficas",
+          "Relaciones ecológicas: competencia, depredación, mutualismo",
+          "Impacto humano: contaminación, pérdida de biodiversidad"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ci-fis-mecanica",
+    "area": "Física",
+    "title": "Mecánica: movimiento y fuerzas",
+    "duration": "14 min",
+    "sections": [
+      {
+        "heading": "Cinemática",
+        "items": [
+          "Posición, velocidad y aceleración",
+          "Movimiento rectilíneo uniforme (MRU) y uniformemente acelerado (MRUA)",
+          "Lectura de gráficos posición-tiempo y velocidad-tiempo"
+        ]
+      },
+      {
+        "heading": "Dinámica",
+        "items": [
+          "Leyes de Newton: inercia, F = m·a, acción-reacción",
+          "Peso, fuerza normal, roce",
+          "Trabajo, energía cinética y potencial"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ci-quim-estructura",
+    "area": "Química",
+    "title": "Estructura atómica y enlaces",
+    "duration": "14 min",
+    "sections": [
+      {
+        "heading": "Átomo y tabla periódica",
+        "items": [
+          "Protones, neutrones y electrones",
+          "Número atómico y másico",
+          "Grupos y periodos: metales, no metales, gases nobles"
+        ]
+      },
+      {
+        "heading": "Enlaces y reacciones",
+        "items": [
+          "Enlace iónico, covalente y metálico",
+          "Fórmulas químicas y balance de ecuaciones",
+          "Mol, masa molar y estequiometría básica",
+          "Ácidos, bases y pH (introducción)"
         ]
       }
     ]

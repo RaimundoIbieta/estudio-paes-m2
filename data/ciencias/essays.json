@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": "ci-ensayo-1",
+    "title": "Ensayo Ciencias — Práctica 1",
+    "description": "6 preguntas de Biología, Física y Química. Tiempo sugerido: 12 min.",
+    "durationMinutes": 12,
+    "questionIds": ["ci-01", "ci-02", "ci-03", "ci-04", "ci-05", "ci-06"]
+  }
+]

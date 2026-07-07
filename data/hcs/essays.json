@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": "hcs-ensayo-1",
+    "title": "Ensayo HCS — Práctica 1",
+    "description": "6 preguntas de Historia, Geografía y Educación ciudadana. Tiempo sugerido: 12 min.",
+    "durationMinutes": 12,
+    "questionIds": ["hcs-01", "hcs-02", "hcs-03", "hcs-04", "hcs-05", "hcs-06"]
+  }
+]

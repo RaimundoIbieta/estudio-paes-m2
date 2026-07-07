@@ -1,17 +1,124 @@
 [
   {
-    "id": "placeholder",
-    "area": "Próximamente",
-    "title": "Historia y Ciencias Sociales — en desarrollo",
-    "duration": "—",
+    "id": "hcs-formato",
+    "area": "Historia y Ciencias Sociales",
+    "title": "Formato y habilidades de la prueba",
+    "duration": "8 min",
     "sections": [
       {
-        "heading": "Temario DEMRE",
+        "heading": "Estructura PAES HCS",
         "items": [
-          "Historia de Chile y el mundo",
-          "Geografía",
-          "Educación ciudadana (3° y 4° medio)",
-          "65 preguntas · 2 horas"
+          "65 preguntas de alternativa",
+          "2 horas de duración",
+          "Contenidos de 1° a 4° medio",
+          "Tres ejes: Historia, Geografía y Educación ciudadana"
+        ]
+      },
+      {
+        "heading": "Habilidades evaluadas",
+        "items": [
+          "Localizar información en fuentes (textos, mapas, gráficos)",
+          "Analizar e interpretar procesos históricos y sociales",
+          "Evaluar argumentos y perspectivas",
+          "Aplicar conceptos a situaciones concretas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hcs-chile-xix",
+    "area": "Historia",
+    "title": "Chile en el siglo XIX: formación del Estado",
+    "duration": "15 min",
+    "sections": [
+      {
+        "heading": "Ideas clave",
+        "items": [
+          "Independencia (1810–1818): ruptura con España, figuras como O'Higgins y San Martín",
+          "Organización republicana: Constitución de 1833, presidencia fuerte",
+          "Expansión territorial: incorporación de territorios al sur y norte",
+          "Economía salitrera y consolidación del Estado liberal"
+        ]
+      },
+      {
+        "heading": "Para la PAES",
+        "items": [
+          "Relaciona causas y consecuencias (no solo fechas)",
+          "Identifica continuidades y cambios entre periodos",
+          "Distingue hechos de interpretaciones historiográficas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hcs-chile-xx",
+    "area": "Historia",
+    "title": "Chile siglo XX: crisis, reformas y dictadura",
+    "duration": "15 min",
+    "sections": [
+      {
+        "heading": "Hitos principales",
+        "items": [
+          "Crisis del modelo oligárquico y surgimiento de movimientos sociales",
+          "Reformas estructurales (siglo XX): educación, salud, nacionalización del cobre",
+          "Gobierno de la Unidad Popular y crisis política de 1973",
+          "Dictadura militar (1973–1990) y transición a la democracia"
+        ]
+      },
+      {
+        "heading": "Conceptos frecuentes",
+        "items": [
+          "Democracia, autoritarismo, derechos humanos",
+          "Reforma vs. revolución",
+          "Economía de mercado vs. intervención estatal"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hcs-geografia",
+    "area": "Geografía",
+    "title": "Geografía de Chile y globalización",
+    "duration": "12 min",
+    "sections": [
+      {
+        "heading": "Chile: diversidad territorial",
+        "items": [
+          "Zonas naturales: norte árido, centro mediterráneo, sur lluvioso, antártica",
+          "Factores que explican la concentración poblacional en el centro",
+          "Riesgos naturales: sismos, tsunamis, sequías, erupciones volcánicas"
+        ]
+      },
+      {
+        "heading": "Globalización y territorio",
+        "items": [
+          "Flujos de personas, bienes, capital e información",
+          "Urbanización y problemas metropolitanos",
+          "Lectura de mapas, climogramas y gráficos demográficos"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hcs-ciudadania",
+    "area": "Educación ciudadana",
+    "title": "Democracia, instituciones y participación",
+    "duration": "12 min",
+    "sections": [
+      {
+        "heading": "Sistema político chileno",
+        "items": [
+          "Estado de derecho: separación de poderes (Ejecutivo, Legislativo, Judicial)",
+          "Constitución, derechos fundamentales y deberes ciudadanos",
+          "Elecciones, partidos políticos y representación"
+        ]
+      },
+      {
+        "heading": "Ciudadanía activa",
+        "items": [
+          "Participación: votar, organizarse, fiscalizar, dialogar",
+          "Medios de comunicación y opinión pública",
+          "Diversidad, inclusión y no discriminación"
         ]
       }
     ]

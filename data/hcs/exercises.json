@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "id": "hcs-01",
+    "area": "Historia",
+    "difficulty": "Fácil",
+    "question": "¿En qué año se proclamó formalmente la independencia de Chile respecto de España?",
+    "options": ["1810", "1818", "1823", "1891"],
+    "answer": 1,
+    "explanation": "La independencia definitiva se consolidó en 1818, aunque el proceso comenzó en 1810."
+  },
+  {
+    "id": "hcs-02",
+    "area": "Historia",
+    "difficulty": "Medio",
+    "question": "La nacionalización del cobre en Chile (1971) se relaciona principalmente con:",
+    "options": ["Una política de privatización de recursos", "El control estatal de un recurso estratégico para la economía", "La independencia de España", "La descolonización africana"],
+    "answer": 1,
+    "explanation": "El cobre era (y es) central en las exportaciones chilenas; su nacionalización buscó control estatal del recurso."
+  },
+  {
+    "id": "hcs-03",
+    "area": "Geografía",
+    "difficulty": "Fácil",
+    "question": "¿Cuál es una característica del clima del norte grande de Chile?",
+    "options": ["Alta pluviosidad todo el año", "Desierto y escasez de precipitaciones", "Nieve permanente en el litoral", "Selva tropical"],
+    "answer": 1,
+    "explanation": "El norte chileno corresponde al desierto de Atacama, uno de los más áridos del mundo."
+  },
+  {
+    "id": "hcs-04",
+    "area": "Geografía",
+    "difficulty": "Medio",
+    "question": "La mayor concentración de población en la zona central de Chile se explica, entre otros factores, por:",
+    "options": ["La ausencia de actividad económica", "Condiciones climáticas más favorables para agricultura y asentamientos", "La prohibición de vivir en el sur", "La falta de puertos"],
+    "answer": 1,
+    "explanation": "El clima mediterráneo del centro facilitó agricultura, ciudades y conectividad histórica."
+  },
+  {
+    "id": "hcs-05",
+    "area": "Educación ciudadana",
+    "difficulty": "Fácil",
+    "question": "En un Estado de derecho, ¿qué implica la separación de poderes?",
+    "options": ["Que un solo órgano concentra todas las funciones", "Que Ejecutivo, Legislativo y Judicial tienen funciones distintas y se controlan mutuamente", "Que no existen elecciones", "Que solo rigen las normas locales"],
+    "answer": 1,
+    "explanation": "La separación de poderes distribuye y limita el ejercicio del poder público."
+  },
+  {
+    "id": "hcs-06",
+    "area": "Educación ciudadana",
+    "difficulty": "Medio",
+    "question": "Un ciudadano que participa en una consulta ciudadana o plebiscito ejerce principalmente:",
+    "options": ["Un deber de obediencia pasiva", "Un mecanismo de participación democrática", "Un privilegio feudal", "Una función judicial"],
+    "answer": 1,
+    "explanation": "Votar y participar en instancias formales es una forma de participación política democrática."
+  }
+]

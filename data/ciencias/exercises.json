@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "id": "ci-01",
+    "area": "Biología",
+    "difficulty": "Fácil",
+    "question": "¿En qué orgánulo ocurre principalmente la fotosíntesis en las células vegetales?",
+    "options": ["Mitocondria", "Cloroplasto", "Núcleo", "Ribosoma"],
+    "answer": 1,
+    "explanation": "Los cloroplastos contienen clorofila y realizan la fotosíntesis."
+  },
+  {
+    "id": "ci-02",
+    "area": "Biología",
+    "difficulty": "Medio",
+    "question": "En una cadena trófica, los productores son organismos que:",
+    "options": ["Descomponen materia orgánica", "Fabrican su propio alimento mediante fotosíntesis o quimiosíntesis", "Solo consumen otros animales", "No necesitan energía"],
+    "answer": 1,
+    "explanation": "Los productores (autótrofos) convierten energía lumínica o química en materia orgánica."
+  },
+  {
+    "id": "ci-03",
+    "area": "Física",
+    "difficulty": "Fácil",
+    "question": "Un auto avanza 100 m en 10 s con velocidad constante. ¿Cuál es su velocidad?",
+    "options": ["10 m/s", "1000 m/s", "0,1 m/s", "50 m/s"],
+    "answer": 0,
+    "explanation": "v = distancia / tiempo = 100 m / 10 s = 10 m/s."
+  },
+  {
+    "id": "ci-04",
+    "area": "Física",
+    "difficulty": "Medio",
+    "question": "Según la segunda ley de Newton, si duplicas la fuerza neta sobre un objeto (masa constante), su aceleración:",
+    "options": ["Se reduce a la mitad", "Se duplica", "No cambia", "Se cuadruplica"],
+    "answer": 1,
+    "explanation": "F = m·a → a = F/m. Con masa fija, a es directamente proporcional a F."
+  },
+  {
+    "id": "ci-05",
+    "area": "Química",
+    "difficulty": "Fácil",
+    "question": "El número atómico de un elemento indica la cantidad de:",
+    "options": ["Neutrones", "Protones en el núcleo", "Moléculas", "Enlaces iónicos"],
+    "answer": 1,
+    "explanation": "El número atómico (Z) corresponde a los protones y define al elemento."
+  },
+  {
+    "id": "ci-06",
+    "area": "Química",
+    "difficulty": "Medio",
+    "question": "¿Qué tipo de enlace se forma principalmente entre un metal y un no metal, como en NaCl?",
+    "options": ["Covalente", "Iónico", "Metálico", "De hidrógeno"],
+    "answer": 1,
+    "explanation": "Se transfiere electrón del metal al no metal, generando iones que se atraen (enlace iónico)."
+  }
+]

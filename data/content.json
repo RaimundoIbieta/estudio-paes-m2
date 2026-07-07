@@ -267,7 +267,8 @@
         "heading": "Documento oficial",
         "text": "Puedes descargar el temario completo de la PAES M2 publicado por el DEMRE para el proceso de Admisión 2027.",
         "items": [
-          "<a href=\"assets/temario-m2.pdf\" target=\"_blank\" rel=\"noopener\">Descargar temario PAES M2 (PDF)</a>",
+          "<a href=\"assets/m2/2027-26-03-19-temario-paes-regular-m2.pdf\" target=\"_blank\" rel=\"noopener\">Descargar temario PAES M2 (PDF)</a>",
+          "<a href=\"#/biblioteca\" data-route>Ver todos los materiales PDF (11 documentos)</a>",
           "Ejes: Números, Álgebra y funciones, Geometría, Probabilidad y estadística"
         ]
       }

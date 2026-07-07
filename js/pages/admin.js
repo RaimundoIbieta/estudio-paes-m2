@@ -15,7 +15,7 @@ export async function renderAdmin(container) {
 
   container.innerHTML = `
     <h1 class="page-title">Panel superadmin</h1>
-    <p class="page-sub">raimundoibieta@gmail.com · Preuniversitario PAES</p>
+    <p class="page-sub">Panel de administración · cuentas locales en este navegador</p>
     <div class="results-grid">
       <div class="stat-box"><strong>${profiles.length}</strong><span>Usuarios</span></div>
       <div class="stat-box"><strong>${ready}/${tests.length}</strong><span>Pruebas activas</span></div>

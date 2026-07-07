@@ -55,6 +55,12 @@ export async function renderHome(container) {
         <p>Tu avance en esta prueba.</p>
         <a href="#/progreso" class="btn btn-secondary" data-route>Ver estadísticas</a>
       </article>
+      ${testId === 'm2' ? `
+      <article class="card">
+        <h3>📁 Biblioteca</h3>
+        <p>11 PDFs: resúmenes por eje, semanas y temario DEMRE.</p>
+        <a href="#/biblioteca" class="btn btn-primary" data-route>Ver materiales</a>
+      </article>` : ''}
     </div>
     <section class="card" style="margin-top:1.25rem">
       <h3>Tu resumen — ${test?.short}</h3>

@@ -9,6 +9,7 @@ import { renderProgress } from './pages/progress.js';
 import { renderSelectTest } from './pages/select-test.js';
 import { renderLogin } from './pages/login.js';
 import { renderAdmin } from './pages/admin.js';
+import { renderBiblioteca } from './pages/biblioteca.js';
 
 const view = document.getElementById('view');
 const nav = document.getElementById('main-nav');
@@ -58,6 +59,9 @@ async function render() {
         break;
       case 'progreso':
         await renderProgress(view);
+        break;
+      case 'biblioteca':
+        renderBiblioteca(view);
         break;
       default:
         await renderHome(view);

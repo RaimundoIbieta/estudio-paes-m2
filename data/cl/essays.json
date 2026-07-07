@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": "cl-ensayo-1",
+    "title": "Ensayo CL — Práctica 1",
+    "description": "6 preguntas de competencia lectora. Tiempo sugerido: 12 min.",
+    "durationMinutes": 12,
+    "questionIds": ["cl-01", "cl-02", "cl-03", "cl-04", "cl-05", "cl-06"]
+  }
+]

@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "id": "cl-01",
+    "area": "Localizar",
+    "difficulty": "Fácil",
+    "question": "Texto: «El volcán Villarrica registró actividad moderada el martes 14 de marzo, según el SERNAGEOMIN.» ¿Qué información entrega la fuente?",
+    "options": ["SERNAGEOMIN", "Martes 14 de marzo", "Actividad moderada", "Todas las anteriores"],
+    "answer": 3,
+    "explanation": "Las tres piezas de información aparecen explícitamente en el texto."
+  },
+  {
+    "id": "cl-02",
+    "area": "Interpretar",
+    "difficulty": "Fácil",
+    "question": "«Aunque el informe era extenso, pocos ciudadanos lo leyeron completo.» ¿Qué sugiere la oración?",
+    "options": ["El informe era corto", "Hubo bajo interés en el informe", "Todos lo leyeron", "El informe no existía"],
+    "answer": 1,
+    "explanation": "«Pocos lo leyeron completo» indica escaso interés o dedicación."
+  },
+  {
+    "id": "cl-03",
+    "area": "Interpretar",
+    "difficulty": "Medio",
+    "question": "«La lluvia no cesaba; las calles amanecieron convertidas en espejos.» La expresión «convertidas en espejos» se refiere a:",
+    "options": ["Que había espejos en la calle", "Que el pavimento reflejaba por el agua", "Que llovió poco", "Que las calles estaban secas"],
+    "answer": 1,
+    "explanation": "Es una metáfora: el agua en el pavimento refleja como un espejo."
+  },
+  {
+    "id": "cl-04",
+    "area": "Evaluar",
+    "difficulty": "Medio",
+    "question": "Un artículo de opinión dice «todos deberían estudiar medicina» sin datos ni argumentos. ¿Qué falla principal tiene?",
+    "options": ["Es muy largo", "Carece de evidencia que sustente la afirmación", "Usa demasiadas cifras", "No tiene título"],
+    "answer": 1,
+    "explanation": "Una afirmación general sin respaldo evidencia debilidad argumentativa."
+  },
+  {
+    "id": "cl-05",
+    "area": "Localizar",
+    "difficulty": "Fácil",
+    "question": "«Chile tiene 4.903 km de costa continental.» ¿Cuál es el dato numérico del texto?",
+    "options": ["4.903 km", "Chile", "Continental", "Costa"],
+    "answer": 0,
+    "explanation": "El dato explícito es 4.903 km de costa."
+  },
+  {
+    "id": "cl-06",
+    "area": "Integrar",
+    "difficulty": "Medio",
+    "question": "Si un texto describe el reciclaje y otro la contaminación del océano, ¿qué tema los conecta?",
+    "options": ["La música", "El cuidado del medio ambiente", "La historia antigua", "Las matemáticas"],
+    "answer": 1,
+    "explanation": "Ambos textos se relacionan con problemas y cuidados ambientales."
+  }
+]

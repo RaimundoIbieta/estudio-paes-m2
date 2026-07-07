@@ -33,7 +33,7 @@
     "color": "#7c3aed",
     "description": "Comprensión de textos, localización de información, interpretación e integración.",
     "areas": ["Localizar", "Interpretar", "Evaluar", "Integrar"],
-    "ready": false
+    "ready": true
   },
   {
     "id": "hcs",

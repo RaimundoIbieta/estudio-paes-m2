@@ -19,20 +19,10 @@ export function renderAuthButton(container) {
 }
 
 export function renderLogin(container) {
-  if (!isAuthEnabled()) {
-    container.innerHTML = `
-      <div class="card">
-        <h2>Cuentas no configuradas</h2>
-        <p>Para activar usuarios, configura Supabase en <code>js/config.js</code> y ejecuta <code>supabase/schema.sql</code>.</p>
-        <a href="#/" class="btn btn-secondary" data-route>Volver</a>
-      </div>`;
-    return;
-  }
-
   container.innerHTML = `
     <div class="auth-card">
       <h1 class="page-title">Ingresar</h1>
-      <p class="page-sub">Crea tu cuenta gratis y guarda tu progreso en la nube.</p>
+      <p class="page-sub">Crea tu cuenta gratis. Tu progreso se guarda en este dispositivo.</p>
       <form id="login-form" class="auth-form">
         <label>Correo<input type="email" name="email" required autocomplete="email"/></label>
         <label>Contraseña<input type="password" name="password" required minlength="6" autocomplete="current-password"/></label>
@@ -63,7 +53,7 @@ export function renderLogin(container) {
     const fd = new FormData(form);
     try {
       await signUp(fd.get('email'), fd.get('password'), fd.get('email').split('@')[0]);
-      err.textContent = 'Revisa tu correo para confirmar la cuenta (si está activado en Supabase).';
+      err.textContent = 'Cuenta creada. Ya puedes ingresar con tu correo y contraseña.';
     } catch (ex) {
       err.textContent = ex.message;
     }

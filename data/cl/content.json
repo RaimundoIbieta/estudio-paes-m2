@@ -1,17 +1,50 @@
 [
   {
-    "id": "placeholder",
-    "area": "Próximamente",
-    "title": "Contenido en desarrollo",
-    "duration": "—",
+    "id": "cl-habilidades",
+    "area": "Competencia Lectora",
+    "title": "Habilidades evaluadas en la PAES",
+    "duration": "10 min",
     "sections": [
       {
-        "heading": "Estamos preparando este módulo",
-        "text": "Según el temario oficial DEMRE, pronto tendrás lecciones, ejercicios y ensayos para esta prueba.",
+        "heading": "Las 4 habilidades (DEMRE)",
         "items": [
-          "Competencia Lectora: localizar, interpretar, evaluar e integrar información",
-          "Historia y Ciencias Sociales: historia, geografía y educación ciudadana",
-          "Ciencias: biología, física y química"
+          "Localizar: encontrar información explícita en el texto",
+          "Interpretar: comprender significados, relaciones y propósitos",
+          "Evaluar: juzgar la información, argumentos y estrategias del autor",
+          "Reflexionar e integrar: conectar el texto con conocimientos previos y otros textos"
+        ]
+      },
+      {
+        "heading": "Formato de la prueba",
+        "items": [
+          "65 preguntas de alternativa",
+          "2 horas 30 minutos",
+          "Textos literarios, no literarios y multimodales"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cl-estrategias",
+    "area": "Competencia Lectora",
+    "title": "Estrategias de lectura",
+    "duration": "12 min",
+    "sections": [
+      {
+        "heading": "Antes de responder",
+        "items": [
+          "Lee primero la pregunta para saber qué buscar",
+          "Subraya datos clave: fechas, nombres, causas, consecuencias",
+          "Distingue opinión de información objetiva"
+        ]
+      },
+      {
+        "heading": "Tipos de preguntas frecuentes",
+        "items": [
+          "Idea principal o propósito del texto",
+          "Significado de una palabra en contexto",
+          "Inferencias (lo que se deduce pero no está dicho literalmente)",
+          "Evaluación del argumento del autor"
         ]
       }
     ]

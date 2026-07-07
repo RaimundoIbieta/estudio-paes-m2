@@ -44,12 +44,13 @@
     </footer>
   </div>
 
-  <script>
-    window.addEventListener('error', function(e) {
+  <script type="module">
+    import('./js/app.js?v=6').catch(function (e) {
       var v = document.getElementById('view');
-      if (v) v.innerHTML = '<div class="card"><h3>Error al cargar</h3><p>' + (e.message || 'Error de script') + '</p><button onclick="location.reload(true)" class="btn btn-primary">Recargar</button></div>';
+      var msg = (e && e.message) ? e.message : String(e);
+      if (v) v.innerHTML = '<div class="card"><h3>No se pudo iniciar la plataforma</h3><p>' + msg + '</p><p>Intenta recargar con Cmd+Shift+R</p><button class="btn btn-primary" onclick="location.reload()">Recargar</button></div>';
+      console.error(e);
     });
   </script>
-  <script type="module" src="js/app.js?v=5"></script>
 </body>
 </html>

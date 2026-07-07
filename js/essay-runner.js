@@ -1,5 +1,5 @@
-import { getCurrentTest } from '../test-context.js';
-import { recordEssay } from '../storage.js';
+import { getCurrentTest } from './test-context.js';
+import { recordEssay } from './storage.js';
 
 function formatTime(sec) {
   const m = Math.floor(sec / 60);
@@ -184,7 +184,7 @@ export async function startPathEssay(container, type, lessonId = null) {
     return;
   }
 
-  const { buildQuestionSet, getEssayMeta, recordDiagnostic, recordUnitEssay, recordCheckpoint } = await import('../learning-path.js');
+  const { buildQuestionSet, getEssayMeta, recordDiagnostic, recordUnitEssay, recordCheckpoint } = await import('./learning-path.js');
   const tests = await loadTests();
   const test = tests.find(t => t.id === testId);
   const meta = getEssayMeta(type, test);

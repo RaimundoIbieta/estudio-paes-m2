@@ -1,0 +1,1599 @@
+{
+  "testId": "m2",
+  "totalQuestions": 55,
+  "scoredQuestions": 50,
+  "temario": "2027-26-03-19-temario-paes-regular-m2.pdf",
+  "clavijeros": {
+    "2025": {
+      "answers": {
+        "1": "B",
+        "2": "D",
+        "3": "D",
+        "4": "D",
+        "5": "A",
+        "6": "A",
+        "7": "C",
+        "8": "B",
+        "9": "A",
+        "10": "D",
+        "11": "D",
+        "12": "A",
+        "13": "D",
+        "14": "D",
+        "15": "B",
+        "16": "C",
+        "18": "B",
+        "19": "A",
+        "20": "D",
+        "21": "C",
+        "22": "C",
+        "23": "B",
+        "24": "B",
+        "25": "A",
+        "26": "D",
+        "27": "D",
+        "28": "A",
+        "29": "D",
+        "30": "D",
+        "31": "A",
+        "32": "E",
+        "33": "C",
+        "34": "B",
+        "35": "B",
+        "36": "C",
+        "37": "B",
+        "38": "C",
+        "39": "C",
+        "40": "C",
+        "41": "D",
+        "42": "B",
+        "43": "A",
+        "44": "C",
+        "45": "B",
+        "46": "A",
+        "47": "B",
+        "48": "C",
+        "49": "C",
+        "50": "A",
+        "51": "D",
+        "52": "A",
+        "53": "C",
+        "54": "C",
+        "55": "E"
+      },
+      "excluded": [
+        14,
+        17,
+        22,
+        34,
+        35,
+        43
+      ]
+    },
+    "2026": {
+      "answers": {
+        "1": "D",
+        "2": "B",
+        "3": "B",
+        "4": "D",
+        "5": "D",
+        "6": "D",
+        "7": "D",
+        "8": "A",
+        "9": "B",
+        "10": "C",
+        "11": "C",
+        "12": "D",
+        "13": "C",
+        "14": "C",
+        "15": "A",
+        "16": "D",
+        "17": "A",
+        "18": "D",
+        "19": "B",
+        "20": "A",
+        "21": "C",
+        "22": "C",
+        "23": "A",
+        "24": "D",
+        "25": "C",
+        "26": "C",
+        "27": "B",
+        "28": "B",
+        "29": "C",
+        "30": "A",
+        "31": "A",
+        "32": "A",
+        "33": "A",
+        "34": "C",
+        "35": "C",
+        "36": "C",
+        "37": "A",
+        "38": "A",
+        "39": "B",
+        "40": "B",
+        "41": "A",
+        "42": "B",
+        "43": "D",
+        "44": "D",
+        "45": "D",
+        "46": "A",
+        "47": "D",
+        "48": "D",
+        "49": "A",
+        "50": "A",
+        "51": "A",
+        "52": "D",
+        "53": "D",
+        "55": "B"
+      },
+      "excluded": [
+        29,
+        31,
+        32,
+        39,
+        41,
+        54
+      ]
+    }
+  },
+  "transformTables": {
+    "2025": {
+      "0": 100,
+      "21": 506,
+      "42": 780,
+      "1": 161,
+      "22": 519,
+      "43": 797,
+      "2": 192,
+      "23": 533,
+      "44": 816,
+      "3": 220,
+      "24": 547,
+      "45": 836,
+      "4": 245,
+      "25": 560,
+      "46": 857,
+      "5": 268,
+      "26": 571,
+      "47": 879,
+      "6": 289,
+      "27": 580,
+      "48": 903,
+      "7": 308,
+      "28": 590,
+      "49": 1000,
+      "8": 326,
+      "29": 601,
+      "9": 344,
+      "30": 614,
+      "10": 362,
+      "31": 629,
+      "11": 378,
+      "32": 643,
+      "12": 392,
+      "33": 656,
+      "13": 405,
+      "34": 667,
+      "14": 418,
+      "35": 678,
+      "15": 432,
+      "36": 690,
+      "16": 448,
+      "37": 704,
+      "17": 462,
+      "38": 719,
+      "18": 475,
+      "39": 735,
+      "19": 486,
+      "40": 750,
+      "20": 495,
+      "41": 765
+    },
+    "2026": {
+      "0": 100,
+      "21": 524,
+      "42": 786,
+      "1": 196,
+      "22": 538,
+      "43": 803,
+      "2": 223,
+      "23": 552,
+      "44": 821,
+      "3": 248,
+      "24": 564,
+      "45": 838,
+      "4": 271,
+      "25": 574,
+      "46": 857,
+      "5": 292,
+      "26": 583,
+      "47": 876,
+      "6": 312,
+      "27": 592,
+      "48": 897,
+      "7": 330,
+      "28": 603,
+      "49": 1000,
+      "8": 349,
+      "29": 617,
+      "9": 366,
+      "30": 631,
+      "10": 382,
+      "31": 645,
+      "11": 396,
+      "32": 657,
+      "12": 409,
+      "33": 667,
+      "13": 423,
+      "34": 677,
+      "14": 438,
+      "35": 688,
+      "15": 453,
+      "36": 701,
+      "16": 467,
+      "37": 716,
+      "17": 479,
+      "38": 731,
+      "18": 489,
+      "39": 746,
+      "19": 499,
+      "40": 759,
+      "20": 511,
+      "41": 772
+    }
+  },
+  "questions": [
+    {
+      "id": "m2-2025-q06",
+      "num": 6,
+      "year": "2025",
+      "area": "Numeros avanzados",
+      "question": "En el experimento de lanzar una moneda, sus dos opciones son equiprobables de salir, a menos que se indique lo contrario. Universidad de Chile. Derechos reservados . Prohibida su reproducción total o parcial. FORMA 193  2025 - 3 - INSTRUCCIONES PARA LAS PREGUNTAS DE SUFICIENCIA DE DATOS En las preguntas de Suficiencia de Datos no se pide la solución al problema, sino que se decida si con los datos proporcionados, tanto en el enunciado como en las afirmaciones (1) y (2), se puede llegar a la solución del problema. Es así que se deberá marcar la opción:",
+      "options": [
+        "(1) por sí sola , si la afirmación (1) por sí sola es suficiente para resolve r el problema, pero la afirmación (2) por sí sola no lo es,",
+        "(2) por sí sola , si la afirmación (2) por sí sola es suficiente para resolver el problema, pero la afirmación (1) por sí sola no lo es,",
+        "Ambas juntas, (1) y (2), si ambas afirmaciones (1) y (2) jun tas son suficientes para resolver el problema, pero ninguna de las afirmaciones por sí sola es suficiente,",
+        "Cada una por sí sola, (1) ó (2) , si cada una por sí sola es suficiente para resolver el problema,"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q01",
+      "num": 1,
+      "year": "2025",
+      "area": "Numeros avanzados",
+      "question": "Si P , Q y R son tres números positivos, tal que 92,0P R  y 125,1Q R  , ¿cuál es el orden creciente de los números?",
+      "options": [
+        "QRP ",
+        "PRQ ",
+        "PQR ",
+        "RQP "
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q02",
+      "num": 2,
+      "year": "2025",
+      "area": "Numeros avanzados",
+      "question": "Si m es un número entero mayor que 1 y x es un número real positivo, ¿cuál de las siguientes expresiones es igual a m xx ?",
+      "options": [
+        "m 2x",
+        "1m x",
+        "m mx",
+        "m 1mx "
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q03",
+      "num": 3,
+      "year": "2025",
+      "area": "Numeros avanzados",
+      "question": "Para calcular el área A de un triángulo cuyos lados miden a , b y c , se puede utilizar la expresión    cSbSaSSA  , tal que 2 cbaS  . Para determinar el área de un triángulo e n el que dos de sus lados miden L y el otro mide L2 3 , se realiza el siguiente procedimiento, en el cual se comete un error. Paso 1: se reemplaza S en la expresión para calcular A , obteniéndose              c2 cbab2 cbaa2 cba 2 cbaA . Paso 2: se reemplazan las medidas de los lados del triángulo, obteniéndose          4 L 4 L3 4 L3 4 L7A . Paso 3: se exp resa el radicando utilizando potencias, obteniéndose 22 16 L37A        . Paso 4: se aplica la propiedad de la raíz y de la potencia, obteniéndose 16 L21A 2  . ¿En cuál de los pasos se cometió el error?",
+      "options": [
+        "En el Paso 1",
+        "En el Paso 2",
+        "En el Paso 3",
+        "En el Paso 4 FORMA 193  2025 - 6 -"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q04",
+      "num": 4,
+      "year": "2025",
+      "area": "Numeros avanzados",
+      "question": "Si a y b son números racionales , tal que b1a0  , ¿cuál de las siguientes expresiones representa siempre a un número mayor qu e 1 ?",
+      "options": [
+        "2b 2a  ",
+        "2 ba ",
+        "ab",
+        "9,0b a "
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q05",
+      "num": 5,
+      "year": "2025",
+      "area": "Numeros avanzados",
+      "question": "En un laboratorio, una balanza digital registra de manera automática la masa de un cultivo bacteriano. La masa del cultivo se cuadruplica cada 24 horas tal como se representa en la siguiente tabla: ¿Cuánta masa registrará la balanza transcurridos cuatro días?",
+      "options": [
+        "kg10096,4 6",
+        "kg10192,8 6",
+        "kg10048,2 5",
+        "kg10096,4 5 Días transcurridos Masa  kg 1 8104,6  2 71056,2  3 610024,1  FORMA 193  2025 - 7 -"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q06",
+      "num": 6,
+      "year": "2025",
+      "area": "Numeros avanzados",
+      "question": "Si a3P  , a3Q  y a3R  , con 0a  , ¿cuál de las siguientes relaciones es verdadera?",
+      "options": [
+        "RPQ ",
+        "RPQ ",
+        "PRQ ",
+        "QRP "
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q09",
+      "num": 9,
+      "year": "2025",
+      "area": "Numeros avanzados",
+      "question": "Si x3p y y3b , ¿cuál de las siguientes expresiones es igual a  yx  , en términos de p y b ?",
+      "options": [
+        " bplog3 ",
+        " bplog3 ",
+        "blogplog 33 ",
+        " bplog  FORMA 193  2025 - 8 -"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q13",
+      "num": 13,
+      "year": "2025",
+      "area": "Numeros avanzados",
+      "question": "En el siguiente gráfico se representa el precio de un producto durante sus primeros cuatro meses en el mercado. Si se considera el mes con mayor crecimiento porcentual con respecto al mes anterior de los meses presentados en el gráfico, ¿cuál tiene que ser el precio del producto en mayo para que ese mes tenga el mismo crecimiento porcentual con respecto al mes anterior?",
+      "options": [
+        "000160$",
+        "000168$",
+        "000192$",
+        "000200$ FORMA 193  2025 - 9 -"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q14",
+      "num": 14,
+      "year": "2025",
+      "area": "Numeros avanzados",
+      "question": "Fer recibió una herencia H de 0000005$ que se entregará repartida en pagos mensuales e iguales. Para determinar el monto mensual P , en pesos, que se le entregará a Fer, la institución encargada le otorga una tasa de interés c de un %5,0 mensual en un plazo de n meses, y utiliza el modelo:   nc11 cHP   , tal que c está escrito en su forma decimal . Si Fer ha decidido recibir la herencia en un plazo de 60 meses, ¿cuál de las siguientes expresiones representa el monto, en pesos, que recibirá mensualmente?",
+      "options": [
+        "  60511 000000250 ",
+        "  605,11 0005002 ",
+        "  6005,11 000250 ",
+        "  60005,11 00025  FORMA 193  2025 - 10 -"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": false,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q15",
+      "num": 15,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "¿Cuál de las siguientes expresiones es igual a    23 1pp2p  ?",
+      "options": [
+        "p8",
+        "8p11p8 2 ",
+        "8p3p4 2 ",
+        "p26"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q18",
+      "num": 18,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "¿Cuál es el conjunto solución de la inecuación 02x3  ?",
+      "options": [
+        "     ,3 2",
+        "    ,3 2",
+        "     3 2,",
+        "     3 2, FORMA 193  2025 - 11 -"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q19",
+      "num": 19,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "La edad actual de Raúl es  1x  años y la de su hermana Paulina es  3px años. Si S corresponde a la suma de las edades actuales de Raúl y Paulina, ¿cuál de las siguientes expresiones representa la edad de Raúl hace 3 años?",
+      "options": [
+        "1p p4S  ",
+        "1p 4S  ",
+        "1p S ",
+        "1p 3pS  "
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q20",
+      "num": 20,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "La aceleración de gravedad g en un planeta, en 2s m , se puede calcular mediante la expresión 2R MGg  , t al que G es una constante, M es la masa del planeta en kilogramos, R es su radio en metros y la aceleración de gravedad de la Tierra es aproximadamente 2s m10 . Considera qu e el radio de Marte mide aproximadamente la mitad del radio de la Tierra, y que su masa equivale a 1,0 veces la masa de la Tierra. ¿Cuál es aproximadamente la aceleración de gravedad en Marte?",
+      "options": [
+        "2s m25,0",
+        "2s m5,0",
+        "2s m2",
+        "2s m4 FORMA 193  2025 - 13 -"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q26",
+      "num": 26,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "Considera la fun ción f , cuyo domin io es el conjunto de los números reales, definida por   5x4xxf 2  . ¿Cuál de las siguientes funciones tiene como gráfica la parábola asociada a f , pero trasladada en 5 unidades hacia la derecha?",
+      "options": [
+        "  5x6xxg 2 ",
+        "  x4xxh 2 ",
+        "  5xxxp 2 ",
+        "  50x14xxq 2  18yx  35y3x2 "
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q27",
+      "num": 27,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "Un estudiante de Artes pintará un cuadro de forma rectangular, este tendrá una sección de dibujo y por fuera se dej ará un margen con un ancho uniforme que ocupará 2cm81 . Si la sección de dibujo tendrá cm15 de largo y cm9 de ancho, ¿cuál es el ancho correspondiente al margen?",
+      "options": [
+        "cm5,13",
+        "cm5,7",
+        "cm5,4",
+        "cm5,1 FORMA 193  2025 - 15 -"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q28",
+      "num": 28,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "Considera la función f , cuyo dominio es el conjunto de los números reales , definida por   cbxaxxf 2  , con 0a  , ¿cuál de las siguientes afirmaciones es siempre verdadera?",
+      "options": [
+        "La ordenada del vértice de la parábola asociada a la función f es el máximo de esta.",
+        "La gráfica de la función f no interse ca al eje X .",
+        "La gráfica de la fu nción f interseca al eje Y por debajo del origen.",
+        "El recorrido de la función son todos los números reales negativos."
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q30",
+      "num": 30,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "Considera la función f , definida por   1x2k xxf 2  , cuyo dominio es el conjunto de los números reales, con k un número real distinto de cero. Si la segunda coordenada del vértice d e l a parábola asociada a f es mayor que 1 , ¿qué condición debe cumplir k ?",
+      "options": [
+        "Debe ser mayor que 2 .",
+        "Debe ser menor que 2 y mayor que 0 .",
+        "Debe ser menor que 0 y mayor que 2 .",
+        "Debe ser menor que 2 . FORMA 193  2025 - 16 -"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q31",
+      "num": 31,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "Considera la función f , definida por   3t150t25ttf 23  , con dominio el conjunto de l os números reales. ¿Cuál de las siguientes opciones representa todos los valores de t para los que   3tf  ?",
+      "options": [
+        "0 , 10 y 15",
+        "0 , 10 y 15",
+        "3 , 7 y 12",
+        "0"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q32",
+      "num": 32,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "Al aplicar una homotecia con centro en el origen del sistema coordenado al vector  3,2  , se obtiene el vector  6,4 . Si se aplica esta misma homotecia al vector  4,3 , entonces se obtiene n . ¿Cuál es el módulo de n ?",
+      "options": [
+        "50 unidades",
+        "10 unidades",
+        "15 unidades",
+        "5,2 unidades"
+      ],
+      "answer": 4,
+      "answerKey": "E",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q34",
+      "num": 34,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "Para la construcción de las casas de una villa , se deben construir los cimientos de cada una de ellas. Estos cimientos deb en tener cm80 de profundidad y cm50 de ancho. En el siguiente diagrama, la parte gris representa la forma de la excavación que se realizará para confeccionar los cimientos de cada casa, mirado desde arriba. El metro cúbico de hormigón que se utilizará para confeccionar el cimiento de las casas tiene un valor de 00095$ . ¿Cuál de las siguientes expresiones corresponde al precio total, en pesos, que se debe pagar por los cimientos de x casas?",
+      "options": [
+        "x248,05,000095 ",
+        "x318,05,000095 ",
+        "x348,05,000095 ",
+        "x408,05,000095  FORMA 193  2025 - 18 -"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": false,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q35",
+      "num": 35,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "Considera el siguiente cuadrilátero: ¿Cuánto mide su área?",
+      "options": [
+        "2cm12",
+        "2cm18",
+        "2cm21",
+        "2cm24 FORMA 193  2025 - 19 -"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": false,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q36",
+      "num": 36,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "El área de una figura geométrica llamada elipse se puede calcular como ab , en centímetros cuadrados, tal que a corresponde a la medida del semieje mayor, en centí metros, y b corresponde a la medida del semieje menor, en centímetros, tal como se representa a continuación: Considera un trozo rectangular de madera al que se le hará un corte con forma de elipse para luego pintar la pa rte superior y ser utilizado como cubierta de un lavamanos. Las medidas se presentan en la siguiente figura: ¿Cuál es el área de la madera que se pintará para ser utilizad a como cubierta de ese lavamanos?",
+      "options": [
+        "  2cm15002640 ",
+        "  2cm40212 ",
+        "  2cm3752640 ",
+        "  2cm160212  FORMA 193  2025 - 20 -"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q37",
+      "num": 37,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "Dos barcos ubicados en el mismo lugar comienzan a navegar al mismo tiempo. El primero lo hace hacia el n orte a una rapidez constante de v nudos y el segundo lo hace hacia el este a una rap idez constante de w nudos. Si un nudo equivale a una rapidez de h km852,1 , ¿cuál de las siguientes expresiones representa la distancia a la que se encuentran los barcos, en kilómetros, después de dos h oras?",
+      "options": [
+        "22 wv852,1 ",
+        "22 wv852,12 ",
+        " 22 wv852,1 ",
+        " 22 wv852,12  FORMA 193  2025 - 21 -"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q39",
+      "num": 39,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "En una comunidad se quieren cambiar los botes de basura cilíndricos por otros con forma de cubo que son más fáciles de manipular por los camiones recolectores de basura. Actualmente hay 30 botes de basura cilíndricos, como el que se presenta en la figura adjunta. Los botes de basura con forma de cubo tendrán una altura que es 3 2 de la altura de los botes cilíndricos. Si se quiere mantener la capacidad de co ntención total de basura de los 30 botes cilíndricos, ¿cuál de las siguientes expresiones permite calcular la cantidad de botes con forma de cubo que se necesitan?",
+      "options": [
+        "2 2 h4 r45",
+        "2 2 h 5,1r ",
+        "2 2 h r45",
+        "2 2 r45 h  FORMA 193  2025 - 22 -"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q40",
+      "num": 40,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "Al punto  1,3A se le aplica una traslación según el vector  2k,1kv  , con k un número ent ero. ¿En cuál de l as siguientes gráficas el punto P no corresponde a una posible traslación de A según v ? B)",
+      "options": [
+        "C) D) P A 3 2 1 X 1 Y A P 3 2 4 X 1 Y 1 3 X 5 Y P A P A 1 3 X 5 Y 4 FORMA 193  2025 - 23 -",
+        "A)",
+        "D) P A 3 2 1 X 1 Y A P 3 2 4 X 1 Y 1 3 X 5 Y P A P A 1 3 X 5 Y 4 FORMA 193  2025 - 23 -",
+        "P A 3 2 1 X 1 Y A P 3 2 4 X 1 Y 1 3 X 5 Y P A P A 1 3 X 5 Y 4 FORMA 193  2025 - 23 -"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q42",
+      "num": 42,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "En una empresa, las proyecciones de ventas de febrero  FV y marzo  MV , en miles de pesos, están definidas por las siguientes condiciones:  Si 1000VF  , entonces 8,0V V M F  .  Si 1000VF  , entonces 2,1V V M F  . ¿Cuál de los siguientes gráficos podría representar las proyecciones de venta s de esta empresa? C) B)",
+      "options": [
+        "D) Ventas en miles de pesos Mes Ventas en miles de pesos Mes Mes Ventas en miles de pesos Ventas en miles de pesos Mes FORMA 193  2025 - 24 -",
+        "A)",
+        "B) A)",
+        "Ventas en miles de pesos Mes Ventas en miles de pesos Mes Mes Ventas en miles de pesos Ventas en miles de pesos Mes FORMA 193  2025 - 24 -"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q43",
+      "num": 43,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "Considera el siguiente diagrama de cajón elaborado a partir de 100 datos: ¿Cuál de los siguientes gráficos podría representar la distribución de estos datos?",
+      "options": [
+        "B)",
+        "C) D) Frecuencia Frecuencia Frecuencia Frecuencia FORMA 193  2025 - 25 -",
+        "D) Frecuencia Frecuencia Frecuencia Frecuencia FORMA 193  2025 - 25 -",
+        "Frecuencia Frecuencia Frecuencia Frecuencia FORMA 193  2025 - 25 -"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": false,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q45",
+      "num": 45,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "Los 40 estudiantes de un curso compraron dos números de rifa cada uno para un sorteo de 80 números. Pablo sabe que la probabilidad de que gane es 40 1 . Sin embargo, debido a que el día del sorteo faltaron varios estudiantes a clases y el sorteo se realiza solo entre los presentes, la probabilidad de que Pablo gane cambia a b 1 . ¿Cuál de las siguientes expresiones permite determinar la cantidad de estudiantes que faltaron a clases el día del sorteo?",
+      "options": [
+        "2 b40 ",
+        "b40",
+        "b240",
+        "b40 b40  FORMA 193  2025 - 26 -"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q47",
+      "num": 47,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "En una ciu dad de 6000 personas, 200 miden más de 8,1 metros. Si se escogen dos personas al azar, ¿cuál es la probabilidad de q ue ninguna de ellas mida más de 8,1 metros?",
+      "options": [
+        "2 5800 1   ",
+        "5999 5799 6000 5800 ",
+        "6000 200 6000 200 ",
+        "6000 5800"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q48",
+      "num": 48,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "Se dispone de dos cajas A y B, en A hay en total 3 fichas blancas, 2 rojas y 6 negras, en B hay en total 2 fichas blancas y 3 rojas, todas del mismo tipo. Se define el siguiente experimento: se lanza un dado común, si el número obtenido es menor que 3 , se extrae al a zar una ficha de la caja A ; en caso contrario, se extrae al azar una ficha de la caja B. Si se realiza este experimento, ¿cuál es la probabilidad de extraer una ficha negra?",
+      "options": [
+        "11 6",
+        "8 1",
+        "11 2",
+        "11 3"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q49",
+      "num": 49,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "Cada estudiante que asistió a una reunión saluda con un apretón de manos a todos los demás estudiantes solo una vez. Si se contabilizaron en total 105 apretones de manos y n es la cantidad total de estudiantes que asistió a la reunión, ¿cuál de las siguientes relaciones es verdadera?",
+      "options": [
+        "  1052 2nn ",
+        "  1051nn ",
+        "  1052 1nn ",
+        "1052 nn  FORMA 193  2025 - 29 -"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q50",
+      "num": 50,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "Considera una circunferencia, en e lla se irán ubicando puntos equidistantes entre sí, para luego calcular la cantidad de trazos que se necesitan para unir a cualquier par de puntos. En la siguiente imagen se dan dos ejemplos de la situación planteada. Si se ubican n puntos en la circunferencia, ¿cuál de las siguientes expresiones permite determinar la cantidad de trazos necesarios para unir a cualquier par de puntos?",
+      "options": [
+        "      2 n",
+        "23 n      ",
+        " 2n3 ",
+        "  !2n3  FORMA 193  2025 - 30 -"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q51",
+      "num": 51,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "Una persona desarrolla un test de 10 preguntas, el cual solo tiene preguntas de verdadero o falso. Si esta persona contestó todas las preguntas al azar y el test se aprueba al obtener al menos 7 respuestas correctas, ¿cuál es la probabilidad de que la persona apruebe el test?",
+      "options": [
+        "7 2 1  ",
+        "73 2 1 2 1 7 10          ",
+        "1098273 2 1 2 1 2 1 2 1 2 1 2 1 2 1               ",
+        "1098273 2 1 2 1 2 1 9 10 2 1 2 1 8 10 2 1 2 1 7 10                               FORMA 193  2025 - 31 -"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q52",
+      "num": 52,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "Se puede determinar el valor del número racional y x , si se sabe que: (1) y es la cuarta parte de x . (2) 5yx ",
+      "options": [
+        "(1) por sí sola",
+        "(2) por sí sola",
+        "Ambas juntas, (1) y (2)",
+        "Cada una por sí sola, (1) ó (2)"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q53",
+      "num": 53,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "Considera la función f , cuyo dominio es el conjunto de los números reales, definida por   cbxaxxf 2  y que   p13f  y   q14f  . Se pueden determinar los valores de p y q , si se conoce el valor de: (1) a y b (2)  0f",
+      "options": [
+        "(1) por sí sola",
+        "(2) por sí sola",
+        "Ambas juntas, (1) y (2)",
+        "Cada una por sí sola, (1) ó (2)"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2025-q55",
+      "num": 55,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "Se consultó a un grupo de personas sobre su edad. De acuerdo con los resultados obt enidos, las edades van desde los 60 años hasta los 90 años. Se puede determinar la mediana de las edades de las personas , si se conoce: (1) la cantidad de personas que se consultó. (2) el percentil 49 y 51 de las edades.",
+      "options": [
+        "(1) por sí sola",
+        "(2) por sí sola",
+        "Ambas juntas, (1) y (2)",
+        "Cada una por sí sola, (1) ó (2)"
+      ],
+      "answer": 4,
+      "answerKey": "E",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q09",
+      "num": 9,
+      "year": "2026",
+      "area": "Numeros avanzados",
+      "question": "En esta prueba, todas las variables que se modelan mediante una distribución normal, se consideran variables aleatorias continuas. Si Z es una variable aleatoria continua que se modela mediante una distribución normal con media 0 y desviación estándar 1(Z ∼ N(0, 1)), se cumple que la parte de color gris del gráfico de esta distribución corresponde a P(Z ≤ z) y en la tabla se presentan algunos de sus valores. z P(Z ≤ z) 0,67 0,749 0,99 0,839 1,00 0,841 1,15 0,875 1,28 0,900 1,64 0,950 1,96 0,975 2,00 0,977 2,17 0,985 2,32 0,990 2,58 0,995 Propiedad Intelectual Universidad de Chile. Derechos reservados ©. Prohibida su reproducción total o parcial. - 3 - FORMA 193 – 2026 INSTRUCCIONES P ARA LAS PREGUNTAS DE SUFICIENCIA DE DATOS En las preguntas de Suficiencia de Datos no se pide la solución al problema, sino que se decida si con los datos proporcionados, tanto en el enunciado como en las afirmaciones (1) y (2), se puede llegar a la solución del problema. Es así que se deberá marcar la opción:",
+      "options": [
+        "(1) por sí sola, si la afirmación (1) por sí sola es suficiente para resolver el problema, pero la afirmación (2) por sí sola no lo es,",
+        "(2) por sí sola, si la afirmación (2) por sí sola es suficiente para resolver el problema, pero la afirmación (1) por sí sola no lo es,",
+        "Ambas juntas, (1) y (2), si ambas afirmaciones (1) y (2) juntas son suficientes para resolver el problema, pero ninguna de las afirmaciones por sí sola es suficiente,",
+        "Cada una por sí sola, (1) ó (2), si cada una por sí sola es suficiente para resolver el problema,"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q01",
+      "num": 1,
+      "year": "2026",
+      "area": "Numeros avanzados",
+      "question": "Una máquina industrial que produce piezas de acero de un mismo tipo necesita1,2 kg de acero para producir 10 de estas piezas. Si la máquina se programa para reducir en 4 15 la cantidad de acero necesaria para producir cada pieza, ¿cuántas barras de medio kilogramo de acero se necesitan para producir 50 piezas?",
+      "options": [
+        "3",
+        "4",
+        "8",
+        "9"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q02",
+      "num": 2,
+      "year": "2026",
+      "area": "Numeros avanzados",
+      "question": "Considera un número P al que se le resta su octava parte, obteniéndose el númeroQ. ¿Cuál de los siguientes números hay que sumarle a Q para obtener P?",
+      "options": [
+        "1 8 Q",
+        "1 7 Q",
+        "7 8 Q",
+        "8 7 Q - 5 - FORMA 193 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q03",
+      "num": 3,
+      "year": "2026",
+      "area": "Numeros avanzados",
+      "question": "Una hoja de 20 por 30 centímetros está hecha de un papel cuya masa es de 75 g por metro cuadrado. Estas hojas se empaquetan en resmas de 500 hojas y se guardan en cajas de cartón que tienen una masa de 500 g cuando están vacías. Si la masa de una caja con resmas no puede superar los 25 kilogramos, ¿cuál es la mayor masa, en gramos, que tiene una caja con la máxima cantidad de resmas guardadas en ella?",
+      "options": [
+        "22 500",
+        "23 000",
+        "24 750",
+        "25 000 - 6 - FORMA 193 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q05",
+      "num": 5,
+      "year": "2026",
+      "area": "Numeros avanzados",
+      "question": "Al aumentar el precio del combustible, una empresa que presta un servicio de transporte de carga debe ajustar el precio que cobra. Para ello calcula el porcentaje de aumento de su tarifa como Q · F, tal que Q es el porcentaje de aumento del precio del combustible y F es un factor que depende de la masa máxima autorizada del vehículo. El factor que se debe aplicar se obtiene de la siguiente tabla: Masa máxima autorizada del vehículo (en toneladas) Factor aplicado al porcentaje de aumento del combustible (F) Menor que 3,5 0,1 Mayor o igual que 3,5 y menor que 20 0,2 Mayor o igual que 20 0,3 La empresa tiene un vehículo de carga cuya masa máxima autorizada es de 3 toneladas por el cual cobra una tarifa de $200 000 por servicio de transporte de carga a una ciudad. Si el porcentaje de aumento del precio del combustible es de un 7 %, ¿cuál de las siguientes expresiones permite obtener el precio ajustado que se tiene que cobrar por el servicio de transporte de carga?",
+      "options": [
+        "$200 000 · 7 100 · 0,1",
+        "$200 000 · 7 · 0,1",
+        "$ Å 200 000 + 2000· 7 100 · 0,1 ã",
+        "$(200 000 + 2000· 7 · 0,1) - 7 - FORMA 193 – 2026"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q06",
+      "num": 6,
+      "year": "2026",
+      "area": "Numeros avanzados",
+      "question": "En el modelo RGB se utilizan combinaciones de tres colores primarios (rojo, verde y azul) con valores entre 0 y 255 para representar la intensidad de cada color, tal como se ejemplifica a continuación: En los colores grises, los tres niveles de intensidad son iguales, por lo que cuando se necesita convertir colores a escala de grises, se promedian los tres niveles y se repite el mismo valor en cada coordenada. Por ejemplo, el color (40, 30, 200) quedaría en el gris (90, 90, 90). Por otro lado, cada gris en el modelo RGB se puede expresar como porcentaje mediante una escala lineal en la que el blanco corresponde al0 %y el negro al 100 %, tal como se representa a continuación: ¿Cuál es el porcentaje en escala de grises del color (60, 40, 70)?",
+      "options": [
+        "22,¯2 %",
+        "33,¯3 %",
+        "66,¯6 %",
+        "77,¯7 % - 8 - FORMA 193 – 2026"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q07",
+      "num": 7,
+      "year": "2026",
+      "area": "Numeros avanzados",
+      "question": "Un fabricante produce envases cilíndricos de distintos tamaños a pedido. Por razones de estabilidad de los envases, el radio de la base circular es determinado por la altura. El volumen V de cada envase cilíndrico producido se calcula con la siguiente ecuación: V = h3 · π · 0,64, tal que h es la altura del envase. Si el volumen de un cilindro se calcula multiplicando su área basal circular por su altura, ¿cuál de las siguientes opciones describe qué porcentaje de la altura corresponde al radio de la base?",
+      "options": [
+        "8 %",
+        "36 %",
+        "64 %",
+        "80 % - 9 - FORMA 193 – 2026"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q12",
+      "num": 12,
+      "year": "2026",
+      "area": "Numeros avanzados",
+      "question": "El diámetro de un determinado hongo, en milímetros, se puede calcular mediante la expresión k 1 + ce−mt, tal que t es el tiempo transcurrido, en días, k es el diámetro máximo del hongo, en milímetros, c, m y e son constantes positivas, tal que c < 1. Para determinar la cantidad de días que deben transcurrir para que el diámetro del hongo sea de 0,5 · k milímetros, se realiza el siguiente procedimiento, cometiéndose un error. Paso 1: se establece la ecuación k 2 = k 1 + ce−mt y se obtiene 1 + ce−mt = 2. Paso 2: se desarrolla la ecuación anterior y se obtiene c−1 = e−mt. Paso 3: se aplica logaritmo a ambos lados de la igualdad anterior, luego en el lado izquierdo se aplican propiedades de logaritmos y se obtiene − log c = log e−mt. Paso 4: se despeja el tiempo t de la ecuación anterior y se obtiene t = log (c − em) días. ¿En cuál de los pasos se cometió el error?",
+      "options": [
+        "En el Paso 1",
+        "En el Paso 2",
+        "En el Paso 3",
+        "En el Paso 4 - 10 - FORMA 193 – 2026"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q14",
+      "num": 14,
+      "year": "2026",
+      "area": "Numeros avanzados",
+      "question": "Una entidad financiera ofrece dos tipos de cuentas de ahorro, una tipoP y otra tipo Q. La cuenta de ahorro tipo P considera un interés compuesto mensual de un 0,5 %, mientras que la cuenta de ahorro tipo Q considera un interés anual de un 5 %. Si en ambas cuentas se deposita un monto inicial de $M y no se hacen retiros ni depósitos, ¿en cuánto supera el interés obtenido en la cuenta tipo P al interés obtenido en la cuenta tipo Q transcurrido un año?",
+      "options": [
+        "$M · (0,0512 − 0,5)",
+        "$M · (1,005 − 1,05)12",
+        "$M · (1,00512 − 1,05)",
+        "$M · (0,00512 − 0,05)"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q15",
+      "num": 15,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "¿Cuál de las siguientes expresiones es igual a x(x + 2) Å (x − 2) +1 3(x2 − 2x + 4) ã ?",
+      "options": [
+        "x 3 (x + 2)2 (x − 1)",
+        "x 3 \u0000 x2 − 4 \u0001 (x − 1)",
+        "x 3 (x − 2)2 (x + 3)",
+        "x \u0000 x2 − 4 \u0001 + 1 3 \u0000 x2 − 2x + 4 \u0001 - 11 - FORMA 193 – 2026"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q16",
+      "num": 16,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "La figura adjunta está formada por tres rectángulos contiguos cuyas bases tienen la misma medida y la altura de cada rectángulo es un tercio mayor que la altura del rectángulo que está a su izquierda. ¿Cuál de las siguientes expresiones representa el perímetro de la figura?",
+      "options": [
+        "20a 3",
+        "61a 9",
+        "22a 3",
+        "68a 9 - 12 - FORMA 193 – 2026"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q17",
+      "num": 17,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "La densidad de un material se define como la razón entre su masa y su volumen. En la tabla adjunta se presenta la densidad del hierro en dos estados. Estado Densidad Líquido 7,3 g cm3 Sólido 7,9 g cm3 Considera un molde con forma de prisma recto de base rectangular cuyas medidas interiores son 5 cm de ancho, 15 cm de largo y 10 cm de alto. Dicho molde se llena con hierro líquido, el cual se solidifica luego de algunas horas. Si la masa del hierro no varía al pasar de un estado a otro, ¿cuál de las siguientes expresiones representa el volumen del bloque de hierro solidificado?",
+      "options": [
+        "750 · 7,3 7,9 cm3",
+        "750 · 7,9 7,3 cm3",
+        "750 7,3 · 7,9 cm3",
+        "7,3 · 7,9 750 cm3 - 13 - FORMA 193 – 2026"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q18",
+      "num": 18,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "Considera un calamar de 4 kg que se mueve a una rapidez P y luego de liberar 0,02 kg de agua se mueve a una rapidez Q. Si la rapidez con la cual se mueve el calamar es inversamente proporcional a su masa, ¿cuál de las siguientes expresiones representa el porcentaje en que aumentó la rapidez del calamar luego de liberar el agua?",
+      "options": [
+        "Å4 − 0,02 4 ã · 100 %",
+        "Å 1 − 4 − 0,02 4 ã · 100 %",
+        "Å 4 4 − 0,02 ã · 100 %",
+        "Å 4 4 − 0,02 − 1 ã · 100 %"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q19",
+      "num": 19,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "¿Cuál es el conjunto solución de la inecuación x − 2 4 + 7 − 2x 3 < 3x + 1 2 ?",
+      "options": [
+        "ò −∞, 72 41 ï",
+        "ò72 41, ∞ ï",
+        "ò76 41, ∞ ï",
+        "ò −∞, 76 41 ï - 14 - FORMA 193 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q20",
+      "num": 20,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "En un ciclo termodinámico, llamado ciclo de Carnot, un tipo de gas experimenta las siguientes transferencias de calor: • Absorbe una cantidad Q1 de calor a una temperatura constante T1. • Cede una cantidad Q2 de calor a una temperatura constante T2. La temperatura y el calor de ambos procesos cumplen la relación Q2 T2 = Q1 T1 . Por otro lado, el rendimiento r del ciclo está dado por r = 1 − T2 T1 . Si para cierto gas que experimenta el ciclo de Carnot se tiene que Q1 = 3 2Q2, ¿cuál es el rendimiento de ese ciclo?",
+      "options": [
+        "1 3",
+        "1 2",
+        "2 3",
+        "3 2 - 15 - FORMA 193 – 2026"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q21",
+      "num": 21,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "Al generarse un sismo, se producen principalmente dos tipos de ondas sísmicas, las ondas S y las ondas P . En la corteza, las ondas S tienen una rapidez aproximada de 4 km s y las ondas P tienen una rapidez aproximada de 7 km s . Si una persona percibe una diferencia de 12 segundos entre la llegada de las ondas S y las ondas P , ¿a qué distancia de la localización de la persona se habría generado, aproximadamente, el sismo?",
+      "options": [
+        "A 36 km",
+        "A 84 km",
+        "A 112 km",
+        "A 132 km"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q22",
+      "num": 22,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "En un supermercado, el precio normal de una lata de un cierto tipo de atún es de $1500, pero durante esta semana, cada una de esas latas tendrá un 20 % de descuento. Una persona destina cada semana entre $12 000y $20 000, ambos valores incluidos, para comprar latas de este atún. ¿Cuál de las siguientes desigualdades permite determinar la cantidad de latas x que podrá comprar la persona en la semana del descuento?",
+      "options": [
+        "12 000 ≤ 0,2 · 1500 · x ≤ 20 000",
+        "0,2 · 12 000 ≤ 1500 · x ≤ 0,2 · 20 000",
+        "12 000 ≤ (1 − 0,2) · 1500 · x ≤ 20 000",
+        "(1 − 0,2) · 12 000 ≤ 1500 · x ≤ (1 − 0,2) · 20 000 - 16 - FORMA 193 – 2026"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q24",
+      "num": 24,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "En una simulación, dos automóviles parten al mismo tiempo y en sentidos opuestos desde dos lugares distintos de una carretera recta, tal como se representa en la siguiente figura: Si el automóvil B viaja a una rapidez constante de 40 m s y el punto P está a una distancia de 180 km del punto donde partió el automóvil A, ¿cuál es la rapidez constante que le permite al automóvil A llegar 20 minutos antes al punto P que el automóvil B?",
+      "options": [
+        "16,6 m s",
+        "25 m s",
+        "30 m s",
+        "37,5 m s - 17 - FORMA 193 – 2026"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q26",
+      "num": 26,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "Considera un cuadrado inscrito en otro cuadrado de ladop cm, tal como se representa en la figura adjunta. Si x > p 2 y el área del cuadrado inscrito es 2 3 del área del otro cuadrado, ¿cuál de las siguientes expresiones representa el valor de x?",
+      "options": [
+        "p 2 Ä 1 + 4 √ 3 ä",
+        "p 2 Ä 1 + 4 √ 6 ä",
+        "p 6 Ä 3 + √ 3 ä",
+        "p 6 Ä 3 + √ 6 ä - 18 - FORMA 193 – 2026"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q27",
+      "num": 27,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "Considera la siguiente gráfica de la función f, con dominio el conjunto de los números reales, definida por f(x) = ax2 + bx + c, con a, b y c números reales, tal que a < −5. La función g, con dominio el conjunto de los números reales, se obtiene al modificar los valores a, b y c de la función f, obteniéndose g(x) = −(a + 5)x2 − bx + c + 1. ¿Cuál de las siguientes opciones representa de mejor manera la gráfica asociada a la función g?",
+      "options": [
+        "B)",
+        "C)",
+        "D) - 19 - FORMA 193 – 2026",
+        "- 19 - FORMA 193 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q30",
+      "num": 30,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "En la figura adjunta se representa la gráfica de la función f, definida por f(x) = a · bx−2, con a y b números reales positivos y distintos de cero. ¿Cuál de las siguientes expresiones representa a f(x + 1)?",
+      "options": [
+        "4 · 3x−1",
+        "3 · 4x−1",
+        "4 · 3x−3",
+        "12 · 3x - 20 - FORMA 193 – 2026"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q31",
+      "num": 31,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "En una caverna, la intensidad I de la luz, en candelas, que se alcanza a una distancia d desde la entrada, en metros, se puede expresar como: I(d) = I0 · 2−0,1d, tal que I0 es la intensidad de la luz en la entrada de la caverna, en candelas. Cuando se han recorrido p metros desde la entrada de la caverna, la intensidad de la luz se ha reducido a la quinta parte de la intensidad de la luz con respecto a la intensidad de luz en la entrada de la caverna. ¿Cuál de las siguientes expresiones representa a p?",
+      "options": [
+        "−10 log2 Å1 5 ã",
+        "−10 log2 (5)",
+        "−10 log2 Å4 5 ã",
+        "−10 log2 Å5 4 ã"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": false,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q32",
+      "num": 32,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "Considera la función f, definida por f(x) = 5 sen(x +π). ¿Cuál es el valor de f \u0010π 4 \u0011 ?",
+      "options": [
+        "−5 √ 2 2",
+        "− √ 2 2",
+        "√ 2 2",
+        "5 √ 2 2 - 21 - FORMA 193 – 2026"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": false,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q34",
+      "num": 34,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "El logo de una marca consiste en un rectángulo dividido en secciones de colores amarillo y verde, tal como se representa a continuación: Si la altura del logo mide tres metros, ¿cuántos metros cuadrados de sección de color amarillo se necesitan para armar este logo?",
+      "options": [
+        "2,88",
+        "3,96",
+        "6,84",
+        "10,8 - 22 - FORMA 193 – 2026"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q35",
+      "num": 35,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "Se tiene un prisma recto de base rectangular cuya altura es de 2 cm y su volumen es Q 500 cm3. ¿Cuál sería el volumen del prisma, en centímetros cúbicos, si el área de su superficie basal se aumenta en un 20 %?",
+      "options": [
+        "Q 12 500",
+        "Q 2500",
+        "3Q 1250",
+        "9Q 3125"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q36",
+      "num": 36,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "Considera una estructura formada por dos prismas rectos de base rectangular de igual profundidad, tal como se presenta a continuación: ¿Cuánto mide la superficie total de la estructura?",
+      "options": [
+        "48 m2",
+        "46 m2",
+        "44 m2",
+        "38 m2 - 23 - FORMA 193 – 2026"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q37",
+      "num": 37,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "Considera los vectores → u = (a, 5b) y → v = (−2a, b + 4), para los cuales se cumple que → u − 2 → v = (9, 0). Para determinar el vector → z = → u + → v, se realiza el siguiente procedimiento, cometiéndose un error. Paso 1: se reemplazan los valores de → u y → v en la igualdad → u − 2 → v = (9, 0), obteniéndose a + 4a = 9 y 5b + b + 4 = 0. Paso 2: se resuelven las ecuaciones a + 4a = 9 y 5b + b + 4 = 0, obteniéndose a = 9 5 y b = −2 3 . Paso 3: los valores de a y b se reemplazan en los vectores → u y → v, obteniéndose → u = Å9 5, −10 3 ã y → v = Å −18 5 , 10 3 ã . Paso 4: se resuelve → u + → v, obteniéndose → z = Å −9 5, 0 ã . ¿En cuál de los pasos se cometió el error?",
+      "options": [
+        "En el Paso 1",
+        "En el Paso 2",
+        "En el Paso 3",
+        "En el Paso 4 - 24 - FORMA 193 – 2026"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q38",
+      "num": 38,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "A una figura se le aplica una reflexión con respecto al eje Y y luego a su imagen se le aplica una traslación, tal como se representa a continuación: Se aplicará la misma secuencia de transformaciones a la flecha que se representa a continuación: ¿Cuáles son las coordenadas del punto que se obtiene a partir del punto A, luego de aplicar ambas transformaciones?",
+      "options": [
+        "(−2a, a − 2)",
+        "(a − 2, −2a)",
+        "(−2a − 5, a + 3)",
+        "(−2a − 5, a − 2) - 25 - FORMA 193 – 2026"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q40",
+      "num": 40,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "Un lente de un proyector se ubica a 1,2 m de distancia de un muro en el que se proyecta una imagen rectangular de 0,8 m de ancho por 0,6 m de alto, tal como se representa en la siguiente figura: Considera que la imagen proyectada proviene de un punto al centro del lente del proyector y que la imagen proyectada queda siempre centrada en el muro. ¿Cuál es la distancia máxima que puede haber entre el muro y el lente del proyector para que la imagen proyectada no tenga dimensiones mayores que las del muro?",
+      "options": [
+        "6 m",
+        "4,8 m",
+        "4 m",
+        "3,6 m - 26 - FORMA 193 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q43",
+      "num": 43,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "En un curso se realizó una encuesta a un grupo de estudiantes sobre la cantidad de mascotas que tienen. Los resultados se presentaron en la siguiente tabla, la cual se manchó por un descuido, ocultando la frecuencia de 3 y 4 mascotas. Se sabe que el promedio de la cantidad de mascotas es 2 y que la encuesta fue contestada por 20 estudiantes. ¿Cuál de los siguientes sistemas de ecuaciones permite calcular la cantidad x de estudiantes con tres mascotas y la cantidad y de estudiantes con cuatro mascotas?",
+      "options": [
+        "14 + x + y = 20 14 + x + y 5 = 2",
+        "14 + x + y = 20 18 + 3x + 4y 5 = 2",
+        "14 + x + y = 20 18 + x + y 20 = 2",
+        "14 + x + y = 20 18 + 3x + 4y 20 = 2 - 27 - FORMA 193 – 2026"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q44",
+      "num": 44,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "Se consultó a un grupo de personas acerca de la edad que tenían. Al momento de tabular los datos, se perdió el dato correspondiente a la cantidad de personas menores de edad; solo se sabe que es una cantidad par y que es mayor que la cantidad de personas mayores de edad. Lo obtenido se representó en el siguiente gráfico: Si luego de unos años se vuelve a realizar la encuesta a las mismas personas, ¿cuál de las siguientes expresiones representa la cantidad mínima de personas que deberían haber dejado de ser menores de edad para que la cantidad de personas mayores de edad sea mayor que la cantidad de personas menores de edad?",
+      "options": [
+        "Z − 40",
+        "Z − 39",
+        "Z 2 − 20",
+        "Z 2 − 19 - 28 - FORMA 193 – 2026"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q47",
+      "num": 47,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "De acuerdo con una encuesta realizada a 3000 personas, 1830 de ellas manifiestan estar conforme con una política implementada en su comuna, mientras que el resto manifiesta estar no conforme con dicha política. Si se seleccionan al azar a dos personas de las encuestadas, ¿cuál es la probabilidad de que solo una de ellas esté conforme con la política implementada?",
+      "options": [
+        "1830 3000",
+        "1830 3000 · 1170 3000",
+        "1 1830 · 1 1170",
+        "3660 3000 · 1170 2999 - 29 - FORMA 193 – 2026"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q49",
+      "num": 49,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "Considera que al responder una pregunta de verdadero y falso al azar, la probabilidad de contestarla correctamente es 1 2 . Si se contestan al azar y de manera independiente 10 preguntas de verdadero y falso en una prueba, ¿cuál es la probabilidad de tener correctas exactamente 6 de esas preguntas?",
+      "options": [
+        "Ç 10 6 å Å1 2 ã6 Å1 2 ã4",
+        "Ç 10 4 å Å1 2 ã10 Å1 2 ã4",
+        "Å1 2 ã10 Å1 2 ã4",
+        "Å1 2 ã6 Å1 2 ã4 - 30 - FORMA 193 – 2026"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q50",
+      "num": 50,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "Considera la función f que corresponde a una función densidad que se modela mediante una distribución normal con media µ y desviación estándar θ y la función g que corresponde a una función densidad que se modela mediante una distribución normal con media µ + 0,3 y desviación estándar θ. ¿En cuál de las siguientes opciones se representan de mejor forma las gráficas de las funciones f y g?",
+      "options": [
+        "B)",
+        "C)",
+        "D) - 31 - FORMA 193 – 2026",
+        "- 31 - FORMA 193 – 2026"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q51",
+      "num": 51,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "Considera los números irracionales p y q, tal que p ̸= q. Se puede determinar que (p + q)2 es un número racional, si se sabe que: (1) p2 = q2 (2) p2 y q2 son números racionales",
+      "options": [
+        "(1) por sí sola",
+        "(2) por sí sola",
+        "Ambas juntas, (1) y (2)",
+        "Cada una por sí sola, (1) ó (2)"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q52",
+      "num": 52,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "Considera el siguiente gráfico de una función f de la forma f(x) = bx, cuyo dominio corresponde al intervalo [−10, a], tal que a y b son constantes positivas. Es posible determinar que las áreas de los triángulos grises son iguales, si se sabe que: (1) f(−10) = −f(a) (2) f Å−10 + a 2 ã = 0",
+      "options": [
+        "(1) por sí sola",
+        "(2) por sí sola",
+        "Ambas juntas, (1) y (2)",
+        "Cada una por sí sola, (1) ó (2)"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q53",
+      "num": 53,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "En la figura adjunta se representa el suelo rectangular de una habitación, el cual tiene un área de 6 m2. Parte del suelo se cubre con cuatro alfombras cuadradas de iguales medidas entre sí, que se ubican una al lado de la otra, sin sobreponerlas y sin dejar espacios entre ellas, tal como se representa a continuación: Se puede determinar el área de cada alfombra, si se sabe que: (1) la razón de los lados del suelo es 8 : 3. (2) la parte del suelo que queda sin cubrir es un tercio.",
+      "options": [
+        "(1) por sí sola",
+        "(2) por sí sola",
+        "Ambas juntas, (1) y (2)",
+        "Cada una por sí sola, (1) ó (2)"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m2-2026-q55",
+      "num": 55,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "Se puede determinar que el promedio de un grupo de datos positivos A es mayor que el promedio de un grupo de datos B, si se sabe que: (1) la varianza de los datos de A es mayor que la varianza de los datos de B. (2) el grupo de datos A está formado por el triple de cada uno de los datos del grupo B.",
+      "options": [
+        "(1) por sí sola",
+        "(2) por sí sola",
+        "Ambas juntas, (1) y (2)",
+        "Cada una por sí sola, (1) ó (2)"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    }
+  ],
+  "generatedFrom": "PAES oficial DEMRE + clavijero"
+}

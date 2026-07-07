@@ -53,7 +53,7 @@ export async function renderProgress(container) {
               <div class="roadmap-body">
                 <strong>${step.label}</strong>
                 ${step.area ? `<div class="topic-meta">${step.area}</div>` : ''}
-                ${step.score != null ? `<div class="topic-meta">Diagnóstico: ${step.score}%</div>` : ''}
+                ${step.score != null ? `<div class="topic-meta">Diagnóstico: ${step.score}%${step.paes != null ? ` · PAES ${step.paes}` : ''}</div>` : ''}
                 ${step.lessonDone && !step.essayDone ? '<div class="topic-meta warn">Falta mini ensayo</div>' : ''}
               </div>
             </div>
@@ -95,9 +95,9 @@ export async function renderProgress(container) {
               <div class="topic-item" style="cursor:default">
                 <div>
                   <strong>${e.title}</strong>
-                  <div class="topic-meta">${new Date(e.date).toLocaleDateString('es-CL')} · ${e.correct}/${e.total} · ${e.essayType || 'ensayo'}</div>
+                  <div class="topic-meta">${new Date(e.date).toLocaleDateString('es-CL')} · ${e.correct}/${e.total} · ${e.essayType || 'ensayo'}${e.puntajePaes != null ? ` · PAES ${e.puntajePaes}` : ''}</div>
                 </div>
-                <span class="badge">${e.score}%</span>
+                <span class="badge">${e.puntajePaes != null ? `PAES ${e.puntajePaes}` : `${e.score}%`}</span>
               </div>
             `).join('')}
           </div>

@@ -1,0 +1,1911 @@
+{
+  "testId": "m1",
+  "totalQuestions": 65,
+  "scoredQuestions": 60,
+  "temario": "2027-26-03-19-temario-paes-regular-m1.pdf",
+  "clavijeros": {
+    "2025": {
+      "answers": {
+        "1": "C",
+        "2": "A",
+        "3": "A",
+        "4": "C",
+        "5": "B",
+        "6": "D",
+        "7": "C",
+        "8": "B",
+        "9": "C",
+        "10": "A",
+        "11": "C",
+        "12": "C",
+        "13": "B",
+        "14": "B",
+        "15": "D",
+        "16": "C",
+        "17": "B",
+        "18": "D",
+        "19": "C",
+        "20": "C",
+        "21": "C",
+        "22": "B",
+        "23": "B",
+        "24": "D",
+        "25": "A",
+        "26": "A",
+        "27": "A",
+        "28": "C",
+        "29": "B",
+        "30": "C",
+        "31": "C",
+        "32": "B",
+        "33": "D",
+        "34": "A",
+        "35": "C",
+        "36": "D",
+        "37": "C",
+        "38": "C",
+        "39": "A",
+        "40": "A",
+        "41": "A",
+        "42": "B",
+        "43": "C",
+        "44": "A",
+        "45": "C",
+        "46": "B",
+        "47": "D",
+        "48": "C",
+        "49": "D",
+        "50": "B",
+        "51": "D",
+        "52": "B",
+        "53": "D",
+        "54": "B",
+        "55": "A",
+        "56": "B",
+        "57": "A",
+        "58": "B",
+        "59": "A",
+        "60": "C",
+        "61": "D",
+        "62": "B",
+        "63": "C",
+        "64": "C",
+        "65": "D"
+      },
+      "excluded": [
+        17,
+        53,
+        55,
+        57,
+        59
+      ]
+    },
+    "2026": {
+      "answers": {
+        "1": "B",
+        "2": "D",
+        "3": "D",
+        "4": "C",
+        "5": "B",
+        "6": "D",
+        "7": "C",
+        "8": "D",
+        "9": "C",
+        "10": "C",
+        "11": "C",
+        "12": "A",
+        "13": "C",
+        "14": "D",
+        "15": "A",
+        "16": "B",
+        "17": "C",
+        "18": "D",
+        "19": "C",
+        "20": "B",
+        "21": "C",
+        "22": "B",
+        "23": "B",
+        "24": "C",
+        "25": "B",
+        "26": "A",
+        "27": "A",
+        "28": "A",
+        "29": "B",
+        "30": "A",
+        "31": "B",
+        "32": "C",
+        "33": "A",
+        "34": "B",
+        "35": "D",
+        "36": "C",
+        "37": "A",
+        "38": "D",
+        "39": "D",
+        "40": "A",
+        "41": "B",
+        "42": "B",
+        "43": "A",
+        "44": "C",
+        "45": "B",
+        "46": "C",
+        "47": "B",
+        "48": "A",
+        "49": "B",
+        "50": "B",
+        "51": "B",
+        "52": "A",
+        "53": "D",
+        "54": "D",
+        "55": "B",
+        "56": "D",
+        "57": "D",
+        "58": "A",
+        "59": "C",
+        "60": "B",
+        "61": "A",
+        "62": "C",
+        "63": "B",
+        "64": "B",
+        "65": "A"
+      },
+      "excluded": [
+        24,
+        27,
+        42,
+        43,
+        44
+      ]
+    }
+  },
+  "transformTables": {
+    "2025": {
+      "0": 100,
+      "21": 487,
+      "42": 700,
+      "1": 173,
+      "22": 496,
+      "43": 710,
+      "2": 199,
+      "23": 503,
+      "44": 723,
+      "3": 222,
+      "24": 510,
+      "45": 738,
+      "4": 244,
+      "25": 518,
+      "46": 753,
+      "5": 265,
+      "26": 529,
+      "47": 767,
+      "6": 284,
+      "27": 542,
+      "48": 779,
+      "7": 301,
+      "28": 557,
+      "49": 792,
+      "8": 316,
+      "29": 570,
+      "50": 805,
+      "9": 331,
+      "30": 581,
+      "51": 821,
+      "10": 346,
+      "31": 589,
+      "52": 838,
+      "11": 362,
+      "32": 596,
+      "53": 856,
+      "12": 378,
+      "33": 602,
+      "54": 875,
+      "13": 391,
+      "34": 610,
+      "55": 894,
+      "14": 402,
+      "35": 621,
+      "56": 915,
+      "15": 412,
+      "36": 634,
+      "57": 938,
+      "16": 422,
+      "37": 648,
+      "58": 964,
+      "17": 434,
+      "38": 662,
+      "59": 992,
+      "18": 447,
+      "39": 674,
+      "60": 1000,
+      "19": 462,
+      "40": 683,
+      "20": 476,
+      "41": 691
+    },
+    "2026": {
+      "0": 100,
+      "21": 474,
+      "42": 690,
+      "1": 170,
+      "22": 486,
+      "43": 699,
+      "2": 194,
+      "23": 495,
+      "44": 710,
+      "3": 216,
+      "24": 502,
+      "45": 723,
+      "4": 236,
+      "25": 508,
+      "46": 738,
+      "5": 256,
+      "26": 516,
+      "47": 753,
+      "6": 275,
+      "27": 526,
+      "48": 767,
+      "7": 292,
+      "28": 539,
+      "49": 780,
+      "8": 307,
+      "29": 553,
+      "50": 793,
+      "9": 320,
+      "30": 567,
+      "51": 807,
+      "10": 334,
+      "31": 579,
+      "52": 824,
+      "11": 349,
+      "32": 587,
+      "53": 842,
+      "12": 365,
+      "33": 595,
+      "54": 861,
+      "13": 380,
+      "34": 601,
+      "55": 880,
+      "14": 393,
+      "35": 609,
+      "56": 900,
+      "15": 403,
+      "36": 618,
+      "57": 923,
+      "16": 412,
+      "37": 631,
+      "58": 948,
+      "17": 421,
+      "38": 645,
+      "59": 975,
+      "18": 432,
+      "39": 660,
+      "60": 1000,
+      "19": 446,
+      "40": 672,
+      "20": 460,
+      "41": 682
+    }
+  },
+  "questions": [
+    {
+      "id": "m1-2025-q02",
+      "num": 2,
+      "year": "2025",
+      "area": "Numeros",
+      "question": "Considera la siguiente recta numérica: ¿Cuál de los siguientes procedimientos representa la operación  85  usando la recta numérica?",
+      "options": [
+        "Ubicarse en el 5 y desplazarse 8 unidades a la izquierda.",
+        "Ubicarse en el 5 y desplazarse 8 unidades a la derecha.",
+        "Ubicarse en el 8 y desplazarse 5 unidades a la derecha.",
+        "Ubicarse en el 8 y desplazarse 3 unidades a la derecha. 1 0 1 FORMA 113  2025 - 4 -"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q03",
+      "num": 3,
+      "year": "2025",
+      "area": "Numeros",
+      "question": "Para encontrar el resultado de           42123 5:6345 4 , se realiza el siguiente procedimiento, cometiéndose un error. Paso 1: se resuelven las operaciones de los paréntesis internos, obteniéndose          403 5:125 4 . Paso 2: se resuelven las multiplicaciones, obteniéndose 3 200:5 48 . Paso 3: se resuelve la división como 200 3 5 48  . Paso 4: se resuelve la multiplicación, obteniéndo se 125 18 . ¿En cuál de los pasos se cometió el error?",
+      "options": [
+        "En el Paso 1",
+        "En el Paso 2",
+        "En el Paso 3",
+        "En el Paso 4 FORMA 113  2025 - 5 -"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q04",
+      "num": 4,
+      "year": "2025",
+      "area": "Numeros",
+      "question": "Una persona necesita comprar kg60 de alimento de cierta marca para sus perros. En una tienda para mascotas, ese alimento tiene los siguientes precios:  E l saco de kg20 se vende a 50033$ .  E l saco de kg15 se vende a 00025$ .  E l saco de kg12 se vende a 00020$ .  El saco de kg5 se vende a 00010$ . Si la persona requiere priorizar en primer lugar el menor precio a pagar y luego la menor cantidad de sacos, ¿cuál de las siguientes opciones le conviene a la persona?",
+      "options": [
+        "Comprar doce sacos de kg5 .",
+        "Comprar cinco sacos de kg12 .",
+        "Comprar cuatro sacos de kg15 .",
+        "Comprar tres sacos de kg20 . FORMA 113  2025 - 6 -"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q06",
+      "num": 6,
+      "year": "2025",
+      "area": "Numeros",
+      "question": "Dos personas se juntan a realizar ejercicios, pero cada una tiene su propia rutina, las que se detallan a continuación:  L a primera persona realiza ejercicios durante 2 minutos y luego se toma 30 segundos de descanso, repitiendo esta serie ocho veces.  L a segunda persona realiza ejercicios durante 1 minuto y 30 segundos y luego se toma 15 segundos de descanso, repitiendo esta serie doce veces. Si las dos personas comienzan sus rutinas al mismo tiempo, ¿cuál de los siguientes argumentos garantiza que una de las personas termina la rutina antes que la otra?",
+      "options": [
+        "Que la cantidad de repeticiones de las series de ambas personas es distinta.",
+        "Que el tiempo de descanso de ambas personas es distinto.",
+        "Que la suma entre el tiempo de ejercicio, el descanso y las repeticiones de las series es distinta en cada persona.",
+        "Que la suma entre el tiempo de ejercicio y el descanso, multiplicada por las repeticiones de las series, es distinta en cada persona. FORMA 113  2025 - 7 -"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q07",
+      "num": 7,
+      "year": "2025",
+      "area": "Numeros",
+      "question": "Una persona recorrió en bicicleta una ruta de km30 en 3 días. El primer día recorrió 3 1 de la ruta, el segundo día recorrió 5 3 de lo que le faltaba y el tercer día recorrió el rest o. ¿Cuántos kilómetros recorrió el tercer día?",
+      "options": [
+        "15",
+        "10",
+        "8",
+        "2 FORMA 113  2025 - 8 -"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q09",
+      "num": 9,
+      "year": "2025",
+      "area": "Numeros",
+      "question": "Para conocer el equivalente en centímetros de una distancia medida en millas, se utiliza el siguiente modelo: x934160C  , tal que x es la distancia en millas y C es el equivalente en centímetros. Si un kilómetro es equivalente a 000100 centímetros, ¿cuál de las siguientes igualdades representa la equivalencia en kilómetro s k de una distancia de x millas?",
+      "options": [
+        "934160 x000100k ",
+        "000100x934160k ",
+        "000100 x934160k ",
+        "000100x934160k  FORMA 113  2025 - 9 -"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q10",
+      "num": 10,
+      "year": "2025",
+      "area": "Numeros",
+      "question": "La regla de Naegele es un método que permite determinar la fecha probable de parto de una mujer, determinando el día, mes y año tal como se representa en el siguiente diagrama: Si la fecha de la última menstruación de una mujer embarazada fue el 19/04/2022, ¿cuál será la probable fecha de parto de esta mujer según la regla de Naegele?",
+      "options": [
+        "26/01/2023",
+        "19/01/2023",
+        "12/01/2023",
+        "16/01/2023 FORMA 113  2025 - 10 -"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q11",
+      "num": 11,
+      "year": "2025",
+      "area": "Numeros",
+      "question": "Si 30 corresponde al %20 de una cantidad, ¿cuál es dicha cantidad?",
+      "options": [
+        "6",
+        "50",
+        "150",
+        "600"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q13",
+      "num": 13,
+      "year": "2025",
+      "area": "Numeros",
+      "question": "Si p aumentado en su %40 es 150 , ¿cuál de las siguientes expresiones corresponde a p ?",
+      "options": [
+        "40150",
+        "140 150100",
+        "140 150",
+        "100 40150  FORMA 113  2025 - 11 -"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q15",
+      "num": 15,
+      "year": "2025",
+      "area": "Numeros",
+      "question": "En los departamentos de Administración y de Talleres de una empresa se necesitaba contratar a 150 personas entre ambos departamentos. Se presentaron 500 postulantes, según el detalle de la tabla adjunta. ¿Cuál de las siguientes afirmaciones es verdadera?",
+      "options": [
+        "Del total de los hombres que postularon, exactamente un %9 fue contratado.",
+        "En Administración se contrató al %20 del total de quienes postularon a ese departamento.",
+        "Exactamente un %5 de las mujeres que fueron contratadas corresponden al departamento de Administración.",
+        "En Talleres se contrató al %50 de los hombres y al %50 de las mujeres postulantes a ese departamento. Departamento Postulantes Contratados Administración Hombres 200 20 Mujeres 50 5 Talleres Hombres 50 25 Mujeres 200 100 FORMA 113  2025 - 12 -"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q17",
+      "num": 17,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "Una tienda ofrece un %20 de descuento en el precio por la compra de cualquier camisa. Una persona quiere comprar tres camisas que tienen un valor de 00030$ cada una sin descuento. ¿Cuál de las siguientes expresiones representa el valor total que pagará la persona?",
+      "options": [
+        "    100 20000303$",
+        "    100 80000303$",
+        "    100 60000303$",
+        "    100 40000303$"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": false,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q21",
+      "num": 21,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "¿Cuál de los siguientes números es igual a 2 2 ?",
+      "options": [
+        "22",
+        "2",
+        "2",
+        "22 FORMA 113  2025 - 13 -"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q23",
+      "num": 23,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "En un estudio sobre cierto insecticida, se determinó que, después de cada semana de uso, la cantidad de insectos disminuye a 5 2 de la cantidad de insectos que había al comienzo de dicha semana. Para acabar con una plaga de 1000 insectos, se utilizará este insecticida y cuando solo queden 64 individuos o menos, se requerirá de un día más para acabar con la plaga. Si se asume que los insectos no se reproducen durante el periodo de aplicación del insecticida, ¿cuántos días se necesitarán para acabar con la plaga?",
+      "options": [
+        "21",
+        "22",
+        "42",
+        "43"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q24",
+      "num": 24,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "Si   30xxP5x 2  , con 5x  , ¿cuál de las siguientes expresiones es igual a P ?",
+      "options": [
+        "35x ",
+        "6x2 ",
+        "6x ",
+        "6x  FORMA 113  2025 - 14 -"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q25",
+      "num": 25,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "¿Cuál de las siguientes expresiones es igual a  1b3b  ?",
+      "options": [
+        "3b2 ",
+        "1b2 ",
+        "1b2 ",
+        "3b2 "
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q26",
+      "num": 26,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "Una persona compró kg20 de naranjas en 00016$ y kg20 de manzanas en 00018$ . Si la cantidad de kilogramos de frutas y su precio se modelan por medio de una relación lineal, ¿cuál de las siguientes expresiones representa el precio total, en pesos, al comprar kgx de cada fruta?",
+      "options": [
+        "x20 00018 20 00016    ",
+        "    x 0001820 x 0001620",
+        " x00018x00016 ",
+        "      x 0001800016 FORMA 113  2025 - 15 -"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q27",
+      "num": 27,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "Una persona va a comprar 18 yogures y el precio de cada uno es M$ . Para ello lleva un monto de P$ , el cual es suficiente para comprar. ¿Cuál de las siguientes expresiones corresponde al dinero que le sobra?",
+      "options": [
+        " M18P$ ",
+        "    P M18$",
+        " MP$ ",
+        "    M 18P$"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q28",
+      "num": 28,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "Una persona mide la longitud de un objeto con una huincha, obteniendo que este mide 2,43 centímetros. Considera que 2 pulgadas son aproximadamente 1,5 centímetros, ¿cuál es la medida del objeto, en pulgadas?",
+      "options": [
+        "2 pulgadas",
+        "5 pulgadas",
+        "17 pulgadas",
+        "108 pulgadas FORMA 113  2025 - 16 -"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q29",
+      "num": 29,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "Una persona quiere desinfectar un sector de juegos. Para ello utilizará un líquido desinfectante que trae la siguiente información en la etiqueta: Si la persona usa una jeringa de mL5 para añadir el desinfectante en un balde con cinco litros de agua, ¿cuántas veces tiene que vaciar el contenido de la jeringa llena en el agua?",
+      "options": [
+        "5",
+        "20",
+        "25",
+        "100 Tabla de dilución líquido desinfectante Cantidad de desinfectante Diluir en: 5 mL un cuarto litro de agua 10 mL medio litro de agua 20 mL un litro de agua FORMA 113  2025 - 17 -"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q31",
+      "num": 31,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "Para una fiesta se compraron tres botellas de jugo del mismo precio y tres botellas de bebidas del mismo precio, gastándo se en total 77016$ . Una botella de bebida es 390$ más cara que una botella de jugo. ¿Cuál de las siguientes ecuaciones permite determinar el preci o x de una botella de jugo, en pesos?",
+      "options": [
+        "77016390x3 ",
+        "77016390x6 ",
+        "  77016390x3x3 ",
+        "  77016390x3x3  FORMA 113  2025 - 18 -"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q32",
+      "num": 32,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "La figura adjunta corresponde a una representación del triángulo de Pascal. En esta representación, el número en cada casilla blanca corresponde a la suma de las dos casillas inmediatamente superiores. ¿Cuál de las siguientes expresiones representa a x en términos de p ?",
+      "options": [
+        "15p ",
+        "10p ",
+        "10p ",
+        "15p  Ejemplo FORMA 113  2025 - 19 -"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q33",
+      "num": 33,
+      "year": "2025",
+      "area": "Algebra y funciones",
+      "question": "En un partido de básquetbol, un jugador tiene la posibilidad de hacer anotaciones que val en dos o tres puntos, dependiendo del lugar desde el que lanzó el balón al anotar. Un jugador marcó 37 puntos en el último partido haciendo cinco anotaciones de dos puntos y x anotaciones de tres puntos. ¿Cuál de las siguientes ecuaciones permite determinar la cantidad de anotaciones de tres puntos que hizo el jugador?",
+      "options": [
+        "375x ",
+        "3710x ",
+        "375x3 ",
+        "3710x3  FORMA 113  2025 - 20 -"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q34",
+      "num": 34,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "Tomás y cuatro de sus amigos van a un parque de diversiones. El parque cobra una entrada a todos los asistentes y un gasto adicional por entrar a cierta atracción. Tomás decide pagar el total de estos gastos y luego cobrar a cada quien su parte. Escribe lo siguiente en el chat del grupo de amigos que fueron al parque. Si Tomás pagó un total de 00031$ en su visita al parque, ¿cuál de las siguientes ecuaciones permite calcular el precio x que se pagó por cada entrada al parque?",
+      "options": [
+        "00031x544000 ",
+        "00031x344000 ",
+        "00031x454000 ",
+        "00031x554000  FORMA 113  2025 - 21 -"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q35",
+      "num": 35,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "La cantidad n de chi rridos por minuto que emite un grillo se relaciona con la temperatura ambiental mediante la ecuación     7 40n10T , tal que T es la temperatura ambiental en C . ¿Cuántos chirridos por minuto emitirá un grillo si la temperatura ambiental es de C20  ?",
+      "options": [
+        "8",
+        "30",
+        "110",
+        "170"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q36",
+      "num": 36,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "Una persona vende plantas por internet a 3500$ cada una. Un mes necesita realizar ventas por un monto superior a 000500$ . A mediados del mes, ha vendido solo 40 plantas y teme que no alcance su meta de ventas, por lo que decide comenzar a vender las plantas a 4500$ cada una por el resto del mes. ¿Cuál de las siguientes inecuaciones permite calcular la cantidad x de plantas que tiene que vender la segunda mitad del mes para alcanzar su meta?",
+      "options": [
+        "0005004500x350040 ",
+        "0005004500x350040 ",
+        "000500x4500350040 ",
+        "000500x4500350040  FORMA 113  2025 - 22 -"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q38",
+      "num": 38,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "Una empresa distribuye bidones de agua de L20 por un valor de 2200$ cada uno. Esta empresa tiene un plan en el que cobra una suscripción mensual de 2000$ , con lo cual el precio de cada uno de esos bidones comprados en el mes se reduce a 1800$ . Otra empresa tiene un servicio similar, pero cobra una suscripción mensual de 2500$ para que el precio de cada bidón del mismo tipo se reduzca a 1600$ . Si una persona se suscribe a alguna de estas empresas, ¿cuál es la cantidad mínima de bidones que tiene que comprar para que le convenga económicamente la segunda empresa?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4 FORMA 113  2025 - 23 -"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q42",
+      "num": 42,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "Considera la función cuadrática f , cuyo dominio es el conjunto de los números reales, definida p or   cbxaxxf 2  . Si los coeficientes b y c son cero, ¿cuál de los siguientes gráficos podría corresponder a la gráfica asociada a f ?",
+      "options": [
+        "B)",
+        "C) D) X Y X Y X Y X Y FORMA 113  2025 - 24 -",
+        "D) X Y X Y X Y X Y FORMA 113  2025 - 24 -",
+        "X Y X Y X Y X Y FORMA 113  2025 - 24 -"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q44",
+      "num": 44,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "Un estudiante debe rendir cuatro pruebas en un semestre, de las cuales ya tiene tres notas, estas son 5 , 6 y 4 . ¿Cuál de las siguientes expresiones permite determinar el promedio que tendría el estudiante con su cuarta nota x ?",
+      "options": [
+        "4 x15 ",
+        "2 x15 ",
+        "2 x5 ",
+        "3 x15  FORMA 113  2025 - 25 -"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q47",
+      "num": 47,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "Los resultados de las elecciones del centro de estudiantes de un colegio est arán muy estrechos. Para tratar de predecir el resultado, se encuesta a algunos estudiantes por su intención de voto. En los gráficos adjuntos se presentan los resultados. Si la cantidad de hombres y mujeres que respondieron la encuesta es la misma , ¿cuál de las siguientes tablas presenta la intención de todos los votos?",
+      "options": [
+        "Frecuencia Ana 61 Juan 62 Sofía 71 Carlos 56 Frecuencia Ana 46 Juan 49 Sofía 59 Carlos 45",
+        "Frecuencia Ana 69 Juan 74 Sofía 89 Carlos 68",
+        "D) Frecuencia Ana 69 Juan 143 Sofía 232 Carlos 300 Ana Juan Sofía Carlos 24 % 16 % 24 % 36 % Por quién votarán las mujeres Carlos Por quién votarán los hombres Frecuencia 45 38 35 32 Ana Juan Sofía FORMA 113  2025 - 26 -",
+        "Frecuencia Ana 69 Juan 143 Sofía 232 Carlos 300 Ana Juan Sofía Carlos 24 % 16 % 24 % 36 % Por quién votarán las mujeres Carlos Por quién votarán los hombres Frecuencia 45 38 35 32 Ana Juan Sofía FORMA 113  2025 - 26 -"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q48",
+      "num": 48,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "Los números 68 , x , 75 , 80 y 70 tienen un promedio de 73 . ¿Cuál es el valor de x ?",
+      "options": [
+        "25,73",
+        "73",
+        "72",
+        "6,58"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q49",
+      "num": 49,
+      "year": "2025",
+      "area": "Geometria",
+      "question": "En la tabla adjunta se presenta la distribución de la cantidad de videojuegos que tiene un grupo de jóvenes de un colegio. ¿Cuál de los siguientes argumentos es verdadero?",
+      "options": [
+        "El promedio de la cantidad de videojuegos es 5,3 , porque es el promedio de los datos centrales.",
+        "El rango de la cantidad de videojuegos es 5 , porque la resta entre la frecuencia mayor y la frecuencia menor es 5 .",
+        "El promedio de la cantidad de videojuegos es 5,3 , porque es el promedio entre la mayor y la menor cantidad de videojuegos.",
+        "La moda de la cantidad de videojuegos es 1 y 6 , porque son los dos datos que más se repiten. Cantidad de videojuegos Frecuencia 1 10 2 8 3 5 4 5 5 8 6 10 FORMA 113  2025 - 27 -"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q51",
+      "num": 51,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "En una encuesta, las personas indicaron su preferencia de estilo musical, eligiendo solo una de entre las opciones rock, pop, rap y reguetón, obteniéndose las respuestas que se presentan en la siguiente tabla: Si se selecciona al azar a una persona de las encuestadas, ¿cuál es la probabilidad de que prefiera el rock?",
+      "options": [
+        "7 1",
+        "13 7",
+        "20 13",
+        "20 7 Estilo Musical Frecuencia Rock 7 Pop 4 Rap 3 Reguetón 6 FORMA 113  2025 - 28 -"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q52",
+      "num": 52,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "En la tabla adjunta se presentan los resultados obtenidos al consultar a un grupo de personas sobre la preferencia de estudiar una de las cuatro carreras profesionales propuestas, tal que cada persona escogió solo una carrera. Si se escoge a una de estas personas al azar, ¿cuál de las siguientes expresiones permite determinar la probabilidad de que esta prefiera una carrera del área de la salud?",
+      "options": [
+        "1100 enfermeríaFrecuenciamedicinaFrecuencia ",
+        "2300 enfermeríaFrecuenciamedicinaFrecuencia ",
+        "23001 enfermeríaFrecuenciamedicinaFrecuencia ",
+        "11001 enfermeríaFrecuenciamedicinaFrecuencia  Carrera profesional Frecuencia Ingeniería civil 900 Periodismo 300 Medicina 700 Enfermería 400 FORMA 113  2025 - 29 -"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q53",
+      "num": 53,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "Considera las siguientes cajas con sus respectivas bolitas grises y blancas. ¿En cuál de las cajas, al extraer al azar una bolita, la probabilidad de que sea gris es mayor que 5,0 y menor que 1 ?",
+      "options": [
+        "En la Caja 1",
+        "En la Caja 2",
+        "En la Caja 3",
+        "En la Caja 4 Caja 1 Caja 2 Caja 3 Caja 4 FORMA 113  2025 - 30 -"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": false,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q54",
+      "num": 54,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "En la tabla adjunta se presentan los resultados de una encuesta realizada a 50 personas sobre su fruta preferida. Si se elige a una de estas personas al azar, ¿cuál es la probabilidad de que la persona elegida tenga como fruta preferida la pera o la naranja?",
+      "options": [
+        "14 1",
+        "25 7",
+        "24 7",
+        "7 1 Fruta Cantidad de personas Uva 13 Pera 6 Manzana 12 Naranja 8 Frutilla 11 FORMA 113  2025 - 31 -"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q55",
+      "num": 55,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "El Fondo Nacional de Salud (Fonasa) es un tipo de previsión de salud, junto con las Isapres y otras instituciones. Las personas solo pueden tener un tipo de previsión y las que tienen Fonasa se categorizan en los tramos A, B, C y D, según su nivel socioeconómico. En los gráficos adjuntos se presenta la distribución de la población de acuerdo con los tipos de previsión y la distribución de la población con Fonasa en los distintos tramos en 2021. Si se escogía al azar a una persona de la población nacional en 2021, ¿cuál es la probabilidad de que hubiera estado clasificada en el tramo A de Fonasa?",
+      "options": [
+        "154, 0",
+        "2 , 0",
+        "25, 0",
+        "97, 0 Adaptado de: Fonasa (2022). Cuenta Pública Participativa 2022. FORMA 113  2025 - 32 -"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": false,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q57",
+      "num": 57,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "Una empresa de repostería usa un diseño de bandejas desmontables de forma circular que se apilan una sobre otra para ir colocando diferentes dulces, tal como se representa en la figura adjunta. Para determinar el diámetro de la bandeja que va ubicada en el piso k , la empresa usa la expresión   p1n2 1k1         , tal que n representa la cantidad de bandejas desmontables que se usarán y p es el diámetro de la bandeja del primer piso, en centímetros. La empresa tiene que preparar un diseño de cinco pisos tal que el diámetro de la bandeja del primer piso mida cm40 . ¿Cuál será el área de la bandeja del tercer piso donde irán los dulces?",
+      "options": [
+        "2cm225",
+        "2cm240",
+        "2cm300",
+        "2cm900 Primer piso FORMA 113  2025 - 33 -"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": false,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q58",
+      "num": 58,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "En el patio de un colegio hay dibujados cuatro círculos de perímetros m12 , m10 , m8 y m4 , que se desean pintar de un color diferente para una actividad extraescolar. Se necesita conocer el área total de estos cuatro círculos para estimar la cantidad de pintura a comprar. ¿Cuál es el área que se necesita conocer?",
+      "options": [
+        "  22 m17 ",
+        "2m81",
+        "2m34",
+        "2m17 FORMA 113  2025 - 34 -"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q59",
+      "num": 59,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "Una piscina con forma de paralelepípedo recto, cuyas medidas son m8 de ancho por m20 de largo y una profundidad de m7,1 , tiene agua hasta una marca ubicada cm20 antes del borde superior. Para aplicar un producto limpiador, una persona desea conocer la cantidad de agua en la piscina. ¿Cuál es el volumen de agua contenido en la piscina?",
+      "options": [
+        "3m240",
+        "3m2,265",
+        "3m28,269",
+        "3m272 FORMA 113  2025 - 35 -"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": false,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q60",
+      "num": 60,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "Una maestranza produce piezas metálicas uniendo dos cilindro s sólidos de la misma altura, tal como se representa en la siguiente figura: ¿Cuál es el volumen de material que se necesita para fabricar esta pieza?",
+      "options": [
+        "3cm5000",
+        "3cm2500",
+        "3cm1250",
+        "3cm560 FORMA 113  2025 - 36 -"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q61",
+      "num": 61,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "Considera un perfil rectangular de m6 de largo hecho de aluminio de mm8,4 de grosor, tal como el que se representa a continuación: ¿Por cuál de los siguientes números hay que multiplicar el largo del perfil, en mm , para obtener la cantidad de aluminio necesaria para confeccionar uno de estos perfiles, e n 3mm ?",
+      "options": [
+        "  8,48,508,46,1018,506,101 ",
+        "  8,428,508,46,1018,506,101 ",
+        "  8,48,508,426,1018,506,101 ",
+        "  8,428,508,426,1018,506,101  FORMA 113  2025 - 37 -"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q62",
+      "num": 62,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "En la siguiente imagen se representa una figura sobre una hoja de papel cuadriculado con dos posiciones marcadas: ¿Cuál de los siguientes movimientos se le debe aplicar a la figura en la posición 1 para que quede en la posición 2?",
+      "options": [
+        "Trasladar la figura cuatro unidades a la izquierda y cuatro unidades hacia abajo.",
+        "Trasladar la figura cuatro unidades a la izquierda y cinco unidades hacia abajo.",
+        "Trasladar la figura tres unidades a la izquierda y tres unidades hacia abajo.",
+        "Trasladar la figura cinco unidades a la izquierda y cuatro unidades hacia abajo. FORMA 113  2025 - 38 -"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q63",
+      "num": 63,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "Considera el siguiente dibujo de un velero en el agua: ¿En cuál de las siguientes opciones se representa el velero y su traslación en el agua?",
+      "options": [
+        "B)",
+        "C)",
+        "D) FORMA 113  2025 - 39 -",
+        "FORMA 113  2025 - 39 -"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q64",
+      "num": 64,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "En el siguiente tablero de ajedrez, el rey se ubica inicialmente en la casilla e2. El rey puede moverse en cualquier dirección y sentido, una casilla a la vez. Cada uno de estos movimientos se puede representar con una flecha que indica la dirección del movimiento con respecto al tablero anterior, por ejemplo, a la flecha le corresponde el siguiente movimiento: ¿Cuál de las siguientes series de movimientos permite que la pieza quede ubicada en la casilla c7, partiendo de e2?",
+      "options": [
+        "B)",
+        "C)",
+        "D) FORMA 113  2025 - 40 -",
+        "FORMA 113  2025 - 40 -"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2025-q65",
+      "num": 65,
+      "year": "2025",
+      "area": "Probabilidad y estadistica",
+      "question": "En la figura adjunta, el punto B es el simétrico del punto A con respecto a la recta L , el punto D es el simétrico del punto C con respecto a la recta L y  50CDB . ¿Cuánto mide uno de los ángulos formados por las rectas DB y CA ?",
+      "options": [
+        "40",
+        "45",
+        "50",
+        "80 FORMA 113  2025 - 41 - Listado de referencias bibliográficas Pregunta Cita bibliográfica 55 Fonasa. (2022). Cuenta pública 2022. Fondo Nacional de Salud (Fonasa). https://www.fonasa.cl/sites/fonasa/adjuntos/CUENTAPUBLICA2022c Proceso de Admisión 2025"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2025",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q01",
+      "num": 1,
+      "year": "2026",
+      "area": "Numeros",
+      "question": "En un juego hay dos tipos de cartas, unas tienen una estrella y las otras tienen un corazón, todas con un número. El puntaje de cada jugador se calcula de la siguiente forma: • Primero se extrae una carta al azar (carta inicial) y su valor se considera como puntaje inicial. • Luego, se extrae otra carta: ◦ si esta tiene una estrella, le debe restar el valor de la carta a su puntaje; ◦ si esta tiene un corazón, le debe sumar el valor de la carta a su puntaje. • El puntaje final se obtiene al repetir el procedimiento anterior, hasta tener diez cartas. Un jugador extrae las siguientes cartas, en este orden: ¿Cuál es el puntaje final del jugador?",
+      "options": [
+        "−14",
+        "−4",
+        "3",
+        "11 - 3 - FORMA 113 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q02",
+      "num": 2,
+      "year": "2026",
+      "area": "Numeros",
+      "question": "Para preparar una receta, una persona necesita 700 gde carne picada, 1 kgde champiñones y 2 cebollas. Para comprar los ingredientes la persona considera los siguientes precios: 100 gde carne picada $900 0,5 kgde champiñón $3500 1 cebolla $200 ¿Cuánto dinero necesita la persona para comprar los ingredientes para esta receta?",
+      "options": [
+        "$4600",
+        "$8100",
+        "$10 000",
+        "$13 700 - 4 - FORMA 113 – 2026"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q03",
+      "num": 3,
+      "year": "2026",
+      "area": "Numeros",
+      "question": "Un auto recorre 5 kmpara ir de la ciudad A a la ciudad B y recorre 25 kmpara ir de la ciudad B a la ciudad C. Si este auto rinde 10 kilómetros por litro, es decir, recorre 10 kmcon 1 litro de bencina, ¿cuál es la cantidad de litros de bencina que se necesitan para hacer el recorrido de la ciudad A hasta la ciudad C de ida y vuelta, pasando ambas veces por la ciudad B?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q04",
+      "num": 4,
+      "year": "2026",
+      "area": "Numeros",
+      "question": "¿Cuál es el número cuya tercera parte es 0,09?",
+      "options": [
+        "2,7",
+        "0,3",
+        "0,27",
+        "0,03 - 5 - FORMA 113 – 2026"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q05",
+      "num": 5,
+      "year": "2026",
+      "area": "Numeros",
+      "question": "Para resolver la expresión − \u00124 6 · −8 12 \u0013 + \u0012 2 30 + 2 60 − 4 10 \u0013 , una persona realiza el siguiente procedimiento, cometiendo un error. Paso 1: simplifica una vez por 2 cada fracción de la expresión, obteniendo − \u00122 3 · −4 6 \u0013 + \u0012 1 15 + 1 30 − 2 5 \u0013 . Paso 2: desarrolla el primer paréntesis − \u00122 3 · −4 6 \u0013 , obteniendo 1. Paso 3: desarrolla el segundo paréntesis \u0012 1 15 + 1 30 − 2 5 \u0013 , obteniendo − 3 10 . Paso 4: desarrolla 1 − 3 10 , obteniendo 7 10 . ¿En cuál de los pasos la persona cometió el error?",
+      "options": [
+        "En el Paso 1",
+        "En el Paso 2",
+        "En el Paso 3",
+        "En el Paso 4 - 6 - FORMA 113 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q11",
+      "num": 11,
+      "year": "2026",
+      "area": "Numeros",
+      "question": "La escalera de un edificio tiene 20 peldaños entre piso y piso. La altura de cada uno de estos peldaños es de 15 cm. Una persona empieza a subir por la escalera de este edificio, desde el primer peldaño del primer piso. Si n es la cantidad de peldaños que la persona ha subido, ¿cuál de las siguientes condiciones garantiza que la persona llegó a un nuevo piso?",
+      "options": [
+        "Que 15 · n es divisible por 20.",
+        "Que 15 + nes divisible por 20.",
+        "Que 15 · n es divisible por 300.",
+        "Que 15 + nes divisible por 300. - 7 - FORMA 113 – 2026"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q13",
+      "num": 13,
+      "year": "2026",
+      "area": "Numeros",
+      "question": "Algunas calculadoras tienen botones que permiten marcar dos ceros o tres ceros a la vez, tal como la que se representa en la imagen adjunta. De esta manera, para marcar el número 1000, basta con presionar los siguientes botones una vez cada uno: ¿Cuál de las siguientes acciones permite marcar el número 1010?",
+      "options": [
+        "Presionar una vez y siete veces .",
+        "Presionar una vez y ocho veces .",
+        "Presionar una vez , dos veces y dos veces .",
+        "Presionar una vez , tres veces y una vez . - 8 - FORMA 113 – 2026"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q14",
+      "num": 14,
+      "year": "2026",
+      "area": "Numeros",
+      "question": "Una persona realiza el siguiente procedimiento para factorizar 12 + 20, cometiendo un error. Paso 1: escribe cada sumando como el producto de dos números, obteniendo 4 · 3 + 4· 5. Paso 2: descompone cada factor en números primos, obteniendo 2 · 2 · 3 + 2· 2 · 5. Paso 3: escribe las potencias correspondientes, obteniendo 22 · 3 + 22 · 5. Paso 4: factoriza la suma, obteniendo 24 (3 + 5). ¿En cuál de los pasos la persona cometió el error?",
+      "options": [
+        "En el Paso 1",
+        "En el Paso 2",
+        "En el Paso 3",
+        "En el Paso 4 - 9 - FORMA 113 – 2026"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q15",
+      "num": 15,
+      "year": "2026",
+      "area": "Numeros",
+      "question": "Leonardo juega el siguiente juego: Se elige un número y luego se extraen dos tarjetas con operaciones: la primera de un mazo de color blanco y la segunda de un mazo de color gris. La operación de la tarjeta blanca se aplica sobre el número elegido y la operación de la tarjeta gris sobre el resultado obtenido. Leonardo extrae las siguientes tarjetas: Si eligió el número 2, ¿cuál de las siguientes expresiones corresponde a la correcta aplicación de las instrucciones de las tarjetas en el orden en que las sacó?",
+      "options": [
+        "(2 − 5)3",
+        "3 · (2 − 5)",
+        "3 · (5 − 2)",
+        "(5 − 2)3 - 10 - FORMA 113 – 2026"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q18",
+      "num": 18,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "Si p es el 25 %de k, ¿cuál de las siguientes expresiones representa el valor de k?",
+      "options": [
+        "1 · p 25",
+        "1 · p 75",
+        "100 · p 75",
+        "100 · p 25"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q19",
+      "num": 19,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "¿Cuánto es el 75 %del 75 %de 100?",
+      "options": [
+        "5625",
+        "150",
+        "56,25",
+        "1,5 - 11 - FORMA 113 – 2026"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q22",
+      "num": 22,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "Se estimó que en el 2022 la cantidad de personas que les gustaba jugar videojuegos era de 3000 millones. Si en el 2023 la cantidad de personas que les gustaba jugar videojuegos aumentó en 120 millones respecto al año anterior, ¿cuál es el porcentaje de aumento de ese año, respecto del año anterior?",
+      "options": [
+        "2,5 %",
+        "4 %",
+        "25 %",
+        "40 % - 12 - FORMA 113 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q23",
+      "num": 23,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "En el siguiente gráfico se presenta la electricidad total generada por diferentes tecnologías en Chile durante 2021. Generadoras de Chile (2022). Cifras destacadas del sector generación en 2021. ¿Cuál de las siguientes expresiones corresponde a la electricidad total generada durante 2020?",
+      "options": [
+        "80 155 104,5 GWh",
+        "80 155· 100 104,5 GWh",
+        "80 155· 104,5 100 GWh",
+        "80 155 104,5 · 100 GWh - 13 - FORMA 113 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q24",
+      "num": 24,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "Una tienda vendía un producto a $25 000. Como no se vendía lo suficiente, la tienda rebajó su precio un 20 %. Sin embargo, el precio rebajado no aumentó lo suficiente las ventas, por lo que rebajaron un 25 %el precio ya rebajado. ¿Cuál de las siguientes expresiones representa el precio del producto luego de los dos descuentos, en pesos?",
+      "options": [
+        "0,2 · 0,25 · 25 000",
+        "(0,2 + 0,25) · 25 000",
+        "0,8 · 0,75 · 25 000",
+        "(0,8 + 0,75) · 25 000"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": false,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q25",
+      "num": 25,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "El sueldo líquido mensual de una persona es de $M. Todos los meses, gasta las tres quintas partes y el resto lo ahorra. Si el sueldo líquido de la persona se mantiene fijo durante doce meses, ¿cuál de las siguientes expresiones representa el ahorro, en pesos, de la persona en ese periodo de tiempo?",
+      "options": [
+        "2 5M",
+        "24 5 M",
+        "36 5 M",
+        "57 5 M - 14 - FORMA 113 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q26",
+      "num": 26,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "El ingreso y la ganancia de una empresa, ambos en pesos, se modelan con respecto a la cantidad de artículos producidos (x) de la siguiente manera: • Ingreso: I(x) = 1000x + 600 000 • Ganancia: G(x) = 750x + 450 000 Considera que la ganancia al producir x artículos se puede calcular como G(x) = I(x)− C(x), tal que C es la función de costo. ¿Cuál es la función costo de la empresa?",
+      "options": [
+        "C(x) = 250x + 150 000",
+        "C(x) = 250x− 150 000",
+        "C(x) = 1750x− 1 050 000",
+        "C(x) = 1750x + 1 050 000"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q27",
+      "num": 27,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "Una pista de baile de forma rectangular tiene dimensiones de (3x + 4)metros de largo y (2x − 9) metros de ancho. Se cuenta con (20x + 20)metros de una cinta luminosa para demarcar el borde de la pista de baile. ¿Cuántos metros de cinta luminosa sobran luego de demarcar el borde de la pista?",
+      "options": [
+        "(10x + 30)metros",
+        "(10x + 10)metros",
+        "(15x + 15)metros",
+        "(15x + 25)metros - 15 - FORMA 113 – 2026"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": false,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q28",
+      "num": 28,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "Una persona descubrió que para lograr el color que le gusta para el glaseado de galletas, debe mezclar gotas del colorante rojo con gotas del colorante amarillo en la razón 3 : 5, respectivamente. Si la persona usa 30 gotas de colorante amarillo para preparar el glaseado que le gusta, ¿cuántas gotas de color rojo deberá agregar para obtener el color que le gusta?",
+      "options": [
+        "18",
+        "28",
+        "30",
+        "32 - 16 - FORMA 113 – 2026"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q30",
+      "num": 30,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "Para cierta marca de alimentos, la cantidad p de kilogramos de comida que debe comer un perro adulto, durante el día, se modela mediante la expresión p = m· 0,025, tal que m es la masa del perro, en kilogramos. ¿Cómo se puede interpretar 0,025 en el modelo anterior?",
+      "options": [
+        "Que el perro adulto debe consumir 25 gramos de alimento por cada kilogramo de su masa.",
+        "Que el perro adulto debe consumir 250 gramos de alimento por cada kilogramo de su masa.",
+        "Que la masa de un perro adulto es 25 veces la cantidad de alimento que debe consumir.",
+        "Que la masa de un perro adulto es 250 veces la cantidad de alimento que debe consumir."
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q31",
+      "num": 31,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "En la información nutricional de un paquete de galletas se indica que una porción de 4 galletas contiene 180 kilocalorías. Para calcular cuántas kilocalorías K se ingieren al consumir este tipo de galletas se puede utilizar la fórmula K = 180x 4 , tal que x es la cantidad de galletas consumidas. Una persona consumió una cantidad de galletas de este tipo junto a un vaso de jugo que contiene 90 kilocalorías, ingiriendo en total 405 kilocalorías. ¿Cuántas galletas consumió esta persona?",
+      "options": [
+        "2",
+        "7",
+        "9",
+        "11 - 17 - FORMA 113 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q32",
+      "num": 32,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "Daniela, con el dinero que tiene, compra en un bazar 7 lápices pasta del mismo tipo y le sobran $900. En el mismo bazar, Marcos, con el dinero que tiene, compra 6 lápices pasta del mismo tipo que Daniela y le sobran $2330. Si Daniela y Marcos tienen la misma cantidad de dinero, ¿cuál es el precio de un lápiz pasta del mismo tipo?",
+      "options": [
+        "$110",
+        "$248",
+        "$1430",
+        "$3230"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q33",
+      "num": 33,
+      "year": "2026",
+      "area": "Algebra y funciones",
+      "question": "En una ciudad se registró la cantidad de nacimientos desde el año 2019 al año 2021. Al relacionar estas cantidades con la cantidad x (en miles) de nacimientos del año 2018, se encontraron las siguientes relaciones: Año Cantidad de nacimientos (en miles) 2019 5x + 4 2020 3x + 5 2021 2 − x Si en esta ciudad, durante el año 2019 hubo una cantidad menor de nacimientos que la suma de los años 2020 y 2021, ¿cuál de las siguientes relaciones representa la información entregada?",
+      "options": [
+        "5x + 4< 2x + 7",
+        "5x + 4< 4x + 7",
+        "5x + 4> 2x + 7",
+        "5x + 4> 4x + 7 - 18 - FORMA 113 – 2026"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q34",
+      "num": 34,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "Dos jóvenes quieren iniciar un emprendimiento de fabricación y venta de helados. Las proyecciones de los gastos y de los ingresos, ambos acumulados, que deberían tener en los primeros 12 meses, se presentan en el siguiente gráfico: ¿Qué representa el punto donde las rectas se intersecan?",
+      "options": [
+        "Es el mes donde se obtiene la mayor cantidad de ingresos acumulados.",
+        "Es el mes donde los ingresos acumulados igualan a los gastos acumulados.",
+        "Es el mes desde cuando el emprendimiento no tendrá más gastos acumulados.",
+        "Es el mes donde los ingresos acumulados son iguales a los gastos iniciales del emprendimiento. - 19 - FORMA 113 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q35",
+      "num": 35,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "Una persona gasta $13 500en la compra de 8 kgde fruta entre manzanas y peras, pagando $1500 por el kilogramo de manzanas y $1800 por el kilogramo de peras. El siguiente sistema de ecuaciones modela la situación anterior: 1500x + 1800y = 13 500 x + y = 8 ¿Qué representa la variable x en este sistema?",
+      "options": [
+        "La cantidad de peras compradas",
+        "La cantidad de manzanas compradas",
+        "La cantidad de kilogramos de peras compradas",
+        "La cantidad de kilogramos de manzanas compradas - 20 - FORMA 113 – 2026"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q40",
+      "num": 40,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "Un estanque contiene 720 litros de agua y, cada vez que se abre la llave, este se vacía a razón de 3 litros por minuto. ¿Cuál de las siguientes funciones modela la cantidad de agua que queda en el estanque por cada minuto que la llave se encuentra abierta, tal quex son los minutos transcurridos desde que se abre la llave?",
+      "options": [
+        "f(x) =−3x + 720",
+        "g(x) = 3x− 720",
+        "p(x) = x − 720 3",
+        "h(x) = −x + 720 3"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q41",
+      "num": 41,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "Una persona dispone de un terreno de forma rectangular. Se sabe que el terreno tiene un área de 192 m2 y que su ancho mide 4 mmenos que su largo. ¿Cuánto mide el largo del terreno?",
+      "options": [
+        "12 m",
+        "16 m",
+        "20 m",
+        "24 m - 21 - FORMA 113 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q42",
+      "num": 42,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "Considera la función cuadrática f con dominio el conjunto de los números reales. En la siguiente figura se representa la gráfica de f con su eje de simetría. 7 1 5 X Y ¿Para cuál de los siguientes valores de x se tiene que f(x) = 7?",
+      "options": [
+        "4",
+        "−3",
+        "−4",
+        "−5"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": false,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q43",
+      "num": 43,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "La distancia d, en metros, que recorre un móvil que parte del reposo está dada por d(t) = a· t2 2 , tal que t es el tiempo que demora en recorrer esa distancia, en segundos, y a es la aceleración del móvil, en m s2 . Si el móvil acelera a 10 m s2 , ¿cuántos segundos tardará en recorrer una distancia de 45 metros?",
+      "options": [
+        "3",
+        "4,5",
+        "√ 45",
+        "9 - 22 - FORMA 113 – 2026"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": false,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q45",
+      "num": 45,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "En la figura adjunta se representa un trapecio rectángulo de área 0,76 m2. ¿Cuál es la medida de su altura?",
+      "options": [
+        "1,444 m",
+        "0,80 m",
+        "0,722 m",
+        "0,40 m - 23 - FORMA 113 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q47",
+      "num": 47,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "En la siguiente imagen se presenta una red de un cubo. Se construye el siguiente cuerpo usando algunos cubos como el anterior. ¿Cuántos cubos se utilizaron en total para construir el cuerpo anterior?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9 - 24 - FORMA 113 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q48",
+      "num": 48,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "Una empresa fabrica y vende cajas cúbicas de madera fina para almacenar joyas. El precio de venta de las cajas se determina como $800 · k, tal que se cobra $800 por cada cm2 del área exterior de las cajas. Considera que el área de una cara exterior de estas cajas es de 25 cm2. ¿Cuál de las siguientes expresiones representa k?",
+      "options": [
+        "6 · 52",
+        "6 · 54",
+        "6 · 56",
+        "6 · 512 - 25 - FORMA 113 – 2026"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q49",
+      "num": 49,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "Considera el siguiente procedimiento: ¿Cuál de las siguientes figuras se obtendrá al desdoblarse y estirarse el recorte?",
+      "options": [
+        "B)",
+        "C)",
+        "D) - 26 - FORMA 113 – 2026",
+        "- 26 - FORMA 113 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q50",
+      "num": 50,
+      "year": "2026",
+      "area": "Geometria",
+      "question": "En el plano cartesiano de la figura adjunta se representan los puntos cardinales. ¿En cuál de las siguientes opciones las transformaciones isométricas aplicadas a la flecha negra permite que la imagen obtenida sea una flecha que apunta al oeste?",
+      "options": [
+        "Una reflexión con respecto al eje X y luego, una reflexión con respecto a la recta y = x.",
+        "Una reflexión con respecto al origen del plano cartesiano y luego, una rotación en 45◦ en sentido horario con centro el origen del plano cartesiano.",
+        "Una reflexión con respecto al eje Y.",
+        "Una traslación según el vector (−3, −3). - 27 - FORMA 113 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q51",
+      "num": 51,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "Considera los vectores representados en el plano cartesiano. 2 5 1 X Y 3 5 −5 −2 → u → v ¿Cuál de las siguientes afirmaciones es verdadera, respecto a los vectores del gráfico?",
+      "options": [
+        "Tienen distinta dirección.",
+        "Tienen distinto sentido.",
+        "Tienen distinta magnitud.",
+        "Están en el semieje positivo del eje X. - 28 - FORMA 113 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q52",
+      "num": 52,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "En la cuadrícula de la figura se representa el plano de un videojuego. En ella se ubica un tesoro y los pies de una persona, ambos al centro de las casillas. ¿Cuál de los siguientes vectores lleva a la persona sobre la casilla del tesoro?",
+      "options": [
+        "(8, −4)",
+        "(−4, 2)",
+        "(10, −6)",
+        "(2, −2) - 29 - FORMA 113 – 2026"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q53",
+      "num": 53,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "Un tipo de migración exterior corresponde al cambio de residencia hacia un país diferente, por ejemplo, la migración desde Chile hacia España. A aquellas personas migrantes que llegan a habitar un país son considerados inmigrantes, mientras que a aquellas personas que abandonan un país, se les considera emigrantes. En el siguiente gráfico se presenta información de las migraciones exteriores en España desde el 2011 hasta el 2021. Adaptada de Indicadores demográficos básicos. INE. (2021). Evolución de las migraciones interiores (2008–2021). (Reproducido en Atlas Nacional de España, por Instituto Geográfico Nacional (IGN)). ¿En qué año hubo mayor cantidad de migrantes exteriores en España?",
+      "options": [
+        "2013",
+        "2015",
+        "2018",
+        "2019 - 30 - FORMA 113 – 2026"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q54",
+      "num": 54,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "El encargado del personal de una empresa extrae de la ficha de contratación las edades de las personas que trabajan en esta empresa. Luego, resume la distribución de las edades en la siguiente tabla: Edad en años Cantidad 18 − 24 5 25 − 34 7 35 − 44 14 45 − 54 11 55 o más 13 La empresa dará un beneficio educacional según la información de la tabla a los trabajadores cuya edad no supere los 34 años. ¿Cuál es la mayor cantidad de trabajadores que podría acceder a ese beneficio?",
+      "options": [
+        "6",
+        "7",
+        "9",
+        "12 - 31 - FORMA 113 – 2026"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q55",
+      "num": 55,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "Una persona está jugando un nuevo juego en línea en el cual se pueden escoger distintos personajes. Cada personaje tiene cinco habilidades, con un puntaje de 0 a 100 en cada habilidad. En el siguiente diagrama se representan las habilidades de uno de los personajes. ¿Cuál es la habilidad más débil de este personaje?",
+      "options": [
+        "Fuerza mágica",
+        "Defensa mágica",
+        "Defensa física",
+        "Fuerza física - 32 - FORMA 113 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q56",
+      "num": 56,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "Se realizó una encuesta a los estudiantes de IV ◦ medio de un establecimiento educacional, sobre la cantidad de años que llevan en dicho establecimiento. En la siguiente tabla se presentan los datos de dicha encuesta. Cantidad de años Cantidad de estudiantes 1 24 2 15 3 12 4 8 5 12 6 29 7 14 8 9 9 o más 16 ¿Cuántos estudiantes encuestados llevan 5 años o más en el establecimiento educacional?",
+      "options": [
+        "12",
+        "35",
+        "68",
+        "80 - 33 - FORMA 113 – 2026"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q57",
+      "num": 57,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "Según la Encuesta Nacional de Empleos se considera como “ocupado” a aquellas personas, en edad de trabajar, que durante la semana de referencia dedicaron al menos una hora para producir bienes o servicios a cambio de una remuneración o beneficio. Considera la siguiente información: ¿Cuál de las siguientes representaciones gráficas corresponde a la información entregada?",
+      "options": [
+        "B)",
+        "C)",
+        "D) - 34 - FORMA 113 – 2026",
+        "- 34 - FORMA 113 – 2026"
+      ],
+      "answer": 3,
+      "answerKey": "D",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q59",
+      "num": 59,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "Considera la siguiente tabla: Valor Frecuencia 0 P 1 Q 2 R ¿Cuál de las siguientes expresiones permite determinar el promedio de los valores?",
+      "options": [
+        "P + Q + 2· R P + Q + R",
+        "R P + Q + R",
+        "0 · P + 1· Q + 2· R P + Q + R",
+        "2 · R P + Q + R - 35 - FORMA 113 – 2026"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q60",
+      "num": 60,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "Una persona plantó un brote de dos centímetros y lo fotografió durante cinco semanas para dejar registro de su crecimiento, tal como se representa a continuación: ¿Cuántos centímetros, en promedio, creció el brote por semana?",
+      "options": [
+        "2 cm",
+        "2,4 cm",
+        "3 cm",
+        "7,5 cm - 36 - FORMA 113 – 2026"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q61",
+      "num": 61,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "En el siguiente gráfico se representa la distribución de la cantidad de horas extras realizadas por 140 trabajadores durante el mes de mayor demanda productiva de una empresa. Por cada hora extra se paga $15 000. ¿Cuál fue el pago más frecuente que realizó la empresa por concepto de horas extras en ese mes?",
+      "options": [
+        "$15 000",
+        "$30 000",
+        "$45 000",
+        "$60 000 - 37 - FORMA 113 – 2026"
+      ],
+      "answer": 0,
+      "answerKey": "A",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q62",
+      "num": 62,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "Considera el experimento descrito en la siguiente infografía para calcular el tiempo de reacción, en segundos, de una persona. Ciencianet. (2008). Descubre tu tiempo de reacción. (Reproducido de Mide tu reacción, por C. Torres, en Edumate Perú). Una persona efectuó el experimento y en el paso cuatro anotó los siguientes números: 10 cm 9 cm 15 cm 8 cm 18 cm ¿Cuál es el tiempo de reacción de la persona?",
+      "options": [
+        "0,10 s",
+        "0,14 s",
+        "0,16 s",
+        "0,17 s - 38 - FORMA 113 – 2026"
+      ],
+      "answer": 2,
+      "answerKey": "C",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    },
+    {
+      "id": "m1-2026-q64",
+      "num": 64,
+      "year": "2026",
+      "area": "Probabilidad y estadistica",
+      "question": "El memorice es un juego que está compuesto por varias tarjetas. Cada una de estas tiene una figura que está repetida una sola vez en otra tarjeta, de tal manera que se forman pares de cada una de estas figuras. Para jugar, las tarjetas se deben disponer sobre una superficie de manera que ninguna de las figuras de las tarjetas sea visible. Luego, la persona que juega debe voltear una tarjeta y, después, debe dar vuelta una segunda tarjeta con la finalidad de encontrar el par de la primera. Una persona dispone sobre la mesa20 tarjetas de este juego y voltea por primera vez una de las tarjetas, en la cual aparece un rayo, tal como se presenta en la siguiente imagen. Si esta persona no conoce la figura de ninguna de las otras tarjetas dispuestas, ¿cuál es la probabilidad de que esta persona encuentre el segundo rayo al dar vuelta al azar la segunda tarjeta?",
+      "options": [
+        "1 20",
+        "1 19",
+        "2 20",
+        "2 19 - 39 - Listado de referencias bibliográficas Pregunta Cita bibliográfica 23 Generadoras de Chile. (2022). Cifras destacadas del sector generación en 2021. https://generadoras.cl/reporte-anual-2022/. 53 Instituto Nacional de Estadística (INE). (2021). Evolución de las migraciones interiores (2008– 2021). Como se cita en Instituto Geográfico Nacional (IGN), Atlas Nacional de España. 62 CienciaNet. (2008). Descubre tu tiempo de reacción. Recuperado de http://ciencianet.com/treaccion.html. FORMA 113 – 2026 - 40 - @demre.uchile DEMRE U.chile DEMRE Uchile/demre.uchile /DEMREuchile/demre.uchile /demre_uchiledemre.cl"
+      ],
+      "answer": 1,
+      "answerKey": "B",
+      "countsForScore": true,
+      "source": "PAES 2026",
+      "difficulty": "Oficial"
+    }
+  ],
+  "generatedFrom": "PAES oficial DEMRE + clavijero"
+}

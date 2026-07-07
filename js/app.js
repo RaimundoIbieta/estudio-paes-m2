@@ -12,8 +12,12 @@ import { renderAdmin } from './pages/admin.js';
 import { renderBiblioteca } from './pages/biblioteca.js';
 import { renderLanding } from './pages/landing.js';
 import { renderSubscription } from './pages/subscription.js';
-import { startPathEssay } from './essay-engine.js';
+import { CACHE_VERSION } from './config.js';
 import { getAppShellMode, getRedirectForGuest, getRedirectIfLoggedIn } from './guards.js';
+
+async function loadEssayEngine() {
+  return import(`./essay-engine.js?v=${CACHE_VERSION}`);
+}
 
 const view = document.getElementById('view');
 const nav = document.getElementById('main-nav');
@@ -105,12 +109,14 @@ async function render() {
       case 'ensayos':
         await renderEssays(view);
         break;
-      case 'ensayo':
+      case 'ensayo': {
+        const { startPathEssay } = await loadEssayEngine();
         if (params[0] === 'diagnostico') await startPathEssay(view, 'diagnostic');
         else if (params[0] === 'progreso') await startPathEssay(view, 'checkpoint');
         else if (params[0] === 'unidad' && params[1]) await startPathEssay(view, 'unit', params[1]);
         else await renderEssays(view);
         break;
+      }
       case 'progreso':
         await renderProgress(view);
         break;

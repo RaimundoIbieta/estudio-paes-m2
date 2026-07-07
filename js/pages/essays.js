@@ -1,10 +1,12 @@
 import { getCurrentTest, loadTests } from '../test-context.js';
 import { getGate } from '../learning-path.js';
 import { getOfficialExams } from './biblioteca.js';
+import { loadBank } from '../question-bank.js';
+import { CACHE_VERSION } from '../config.js';
 
 export async function loadExercises() {
-  const { fetchTestData } = await import('../test-context.js');
-  return fetchTestData(null, 'exercises');
+  const { loadQuestions } = await import('../question-bank.js');
+  return loadQuestions(getCurrentTest());
 }
 
 export async function loadEssays() {
@@ -28,13 +30,19 @@ export async function renderEssays(container) {
   const essays = await loadEssays();
   const gate = getGate(testId);
   const official = await getOfficialExams(testId);
+  const bank = await loadBank(testId);
+  const totalQ = bank ? bank.questions.length : 0;
+  const poolQ = bank?.poolCount || 0;
+  const bankInfo = bank
+    ? `${totalQ.toLocaleString('es-CL')} preguntas (${poolQ.toLocaleString('es-CL')} generadas + oficiales) · puntaje segun clavijero`
+    : 'Banco en construccion';
 
   const pruebas = official.filter(o => o.kind === 'prueba');
   const clavijeros = official.filter(o => o.kind === 'clavijero');
 
   container.innerHTML = `
     <h1 class="page-title">Ensayos — ${test?.short || ''}</h1>
-    <p class="page-sub">Ensayos interactivos de la plataforma + pruebas PAES oficiales DEMRE en PDF.</p>
+    <p class="page-sub">Ensayos interactivos de la plataforma + pruebas PAES oficiales DEMRE en PDF. ${bankInfo}.</p>
 
     <section class="card" style="margin-bottom:1rem">
       <h3>Ruta de estudio (interactivo)</h3>
@@ -100,11 +108,12 @@ async function startClassicEssay(container, essayId) {
   const essay = essays.find(e => e.id === essayId);
   if (!essay) return;
 
-  const all = await loadExercises();
+  const { loadQuestions, normalizeQuestion } = await import('../question-bank.js');
+  const all = (await loadQuestions(getCurrentTest())).map(normalizeQuestion);
   const questions = essay.questionIds.map(id => all.find(q => q.id === id)).filter(Boolean);
   const testId = getCurrentTest();
 
-  const { runTimedEssay } = await import('../essay-engine.js');
+  const { runTimedEssay } = await import(`../essay-engine.js?v=${CACHE_VERSION}`);
   await runTimedEssay(container, {
     title: essay.title,
     description: essay.description,

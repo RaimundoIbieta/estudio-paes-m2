@@ -109,13 +109,19 @@ export async function renderLesson(container, id) {
       ${lesson.sections.map(renderSectionHtml).join('')}
     </article>
     <div style="margin-top:1rem;display:flex;gap:0.75rem;flex-wrap:wrap">
-      <button class="btn btn-primary" id="finish-lesson">Terminé esta unidad → Mini ensayo</button>
-      <a href="#/ejercicios" class="btn btn-secondary" data-route>Practicar ejercicios</a>
+      <button class="btn btn-secondary" id="unit-practice">Ejercicios de esta unidad (feedback inmediato)</button>
+      <button class="btn btn-primary" id="finish-lesson">Termine esta unidad → Mini ensayo</button>
     </div>
+    <p class="topic-meta" style="margin-top:0.75rem">Los ejercicios corrigen al instante. El mini ensayo es cronometrado y solo muestra resultados al final.</p>
   `;
 
   container.querySelector('#finish-lesson').addEventListener('click', () => {
     completeLesson(testId, id);
     location.hash = `#/ensayo/unidad/${id}`;
+  });
+
+  container.querySelector('#unit-practice').addEventListener('click', async () => {
+    const { startUnitPractice } = await import('./exercises.js');
+    startUnitPractice(container, id);
   });
 }

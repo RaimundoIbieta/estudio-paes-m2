@@ -115,6 +115,7 @@ export async function getStudyRoadmap(testId) {
       label: 'Ensayo diagnóstico',
       done: tp.diagnosticDone,
       score: tp.diagnosticScore,
+      paes: tp.diagnosticPaes,
       current: gate.type === 'diagnostic',
     },
   ];
@@ -148,51 +149,55 @@ export async function getStudyRoadmap(testId) {
   return { steps, gate, lessons, testProgress: tp };
 }
 
-export function recordDiagnostic(testId, score) {
+export function recordDiagnostic(testId, result) {
+  const payload = typeof result === 'number'
+    ? { score: result }
+    : result;
   updateTestProgress(testId, {
     diagnosticDone: true,
-    diagnosticScore: score,
+    diagnosticScore: payload.score,
+    diagnosticP: payload.puntajeP ?? null,
+    diagnosticPaes: payload.puntajePaes ?? null,
     lastGate: 'study',
   });
 }
 
-export function recordUnitEssay(testId, lessonId, score) {
+export function recordUnitEssay(testId, lessonId, result) {
   const tp = getTestProgress(testId);
-  const unitEssays = { ...(tp.unitEssays || {}), [lessonId]: { score, date: new Date().toISOString() } };
+  const payload = typeof result === 'number' ? { score: result } : result;
+  const unitEssays = {
+    ...(tp.unitEssays || {}),
+    [lessonId]: {
+      score: payload.score,
+      puntajeP: payload.puntajeP ?? null,
+      puntajePaes: payload.puntajePaes ?? null,
+      date: new Date().toISOString(),
+    },
+  };
   updateTestProgress(testId, { unitEssays, lastGate: 'study' });
 }
 
-export function recordCheckpoint(testId, score) {
+export function recordCheckpoint(testId, result) {
   const tp = getTestProgress(testId);
-  const checkpoints = [...(tp.checkpoints || []), { score, date: new Date().toISOString() }];
+  const payload = typeof result === 'number' ? { score: result } : result;
+  const checkpoints = [...(tp.checkpoints || []), {
+    score: payload.score,
+    puntajeP: payload.puntajeP ?? null,
+    puntajePaes: payload.puntajePaes ?? null,
+    date: new Date().toISOString(),
+  }];
   updateTestProgress(testId, { checkpoints, lastGate: 'study' });
 }
 
 export async function buildQuestionSet(testId, { type, lessonId = null, count }) {
-  const exercises = await fetchTestData(testId, 'exercises');
-  if (!exercises.length) return [];
-
-  let pool = [...exercises];
+  let lessonArea = null;
   if (lessonId) {
     const lessons = await loadLessons(testId);
-    const lesson = lessons.find(l => l.id === lessonId);
-    if (lesson) {
-      const areaPool = exercises.filter(e => e.area === lesson.area);
-      if (areaPool.length) pool = [...areaPool, ...exercises];
-    }
+    lessonArea = lessons.find(l => l.id === lessonId)?.area || null;
   }
-
-  const picked = [];
-  const shuffled = [...pool].sort(() => Math.random() - 0.5);
-  while (picked.length < count) {
-    for (const q of shuffled) {
-      if (picked.length >= count) break;
-      picked.push(q);
-    }
-    if (shuffled.length === 0) break;
-  }
-
-  return picked.slice(0, count);
+  const { buildQuestionSet: fromBank, normalizeQuestion } = await import('./question-bank.js');
+  const raw = await fromBank(testId, { type, lessonArea, count });
+  return raw.map(normalizeQuestion);
 }
 
 export function getEssayMeta(type, test) {

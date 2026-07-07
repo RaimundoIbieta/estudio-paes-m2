@@ -1,4 +1,4 @@
-import { APP_CONFIG } from './config.js';
+import { APP_CONFIG, CACHE_VERSION } from './config.js';
 import { getTestProgress, updateTestProgress } from './storage.js';
 import { fetchTestData } from './test-context.js';
 
@@ -195,7 +195,7 @@ export async function buildQuestionSet(testId, { type, lessonId = null, count })
     const lessons = await loadLessons(testId);
     lessonArea = lessons.find(l => l.id === lessonId)?.area || null;
   }
-  const { buildQuestionSet: fromBank, normalizeQuestion } = await import('./question-bank.js');
+  const { buildQuestionSet: fromBank, normalizeQuestion } = await import(`./question-bank.js?v=${CACHE_VERSION}`);
   const raw = await fromBank(testId, { type, lessonArea, count });
   return raw.map(normalizeQuestion);
 }

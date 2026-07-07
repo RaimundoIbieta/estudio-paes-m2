@@ -1,11 +1,10 @@
 import { getCurrentTest, loadTests } from '../test-context.js';
 import { getGate } from '../learning-path.js';
 import { getOfficialExams } from './biblioteca.js';
-import { loadBank } from '../question-bank.js';
 import { CACHE_VERSION } from '../config.js';
 
 export async function loadExercises() {
-  const { loadQuestions } = await import('../question-bank.js');
+  const { loadQuestions } = await import(`../question-bank.js?v=${CACHE_VERSION}`);
   return loadQuestions(getCurrentTest());
 }
 
@@ -30,6 +29,7 @@ export async function renderEssays(container) {
   const essays = await loadEssays();
   const gate = getGate(testId);
   const official = await getOfficialExams(testId);
+  const { loadBank } = await import(`../question-bank.js?v=${CACHE_VERSION}`);
   const bank = await loadBank(testId);
   const totalQ = bank ? bank.questions.length : 0;
   const poolQ = bank?.poolCount || 0;
@@ -108,7 +108,7 @@ async function startClassicEssay(container, essayId) {
   const essay = essays.find(e => e.id === essayId);
   if (!essay) return;
 
-  const { loadQuestions, normalizeQuestion } = await import('../question-bank.js');
+  const { loadQuestions, normalizeQuestion } = await import(`../question-bank.js?v=${CACHE_VERSION}`);
   const all = (await loadQuestions(getCurrentTest())).map(normalizeQuestion);
   const questions = essay.questionIds.map(id => all.find(q => q.id === id)).filter(Boolean);
   const testId = getCurrentTest();

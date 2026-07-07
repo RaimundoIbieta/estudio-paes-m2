@@ -1,11 +1,12 @@
 import { getCurrentTest } from '../test-context.js';
-import { loadQuestions, normalizeQuestion } from '../question-bank.js';
+import { CACHE_VERSION } from '../config.js';
 import { runPracticeQuiz } from '../practice-quiz.js';
 
 const PAGE_SIZE = 12;
 
 export async function loadExercises() {
   const testId = getCurrentTest();
+  const { loadQuestions, normalizeQuestion } = await import(`../question-bank.js?v=${CACHE_VERSION}`);
   const questions = await loadQuestions(testId);
   return questions.map(normalizeQuestion);
 }

@@ -1,5 +1,7 @@
 import { fetchTestData } from './test-context.js';
-import { filterUsableQuestions, sanitizeQuestion } from './question-quality.js';
+import { CACHE_VERSION } from './config.js';
+
+const { filterUsableQuestions, sanitizeQuestion } = await import(`./question-quality.js?v=${CACHE_VERSION}`);
 
 const bankCache = new Map();
 const poolCache = new Map();

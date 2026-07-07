@@ -1,0 +1,33 @@
+[
+  {
+    "id": "ensayo-1",
+    "title": "Ensayo M2 — Práctica 1",
+    "description": "15 preguntas variadas con tiempo sugerido de 30 minutos (ritmo PAES).",
+    "durationMinutes": 30,
+    "questionIds": [
+      "geo-01", "geo-02", "alg-01", "num-01", "prob-01",
+      "geo-03", "alg-02", "geo-04", "num-02", "alg-03",
+      "geo-05", "prob-02", "alg-04", "geo-06", "alg-05"
+    ]
+  },
+  {
+    "id": "ensayo-2",
+    "title": "Ensayo M2 — Geometría intensiva",
+    "description": "10 preguntas de geometría. Tiempo sugerido: 20 minutos.",
+    "durationMinutes": 20,
+    "questionIds": [
+      "geo-01", "geo-02", "geo-03", "geo-04", "geo-05", "geo-06",
+      "geo-01", "geo-02", "geo-03", "geo-05"
+    ]
+  },
+  {
+    "id": "ensayo-3",
+    "title": "Ensayo M2 — Álgebra y números",
+    "description": "10 preguntas de álgebra y números. Tiempo sugerido: 20 minutos.",
+    "durationMinutes": 20,
+    "questionIds": [
+      "alg-01", "alg-02", "alg-03", "alg-04", "alg-05",
+      "num-01", "num-02", "alg-01", "alg-03", "num-01"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "name": "Estudio PAES M2",
+  "short_name": "PAES M2",
+  "description": "Contenido, ejercicios y ensayos para preparar la PAES de Matemática M2",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#1e3a5f",
+  "lang": "es"
+}

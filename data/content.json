@@ -1,0 +1,189 @@
+[
+  {
+    "id": "geometria-angulos",
+    "area": "Geometría",
+    "title": "Ángulos y rectas paralelas",
+    "duration": "15 min",
+    "sections": [
+      {
+        "heading": "Clasificación de ángulos",
+        "items": [
+          "Agudo: entre 0° y 90°",
+          "Recto: 90°",
+          "Obtuso: entre 90° y 180°",
+          "Suplementarios: suman 180°",
+          "Complementarios: suman 90°"
+        ]
+      },
+      {
+        "heading": "Rectas paralelas y transversal",
+        "text": "Cuando L₁ ∥ L₂ y una transversal T las corta, se forman 8 ángulos numerados del 1 al 8.",
+        "diagram": "      T\n     /\n 1  /  2      ← L₁\n---+---\n 4 /  3\n   /\n  /  5  6      ← L₂\n---+---\n 8 /  7",
+        "items": [
+          "Alternos internos (iguales): ∠4 = ∠5 y ∠3 = ∠6",
+          "Alternos externos (iguales): ∠1 = ∠8 y ∠2 = ∠7",
+          "Correspondientes (iguales): ∠1=∠5, ∠2=∠6, ∠3=∠7, ∠4=∠8",
+          "Colaterales (suman 180°): ∠4+∠5=180° y ∠3+∠6=180°"
+        ]
+      },
+      {
+        "heading": "En triángulos",
+        "items": [
+          "Suma de ángulos interiores: α + β + γ = 180°",
+          "Ángulo exterior = suma de los dos interiores no adyacentes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geometria-triangulos",
+    "area": "Geometría",
+    "title": "Triángulos y cuadriláteros",
+    "duration": "20 min",
+    "sections": [
+      {
+        "heading": "Clasificación de triángulos",
+        "items": [
+          "Por lados: equilátero, isósceles, escaleno",
+          "Por ángulos: acutángulo, rectángulo, obtusángulo",
+          "Triángulo 30°-60°-90°: lados a, a√3 y 2a",
+          "Triángulo 45°-45°-90°: catetos a, a; hipotenusa a√2"
+        ]
+      },
+      {
+        "heading": "Áreas",
+        "formulas": [
+          "Triángulo: A = (base × altura) / 2",
+          "Rectángulo: A = b × h",
+          "Trapecio: A = (B + b) × h / 2",
+          "Círculo: A = πr²"
+        ]
+      },
+      {
+        "heading": "Cuadriláteros",
+        "items": [
+          "Paralelogramo: lados opuestos iguales y paralelos",
+          "Rombo: 4 lados iguales; diagonales perpendiculares",
+          "Rectángulo: 4 ángulos rectos",
+          "Trapecio: un par de lados paralelos"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "algebra-ecuaciones",
+    "area": "Álgebra",
+    "title": "Ecuaciones y sistemas",
+    "duration": "18 min",
+    "sections": [
+      {
+        "heading": "Ecuaciones lineales",
+        "items": [
+          "Despejar la incógnita aplicando operaciones inversas",
+          "Si ax + b = c → x = (c − b) / a",
+          "Verificar reemplazando en la ecuación original"
+        ]
+      },
+      {
+        "heading": "Sistemas 2×2",
+        "items": [
+          "Método sustitución: despejar una variable y reemplazar",
+          "Método igualación: igualar dos expresiones",
+          "Método reducción: sumar/restar ecuaciones para eliminar variable"
+        ]
+      },
+      {
+        "heading": "Ecuación cuadrática",
+        "formulas": [
+          "ax² + bx + c = 0",
+          "x = (−b ± √(b² − 4ac)) / 2a",
+          "Δ = b² − 4ac: Δ>0 dos soluciones, Δ=0 una, Δ<0 sin reales"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "algebra-funciones",
+    "area": "Álgebra",
+    "title": "Funciones lineales y cuadráticas",
+    "duration": "20 min",
+    "sections": [
+      {
+        "heading": "Función lineal",
+        "formulas": [
+          "f(x) = mx + n",
+          "m = pendiente (inclinación)",
+          "n = intercepto con el eje y"
+        ],
+        "items": [
+          "m > 0: función creciente",
+          "m < 0: función decreciente",
+          "m = 0: función constante"
+        ]
+      },
+      {
+        "heading": "Función cuadrática",
+        "formulas": [
+          "f(x) = ax² + bx + c",
+          "Vértice: xᵥ = −b/(2a)",
+          "Si a > 0: abre hacia arriba (mínimo)",
+          "Si a < 0: abre hacia abajo (máximo)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "numeros-porcentaje",
+    "area": "Números",
+    "title": "Porcentaje y proporcionalidad",
+    "duration": "15 min",
+    "sections": [
+      {
+        "heading": "Porcentaje",
+        "items": [
+          "x% de N = (x/100) × N",
+          "Aumento del x%: N × (1 + x/100)",
+          "Descuento del x%: N × (1 − x/100)"
+        ]
+      },
+      {
+        "heading": "Regla de tres",
+        "items": [
+          "Directa: si más → más (producto cruzado igual)",
+          "Inversa: si más → menos (producto en línea igual)"
+        ]
+      },
+      {
+        "heading": "Razón y proporción",
+        "formulas": [
+          "a/b = c/d → a·d = b·c",
+          "Razón: comparación de dos cantidades"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "probabilidad-basica",
+    "area": "Probabilidad",
+    "title": "Probabilidad y estadística básica",
+    "duration": "18 min",
+    "sections": [
+      {
+        "heading": "Probabilidad",
+        "formulas": [
+          "P(A) = casos favorables / casos posibles",
+          "0 ≤ P(A) ≤ 1",
+          "P(A) + P(no A) = 1"
+        ]
+      },
+      {
+        "heading": "Promedio y mediana",
+        "items": [
+          "Promedio: suma de datos / cantidad de datos",
+          "Mediana: valor central al ordenar los datos",
+          "Moda: valor que más se repite"
+        ]
+      }
+    ]
+  }
+]

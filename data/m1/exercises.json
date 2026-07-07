@@ -1,0 +1,56 @@
+[
+  {
+    "id": "m1-e01",
+    "area": "Números",
+    "difficulty": "Fácil",
+    "question": "¿Cuánto es el 15% de 200?",
+    "options": ["30", "15", "25", "35"],
+    "answer": 0,
+    "explanation": "15% de 200 = 0,15 × 200 = 30."
+  },
+  {
+    "id": "m1-e02",
+    "area": "Álgebra",
+    "difficulty": "Fácil",
+    "question": "Resuelve: 3x − 5 = 10",
+    "options": ["x = 5", "x = 3", "x = 15", "x = −5"],
+    "answer": 0,
+    "explanation": "3x = 15 → x = 5."
+  },
+  {
+    "id": "m1-e03",
+    "area": "Geometría",
+    "difficulty": "Fácil",
+    "question": "Un rectángulo mide 8 cm × 5 cm. ¿Cuál es su área?",
+    "options": ["40 cm²", "26 cm²", "13 cm²", "80 cm²"],
+    "answer": 0,
+    "explanation": "A = base × altura = 8 × 5 = 40 cm²."
+  },
+  {
+    "id": "m1-e04",
+    "area": "Geometría",
+    "difficulty": "Medio",
+    "question": "Catetos 6 y 8. ¿Hipotenusa?",
+    "options": ["10", "12", "14", "7"],
+    "answer": 0,
+    "explanation": "c² = 36 + 64 = 100 → c = 10."
+  },
+  {
+    "id": "m1-e05",
+    "area": "Probabilidad",
+    "difficulty": "Fácil",
+    "question": "Dado justo: P(número mayor que 4)",
+    "options": ["1/3", "1/2", "2/3", "1/6"],
+    "answer": 0,
+    "explanation": "Favorables: 5, 6 → 2 de 6 = 1/3."
+  },
+  {
+    "id": "m1-e06",
+    "area": "Álgebra",
+    "difficulty": "Medio",
+    "question": "Pendiente de la recta que pasa por (0,2) y (4,10)",
+    "options": ["2", "4", "8", "1/2"],
+    "answer": 0,
+    "explanation": "m = (10−2)/(4−0) = 8/4 = 2."
+  }
+]

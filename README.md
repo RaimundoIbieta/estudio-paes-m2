@@ -1,74 +1,83 @@
-# Estudio PAES M2
+# Preuniversitario PAES
 
-Aplicación web para preparar la **PAES de Matemática M2**: contenido teórico, ejercicios con corrección, ensayos cronometrados y seguimiento de progreso.
+Plataforma web **gratuita y de acceso masivo** para preparar la PAES: M1, M2, Competencia Lectora, Historia y Ciencias, y Ciencias.
+
+**Sitio en vivo:** https://raimundoibieta.github.io/estudio-paes-m2/
 
 ## Características
 
-- **Contenido**: geometría, álgebra, números y probabilidad
-- **Ejercicios**: alternativas con explicación inmediata
-- **Ensayos**: simulacros con cronómetro
-- **Progreso**: estadísticas guardadas en el navegador (localStorage)
-- **Sin instalación**: funciona en cualquier navegador moderno
+- **Selector de prueba PAES** (M1, M2, CL, HCS, Ciencias)
+- **Diagramas SVG** claros (no texto ASCII)
+- **Contenido, ejercicios y ensayos** por prueba
+- **Usuarios** con Supabase (opcional)
+- **Superadmin:** `raimundoibieta@gmail.com`
 
-## Uso local
+## Pruebas disponibles
 
-```bash
-cd estudio-paes-m2
-python3 -m http.server 8080
+| Prueba | Estado | Preguntas | Tiempo |
+|--------|--------|-----------|--------|
+| M1 | ✅ Activa | 65 | 2h 20min |
+| M2 | ✅ Activa | 55 | 2h 20min |
+| Competencia Lectora | 🔜 Próximamente | 65 | 2h 30min |
+| Historia y CS | 🔜 Próximamente | 65 | 2h |
+| Ciencias | 🔜 Próximamente | 80 | 2h |
+
+## Activar cuentas de usuario (Supabase — gratis)
+
+1. Crea un proyecto en [supabase.com](https://supabase.com)
+2. Ve a **SQL Editor** y ejecuta `supabase/schema.sql`
+3. En **Settings → API**, copia URL y `anon` key
+4. Edita `js/config.js`:
+
+```javascript
+export const APP_CONFIG = {
+  superadminEmail: 'raimundoibieta@gmail.com',
+  supabaseUrl: 'https://TU-PROYECTO.supabase.co',
+  supabaseAnonKey: 'TU_ANON_KEY',
+};
 ```
 
-Abre [http://localhost:8080](http://localhost:8080)
+5. Sube los cambios a GitHub
 
-> **Importante:** no abras `index.html` directamente con doble clic (los módulos JS no cargarán). Usa un servidor local o la versión publicada en web.
+Al registrarte con `raimundoibieta@gmail.com` tendrás acceso al **panel Admin**.
 
-## Compartir con otras personas (recomendado)
+## Desarrollo local
 
-Google Drive **no es ideal** para apps web (bloquea JavaScript al previsualizar). Para compartir un link que todos puedan usar:
-
-### Opción A — GitHub Pages (gratis)
-
-1. Crea un repositorio en GitHub y sube esta carpeta
-2. Ve a **Settings → Pages → Source: main branch**
-3. Comparte el link: `https://tu-usuario.github.io/estudio-paes-m2/`
-
-### Opción B — Netlify Drop (gratis, sin cuenta)
-
-1. Entra a [https://app.netlify.com/drop](https://app.netlify.com/drop)
-2. Arrastra la carpeta `estudio-paes-m2`
-3. Netlify te da un link público al instante
-
-### Opción C — Google Drive (limitado)
-
-Puedes subir la carpeta a Drive para **descargarla**, pero no para usarla como sitio web interactivo. Los demás deberán descargarla y ejecutar un servidor local.
+```bash
+python3 -m http.server 8080
+# http://localhost:8080
+```
 
 ## Estructura
 
 ```
-estudio-paes-m2/
-├── index.html
-├── css/styles.css
-├── js/
-│   ├── app.js
-│   ├── router.js
-│   ├── storage.js
-│   └── pages/
-├── data/
-│   ├── content.json      # Teoría
-│   ├── exercises.json    # Preguntas
-│   └── essays.json       # Ensayos
-└── sw.js                 # Caché offline
+data/
+  tests.json          # Catálogo de pruebas PAES
+  m1/                 # Contenido M1
+  m2/                 # (usa data/content.json como fallback)
+  cl/, hcs/, ciencias/
+js/
+  diagrams.js         # Figuras SVG
+  auth.js             # Supabase
+  test-context.js     # Prueba seleccionada
 ```
 
-## Agregar contenido
+## Importar tu material M2
 
-- **Nueva lección**: edita `data/content.json`
-- **Nuevo ejercicio**: edita `data/exercises.json`
-- **Nuevo ensayo**: edita `data/essays.json` (lista de IDs de preguntas)
+Tu zip `M2 PAES` contiene PDFs de geometría, álgebra, números, probabilidad y semanas 1–3. Para incorporarlos:
 
-## Relación con resumen Geometría
+1. Libera espacio en disco
+2. Convierte secciones a JSON en `data/m2/content.json` o pide ayuda para automatizar la extracción
 
-El contenido de geometría incorpora los temas del resumen LaTeX (`resumen-geometria-m2`), adaptados a formato web.
+## Publicar cambios
 
-## Licencia
+```bash
+git add -A && git commit -m "Actualizar plataforma"
+git push origin main
+```
 
-Uso educativo personal.
+GitHub Pages se actualiza en ~1 minuto.
+
+## Visión
+
+Preuniversitario económico con contenido de calidad, ensayos cronometrados y seguimiento de avance — accesible para todos los estudiantes de Chile.

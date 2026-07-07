@@ -1,22 +1,24 @@
 import { markLessonRead } from '../storage.js';
-
-let contentData = null;
+import { getCurrentTest, fetchTestData, loadTests, renderSectionHtml } from '../test-context.js';
 
 export async function loadContent() {
-  if (!contentData) {
-    const res = await fetch('data/content.json');
-    contentData = await res.json();
-  }
-  return contentData;
+  return fetchTestData(null, 'content');
 }
 
 export async function renderContentList(container) {
+  const testId = getCurrentTest();
+  if (!testId) {
+    location.hash = '#/pruebas';
+    return;
+  }
+  const tests = await loadTests();
+  const test = tests.find(t => t.id === testId);
   const topics = await loadContent();
   const areas = [...new Set(topics.map(t => t.area))];
 
   container.innerHTML = `
-    <h1 class="page-title">Contenido teórico</h1>
-    <p class="page-sub">Resúmenes organizados por área para la PAES M2.</p>
+    <h1 class="page-title">Contenido — ${test?.short || testId.toUpperCase()}</h1>
+    <p class="page-sub">${test?.description || ''}</p>
     <div class="filters" id="area-filters">
       <button class="filter-btn active" data-area="all">Todos</button>
       ${areas.map(a => `<button class="filter-btn" data-area="${a}">${a}</button>`).join('')}
@@ -34,10 +36,7 @@ export async function renderContentList(container) {
     const area = btn.dataset.area;
     const filtered = area === 'all' ? topics : topics.filter(t => t.area === area);
     container.querySelector('#topic-list').innerHTML = filtered.map(t => topicCard(t)).join('');
-    bindTopicLinks(container);
   });
-
-  bindTopicLinks(container);
 }
 
 function topicCard(t) {
@@ -50,12 +49,6 @@ function topicCard(t) {
       <span class="badge">Leer</span>
     </a>
   `;
-}
-
-function bindTopicLinks(container) {
-  container.querySelectorAll('.topic-item').forEach(el => {
-    el.addEventListener('click', () => {});
-  });
 }
 
 export async function renderLesson(container, id) {
@@ -74,20 +67,10 @@ export async function renderLesson(container, id) {
       <span class="badge">${lesson.area}</span>
       <h1 class="page-title" style="margin-top:0.5rem">${lesson.title}</h1>
       <p class="page-sub">${lesson.duration} de lectura estimada</p>
-      ${lesson.sections.map(renderSection).join('')}
+      ${lesson.sections.map(renderSectionHtml).join('')}
     </article>
     <div style="margin-top:1rem;display:flex;gap:0.75rem;flex-wrap:wrap">
       <a href="#/ejercicios" class="btn btn-primary" data-route>Practicar ejercicios</a>
-      <a href="#/contenido" class="btn btn-secondary" data-route>Siguiente tema</a>
     </div>
   `;
-}
-
-function renderSection(sec) {
-  let html = `<h2>${sec.heading}</h2>`;
-  if (sec.text) html += `<p>${sec.text}</p>`;
-  if (sec.diagram) html += `<div class="diagram">${sec.diagram}</div>`;
-  if (sec.items) html += `<ul>${sec.items.map(i => `<li>${i}</li>`).join('')}</ul>`;
-  if (sec.formulas) html += sec.formulas.map(f => `<div class="formula">${f}</div>`).join('');
-  return html;
 }

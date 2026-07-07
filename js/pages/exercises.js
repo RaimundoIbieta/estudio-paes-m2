@@ -1,16 +1,16 @@
 import { recordExercise } from '../storage.js';
-
-let exercisesData = null;
+import { getCurrentTest, fetchTestData } from '../test-context.js';
 
 export async function loadExercises() {
-  if (!exercisesData) {
-    const res = await fetch('data/exercises.json');
-    exercisesData = await res.json();
-  }
-  return exercisesData;
+  return fetchTestData(null, 'exercises');
 }
 
 export async function renderExercises(container, filterArea = 'all') {
+  const testId = getCurrentTest();
+  if (!testId) {
+    location.hash = '#/pruebas';
+    return;
+  }
   const exercises = await loadExercises();
   const areas = [...new Set(exercises.map(e => e.area))];
 

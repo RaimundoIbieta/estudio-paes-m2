@@ -1,0 +1,9 @@
+[
+  {
+    "id": "m1-ensayo-1",
+    "title": "Ensayo M1 — Práctica 1",
+    "description": "6 preguntas variadas. Tiempo sugerido: 15 min.",
+    "durationMinutes": 15,
+    "questionIds": ["m1-e01", "m1-e02", "m1-e03", "m1-e04", "m1-e05", "m1-e06"]
+  }
+]

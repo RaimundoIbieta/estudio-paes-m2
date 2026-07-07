@@ -1,0 +1,19 @@
+[
+  {
+    "id": "placeholder",
+    "area": "Próximamente",
+    "title": "Contenido en desarrollo",
+    "duration": "—",
+    "sections": [
+      {
+        "heading": "Estamos preparando este módulo",
+        "text": "Según el temario oficial DEMRE, pronto tendrás lecciones, ejercicios y ensayos para esta prueba.",
+        "items": [
+          "Competencia Lectora: localizar, interpretar, evaluar e integrar información",
+          "Historia y Ciencias Sociales: historia, geografía y educación ciudadana",
+          "Ciencias: biología, física y química"
+        ]
+      }
+    ]
+  }
+]

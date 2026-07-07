@@ -1,0 +1,90 @@
+[
+  {
+    "id": "m1-numeros",
+    "area": "Números",
+    "title": "Números enteros y racionales",
+    "duration": "12 min",
+    "sections": [
+      {
+        "heading": "Operaciones",
+        "items": [
+          "Orden de operaciones: paréntesis → potencias → × ÷ → + −",
+          "Números negativos: (−a)×(−b) = ab",
+          "Fracciones: sumar con mismo denominador"
+        ]
+      },
+      {
+        "heading": "Porcentaje (M1)",
+        "formulas": [
+          "x% de N = (x/100) × N",
+          "Aumento: N(1 + x/100)",
+          "Descuento: N(1 − x/100)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m1-algebra",
+    "area": "Álgebra",
+    "title": "Ecuaciones y funciones lineales",
+    "duration": "15 min",
+    "sections": [
+      {
+        "heading": "Ecuaciones lineales",
+        "formulas": ["ax + b = c  →  x = (c − b)/a"],
+        "items": ["Despejar aplicando operaciones inversas a ambos lados"]
+      },
+      {
+        "heading": "Función lineal",
+        "formulas": ["f(x) = mx + n", "m = pendiente", "n = corte con eje y"],
+        "items": ["Gráfica es una recta", "m > 0 creciente, m < 0 decreciente"]
+      }
+    ]
+  },
+  {
+    "id": "m1-geometria",
+    "area": "Geometría",
+    "title": "Figuras planas y perímetro",
+    "duration": "15 min",
+    "sections": [
+      {
+        "heading": "Rectas paralelas",
+        "text": "Cuando L₁ ∥ L₂ y una transversal T las corta, se forman 8 ángulos.",
+        "diagramType": "paralelas-transversal",
+        "items": [
+          "Alternos internos iguales: ∠4=∠5, ∠3=∠6",
+          "Correspondientes iguales: ∠1=∠5, ∠2=∠6, ∠3=∠7, ∠4=∠8"
+        ]
+      },
+      {
+        "heading": "Áreas y perímetros",
+        "formulas": [
+          "Rectángulo: A = bh, P = 2(b+h)",
+          "Triángulo: A = bh/2",
+          "Círculo: A = πr², P = 2πr"
+        ]
+      },
+      {
+        "heading": "Pitágoras",
+        "diagramType": "triangulo-rectangulo",
+        "formulas": ["a² + b² = c² (triángulo rectángulo)"]
+      }
+    ]
+  },
+  {
+    "id": "m1-probabilidad",
+    "area": "Probabilidad",
+    "title": "Probabilidad y promedio",
+    "duration": "12 min",
+    "sections": [
+      {
+        "heading": "Probabilidad",
+        "formulas": ["P(A) = favorables / posibles", "0 ≤ P(A) ≤ 1"]
+      },
+      {
+        "heading": "Estadística",
+        "items": ["Promedio = suma / cantidad", "Mediana = valor central ordenado"]
+      }
+    ]
+  }
+]

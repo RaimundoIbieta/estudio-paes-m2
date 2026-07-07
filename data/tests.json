@@ -1,0 +1,62 @@
+[
+  {
+    "id": "m1",
+    "name": "Competencia Matemática 1 (M1)",
+    "short": "M1",
+    "type": "obligatoria",
+    "questions": 65,
+    "durationMinutes": 140,
+    "color": "#1e5a9e",
+    "description": "Matemática general para todas las carreras. Números, álgebra, geometría y probabilidad.",
+    "areas": ["Números", "Álgebra y funciones", "Geometría", "Probabilidad y estadística"],
+    "ready": true
+  },
+  {
+    "id": "m2",
+    "name": "Competencia Matemática 2 (M2)",
+    "short": "M2",
+    "type": "electiva",
+    "questions": 55,
+    "durationMinutes": 140,
+    "color": "#0d9488",
+    "description": "Matemática avanzada para carreras científicas. Logaritmos, trigonometría, geometría 3D.",
+    "areas": ["Números avanzados", "Álgebra y funciones", "Geometría", "Probabilidad y estadística"],
+    "ready": true
+  },
+  {
+    "id": "cl",
+    "name": "Competencia Lectora",
+    "short": "CL",
+    "type": "obligatoria",
+    "questions": 65,
+    "durationMinutes": 150,
+    "color": "#7c3aed",
+    "description": "Comprensión de textos, localización de información, interpretación e integración.",
+    "areas": ["Localizar", "Interpretar", "Evaluar", "Integrar"],
+    "ready": false
+  },
+  {
+    "id": "hcs",
+    "name": "Historia y Ciencias Sociales",
+    "short": "HCS",
+    "type": "electiva",
+    "questions": 65,
+    "durationMinutes": 120,
+    "color": "#b45309",
+    "description": "Historia de Chile y el mundo, geografía y educación ciudadana.",
+    "areas": ["Historia", "Geografía", "Educación ciudadana"],
+    "ready": false
+  },
+  {
+    "id": "ciencias",
+    "name": "Ciencias",
+    "short": "Ciencias",
+    "type": "electiva",
+    "questions": 80,
+    "durationMinutes": 120,
+    "color": "#15803d",
+    "description": "Biología, física y química según temario DEMRE.",
+    "areas": ["Biología", "Física", "Química"],
+    "ready": false
+  }
+]

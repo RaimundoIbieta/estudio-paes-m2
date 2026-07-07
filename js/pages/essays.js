@@ -1,20 +1,22 @@
 import { recordEssay } from '../storage.js';
-
-let essaysData = null;
+import { getCurrentTest, fetchTestData, loadTests } from '../test-context.js';
 
 export async function loadEssays() {
-  if (!essaysData) {
-    const res = await fetch('data/essays.json');
-    essaysData = await res.json();
-  }
-  return essaysData;
+  return fetchTestData(null, 'essays');
 }
 
 export async function renderEssays(container) {
+  const testId = getCurrentTest();
+  if (!testId) {
+    location.hash = '#/pruebas';
+    return;
+  }
+  const tests = await loadTests();
+  const test = tests.find(t => t.id === testId);
   const essays = await loadEssays();
 
   container.innerHTML = `
-    <h1 class="page-title">Ensayos PAES M2</h1>
+    <h1 class="page-title">Ensayos — ${test?.short || ''}</h1>
     <p class="page-sub">Simulacros con cronómetro. Intenta responder todas las preguntas antes de que termine el tiempo.</p>
     <div class="grid">
       ${essays.map(e => `
@@ -91,8 +93,7 @@ async function startEssay(container, essayId) {
 }
 
 async function runEssayQuiz(container, essay, onComplete) {
-  const res = await fetch('data/exercises.json');
-  const all = await res.json();
+  const all = await loadExercises();
   const questions = essay.questionIds.map(id => all.find(q => q.id === id)).filter(Boolean);
 
   let index = 0;

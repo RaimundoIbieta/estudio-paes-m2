@@ -27,9 +27,9 @@ export function runPracticeQuiz(container, questions, {
     container.innerHTML = `
       <a href="${returnHash}" class="back-link" data-route>\u2190 Volver</a>
       <div class="quiz-card practice-card">
-        <div class="practice-badge">Pr\u00e1ctica \u00b7 feedback inmediato</div>
+        <div class="practice-badge">Pr\u00e1ctica - feedback inmediato</div>
         <div class="quiz-progress"><div style="width:${pct}%"></div></div>
-        <div class="topic-meta">${title} \u00b7 Pregunta ${index + 1} de ${questions.length} \u00b7 ${q.area} \u00b7 ${q.difficulty}</div>
+        <div class="topic-meta">${title} - Pregunta ${index + 1} de ${questions.length} - ${q.area} - ${q.difficulty}${q.supplement ? ' (complementaria)' : ''}</div>
         <div class="question-text">${q.question}</div>
         <div class="options" id="options">
           ${q.options.map((opt, i) => `

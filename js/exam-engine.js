@@ -1,7 +1,7 @@
 import { getCurrentTest, loadTests } from './test-context.js';
 import { recordEssay } from './storage.js';
 
-const _build = new URL(import.meta.url).searchParams.get('v') || '22';
+const _build = new URL(import.meta.url).searchParams.get('v') || '23';
 const { CACHE_VERSION } = await import(`./config.js?v=${_build}`);
 export const ESSAY_ENGINE_BUILD = CACHE_VERSION;
 
@@ -178,7 +178,7 @@ function runExamQuiz(container, questions, { onSubmit }) {
         <div class="exam-main quiz-card essay-card">
           <div class="quiz-progress"><div style="width:${pct}%"></div></div>
           <div class="essay-meta">
-            <span>Pregunta <strong>${index + 1}</strong> de ${questions.length} · ${q.area || ''}${q.num ? ` · N°${q.num}` : ''}</span>
+            <span>Pregunta <strong>${index + 1}</strong> de ${questions.length} · ${q.area || ''}${q.num ? ` · N°${q.num}` : ''}${q.supplement ? ' · complementaria' : ''}</span>
             <span class="essay-answered">${countAnswered()} respondidas · ${omittedCount} omitidas · ${questions.length - visited.size} sin ver</span>
           </div>
 

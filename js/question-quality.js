@@ -14,6 +14,41 @@ const INCOMPLETE_PATTERNS = [
   /de la imagen:\s*\u00bf/i,
 ];
 
+/** Pregunta que referencia figura/grafico/tabla sin recurso embebido en el texto. */
+const VISUAL_DEPENDENCY_PATTERNS = [
+  /recta num[e\u00e9]rica/i,
+  /figura adjunta/i,
+  /siguiente (gr[a\u00e1]fico|tabla|imagen|figura)/i,
+  /en la (figura|imagen|cuadr[i\u00ed]cula)/i,
+  /plano cartesiano de la figura/i,
+  /observa la siguiente/i,
+  /hoja de papel cuadriculado/i,
+  /de la imagen/i,
+  /vectores representados/i,
+  /cuadr[i\u00ed]cula de la figura/i,
+  /considera la siguiente tabla\s*:/i,
+  /tri[a\u00e1]ngulo de pascal/i,
+  /representaci[o\u00f3]n del tri[a\u00e1]ngulo/i,
+];
+
+/** Texto matematico corrupto por extraccion PDF (fracciones, operadores, etc.). */
+const GARBLED_MATH_PATTERNS = [
+  /\d{3,}\s+\d+\s*:\s*\d+/,
+  /\d+\s*:\s*\d{3,}/,
+  /\boperaci[o\u00f3]n\s+\d{2}\s+usando/i,
+  /\bobteni[e\u00e9]ndo\s+se\b/i,
+  /\best\s+ar[a\u00e1]n\b/i,
+  /\bkmpara\b/i,
+  /\bchi\s+rridos\b/i,
+  /[\u0000-\u0008\u000B\u000C\u000E-\u001F]/,
+  /\b\d{5,}\b/,
+];
+
+const BROKEN_OPTION_PATTERNS = [
+  /\s+\d+(?:\s+\d+){1,}\s*$/,
+  /\s+-\s*\d+\s*-\s*$/,
+];
+
 const MONEY_PATTERN = /\$(\d{1,3}(?:\s\d{3})+(?:,\d+)?|\d{4,}(?:,\d+)?)/g;
 const SPACED_THOUSANDS_PATTERN = /(?<=[\s=+\-*/(,])(\d{1,3}(?:\s\d{3})+)(?=[\s.,;:?)\]]|$)/g;
 
@@ -28,24 +63,23 @@ function formatChileanDigits(raw) {
   return decimal != null ? `${grouped},${decimal}` : grouped;
 }
 
-/** Formato chileno: miles con punto y decimales con coma ($13.700, 0,5). */
 function formatChileanNumbers(text) {
   return text
     .replace(MONEY_PATTERN, (_, num) => `$${formatChileanDigits(num)}`)
     .replace(SPACED_THOUSANDS_PATTERN, (_, num) => formatChileanDigits(num));
 }
 
-/** Artefactos de extraccion PDF DEMRE (espacios faltantes, pies de pagina). */
 function fixPdfArtifacts(text) {
   return text
-    // Pie de pagina con digitos espaciados: " 1 0 1 - 4 -"
     .replace(/\s+\d+(?:\s+\d+)+\s*[-\u2013]\s*\d+\s*[-\u2013](?:\s*[\s\S]*)?$/g, '')
     .replace(/\s*[-\u2013]\s*\d+\s*[-\u2013](?:\s*[\s\S]*)?$/g, '')
-    // Unidad antes del numero: kg60 -> 60 kg
+    .replace(/\s+\d+(?:\s+\d+)+\s*$/g, '')
     .replace(/\b(kg|g|mg|ml|cm|mm|L)(\d+(?:[.,]\d+)?)\b/gi, '$2 $1')
     .replace(/(\d+(?:[.,]\d+)?)\s*(g|kg|mg|ml|cm|mm)de\b/gi, '$1 $2 de')
     .replace(/(\$[\d\s.,]+)([a-z\u00e1\u00e9\u00ed\u00f3\u00fa\u00f1])/gi, '$1 $2')
-    .replace(/([a-z\u00e1\u00e9\u00ed\u00f3\u00fa\u00f1)])(\$)/gi, '$1 $2');
+    .replace(/([a-z\u00e1\u00e9\u00ed\u00f3\u00fa\u00f1)])(\$)/gi, '$1 $2')
+    .replace(/\bkmpara\b/gi, 'km para')
+    .replace(/\bobteni[e\u00e9]ndo\s+se\b/gi, 'obteni\u00e9ndose');
 }
 
 export function sanitizeText(text) {
@@ -68,20 +102,47 @@ export function sanitizeQuestion(q) {
   };
 }
 
+function hasEmbeddedVisual(text) {
+  return /<(img|svg|figure|canvas)\b/i.test(text) || /data:image\//i.test(text);
+}
+
+function mentionsParenthesesWithoutThem(text) {
+  return /par[e\u00e9]ntesis/i.test(text) && !/[()]/.test(text);
+}
+
+/** Pregunta legible sin figura externa ni texto matematico roto. */
+export function isReadableQuestion(q) {
+  if (!q?.question) return false;
+  const question = sanitizeText(q.question);
+  const options = (q.options || []).slice(0, 4).map(sanitizeText);
+  const blob = `${question} ${options.join(' ')}`;
+
+  if (hasEmbeddedVisual(question)) return true;
+  if (VISUAL_DEPENDENCY_PATTERNS.some(pat => pat.test(blob))) return false;
+  if (GARBLED_MATH_PATTERNS.some(pat => pat.test(blob))) return false;
+  if (mentionsParenthesesWithoutThem(blob)) return false;
+
+  for (const opt of options) {
+    if (BROKEN_OPTION_PATTERNS.some(pat => pat.test(opt))) return false;
+  }
+
+  return question.length >= 20 && options.length === 4 && options.every(o => o && o.length >= 2);
+}
+
 export function isUsableQuestion(q) {
-  if (!q?.question || !Array.isArray(q.options) || q.options.length < 4) return false;
+  if (!isReadableQuestion(q)) return false;
+  if (!Array.isArray(q.options) || q.options.length < 4) return false;
 
   const question = sanitizeText(q.question);
   const options = q.options.map(sanitizeText);
 
-  if (question.length < 25) return false;
   if (typeof q.answer !== 'number' || q.answer < 0 || q.answer > 3) return false;
 
   for (const pat of JUNK_PATTERNS) {
     if (pat.test(question)) return false;
   }
   for (const opt of options) {
-    if (!opt || opt.length < 1 || opt.length > 180) return false;
+    if (opt.length > 180) return false;
     for (const pat of JUNK_PATTERNS) {
       if (pat.test(opt)) return false;
     }
@@ -98,12 +159,9 @@ export function isUsableQuestion(q) {
 }
 
 export function isPracticeQuestion(q) {
-  if (!q?.question || !Array.isArray(q.options) || q.options.length < 4) return false;
-  const question = sanitizeText(q.question);
-  const options = q.options.slice(0, 4).map(sanitizeText);
-  if (question.length < 15) return false;
+  if (!isReadableQuestion(q)) return false;
+  if (!Array.isArray(q.options) || q.options.length < 4) return false;
   if (typeof q.answer !== 'number' || q.answer < 0 || q.answer > 3) return false;
-  if (options.some(opt => !opt)) return false;
   return true;
 }
 

@@ -1,7 +1,7 @@
 import { fetchTestData } from './test-context.js';
 import { CACHE_VERSION } from './config.js';
 
-const { filterUsableQuestions, filterPracticeQuestions, sanitizeQuestion } = await import(`./question-quality.js?v=${CACHE_VERSION}`);
+const { filterUsableQuestions, filterPracticeQuestions, sanitizeQuestion, isReadableQuestion } = await import(`./question-quality.js?v=${CACHE_VERSION}`);
 
 const bankCache = new Map();
 const poolCache = new Map();
@@ -101,7 +101,8 @@ export async function loadQuestions(testId) {
 }
 
 export function pickOfficialSet(bank, totalNeeded) {
-  const official = bank.officialQuestions || bank.questions?.filter(q => q.source !== 'generado') || [];
+  const official = (bank.officialQuestions || bank.questions?.filter(q => q.source !== 'generado') || [])
+    .filter(q => isReadableQuestion(q));
   const byNum = new Map();
   for (const q of official) {
     if (!q.num) continue;
@@ -116,7 +117,7 @@ export function pickOfficialSet(bank, totalNeeded) {
 }
 
 export function pickPracticeSet(bank, totalNeeded, area = null) {
-  let pool = bank.questions || [];
+  let pool = bank.practiceQuestions || bank.questions || [];
   if (area) {
     const normalized = area.toLowerCase();
     const areaPool = pool.filter(q => {
@@ -129,22 +130,45 @@ export function pickPracticeSet(bank, totalNeeded, area = null) {
 }
 
 export function pickDiagnosticSet(bank, totalNeeded) {
-  const valid = bank.questions || [];
-  const official = valid.filter(q => q.source !== 'generado' && q.num);
+  const official = (bank.questions || []).filter(q =>
+    q.source !== 'generado' && q.num && isReadableQuestion(q)
+  );
   const byNum = new Map();
   for (const q of official) {
     const existing = byNum.get(q.num);
     if (!existing || q.year === '2026') byNum.set(q.num, q);
   }
-  let ordered = [...byNum.values()].sort((a, b) => a.num - b.num);
 
-  if (ordered.length < totalNeeded) {
-    const used = new Set(ordered.map(q => q.id));
-    const generated = shuffle(valid.filter(q => q.source === 'generado' && !used.has(q.id)));
-    ordered = [...ordered, ...generated];
+  const fillers = shuffle((bank.practiceQuestions || []).filter(q =>
+    q.source === 'generado' && isReadableQuestion(q)
+  ));
+  const usedIds = new Set();
+  const slots = [];
+
+  for (let n = 1; n <= totalNeeded; n++) {
+    if (byNum.has(n)) {
+      const q = byNum.get(n);
+      slots.push(q);
+      usedIds.add(q.id);
+      continue;
+    }
+    while (fillers.length) {
+      const f = fillers.pop();
+      if (usedIds.has(f.id)) continue;
+      slots.push({ ...f, num: n, countsForScore: false, supplement: true });
+      usedIds.add(f.id);
+      break;
+    }
   }
 
-  return ordered.slice(0, totalNeeded);
+  while (slots.length < totalNeeded && fillers.length) {
+    const f = fillers.pop();
+    if (usedIds.has(f.id)) continue;
+    slots.push({ ...f, countsForScore: false, supplement: true });
+    usedIds.add(f.id);
+  }
+
+  return slots.slice(0, totalNeeded);
 }
 
 export function pickUnitSet(bank, area, count) {

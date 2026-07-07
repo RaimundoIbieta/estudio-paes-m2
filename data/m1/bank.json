@@ -291,12 +291,12 @@
       "num": 2,
       "year": "2025",
       "area": "Numeros",
-      "question": "Considera la siguiente recta numérica: ¿Cuál de los siguientes procedimientos representa la operación  85  usando la recta numérica?",
+      "question": "Considera la siguiente recta numérica: ¿Cuál de los siguientes procedimientos representa la operación 85 usando la recta numérica?",
       "options": [
-        "Ubicarse en el 5 y desplazarse 8 unidades a la izquierda.",
-        "Ubicarse en el 5 y desplazarse 8 unidades a la derecha.",
-        "Ubicarse en el 8 y desplazarse 5 unidades a la derecha.",
-        "Ubicarse en el 8 y desplazarse 3 unidades a la derecha. 1 0 1 FORMA 113  2025 - 4 -"
+        "Ubicarse en el 5 y desplazarse 8 unidades a la izquierda.",
+        "Ubicarse en el 5 y desplazarse 8 unidades a la derecha.",
+        "Ubicarse en el 8 y desplazarse 5 unidades a la derecha.",
+        "Ubicarse en el 8 y desplazarse 3 unidades a la derecha. 1 0 1 - 4 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -309,12 +309,12 @@
       "num": 3,
       "year": "2025",
       "area": "Numeros",
-      "question": "Para encontrar el resultado de           42123 5:6345 4 , se realiza el siguiente procedimiento, cometiéndose un error. Paso 1: se resuelven las operaciones de los paréntesis internos, obteniéndose          403 5:125 4 . Paso 2: se resuelven las multiplicaciones, obteniéndose 3 200:5 48 . Paso 3: se resuelve la división como 200 3 5 48  . Paso 4: se resuelve la multiplicación, obteniéndo se 125 18 . ¿En cuál de los pasos se cometió el error?",
+      "question": "Para encontrar el resultado de 42123 5:6345 4 , se realiza el siguiente procedimiento, cometiéndose un error. Paso 1: se resuelven las operaciones de los paréntesis internos, obteniéndose 403 5:125 4 . Paso 2: se resuelven las multiplicaciones, obteniéndose 3 200:5 48 . Paso 3: se resuelve la división como 200 3 5 48 . Paso 4: se resuelve la multiplicación, obteniéndo se 125 18 . ¿En cuál de los pasos se cometió el error?",
       "options": [
         "En el Paso 1",
         "En el Paso 2",
         "En el Paso 3",
-        "En el Paso 4 FORMA 113  2025 - 5 -"
+        "En el Paso 4 - 5 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -327,12 +327,12 @@
       "num": 4,
       "year": "2025",
       "area": "Numeros",
-      "question": "Una persona necesita comprar kg60 de alimento de cierta marca para sus perros. En una tienda para mascotas, ese alimento tiene los siguientes precios:  E l saco de kg20 se vende a 50033$ .  E l saco de kg15 se vende a 00025$ .  E l saco de kg12 se vende a 00020$ .  El saco de kg5 se vende a 00010$ . Si la persona requiere priorizar en primer lugar el menor precio a pagar y luego la menor cantidad de sacos, ¿cuál de las siguientes opciones le conviene a la persona?",
+      "question": "Una persona necesita comprar kg60 de alimento de cierta marca para sus perros. En una tienda para mascotas, ese alimento tiene los siguientes precios: E l saco de kg20 se vende a 50033$ . E l saco de kg15 se vende a 00025$ . E l saco de kg12 se vende a 00020$ . El saco de kg5 se vende a 00010$ . Si la persona requiere priorizar en primer lugar el menor precio a pagar y luego la menor cantidad de sacos, ¿cuál de las siguientes opciones le conviene a la persona?",
       "options": [
         "Comprar doce sacos de kg5 .",
         "Comprar cinco sacos de kg12 .",
         "Comprar cuatro sacos de kg15 .",
-        "Comprar tres sacos de kg20 . FORMA 113  2025 - 6 -"
+        "Comprar tres sacos de kg20 . - 6 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -345,12 +345,12 @@
       "num": 6,
       "year": "2025",
       "area": "Numeros",
-      "question": "Dos personas se juntan a realizar ejercicios, pero cada una tiene su propia rutina, las que se detallan a continuación:  L a primera persona realiza ejercicios durante 2 minutos y luego se toma 30 segundos de descanso, repitiendo esta serie ocho veces.  L a segunda persona realiza ejercicios durante 1 minuto y 30 segundos y luego se toma 15 segundos de descanso, repitiendo esta serie doce veces. Si las dos personas comienzan sus rutinas al mismo tiempo, ¿cuál de los siguientes argumentos garantiza que una de las personas termina la rutina antes que la otra?",
+      "question": "Dos personas se juntan a realizar ejercicios, pero cada una tiene su propia rutina, las que se detallan a continuación: L a primera persona realiza ejercicios durante 2 minutos y luego se toma 30 segundos de descanso, repitiendo esta serie ocho veces. L a segunda persona realiza ejercicios durante 1 minuto y 30 segundos y luego se toma 15 segundos de descanso, repitiendo esta serie doce veces. Si las dos personas comienzan sus rutinas al mismo tiempo, ¿cuál de los siguientes argumentos garantiza que una de las personas termina la rutina antes que la otra?",
       "options": [
         "Que la cantidad de repeticiones de las series de ambas personas es distinta.",
         "Que el tiempo de descanso de ambas personas es distinto.",
         "Que la suma entre el tiempo de ejercicio, el descanso y las repeticiones de las series es distinta en cada persona.",
-        "Que la suma entre el tiempo de ejercicio y el descanso, multiplicada por las repeticiones de las series, es distinta en cada persona. FORMA 113  2025 - 7 -"
+        "Que la suma entre el tiempo de ejercicio y el descanso, multiplicada por las repeticiones de las series, es distinta en cada persona. - 7 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -368,7 +368,7 @@
         "15",
         "10",
         "8",
-        "2 FORMA 113  2025 - 8 -"
+        "2 - 8 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -381,12 +381,12 @@
       "num": 9,
       "year": "2025",
       "area": "Numeros",
-      "question": "Para conocer el equivalente en centímetros de una distancia medida en millas, se utiliza el siguiente modelo: x934160C  , tal que x es la distancia en millas y C es el equivalente en centímetros. Si un kilómetro es equivalente a 000100 centímetros, ¿cuál de las siguientes igualdades representa la equivalencia en kilómetro s k de una distancia de x millas?",
+      "question": "Para conocer el equivalente en centímetros de una distancia medida en millas, se utiliza el siguiente modelo: x934160C , tal que x es la distancia en millas y C es el equivalente en centímetros. Si un kilómetro es equivalente a 000100 centímetros, ¿cuál de las siguientes igualdades representa la equivalencia en kilómetro s k de una distancia de x millas?",
       "options": [
-        "934160 x000100k ",
-        "000100x934160k ",
-        "000100 x934160k ",
-        "000100x934160k  FORMA 113  2025 - 9 -"
+        "934160 x000100k",
+        "000100x934160k",
+        "000100 x934160k",
+        "000100x934160k - 9 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -404,7 +404,7 @@
         "26/01/2023",
         "19/01/2023",
         "12/01/2023",
-        "16/01/2023 FORMA 113  2025 - 10 -"
+        "16/01/2023 - 10 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -437,10 +437,10 @@
       "area": "Numeros",
       "question": "Si p aumentado en su %40 es 150 , ¿cuál de las siguientes expresiones corresponde a p ?",
       "options": [
-        "40150",
-        "140 150100",
+        "40150",
+        "140 150100",
         "140 150",
-        "100 40150  FORMA 113  2025 - 11 -"
+        "100 40150 - 11 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -458,7 +458,7 @@
         "Del total de los hombres que postularon, exactamente un %9 fue contratado.",
         "En Administración se contrató al %20 del total de quienes postularon a ese departamento.",
         "Exactamente un %5 de las mujeres que fueron contratadas corresponden al departamento de Administración.",
-        "En Talleres se contrató al %50 de los hombres y al %50 de las mujeres postulantes a ese departamento. Departamento Postulantes Contratados Administración Hombres 200 20 Mujeres 50 5 Talleres Hombres 50 25 Mujeres 200 100 FORMA 113  2025 - 12 -"
+        "En Talleres se contrató al %50 de los hombres y al %50 de las mujeres postulantes a ese departamento. Departamento Postulantes Contratados Administración Hombres 200 20 Mujeres 50 5 Talleres Hombres 50 25 Mujeres 200 100 - 12 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -473,10 +473,10 @@
       "area": "Algebra y funciones",
       "question": "Una tienda ofrece un %20 de descuento en el precio por la compra de cualquier camisa. Una persona quiere comprar tres camisas que tienen un valor de 00030$ cada una sin descuento. ¿Cuál de las siguientes expresiones representa el valor total que pagará la persona?",
       "options": [
-        "    100 20000303$",
-        "    100 80000303$",
-        "    100 60000303$",
-        "    100 40000303$"
+        "100 20000303$",
+        "100 80000303$",
+        "100 60000303$",
+        "100 40000303$"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -494,7 +494,7 @@
         "22",
         "2",
         "2",
-        "22 FORMA 113  2025 - 13 -"
+        "22 - 13 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -525,12 +525,12 @@
       "num": 24,
       "year": "2025",
       "area": "Algebra y funciones",
-      "question": "Si   30xxP5x 2  , con 5x  , ¿cuál de las siguientes expresiones es igual a P ?",
+      "question": "Si 30xxP5x 2 , con 5x , ¿cuál de las siguientes expresiones es igual a P ?",
       "options": [
-        "35x ",
-        "6x2 ",
-        "6x ",
-        "6x  FORMA 113  2025 - 14 -"
+        "35x",
+        "6x2",
+        "6x",
+        "6x - 14 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -543,12 +543,12 @@
       "num": 25,
       "year": "2025",
       "area": "Algebra y funciones",
-      "question": "¿Cuál de las siguientes expresiones es igual a  1b3b  ?",
+      "question": "¿Cuál de las siguientes expresiones es igual a 1b3b ?",
       "options": [
-        "3b2 ",
-        "1b2 ",
-        "1b2 ",
-        "3b2 "
+        "3b2",
+        "1b2",
+        "1b2",
+        "3b2"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -563,10 +563,10 @@
       "area": "Algebra y funciones",
       "question": "Una persona compró kg20 de naranjas en 00016$ y kg20 de manzanas en 00018$ . Si la cantidad de kilogramos de frutas y su precio se modelan por medio de una relación lineal, ¿cuál de las siguientes expresiones representa el precio total, en pesos, al comprar kgx de cada fruta?",
       "options": [
-        "x20 00018 20 00016    ",
-        "    x 0001820 x 0001620",
-        " x00018x00016 ",
-        "      x 0001800016 FORMA 113  2025 - 15 -"
+        "x20 00018 20 00016",
+        "x 0001820 x 0001620",
+        "x00018x00016",
+        "x 0001800016 - 15 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -581,10 +581,10 @@
       "area": "Algebra y funciones",
       "question": "Una persona va a comprar 18 yogures y el precio de cada uno es M$ . Para ello lleva un monto de P$ , el cual es suficiente para comprar. ¿Cuál de las siguientes expresiones corresponde al dinero que le sobra?",
       "options": [
-        " M18P$ ",
-        "    P M18$",
-        " MP$ ",
-        "    M 18P$"
+        "M18P$",
+        "P M18$",
+        "MP$",
+        "M 18P$"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -602,7 +602,7 @@
         "2 pulgadas",
         "5 pulgadas",
         "17 pulgadas",
-        "108 pulgadas FORMA 113  2025 - 16 -"
+        "108 pulgadas - 16 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -620,7 +620,7 @@
         "5",
         "20",
         "25",
-        "100 Tabla de dilución líquido desinfectante Cantidad de desinfectante Diluir en: 5 mL un cuarto litro de agua 10 mL medio litro de agua 20 mL un litro de agua FORMA 113  2025 - 17 -"
+        "100 Tabla de dilución líquido desinfectante Cantidad de desinfectante Diluir en: 5 mL un cuarto litro de agua 10 mL medio litro de agua 20 mL un litro de agua - 17 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -635,10 +635,10 @@
       "area": "Algebra y funciones",
       "question": "Para una fiesta se compraron tres botellas de jugo del mismo precio y tres botellas de bebidas del mismo precio, gastándo se en total 77016$ . Una botella de bebida es 390$ más cara que una botella de jugo. ¿Cuál de las siguientes ecuaciones permite determinar el preci o x de una botella de jugo, en pesos?",
       "options": [
-        "77016390x3 ",
-        "77016390x6 ",
-        "  77016390x3x3 ",
-        "  77016390x3x3  FORMA 113  2025 - 18 -"
+        "77016390x3",
+        "77016390x6",
+        "77016390x3x3",
+        "77016390x3x3 - 18 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -653,10 +653,10 @@
       "area": "Algebra y funciones",
       "question": "La figura adjunta corresponde a una representación del triángulo de Pascal. En esta representación, el número en cada casilla blanca corresponde a la suma de las dos casillas inmediatamente superiores. ¿Cuál de las siguientes expresiones representa a x en términos de p ?",
       "options": [
-        "15p ",
-        "10p ",
-        "10p ",
-        "15p  Ejemplo FORMA 113  2025 - 19 -"
+        "15p",
+        "10p",
+        "10p",
+        "15p Ejemplo - 19 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -671,10 +671,10 @@
       "area": "Algebra y funciones",
       "question": "En un partido de básquetbol, un jugador tiene la posibilidad de hacer anotaciones que val en dos o tres puntos, dependiendo del lugar desde el que lanzó el balón al anotar. Un jugador marcó 37 puntos en el último partido haciendo cinco anotaciones de dos puntos y x anotaciones de tres puntos. ¿Cuál de las siguientes ecuaciones permite determinar la cantidad de anotaciones de tres puntos que hizo el jugador?",
       "options": [
-        "375x ",
-        "3710x ",
-        "375x3 ",
-        "3710x3  FORMA 113  2025 - 20 -"
+        "375x",
+        "3710x",
+        "375x3",
+        "3710x3 - 20 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -689,10 +689,10 @@
       "area": "Geometria",
       "question": "Tomás y cuatro de sus amigos van a un parque de diversiones. El parque cobra una entrada a todos los asistentes y un gasto adicional por entrar a cierta atracción. Tomás decide pagar el total de estos gastos y luego cobrar a cada quien su parte. Escribe lo siguiente en el chat del grupo de amigos que fueron al parque. Si Tomás pagó un total de 00031$ en su visita al parque, ¿cuál de las siguientes ecuaciones permite calcular el precio x que se pagó por cada entrada al parque?",
       "options": [
-        "00031x544000 ",
-        "00031x344000 ",
-        "00031x454000 ",
-        "00031x554000  FORMA 113  2025 - 21 -"
+        "00031x544000",
+        "00031x344000",
+        "00031x454000",
+        "00031x554000 - 21 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -705,7 +705,7 @@
       "num": 35,
       "year": "2025",
       "area": "Geometria",
-      "question": "La cantidad n de chi rridos por minuto que emite un grillo se relaciona con la temperatura ambiental mediante la ecuación     7 40n10T , tal que T es la temperatura ambiental en C . ¿Cuántos chirridos por minuto emitirá un grillo si la temperatura ambiental es de C20  ?",
+      "question": "La cantidad n de chi rridos por minuto que emite un grillo se relaciona con la temperatura ambiental mediante la ecuación 7 40n10T , tal que T es la temperatura ambiental en C . ¿Cuántos chirridos por minuto emitirá un grillo si la temperatura ambiental es de C20 ?",
       "options": [
         "8",
         "30",
@@ -725,10 +725,10 @@
       "area": "Geometria",
       "question": "Una persona vende plantas por internet a 3500$ cada una. Un mes necesita realizar ventas por un monto superior a 000500$ . A mediados del mes, ha vendido solo 40 plantas y teme que no alcance su meta de ventas, por lo que decide comenzar a vender las plantas a 4500$ cada una por el resto del mes. ¿Cuál de las siguientes inecuaciones permite calcular la cantidad x de plantas que tiene que vender la segunda mitad del mes para alcanzar su meta?",
       "options": [
-        "0005004500x350040 ",
-        "0005004500x350040 ",
-        "000500x4500350040 ",
-        "000500x4500350040  FORMA 113  2025 - 22 -"
+        "0005004500x350040",
+        "0005004500x350040",
+        "000500x4500350040",
+        "000500x4500350040 - 22 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -746,7 +746,7 @@
         "1",
         "2",
         "3",
-        "4 FORMA 113  2025 - 23 -"
+        "4 - 23 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -759,12 +759,12 @@
       "num": 42,
       "year": "2025",
       "area": "Geometria",
-      "question": "Considera la función cuadrática f , cuyo dominio es el conjunto de los números reales, definida p or   cbxaxxf 2  . Si los coeficientes b y c son cero, ¿cuál de los siguientes gráficos podría corresponder a la gráfica asociada a f ?",
+      "question": "Considera la función cuadrática f , cuyo dominio es el conjunto de los números reales, definida p or cbxaxxf 2 . Si los coeficientes b y c son cero, ¿cuál de los siguientes gráficos podría corresponder a la gráfica asociada a f ?",
       "options": [
         "B)",
-        "C) D) X Y X Y X Y X Y FORMA 113  2025 - 24 -",
-        "D) X Y X Y X Y X Y FORMA 113  2025 - 24 -",
-        "X Y X Y X Y X Y FORMA 113  2025 - 24 -"
+        "C) D) X Y X Y X Y X Y - 24 -",
+        "D) X Y X Y X Y X Y - 24 -",
+        "X Y X Y X Y X Y - 24 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -779,10 +779,10 @@
       "area": "Geometria",
       "question": "Un estudiante debe rendir cuatro pruebas en un semestre, de las cuales ya tiene tres notas, estas son 5 , 6 y 4 . ¿Cuál de las siguientes expresiones permite determinar el promedio que tendría el estudiante con su cuarta nota x ?",
       "options": [
-        "4 x15 ",
-        "2 x15 ",
-        "2 x5 ",
-        "3 x15  FORMA 113  2025 - 25 -"
+        "4 x15",
+        "2 x15",
+        "2 x5",
+        "3 x15 - 25 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -799,8 +799,8 @@
       "options": [
         "Frecuencia Ana 61 Juan 62 Sofía 71 Carlos 56 Frecuencia Ana 46 Juan 49 Sofía 59 Carlos 45",
         "Frecuencia Ana 69 Juan 74 Sofía 89 Carlos 68",
-        "D) Frecuencia Ana 69 Juan 143 Sofía 232 Carlos 300 Ana Juan Sofía Carlos 24 % 16 % 24 % 36 % Por quién votarán las mujeres Carlos Por quién votarán los hombres Frecuencia 45 38 35 32 Ana Juan Sofía FORMA 113  2025 - 26 -",
-        "Frecuencia Ana 69 Juan 143 Sofía 232 Carlos 300 Ana Juan Sofía Carlos 24 % 16 % 24 % 36 % Por quién votarán las mujeres Carlos Por quién votarán los hombres Frecuencia 45 38 35 32 Ana Juan Sofía FORMA 113  2025 - 26 -"
+        "D) Frecuencia Ana 69 Juan 143 Sofía 232 Carlos 300 Ana Juan Sofía Carlos 24 % 16 % 24 % 36 % Por quién votarán las mujeres Carlos Por quién votarán los hombres Frecuencia 45 38 35 32 Ana Juan Sofía - 26 -",
+        "Frecuencia Ana 69 Juan 143 Sofía 232 Carlos 300 Ana Juan Sofía Carlos 24 % 16 % 24 % 36 % Por quién votarán las mujeres Carlos Por quién votarán los hombres Frecuencia 45 38 35 32 Ana Juan Sofía - 26 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -836,7 +836,7 @@
         "El promedio de la cantidad de videojuegos es 5,3 , porque es el promedio de los datos centrales.",
         "El rango de la cantidad de videojuegos es 5 , porque la resta entre la frecuencia mayor y la frecuencia menor es 5 .",
         "El promedio de la cantidad de videojuegos es 5,3 , porque es el promedio entre la mayor y la menor cantidad de videojuegos.",
-        "La moda de la cantidad de videojuegos es 1 y 6 , porque son los dos datos que más se repiten. Cantidad de videojuegos Frecuencia 1 10 2 8 3 5 4 5 5 8 6 10 FORMA 113  2025 - 27 -"
+        "La moda de la cantidad de videojuegos es 1 y 6 , porque son los dos datos que más se repiten. Cantidad de videojuegos Frecuencia 1 10 2 8 3 5 4 5 5 8 6 10 - 27 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -854,7 +854,7 @@
         "7 1",
         "13 7",
         "20 13",
-        "20 7 Estilo Musical Frecuencia Rock 7 Pop 4 Rap 3 Reguetón 6 FORMA 113  2025 - 28 -"
+        "20 7 Estilo Musical Frecuencia Rock 7 Pop 4 Rap 3 Reguetón 6 - 28 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -869,10 +869,10 @@
       "area": "Probabilidad y estadistica",
       "question": "En la tabla adjunta se presentan los resultados obtenidos al consultar a un grupo de personas sobre la preferencia de estudiar una de las cuatro carreras profesionales propuestas, tal que cada persona escogió solo una carrera. Si se escoge a una de estas personas al azar, ¿cuál de las siguientes expresiones permite determinar la probabilidad de que esta prefiera una carrera del área de la salud?",
       "options": [
-        "1100 enfermeríaFrecuenciamedicinaFrecuencia ",
-        "2300 enfermeríaFrecuenciamedicinaFrecuencia ",
-        "23001 enfermeríaFrecuenciamedicinaFrecuencia ",
-        "11001 enfermeríaFrecuenciamedicinaFrecuencia  Carrera profesional Frecuencia Ingeniería civil 900 Periodismo 300 Medicina 700 Enfermería 400 FORMA 113  2025 - 29 -"
+        "1100 enfermeríaFrecuenciamedicinaFrecuencia",
+        "2300 enfermeríaFrecuenciamedicinaFrecuencia",
+        "23001 enfermeríaFrecuenciamedicinaFrecuencia",
+        "11001 enfermeríaFrecuenciamedicinaFrecuencia Carrera profesional Frecuencia Ingeniería civil 900 Periodismo 300 Medicina 700 Enfermería 400 - 29 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -890,7 +890,7 @@
         "En la Caja 1",
         "En la Caja 2",
         "En la Caja 3",
-        "En la Caja 4 Caja 1 Caja 2 Caja 3 Caja 4 FORMA 113  2025 - 30 -"
+        "En la Caja 4 Caja 1 Caja 2 Caja 3 Caja 4 - 30 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -908,7 +908,7 @@
         "14 1",
         "25 7",
         "24 7",
-        "7 1 Fruta Cantidad de personas Uva 13 Pera 6 Manzana 12 Naranja 8 Frutilla 11 FORMA 113  2025 - 31 -"
+        "7 1 Fruta Cantidad de personas Uva 13 Pera 6 Manzana 12 Naranja 8 Frutilla 11 - 31 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -926,7 +926,7 @@
         "154, 0",
         "2 , 0",
         "25, 0",
-        "97, 0 Adaptado de: Fonasa (2022). Cuenta Pública Participativa 2022. FORMA 113  2025 - 32 -"
+        "97, 0 Adaptado de: Fonasa (2022). Cuenta Pública Participativa 2022. - 32 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -939,12 +939,12 @@
       "num": 57,
       "year": "2025",
       "area": "Probabilidad y estadistica",
-      "question": "Una empresa de repostería usa un diseño de bandejas desmontables de forma circular que se apilan una sobre otra para ir colocando diferentes dulces, tal como se representa en la figura adjunta. Para determinar el diámetro de la bandeja que va ubicada en el piso k , la empresa usa la expresión   p1n2 1k1         , tal que n representa la cantidad de bandejas desmontables que se usarán y p es el diámetro de la bandeja del primer piso, en centímetros. La empresa tiene que preparar un diseño de cinco pisos tal que el diámetro de la bandeja del primer piso mida cm40 . ¿Cuál será el área de la bandeja del tercer piso donde irán los dulces?",
+      "question": "Una empresa de repostería usa un diseño de bandejas desmontables de forma circular que se apilan una sobre otra para ir colocando diferentes dulces, tal como se representa en la figura adjunta. Para determinar el diámetro de la bandeja que va ubicada en el piso k , la empresa usa la expresión p1n2 1k1 , tal que n representa la cantidad de bandejas desmontables que se usarán y p es el diámetro de la bandeja del primer piso, en centímetros. La empresa tiene que preparar un diseño de cinco pisos tal que el diámetro de la bandeja del primer piso mida cm40 . ¿Cuál será el área de la bandeja del tercer piso donde irán los dulces?",
       "options": [
-        "2cm225",
-        "2cm240",
-        "2cm300",
-        "2cm900 Primer piso FORMA 113  2025 - 33 -"
+        "2cm225",
+        "2cm240",
+        "2cm300",
+        "2cm900 Primer piso - 33 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -957,12 +957,12 @@
       "num": 58,
       "year": "2025",
       "area": "Probabilidad y estadistica",
-      "question": "En el patio de un colegio hay dibujados cuatro círculos de perímetros m12 , m10 , m8 y m4 , que se desean pintar de un color diferente para una actividad extraescolar. Se necesita conocer el área total de estos cuatro círculos para estimar la cantidad de pintura a comprar. ¿Cuál es el área que se necesita conocer?",
+      "question": "En el patio de un colegio hay dibujados cuatro círculos de perímetros m12 , m10 , m8 y m4 , que se desean pintar de un color diferente para una actividad extraescolar. Se necesita conocer el área total de estos cuatro círculos para estimar la cantidad de pintura a comprar. ¿Cuál es el área que se necesita conocer?",
       "options": [
-        "  22 m17 ",
-        "2m81",
-        "2m34",
-        "2m17 FORMA 113  2025 - 34 -"
+        "22 m17",
+        "2m81",
+        "2m34",
+        "2m17 - 34 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -980,7 +980,7 @@
         "3m240",
         "3m2,265",
         "3m28,269",
-        "3m272 FORMA 113  2025 - 35 -"
+        "3m272 - 35 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -995,10 +995,10 @@
       "area": "Probabilidad y estadistica",
       "question": "Una maestranza produce piezas metálicas uniendo dos cilindro s sólidos de la misma altura, tal como se representa en la siguiente figura: ¿Cuál es el volumen de material que se necesita para fabricar esta pieza?",
       "options": [
-        "3cm5000",
-        "3cm2500",
-        "3cm1250",
-        "3cm560 FORMA 113  2025 - 36 -"
+        "3cm5000",
+        "3cm2500",
+        "3cm1250",
+        "3cm560 - 36 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1013,10 +1013,10 @@
       "area": "Probabilidad y estadistica",
       "question": "Considera un perfil rectangular de m6 de largo hecho de aluminio de mm8,4 de grosor, tal como el que se representa a continuación: ¿Por cuál de los siguientes números hay que multiplicar el largo del perfil, en mm , para obtener la cantidad de aluminio necesaria para confeccionar uno de estos perfiles, e n 3mm ?",
       "options": [
-        "  8,48,508,46,1018,506,101 ",
-        "  8,428,508,46,1018,506,101 ",
-        "  8,48,508,426,1018,506,101 ",
-        "  8,428,508,426,1018,506,101  FORMA 113  2025 - 37 -"
+        "8,48,508,46,1018,506,101",
+        "8,428,508,46,1018,506,101",
+        "8,48,508,426,1018,506,101",
+        "8,428,508,426,1018,506,101 - 37 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1034,7 +1034,7 @@
         "Trasladar la figura cuatro unidades a la izquierda y cuatro unidades hacia abajo.",
         "Trasladar la figura cuatro unidades a la izquierda y cinco unidades hacia abajo.",
         "Trasladar la figura tres unidades a la izquierda y tres unidades hacia abajo.",
-        "Trasladar la figura cinco unidades a la izquierda y cuatro unidades hacia abajo. FORMA 113  2025 - 38 -"
+        "Trasladar la figura cinco unidades a la izquierda y cuatro unidades hacia abajo. - 38 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1051,8 +1051,8 @@
       "options": [
         "B)",
         "C)",
-        "D) FORMA 113  2025 - 39 -",
-        "FORMA 113  2025 - 39 -"
+        "D) - 39 -",
+        "- 39 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1069,8 +1069,8 @@
       "options": [
         "B)",
         "C)",
-        "D) FORMA 113  2025 - 40 -",
-        "FORMA 113  2025 - 40 -"
+        "D) - 40 -",
+        "- 40 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1083,12 +1083,12 @@
       "num": 65,
       "year": "2025",
       "area": "Probabilidad y estadistica",
-      "question": "En la figura adjunta, el punto B es el simétrico del punto A con respecto a la recta L , el punto D es el simétrico del punto C con respecto a la recta L y  50CDB . ¿Cuánto mide uno de los ángulos formados por las rectas DB y CA ?",
+      "question": "En la figura adjunta, el punto B es el simétrico del punto A con respecto a la recta L , el punto D es el simétrico del punto C con respecto a la recta L y 50CDB . ¿Cuánto mide uno de los ángulos formados por las rectas DB y CA ?",
       "options": [
-        "40",
-        "45",
-        "50",
-        "80 FORMA 113  2025 - 41 - Listado de referencias bibliográficas Pregunta Cita bibliográfica 55 Fonasa. (2022). Cuenta pública 2022. Fondo Nacional de Salud (Fonasa). https://www.fonasa.cl/sites/fonasa/adjuntos/CUENTAPUBLICA2022c Proceso de Admisión 2025"
+        "40",
+        "45",
+        "50",
+        "80 - 41 - Listado de referencias bibliográficas Pregunta Cita bibliográfica 55 Fonasa. (2022). Cuenta pública 2022. Fondo Nacional de Salud (Fonasa). https://www.fonasa.cl/sites/fonasa/adjuntos/CUENTAPUBLICA2022c Proceso de Admisión 2025"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1106,7 +1106,7 @@
         "−14",
         "−4",
         "3",
-        "11 - 3 - FORMA 113 – 2026"
+        "11 - 3 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1124,7 +1124,7 @@
         "$4600",
         "$8100",
         "$10 000",
-        "$13 700 - 4 - FORMA 113 – 2026"
+        "$13 700 - 4 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1160,7 +1160,7 @@
         "2,7",
         "0,3",
         "0,27",
-        "0,03 - 5 - FORMA 113 – 2026"
+        "0,03 - 5 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1178,7 +1178,7 @@
         "En el Paso 1",
         "En el Paso 2",
         "En el Paso 3",
-        "En el Paso 4 - 6 - FORMA 113 – 2026"
+        "En el Paso 4 - 6 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1196,7 +1196,7 @@
         "Que 15 · n es divisible por 20.",
         "Que 15 + nes divisible por 20.",
         "Que 15 · n es divisible por 300.",
-        "Que 15 + nes divisible por 300. - 7 - FORMA 113 – 2026"
+        "Que 15 + nes divisible por 300. - 7 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1214,7 +1214,7 @@
         "Presionar una vez y siete veces .",
         "Presionar una vez y ocho veces .",
         "Presionar una vez , dos veces y dos veces .",
-        "Presionar una vez , tres veces y una vez . - 8 - FORMA 113 – 2026"
+        "Presionar una vez , tres veces y una vez . - 8 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1232,7 +1232,7 @@
         "En el Paso 1",
         "En el Paso 2",
         "En el Paso 3",
-        "En el Paso 4 - 9 - FORMA 113 – 2026"
+        "En el Paso 4 - 9 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1250,7 +1250,7 @@
         "(2 − 5)3",
         "3 · (2 − 5)",
         "3 · (5 − 2)",
-        "(5 − 2)3 - 10 - FORMA 113 – 2026"
+        "(5 − 2)3 - 10 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1286,7 +1286,7 @@
         "5625",
         "150",
         "56,25",
-        "1,5 - 11 - FORMA 113 – 2026"
+        "1,5 - 11 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1304,7 +1304,7 @@
         "2,5 %",
         "4 %",
         "25 %",
-        "40 % - 12 - FORMA 113 – 2026"
+        "40 % - 12 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1322,7 +1322,7 @@
         "80 155 104,5 GWh",
         "80 155· 100 104,5 GWh",
         "80 155· 104,5 100 GWh",
-        "80 155 104,5 · 100 GWh - 13 - FORMA 113 – 2026"
+        "80 155 104,5 · 100 GWh - 13 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1358,7 +1358,7 @@
         "2 5M",
         "24 5 M",
         "36 5 M",
-        "57 5 M - 14 - FORMA 113 – 2026"
+        "57 5 M - 14 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1394,7 +1394,7 @@
         "(10x + 30)metros",
         "(10x + 10)metros",
         "(15x + 15)metros",
-        "(15x + 25)metros - 15 - FORMA 113 – 2026"
+        "(15x + 25)metros - 15 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1412,7 +1412,7 @@
         "18",
         "28",
         "30",
-        "32 - 16 - FORMA 113 – 2026"
+        "32 - 16 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1448,7 +1448,7 @@
         "2",
         "7",
         "9",
-        "11 - 17 - FORMA 113 – 2026"
+        "11 - 17 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1484,7 +1484,7 @@
         "5x + 4< 2x + 7",
         "5x + 4< 4x + 7",
         "5x + 4> 2x + 7",
-        "5x + 4> 4x + 7 - 18 - FORMA 113 – 2026"
+        "5x + 4> 4x + 7 - 18 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1502,7 +1502,7 @@
         "Es el mes donde se obtiene la mayor cantidad de ingresos acumulados.",
         "Es el mes donde los ingresos acumulados igualan a los gastos acumulados.",
         "Es el mes desde cuando el emprendimiento no tendrá más gastos acumulados.",
-        "Es el mes donde los ingresos acumulados son iguales a los gastos iniciales del emprendimiento. - 19 - FORMA 113 – 2026"
+        "Es el mes donde los ingresos acumulados son iguales a los gastos iniciales del emprendimiento. - 19 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1520,7 +1520,7 @@
         "La cantidad de peras compradas",
         "La cantidad de manzanas compradas",
         "La cantidad de kilogramos de peras compradas",
-        "La cantidad de kilogramos de manzanas compradas - 20 - FORMA 113 – 2026"
+        "La cantidad de kilogramos de manzanas compradas - 20 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1556,7 +1556,7 @@
         "12 m",
         "16 m",
         "20 m",
-        "24 m - 21 - FORMA 113 – 2026"
+        "24 m - 21 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1592,7 +1592,7 @@
         "3",
         "4,5",
         "√ 45",
-        "9 - 22 - FORMA 113 – 2026"
+        "9 - 22 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1610,7 +1610,7 @@
         "1,444 m",
         "0,80 m",
         "0,722 m",
-        "0,40 m - 23 - FORMA 113 – 2026"
+        "0,40 m - 23 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1628,7 +1628,7 @@
         "6",
         "7",
         "8",
-        "9 - 24 - FORMA 113 – 2026"
+        "9 - 24 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1646,7 +1646,7 @@
         "6 · 52",
         "6 · 54",
         "6 · 56",
-        "6 · 512 - 25 - FORMA 113 – 2026"
+        "6 · 512 - 25 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1663,8 +1663,8 @@
       "options": [
         "B)",
         "C)",
-        "D) - 26 - FORMA 113 – 2026",
-        "- 26 - FORMA 113 – 2026"
+        "D) - 26 -",
+        "- 26 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1682,7 +1682,7 @@
         "Una reflexión con respecto al eje X y luego, una reflexión con respecto a la recta y = x.",
         "Una reflexión con respecto al origen del plano cartesiano y luego, una rotación en 45◦ en sentido horario con centro el origen del plano cartesiano.",
         "Una reflexión con respecto al eje Y.",
-        "Una traslación según el vector (−3, −3). - 27 - FORMA 113 – 2026"
+        "Una traslación según el vector (−3, −3). - 27 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1700,7 +1700,7 @@
         "Tienen distinta dirección.",
         "Tienen distinto sentido.",
         "Tienen distinta magnitud.",
-        "Están en el semieje positivo del eje X. - 28 - FORMA 113 – 2026"
+        "Están en el semieje positivo del eje X. - 28 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1718,7 +1718,7 @@
         "(8, −4)",
         "(−4, 2)",
         "(10, −6)",
-        "(2, −2) - 29 - FORMA 113 – 2026"
+        "(2, −2) - 29 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1736,7 +1736,7 @@
         "2013",
         "2015",
         "2018",
-        "2019 - 30 - FORMA 113 – 2026"
+        "2019 - 30 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1754,7 +1754,7 @@
         "6",
         "7",
         "9",
-        "12 - 31 - FORMA 113 – 2026"
+        "12 - 31 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1772,7 +1772,7 @@
         "Fuerza mágica",
         "Defensa mágica",
         "Defensa física",
-        "Fuerza física - 32 - FORMA 113 – 2026"
+        "Fuerza física - 32 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1790,7 +1790,7 @@
         "12",
         "35",
         "68",
-        "80 - 33 - FORMA 113 – 2026"
+        "80 - 33 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1807,8 +1807,8 @@
       "options": [
         "B)",
         "C)",
-        "D) - 34 - FORMA 113 – 2026",
-        "- 34 - FORMA 113 – 2026"
+        "D) - 34 -",
+        "- 34 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1826,7 +1826,7 @@
         "P + Q + 2· R P + Q + R",
         "R P + Q + R",
         "0 · P + 1· Q + 2· R P + Q + R",
-        "2 · R P + Q + R - 35 - FORMA 113 – 2026"
+        "2 · R P + Q + R - 35 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1844,7 +1844,7 @@
         "2 cm",
         "2,4 cm",
         "3 cm",
-        "7,5 cm - 36 - FORMA 113 – 2026"
+        "7,5 cm - 36 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1862,7 +1862,7 @@
         "$15 000",
         "$30 000",
         "$45 000",
-        "$60 000 - 37 - FORMA 113 – 2026"
+        "$60 000 - 37 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1880,7 +1880,7 @@
         "0,10 s",
         "0,14 s",
         "0,16 s",
-        "0,17 s - 38 - FORMA 113 – 2026"
+        "0,17 s - 38 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1898,7 +1898,7 @@
         "1 20",
         "1 19",
         "2 20",
-        "2 19 - 39 - Listado de referencias bibliográficas Pregunta Cita bibliográfica 23 Generadoras de Chile. (2022). Cifras destacadas del sector generación en 2021. https://generadoras.cl/reporte-anual-2022/. 53 Instituto Nacional de Estadística (INE). (2021). Evolución de las migraciones interiores (2008– 2021). Como se cita en Instituto Geográfico Nacional (IGN), Atlas Nacional de España. 62 CienciaNet. (2008). Descubre tu tiempo de reacción. Recuperado de http://ciencianet.com/treaccion.html. FORMA 113 – 2026 - 40 - @demre.uchile DEMRE U.chile DEMRE Uchile/demre.uchile /DEMREuchile/demre.uchile /demre_uchiledemre.cl"
+        "2 19 - 39 - Listado de referencias bibliográficas Pregunta Cita bibliográfica 23 Generadoras de Chile. (2022). Cifras destacadas del sector generación en 2021. https://generadoras.cl/reporte-anual-2022/. 53 Instituto Nacional de Estadística (INE). (2021). Evolución de las migraciones interiores (2008– 2021). Como se cita en Instituto Geográfico Nacional (IGN), Atlas Nacional de España. 62 CienciaNet. (2008). Descubre tu tiempo de reacción. Recuperado de http://ciencianet.com/treaccion.html. - 40 - @demre.uchile DEMRE U.chile DEMRE Uchile/demre.uchile /DEMREuchile/demre.uchile /demre_uchiledemre.cl"
       ],
       "answer": 1,
       "answerKey": "B",

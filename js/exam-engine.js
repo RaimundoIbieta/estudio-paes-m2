@@ -121,11 +121,19 @@ export async function runTimedEssay(container, {
  */
 function runExamQuiz(container, questions, { onSubmit }) {
   const answers = new Array(questions.length).fill(null);
+  const visited = new Set([0]);
   let index = 0;
   let submitted = false;
 
   function countAnswered() {
     return answers.filter(a => a !== null).length;
+  }
+
+  function dotClass(i) {
+    if (i === index) return 'current';
+    if (answers[i] !== null) return 'answered';
+    if (visited.has(i)) return 'omitted';
+    return 'pending';
   }
 
   function buildResponses() {
@@ -144,37 +152,46 @@ function runExamQuiz(container, questions, { onSubmit }) {
   function render() {
     const q = questions[index];
     const pct = ((index + 1) / questions.length) * 100;
-    const answered = countAnswered();
+    const omittedCount = [...visited].filter(i => answers[i] === null).length;
 
     container.innerHTML = `
-      <div class="quiz-card essay-card">
-        <div class="quiz-progress"><div style="width:${pct}%"></div></div>
-        <div class="essay-meta">
-          <span>Pregunta <strong>${index + 1}</strong> de ${questions.length} · ${q.area || ''}${q.num ? ` · N°${q.num}` : ''}</span>
-          <span class="essay-answered">${answered}/${questions.length} respondidas</span>
-        </div>
-        <p class="essay-mode-hint">Modo ensayo: sin correcciones hasta entregar. Puedes avanzar, retroceder y cambiar respuestas.</p>
+      <div class="exam-layout">
+        <aside class="exam-sidebar">
+          <div class="sidebar-title">Preguntas</div>
+          <div class="sidebar-legend">
+            <span><i class="dot-sample answered"></i> Respondida</span>
+            <span><i class="dot-sample omitted"></i> Vista, sin respuesta</span>
+            <span><i class="dot-sample pending"></i> No vista</span>
+          </div>
+          <div class="q-sidebar" id="q-strip">
+            ${questions.map((_, i) => `
+              <button type="button" class="q-dot ${dotClass(i)}" data-go="${i}" title="Pregunta ${i + 1}">${i + 1}</button>
+            `).join('')}
+          </div>
+        </aside>
 
-        <div class="question-strip" id="q-strip">
-          ${questions.map((_, i) => `
-            <button type="button" class="q-dot ${answers[i] !== null ? 'done' : ''} ${i === index ? 'current' : ''}" data-go="${i}" title="Pregunta ${i + 1}">${i + 1}</button>
-          `).join('')}
-        </div>
+        <div class="exam-main quiz-card essay-card">
+          <div class="quiz-progress"><div style="width:${pct}%"></div></div>
+          <div class="essay-meta">
+            <span>Pregunta <strong>${index + 1}</strong> de ${questions.length} · ${q.area || ''}${q.num ? ` · N°${q.num}` : ''}</span>
+            <span class="essay-answered">${countAnswered()} respondidas · ${omittedCount} omitidas · ${questions.length - visited.size} sin ver</span>
+          </div>
 
-        <div class="question-text">${q.question}</div>
-        <div class="options" id="options">
-          ${q.options.map((opt, i) => `
-            <button type="button" class="option ${answers[index] === i ? 'selected' : ''}" data-i="${i}">
-              ${String.fromCharCode(65 + i)}. ${opt}
+          <div class="question-text">${q.question}</div>
+          <div class="options" id="options">
+            ${q.options.map((opt, i) => `
+              <button type="button" class="option ${answers[index] === i ? 'selected' : ''}" data-i="${i}">
+                ${String.fromCharCode(65 + i)}. ${opt}
+              </button>
+            `).join('')}
+          </div>
+
+          <div class="quiz-actions essay-nav">
+            <button type="button" class="btn btn-secondary" id="prev-btn" ${index === 0 ? 'disabled' : ''}>Anterior</button>
+            <button type="button" class="btn btn-primary" id="next-btn">
+              ${index < questions.length - 1 ? 'Siguiente' : 'Terminar ensayo'}
             </button>
-          `).join('')}
-        </div>
-
-        <div class="quiz-actions essay-nav">
-          <button type="button" class="btn btn-secondary" id="prev-btn" ${index === 0 ? 'disabled' : ''}>Anterior</button>
-          <button type="button" class="btn btn-primary" id="next-btn">
-            ${index < questions.length - 1 ? 'Siguiente' : 'Revisar y entregar'}
-          </button>
+          </div>
         </div>
       </div>
     `;
@@ -186,17 +203,20 @@ function runExamQuiz(container, questions, { onSubmit }) {
       answers[index] = i;
       container.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
       btn.classList.add('selected');
-      const dot = container.querySelector(`.q-dot[data-go="${index}"]`);
-      dot?.classList.add('done');
     });
 
     container.querySelector('#prev-btn').addEventListener('click', () => {
-      if (index > 0) { index -= 1; render(); }
+      if (index > 0) {
+        index -= 1;
+        visited.add(index);
+        render();
+      }
     });
 
     container.querySelector('#next-btn').addEventListener('click', () => {
       if (index < questions.length - 1) {
         index += 1;
+        visited.add(index);
         render();
       } else {
         showSubmitConfirm(container, questions, answers, () => {
@@ -210,6 +230,7 @@ function runExamQuiz(container, questions, { onSubmit }) {
       const dot = e.target.closest('[data-go]');
       if (!dot) return;
       index = +dot.dataset.go;
+      visited.add(index);
       render();
     });
   }

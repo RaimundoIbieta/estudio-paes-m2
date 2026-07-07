@@ -249,7 +249,7 @@
       "num": 6,
       "year": "2025",
       "area": "Numeros avanzados",
-      "question": "En el experimento de lanzar una moneda, sus dos opciones son equiprobables de salir, a menos que se indique lo contrario. Universidad de Chile. Derechos reservados . Prohibida su reproducción total o parcial. FORMA 193  2025 - 3 - INSTRUCCIONES PARA LAS PREGUNTAS DE SUFICIENCIA DE DATOS En las preguntas de Suficiencia de Datos no se pide la solución al problema, sino que se decida si con los datos proporcionados, tanto en el enunciado como en las afirmaciones (1) y (2), se puede llegar a la solución del problema. Es así que se deberá marcar la opción:",
+      "question": "En el experimento de lanzar una moneda, sus dos opciones son equiprobables de salir, a menos que se indique lo contrario. Universidad de Chile. Derechos reservados . Prohibida su reproducción total o parcial. - 3 - INSTRUCCIONES PARA LAS PREGUNTAS DE SUFICIENCIA DE DATOS En las preguntas de Suficiencia de Datos no se pide la solución al problema, sino que se decida si con los datos proporcionados, tanto en el enunciado como en las afirmaciones (1) y (2), se puede llegar a la solución del problema. Es así que se deberá marcar la opción:",
       "options": [
         "(1) por sí sola , si la afirmación (1) por sí sola es suficiente para resolve r el problema, pero la afirmación (2) por sí sola no lo es,",
         "(2) por sí sola , si la afirmación (2) por sí sola es suficiente para resolver el problema, pero la afirmación (1) por sí sola no lo es,",
@@ -267,12 +267,12 @@
       "num": 1,
       "year": "2025",
       "area": "Numeros avanzados",
-      "question": "Si P , Q y R son tres números positivos, tal que 92,0P R  y 125,1Q R  , ¿cuál es el orden creciente de los números?",
+      "question": "Si P , Q y R son tres números positivos, tal que 92,0P R y 125,1Q R , ¿cuál es el orden creciente de los números?",
       "options": [
-        "QRP ",
-        "PRQ ",
-        "PQR ",
-        "RQP "
+        "QRP",
+        "PRQ",
+        "PQR",
+        "RQP"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -285,12 +285,12 @@
       "num": 2,
       "year": "2025",
       "area": "Numeros avanzados",
-      "question": "Si m es un número entero mayor que 1 y x es un número real positivo, ¿cuál de las siguientes expresiones es igual a m xx ?",
+      "question": "Si m es un número entero mayor que 1 y x es un número real positivo, ¿cuál de las siguientes expresiones es igual a m xx ?",
       "options": [
         "m 2x",
-        "1m x",
+        "1m x",
         "m mx",
-        "m 1mx "
+        "m 1mx"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -303,12 +303,12 @@
       "num": 3,
       "year": "2025",
       "area": "Numeros avanzados",
-      "question": "Para calcular el área A de un triángulo cuyos lados miden a , b y c , se puede utilizar la expresión    cSbSaSSA  , tal que 2 cbaS  . Para determinar el área de un triángulo e n el que dos de sus lados miden L y el otro mide L2 3 , se realiza el siguiente procedimiento, en el cual se comete un error. Paso 1: se reemplaza S en la expresión para calcular A , obteniéndose              c2 cbab2 cbaa2 cba 2 cbaA . Paso 2: se reemplazan las medidas de los lados del triángulo, obteniéndose          4 L 4 L3 4 L3 4 L7A . Paso 3: se exp resa el radicando utilizando potencias, obteniéndose 22 16 L37A        . Paso 4: se aplica la propiedad de la raíz y de la potencia, obteniéndose 16 L21A 2  . ¿En cuál de los pasos se cometió el error?",
+      "question": "Para calcular el área A de un triángulo cuyos lados miden a , b y c , se puede utilizar la expresión cSbSaSSA , tal que 2 cbaS . Para determinar el área de un triángulo e n el que dos de sus lados miden L y el otro mide L2 3 , se realiza el siguiente procedimiento, en el cual se comete un error. Paso 1: se reemplaza S en la expresión para calcular A , obteniéndose c2 cbab2 cbaa2 cba 2 cbaA . Paso 2: se reemplazan las medidas de los lados del triángulo, obteniéndose 4 L 4 L3 4 L3 4 L7A . Paso 3: se exp resa el radicando utilizando potencias, obteniéndose 22 16 L37A . Paso 4: se aplica la propiedad de la raíz y de la potencia, obteniéndose 16 L21A 2 . ¿En cuál de los pasos se cometió el error?",
       "options": [
         "En el Paso 1",
         "En el Paso 2",
         "En el Paso 3",
-        "En el Paso 4 FORMA 193  2025 - 6 -"
+        "En el Paso 4 - 6 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -321,12 +321,12 @@
       "num": 4,
       "year": "2025",
       "area": "Numeros avanzados",
-      "question": "Si a y b son números racionales , tal que b1a0  , ¿cuál de las siguientes expresiones representa siempre a un número mayor qu e 1 ?",
+      "question": "Si a y b son números racionales , tal que b1a0 , ¿cuál de las siguientes expresiones representa siempre a un número mayor qu e 1 ?",
       "options": [
-        "2b 2a  ",
-        "2 ba ",
+        "2b 2a",
+        "2 ba",
         "ab",
-        "9,0b a "
+        "9,0b a"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -341,10 +341,10 @@
       "area": "Numeros avanzados",
       "question": "En un laboratorio, una balanza digital registra de manera automática la masa de un cultivo bacteriano. La masa del cultivo se cuadruplica cada 24 horas tal como se representa en la siguiente tabla: ¿Cuánta masa registrará la balanza transcurridos cuatro días?",
       "options": [
-        "kg10096,4 6",
-        "kg10192,8 6",
-        "kg10048,2 5",
-        "kg10096,4 5 Días transcurridos Masa  kg 1 8104,6  2 71056,2  3 610024,1  FORMA 193  2025 - 7 -"
+        "kg10096,4 6",
+        "kg10192,8 6",
+        "kg10048,2 5",
+        "kg10096,4 5 Días transcurridos Masa kg 1 8104,6 2 71056,2 3 610024,1 - 7 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -357,12 +357,12 @@
       "num": 6,
       "year": "2025",
       "area": "Numeros avanzados",
-      "question": "Si a3P  , a3Q  y a3R  , con 0a  , ¿cuál de las siguientes relaciones es verdadera?",
+      "question": "Si a3P , a3Q y a3R , con 0a , ¿cuál de las siguientes relaciones es verdadera?",
       "options": [
-        "RPQ ",
-        "RPQ ",
-        "PRQ ",
-        "QRP "
+        "RPQ",
+        "RPQ",
+        "PRQ",
+        "QRP"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -375,12 +375,12 @@
       "num": 9,
       "year": "2025",
       "area": "Numeros avanzados",
-      "question": "Si x3p y y3b , ¿cuál de las siguientes expresiones es igual a  yx  , en términos de p y b ?",
+      "question": "Si x3p y y3b , ¿cuál de las siguientes expresiones es igual a yx , en términos de p y b ?",
       "options": [
-        " bplog3 ",
-        " bplog3 ",
-        "blogplog 33 ",
-        " bplog  FORMA 193  2025 - 8 -"
+        "bplog3",
+        "bplog3",
+        "blogplog 33",
+        "bplog - 8 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -398,7 +398,7 @@
         "000160$",
         "000168$",
         "000192$",
-        "000200$ FORMA 193  2025 - 9 -"
+        "000200$ - 9 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -411,12 +411,12 @@
       "num": 14,
       "year": "2025",
       "area": "Numeros avanzados",
-      "question": "Fer recibió una herencia H de 0000005$ que se entregará repartida en pagos mensuales e iguales. Para determinar el monto mensual P , en pesos, que se le entregará a Fer, la institución encargada le otorga una tasa de interés c de un %5,0 mensual en un plazo de n meses, y utiliza el modelo:   nc11 cHP   , tal que c está escrito en su forma decimal . Si Fer ha decidido recibir la herencia en un plazo de 60 meses, ¿cuál de las siguientes expresiones representa el monto, en pesos, que recibirá mensualmente?",
+      "question": "Fer recibió una herencia H de 0000005$ que se entregará repartida en pagos mensuales e iguales. Para determinar el monto mensual P , en pesos, que se le entregará a Fer, la institución encargada le otorga una tasa de interés c de un %5,0 mensual en un plazo de n meses, y utiliza el modelo: nc11 cHP , tal que c está escrito en su forma decimal . Si Fer ha decidido recibir la herencia en un plazo de 60 meses, ¿cuál de las siguientes expresiones representa el monto, en pesos, que recibirá mensualmente?",
       "options": [
-        "  60511 000000250 ",
-        "  605,11 0005002 ",
-        "  6005,11 000250 ",
-        "  60005,11 00025  FORMA 193  2025 - 10 -"
+        "60511 000000250",
+        "605,11 0005002",
+        "6005,11 000250",
+        "60005,11 00025 - 10 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -429,12 +429,12 @@
       "num": 15,
       "year": "2025",
       "area": "Algebra y funciones",
-      "question": "¿Cuál de las siguientes expresiones es igual a    23 1pp2p  ?",
+      "question": "¿Cuál de las siguientes expresiones es igual a 23 1pp2p ?",
       "options": [
-        "p8",
-        "8p11p8 2 ",
-        "8p3p4 2 ",
-        "p26"
+        "p8",
+        "8p11p8 2",
+        "8p3p4 2",
+        "p26"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -447,12 +447,12 @@
       "num": 18,
       "year": "2025",
       "area": "Algebra y funciones",
-      "question": "¿Cuál es el conjunto solución de la inecuación 02x3  ?",
+      "question": "¿Cuál es el conjunto solución de la inecuación 02x3 ?",
       "options": [
-        "     ,3 2",
-        "    ,3 2",
-        "     3 2,",
-        "     3 2, FORMA 193  2025 - 11 -"
+        ",3 2",
+        ",3 2",
+        "3 2,",
+        "3 2, - 11 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -465,12 +465,12 @@
       "num": 19,
       "year": "2025",
       "area": "Algebra y funciones",
-      "question": "La edad actual de Raúl es  1x  años y la de su hermana Paulina es  3px años. Si S corresponde a la suma de las edades actuales de Raúl y Paulina, ¿cuál de las siguientes expresiones representa la edad de Raúl hace 3 años?",
+      "question": "La edad actual de Raúl es 1x años y la de su hermana Paulina es 3px años. Si S corresponde a la suma de las edades actuales de Raúl y Paulina, ¿cuál de las siguientes expresiones representa la edad de Raúl hace 3 años?",
       "options": [
-        "1p p4S  ",
-        "1p 4S  ",
-        "1p S ",
-        "1p 3pS  "
+        "1p p4S",
+        "1p 4S",
+        "1p S",
+        "1p 3pS"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -483,12 +483,12 @@
       "num": 20,
       "year": "2025",
       "area": "Algebra y funciones",
-      "question": "La aceleración de gravedad g en un planeta, en 2s m , se puede calcular mediante la expresión 2R MGg  , t al que G es una constante, M es la masa del planeta en kilogramos, R es su radio en metros y la aceleración de gravedad de la Tierra es aproximadamente 2s m10 . Considera qu e el radio de Marte mide aproximadamente la mitad del radio de la Tierra, y que su masa equivale a 1,0 veces la masa de la Tierra. ¿Cuál es aproximadamente la aceleración de gravedad en Marte?",
+      "question": "La aceleración de gravedad g en un planeta, en 2s m , se puede calcular mediante la expresión 2R MGg , t al que G es una constante, M es la masa del planeta en kilogramos, R es su radio en metros y la aceleración de gravedad de la Tierra es aproximadamente 2s m10 . Considera qu e el radio de Marte mide aproximadamente la mitad del radio de la Tierra, y que su masa equivale a 1,0 veces la masa de la Tierra. ¿Cuál es aproximadamente la aceleración de gravedad en Marte?",
       "options": [
         "2s m25,0",
         "2s m5,0",
         "2s m2",
-        "2s m4 FORMA 193  2025 - 13 -"
+        "2s m4 - 13 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -501,12 +501,12 @@
       "num": 26,
       "year": "2025",
       "area": "Algebra y funciones",
-      "question": "Considera la fun ción f , cuyo domin io es el conjunto de los números reales, definida por   5x4xxf 2  . ¿Cuál de las siguientes funciones tiene como gráfica la parábola asociada a f , pero trasladada en 5 unidades hacia la derecha?",
+      "question": "Considera la fun ción f , cuyo domin io es el conjunto de los números reales, definida por 5x4xxf 2 . ¿Cuál de las siguientes funciones tiene como gráfica la parábola asociada a f , pero trasladada en 5 unidades hacia la derecha?",
       "options": [
-        "  5x6xxg 2 ",
-        "  x4xxh 2 ",
-        "  5xxxp 2 ",
-        "  50x14xxq 2  18yx  35y3x2 "
+        "5x6xxg 2",
+        "x4xxh 2",
+        "5xxxp 2",
+        "50x14xxq 2 18yx 35y3x2"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -524,7 +524,7 @@
         "cm5,13",
         "cm5,7",
         "cm5,4",
-        "cm5,1 FORMA 193  2025 - 15 -"
+        "cm5,1 - 15 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -537,7 +537,7 @@
       "num": 28,
       "year": "2025",
       "area": "Algebra y funciones",
-      "question": "Considera la función f , cuyo dominio es el conjunto de los números reales , definida por   cbxaxxf 2  , con 0a  , ¿cuál de las siguientes afirmaciones es siempre verdadera?",
+      "question": "Considera la función f , cuyo dominio es el conjunto de los números reales , definida por cbxaxxf 2 , con 0a , ¿cuál de las siguientes afirmaciones es siempre verdadera?",
       "options": [
         "La ordenada del vértice de la parábola asociada a la función f es el máximo de esta.",
         "La gráfica de la función f no interse ca al eje X .",
@@ -555,12 +555,12 @@
       "num": 30,
       "year": "2025",
       "area": "Geometria",
-      "question": "Considera la función f , definida por   1x2k xxf 2  , cuyo dominio es el conjunto de los números reales, con k un número real distinto de cero. Si la segunda coordenada del vértice d e l a parábola asociada a f es mayor que 1 , ¿qué condición debe cumplir k ?",
+      "question": "Considera la función f , definida por 1x2k xxf 2 , cuyo dominio es el conjunto de los números reales, con k un número real distinto de cero. Si la segunda coordenada del vértice d e l a parábola asociada a f es mayor que 1 , ¿qué condición debe cumplir k ?",
       "options": [
         "Debe ser mayor que 2 .",
         "Debe ser menor que 2 y mayor que 0 .",
-        "Debe ser menor que 0 y mayor que 2 .",
-        "Debe ser menor que 2 . FORMA 193  2025 - 16 -"
+        "Debe ser menor que 0 y mayor que 2 .",
+        "Debe ser menor que 2 . - 16 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -573,11 +573,11 @@
       "num": 31,
       "year": "2025",
       "area": "Geometria",
-      "question": "Considera la función f , definida por   3t150t25ttf 23  , con dominio el conjunto de l os números reales. ¿Cuál de las siguientes opciones representa todos los valores de t para los que   3tf  ?",
+      "question": "Considera la función f , definida por 3t150t25ttf 23 , con dominio el conjunto de l os números reales. ¿Cuál de las siguientes opciones representa todos los valores de t para los que 3tf ?",
       "options": [
         "0 , 10 y 15",
-        "0 , 10 y 15",
-        "3 , 7 y 12",
+        "0 , 10 y 15",
+        "3 , 7 y 12",
         "0"
       ],
       "answer": 0,
@@ -591,7 +591,7 @@
       "num": 32,
       "year": "2025",
       "area": "Geometria",
-      "question": "Al aplicar una homotecia con centro en el origen del sistema coordenado al vector  3,2  , se obtiene el vector  6,4 . Si se aplica esta misma homotecia al vector  4,3 , entonces se obtiene n . ¿Cuál es el módulo de n ?",
+      "question": "Al aplicar una homotecia con centro en el origen del sistema coordenado al vector 3,2 , se obtiene el vector 6,4 . Si se aplica esta misma homotecia al vector 4,3 , entonces se obtiene n . ¿Cuál es el módulo de n ?",
       "options": [
         "50 unidades",
         "10 unidades",
@@ -611,10 +611,10 @@
       "area": "Geometria",
       "question": "Para la construcción de las casas de una villa , se deben construir los cimientos de cada una de ellas. Estos cimientos deb en tener cm80 de profundidad y cm50 de ancho. En el siguiente diagrama, la parte gris representa la forma de la excavación que se realizará para confeccionar los cimientos de cada casa, mirado desde arriba. El metro cúbico de hormigón que se utilizará para confeccionar el cimiento de las casas tiene un valor de 00095$ . ¿Cuál de las siguientes expresiones corresponde al precio total, en pesos, que se debe pagar por los cimientos de x casas?",
       "options": [
-        "x248,05,000095 ",
-        "x318,05,000095 ",
-        "x348,05,000095 ",
-        "x408,05,000095  FORMA 193  2025 - 18 -"
+        "x248,05,000095",
+        "x318,05,000095",
+        "x348,05,000095",
+        "x408,05,000095 - 18 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -632,7 +632,7 @@
         "2cm12",
         "2cm18",
         "2cm21",
-        "2cm24 FORMA 193  2025 - 19 -"
+        "2cm24 - 19 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -645,12 +645,12 @@
       "num": 36,
       "year": "2025",
       "area": "Geometria",
-      "question": "El área de una figura geométrica llamada elipse se puede calcular como ab , en centímetros cuadrados, tal que a corresponde a la medida del semieje mayor, en centí metros, y b corresponde a la medida del semieje menor, en centímetros, tal como se representa a continuación: Considera un trozo rectangular de madera al que se le hará un corte con forma de elipse para luego pintar la pa rte superior y ser utilizado como cubierta de un lavamanos. Las medidas se presentan en la siguiente figura: ¿Cuál es el área de la madera que se pintará para ser utilizad a como cubierta de ese lavamanos?",
+      "question": "El área de una figura geométrica llamada elipse se puede calcular como ab , en centímetros cuadrados, tal que a corresponde a la medida del semieje mayor, en centí metros, y b corresponde a la medida del semieje menor, en centímetros, tal como se representa a continuación: Considera un trozo rectangular de madera al que se le hará un corte con forma de elipse para luego pintar la pa rte superior y ser utilizado como cubierta de un lavamanos. Las medidas se presentan en la siguiente figura: ¿Cuál es el área de la madera que se pintará para ser utilizad a como cubierta de ese lavamanos?",
       "options": [
-        "  2cm15002640 ",
-        "  2cm40212 ",
-        "  2cm3752640 ",
-        "  2cm160212  FORMA 193  2025 - 20 -"
+        "2cm15002640",
+        "2cm40212",
+        "2cm3752640",
+        "2cm160212 - 20 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -665,10 +665,10 @@
       "area": "Geometria",
       "question": "Dos barcos ubicados en el mismo lugar comienzan a navegar al mismo tiempo. El primero lo hace hacia el n orte a una rapidez constante de v nudos y el segundo lo hace hacia el este a una rap idez constante de w nudos. Si un nudo equivale a una rapidez de h km852,1 , ¿cuál de las siguientes expresiones representa la distancia a la que se encuentran los barcos, en kilómetros, después de dos h oras?",
       "options": [
-        "22 wv852,1 ",
-        "22 wv852,12 ",
-        " 22 wv852,1 ",
-        " 22 wv852,12  FORMA 193  2025 - 21 -"
+        "22 wv852,1",
+        "22 wv852,12",
+        "22 wv852,1",
+        "22 wv852,12 - 21 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -683,10 +683,10 @@
       "area": "Geometria",
       "question": "En una comunidad se quieren cambiar los botes de basura cilíndricos por otros con forma de cubo que son más fáciles de manipular por los camiones recolectores de basura. Actualmente hay 30 botes de basura cilíndricos, como el que se presenta en la figura adjunta. Los botes de basura con forma de cubo tendrán una altura que es 3 2 de la altura de los botes cilíndricos. Si se quiere mantener la capacidad de co ntención total de basura de los 30 botes cilíndricos, ¿cuál de las siguientes expresiones permite calcular la cantidad de botes con forma de cubo que se necesitan?",
       "options": [
-        "2 2 h4 r45",
-        "2 2 h 5,1r ",
-        "2 2 h r45",
-        "2 2 r45 h  FORMA 193  2025 - 22 -"
+        "2 2 h4 r45",
+        "2 2 h 5,1r",
+        "2 2 h r45",
+        "2 2 r45 h - 22 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -699,12 +699,12 @@
       "num": 40,
       "year": "2025",
       "area": "Geometria",
-      "question": "Al punto  1,3A se le aplica una traslación según el vector  2k,1kv  , con k un número ent ero. ¿En cuál de l as siguientes gráficas el punto P no corresponde a una posible traslación de A según v ? B)",
+      "question": "Al punto 1,3A se le aplica una traslación según el vector 2k,1kv , con k un número ent ero. ¿En cuál de l as siguientes gráficas el punto P no corresponde a una posible traslación de A según v ? B)",
       "options": [
-        "C) D) P A 3 2 1 X 1 Y A P 3 2 4 X 1 Y 1 3 X 5 Y P A P A 1 3 X 5 Y 4 FORMA 193  2025 - 23 -",
+        "C) D) P A 3 2 1 X 1 Y A P 3 2 4 X 1 Y 1 3 X 5 Y P A P A 1 3 X 5 Y 4 - 23 -",
         "A)",
-        "D) P A 3 2 1 X 1 Y A P 3 2 4 X 1 Y 1 3 X 5 Y P A P A 1 3 X 5 Y 4 FORMA 193  2025 - 23 -",
-        "P A 3 2 1 X 1 Y A P 3 2 4 X 1 Y 1 3 X 5 Y P A P A 1 3 X 5 Y 4 FORMA 193  2025 - 23 -"
+        "D) P A 3 2 1 X 1 Y A P 3 2 4 X 1 Y 1 3 X 5 Y P A P A 1 3 X 5 Y 4 - 23 -",
+        "P A 3 2 1 X 1 Y A P 3 2 4 X 1 Y 1 3 X 5 Y P A P A 1 3 X 5 Y 4 - 23 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -717,12 +717,12 @@
       "num": 42,
       "year": "2025",
       "area": "Geometria",
-      "question": "En una empresa, las proyecciones de ventas de febrero  FV y marzo  MV , en miles de pesos, están definidas por las siguientes condiciones:  Si 1000VF  , entonces 8,0V V M F  .  Si 1000VF  , entonces 2,1V V M F  . ¿Cuál de los siguientes gráficos podría representar las proyecciones de venta s de esta empresa? C) B)",
+      "question": "En una empresa, las proyecciones de ventas de febrero FV y marzo MV , en miles de pesos, están definidas por las siguientes condiciones: Si 1000VF , entonces 8,0V V M F . Si 1000VF , entonces 2,1V V M F . ¿Cuál de los siguientes gráficos podría representar las proyecciones de venta s de esta empresa? C) B)",
       "options": [
-        "D) Ventas en miles de pesos Mes Ventas en miles de pesos Mes Mes Ventas en miles de pesos Ventas en miles de pesos Mes FORMA 193  2025 - 24 -",
+        "D) Ventas en miles de pesos Mes Ventas en miles de pesos Mes Mes Ventas en miles de pesos Ventas en miles de pesos Mes - 24 -",
         "A)",
         "B) A)",
-        "Ventas en miles de pesos Mes Ventas en miles de pesos Mes Mes Ventas en miles de pesos Ventas en miles de pesos Mes FORMA 193  2025 - 24 -"
+        "Ventas en miles de pesos Mes Ventas en miles de pesos Mes Mes Ventas en miles de pesos Ventas en miles de pesos Mes - 24 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -738,9 +738,9 @@
       "question": "Considera el siguiente diagrama de cajón elaborado a partir de 100 datos: ¿Cuál de los siguientes gráficos podría representar la distribución de estos datos?",
       "options": [
         "B)",
-        "C) D) Frecuencia Frecuencia Frecuencia Frecuencia FORMA 193  2025 - 25 -",
-        "D) Frecuencia Frecuencia Frecuencia Frecuencia FORMA 193  2025 - 25 -",
-        "Frecuencia Frecuencia Frecuencia Frecuencia FORMA 193  2025 - 25 -"
+        "C) D) Frecuencia Frecuencia Frecuencia Frecuencia - 25 -",
+        "D) Frecuencia Frecuencia Frecuencia Frecuencia - 25 -",
+        "Frecuencia Frecuencia Frecuencia Frecuencia - 25 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -755,10 +755,10 @@
       "area": "Probabilidad y estadistica",
       "question": "Los 40 estudiantes de un curso compraron dos números de rifa cada uno para un sorteo de 80 números. Pablo sabe que la probabilidad de que gane es 40 1 . Sin embargo, debido a que el día del sorteo faltaron varios estudiantes a clases y el sorteo se realiza solo entre los presentes, la probabilidad de que Pablo gane cambia a b 1 . ¿Cuál de las siguientes expresiones permite determinar la cantidad de estudiantes que faltaron a clases el día del sorteo?",
       "options": [
-        "2 b40 ",
-        "b40",
-        "b240",
-        "b40 b40  FORMA 193  2025 - 26 -"
+        "2 b40",
+        "b40",
+        "b240",
+        "b40 b40 - 26 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -773,9 +773,9 @@
       "area": "Probabilidad y estadistica",
       "question": "En una ciu dad de 6000 personas, 200 miden más de 8,1 metros. Si se escogen dos personas al azar, ¿cuál es la probabilidad de q ue ninguna de ellas mida más de 8,1 metros?",
       "options": [
-        "2 5800 1   ",
-        "5999 5799 6000 5800 ",
-        "6000 200 6000 200 ",
+        "2 5800 1",
+        "5999 5799 6000 5800",
+        "6000 200 6000 200",
         "6000 5800"
       ],
       "answer": 1,
@@ -809,10 +809,10 @@
       "area": "Probabilidad y estadistica",
       "question": "Cada estudiante que asistió a una reunión saluda con un apretón de manos a todos los demás estudiantes solo una vez. Si se contabilizaron en total 105 apretones de manos y n es la cantidad total de estudiantes que asistió a la reunión, ¿cuál de las siguientes relaciones es verdadera?",
       "options": [
-        "  1052 2nn ",
-        "  1051nn ",
-        "  1052 1nn ",
-        "1052 nn  FORMA 193  2025 - 29 -"
+        "1052 2nn",
+        "1051nn",
+        "1052 1nn",
+        "1052 nn - 29 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -827,10 +827,10 @@
       "area": "Probabilidad y estadistica",
       "question": "Considera una circunferencia, en e lla se irán ubicando puntos equidistantes entre sí, para luego calcular la cantidad de trazos que se necesitan para unir a cualquier par de puntos. En la siguiente imagen se dan dos ejemplos de la situación planteada. Si se ubican n puntos en la circunferencia, ¿cuál de las siguientes expresiones permite determinar la cantidad de trazos necesarios para unir a cualquier par de puntos?",
       "options": [
-        "      2 n",
-        "23 n      ",
-        " 2n3 ",
-        "  !2n3  FORMA 193  2025 - 30 -"
+        "2 n",
+        "23 n",
+        "2n3",
+        "!2n3 - 30 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -845,10 +845,10 @@
       "area": "Probabilidad y estadistica",
       "question": "Una persona desarrolla un test de 10 preguntas, el cual solo tiene preguntas de verdadero o falso. Si esta persona contestó todas las preguntas al azar y el test se aprueba al obtener al menos 7 respuestas correctas, ¿cuál es la probabilidad de que la persona apruebe el test?",
       "options": [
-        "7 2 1  ",
-        "73 2 1 2 1 7 10          ",
-        "1098273 2 1 2 1 2 1 2 1 2 1 2 1 2 1               ",
-        "1098273 2 1 2 1 2 1 9 10 2 1 2 1 8 10 2 1 2 1 7 10                               FORMA 193  2025 - 31 -"
+        "7 2 1",
+        "73 2 1 2 1 7 10",
+        "1098273 2 1 2 1 2 1 2 1 2 1 2 1 2 1",
+        "1098273 2 1 2 1 2 1 9 10 2 1 2 1 8 10 2 1 2 1 7 10 - 31 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -861,7 +861,7 @@
       "num": 52,
       "year": "2025",
       "area": "Probabilidad y estadistica",
-      "question": "Se puede determinar el valor del número racional y x , si se sabe que: (1) y es la cuarta parte de x . (2) 5yx ",
+      "question": "Se puede determinar el valor del número racional y x , si se sabe que: (1) y es la cuarta parte de x . (2) 5yx",
       "options": [
         "(1) por sí sola",
         "(2) por sí sola",
@@ -879,7 +879,7 @@
       "num": 53,
       "year": "2025",
       "area": "Probabilidad y estadistica",
-      "question": "Considera la función f , cuyo dominio es el conjunto de los números reales, definida por   cbxaxxf 2  y que   p13f  y   q14f  . Se pueden determinar los valores de p y q , si se conoce el valor de: (1) a y b (2)  0f",
+      "question": "Considera la función f , cuyo dominio es el conjunto de los números reales, definida por cbxaxxf 2 y que p13f y q14f . Se pueden determinar los valores de p y q , si se conoce el valor de: (1) a y b (2) 0f",
       "options": [
         "(1) por sí sola",
         "(2) por sí sola",
@@ -915,7 +915,7 @@
       "num": 9,
       "year": "2026",
       "area": "Numeros avanzados",
-      "question": "En esta prueba, todas las variables que se modelan mediante una distribución normal, se consideran variables aleatorias continuas. Si Z es una variable aleatoria continua que se modela mediante una distribución normal con media 0 y desviación estándar 1(Z ∼ N(0, 1)), se cumple que la parte de color gris del gráfico de esta distribución corresponde a P(Z ≤ z) y en la tabla se presentan algunos de sus valores. z P(Z ≤ z) 0,67 0,749 0,99 0,839 1,00 0,841 1,15 0,875 1,28 0,900 1,64 0,950 1,96 0,975 2,00 0,977 2,17 0,985 2,32 0,990 2,58 0,995 Propiedad Intelectual Universidad de Chile. Derechos reservados ©. Prohibida su reproducción total o parcial. - 3 - FORMA 193 – 2026 INSTRUCCIONES P ARA LAS PREGUNTAS DE SUFICIENCIA DE DATOS En las preguntas de Suficiencia de Datos no se pide la solución al problema, sino que se decida si con los datos proporcionados, tanto en el enunciado como en las afirmaciones (1) y (2), se puede llegar a la solución del problema. Es así que se deberá marcar la opción:",
+      "question": "En esta prueba, todas las variables que se modelan mediante una distribución normal, se consideran variables aleatorias continuas. Si Z es una variable aleatoria continua que se modela mediante una distribución normal con media 0 y desviación estándar 1(Z ∼ N(0, 1)), se cumple que la parte de color gris del gráfico de esta distribución corresponde a P(Z ≤ z) y en la tabla se presentan algunos de sus valores. z P(Z ≤ z) 0,67 0,749 0,99 0,839 1,00 0,841 1,15 0,875 1,28 0,900 1,64 0,950 1,96 0,975 2,00 0,977 2,17 0,985 2,32 0,990 2,58 0,995 Propiedad Intelectual Universidad de Chile. Derechos reservados ©. Prohibida su reproducción total o parcial. - 3 - INSTRUCCIONES P ARA LAS PREGUNTAS DE SUFICIENCIA DE DATOS En las preguntas de Suficiencia de Datos no se pide la solución al problema, sino que se decida si con los datos proporcionados, tanto en el enunciado como en las afirmaciones (1) y (2), se puede llegar a la solución del problema. Es así que se deberá marcar la opción:",
       "options": [
         "(1) por sí sola, si la afirmación (1) por sí sola es suficiente para resolver el problema, pero la afirmación (2) por sí sola no lo es,",
         "(2) por sí sola, si la afirmación (2) por sí sola es suficiente para resolver el problema, pero la afirmación (1) por sí sola no lo es,",
@@ -956,7 +956,7 @@
         "1 8 Q",
         "1 7 Q",
         "7 8 Q",
-        "8 7 Q - 5 - FORMA 193 – 2026"
+        "8 7 Q - 5 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -974,7 +974,7 @@
         "22 500",
         "23 000",
         "24 750",
-        "25 000 - 6 - FORMA 193 – 2026"
+        "25 000 - 6 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -992,7 +992,7 @@
         "$200 000 · 7 100 · 0,1",
         "$200 000 · 7 · 0,1",
         "$ Å 200 000 + 2000· 7 100 · 0,1 ã",
-        "$(200 000 + 2000· 7 · 0,1) - 7 - FORMA 193 – 2026"
+        "$(200 000 + 2000· 7 · 0,1) - 7 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1010,7 +1010,7 @@
         "22,¯2 %",
         "33,¯3 %",
         "66,¯6 %",
-        "77,¯7 % - 8 - FORMA 193 – 2026"
+        "77,¯7 % - 8 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1028,7 +1028,7 @@
         "8 %",
         "36 %",
         "64 %",
-        "80 % - 9 - FORMA 193 – 2026"
+        "80 % - 9 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1046,7 +1046,7 @@
         "En el Paso 1",
         "En el Paso 2",
         "En el Paso 3",
-        "En el Paso 4 - 10 - FORMA 193 – 2026"
+        "En el Paso 4 - 10 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1082,7 +1082,7 @@
         "x 3 (x + 2)2 (x − 1)",
         "x 3 \u0000 x2 − 4 \u0001 (x − 1)",
         "x 3 (x − 2)2 (x + 3)",
-        "x \u0000 x2 − 4 \u0001 + 1 3 \u0000 x2 − 2x + 4 \u0001 - 11 - FORMA 193 – 2026"
+        "x \u0000 x2 − 4 \u0001 + 1 3 \u0000 x2 − 2x + 4 \u0001 - 11 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1100,7 +1100,7 @@
         "20a 3",
         "61a 9",
         "22a 3",
-        "68a 9 - 12 - FORMA 193 – 2026"
+        "68a 9 - 12 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1118,7 +1118,7 @@
         "750 · 7,3 7,9 cm3",
         "750 · 7,9 7,3 cm3",
         "750 7,3 · 7,9 cm3",
-        "7,3 · 7,9 750 cm3 - 13 - FORMA 193 – 2026"
+        "7,3 · 7,9 750 cm3 - 13 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1154,7 +1154,7 @@
         "ò −∞, 72 41 ï",
         "ò72 41, ∞ ï",
         "ò76 41, ∞ ï",
-        "ò −∞, 76 41 ï - 14 - FORMA 193 – 2026"
+        "ò −∞, 76 41 ï - 14 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1172,7 +1172,7 @@
         "1 3",
         "1 2",
         "2 3",
-        "3 2 - 15 - FORMA 193 – 2026"
+        "3 2 - 15 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1208,7 +1208,7 @@
         "12 000 ≤ 0,2 · 1500 · x ≤ 20 000",
         "0,2 · 12 000 ≤ 1500 · x ≤ 0,2 · 20 000",
         "12 000 ≤ (1 − 0,2) · 1500 · x ≤ 20 000",
-        "(1 − 0,2) · 12 000 ≤ 1500 · x ≤ (1 − 0,2) · 20 000 - 16 - FORMA 193 – 2026"
+        "(1 − 0,2) · 12 000 ≤ 1500 · x ≤ (1 − 0,2) · 20 000 - 16 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1226,7 +1226,7 @@
         "16,6 m s",
         "25 m s",
         "30 m s",
-        "37,5 m s - 17 - FORMA 193 – 2026"
+        "37,5 m s - 17 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1244,7 +1244,7 @@
         "p 2 Ä 1 + 4 √ 3 ä",
         "p 2 Ä 1 + 4 √ 6 ä",
         "p 6 Ä 3 + √ 3 ä",
-        "p 6 Ä 3 + √ 6 ä - 18 - FORMA 193 – 2026"
+        "p 6 Ä 3 + √ 6 ä - 18 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1261,8 +1261,8 @@
       "options": [
         "B)",
         "C)",
-        "D) - 19 - FORMA 193 – 2026",
-        "- 19 - FORMA 193 – 2026"
+        "D) - 19 -",
+        "- 19 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1280,7 +1280,7 @@
         "4 · 3x−1",
         "3 · 4x−1",
         "4 · 3x−3",
-        "12 · 3x - 20 - FORMA 193 – 2026"
+        "12 · 3x - 20 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1316,7 +1316,7 @@
         "−5 √ 2 2",
         "− √ 2 2",
         "√ 2 2",
-        "5 √ 2 2 - 21 - FORMA 193 – 2026"
+        "5 √ 2 2 - 21 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1334,7 +1334,7 @@
         "2,88",
         "3,96",
         "6,84",
-        "10,8 - 22 - FORMA 193 – 2026"
+        "10,8 - 22 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1370,7 +1370,7 @@
         "48 m2",
         "46 m2",
         "44 m2",
-        "38 m2 - 23 - FORMA 193 – 2026"
+        "38 m2 - 23 -"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1388,7 +1388,7 @@
         "En el Paso 1",
         "En el Paso 2",
         "En el Paso 3",
-        "En el Paso 4 - 24 - FORMA 193 – 2026"
+        "En el Paso 4 - 24 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1406,7 +1406,7 @@
         "(−2a, a − 2)",
         "(a − 2, −2a)",
         "(−2a − 5, a + 3)",
-        "(−2a − 5, a − 2) - 25 - FORMA 193 – 2026"
+        "(−2a − 5, a − 2) - 25 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1424,7 +1424,7 @@
         "6 m",
         "4,8 m",
         "4 m",
-        "3,6 m - 26 - FORMA 193 – 2026"
+        "3,6 m - 26 -"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1442,7 +1442,7 @@
         "14 + x + y = 20 14 + x + y 5 = 2",
         "14 + x + y = 20 18 + 3x + 4y 5 = 2",
         "14 + x + y = 20 18 + x + y 20 = 2",
-        "14 + x + y = 20 18 + 3x + 4y 20 = 2 - 27 - FORMA 193 – 2026"
+        "14 + x + y = 20 18 + 3x + 4y 20 = 2 - 27 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1460,7 +1460,7 @@
         "Z − 40",
         "Z − 39",
         "Z 2 − 20",
-        "Z 2 − 19 - 28 - FORMA 193 – 2026"
+        "Z 2 − 19 - 28 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1478,7 +1478,7 @@
         "1830 3000",
         "1830 3000 · 1170 3000",
         "1 1830 · 1 1170",
-        "3660 3000 · 1170 2999 - 29 - FORMA 193 – 2026"
+        "3660 3000 · 1170 2999 - 29 -"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1496,7 +1496,7 @@
         "Ç 10 6 å Å1 2 ã6 Å1 2 ã4",
         "Ç 10 4 å Å1 2 ã10 Å1 2 ã4",
         "Å1 2 ã10 Å1 2 ã4",
-        "Å1 2 ã6 Å1 2 ã4 - 30 - FORMA 193 – 2026"
+        "Å1 2 ã6 Å1 2 ã4 - 30 -"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1513,8 +1513,8 @@
       "options": [
         "B)",
         "C)",
-        "D) - 31 - FORMA 193 – 2026",
-        "- 31 - FORMA 193 – 2026"
+        "D) - 31 -",
+        "- 31 -"
       ],
       "answer": 0,
       "answerKey": "A",

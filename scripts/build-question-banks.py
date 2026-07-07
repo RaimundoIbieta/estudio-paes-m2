@@ -113,6 +113,9 @@ def parse_transform_table(text: str) -> dict:
 
 
 def clean_text(s: str) -> str:
+    s = re.sub(r"\s*FORMA\s+\d+.*", "", s, flags=re.I)
+    s = re.sub(r"\s*LECTURA\s+\d+.*", "", s, flags=re.I)
+    s = re.sub(r"[\uF000-\uF0FF]", "", s)
     s = re.sub(r"\s+", " ", s)
     return s.strip()
 

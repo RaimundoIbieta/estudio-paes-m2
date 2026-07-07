@@ -1,19 +1,20 @@
 import { fetchTestData } from './test-context.js';
+import { filterUsableQuestions, sanitizeQuestion } from './question-quality.js';
 
 const bankCache = new Map();
 const poolCache = new Map();
 
 const AREA_LABELS = {
-  Numeros: 'Números',
-  'Algebra y funciones': 'Álgebra y funciones',
-  Geometria: 'Geometría',
-  'Probabilidad y estadistica': 'Probabilidad y estadística',
-  'Numeros avanzados': 'Números avanzados',
-  Geografia: 'Geografía',
-  'Educacion ciudadana': 'Educación ciudadana',
-  Biologia: 'Biología',
-  Fisica: 'Física',
-  Quimica: 'Química',
+  Numeros: 'Nmeros',
+  'Algebra y funciones': 'lgebra y funciones',
+  Geometria: 'Geometra',
+  'Probabilidad y estadistica': 'Probabilidad y estadstica',
+  'Numeros avanzados': 'Nmeros avanzados',
+  Geografia: 'Geografa',
+  'Educacion ciudadana': 'Educacin ciudadana',
+  Biologia: 'Biologa',
+  Fisica: 'Fsica',
+  Quimica: 'Qumica',
   Localizar: 'Localizar',
   Interpretar: 'Interpretar',
   Evaluar: 'Evaluar',
@@ -25,13 +26,18 @@ export function labelArea(area) {
 }
 
 export function normalizeQuestion(q) {
-  const letter = q.answerKey || (typeof q.answer === 'number' ? String.fromCharCode(65 + q.answer) : '');
+  const clean = sanitizeQuestion(q);
+  const letter = clean.answerKey || (typeof clean.answer === 'number' ? String.fromCharCode(65 + clean.answer) : '');
   return {
-    ...q,
-    area: labelArea(q.area || ''),
-    explanation: q.explanation || (letter ? `La alternativa correcta es ${letter}.` : ''),
-    difficulty: q.difficulty || 'Oficial',
+    ...clean,
+    area: labelArea(clean.area || ''),
+    explanation: clean.explanation || (letter ? `La alternativa correcta es ${letter}.` : ''),
+    difficulty: clean.difficulty || 'Oficial',
   };
+}
+
+function usableBankQuestions(questions) {
+  return filterUsableQuestions(questions).map(q => normalizeQuestion(q));
 }
 
 export async function loadPool(testId) {
@@ -62,10 +68,11 @@ export async function loadBank(testId) {
       return null;
     }
     const bank = await res.json();
-    const official = bank.questions || [];
+    const official = usableBankQuestions(bank.questions || []);
+    const poolClean = usableBankQuestions(pool);
     bank.officialQuestions = official;
-    bank.questions = [...official, ...pool];
-    bank.poolCount = pool.length;
+    bank.questions = [...official, ...poolClean];
+    bank.poolCount = poolClean.length;
     bankCache.set(testId, bank);
     return bank;
   } catch {
@@ -110,11 +117,22 @@ export function pickPracticeSet(bank, totalNeeded, area = null) {
 }
 
 export function pickDiagnosticSet(bank, totalNeeded) {
-  const official = pickOfficialSet(bank, totalNeeded);
-  if (official.length >= totalNeeded) return official;
-  const used = new Set(official.map(q => q.id));
-  const generated = shuffle((bank.questions || []).filter(q => q.source === 'generado' && !used.has(q.id)));
-  return [...official, ...generated].slice(0, totalNeeded);
+  const valid = bank.questions || [];
+  const official = valid.filter(q => q.source !== 'generado' && q.num);
+  const byNum = new Map();
+  for (const q of official) {
+    const existing = byNum.get(q.num);
+    if (!existing || q.year === '2026') byNum.set(q.num, q);
+  }
+  let ordered = [...byNum.values()].sort((a, b) => a.num - b.num);
+
+  if (ordered.length < totalNeeded) {
+    const used = new Set(ordered.map(q => q.id));
+    const generated = shuffle(valid.filter(q => q.source === 'generado' && !used.has(q.id)));
+    ordered = [...ordered, ...generated];
+  }
+
+  return ordered.slice(0, totalNeeded);
 }
 
 export function pickUnitSet(bank, area, count) {

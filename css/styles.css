@@ -356,20 +356,24 @@ body {
 .essay-nav { justify-content: space-between; margin-top: 1.25rem; }
 .essay-footer { margin-top: 0.5rem; justify-content: space-between; }
 .question-figure {
-  margin: 0.75rem 0 1rem;
+  margin: 0.5rem 0 1rem;
   text-align: center;
-  background: #f8fafc;
+  background: #fff;
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 0.5rem;
+  padding: 0.35rem;
+  overflow: hidden;
 }
 .question-figure img {
   max-width: 100%;
+  width: auto;
   height: auto;
   display: block;
   margin: 0 auto;
 }
-.question-caption { margin-top: 0.5rem; }
+.question-text {
+  white-space: pre-line;
+}
 .essay-overlay {
   position: fixed;
   inset: 0;

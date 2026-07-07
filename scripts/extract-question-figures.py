@@ -89,10 +89,10 @@ def option_a_y(page: fitz.Page, y_start: float, y_end: float) -> float | None:
     return best
 
 
-def crop_question(page: fitz.Page, y0: float, y_next: float) -> fitz.Rect:
+def crop_question(page: fitz.Page, y0: float, y1: float, y_next: float) -> fitz.Rect:
     rect = page.rect
     margin_x = 72
-    y_top = max(0, y0 - 4)
+    y_top = max(0, y1 + 2)
     y_bottom = min(rect.height, y_next - 6)
     a_y = option_a_y(page, y_top, y_bottom)
     if a_y is not None:
@@ -118,9 +118,9 @@ def extract_pdf(test_id: str, year: str, filename: str) -> dict[str, str]:
         starts = question_starts(page)
         if not starts:
             continue
-        for i, (num, y0, _y1) in enumerate(starts):
+        for i, (num, y0, y1) in enumerate(starts):
             y_next = starts[i + 1][1] if i + 1 < len(starts) else page.rect.height - 40
-            clip = crop_question(page, y0, y_next)
+            clip = crop_question(page, y0, y1, y_next)
             if clip.height < 30 or clip.width < 50:
                 continue
             pix = page.get_pixmap(matrix=fitz.Matrix(ZOOM, ZOOM), clip=clip, alpha=False)

@@ -79,7 +79,15 @@ function fixPdfArtifacts(text) {
     .replace(/(\$[\d\s.,]+)([a-z\u00e1\u00e9\u00ed\u00f3\u00fa\u00f1])/gi, '$1 $2')
     .replace(/([a-z\u00e1\u00e9\u00ed\u00f3\u00fa\u00f1)])(\$)/gi, '$1 $2')
     .replace(/\bkmpara\b/gi, 'km para')
-    .replace(/\bobteni[e\u00e9]ndo\s+se\b/gi, 'obteni\u00e9ndose');
+    .replace(/\bobteni[e\u00e9]ndo\s+se\b/gi, 'obteni\u00e9ndose')
+    .replace(
+      /(precios:\s*)(\d)/gi,
+      '$1\n• $2',
+    )
+    .replace(
+      /(\$[\d\s.,]+)\s+(\d+[,.]?\d*\s*(?:kg|g)\s+de)/gi,
+      '$1\n• $2',
+    );
 }
 
 export function sanitizeText(text) {

@@ -3,7 +3,7 @@
  * Los ensayos cronometrados usan exam-engine.js (sin feedback hasta el final).
  */
 import { recordExercise } from './storage.js';
-import { questionFigureHtml, prefersFigurePrimary } from './question-figure.js';
+import { questionBodyHtml } from './question-figure.js';
 
 export function runPracticeQuiz(container, questions, {
   returnHash = '#/ejercicios',
@@ -31,7 +31,7 @@ export function runPracticeQuiz(container, questions, {
         <div class="practice-badge">Pr\u00e1ctica - feedback inmediato</div>
         <div class="quiz-progress"><div style="width:${pct}%"></div></div>
         <div class="topic-meta">${title} - Pregunta ${index + 1} de ${questions.length} - ${q.area} - ${q.difficulty}${q.supplement ? ' (complementaria)' : ''}</div>
-        ${prefersFigurePrimary(q) ? questionFigureHtml(q) : `${questionFigureHtml(q)}<div class="question-text">${q.question}</div>`}
+        ${questionBodyHtml(q)}
         <div class="options" id="options">
           ${q.options.map((opt, i) => `
             <button type="button" class="option" data-i="${i}">${String.fromCharCode(65 + i)}. ${opt}</button>

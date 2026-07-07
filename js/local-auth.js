@@ -7,7 +7,7 @@
 import { APP_CONFIG } from './config.js';
 
 const DB_NAME = 'preuniversitario-paes';
-const DB_VERSION = 1;
+const DB_VERSION = 2;
 let db = null;
 let currentUser = null;
 const listeners = new Set();
@@ -23,6 +23,9 @@ function openDb() {
       }
       if (!d.objectStoreNames.contains('progress')) {
         d.createObjectStore('progress', { keyPath: 'id', autoIncrement: true });
+      }
+      if (!d.objectStoreNames.contains('subscriptions')) {
+        d.createObjectStore('subscriptions', { keyPath: 'email' });
       }
     };
     req.onsuccess = () => { db = req.result; resolve(db); };
@@ -57,6 +60,69 @@ export function isAuthEnabled() {
   return true;
 }
 
+export function hasActiveSubscription() {
+  if (!currentUser) return false;
+  if (currentUser.role === 'superadmin') return true;
+  const until = currentUser.subscriptionUntil;
+  if (!until) return false;
+  return new Date(until) > new Date();
+}
+
+async function getSubscription(email) {
+  const d = await openDb();
+  return new Promise((resolve, reject) => {
+    if (!d.objectStoreNames.contains('subscriptions')) return resolve(null);
+    const tx = d.transaction('subscriptions', 'readonly');
+    const req = tx.objectStore('subscriptions').get(email.toLowerCase());
+    req.onsuccess = () => resolve(req.result || null);
+    req.onerror = () => reject(req.error);
+  });
+}
+
+async function saveSubscription(sub) {
+  const d = await openDb();
+  return new Promise((resolve, reject) => {
+    const tx = d.transaction('subscriptions', 'readwrite');
+    tx.objectStore('subscriptions').put(sub);
+    tx.oncomplete = () => resolve();
+    tx.onerror = () => reject(tx.error);
+  });
+}
+
+async function attachSubscription(user) {
+  const sub = await getSubscription(user.email);
+  user.subscriptionUntil = sub?.until || null;
+  user.plan = sub?.plan || null;
+  return user;
+}
+
+export async function activateSubscription(months = 1) {
+  if (!currentUser) throw new Error('Debes iniciar sesión.');
+  const until = new Date();
+  until.setMonth(until.getMonth() + months);
+  const sub = {
+    email: currentUser.email,
+    plan: 'monthly',
+    until: until.toISOString(),
+    activatedAt: new Date().toISOString(),
+  };
+  await saveSubscription(sub);
+  currentUser = { ...currentUser, subscriptionUntil: sub.until, plan: sub.plan };
+  notify();
+  return currentUser;
+}
+
+export async function grantSubscription(email, months = 1) {
+  if (!isSuperAdmin()) throw new Error('Sin permisos.');
+  const until = new Date();
+  until.setMonth(until.getMonth() + months);
+  await saveSubscription({ email: email.toLowerCase(), plan: 'monthly', until: until.toISOString(), activatedAt: new Date().toISOString() });
+  if (currentUser?.email === email.toLowerCase()) {
+    currentUser = { ...currentUser, subscriptionUntil: until.toISOString(), plan: 'monthly' };
+    notify();
+  }
+}
+
 export async function initAuth(onChange) {
   if (onChange) onAuthChange(onChange);
   await openDb();
@@ -64,7 +130,8 @@ export async function initAuth(onChange) {
     const saved = localStorage.getItem('paes-session');
     if (saved) {
       const email = JSON.parse(saved).email;
-      currentUser = await getUserByEmail(email);
+      const user = await getUserByEmail(email);
+      if (user) currentUser = await attachSubscription({ email: user.email, name: user.name, role: user.role });
     }
   } catch (_) {}
   notify();
@@ -104,7 +171,7 @@ export async function signUp(email, password, name = '') {
     createdAt: new Date().toISOString(),
   };
   await saveUser(user);
-  currentUser = { email: user.email, name: user.name, role: user.role };
+  currentUser = await attachSubscription({ email: user.email, name: user.name, role: user.role });
   localStorage.setItem('paes-session', JSON.stringify({ email: em }));
   notify();
   return currentUser;
@@ -116,7 +183,7 @@ export async function signIn(email, password) {
   if (!user) throw new Error('Correo o contraseña incorrectos.');
   const hash = await hashPassword(password);
   if (hash !== user.passwordHash) throw new Error('Correo o contraseña incorrectos.');
-  currentUser = { email: user.email, name: user.name, role: user.role };
+  currentUser = await attachSubscription({ email: user.email, name: user.name, role: user.role });
   localStorage.setItem('paes-session', JSON.stringify({ email: em }));
   notify();
   return currentUser;

@@ -1,4 +1,5 @@
 import { getCurrentTest, loadTests, setCurrentTest } from '../test-context.js';
+import { getTestProgress } from '../storage.js';
 
 export async function renderSelectTest(container) {
   const tests = await loadTests();
@@ -6,7 +7,7 @@ export async function renderSelectTest(container) {
 
   container.innerHTML = `
     <h1 class="page-title">Elige tu prueba PAES</h1>
-    <p class="page-sub">Selecciona la prueba que quieres estudiar. Puedes cambiar cuando quieras.</p>
+    <p class="page-sub">Al elegir una prueba comenzarás con el <strong>ensayo diagnóstico</strong>. Es tu punto de partida obligatorio.</p>
     <div class="grid">
       ${tests.map(t => `
         <article class="card test-card ${current === t.id ? 'test-card-active' : ''}" data-test="${t.id}" style="border-top:4px solid ${t.color}">
@@ -24,13 +25,15 @@ export async function renderSelectTest(container) {
         </article>
       `).join('')}
     </div>
-    ${current ? `<p style="margin-top:1rem;text-align:center"><a href="#/" class="btn btn-primary" data-route>Ir al inicio →</a></p>` : ''}
+    ${current ? `<p style="margin-top:1rem;text-align:center"><a href="#/app" class="btn btn-primary" data-route>Ir al panel →</a></p>` : ''}
   `;
 
   container.querySelectorAll('[data-select]').forEach(btn => {
     btn.addEventListener('click', () => {
-      setCurrentTest(btn.dataset.select);
-      location.hash = '#/';
+      const testId = btn.dataset.select;
+      setCurrentTest(testId);
+      const tp = getTestProgress(testId);
+      location.hash = tp.diagnosticDone ? '#/app' : '#/ensayo/diagnostico';
     });
   });
 }

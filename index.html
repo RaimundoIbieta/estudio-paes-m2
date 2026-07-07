@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Preuniversitario PAES gratuito — M1, M2, Competencia Lectora, Historia y Ciencias" />
+  <meta name="description" content="Preuniversitario PAES — preparación seria con ensayos diagnósticos, mini ensayos por unidad y seguimiento de progreso." />
   <meta name="theme-color" content="#1e3a5f" />
   <title>Preuniversitario PAES</title>
   <link rel="stylesheet" href="css/styles.css" />
@@ -11,18 +11,18 @@
 </head>
 <body>
   <div id="app">
-    <header class="topbar">
-      <div class="brand">
+    <header class="topbar" id="topbar">
+      <a href="#/" class="brand" data-route>
         <span class="brand-icon">∑</span>
         <div>
           <strong>Preuniversitario PAES</strong>
-          <small>Acceso masivo · M1 · M2 · más pruebas</small>
+          <small>Preparación seria · M1 · M2 · CL · HCS · Ciencias</small>
         </div>
-      </div>
+      </a>
       <div id="auth-slot" class="auth-slot"></div>
       <button class="nav-toggle" id="nav-toggle" aria-label="Menú">☰</button>
       <nav class="nav" id="main-nav">
-        <a href="#/" data-route>Inicio</a>
+        <a href="#/app" data-route>Inicio</a>
         <a href="#/pruebas" data-route>Pruebas</a>
         <a href="#/contenido" data-route>Contenido</a>
         <a href="#/ejercicios" data-route>Ejercicios</a>
@@ -34,8 +34,8 @@
 
     <main id="view" class="view" aria-live="polite"></main>
 
-    <footer class="footer">
-      <p>Preuniversitario PAES · Gratuito y de acceso masivo</p>
+    <footer class="footer" id="footer">
+      <p>Preuniversitario PAES · Plan desde $4.990/mes</p>
     </footer>
   </div>
 

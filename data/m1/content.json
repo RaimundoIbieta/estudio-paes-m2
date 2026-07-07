@@ -24,6 +24,41 @@
     ]
   },
   {
+    "id": "m1-numeros-potencias",
+    "area": "Números",
+    "title": "Potencias y raíces en ℤ y ℚ",
+    "duration": "14 min",
+    "sections": [
+      {
+        "heading": "Potencias",
+        "formulas": ["aⁿ = a·a·…·a (n veces)", "a⁰ = 1", "a⁻ⁿ = 1/aⁿ"],
+        "items": ["Mismo base: aᵐ·aⁿ = aᵐ⁺ⁿ", "Potencia de potencia: (aᵐ)ⁿ = aᵐⁿ"]
+      },
+      {
+        "heading": "Raíces",
+        "formulas": ["√a · √a = a", "√(a²) = |a|"],
+        "items": ["Simplificar √50 = 5√2", "Racionalizar denominadores"]
+      }
+    ]
+  },
+  {
+    "id": "m1-numeros-proporcionalidad",
+    "area": "Números",
+    "title": "Proporcionalidad y regla de tres",
+    "duration": "12 min",
+    "sections": [
+      {
+        "heading": "Proporción",
+        "formulas": ["a/b = c/d → a·d = b·c"],
+        "items": ["Magnitudes directamente proporcionales: al duplicar una, la otra se duplica", "Inversamente proporcionales: producto constante"]
+      },
+      {
+        "heading": "Regla de tres",
+        "items": ["Identificar si es directa o inversa", "Plantear proporción y despejar la incógnita"]
+      }
+    ]
+  },
+  {
     "id": "m1-algebra",
     "area": "Álgebra",
     "title": "Ecuaciones y funciones lineales",
@@ -38,6 +73,44 @@
         "heading": "Función lineal",
         "formulas": ["f(x) = mx + n", "m = pendiente", "n = corte con eje y"],
         "items": ["Gráfica es una recta", "m > 0 creciente, m < 0 decreciente"]
+      }
+    ]
+  },
+  {
+    "id": "m1-algebra-sistemas",
+    "area": "Álgebra",
+    "title": "Sistemas de ecuaciones 2×2",
+    "duration": "14 min",
+    "sections": [
+      {
+        "heading": "Métodos",
+        "items": [
+          "Sustitución: despejar una variable y reemplazar",
+          "Igualación: igualar dos expresiones",
+          "Reducción: sumar/restar ecuaciones para eliminar una variable"
+        ]
+      },
+      {
+        "heading": "Interpretación",
+        "items": ["Solución única: rectas secantes", "Sin solución: paralelas", "Infinitas: coincidentes"]
+      }
+    ]
+  },
+  {
+    "id": "m1-algebra-funcion-cuadratica",
+    "area": "Álgebra",
+    "title": "Función cuadrática",
+    "duration": "15 min",
+    "sections": [
+      {
+        "heading": "Forma general",
+        "formulas": ["f(x) = ax² + bx + c", "x vértice = −b/(2a)"],
+        "items": ["a > 0: parábola ∪", "a < 0: parábola ∩"]
+      },
+      {
+        "heading": "Discriminante",
+        "formulas": ["Δ = b² − 4ac"],
+        "items": ["Δ > 0: dos raíces reales", "Δ = 0: una raíz", "Δ < 0: sin raíces reales"]
       }
     ]
   },
@@ -72,6 +145,40 @@
     ]
   },
   {
+    "id": "m1-geometria-angulos",
+    "area": "Geometría",
+    "title": "Ángulos y semejanza",
+    "duration": "13 min",
+    "sections": [
+      {
+        "heading": "Tipos de ángulos",
+        "diagramType": "angulos-tipos",
+        "items": ["Agudo < 90°", "Recto = 90°", "Obtuso > 90°", "Llano = 180°"]
+      },
+      {
+        "heading": "Semejanza de triángulos",
+        "items": ["AA: dos ángulos iguales", "Lados homólogos proporcionales", "Perímetros en la misma razón que los lados"]
+      }
+    ]
+  },
+  {
+    "id": "m1-geometria-cuerpos",
+    "area": "Geometría",
+    "title": "Cuerpos geométricos y volumen",
+    "duration": "14 min",
+    "sections": [
+      {
+        "heading": "Prismas y cilindros",
+        "formulas": ["V prisma = Área base × h", "V cilindro = πr²h"],
+        "items": ["Área lateral prisma: perímetro base × h"]
+      },
+      {
+        "heading": "Pirámides y conos",
+        "formulas": ["V pirámide = (1/3) × Área base × h", "V cono = (1/3)πr²h"]
+      }
+    ]
+  },
+  {
     "id": "m1-probabilidad",
     "area": "Probabilidad",
     "title": "Probabilidad y promedio",
@@ -84,6 +191,35 @@
       {
         "heading": "Estadística",
         "items": ["Promedio = suma / cantidad", "Mediana = valor central ordenado"]
+      }
+    ]
+  },
+  {
+    "id": "m1-probabilidad-estadistica",
+    "area": "Probabilidad",
+    "title": "Estadística descriptiva y gráficos",
+    "duration": "14 min",
+    "sections": [
+      {
+        "heading": "Medidas de tendencia central",
+        "items": ["Media, mediana y moda", "Cuándo usar cada una ante valores atípicos"]
+      },
+      {
+        "heading": "Gráficos",
+        "items": ["Histograma: frecuencias", "Diagrama de caja: cuartiles", "Interpretar tendencias en tablas y gráficos"]
+      }
+    ]
+  },
+  {
+    "id": "m1-probabilidad-compuesta",
+    "area": "Probabilidad",
+    "title": "Probabilidad compuesta",
+    "duration": "13 min",
+    "sections": [
+      {
+        "heading": "Eventos",
+        "formulas": ["P(A ∪ B) = P(A) + P(B) − P(A ∩ B)", "P(A y B) = P(A)·P(B) si son independientes"],
+        "items": ["Complemento: P(Aᶜ) = 1 − P(A)", "Árbol de probabilidades para dos etapas"]
       }
     ]
   }

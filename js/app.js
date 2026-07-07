@@ -1,5 +1,5 @@
 import { parseRoute, onRouteChange } from './router.js';
-import { initAuth } from './auth.js';
+import { initAuth, getUser } from './auth.js';
 import { renderAuthButton } from './pages/login.js';
 import { renderHome } from './pages/home.js';
 import { renderContentList, renderLesson } from './pages/content.js';
@@ -14,19 +14,19 @@ import { renderLanding } from './pages/landing.js';
 import { renderSubscription } from './pages/subscription.js';
 import { startPathEssay } from './essay-runner.js';
 import { getAppShellMode, getRedirectForGuest } from './guards.js';
-import { getUser } from './auth.js';
 
 const view = document.getElementById('view');
 const nav = document.getElementById('main-nav');
 const topbar = document.getElementById('topbar');
-const footer = document.getElementById('footer');
 const navToggle = document.getElementById('nav-toggle');
 const authSlot = document.getElementById('auth-slot');
 
-navToggle?.addEventListener('click', () => nav.classList.toggle('open'));
+let booted = false;
+
+navToggle?.addEventListener('click', () => nav?.classList.toggle('open'));
 
 document.addEventListener('click', e => {
-  if (e.target.closest('[data-route]')) nav.classList.remove('open');
+  if (e.target.closest('[data-route]')) nav?.classList.remove('open');
 });
 
 function setShell(path) {
@@ -34,40 +34,44 @@ function setShell(path) {
   const isPublic = mode === 'public';
   topbar?.classList.toggle('topbar-public', isPublic);
   nav?.classList.toggle('hidden', isPublic || !getUser());
-  footer?.classList.toggle('hidden', false);
+}
+
+function showError(err) {
+  view.innerHTML = `
+    <div class="card">
+      <h3>Error al cargar la plataforma</h3>
+      <p>${err?.message || 'Error desconocido'}</p>
+      <button class="btn btn-primary" onclick="location.reload()">Recargar página</button>
+      <a href="#/" class="btn btn-secondary" data-route style="margin-left:0.5rem">Ir al inicio</a>
+    </div>`;
 }
 
 async function render() {
-  const { path, params } = parseRoute();
-
-  const redirect = getRedirectForGuest(path === 'home' && !getUser() ? 'landing' : path);
-  if (redirect && `#${location.hash.slice(1)}` !== redirect) {
-    const current = location.hash || '#/';
-    if (path !== 'landing' && path !== 'home' && !['login', 'registro', 'suscripcion'].includes(path)) {
-      location.hash = redirect;
-      return;
-    }
-  }
-
-  const effectivePath = (path === 'home' && !getUser()) ? 'landing' : path;
-  setShell(effectivePath === 'landing' ? 'landing' : path);
-
-  nav?.querySelectorAll('a').forEach(a => {
-    const href = a.getAttribute('href');
-    const active = href === `#/${path === 'app' ? 'app' : path}` ||
-      (path === 'home' && href === '#/app') ||
-      (path === 'app' && href === '#/app');
-    a.classList.toggle('active', active);
-  });
-
-  view.innerHTML = '<p class="empty">Cargando…</p>';
+  if (!view) return;
 
   try {
+    const { path, params } = parseRoute();
+
+    const redirect = getRedirectForGuest(path);
+    if (redirect) {
+      const target = redirect.replace(/^#/, '');
+      const current = (location.hash || '#/').replace(/^#/, '');
+      if (current !== target) {
+        location.hash = redirect;
+        return;
+      }
+    }
+
+    setShell(path);
+    view.innerHTML = '<p class="empty">Cargando…</p>';
+
     switch (path) {
       case 'home':
-      case 'landing':
-        if (getUser()) location.hash = '#/app';
-        else renderLanding(view);
+        if (getUser()) {
+          location.hash = '#/app';
+          return;
+        }
+        renderLanding(view);
         break;
       case 'app':
         await renderHome(view);
@@ -107,27 +111,40 @@ async function render() {
         await renderProgress(view);
         break;
       case 'biblioteca':
-        renderBiblioteca(view);
+        await renderBiblioteca(view);
         break;
       default:
-        if (getUser()) location.hash = '#/app';
-        else renderLanding(view);
+        if (getUser()) {
+          location.hash = '#/app';
+        } else {
+          renderLanding(view);
+        }
     }
   } catch (err) {
-    view.innerHTML = `
-      <div class="card">
-        <h3>Error al cargar</h3>
-        <p>${err.message}</p>
-        <a href="#/" class="btn btn-secondary" data-route>Reintentar</a>
-      </div>
-    `;
+    console.error(err);
+    showError(err);
   }
 }
 
-initAuth(() => renderAuthButton(authSlot));
-onRouteChange(render);
-render();
+async function boot() {
+  if (booted) return;
+  booted = true;
 
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./sw.js').catch(() => {});
+  if ('serviceWorker' in navigator) {
+    try {
+      const regs = await navigator.serviceWorker.getRegistrations();
+      await Promise.all(regs.map(r => r.unregister()));
+    } catch (_) {}
+  }
+
+  onRouteChange(render);
+
+  initAuth(() => {
+    renderAuthButton(authSlot);
+    render();
+  });
+
+  await render();
 }
+
+boot().catch(err => showError(err));

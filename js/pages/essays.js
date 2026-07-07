@@ -1,13 +1,14 @@
-import { recordEssay } from '../storage.js';
-import { getCurrentTest, fetchTestData, loadTests } from '../test-context.js';
+import { getCurrentTest, loadTests } from '../test-context.js';
 import { getGate } from '../learning-path.js';
-import { startPathEssay } from '../essay-runner.js';
+import { getOfficialExams } from './biblioteca.js';
 
 export async function loadExercises() {
+  const { fetchTestData } = await import('../test-context.js');
   return fetchTestData(null, 'exercises');
 }
 
 export async function loadEssays() {
+  const { fetchTestData } = await import('../test-context.js');
   return fetchTestData(null, 'essays');
 }
 
@@ -21,26 +22,57 @@ export async function renderEssays(container) {
   const test = tests.find(t => t.id === testId);
   const essays = await loadEssays();
   const gate = getGate(testId);
+  const official = await getOfficialExams(testId);
+
+  const pruebas = official.filter(o => o.kind === 'prueba');
+  const clavijeros = official.filter(o => o.kind === 'clavijero');
 
   container.innerHTML = `
     <h1 class="page-title">Ensayos — ${test?.short || ''}</h1>
-    <p class="page-sub">Ensayos de la ruta de estudio y simulacros adicionales.</p>
+    <p class="page-sub">Ensayos interactivos de la plataforma + pruebas PAES oficiales DEMRE en PDF.</p>
 
     <section class="card" style="margin-bottom:1rem">
-      <h3>Ensayos de tu ruta</h3>
+      <h3>Ruta de estudio (interactivo)</h3>
       <div class="topic-list">
         <a class="topic-item" href="#/ensayo/diagnostico" data-route>
-          <div><strong>Ensayo diagnóstico inicial</strong><div class="topic-meta">Obligatorio antes del contenido · ~35 preguntas</div></div>
+          <div><strong>Ensayo diagnóstico inicial</strong><div class="topic-meta">Obligatorio · ~35 preguntas interactivas</div></div>
           <span class="badge">${gate.type === 'diagnostic' ? 'Pendiente' : '✓'}</span>
         </a>
         <a class="topic-item" href="#/ensayo/progreso" data-route>
-          <div><strong>Ensayo de progreso</strong><div class="topic-meta">Cada 2 unidades · ~35 preguntas</div></div>
+          <div><strong>Ensayo de progreso</strong><div class="topic-meta">Cada 2 unidades · interactivo</div></div>
           <span class="badge">Ruta</span>
         </a>
       </div>
     </section>
 
-    <h3 style="margin-bottom:0.75rem">Simulacros adicionales</h3>
+    ${pruebas.length ? `
+    <section class="card" style="margin-bottom:1rem">
+      <h3>Pruebas PAES oficiales (PDF)</h3>
+      <p class="page-sub">Rinde la prueba en papel y revisa con el clavijero.</p>
+      <div class="topic-list">
+        ${pruebas.map(p => `
+          <a class="topic-item" href="${p.path}" target="_blank" rel="noopener">
+            <div><strong>PAES ${test?.short} — ${p.year}</strong><div class="topic-meta">${p.title}</div></div>
+            <span class="badge">Abrir PDF</span>
+          </a>
+        `).join('')}
+      </div>
+    </section>` : ''}
+
+    ${clavijeros.length ? `
+    <section class="card" style="margin-bottom:1rem">
+      <h3>Clavijeros — respuestas oficiales (PDF)</h3>
+      <div class="topic-list">
+        ${clavijeros.map(c => `
+          <a class="topic-item" href="${c.path}" target="_blank" rel="noopener">
+            <div><strong>Clavijero ${test?.short} — ${c.year}</strong><div class="topic-meta">${c.title}</div></div>
+            <span class="badge">Respuestas</span>
+          </a>
+        `).join('')}
+      </div>
+    </section>` : ''}
+
+    <h3 style="margin-bottom:0.75rem">Simulacros interactivos adicionales</h3>
     <div class="grid">
       ${essays.length ? essays.map(e => `
         <article class="card">
@@ -49,7 +81,7 @@ export async function renderEssays(container) {
           <div class="topic-meta">${e.questionIds.length} preguntas · ${e.durationMinutes} min</div>
           <button class="btn btn-primary btn-block" style="margin-top:0.75rem" data-essay="${e.id}">Comenzar</button>
         </article>
-      `).join('') : '<p class="empty">Más simulacros próximamente.</p>'}
+      `).join('') : '<p class="empty">Más simulacros interactivos en desarrollo.</p>'}
     </div>
   `;
 

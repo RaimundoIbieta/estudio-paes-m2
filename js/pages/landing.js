@@ -35,8 +35,8 @@ export function renderLanding(container) {
         <p>Panel con tu ruta, puntajes y lo que debes hacer a continuación.</p>
       </article>
       <article class="card">
-        <h3>Material actualizable</h3>
-        <p>Contenido en expansión continua. Biblioteca PDF para M2 incluida.</p>
+        <h3>Pruebas PAES oficiales</h3>
+        <p>PDFs DEMRE diciembre 2024, 2025 y 2026 con clavijeros.</p>
       </article>
     </section>
   `;

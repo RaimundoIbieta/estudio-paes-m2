@@ -1,4 +1,5 @@
 import { getCurrentTest } from '../test-context.js';
+import { recordEssay } from '../storage.js';
 
 function formatTime(sec) {
   const m = Math.floor(sec / 60);

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "2025-24-12-02-paes-regular-matematica2-p2025",
+    "file": "2025-24-12-02-paes-regular-matematica2-p2025.pdf",
+    "path": "assets/contenidos/2025-24-12-02-paes-regular-matematica2-p2025.pdf",
+    "test": "m2",
+    "kind": "prueba",
+    "tag": "Prueba oficial PAES",
+    "year": "2025",
+    "title": "PAES M2 Matemática (2025) — Admisión 2025"
+  },
+  {
+    "id": "2025-24-12-03-paes-regular-ciencias-biologia-p2025",
+    "file": "2025-24-12-03-paes-regular-ciencias-biologia-p2025.pdf",
+    "path": "assets/contenidos/2025-24-12-03-paes-regular-ciencias-biologia-p2025.pdf",
+    "test": "ciencias-bio",
+    "kind": "prueba",
+    "tag": "Prueba oficial PAES",
+    "year": "2025",
+    "title": "PAES Ciencias Biología (2025) — Admisión 2025"
+  },
+  {
+    "id": "2025-24-12-03-paes-regular-ciencias-fisica-p2025",
+    "file": "2025-24-12-03-paes-regular-ciencias-fisica-p2025.pdf",
+    "path": "assets/contenidos/2025-24-12-03-paes-regular-ciencias-fisica-p2025.pdf",
+    "test": "ciencias-fis",
+    "kind": "prueba",
+    "tag": "Prueba oficial PAES",
+    "year": "2025",
+    "title": "PAES Ciencias Física (2025) — Admisión 2025"
+  },
+  {
+    "id": "2025-24-12-03-paes-regular-ciencias-quimica-p2025",
+    "file": "2025-24-12-03-paes-regular-ciencias-quimica-p2025.pdf",
+    "path": "assets/contenidos/2025-24-12-03-paes-regular-ciencias-quimica-p2025.pdf",
+    "test": "ciencias-qui",
+    "kind": "prueba",
+    "tag": "Prueba oficial PAES",
+    "year": "2025",
+    "title": "PAES Ciencias Química (2025) — Admisión 2025"
+  },
+  {
+    "id": "2025-24-12-03-paes-regular-competencia-lectora-p2025",
+    "file": "2025-24-12-03-paes-regular-competencia-lectora-p2025.pdf",
+    "path": "assets/contenidos/2025-24-12-03-paes-regular-competencia-lectora-p2025.pdf",
+    "test": "cl",
+    "kind": "prueba",
+    "tag": "Prueba oficial PAES",
+    "year": "2025",
+    "title": "PAES Competencia Lectora (2025) — Admisión 2025"
+  },
+  {
+    "id": "2025-24-12-04-paes-regular-historia-p2025",
+    "file": "2025-24-12-04-paes-regular-historia-p2025.pdf",
+    "path": "assets/contenidos/2025-24-12-04-paes-regular-historia-p2025.pdf",
+    "test": "hcs",
+    "kind": "prueba",
+    "tag": "Prueba oficial PAES",
+    "year": "2025",
+    "title": "PAES Historia (2025) — Admisión 2025"
+  },
+  {
+    "id": "2025-24-12-04-paes-regular-matematica1-p2025",
+    "file": "2025-24-12-04-paes-regular-matematica1-p2025.pdf",
+    "path": "assets/contenidos/2025-24-12-04-paes-regular-matematica1-p2025.pdf",
+    "test": "m1",
+    "kind": "prueba",
+    "tag": "Prueba oficial PAES",
+    "year": "2025",
+    "title": "PAES M1 Matemática (2025) — Admisión 2025"
+  },
+  {
+    "id": "2025-25-01-06-clavijero-paes-regular-ciencias-biologia",
+    "file": "2025-25-01-06-clavijero-paes-regular-ciencias-biologia.pdf",
+    "path": "assets/contenidos/2025-25-01-06-clavijero-paes-regular-ciencias-biologia.pdf",
+    "test": "ciencias-bio",
+    "kind": "clavijero",
+    "tag": "Clavijero (respuestas)",
+    "year": "2025",
+    "title": "Clavijero PAES Ciencias Biología (2025) — Admisión 2025"
+  },
+  {
+    "id": "2025-25-01-06-clavijero-paes-regular-ciencias-fisica",
+    "file": "2025-25-01-06-clavijero-paes-regular-ciencias-fisica.pdf",
+    "path": "assets/contenidos/2025-25-01-06-clavijero-paes-regular-ciencias-fisica.pdf",
+    "test": "ciencias-fis",
+    "kind": "clavijero",
+    "tag": "Clavijero (respuestas)",
+    "year": "2025",
+    "title": "Clavijero PAES Ciencias Física (2025) — Admisión 2025"
+  },
+  {
+    "id": "2025-25-01-06-clavijero-paes-regular-ciencias-quimica",
+    "file": "2025-25-01-06-clavijero-paes-regular-ciencias-quimica.pdf",
+    "path": "assets/contenidos/2025-25-01-06-clavijero-paes-regular-ciencias-quimica.pdf",
+    "test": "ciencias-qui",
+    "kind": "clavijero",
+    "tag": "Clavijero (respuestas)",
+    "year": "2025",
+    "title": "Clavijero PAES Ciencias Química (2025) — Admisión 2025"
+  },
+  {
+    "id": "2025-25-01-06-clavijero-paes-regular-competencia-lectora",
+    "file": "2025-25-01-06-clavijero-paes-regular-competencia-lectora.pdf",
+    "path": "assets/contenidos/2025-25-01-06-clavijero-paes-regular-competencia-lectora.pdf",
+    "test": "cl",
+    "kind": "clavijero",
+    "tag": "Clavijero (respuestas)",
+    "year": "2025",
+    "title": "Clavijero PAES Competencia Lectora (2025) — Admisión 2025"
+  },
+  {
+    "id": "2025-25-01-06-clavijero-paes-regular-historia",
+    "file": "2025-25-01-06-clavijero-paes-regular-historia.pdf",
+    "path": "assets/contenidos/2025-25-01-06-clavijero-paes-regular-historia.pdf",
+    "test": "hcs",
+    "kind": "clavijero",
+    "tag": "Clavijero (respuestas)",
+    "year": "2025",
+    "title": "Clavijero PAES Historia (2025) — Admisión 2025"
+  },
+  {
+    "id": "2025-25-01-06-clavijero-paes-regular-m1",
+    "file": "2025-25-01-06-clavijero-paes-regular-m1.pdf",
+    "path": "assets/contenidos/2025-25-01-06-clavijero-paes-regular-m1.pdf",
+    "test": "m1",
+    "kind": "clavijero",
+    "tag": "Clavijero (respuestas)",
+    "year": "2025",
+    "title": "Clavijero PAES M1 Matemática (2025) — Admisión 2025"
+  },
+  {
+    "id": "2025-25-01-06-clavijero-paes-regular-m2",
+    "file": "2025-25-01-06-clavijero-paes-regular-m2.pdf",
+    "path": "assets/contenidos/2025-25-01-06-clavijero-paes-regular-m2.pdf",
+    "test": "m2",
+    "kind": "clavijero",
+    "tag": "Clavijero (respuestas)",
+    "year": "2025",
+    "title": "Clavijero PAES M2 Matemática (2025) — Admisión 2025"
+  },
+  {
+    "id": "2026-25-12-01-paes-regular-matematica2-p2026",
+    "file": "2026-25-12-01-paes-regular-matematica2-p2026.pdf",
+    "path": "assets/contenidos/2026-25-12-01-paes-regular-matematica2-p2026.pdf",
+    "test": "m2",
+    "kind": "prueba",
+    "tag": "Prueba oficial PAES",
+    "year": "2026",
+    "title": "PAES M2 Matemática (2026) — Admisión 2026"
+  },
+  {
+    "id": "2026-25-12-02-paes-regular-ciencias-biologia-p2026",
+    "file": "2026-25-12-02-paes-regular-ciencias-biologia-p2026.pdf",
+    "path": "assets/contenidos/2026-25-12-02-paes-regular-ciencias-biologia-p2026.pdf",
+    "test": "ciencias-bio",
+    "kind": "prueba",
+    "tag": "Prueba oficial PAES",
+    "year": "2026",
+    "title": "PAES Ciencias Biología (2026) — Admisión 2026"
+  },
+  {
+    "id": "2026-25-12-02-paes-regular-ciencias-fisica-p2026",
+    "file": "2026-25-12-02-paes-regular-ciencias-fisica-p2026.pdf",
+    "path": "assets/contenidos/2026-25-12-02-paes-regular-ciencias-fisica-p2026.pdf",
+    "test": "ciencias-fis",
+    "kind": "prueba",
+    "tag": "Prueba oficial PAES",
+    "year": "2026",
+    "title": "PAES Ciencias Física (2026) — Admisión 2026"
+  },
+  {
+    "id": "2026-25-12-02-paes-regular-ciencias-quimica-p2026",
+    "file": "2026-25-12-02-paes-regular-ciencias-quimica-p2026.pdf",
+    "path": "assets/contenidos/2026-25-12-02-paes-regular-ciencias-quimica-p2026.pdf",
+    "test": "ciencias-qui",
+    "kind": "prueba",
+    "tag": "Prueba oficial PAES",
+    "year": "2026",
+    "title": "PAES Ciencias Química (2026) — Admisión 2026"
+  },
+  {
+    "id": "2026-25-12-02-paes-regular-competencia-lectora-p2026",
+    "file": "2026-25-12-02-paes-regular-competencia-lectora-p2026.pdf",
+    "path": "assets/contenidos/2026-25-12-02-paes-regular-competencia-lectora-p2026.pdf",
+    "test": "cl",
+    "kind": "prueba",
+    "tag": "Prueba oficial PAES",
+    "year": "2026",
+    "title": "PAES Competencia Lectora (2026) — Admisión 2026"
+  },
+  {
+    "id": "2026-25-12-03-paes-regular-historia-p2026",
+    "file": "2026-25-12-03-paes-regular-historia-p2026.pdf",
+    "path": "assets/contenidos/2026-25-12-03-paes-regular-historia-p2026.pdf",
+    "test": "hcs",
+    "kind": "prueba",
+    "tag": "Prueba oficial PAES",
+    "year": "2026",
+    "title": "PAES Historia (2026) — Admisión 2026"
+  },
+  {
+    "id": "2026-25-12-03-paes-regular-matematica1-p2026",
+    "file": "2026-25-12-03-paes-regular-matematica1-p2026.pdf",
+    "path": "assets/contenidos/2026-25-12-03-paes-regular-matematica1-p2026.pdf",
+    "test": "m1",
+    "kind": "prueba",
+    "tag": "Prueba oficial PAES",
+    "year": "2026",
+    "title": "PAES M1 Matemática (2026) — Admisión 2026"
+  },
+  {
+    "id": "2026-26-01-05-clavijero-paes-regular-ciencias-biologia",
+    "file": "2026-26-01-05-clavijero-paes-regular-ciencias-biologia.pdf",
+    "path": "assets/contenidos/2026-26-01-05-clavijero-paes-regular-ciencias-biologia.pdf",
+    "test": "ciencias-bio",
+    "kind": "clavijero",
+    "tag": "Clavijero (respuestas)",
+    "year": "2026",
+    "title": "Clavijero PAES Ciencias Biología (2026)"
+  },
+  {
+    "id": "2026-26-01-05-clavijero-paes-regular-ciencias-fisica",
+    "file": "2026-26-01-05-clavijero-paes-regular-ciencias-fisica.pdf",
+    "path": "assets/contenidos/2026-26-01-05-clavijero-paes-regular-ciencias-fisica.pdf",
+    "test": "ciencias-fis",
+    "kind": "clavijero",
+    "tag": "Clavijero (respuestas)",
+    "year": "2026",
+    "title": "Clavijero PAES Ciencias Física (2026)"
+  },
+  {
+    "id": "2026-26-01-05-clavijero-paes-regular-ciencias-quimica",
+    "file": "2026-26-01-05-clavijero-paes-regular-ciencias-quimica.pdf",
+    "path": "assets/contenidos/2026-26-01-05-clavijero-paes-regular-ciencias-quimica.pdf",
+    "test": "ciencias-qui",
+    "kind": "clavijero",
+    "tag": "Clavijero (respuestas)",
+    "year": "2026",
+    "title": "Clavijero PAES Ciencias Química (2026)"
+  },
+  {
+    "id": "2026-26-01-05-clavijero-paes-regular-competencia-lectora (1)",
+    "file": "2026-26-01-05-clavijero-paes-regular-competencia-lectora (1).pdf",
+    "path": "assets/contenidos/2026-26-01-05-clavijero-paes-regular-competencia-lectora (1).pdf",
+    "test": "cl",
+    "kind": "clavijero",
+    "tag": "Clavijero (respuestas)",
+    "year": "2026",
+    "title": "Clavijero PAES Competencia Lectora (2026)"
+  },
+  {
+    "id": "2026-26-01-05-clavijero-paes-regular-competencia-lectora",
+    "file": "2026-26-01-05-clavijero-paes-regular-competencia-lectora.pdf",
+    "path": "assets/contenidos/2026-26-01-05-clavijero-paes-regular-competencia-lectora.pdf",
+    "test": "cl",
+    "kind": "clavijero",
+    "tag": "Clavijero (respuestas)",
+    "year": "2026",
+    "title": "Clavijero PAES Competencia Lectora (2026)"
+  },
+  {
+    "id": "2026-26-01-05-clavijero-paes-regular-historia",
+    "file": "2026-26-01-05-clavijero-paes-regular-historia.pdf",
+    "path": "assets/contenidos/2026-26-01-05-clavijero-paes-regular-historia.pdf",
+    "test": "hcs",
+    "kind": "clavijero",
+    "tag": "Clavijero (respuestas)",
+    "year": "2026",
+    "title": "Clavijero PAES Historia (2026)"
+  },
+  {
+    "id": "2026-26-01-05-clavijero-paes-regular-m1",
+    "file": "2026-26-01-05-clavijero-paes-regular-m1.pdf",
+    "path": "assets/contenidos/2026-26-01-05-clavijero-paes-regular-m1.pdf",
+    "test": "m1",
+    "kind": "clavijero",
+    "tag": "Clavijero (respuestas)",
+    "year": "2026",
+    "title": "Clavijero PAES M1 Matemática (2026)"
+  },
+  {
+    "id": "2026-26-01-05-clavijero-paes-regular-m2",
+    "file": "2026-26-01-05-clavijero-paes-regular-m2.pdf",
+    "path": "assets/contenidos/2026-26-01-05-clavijero-paes-regular-m2.pdf",
+    "test": "m2",
+    "kind": "clavijero",
+    "tag": "Clavijero (respuestas)",
+    "year": "2026",
+    "title": "Clavijero PAES M2 Matemática (2026)"
+  },
+  {
+    "id": "2027-26-03-19-temario-paes-regular-ciencias",
+    "file": "2027-26-03-19-temario-paes-regular-ciencias.pdf",
+    "path": "assets/contenidos/2027-26-03-19-temario-paes-regular-ciencias.pdf",
+    "test": "ciencias",
+    "kind": "temario",
+    "tag": "Temario DEMRE",
+    "year": "2027",
+    "title": "Temario PAES Ciencias (2027)"
+  },
+  {
+    "id": "2027-26-03-19-temario-paes-regular-competencia-lectora",
+    "file": "2027-26-03-19-temario-paes-regular-competencia-lectora.pdf",
+    "path": "assets/contenidos/2027-26-03-19-temario-paes-regular-competencia-lectora.pdf",
+    "test": "cl",
+    "kind": "temario",
+    "tag": "Temario DEMRE",
+    "year": "2027",
+    "title": "Temario PAES Competencia Lectora (2027)"
+  },
+  {
+    "id": "2027-26-03-19-temario-paes-regular-historia",
+    "file": "2027-26-03-19-temario-paes-regular-historia.pdf",
+    "path": "assets/contenidos/2027-26-03-19-temario-paes-regular-historia.pdf",
+    "test": "hcs",
+    "kind": "temario",
+    "tag": "Temario DEMRE",
+    "year": "2027",
+    "title": "Temario PAES Historia (2027)"
+  },
+  {
+    "id": "2027-26-03-19-temario-paes-regular-m1",
+    "file": "2027-26-03-19-temario-paes-regular-m1.pdf",
+    "path": "assets/contenidos/2027-26-03-19-temario-paes-regular-m1.pdf",
+    "test": "m1",
+    "kind": "temario",
+    "tag": "Temario DEMRE",
+    "year": "2027",
+    "title": "Temario PAES M1 Matemática (2027)"
+  },
+  {
+    "id": "2027-26-03-19-temario-paes-regular-m2",
+    "file": "2027-26-03-19-temario-paes-regular-m2.pdf",
+    "path": "assets/contenidos/2027-26-03-19-temario-paes-regular-m2.pdf",
+    "test": "m2",
+    "kind": "temario",
+    "tag": "Temario DEMRE",
+    "year": "2027",
+    "title": "Temario PAES M2 Matemática (2027)"
+  }
+]

@@ -404,6 +404,7 @@ body {
 
 .topbar-public .nav { display: none !important; }
 .topbar-public .nav-toggle { display: none; }
+.nav.hidden { display: none !important; }
 .brand { text-decoration: none; color: inherit; }
 
 .gate-banner {

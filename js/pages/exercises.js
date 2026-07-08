@@ -69,7 +69,7 @@ export async function renderExercises(container, filterArea = 'all', page = 0) {
   const safePage = Math.min(page, totalPages - 1);
   const slice = filtered.slice(safePage * PAGE_SIZE, safePage * PAGE_SIZE + PAGE_SIZE);
   const rawTotal = bank?.rawTotal || exercises.length;
-  const essayCount = bank?.questions?.length || 0;
+  const essayCount = bank?.practiceCount || bank?.questions?.length || 0;
 
   container.innerHTML = `
     <h1 class="page-title">Ejercicios</h1>

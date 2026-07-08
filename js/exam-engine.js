@@ -71,7 +71,7 @@ export async function runTimedEssay(container, {
     const total = questions.length;
     const score = total ? Math.round((correct / total) * 100) : 0;
     const timeUsed = durationMinutes * 60 - Math.max(0, secondsLeft);
-    const paesScore = bank ? scoreWithClavijero(bank, responses, '2026', { fullTest }) : null;
+    const paesScore = bank ? scoreWithClavijero(bank, responses, '2026', { fullTest, ignoreExcluded: fullTest }) : null;
 
     recordEssay({
       essayId: `${essayType}-${Date.now()}`,
@@ -179,7 +179,7 @@ function runExamQuiz(container, questions, { onSubmit }) {
         <div class="exam-main quiz-card essay-card">
           <div class="quiz-progress"><div style="width:${pct}%"></div></div>
           <div class="essay-meta">
-            <span>Pregunta <strong>${index + 1}</strong> de ${questions.length} · ${q.area || ''}${q.num ? ` · N°${q.num}` : ''}${q.supplement ? ' · complementaria' : ''}</span>
+            <span>Pregunta <strong>${index + 1}</strong> de ${questions.length} · ${q.area || ''}${q.paesNum ? ` · Oficial N°${q.paesNum}` : ''}${q.supplement ? ' · complementaria' : ''}</span>
             <span class="essay-answered">${countAnswered()} respondidas · ${omittedCount} omitidas · ${questions.length - visited.size} sin ver</span>
           </div>
 

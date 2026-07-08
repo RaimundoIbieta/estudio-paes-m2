@@ -130,10 +130,81 @@ export function pickPracticeSet(bank, totalNeeded, area = null) {
 }
 
 export function pickDiagnosticSet(bank, totalNeeded) {
+  const practice = bank.practiceQuestions || [];
+  if (practice.length >= totalNeeded) {
+    const set = pickBalancedRandomSet(practice, totalNeeded);
+    if (set.length >= totalNeeded) return set;
+  }
+  return pickDiagnosticSetFixed(bank, totalNeeded);
+}
+
+/** Ensayo variado: mezcla oficial + pool generado, balanceado por area. */
+function pickBalancedRandomSet(candidates, totalNeeded) {
+  const pool = shuffle(candidates.filter(isReadableQuestion));
+  if (!pool.length) return [];
+
+  const byArea = new Map();
+  for (const q of pool) {
+    const key = String(labelArea(q.area) || 'Otros').toLowerCase();
+    if (!byArea.has(key)) byArea.set(key, []);
+    byArea.get(key).push(q);
+  }
+
+  const picked = [];
+  const usedIds = new Set();
+
+  const officialWithFigures = shuffle(
+    pool.filter(q => q.source !== 'generado' && q.optionFigures?.length >= 4),
+  );
+  const officialCap = Math.min(
+    Math.floor(totalNeeded * 0.25),
+    officialWithFigures.length,
+    18,
+  );
+  for (let i = 0; i < officialCap; i++) {
+    const q = officialWithFigures[i];
+    if (!q || usedIds.has(q.id)) continue;
+    usedIds.add(q.id);
+    picked.push(q);
+  }
+
+  const remaining = totalNeeded - picked.length;
+  const areas = [...byArea.keys()];
+  const perArea = Math.floor(remaining / Math.max(areas.length, 1));
+  let extra = remaining - perArea * areas.length;
+
+  for (const area of shuffle(areas)) {
+    let quota = perArea + (extra > 0 ? 1 : 0);
+    if (extra > 0) extra -= 1;
+    for (const q of shuffle(byArea.get(area) || [])) {
+      if (quota <= 0 || picked.length >= totalNeeded) break;
+      if (usedIds.has(q.id)) continue;
+      usedIds.add(q.id);
+      picked.push(q);
+      quota -= 1;
+    }
+  }
+
+  for (const q of pool) {
+    if (picked.length >= totalNeeded) break;
+    if (usedIds.has(q.id)) continue;
+    usedIds.add(q.id);
+    picked.push(q);
+  }
+
+  return shuffle(picked).slice(0, totalNeeded).map((q, i) => ({
+    ...q,
+    paesNum: q.source !== 'generado' && q.num ? q.num : null,
+    num: i + 1,
+    countsForScore: true,
+  }));
+}
+
+/** Respaldo si el pool no carga: ensayo fijo por numero PAES 1..N. */
+function pickDiagnosticSetFixed(bank, totalNeeded) {
   const official = (bank.questions || []).filter(q =>
     q.source !== 'generado' && q.num && isReadableQuestion(q)
   );
-  // Preferir oficiales con alternativas como imagen (fracciones/potencias intactas)
   const withOpts = official.filter(q => Array.isArray(q.optionFigures) && q.optionFigures.length >= 4);
   const withoutOpts = official.filter(q => !(Array.isArray(q.optionFigures) && q.optionFigures.length >= 4));
   const ranked = [...withOpts, ...withoutOpts];
@@ -195,10 +266,12 @@ export async function buildQuestionSet(testId, { type, lessonArea = null, count 
   return pickCheckpointSet(bank, count);
 }
 
-export function scoreWithClavijero(bank, responses, preferredYear = '2026', { fullTest = true } = {}) {
+export function scoreWithClavijero(bank, responses, preferredYear = '2026', { fullTest = true, ignoreExcluded = false } = {}) {
   const year = bank.transformTables?.[preferredYear] ? preferredYear
     : Object.keys(bank.transformTables || {})[0] || '2026';
-  const excluded = new Set(bank.clavijeros?.[year]?.excluded || []);
+  const excluded = ignoreExcluded
+    ? new Set()
+    : new Set(bank.clavijeros?.[year]?.excluded || []);
   let puntajeP = 0;
   let scoredTotal = 0;
 

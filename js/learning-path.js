@@ -208,7 +208,7 @@ export function getEssayMeta(type, test) {
   if (type === 'diagnostic') {
     return {
       title: `Ensayo diagnóstico ${test?.short || 'PAES'}`,
-      description: `Simulacro completo inicial (${total} preguntas · ${duration} min). Obligatorio antes de estudiar.`,
+      description: `Simulacro completo inicial (${total} preguntas · ${duration} min). Cada intento sortea preguntas distintas del banco PAES. Obligatorio antes de estudiar.`,
       count: total,
       durationMinutes: duration,
     };

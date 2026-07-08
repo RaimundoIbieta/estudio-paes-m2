@@ -2,7 +2,7 @@ import { getCurrentTest, loadTests } from './test-context.js';
 import { recordEssay } from './storage.js';
 import { questionBodyHtml, optionContentHtml, optionButtonClass, useOfficialFigure, hasOptionFigures } from './question-figure.js';
 
-const _build = new URL(import.meta.url).searchParams.get('v') || '27';
+const _build = new URL(import.meta.url).searchParams.get('v') || '28';
 const { CACHE_VERSION } = await import(`./config.js?v=${_build}`);
 export const ESSAY_ENGINE_BUILD = CACHE_VERSION;
 

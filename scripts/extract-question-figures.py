@@ -47,6 +47,7 @@ FOOTER_RE = re.compile(r"^-\s*\d+\s*-$")
 NUM_ONLY_RE = re.compile(r"^(\d{1,2})\.\s*$")
 NUM_TEXT_RE = re.compile(r"^(\d{1,2})\.\s+\S+")
 OPTION_RE = re.compile(r"^([A-E])\)")
+NEXT_Q_RE = re.compile(r"^(\d{1,2})\.\s*")
 
 
 def pdf_path(filename: str) -> Path | None:
@@ -70,6 +71,39 @@ def page_lines(page: fitz.Page) -> list[tuple[float, float, float, float, str]]:
             out.append((x0, y0, x1, y1, text))
     out.sort(key=lambda t: (t[1], t[0]))
     return out
+
+
+def content_bottom_for_option(
+    lines: list[tuple[float, float, float, float, str]],
+    y_start: float,
+    y_limit: float,
+) -> float:
+    """Baja hasta el ultimo texto de la alternativa, sin extenderse al vacio."""
+    content_lines = []
+    for _x0, y0, _x1, y1, text in lines:
+        if y0 < y_start - 1:
+            continue
+        if y0 >= y_limit:
+            break
+        if FOOTER_RE.match(text):
+            break
+        if NEXT_Q_RE.match(text) and not OPTION_RE.match(text):
+            # siguiente pregunta
+            break
+        content_lines.append((y0, y1, text))
+
+    if not content_lines:
+        return min(y_start + 28, y_limit - 2)
+
+    # Cortar si hay un hueco grande (>28pt) entre lineas de la misma opcion
+    bottom = content_lines[0][1]
+    prev_y1 = content_lines[0][1]
+    for y0, y1, _text in content_lines[1:]:
+        if y0 - prev_y1 > 28:
+            break
+        bottom = max(bottom, y1)
+        prev_y1 = y1
+    return min(bottom + 6, y_limit - 2)
 
 
 def find_questions(page: fitz.Page) -> list[dict]:
@@ -100,7 +134,6 @@ def find_questions(page: fitz.Page) -> list[dict]:
         if len(opts) < 4:
             continue
 
-        # Deduplicate letters keeping first occurrence
         by_letter = {}
         for opt in opts:
             by_letter.setdefault(opt["letter"], opt)
@@ -114,21 +147,40 @@ def find_questions(page: fitz.Page) -> list[dict]:
         if stem_bottom - y_top < 28:
             continue
 
-        # End of last option: next option start, next question, or footer
         next_q_y = candidates[i + 1]["y0"] if i + 1 < len(candidates) else page.rect.height - 40
+        # pie de pagina
+        footer_y = page.rect.height - 40
+        for _x0, fy, _x1, _fy1, text in lines:
+            if FOOTER_RE.match(text) and fy > a_y:
+                footer_y = min(footer_y, fy)
+                break
+
+        hard_limit = min(next_q_y - 6, footer_y - 8)
+
+        # Alturas tipicas A-C para acotar D
+        typical_heights = []
         option_bounds = []
         for j, opt in enumerate(ordered):
             y0 = opt["y0"] - 2
             if j + 1 < len(ordered):
-                y1 = ordered[j + 1]["y0"] - 4
+                y_limit = ordered[j + 1]["y0"] - 2
             else:
-                y1 = min(next_q_y - 8, page.rect.height - 50)
-                for _x0, fy, _x1, _fy1, text in block:
-                    if FOOTER_RE.match(text) and fy > y0:
-                        y1 = min(y1, fy - 8)
-                        break
+                y_limit = hard_limit
+            y1 = content_bottom_for_option(lines, opt["y0"], y_limit)
+
+            # Si es la ultima y quedo demasiado alta, limitar
+            if j == len(ordered) - 1 and typical_heights:
+                avg_h = sum(typical_heights) / len(typical_heights)
+                max_h = max(avg_h * 2.2, 36)
+                if (y1 - y0) > max_h:
+                    y1 = y0 + max_h
+
             if y1 - y0 < 16:
-                y1 = y0 + 28
+                y1 = y0 + 24
+
+            if j < len(ordered) - 1:
+                typical_heights.append(y1 - y0)
+
             option_bounds.append({"letter": opt["letter"], "y0": y0, "y1": y1})
 
         questions.append({
@@ -214,11 +266,7 @@ def attach_to_bank(test_id: str, all_manifests: dict) -> int:
             continue
         q["figure"] = entry["figure"]
         q["optionFigures"] = entry["optionFigures"]
-        text = q.get("question", "")
-        q["needsFigure"] = True  # oficial con imagen: preferir visual
-        if not VISUAL_HINT.search(text) and not GARBLED_HINT.search(text):
-            # aun asi usar figuras de opciones siempre
-            q["needsFigure"] = bool(q.get("figure"))
+        q["needsFigure"] = True
         linked += 1
     bank_path.write_text(json.dumps(bank, ensure_ascii=False, indent=2), encoding="utf-8")
     return linked

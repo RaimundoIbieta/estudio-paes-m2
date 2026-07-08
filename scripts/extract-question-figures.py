@@ -235,6 +235,148 @@ def midpoint_bands(ink_opts, stem_bottom: float, hard_end: float):
     return bands
 
 
+GRID_ROW_Y_THRESH = 28
+PAGE_MARGIN_X = 36
+
+
+def cluster_option_rows(markers: list[dict]) -> list[list[dict]]:
+    """Agrupa A-D en filas (layout 2x2 con A,B arriba y C,D abajo)."""
+    sorted_m = sorted(markers, key=lambda m: (m["y0"], m["x0"]))
+    rows: list[list[dict]] = []
+    for m in sorted_m:
+        for row in rows:
+            if abs(m["y0"] - row[0]["y0"]) < GRID_ROW_Y_THRESH:
+                row.append(m)
+                break
+        else:
+            rows.append([m])
+    for row in rows:
+        row.sort(key=lambda m: m["x0"])
+    rows.sort(key=lambda row: row[0]["y0"])
+    return rows
+
+
+def is_grid_layout(markers: list[dict]) -> bool:
+    if len(markers) != 4:
+        return False
+    rows = cluster_option_rows(markers)
+    if len(rows) != 2 or len(rows[0]) != 2 or len(rows[1]) != 2:
+        return False
+    return abs(rows[0][0]["x0"] - rows[0][1]["x0"]) > 80
+
+
+def column_x_bounds(marker: dict, row: list[dict], page_width: float) -> tuple[float, float]:
+    """Limites horizontales de una celda en una fila de alternativas."""
+    right_x = page_width - PAGE_MARGIN_X
+    if len(row) == 1:
+        return PAGE_MARGIN_X, right_x
+    xs = [m["x0"] for m in row]
+    mids = [(xs[i] + xs[i + 1]) / 2 for i in range(len(xs) - 1)]
+    idx = next(i for i, m in enumerate(row) if m["letter"] == marker["letter"])
+    if idx == 0:
+        return PAGE_MARGIN_X, mids[0]
+    if idx == len(row) - 1:
+        return mids[-1], right_x
+    return mids[idx - 1], mids[idx]
+
+
+def cell_ink_bottom(
+    page: fitz.Page, x0: float, x1: float, y0: float, y1_limit: float
+) -> float:
+    """Borde inferior de tinta dentro de una celda de alternativa."""
+    bottom = y0
+    for d in page.get_drawings():
+        r = d.get("rect")
+        if not r:
+            continue
+        cx = (r.x0 + r.x1) / 2
+        cy = (r.y0 + r.y1) / 2
+        if x0 <= cx <= x1 and y0 - 8 <= cy <= y1_limit + 50:
+            bottom = max(bottom, r.y1)
+    for info in page.get_image_info(xrefs=True):
+        bx = info["bbox"]
+        cx = (bx[0] + bx[2]) / 2
+        cy = (bx[1] + bx[3]) / 2
+        if x0 <= cx <= x1 and y0 - 8 <= cy <= y1_limit + 50:
+            bottom = max(bottom, bx[3])
+    for w in page.get_text("words"):
+        cx = (w[0] + w[2]) / 2
+        cy = (w[1] + w[3]) / 2
+        if x0 <= cx <= x1 and y0 - 8 <= cy <= y1_limit + 50:
+            bottom = max(bottom, w[3])
+    return bottom
+
+
+def grid_option_bounds(
+    page: fitz.Page,
+    markers: list[dict],
+    stem_bottom: float,
+    hard_end: float,
+) -> list[dict]:
+    """Recorte por celda cuando A,B y C,D comparten fila (graficos 2x2)."""
+    rows = cluster_option_rows(markers)
+    page_width = page.rect.width
+    row_centers = [
+        sum((m["y0"] + m["y1"]) / 2 for m in row) / len(row) for row in rows
+    ]
+    bands: list[dict] = []
+    for ri, row in enumerate(rows):
+        if ri == 0:
+            y0 = stem_bottom + 0.5
+        else:
+            y0 = (row_centers[ri - 1] + row_centers[ri]) / 2
+        if ri + 1 < len(rows):
+            y1 = (row_centers[ri] + row_centers[ri + 1]) / 2
+        else:
+            y1 = row_centers[ri] + 60
+
+        y0 = max(stem_bottom + 0.5, min(m["y0"] for m in row) - OPT_EDGE_PAD)
+
+        ink_y1 = y0 + 30
+        row_ink_limit = (
+            y1
+            if ri + 1 < len(rows)
+            else min(hard_end, min(m["y0"] for m in row) + 140)
+        )
+        for m in row:
+            x0, x1 = column_x_bounds(m, row, page_width)
+            ink_bottom = cell_ink_bottom(page, x0, x1, m["y0"] - 4, row_ink_limit)
+            ink_y1 = max(ink_y1, ink_bottom + OPT_EDGE_PAD)
+
+        y1 = min(hard_end, max(y1, ink_y1))
+        if y1 - y0 < 22:
+            y1 = min(hard_end, y0 + 26)
+
+        for m in row:
+            x0, x1 = column_x_bounds(m, row, page_width)
+            bands.append({
+                "letter": m["letter"],
+                "y0": y0,
+                "y1": y1,
+                "x0": x0,
+                "x1": x1,
+            })
+    bands.sort(key=lambda b: "ABCD".index(b["letter"]))
+    return bands
+
+
+def compute_option_bounds(
+    page: fitz.Page,
+    markers: list[dict],
+    ink_opts: list[dict],
+    stem_bottom: float,
+    hard_end: float,
+) -> list[dict]:
+    page_width = page.rect.width
+    if is_grid_layout(markers):
+        return grid_option_bounds(page, markers, stem_bottom, hard_end)
+    bands = midpoint_bands(ink_opts, stem_bottom, hard_end)
+    for band in bands:
+        band["x0"] = PAGE_MARGIN_X
+        band["x1"] = page_width - PAGE_MARGIN_X
+    return bands
+
+
 def find_questions(page: fitz.Page) -> list[dict]:
     lines = page_lines(page)
     words = page_words(page)
@@ -322,7 +464,7 @@ def find_questions(page: fitz.Page) -> list[dict]:
         if stem_bottom - stem_top < 24:
             continue
 
-        option_bounds = midpoint_bands(ink_opts, stem_bottom, hard_end)
+        option_bounds = compute_option_bounds(page, ordered, ink_opts, stem_bottom, hard_end)
 
         questions.append({
             "num": cand["num"],
@@ -339,13 +481,19 @@ def save_clip(
     dest: Path,
     pad_px: int = 10,
     trim_header: bool = False,
+    x0: float | None = None,
+    x1: float | None = None,
 ) -> bool:
     rect = page.rect
     y0 = max(0.0, y0)
     y1 = min(rect.height - 2, y1)
     if y1 - y0 < 12:
         return False
-    clip = fitz.Rect(36, y0, rect.width - 36, y1)
+    clip_x0 = PAGE_MARGIN_X if x0 is None else max(0.0, x0)
+    clip_x1 = rect.width - PAGE_MARGIN_X if x1 is None else min(rect.width, x1)
+    if clip_x1 - clip_x0 < 24:
+        return False
+    clip = fitz.Rect(clip_x0, y0, clip_x1, y1)
     pix = page.get_pixmap(matrix=fitz.Matrix(ZOOM, ZOOM), clip=clip, alpha=False)
     dest.parent.mkdir(parents=True, exist_ok=True)
     pix.save(dest)
@@ -389,7 +537,15 @@ def extract_pdf(test_id: str, year: str, filename: str) -> dict:
             for opt in q["options"]:
                 letter = opt["letter"].lower()
                 rel = f"data/{test_id}/figures/{year}-q{num:02d}-{letter}.png"
-                if not save_clip(page, opt["y0"], opt["y1"], ROOT / rel, pad_px=16):
+                if not save_clip(
+                    page,
+                    opt["y0"],
+                    opt["y1"],
+                    ROOT / rel,
+                    pad_px=16,
+                    x0=opt.get("x0"),
+                    x1=opt.get("x1"),
+                ):
                     ok = False
                     break
                 option_rels.append(rel)

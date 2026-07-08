@@ -1,4 +1,11 @@
 /** Renderiza figuras oficiales PAES (recortes del PDF DEMRE). */
+import { CACHE_VERSION } from './config.js';
+
+function figureSrc(path) {
+  if (!path) return '';
+  const sep = path.includes('?') ? '&' : '?';
+  return `${path}${sep}v=${CACHE_VERSION}`;
+}
 
 export function questionFigureHtml(q) {
   const src = q?.figure || q?.figures?.[0];
@@ -6,7 +13,7 @@ export function questionFigureHtml(q) {
   const alt = q?.num
     ? `Enunciado pregunta ${q.num}`
     : 'Enunciado de la pregunta';
-  return `<figure class="question-figure"><img src="${src}" alt="${alt}" loading="lazy" /></figure>`;
+  return `<figure class="question-figure"><img src="${figureSrc(src)}" alt="${alt}" loading="lazy" /></figure>`;
 }
 
 /** Pregunta oficial con recorte PDF: el enunciado se lee desde la imagen. */
@@ -30,7 +37,7 @@ export function questionBodyHtml(q) {
 export function optionContentHtml(q, index, textOpt) {
   const letter = String.fromCharCode(65 + index);
   if (hasOptionFigures(q) && q.optionFigures[index]) {
-    return `<img class="option-figure" src="${q.optionFigures[index]}" alt="Alternativa ${letter}" loading="lazy" />`;
+    return `<img class="option-figure" src="${figureSrc(q.optionFigures[index])}" alt="Alternativa ${letter}" loading="lazy" />`;
   }
   return `${letter}. ${textOpt ?? ''}`;
 }

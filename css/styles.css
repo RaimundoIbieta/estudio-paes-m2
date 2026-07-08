@@ -361,28 +361,34 @@ body {
   background: #fff;
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 0.35rem;
-  overflow: hidden;
+  padding: 0.5rem;
+  overflow: visible;
 }
 .question-figure img {
   max-width: 100%;
   width: auto;
   height: auto;
+  max-height: none;
   display: block;
   margin: 0 auto;
+  object-fit: contain;
 }
 .option-with-figure {
+  display: flex;
   justify-content: flex-start;
-  padding: 0.35rem 0.5rem;
-  min-height: 2.5rem;
+  align-items: flex-start;
+  overflow: visible;
+  padding: 0.65rem 0.85rem;
+  min-height: 0;
 }
 .option-figure {
   display: block;
   max-width: 100%;
+  width: auto;
   height: auto;
-  max-height: 4.5rem;
+  max-height: none;
   object-fit: contain;
-  object-position: left center;
+  object-position: left top;
   pointer-events: none;
 }
 .essay-overlay {

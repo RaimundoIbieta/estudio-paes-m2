@@ -330,13 +330,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q02.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q02-a.png",
         "data/cl/figures/2025-q02-b.png",
         "data/cl/figures/2025-q02-c.png",
         "data/cl/figures/2025-q02-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q03",
@@ -356,13 +356,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q03.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q03-a.png",
         "data/cl/figures/2025-q03-b.png",
         "data/cl/figures/2025-q03-c.png",
         "data/cl/figures/2025-q03-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q04",
@@ -434,13 +434,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q06.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q06-a.png",
         "data/cl/figures/2025-q06-b.png",
         "data/cl/figures/2025-q06-c.png",
         "data/cl/figures/2025-q06-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q07",
@@ -486,13 +486,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q08.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q08-a.png",
         "data/cl/figures/2025-q08-b.png",
         "data/cl/figures/2025-q08-c.png",
         "data/cl/figures/2025-q08-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q09",
@@ -538,13 +538,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q10.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q10-a.png",
         "data/cl/figures/2025-q10-b.png",
         "data/cl/figures/2025-q10-c.png",
         "data/cl/figures/2025-q10-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q11",
@@ -564,13 +564,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q11.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q11-a.png",
         "data/cl/figures/2025-q11-b.png",
         "data/cl/figures/2025-q11-c.png",
         "data/cl/figures/2025-q11-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q12",
@@ -616,13 +616,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q13.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q13-a.png",
         "data/cl/figures/2025-q13-b.png",
         "data/cl/figures/2025-q13-c.png",
         "data/cl/figures/2025-q13-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q14",
@@ -720,13 +720,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q25.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q25-a.png",
         "data/cl/figures/2025-q25-b.png",
         "data/cl/figures/2025-q25-c.png",
         "data/cl/figures/2025-q25-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q26",
@@ -876,13 +876,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q31.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q31-a.png",
         "data/cl/figures/2025-q31-b.png",
         "data/cl/figures/2025-q31-c.png",
         "data/cl/figures/2025-q31-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q41",
@@ -902,13 +902,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q41.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q41-a.png",
         "data/cl/figures/2025-q41-b.png",
         "data/cl/figures/2025-q41-c.png",
         "data/cl/figures/2025-q41-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q42",
@@ -980,13 +980,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q44.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q44-a.png",
         "data/cl/figures/2025-q44-b.png",
         "data/cl/figures/2025-q44-c.png",
         "data/cl/figures/2025-q44-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q45",
@@ -1006,13 +1006,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q45.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q45-a.png",
         "data/cl/figures/2025-q45-b.png",
         "data/cl/figures/2025-q45-c.png",
         "data/cl/figures/2025-q45-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q46",
@@ -1032,13 +1032,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q46.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q46-a.png",
         "data/cl/figures/2025-q46-b.png",
         "data/cl/figures/2025-q46-c.png",
         "data/cl/figures/2025-q46-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q47",
@@ -1058,13 +1058,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q47.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q47-a.png",
         "data/cl/figures/2025-q47-b.png",
         "data/cl/figures/2025-q47-c.png",
         "data/cl/figures/2025-q47-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q48",
@@ -1084,13 +1084,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q48.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q48-a.png",
         "data/cl/figures/2025-q48-b.png",
         "data/cl/figures/2025-q48-c.png",
         "data/cl/figures/2025-q48-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q49",
@@ -1110,13 +1110,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q49.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q49-a.png",
         "data/cl/figures/2025-q49-b.png",
         "data/cl/figures/2025-q49-c.png",
         "data/cl/figures/2025-q49-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q50",
@@ -1136,13 +1136,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q50.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q50-a.png",
         "data/cl/figures/2025-q50-b.png",
         "data/cl/figures/2025-q50-c.png",
         "data/cl/figures/2025-q50-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q51",
@@ -1214,13 +1214,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q53.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q53-a.png",
         "data/cl/figures/2025-q53-b.png",
         "data/cl/figures/2025-q53-c.png",
         "data/cl/figures/2025-q53-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q54",
@@ -1266,13 +1266,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q55.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q55-a.png",
         "data/cl/figures/2025-q55-b.png",
         "data/cl/figures/2025-q55-c.png",
         "data/cl/figures/2025-q55-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q56",
@@ -1292,13 +1292,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q56.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q56-a.png",
         "data/cl/figures/2025-q56-b.png",
         "data/cl/figures/2025-q56-c.png",
         "data/cl/figures/2025-q56-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q57",
@@ -1344,13 +1344,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q58.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q58-a.png",
         "data/cl/figures/2025-q58-b.png",
         "data/cl/figures/2025-q58-c.png",
         "data/cl/figures/2025-q58-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q59",
@@ -1370,13 +1370,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q59.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q59-a.png",
         "data/cl/figures/2025-q59-b.png",
         "data/cl/figures/2025-q59-c.png",
         "data/cl/figures/2025-q59-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q60",
@@ -1396,13 +1396,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q60.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q60-a.png",
         "data/cl/figures/2025-q60-b.png",
         "data/cl/figures/2025-q60-c.png",
         "data/cl/figures/2025-q60-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q61",
@@ -1422,13 +1422,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q61.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q61-a.png",
         "data/cl/figures/2025-q61-b.png",
         "data/cl/figures/2025-q61-c.png",
         "data/cl/figures/2025-q61-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q62",
@@ -1448,13 +1448,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q62.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q62-a.png",
         "data/cl/figures/2025-q62-b.png",
         "data/cl/figures/2025-q62-c.png",
         "data/cl/figures/2025-q62-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q63",
@@ -1500,13 +1500,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q64.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q64-a.png",
         "data/cl/figures/2025-q64-b.png",
         "data/cl/figures/2025-q64-c.png",
         "data/cl/figures/2025-q64-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2025-q65",
@@ -1526,13 +1526,13 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2025-q65.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2025-q65-a.png",
         "data/cl/figures/2025-q65-b.png",
         "data/cl/figures/2025-q65-c.png",
         "data/cl/figures/2025-q65-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q10",
@@ -1552,13 +1552,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q10.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q10-a.png",
         "data/cl/figures/2026-q10-b.png",
         "data/cl/figures/2026-q10-c.png",
         "data/cl/figures/2026-q10-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q11",
@@ -1578,13 +1578,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q11.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q11-a.png",
         "data/cl/figures/2026-q11-b.png",
         "data/cl/figures/2026-q11-c.png",
         "data/cl/figures/2026-q11-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q12",
@@ -1734,13 +1734,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q17.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q17-a.png",
         "data/cl/figures/2026-q17-b.png",
         "data/cl/figures/2026-q17-c.png",
         "data/cl/figures/2026-q17-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q18",
@@ -1786,13 +1786,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q19.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q19-a.png",
         "data/cl/figures/2026-q19-b.png",
         "data/cl/figures/2026-q19-c.png",
         "data/cl/figures/2026-q19-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q20",
@@ -1812,13 +1812,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q20.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q20-a.png",
         "data/cl/figures/2026-q20-b.png",
         "data/cl/figures/2026-q20-c.png",
         "data/cl/figures/2026-q20-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q21",
@@ -1994,13 +1994,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q27.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q27-a.png",
         "data/cl/figures/2026-q27-b.png",
         "data/cl/figures/2026-q27-c.png",
         "data/cl/figures/2026-q27-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q28",
@@ -2020,13 +2020,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q28.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q28-a.png",
         "data/cl/figures/2026-q28-b.png",
         "data/cl/figures/2026-q28-c.png",
         "data/cl/figures/2026-q28-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q29",
@@ -2046,13 +2046,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q29.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q29-a.png",
         "data/cl/figures/2026-q29-b.png",
         "data/cl/figures/2026-q29-c.png",
         "data/cl/figures/2026-q29-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q30",
@@ -2072,13 +2072,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q30.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q30-a.png",
         "data/cl/figures/2026-q30-b.png",
         "data/cl/figures/2026-q30-c.png",
         "data/cl/figures/2026-q30-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q31",
@@ -2150,13 +2150,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q33.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q33-a.png",
         "data/cl/figures/2026-q33-b.png",
         "data/cl/figures/2026-q33-c.png",
         "data/cl/figures/2026-q33-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q34",
@@ -2332,13 +2332,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q40.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q40-a.png",
         "data/cl/figures/2026-q40-b.png",
         "data/cl/figures/2026-q40-c.png",
         "data/cl/figures/2026-q40-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q41",
@@ -2358,13 +2358,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q41.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q41-a.png",
         "data/cl/figures/2026-q41-b.png",
         "data/cl/figures/2026-q41-c.png",
         "data/cl/figures/2026-q41-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q42",
@@ -2410,13 +2410,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q43.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q43-a.png",
         "data/cl/figures/2026-q43-b.png",
         "data/cl/figures/2026-q43-c.png",
         "data/cl/figures/2026-q43-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q44",
@@ -2436,13 +2436,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q44.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q44-a.png",
         "data/cl/figures/2026-q44-b.png",
         "data/cl/figures/2026-q44-c.png",
         "data/cl/figures/2026-q44-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q45",
@@ -2462,13 +2462,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q45.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q45-a.png",
         "data/cl/figures/2026-q45-b.png",
         "data/cl/figures/2026-q45-c.png",
         "data/cl/figures/2026-q45-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q46",
@@ -2488,13 +2488,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q46.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q46-a.png",
         "data/cl/figures/2026-q46-b.png",
         "data/cl/figures/2026-q46-c.png",
         "data/cl/figures/2026-q46-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q47",
@@ -2566,13 +2566,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q49.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q49-a.png",
         "data/cl/figures/2026-q49-b.png",
         "data/cl/figures/2026-q49-c.png",
         "data/cl/figures/2026-q49-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q50",
@@ -2592,13 +2592,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q50.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q50-a.png",
         "data/cl/figures/2026-q50-b.png",
         "data/cl/figures/2026-q50-c.png",
         "data/cl/figures/2026-q50-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q51",
@@ -2618,13 +2618,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q51.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q51-a.png",
         "data/cl/figures/2026-q51-b.png",
         "data/cl/figures/2026-q51-c.png",
         "data/cl/figures/2026-q51-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q52",
@@ -2696,13 +2696,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q54.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q54-a.png",
         "data/cl/figures/2026-q54-b.png",
         "data/cl/figures/2026-q54-c.png",
         "data/cl/figures/2026-q54-d.png"
-      ]
+      ],
+      "needsFigure": true
     },
     {
       "id": "cl-2026-q55",
@@ -2722,13 +2722,13 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/cl/figures/2026-q55.png",
-      "needsFigure": true,
       "optionFigures": [
         "data/cl/figures/2026-q55-a.png",
         "data/cl/figures/2026-q55-b.png",
         "data/cl/figures/2026-q55-c.png",
         "data/cl/figures/2026-q55-d.png"
-      ]
+      ],
+      "needsFigure": true
     }
   ],
   "generatedFrom": "PAES oficial DEMRE + clavijero"

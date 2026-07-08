@@ -296,7 +296,7 @@
         "Ubicarse en el 5 y desplazarse 8 unidades a la izquierda.",
         "Ubicarse en el 5 y desplazarse 8 unidades a la derecha.",
         "Ubicarse en el 8 y desplazarse 5 unidades a la derecha.",
-        "Ubicarse en el 8 y desplazarse 3 unidades a la derecha. 1 0 1 - 4 -"
+        "Ubicarse en el 8 y desplazarse 3 unidades a la derecha."
       ],
       "answer": 0,
       "answerKey": "A",
@@ -316,7 +316,7 @@
         "En el Paso 1",
         "En el Paso 2",
         "En el Paso 3",
-        "En el Paso 4 - 5 -"
+        "En el Paso 4"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -336,7 +336,7 @@
         "Comprar doce sacos de kg5 .",
         "Comprar cinco sacos de kg12 .",
         "Comprar cuatro sacos de kg15 .",
-        "Comprar tres sacos de kg20 . - 6 -"
+        "Comprar tres sacos de kg20 ."
       ],
       "answer": 2,
       "answerKey": "C",
@@ -344,7 +344,7 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/m1/figures/2025-q04.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m1-2025-q06",
@@ -356,7 +356,7 @@
         "Que la cantidad de repeticiones de las series de ambas personas es distinta.",
         "Que el tiempo de descanso de ambas personas es distinto.",
         "Que la suma entre el tiempo de ejercicio, el descanso y las repeticiones de las series es distinta en cada persona.",
-        "Que la suma entre el tiempo de ejercicio y el descanso, multiplicada por las repeticiones de las series, es distinta en cada persona. - 7 -"
+        "Que la suma entre el tiempo de ejercicio y el descanso, multiplicada por las repeticiones de las series, es distinta en cada persona."
       ],
       "answer": 3,
       "answerKey": "D",
@@ -376,7 +376,7 @@
         "15",
         "10",
         "8",
-        "2 - 8 -"
+        "2"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -396,7 +396,7 @@
         "934160 x000100k",
         "000100x934160k",
         "000100 x934160k",
-        "000100x934160k - 9 -"
+        "000100x934160k"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -404,7 +404,7 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/m1/figures/2025-q09.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m1-2025-q10",
@@ -416,7 +416,7 @@
         "26/01/2023",
         "19/01/2023",
         "12/01/2023",
-        "16/01/2023 - 10 -"
+        "16/01/2023"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -456,7 +456,7 @@
         "40150",
         "140 150100",
         "140 150",
-        "100 40150 - 11 -"
+        "100 40150"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -476,7 +476,7 @@
         "Del total de los hombres que postularon, exactamente un %9 fue contratado.",
         "En Administración se contrató al %20 del total de quienes postularon a ese departamento.",
         "Exactamente un %5 de las mujeres que fueron contratadas corresponden al departamento de Administración.",
-        "En Talleres se contrató al %50 de los hombres y al %50 de las mujeres postulantes a ese departamento. Departamento Postulantes Contratados Administración Hombres 200 20 Mujeres 50 5 Talleres Hombres 50 25 Mujeres 200 100 - 12 -"
+        "En Talleres se contrató al %50 de los hombres y al %50 de las mujeres postulantes a ese departamento. Departamento Postulantes Contratados Administración Hombres 200 20 Mujeres 50 5 Talleres Hombres 50 25 Mujeres"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -504,7 +504,7 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/m1/figures/2025-q17.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m1-2025-q21",
@@ -516,7 +516,7 @@
         "22",
         "2",
         "2",
-        "22 - 13 -"
+        "22"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -556,7 +556,7 @@
         "35x",
         "6x2",
         "6x",
-        "6x - 14 -"
+        "6x"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -593,10 +593,10 @@
       "area": "Algebra y funciones",
       "question": "Una persona compró kg20 de naranjas en 00016$ y kg20 de manzanas en 00018$ . Si la cantidad de kilogramos de frutas y su precio se modelan por medio de una relación lineal, ¿cuál de las siguientes expresiones representa el precio total, en pesos, al comprar kgx de cada fruta?",
       "options": [
-        "x20 00018 20 00016",
+        "x20",
         "x 0001820 x 0001620",
         "x00018x00016",
-        "x 0001800016 - 15 -"
+        "x 0001800016"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -604,7 +604,7 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/m1/figures/2025-q26.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m1-2025-q27",
@@ -636,7 +636,7 @@
         "2 pulgadas",
         "5 pulgadas",
         "17 pulgadas",
-        "108 pulgadas - 16 -"
+        "108 pulgadas"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -656,7 +656,7 @@
         "5",
         "20",
         "25",
-        "100 Tabla de dilución líquido desinfectante Cantidad de desinfectante Diluir en: 5 mL un cuarto litro de agua 10 mL medio litro de agua 20 mL un litro de agua - 17 -"
+        "100 Tabla de dilución líquido desinfectante Cantidad de desinfectante Diluir en: 5 mL un cuarto litro de agua 10 mL medio litro de agua 20 mL un litro de agua"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -676,7 +676,7 @@
         "77016390x3",
         "77016390x6",
         "77016390x3x3",
-        "77016390x3x3 - 18 -"
+        "77016390x3x3"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -696,7 +696,7 @@
         "15p",
         "10p",
         "10p",
-        "15p Ejemplo - 19 -"
+        "15p Ejemplo"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -716,7 +716,7 @@
         "375x",
         "3710x",
         "375x3",
-        "3710x3 - 20 -"
+        "3710x3"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -736,7 +736,7 @@
         "00031x544000",
         "00031x344000",
         "00031x454000",
-        "00031x554000 - 21 -"
+        "00031x554000"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -776,7 +776,7 @@
         "0005004500x350040",
         "0005004500x350040",
         "000500x4500350040",
-        "000500x4500350040 - 22 -"
+        "000500x4500350040"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -796,7 +796,7 @@
         "1",
         "2",
         "3",
-        "4 - 23 -"
+        "4"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -814,9 +814,9 @@
       "question": "Considera la función cuadrática f , cuyo dominio es el conjunto de los números reales, definida p or cbxaxxf 2 . Si los coeficientes b y c son cero, ¿cuál de los siguientes gráficos podría corresponder a la gráfica asociada a f ?",
       "options": [
         "B)",
-        "C) D) X Y X Y X Y X Y - 24 -",
-        "D) X Y X Y X Y X Y - 24 -",
-        "X Y X Y X Y X Y - 24 -"
+        "C) D) X Y X Y X Y X Y",
+        "D) X Y X Y X Y X Y",
+        "X Y X Y X Y X Y"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -836,7 +836,7 @@
         "4 x15",
         "2 x15",
         "2 x5",
-        "3 x15 - 25 -"
+        "3 x15"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -855,8 +855,8 @@
       "options": [
         "Frecuencia Ana 61 Juan 62 Sofía 71 Carlos 56 Frecuencia Ana 46 Juan 49 Sofía 59 Carlos 45",
         "Frecuencia Ana 69 Juan 74 Sofía 89 Carlos 68",
-        "D) Frecuencia Ana 69 Juan 143 Sofía 232 Carlos 300 Ana Juan Sofía Carlos 24 % 16 % 24 % 36 % Por quién votarán las mujeres Carlos Por quién votarán los hombres Frecuencia 45 38 35 32 Ana Juan Sofía - 26 -",
-        "Frecuencia Ana 69 Juan 143 Sofía 232 Carlos 300 Ana Juan Sofía Carlos 24 % 16 % 24 % 36 % Por quién votarán las mujeres Carlos Por quién votarán los hombres Frecuencia 45 38 35 32 Ana Juan Sofía - 26 -"
+        "D) Frecuencia Ana 69 Juan 143 Sofía 232 Carlos 300 Ana Juan Sofía Carlos 24 % 16 % 24 % 36 % Por quién votarán las mujeres Carlos Por quién votarán los hombres Frecuencia 45 38 35 32 Ana Juan Sofía",
+        "Frecuencia Ana 69 Juan 143 Sofía 232 Carlos 300 Ana Juan Sofía Carlos 24 % 16 % 24 % 36 % Por quién votarán las mujeres Carlos Por quién votarán los hombres Frecuencia 45 38 35 32 Ana Juan Sofía"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -896,7 +896,7 @@
         "El promedio de la cantidad de videojuegos es 5,3 , porque es el promedio de los datos centrales.",
         "El rango de la cantidad de videojuegos es 5 , porque la resta entre la frecuencia mayor y la frecuencia menor es 5 .",
         "El promedio de la cantidad de videojuegos es 5,3 , porque es el promedio entre la mayor y la menor cantidad de videojuegos.",
-        "La moda de la cantidad de videojuegos es 1 y 6 , porque son los dos datos que más se repiten. Cantidad de videojuegos Frecuencia 1 10 2 8 3 5 4 5 5 8 6 10 - 27 -"
+        "La moda de la cantidad de videojuegos es 1 y 6 , porque son los dos datos que más se repiten. Cantidad de videojuegos Frecuencia"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -916,7 +916,7 @@
         "7 1",
         "13 7",
         "20 13",
-        "20 7 Estilo Musical Frecuencia Rock 7 Pop 4 Rap 3 Reguetón 6 - 28 -"
+        "20 7 Estilo Musical Frecuencia Rock 7 Pop 4 Rap 3 Reguetón 6"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -936,7 +936,7 @@
         "1100 enfermeríaFrecuenciamedicinaFrecuencia",
         "2300 enfermeríaFrecuenciamedicinaFrecuencia",
         "23001 enfermeríaFrecuenciamedicinaFrecuencia",
-        "11001 enfermeríaFrecuenciamedicinaFrecuencia Carrera profesional Frecuencia Ingeniería civil 900 Periodismo 300 Medicina 700 Enfermería 400 - 29 -"
+        "11001 enfermeríaFrecuenciamedicinaFrecuencia Carrera profesional Frecuencia Ingeniería civil 900 Periodismo 300 Medicina 700 Enfermería 400"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -956,7 +956,7 @@
         "En la Caja 1",
         "En la Caja 2",
         "En la Caja 3",
-        "En la Caja 4 Caja 1 Caja 2 Caja 3 Caja 4 - 30 -"
+        "En la Caja 4 Caja 1 Caja 2 Caja 3 Caja 4"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -976,7 +976,7 @@
         "14 1",
         "25 7",
         "24 7",
-        "7 1 Fruta Cantidad de personas Uva 13 Pera 6 Manzana 12 Naranja 8 Frutilla 11 - 31 -"
+        "7 1 Fruta Cantidad de personas Uva 13 Pera 6 Manzana 12 Naranja 8 Frutilla 11"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -996,7 +996,7 @@
         "154, 0",
         "2 , 0",
         "25, 0",
-        "97, 0 Adaptado de: Fonasa (2022). Cuenta Pública Participativa 2022. - 32 -"
+        "97, 0 Adaptado de: Fonasa (2022). Cuenta Pública Participativa 2022."
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1016,7 +1016,7 @@
         "2cm225",
         "2cm240",
         "2cm300",
-        "2cm900 Primer piso - 33 -"
+        "2cm900 Primer piso"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1036,7 +1036,7 @@
         "22 m17",
         "2m81",
         "2m34",
-        "2m17 - 34 -"
+        "2m17"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1056,7 +1056,7 @@
         "3m240",
         "3m2,265",
         "3m28,269",
-        "3m272 - 35 -"
+        "3m272"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1076,7 +1076,7 @@
         "3cm5000",
         "3cm2500",
         "3cm1250",
-        "3cm560 - 36 -"
+        "3cm560"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1096,7 +1096,7 @@
         "8,48,508,46,1018,506,101",
         "8,428,508,46,1018,506,101",
         "8,48,508,426,1018,506,101",
-        "8,428,508,426,1018,506,101 - 37 -"
+        "8,428,508,426,1018,506,101"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1104,7 +1104,7 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/m1/figures/2025-q61.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m1-2025-q62",
@@ -1116,7 +1116,7 @@
         "Trasladar la figura cuatro unidades a la izquierda y cuatro unidades hacia abajo.",
         "Trasladar la figura cuatro unidades a la izquierda y cinco unidades hacia abajo.",
         "Trasladar la figura tres unidades a la izquierda y tres unidades hacia abajo.",
-        "Trasladar la figura cinco unidades a la izquierda y cuatro unidades hacia abajo. - 38 -"
+        "Trasladar la figura cinco unidades a la izquierda y cuatro unidades hacia abajo."
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1135,8 +1135,8 @@
       "options": [
         "B)",
         "C)",
-        "D) - 39 -",
-        "- 39 -"
+        "D)",
+        ""
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1144,7 +1144,7 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/m1/figures/2025-q63.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m1-2025-q64",
@@ -1155,8 +1155,8 @@
       "options": [
         "B)",
         "C)",
-        "D) - 40 -",
-        "- 40 -"
+        "D)",
+        ""
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1164,7 +1164,7 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/m1/figures/2025-q64.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m1-2025-q65",
@@ -1176,7 +1176,7 @@
         "40",
         "45",
         "50",
-        "80 - 41 - Listado de referencias bibliográficas Pregunta Cita bibliográfica 55 Fonasa. (2022). Cuenta pública 2022. Fondo Nacional de Salud (Fonasa). https://www.fonasa.cl/sites/fonasa/adjuntos/CUENTAPUBLICA2022c Proceso de Admisión 2025"
+        "80"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1196,7 +1196,7 @@
         "−14",
         "−4",
         "3",
-        "11 - 3 -"
+        "11"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1213,10 +1213,10 @@
       "area": "Numeros",
       "question": "Para preparar una receta, una persona necesita 700 gde carne picada, 1 kgde champiñones y 2 cebollas. Para comprar los ingredientes la persona considera los siguientes precios: 100 gde carne picada $900 0,5 kgde champiñón $3500 1 cebolla $200 ¿Cuánto dinero necesita la persona para comprar los ingredientes para esta receta?",
       "options": [
-        "$4600",
-        "$8100",
-        "$10 000",
-        "$13 700 - 4 -"
+        "$4.600",
+        "$8.100",
+        "$10.000",
+        "$13.700"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1224,7 +1224,7 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/m1/figures/2026-q02.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m1-2026-q03",
@@ -1256,7 +1256,7 @@
         "2,7",
         "0,3",
         "0,27",
-        "0,03 - 5 -"
+        "0,03"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1276,7 +1276,7 @@
         "En el Paso 1",
         "En el Paso 2",
         "En el Paso 3",
-        "En el Paso 4 - 6 -"
+        "En el Paso 4"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1296,7 +1296,7 @@
         "Que 15 · n es divisible por 20.",
         "Que 15 + nes divisible por 20.",
         "Que 15 · n es divisible por 300.",
-        "Que 15 + nes divisible por 300. - 7 -"
+        "Que 15 + nes divisible por 300."
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1316,7 +1316,7 @@
         "Presionar una vez y siete veces .",
         "Presionar una vez y ocho veces .",
         "Presionar una vez , dos veces y dos veces .",
-        "Presionar una vez , tres veces y una vez . - 8 -"
+        "Presionar una vez , tres veces y una vez ."
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1336,7 +1336,7 @@
         "En el Paso 1",
         "En el Paso 2",
         "En el Paso 3",
-        "En el Paso 4 - 9 -"
+        "En el Paso 4"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1356,7 +1356,7 @@
         "(2 − 5)3",
         "3 · (2 − 5)",
         "3 · (5 − 2)",
-        "(5 − 2)3 - 10 -"
+        "(5 − 2)3"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1384,7 +1384,7 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/m1/figures/2026-q18.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m1-2026-q19",
@@ -1396,7 +1396,7 @@
         "5625",
         "150",
         "56,25",
-        "1,5 - 11 -"
+        "1,5"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1416,7 +1416,7 @@
         "2,5 %",
         "4 %",
         "25 %",
-        "40 % - 12 -"
+        "40 %"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1436,7 +1436,7 @@
         "80 155 104,5 GWh",
         "80 155· 100 104,5 GWh",
         "80 155· 104,5 100 GWh",
-        "80 155 104,5 · 100 GWh - 13 -"
+        "80 155 104,5 · 100 GWh"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1453,10 +1453,10 @@
       "area": "Algebra y funciones",
       "question": "Una tienda vendía un producto a $25 000. Como no se vendía lo suficiente, la tienda rebajó su precio un 20 %. Sin embargo, el precio rebajado no aumentó lo suficiente las ventas, por lo que rebajaron un 25 %el precio ya rebajado. ¿Cuál de las siguientes expresiones representa el precio del producto luego de los dos descuentos, en pesos?",
       "options": [
-        "0,2 · 0,25 · 25 000",
-        "(0,2 + 0,25) · 25 000",
-        "0,8 · 0,75 · 25 000",
-        "(0,8 + 0,75) · 25 000"
+        "0,2 · 0,25 ·",
+        "(0,2 + 0,25) ·",
+        "0,8 · 0,75 ·",
+        "(0,8 + 0,75) ·"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1464,7 +1464,7 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/m1/figures/2026-q24.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m1-2026-q25",
@@ -1476,7 +1476,7 @@
         "2 5M",
         "24 5 M",
         "36 5 M",
-        "57 5 M - 14 -"
+        "57 5 M"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1484,7 +1484,7 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/m1/figures/2026-q25.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m1-2026-q26",
@@ -1493,10 +1493,10 @@
       "area": "Algebra y funciones",
       "question": "El ingreso y la ganancia de una empresa, ambos en pesos, se modelan con respecto a la cantidad de artículos producidos (x) de la siguiente manera: • Ingreso: I(x) = 1000x + 600 000 • Ganancia: G(x) = 750x + 450 000 Considera que la ganancia al producir x artículos se puede calcular como G(x) = I(x)− C(x), tal que C es la función de costo. ¿Cuál es la función costo de la empresa?",
       "options": [
-        "C(x) = 250x + 150 000",
-        "C(x) = 250x− 150 000",
-        "C(x) = 1750x− 1 050 000",
-        "C(x) = 1750x + 1 050 000"
+        "C(x) = 250x +",
+        "C(x) = 250x−",
+        "C(x) = 1750x−",
+        "C(x) = 1750x +"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1516,7 +1516,7 @@
         "(10x + 30)metros",
         "(10x + 10)metros",
         "(15x + 15)metros",
-        "(15x + 25)metros - 15 -"
+        "(15x + 25)metros"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1536,7 +1536,7 @@
         "18",
         "28",
         "30",
-        "32 - 16 -"
+        "32"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1576,7 +1576,7 @@
         "2",
         "7",
         "9",
-        "11 - 17 -"
+        "11"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1595,8 +1595,8 @@
       "options": [
         "$110",
         "$248",
-        "$1430",
-        "$3230"
+        "$1.430",
+        "$3.230"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1616,7 +1616,7 @@
         "5x + 4< 2x + 7",
         "5x + 4< 4x + 7",
         "5x + 4> 2x + 7",
-        "5x + 4> 4x + 7 - 18 -"
+        "5x + 4> 4x + 7"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1624,7 +1624,7 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/m1/figures/2026-q33.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m1-2026-q34",
@@ -1636,7 +1636,7 @@
         "Es el mes donde se obtiene la mayor cantidad de ingresos acumulados.",
         "Es el mes donde los ingresos acumulados igualan a los gastos acumulados.",
         "Es el mes desde cuando el emprendimiento no tendrá más gastos acumulados.",
-        "Es el mes donde los ingresos acumulados son iguales a los gastos iniciales del emprendimiento. - 19 -"
+        "Es el mes donde los ingresos acumulados son iguales a los gastos iniciales del emprendimiento."
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1656,7 +1656,7 @@
         "La cantidad de peras compradas",
         "La cantidad de manzanas compradas",
         "La cantidad de kilogramos de peras compradas",
-        "La cantidad de kilogramos de manzanas compradas - 20 -"
+        "La cantidad de kilogramos de manzanas compradas"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1664,7 +1664,7 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/m1/figures/2026-q35.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m1-2026-q40",
@@ -1675,8 +1675,8 @@
       "options": [
         "f(x) =−3x + 720",
         "g(x) = 3x− 720",
-        "p(x) = x − 720 3",
-        "h(x) = −x + 720 3"
+        "p(x) = x −",
+        "h(x) = −x +"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1696,7 +1696,7 @@
         "12 m",
         "16 m",
         "20 m",
-        "24 m - 21 -"
+        "24 m"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1736,7 +1736,7 @@
         "3",
         "4,5",
         "√ 45",
-        "9 - 22 -"
+        "9"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1756,7 +1756,7 @@
         "1,444 m",
         "0,80 m",
         "0,722 m",
-        "0,40 m - 23 -"
+        "0,40 m"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1776,7 +1776,7 @@
         "6",
         "7",
         "8",
-        "9 - 24 -"
+        "9"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1796,7 +1796,7 @@
         "6 · 52",
         "6 · 54",
         "6 · 56",
-        "6 · 512 - 25 -"
+        "6 · 512"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1804,7 +1804,7 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/m1/figures/2026-q48.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m1-2026-q49",
@@ -1815,8 +1815,8 @@
       "options": [
         "B)",
         "C)",
-        "D) - 26 -",
-        "- 26 -"
+        "D)",
+        ""
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1836,7 +1836,7 @@
         "Una reflexión con respecto al eje X y luego, una reflexión con respecto a la recta y = x.",
         "Una reflexión con respecto al origen del plano cartesiano y luego, una rotación en 45◦ en sentido horario con centro el origen del plano cartesiano.",
         "Una reflexión con respecto al eje Y.",
-        "Una traslación según el vector (−3, −3). - 27 -"
+        "Una traslación según el vector (−3, −3)."
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1856,7 +1856,7 @@
         "Tienen distinta dirección.",
         "Tienen distinto sentido.",
         "Tienen distinta magnitud.",
-        "Están en el semieje positivo del eje X. - 28 -"
+        "Están en el semieje positivo del eje X."
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1876,7 +1876,7 @@
         "(8, −4)",
         "(−4, 2)",
         "(10, −6)",
-        "(2, −2) - 29 -"
+        "(2, −2)"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1896,7 +1896,7 @@
         "2013",
         "2015",
         "2018",
-        "2019 - 30 -"
+        "2019"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1916,7 +1916,7 @@
         "6",
         "7",
         "9",
-        "12 - 31 -"
+        "12"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1936,7 +1936,7 @@
         "Fuerza mágica",
         "Defensa mágica",
         "Defensa física",
-        "Fuerza física - 32 -"
+        "Fuerza física"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1956,7 +1956,7 @@
         "12",
         "35",
         "68",
-        "80 - 33 -"
+        "80"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1975,8 +1975,8 @@
       "options": [
         "B)",
         "C)",
-        "D) - 34 -",
-        "- 34 -"
+        "D)",
+        ""
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1984,7 +1984,7 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/m1/figures/2026-q57.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m1-2026-q59",
@@ -1996,7 +1996,7 @@
         "P + Q + 2· R P + Q + R",
         "R P + Q + R",
         "0 · P + 1· Q + 2· R P + Q + R",
-        "2 · R P + Q + R - 35 -"
+        "2 · R P + Q + R"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -2016,7 +2016,7 @@
         "2 cm",
         "2,4 cm",
         "3 cm",
-        "7,5 cm - 36 -"
+        "7,5 cm"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -2024,7 +2024,7 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/m1/figures/2026-q60.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m1-2026-q61",
@@ -2033,10 +2033,10 @@
       "area": "Probabilidad y estadistica",
       "question": "En el siguiente gráfico se representa la distribución de la cantidad de horas extras realizadas por 140 trabajadores durante el mes de mayor demanda productiva de una empresa. Por cada hora extra se paga $15 000. ¿Cuál fue el pago más frecuente que realizó la empresa por concepto de horas extras en ese mes?",
       "options": [
-        "$15 000",
-        "$30 000",
-        "$45 000",
-        "$60 000 - 37 -"
+        "$15.000",
+        "$30.000",
+        "$45.000",
+        "$60.000"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -2056,7 +2056,7 @@
         "0,10 s",
         "0,14 s",
         "0,16 s",
-        "0,17 s - 38 -"
+        "0,17 s"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -2076,7 +2076,7 @@
         "1 20",
         "1 19",
         "2 20",
-        "2 19 - 39 - Listado de referencias bibliográficas Pregunta Cita bibliográfica 23 Generadoras de Chile. (2022). Cifras destacadas del sector generación en 2021. https://generadoras.cl/reporte-anual-2022/. 53 Instituto Nacional de Estadística (INE). (2021). Evolución de las migraciones interiores (2008– 2021). Como se cita en Instituto Geográfico Nacional (IGN), Atlas Nacional de España. 62 CienciaNet. (2008). Descubre tu tiempo de reacción. Recuperado de http://ciencianet.com/treaccion.html. - 40 - @demre.uchile DEMRE U.chile DEMRE Uchile/demre.uchile /DEMREuchile/demre.uchile /demre_uchiledemre.cl"
+        "2 19"
       ],
       "answer": 1,
       "answerKey": "B",

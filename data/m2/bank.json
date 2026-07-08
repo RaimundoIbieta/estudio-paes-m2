@@ -314,7 +314,7 @@
         "En el Paso 1",
         "En el Paso 2",
         "En el Paso 3",
-        "En el Paso 4 - 6 -"
+        "En el Paso 4"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -342,7 +342,7 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/m2/figures/2025-q04.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m2-2025-q05",
@@ -354,7 +354,7 @@
         "kg10096,4 6",
         "kg10192,8 6",
         "kg10048,2 5",
-        "kg10096,4 5 Días transcurridos Masa kg 1 8104,6 2 71056,2 3 610024,1 - 7 -"
+        "kg10096,4 5 Días transcurridos Masa kg 1 8104,6 2 71056,2 3 610024,1"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -394,7 +394,7 @@
         "bplog3",
         "bplog3",
         "blogplog 33",
-        "bplog - 8 -"
+        "bplog"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -414,7 +414,7 @@
         "000160$",
         "000168$",
         "000192$",
-        "000200$ - 9 -"
+        "000200$"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -434,7 +434,7 @@
         "60511 000000250",
         "605,11 0005002",
         "6005,11 000250",
-        "60005,11 00025 - 10 -"
+        "60005,11 00025"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -442,7 +442,7 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/m2/figures/2025-q14.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m2-2025-q15",
@@ -474,7 +474,7 @@
         ",3 2",
         ",3 2",
         "3 2,",
-        "3 2, - 11 -"
+        "3 2,"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -502,7 +502,7 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/m2/figures/2025-q19.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m2-2025-q20",
@@ -514,7 +514,7 @@
         "2s m25,0",
         "2s m5,0",
         "2s m2",
-        "2s m4 - 13 -"
+        "2s m4"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -554,7 +554,7 @@
         "cm5,13",
         "cm5,7",
         "cm5,4",
-        "cm5,1 - 15 -"
+        "cm5,1"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -594,7 +594,7 @@
         "Debe ser mayor que 2 .",
         "Debe ser menor que 2 y mayor que 0 .",
         "Debe ser menor que 0 y mayor que 2 .",
-        "Debe ser menor que 2 . - 16 -"
+        "Debe ser menor que 2 ."
       ],
       "answer": 3,
       "answerKey": "D",
@@ -622,7 +622,7 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/m2/figures/2025-q31.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m2-2025-q32",
@@ -654,7 +654,7 @@
         "x248,05,000095",
         "x318,05,000095",
         "x348,05,000095",
-        "x408,05,000095 - 18 -"
+        "x408,05,000095"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -674,7 +674,7 @@
         "2cm12",
         "2cm18",
         "2cm21",
-        "2cm24 - 19 -"
+        "2cm24"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -694,7 +694,7 @@
         "2cm15002640",
         "2cm40212",
         "2cm3752640",
-        "2cm160212 - 20 -"
+        "2cm160212"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -714,7 +714,7 @@
         "22 wv852,1",
         "22 wv852,12",
         "22 wv852,1",
-        "22 wv852,12 - 21 -"
+        "22 wv852,12"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -722,7 +722,7 @@
       "source": "PAES 2025",
       "difficulty": "Oficial",
       "figure": "data/m2/figures/2025-q37.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m2-2025-q39",
@@ -734,7 +734,7 @@
         "2 2 h4 r45",
         "2 2 h 5,1r",
         "2 2 h r45",
-        "2 2 r45 h - 22 -"
+        "2 2 r45 h"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -751,10 +751,10 @@
       "area": "Geometria",
       "question": "Al punto 1,3A se le aplica una traslación según el vector 2k,1kv , con k un número ent ero. ¿En cuál de l as siguientes gráficas el punto P no corresponde a una posible traslación de A según v ? B)",
       "options": [
-        "C) D) P A 3 2 1 X 1 Y A P 3 2 4 X 1 Y 1 3 X 5 Y P A P A 1 3 X 5 Y 4 - 23 -",
+        "C) D) P A 3 2 1 X 1 Y A P 3 2 4 X 1 Y 1 3 X 5 Y P A P A 1 3 X 5 Y 4",
         "A)",
-        "D) P A 3 2 1 X 1 Y A P 3 2 4 X 1 Y 1 3 X 5 Y P A P A 1 3 X 5 Y 4 - 23 -",
-        "P A 3 2 1 X 1 Y A P 3 2 4 X 1 Y 1 3 X 5 Y P A P A 1 3 X 5 Y 4 - 23 -"
+        "D) P A 3 2 1 X 1 Y A P 3 2 4 X 1 Y 1 3 X 5 Y P A P A 1 3 X 5 Y 4",
+        "P A 3 2 1 X 1 Y A P 3 2 4 X 1 Y 1 3 X 5 Y P A P A 1 3 X 5 Y 4"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -771,10 +771,10 @@
       "area": "Geometria",
       "question": "En una empresa, las proyecciones de ventas de febrero FV y marzo MV , en miles de pesos, están definidas por las siguientes condiciones: Si 1000VF , entonces 8,0V V M F . Si 1000VF , entonces 2,1V V M F . ¿Cuál de los siguientes gráficos podría representar las proyecciones de venta s de esta empresa? C) B)",
       "options": [
-        "D) Ventas en miles de pesos Mes Ventas en miles de pesos Mes Mes Ventas en miles de pesos Ventas en miles de pesos Mes - 24 -",
+        "D) Ventas en miles de pesos Mes Ventas en miles de pesos Mes Mes Ventas en miles de pesos Ventas en miles de pesos Mes",
         "A)",
         "B) A)",
-        "Ventas en miles de pesos Mes Ventas en miles de pesos Mes Mes Ventas en miles de pesos Ventas en miles de pesos Mes - 24 -"
+        "Ventas en miles de pesos Mes Ventas en miles de pesos Mes Mes Ventas en miles de pesos Ventas en miles de pesos Mes"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -792,9 +792,9 @@
       "question": "Considera el siguiente diagrama de cajón elaborado a partir de 100 datos: ¿Cuál de los siguientes gráficos podría representar la distribución de estos datos?",
       "options": [
         "B)",
-        "C) D) Frecuencia Frecuencia Frecuencia Frecuencia - 25 -",
-        "D) Frecuencia Frecuencia Frecuencia Frecuencia - 25 -",
-        "Frecuencia Frecuencia Frecuencia Frecuencia - 25 -"
+        "C) D) Frecuencia Frecuencia Frecuencia Frecuencia",
+        "D) Frecuencia Frecuencia Frecuencia Frecuencia",
+        "Frecuencia Frecuencia Frecuencia Frecuencia"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -814,7 +814,7 @@
         "2 b40",
         "b40",
         "b240",
-        "b40 b40 - 26 -"
+        "b40 b40"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -831,9 +831,9 @@
       "area": "Probabilidad y estadistica",
       "question": "En una ciu dad de 6000 personas, 200 miden más de 8,1 metros. Si se escogen dos personas al azar, ¿cuál es la probabilidad de q ue ninguna de ellas mida más de 8,1 metros?",
       "options": [
-        "2 5800 1",
-        "5999 5799 6000 5800",
-        "6000 200 6000 200",
+        "2",
+        "5999",
+        "6000",
         "6000 5800"
       ],
       "answer": 1,
@@ -874,7 +874,7 @@
         "1052 2nn",
         "1051nn",
         "1052 1nn",
-        "1052 nn - 29 -"
+        "1052 nn"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -894,7 +894,7 @@
         "2 n",
         "23 n",
         "2n3",
-        "!2n3 - 30 -"
+        "!2n3"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -911,10 +911,10 @@
       "area": "Probabilidad y estadistica",
       "question": "Una persona desarrolla un test de 10 preguntas, el cual solo tiene preguntas de verdadero o falso. Si esta persona contestó todas las preguntas al azar y el test se aprueba al obtener al menos 7 respuestas correctas, ¿cuál es la probabilidad de que la persona apruebe el test?",
       "options": [
-        "7 2 1",
-        "73 2 1 2 1 7 10",
-        "1098273 2 1 2 1 2 1 2 1 2 1 2 1 2 1",
-        "1098273 2 1 2 1 2 1 9 10 2 1 2 1 8 10 2 1 2 1 7 10 - 31 -"
+        "7",
+        "73",
+        "1098273",
+        "1098273"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1000,9 +1000,7 @@
       "answerKey": "B",
       "countsForScore": true,
       "source": "PAES 2026",
-      "difficulty": "Oficial",
-      "figure": "data/m2/figures/2026-q09.png",
-      "needsFigure": true
+      "difficulty": "Oficial"
     },
     {
       "id": "m2-2026-q01",
@@ -1034,7 +1032,7 @@
         "1 8 Q",
         "1 7 Q",
         "7 8 Q",
-        "8 7 Q - 5 -"
+        "8 7 Q"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1054,7 +1052,7 @@
         "22 500",
         "23 000",
         "24 750",
-        "25 000 - 6 -"
+        "25 000"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1071,10 +1069,10 @@
       "area": "Numeros avanzados",
       "question": "Al aumentar el precio del combustible, una empresa que presta un servicio de transporte de carga debe ajustar el precio que cobra. Para ello calcula el porcentaje de aumento de su tarifa como Q · F, tal que Q es el porcentaje de aumento del precio del combustible y F es un factor que depende de la masa máxima autorizada del vehículo. El factor que se debe aplicar se obtiene de la siguiente tabla: Masa máxima autorizada del vehículo (en toneladas) Factor aplicado al porcentaje de aumento del combustible (F) Menor que 3,5 0,1 Mayor o igual que 3,5 y menor que 20 0,2 Mayor o igual que 20 0,3 La empresa tiene un vehículo de carga cuya masa máxima autorizada es de 3 toneladas por el cual cobra una tarifa de $200 000 por servicio de transporte de carga a una ciudad. Si el porcentaje de aumento del precio del combustible es de un 7 %, ¿cuál de las siguientes expresiones permite obtener el precio ajustado que se tiene que cobrar por el servicio de transporte de carga?",
       "options": [
-        "$200 000 · 7 100 · 0,1",
-        "$200 000 · 7 · 0,1",
+        "$200.000 · 7 100 · 0,1",
+        "$200.000 · 7 · 0,1",
         "$ Å 200 000 + 2000· 7 100 · 0,1 ã",
-        "$(200 000 + 2000· 7 · 0,1) - 7 -"
+        "$(200 000 + 2000· 7 · 0,1)"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1094,7 +1092,7 @@
         "22,¯2 %",
         "33,¯3 %",
         "66,¯6 %",
-        "77,¯7 % - 8 -"
+        "77,¯7 %"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1102,7 +1100,7 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/m2/figures/2026-q06.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m2-2026-q07",
@@ -1114,7 +1112,7 @@
         "8 %",
         "36 %",
         "64 %",
-        "80 % - 9 -"
+        "80 %"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1134,7 +1132,7 @@
         "En el Paso 1",
         "En el Paso 2",
         "En el Paso 3",
-        "En el Paso 4 - 10 -"
+        "En el Paso 4"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1174,7 +1172,7 @@
         "x 3 (x + 2)2 (x − 1)",
         "x 3 \u0000 x2 − 4 \u0001 (x − 1)",
         "x 3 (x − 2)2 (x + 3)",
-        "x \u0000 x2 − 4 \u0001 + 1 3 \u0000 x2 − 2x + 4 \u0001 - 11 -"
+        "x \u0000 x2 − 4 \u0001 + 1 3 \u0000 x2 − 2x + 4 \u0001"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1194,7 +1192,7 @@
         "20a 3",
         "61a 9",
         "22a 3",
-        "68a 9 - 12 -"
+        "68a 9"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1214,7 +1212,7 @@
         "750 · 7,3 7,9 cm3",
         "750 · 7,9 7,3 cm3",
         "750 7,3 · 7,9 cm3",
-        "7,3 · 7,9 750 cm3 - 13 -"
+        "7,3 · 7,9 750 cm3"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1242,7 +1240,7 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/m2/figures/2026-q18.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m2-2026-q19",
@@ -1254,7 +1252,7 @@
         "ò −∞, 72 41 ï",
         "ò72 41, ∞ ï",
         "ò76 41, ∞ ï",
-        "ò −∞, 76 41 ï - 14 -"
+        "ò −∞, 76 41 ï"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1274,7 +1272,7 @@
         "1 3",
         "1 2",
         "2 3",
-        "3 2 - 15 -"
+        "3 2"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1311,10 +1309,10 @@
       "area": "Algebra y funciones",
       "question": "En un supermercado, el precio normal de una lata de un cierto tipo de atún es de $1500, pero durante esta semana, cada una de esas latas tendrá un 20 % de descuento. Una persona destina cada semana entre $12 000y $20 000, ambos valores incluidos, para comprar latas de este atún. ¿Cuál de las siguientes desigualdades permite determinar la cantidad de latas x que podrá comprar la persona en la semana del descuento?",
       "options": [
-        "12 000 ≤ 0,2 · 1500 · x ≤ 20 000",
-        "0,2 · 12 000 ≤ 1500 · x ≤ 0,2 · 20 000",
-        "12 000 ≤ (1 − 0,2) · 1500 · x ≤ 20 000",
-        "(1 − 0,2) · 12 000 ≤ 1500 · x ≤ (1 − 0,2) · 20 000 - 16 -"
+        "12 000 ≤ 0,2 · 1500 · x ≤",
+        "0,2 · 12 000 ≤ 1500 · x ≤ 0,2 ·",
+        "12 000 ≤ (1 − 0,2) · 1500 · x ≤",
+        "(1 − 0,2) · 12 000 ≤ 1500 · x ≤ (1 − 0,2) ·"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1334,7 +1332,7 @@
         "16,6 m s",
         "25 m s",
         "30 m s",
-        "37,5 m s - 17 -"
+        "37,5 m s"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1354,7 +1352,7 @@
         "p 2 Ä 1 + 4 √ 3 ä",
         "p 2 Ä 1 + 4 √ 6 ä",
         "p 6 Ä 3 + √ 3 ä",
-        "p 6 Ä 3 + √ 6 ä - 18 -"
+        "p 6 Ä 3 + √ 6 ä"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1373,8 +1371,8 @@
       "options": [
         "B)",
         "C)",
-        "D) - 19 -",
-        "- 19 -"
+        "D)",
+        ""
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1382,7 +1380,7 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/m2/figures/2026-q27.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m2-2026-q30",
@@ -1394,7 +1392,7 @@
         "4 · 3x−1",
         "3 · 4x−1",
         "4 · 3x−3",
-        "12 · 3x - 20 -"
+        "12 · 3x"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1422,7 +1420,7 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/m2/figures/2026-q31.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m2-2026-q32",
@@ -1431,10 +1429,10 @@
       "area": "Geometria",
       "question": "Considera la función f, definida por f(x) = 5 sen(x +π). ¿Cuál es el valor de f \u0010π 4 \u0011 ?",
       "options": [
-        "−5 √ 2 2",
-        "− √ 2 2",
-        "√ 2 2",
-        "5 √ 2 2 - 21 -"
+        "−5 √",
+        "− √",
+        "√",
+        "5 √"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1454,7 +1452,7 @@
         "2,88",
         "3,96",
         "6,84",
-        "10,8 - 22 -"
+        "10,8"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1462,7 +1460,7 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/m2/figures/2026-q34.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m2-2026-q35",
@@ -1471,7 +1469,7 @@
       "area": "Geometria",
       "question": "Se tiene un prisma recto de base rectangular cuya altura es de 2 cm y su volumen es Q 500 cm3. ¿Cuál sería el volumen del prisma, en centímetros cúbicos, si el área de su superficie basal se aumenta en un 20 %?",
       "options": [
-        "Q 12 500",
+        "Q",
         "Q 2500",
         "3Q 1250",
         "9Q 3125"
@@ -1494,7 +1492,7 @@
         "48 m2",
         "46 m2",
         "44 m2",
-        "38 m2 - 23 -"
+        "38 m2"
       ],
       "answer": 2,
       "answerKey": "C",
@@ -1502,7 +1500,7 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/m2/figures/2026-q36.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m2-2026-q37",
@@ -1514,7 +1512,7 @@
         "En el Paso 1",
         "En el Paso 2",
         "En el Paso 3",
-        "En el Paso 4 - 24 -"
+        "En el Paso 4"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1534,7 +1532,7 @@
         "(−2a, a − 2)",
         "(a − 2, −2a)",
         "(−2a − 5, a + 3)",
-        "(−2a − 5, a − 2) - 25 -"
+        "(−2a − 5, a − 2)"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1554,7 +1552,7 @@
         "6 m",
         "4,8 m",
         "4 m",
-        "3,6 m - 26 -"
+        "3,6 m"
       ],
       "answer": 1,
       "answerKey": "B",
@@ -1574,7 +1572,7 @@
         "14 + x + y = 20 14 + x + y 5 = 2",
         "14 + x + y = 20 18 + 3x + 4y 5 = 2",
         "14 + x + y = 20 18 + x + y 20 = 2",
-        "14 + x + y = 20 18 + 3x + 4y 20 = 2 - 27 -"
+        "14 + x + y = 20 18 + 3x + 4y 20 = 2"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1594,7 +1592,7 @@
         "Z − 40",
         "Z − 39",
         "Z 2 − 20",
-        "Z 2 − 19 - 28 -"
+        "Z 2 − 19"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1612,9 +1610,9 @@
       "question": "De acuerdo con una encuesta realizada a 3000 personas, 1830 de ellas manifiestan estar conforme con una política implementada en su comuna, mientras que el resto manifiesta estar no conforme con dicha política. Si se seleccionan al azar a dos personas de las encuestadas, ¿cuál es la probabilidad de que solo una de ellas esté conforme con la política implementada?",
       "options": [
         "1830 3000",
-        "1830 3000 · 1170 3000",
-        "1 1830 · 1 1170",
-        "3660 3000 · 1170 2999 - 29 -"
+        "1830 3000 ·",
+        "1 1830 ·",
+        "3660 3000 ·"
       ],
       "answer": 3,
       "answerKey": "D",
@@ -1634,7 +1632,7 @@
         "Ç 10 6 å Å1 2 ã6 Å1 2 ã4",
         "Ç 10 4 å Å1 2 ã10 Å1 2 ã4",
         "Å1 2 ã10 Å1 2 ã4",
-        "Å1 2 ã6 Å1 2 ã4 - 30 -"
+        "Å1 2 ã6 Å1 2 ã4"
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1653,8 +1651,8 @@
       "options": [
         "B)",
         "C)",
-        "D) - 31 -",
-        "- 31 -"
+        "D)",
+        ""
       ],
       "answer": 0,
       "answerKey": "A",
@@ -1662,7 +1660,7 @@
       "source": "PAES 2026",
       "difficulty": "Oficial",
       "figure": "data/m2/figures/2026-q50.png",
-      "needsFigure": false
+      "needsFigure": true
     },
     {
       "id": "m2-2026-q51",

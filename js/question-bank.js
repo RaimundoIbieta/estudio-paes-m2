@@ -133,8 +133,13 @@ export function pickDiagnosticSet(bank, totalNeeded) {
   const official = (bank.questions || []).filter(q =>
     q.source !== 'generado' && q.num && isReadableQuestion(q)
   );
+  // Preferir oficiales con alternativas como imagen (fracciones/potencias intactas)
+  const withOpts = official.filter(q => Array.isArray(q.optionFigures) && q.optionFigures.length >= 4);
+  const withoutOpts = official.filter(q => !(Array.isArray(q.optionFigures) && q.optionFigures.length >= 4));
+  const ranked = [...withOpts, ...withoutOpts];
+
   const byNum = new Map();
-  for (const q of official) {
+  for (const q of ranked) {
     const existing = byNum.get(q.num);
     if (!existing || q.year === '2026') byNum.set(q.num, q);
   }

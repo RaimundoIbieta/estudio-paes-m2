@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Recorta enunciados oficiales PAES (sin alternativas ni pie de pagina)."""
+"""Recorta enunciado + cada alternativa A-D desde PDFs PAES oficiales."""
 from __future__ import annotations
 
 import json
@@ -58,7 +58,6 @@ def pdf_path(filename: str) -> Path | None:
 
 
 def page_lines(page: fitz.Page) -> list[tuple[float, float, float, float, str]]:
-    """(x0, y0, x1, y1, text) ordenados por y."""
     out = []
     for block in page.get_text("dict").get("blocks", []):
         if block.get("type") != 0:
@@ -74,7 +73,6 @@ def page_lines(page: fitz.Page) -> list[tuple[float, float, float, float, str]]:
 
 
 def find_questions(page: fitz.Page) -> list[dict]:
-    """Preguntas reales: numero + enunciado + alternativas A-D en el bloque."""
     lines = page_lines(page)
     if not lines:
         return []
@@ -85,42 +83,76 @@ def find_questions(page: fitz.Page) -> list[dict]:
         if not m:
             continue
         num = int(m.group(1))
-        if num < 1 or num > 65:
-            continue
-        # Ignorar listas de instrucciones tipicas (numero a la izquierda, texto corto de reglas)
-        if y0 < 95 and num <= 7 and "FORMA" in page.get_text()[:200]:
-            # posible pagina intro; exigir alternativas mas abajo
-            pass
-        candidates.append({"num": num, "idx": idx, "x0": x0, "y0": y0, "y1": y1, "text": text})
+        if 1 <= num <= 65:
+            candidates.append({"num": num, "idx": idx, "y0": y0, "y1": y1})
 
     questions = []
     for i, cand in enumerate(candidates):
         start_idx = cand["idx"]
         end_idx = candidates[i + 1]["idx"] if i + 1 < len(candidates) else len(lines)
         block = lines[start_idx:end_idx]
-        option_ys = []
-        for _x0, y0, _x1, _y1, text in block:
-            if OPTION_RE.match(text):
-                option_ys.append(y0)
-        # Solo aceptar si hay al menos A) (pregunta real, no item de instrucciones)
-        if not option_ys:
+
+        opts = []
+        for _x0, y0, _x1, y1, text in block:
+            m = OPTION_RE.match(text)
+            if m:
+                opts.append({"letter": m.group(1), "y0": y0, "y1": y1})
+        if len(opts) < 4:
             continue
-        a_y = min(option_ys)
-        # Contenido del enunciado: desde el numero hasta antes de A)
-        content_bottom = a_y - 6
-        # Incluir desde y0 del numero (no saltar la primera linea del enunciado)
+
+        # Deduplicate letters keeping first occurrence
+        by_letter = {}
+        for opt in opts:
+            by_letter.setdefault(opt["letter"], opt)
+        ordered = [by_letter[L] for L in "ABCDE" if L in by_letter][:4]
+        if len(ordered) < 4:
+            continue
+
+        a_y = ordered[0]["y0"]
+        stem_bottom = a_y - 6
         y_top = max(0.0, cand["y0"] - 2)
-        if content_bottom - y_top < 28:
+        if stem_bottom - y_top < 28:
             continue
+
+        # End of last option: next option start, next question, or footer
+        next_q_y = candidates[i + 1]["y0"] if i + 1 < len(candidates) else page.rect.height - 40
+        option_bounds = []
+        for j, opt in enumerate(ordered):
+            y0 = opt["y0"] - 2
+            if j + 1 < len(ordered):
+                y1 = ordered[j + 1]["y0"] - 4
+            else:
+                y1 = min(next_q_y - 8, page.rect.height - 50)
+                for _x0, fy, _x1, _fy1, text in block:
+                    if FOOTER_RE.match(text) and fy > y0:
+                        y1 = min(y1, fy - 8)
+                        break
+            if y1 - y0 < 16:
+                y1 = y0 + 28
+            option_bounds.append({"letter": opt["letter"], "y0": y0, "y1": y1})
+
         questions.append({
             "num": cand["num"],
-            "y_top": y_top,
-            "y_bottom": content_bottom,
+            "stem": {"y_top": y_top, "y_bottom": stem_bottom},
+            "options": option_bounds,
         })
     return questions
 
 
-def extract_pdf(test_id: str, year: str, filename: str) -> dict[str, str]:
+def save_clip(page: fitz.Page, y0: float, y1: float, dest: Path) -> bool:
+    rect = page.rect
+    y0 = max(0.0, y0)
+    y1 = min(rect.height - 8, y1)
+    if y1 - y0 < 14:
+        return False
+    clip = fitz.Rect(48, y0, rect.width - 48, y1)
+    pix = page.get_pixmap(matrix=fitz.Matrix(ZOOM, ZOOM), clip=clip, alpha=False)
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    pix.save(dest)
+    return True
+
+
+def extract_pdf(test_id: str, year: str, filename: str) -> dict:
     path = pdf_path(filename)
     if not path:
         print(f"  skip {test_id} {year}: PDF no encontrado")
@@ -128,38 +160,41 @@ def extract_pdf(test_id: str, year: str, filename: str) -> dict[str, str]:
 
     out_dir = ROOT / "data" / test_id / "figures"
     out_dir.mkdir(parents=True, exist_ok=True)
-    manifest: dict[str, str] = {}
+    manifest = {}
     seen: set[int] = set()
 
     doc = fitz.open(path)
     for page_index in range(doc.page_count):
         page = doc[page_index]
-        rect = page.rect
         for q in find_questions(page):
             num = q["num"]
-            # Preferir la primera aparicion valida (evita dobles)
             if num in seen:
                 continue
-            y_top = q["y_top"]
-            y_bottom = min(q["y_bottom"], rect.height - 50)  # evita pie "- N -"
-            # También cortar si hay pie de pagina tipico
-            for _x0, y0, _x1, _y1, text in page_lines(page):
-                if FOOTER_RE.match(text) and y0 < y_bottom and y0 > y_top:
-                    y_bottom = min(y_bottom, y0 - 8)
-            if y_bottom - y_top < 28:
+            stem_rel = f"data/{test_id}/figures/{year}-q{num:02d}.png"
+            if not save_clip(page, q["stem"]["y_top"], q["stem"]["y_bottom"], ROOT / stem_rel):
                 continue
-            clip = fitz.Rect(48, y_top, rect.width - 48, y_bottom)
-            pix = page.get_pixmap(matrix=fitz.Matrix(ZOOM, ZOOM), clip=clip, alpha=False)
-            rel = f"data/{test_id}/figures/{year}-q{num:02d}.png"
-            pix.save(ROOT / rel)
-            manifest[f"{year}-q{num:02d}"] = rel
+            option_rels = []
+            ok = True
+            for opt in q["options"]:
+                letter = opt["letter"].lower()
+                rel = f"data/{test_id}/figures/{year}-q{num:02d}-{letter}.png"
+                if not save_clip(page, opt["y0"], opt["y1"], ROOT / rel):
+                    ok = False
+                    break
+                option_rels.append(rel)
+            if not ok or len(option_rels) < 4:
+                continue
+            manifest[f"{year}-q{num:02d}"] = {
+                "figure": stem_rel,
+                "optionFigures": option_rels[:4],
+            }
             seen.add(num)
     doc.close()
-    print(f"  {test_id} {year}: {len(manifest)} recortes (preguntas {sorted(seen)})")
+    print(f"  {test_id} {year}: {len(manifest)} preguntas con enunciado+opciones")
     return manifest
 
 
-def attach_figures_to_bank(test_id: str, all_manifests: dict[str, dict[str, str]]) -> int:
+def attach_to_bank(test_id: str, all_manifests: dict) -> int:
     bank_path = ROOT / "data" / test_id / "bank.json"
     if not bank_path.exists():
         return 0
@@ -171,14 +206,19 @@ def attach_figures_to_bank(test_id: str, all_manifests: dict[str, dict[str, str]
         if not year or not num:
             continue
         key = f"{year}-q{int(num):02d}"
-        rel = all_manifests.get(year, {}).get(key)
-        if not rel:
+        entry = all_manifests.get(year, {}).get(key)
+        if not entry:
             q.pop("figure", None)
+            q.pop("optionFigures", None)
             q.pop("needsFigure", None)
             continue
-        q["figure"] = rel
+        q["figure"] = entry["figure"]
+        q["optionFigures"] = entry["optionFigures"]
         text = q.get("question", "")
-        q["needsFigure"] = bool(VISUAL_HINT.search(text) or GARBLED_HINT.search(text))
+        q["needsFigure"] = True  # oficial con imagen: preferir visual
+        if not VISUAL_HINT.search(text) and not GARBLED_HINT.search(text):
+            # aun asi usar figuras de opciones siempre
+            q["needsFigure"] = bool(q.get("figure"))
         linked += 1
     bank_path.write_text(json.dumps(bank, ensure_ascii=False, indent=2), encoding="utf-8")
     return linked
@@ -186,11 +226,11 @@ def attach_figures_to_bank(test_id: str, all_manifests: dict[str, dict[str, str]
 
 def main():
     for test_id, years in PDF_MAP.items():
-        manifests: dict[str, dict[str, str]] = {}
+        manifests = {}
         for year, filename in years.items():
             manifests[year] = extract_pdf(test_id, year, filename)
-        n = attach_figures_to_bank(test_id, manifests)
-        print(f"  {test_id}: {n} preguntas enlazadas en bank.json")
+        n = attach_to_bank(test_id, manifests)
+        print(f"  {test_id}: {n} preguntas enlazadas")
 
 
 if __name__ == "__main__":

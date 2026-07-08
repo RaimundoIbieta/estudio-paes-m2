@@ -74,20 +74,19 @@ function fixPdfArtifacts(text) {
     .replace(/\s+\d+(?:\s+\d+)+\s*[-\u2013]\s*\d+\s*[-\u2013](?:\s*[\s\S]*)?$/g, '')
     .replace(/\s*[-\u2013]\s*\d+\s*[-\u2013](?:\s*[\s\S]*)?$/g, '')
     .replace(/\s+\d+(?:\s+\d+)+\s*$/g, '')
-    .replace(/\b(kg|g|mg|ml|cm|mm|L)(\d+(?:[.,]\d+)?)\b/gi, '$2 $1')
+    // Unidades al cuadrado ANTES de reordenar (evita cm2 -> 2 cm)
+    .replace(/\b(cm|m|mm|km)\s*2\b/gi, '$1\u00b2')
+    .replace(/\b(cm|m|mm|km)2\b/gi, '$1\u00b2')
+    // Unidad pegada delante del numero: kg60 -> 60 kg (no tocar cm2 ya convertido)
+    .replace(/\b(kg|mg|ml|L)(\d+(?:[.,]\d+)?)\b/gi, '$2 $1')
+    .replace(/\b(?<![\w])(g)(\d+(?:[.,]\d+)?)\b/gi, '$2 $1')
     .replace(/(\d+(?:[.,]\d+)?)\s*(g|kg|mg|ml|cm|mm)de\b/gi, '$1 $2 de')
     .replace(/(\$[\d\s.,]+)([a-z\u00e1\u00e9\u00ed\u00f3\u00fa\u00f1])/gi, '$1 $2')
     .replace(/([a-z\u00e1\u00e9\u00ed\u00f3\u00fa\u00f1)])(\$)/gi, '$1 $2')
     .replace(/\bkmpara\b/gi, 'km para')
     .replace(/\bobteni[e\u00e9]ndo\s+se\b/gi, 'obteni\u00e9ndose')
-    .replace(
-      /(precios:\s*)(\d)/gi,
-      '$1\n• $2',
-    )
-    .replace(
-      /(\$[\d\s.,]+)\s+(\d+[,.]?\d*\s*(?:kg|g)\s+de)/gi,
-      '$1\n• $2',
-    );
+    .replace(/(precios:\s*)(\d)/gi, '$1\n $2')
+    .replace(/(\$[\d\s.,]+)\s+(\d+[,.]?\d*\s*(?:kg|g)\s+de)/gi, '$1\n $2');
 }
 
 export function sanitizeText(text) {
@@ -108,6 +107,7 @@ export function sanitizeQuestion(q) {
     options: options.length >= 4 ? options.slice(0, 4) : options,
     explanation: q.explanation ? sanitizeText(q.explanation) : q.explanation,
     figure: q.figure || null,
+    optionFigures: Array.isArray(q.optionFigures) ? q.optionFigures.slice(0, 4) : null,
     needsFigure: q.needsFigure || needsVisualAsset(q),
   };
 }
@@ -130,15 +130,19 @@ function hasGarbledMath(blob) {
   return GARBLED_MATH_PATTERNS.some(pat => pat.test(blob));
 }
 
-/** Pregunta legible: texto OK o figura oficial del PDF adjunta. */
+/** Pregunta legible: texto OK, o figuras oficiales de enunciado/opciones. */
 export function isReadableQuestion(q) {
   if (!q?.question) return false;
   const question = sanitizeText(q.question);
   const options = (q.options || []).slice(0, 4).map(sanitizeText);
   const blob = `${question} ${options.join(' ')}`;
   const hasFigure = Boolean(q.figure || q.figures?.length);
+  const hasOptsImg = Array.isArray(q.optionFigures) && q.optionFigures.length >= 4;
 
-  if (hasEmbeddedVisual(question)) return options.length === 4 && options.every(o => o && o.length >= 2);
+  if (hasEmbeddedVisual(question)) return options.length === 4 && options.every(o => o && o.length >= 1);
+
+  // Oficial con imagen de alternativas: confiar en el PDF visual
+  if (hasOptsImg && options.length === 4) return true;
 
   if (needsVisualAsset(q)) {
     if (!hasFigure) return false;

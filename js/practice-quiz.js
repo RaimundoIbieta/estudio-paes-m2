@@ -3,7 +3,7 @@
  * Los ensayos cronometrados usan exam-engine.js (sin feedback hasta el final).
  */
 import { recordExercise } from './storage.js';
-import { questionBodyHtml } from './question-figure.js';
+import { questionBodyHtml, optionContentHtml, optionButtonClass } from './question-figure.js';
 
 export function runPracticeQuiz(container, questions, {
   returnHash = '#/ejercicios',
@@ -34,7 +34,7 @@ export function runPracticeQuiz(container, questions, {
         ${questionBodyHtml(q)}
         <div class="options" id="options">
           ${q.options.map((opt, i) => `
-            <button type="button" class="option" data-i="${i}">${String.fromCharCode(65 + i)}. ${opt}</button>
+            <button type="button" class="${optionButtonClass(q, i, false)}" data-i="${i}">${optionContentHtml(q, i, opt)}</button>
           `).join('')}
         </div>
         <div id="feedback"></div>

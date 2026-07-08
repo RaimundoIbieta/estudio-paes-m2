@@ -1,8 +1,8 @@
 import { getCurrentTest, loadTests } from './test-context.js';
 import { recordEssay } from './storage.js';
-import { questionBodyHtml } from './question-figure.js';
+import { questionBodyHtml, optionContentHtml, optionButtonClass, useOfficialFigure, hasOptionFigures } from './question-figure.js';
 
-const _build = new URL(import.meta.url).searchParams.get('v') || '26';
+const _build = new URL(import.meta.url).searchParams.get('v') || '27';
 const { CACHE_VERSION } = await import(`./config.js?v=${_build}`);
 export const ESSAY_ENGINE_BUILD = CACHE_VERSION;
 
@@ -186,8 +186,8 @@ function runExamQuiz(container, questions, { onSubmit }) {
           ${questionBodyHtml(q)}
           <div class="options" id="options">
             ${q.options.map((opt, i) => `
-              <button type="button" class="option ${answers[index] === i ? 'selected' : ''}" data-i="${i}">
-                ${String.fromCharCode(65 + i)}. ${opt}
+              <button type="button" class="${optionButtonClass(q, i, answers[index] === i)}" data-i="${i}">
+                ${optionContentHtml(q, i, opt)}
               </button>
             `).join('')}
           </div>
@@ -323,7 +323,16 @@ function showResult(container, { title, essayType, correct, total, score, timeUs
                 <strong>Pregunta ${i + 1}</strong>
                 <span class="badge">${q.area || ''}</span>
               </div>
-              <div class="question-text review-q">${q.question}</div>
+              ${useOfficialFigure(q) ? questionBodyHtml(q) : `<div class="question-text review-q">${q.question}</div>`}
+              ${hasOptionFigures(q) ? `
+                <div class="options review-options">
+                  ${[0,1,2,3].map(oi => `
+                    <div class="option option-with-figure ${oi === q.answer ? 'correct' : ''} ${r.selected === oi && oi !== q.answer ? 'wrong' : ''}">
+                      ${optionContentHtml(q, oi, q.options[oi])}
+                    </div>
+                  `).join('')}
+                </div>
+              ` : ''}
               <p class="topic-meta">
                 Tu respuesta: <strong>${letter}</strong>
                 ${!skipped && !ok ? ` · Correcta: <strong>${correctLetter}</strong>` : ''}

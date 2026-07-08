@@ -64,8 +64,8 @@ def _rectangle_area():
     b, h = random.randint(3, 25), random.randint(3, 20)
     ans = b * h
     wrong = [str(ans + d) for d in random.sample([-3, 3, b + h], 3)]
-    opts, ai = shuffle_mcq(f"{ans} cm2", [f"{w} cm2" for w in wrong])
-    return {"question": f"Area rectangulo base {b} altura {h}?", "options": opts, "answer": ai,
+    opts, ai = shuffle_mcq(f"{ans} cm\u00b2", [f"{w} cm\u00b2" for w in wrong])
+    return {"question": f"\u00c1rea rect\u00e1ngulo base {b} altura {h}?", "options": opts, "answer": ai,
             "answerKey": chr(65 + ai), "explanation": f"{b}*{h}={ans}", "difficulty": "Facil"}
 
 def _mean():
@@ -128,9 +128,9 @@ def _circle_area():
     ans = round(math.pi * r * r, 1)
     correct = f"{ans:.1f}"
     wrong = [f"{round(math.pi*(r+d)**2,1):.1f}" for d in random.sample([1, -1, 2], 3)]
-    opts, ai = shuffle_mcq(f"{correct} cm2", [f"{w} cm2" for w in wrong])
-    return {"question": f"Area circulo r={r} (pi=3.14)?", "options": opts, "answer": ai,
-            "answerKey": chr(65 + ai), "explanation": f"A=pi*r^2", "difficulty": "Medio"}
+    opts, ai = shuffle_mcq(f"{correct} cm\u00b2", [f"{w} cm\u00b2" for w in wrong])
+    return {"question": f"\u00c1rea c\u00edrculo r={r} (\u03c0=3,14)?", "options": opts, "answer": ai,
+            "answerKey": chr(65 + ai), "explanation": f"A=\u03c0*r^2", "difficulty": "Medio"}
 
 def _triangle_angle():
     a, b = random.randint(20, 70), random.randint(20, 70)

@@ -371,8 +371,19 @@ body {
   display: block;
   margin: 0 auto;
 }
-.question-text {
-  white-space: pre-line;
+.option-with-figure {
+  justify-content: flex-start;
+  padding: 0.35rem 0.5rem;
+  min-height: 2.5rem;
+}
+.option-figure {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 4.5rem;
+  object-fit: contain;
+  object-position: left center;
+  pointer-events: none;
 }
 .essay-overlay {
   position: fixed;

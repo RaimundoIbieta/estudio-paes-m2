@@ -34,9 +34,66 @@ PDF_MAP = {
 
 ZOOM = 2.6
 STEM_TOP_PAD = 22
-STEM_INK_PAD = 10
+STEM_INK_PAD = 12
 OPT_EDGE_PAD = 10  # glifos, barras de fraccion e iconos fuera del bbox
 FOOTER_RE = re.compile(r"^-\s*\d+\s*-$")
+
+
+def span_ink_top(span: dict) -> float:
+    """Estima el borde superior real del glifo (bbox PyMuPDF suele quedar corto)."""
+    text = span.get("text", "")
+    if not text.strip():
+        return span["bbox"][1]  # ignorar en el min(); espacios de maquetacion
+    y0 = span["bbox"][1]
+    size = float(span.get("size") or 12)
+    asc = float(span.get("ascender") or 0.9)
+    if size >= 13:
+        pad = max(STEM_INK_PAD, size * 1.35)
+    else:
+        pad = STEM_INK_PAD
+    return y0 - pad
+
+
+def stem_top_from_spans(page: fitz.Page, cand: dict, stem_bottom: float) -> float:
+    """Tinta del enunciado (columna izquierda y formulas), sin cabecera FORMA."""
+    stem_top = stem_bottom
+    for block in page.get_text("dict").get("blocks", []):
+        if block.get("type") != 0:
+            continue
+        for line in block.get("lines", []):
+            for span in line.get("spans", []):
+                text = span.get("text", "")
+                if not text.strip():
+                    continue
+                if "FORMA" in text:
+                    continue
+                x0, y0, x1, y1 = span["bbox"]
+                if x0 > page.rect.width - 40:
+                    continue
+                if y0 >= stem_bottom:
+                    continue
+                if y1 < cand["y0"] - 18:
+                    continue
+                stem_top = min(stem_top, span_ink_top(span))
+    return max(0.0, stem_top)
+
+
+def trim_stem_header(im: Image.Image) -> Image.Image:
+    """Quita filas del encabezado FORMA (centrado); conserva desde el numero de pregunta."""
+    w, h = im.size
+    px = im.convert("L").load()
+    # Solo columna del numero de pregunta (FORMA queda mas a la derecha en el PNG)
+    scan_left = 28
+    scan_right = min(int(w * 0.22), 260)
+    for y in range(h):
+        if any(px[x, y] < 240 for x in range(scan_left, scan_right)):
+            top = max(0, y - 22)
+            if top > 0:
+                return im.crop((0, top, w, h))
+            break
+    return im
+
+
 NUM_ONLY_RE = re.compile(r"^(\d{1,2})\.\s*$")
 NUM_TEXT_RE = re.compile(r"^(\d{1,2})\.\s+\S+")
 OPTION_RE = re.compile(r"^([A-E])\)")
@@ -226,39 +283,41 @@ def find_questions(page: fitz.Page) -> list[dict]:
         hard_end = min(next_q_y - 4, footer_y - 6)
 
         ink_opts = expand_option_ink(page, words, ordered, hard_end)
-        first_ink = ink_opts[0]["ink_y0"] - OPT_EDGE_PAD
-        stem_bottom = first_ink - 1
-        stem_top = cand["y0"] - STEM_TOP_PAD
-
-        # Toda la tinta del enunciado (palabras + barras de fraccion + figuras)
-        for w in words:
-            x0, y0, x1, y1 = w[0], w[1], w[2], w[3]
-            if x0 > page.rect.width - 40:
-                continue
-            if y1 < cand["y0"] - 8 or y0 >= first_ink:
-                continue
-            stem_top = min(stem_top, y0 - STEM_INK_PAD)
+        stem_bottom = ordered[0]["y0"] - 6
 
         for d in page.get_drawings():
             r = d.get("rect")
             if not r or r.height > 2 or r.width > 200:
                 continue
-            if r.y1 < cand["y0"] - 8 or r.y0 >= first_ink:
+            if r.y1 < cand["y0"] - 20 or r.y0 >= stem_bottom:
                 continue
-            stem_top = min(stem_top, r.y0 - STEM_INK_PAD)
-            stem_bottom = max(stem_bottom, min(r.y1 + 4, first_ink - 1))
+            stem_bottom = max(stem_bottom, min(r.y1 + 4, ordered[0]["y0"] - 4))
 
         for info in page.get_image_info(xrefs=True):
             x0, y0, x1, y1 = info["bbox"]
-            if y1 <= cand["y0"] - 8 or y0 >= first_ink:
+            if y1 <= cand["y0"] - 20 or y0 >= stem_bottom:
                 continue
             if (y1 - y0) >= 40 or (x1 - x0) >= 80:
-                stem_bottom = max(stem_bottom, min(y1 + 4, first_ink - 1))
+                stem_bottom = max(stem_bottom, min(y1 + 4, ordered[0]["y0"] - 4))
+
+        stem_top = stem_top_from_spans(page, cand, stem_bottom)
+
+        for d in page.get_drawings():
+            r = d.get("rect")
+            if not r or r.height > 2 or r.width > 200:
+                continue
+            if r.y1 < cand["y0"] - 20 or r.y0 >= stem_bottom:
+                continue
+            stem_top = min(stem_top, r.y0 - STEM_INK_PAD)
+
+        for info in page.get_image_info(xrefs=True):
+            x0, y0, x1, y1 = info["bbox"]
+            if y1 <= cand["y0"] - 20 or y0 >= stem_bottom:
+                continue
+            if (y1 - y0) >= 40 or (x1 - x0) >= 80:
                 if y0 >= cand["y0"] - 12:
                     stem_top = min(stem_top, y0 - 4)
 
-        # Tope duro: no subir al encabezado "FORMA ..." del PDF
-        stem_top = max(stem_top, cand["y0"] - (STEM_TOP_PAD + 2))
         stem_top = max(0.0, stem_top)
         if stem_bottom - stem_top < 24:
             continue
@@ -273,7 +332,14 @@ def find_questions(page: fitz.Page) -> list[dict]:
     return questions
 
 
-def save_clip(page: fitz.Page, y0: float, y1: float, dest: Path, pad_px: int = 10) -> bool:
+def save_clip(
+    page: fitz.Page,
+    y0: float,
+    y1: float,
+    dest: Path,
+    pad_px: int = 10,
+    trim_header: bool = False,
+) -> bool:
     rect = page.rect
     y0 = max(0.0, y0)
     y1 = min(rect.height - 2, y1)
@@ -283,9 +349,15 @@ def save_clip(page: fitz.Page, y0: float, y1: float, dest: Path, pad_px: int = 1
     pix = page.get_pixmap(matrix=fitz.Matrix(ZOOM, ZOOM), clip=clip, alpha=False)
     dest.parent.mkdir(parents=True, exist_ok=True)
     pix.save(dest)
-    if pad_px > 0:
+    if pad_px > 0 or trim_header:
         im = Image.open(dest).convert("RGB")
-        im = ImageOps.expand(im, border=(0, pad_px, 0, pad_px), fill=(255, 255, 255))
+        if pad_px > 0:
+            top_pad = pad_px + 12 if trim_header else pad_px
+            im = ImageOps.expand(
+                im, border=(0, top_pad, 0, pad_px), fill=(255, 255, 255)
+            )
+        if trim_header:
+            im = trim_stem_header(im)
         im.save(dest, optimize=True)
     return True
 
@@ -307,7 +379,10 @@ def extract_pdf(test_id: str, year: str, filename: str) -> dict:
             if num in seen:
                 continue
             stem_rel = f"data/{test_id}/figures/{year}-q{num:02d}.png"
-            if not save_clip(page, q["stem"]["y_top"], q["stem"]["y_bottom"], ROOT / stem_rel, pad_px=16):
+            if not save_clip(
+                page, q["stem"]["y_top"], q["stem"]["y_bottom"], ROOT / stem_rel,
+                pad_px=20, trim_header=True,
+            ):
                 continue
             option_rels = []
             ok = True

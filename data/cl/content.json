@@ -2,47 +2,79 @@
   {
     "id": "cl-habilidades",
     "area": "Competencia Lectora",
-    "title": "Habilidades evaluadas en la PAES",
-    "duration": "12 min",
+    "title": "Habilidades cognitivas evaluadas en la PAES CL",
+    "duration": "20 min",
     "practiceKeywords": [
       "localizar",
       "interpretar",
       "evaluar",
       "integrar",
+      "reflexionar",
       "idea principal",
-      "proposito",
       "propósito",
-      "inferen",
-      "passage"
+      "propósito del autor",
+      "inferencia",
+      "inferir",
+      "argumento",
+      "evidencia",
+      "habilidad lectora",
+      "passage",
+      "texto"
     ],
     "sections": [
       {
-        "heading": "Las 4 habilidades (DEMRE)",
-        "text": "Cada pregunta mide una habilidad. Identificar qué te piden evita marcar distractores literales o demasiado generales.",
-        "items": [
-          "Localizar: información explícita (dato, fecha, nombre, cifra)",
-          "Interpretar: relaciones, significados y propósito del texto",
-          "Evaluar: juicio sobre argumentos, evidencia o estrategias del autor",
-          "Integrar/reflexionar: conectar con conocimiento previo u otros textos"
+        "heading": "1. Para qué sirve en la PAES",
+        "paragraphs": [
+          "La PAES Competencia Lectora evalúa cuatro habilidades cognitivas definidas por el DEMRE: Localizar, Interpretar, Evaluar e Integrar/Reflexionar. No se trata de un solo tipo de lectura: cada pregunta te exige una operación mental distinta sobre el texto. Comprender qué habilidad activa cada pregunta es la diferencia entre un puntaje promedio y uno de excelencia.",
+          "En Medicina e Ingeniería, la capacidad de extraer información precisa, interpretar datos complejos, evaluar argumentos y relacionar fuentes es fundamental en la formación y ejercicio profesional. La PAES CL mide exactamente esas destrezas, y dominarlas te otorga una ventaja directa y medible en el proceso de admisión universitaria chileno."
         ]
       },
       {
-        "heading": "Cómo reconocerlas en el enunciado",
-        "items": [
-          "“Según el texto…” o “se menciona…” → suele ser localizar",
-          "“Se puede inferir…” / “el autor sugiere…” → interpretar",
-          "“La estrategia del autor…” / “la evidencia más sólida…” → evaluar",
-          "“En relación con…” / comparar textos → integrar",
-          "Si dudas, vuelve al verbo del enunciado: localizar ≠ opinar"
+        "heading": "2. Las cuatro habilidades — concepto y teoría",
+        "paragraphs": [
+          "LOCALIZAR información: Recuperar datos explícitos del texto. El texto dice textualmente lo que la pregunta busca. Tu tarea es encontrar dónde está esa información y no interpretar ni inferir nada. Las preguntas de localización suelen usar verbos como 'menciona', 'señala', 'indica', 'afirma' y requieren precisión de lectura, no elaboración ni síntesis.",
+          "INTERPRETAR sentido: Construir significado a partir de lo que el texto sugiere pero no dice literalmente. Incluye inferir el significado contextual de una palabra, deducir la intención de un párrafo, identificar la idea principal de un fragmento y comprender figuras retóricas o recursos expresivos. Es la habilidad más frecuente en la PAES CL y la que más distractores bien construidos presenta.",
+          "EVALUAR argumentos y estrategias discursivas: Emitir un juicio fundamentado sobre la calidad de los argumentos, la solidez de la evidencia, la pertinencia de los ejemplos o la eficacia de las estrategias discursivas del autor. No se trata de tu opinión personal sobre el tema, sino de lo que el propio texto permite concluir sobre su construcción argumentativa y su logro comunicativo.",
+          "INTEGRAR y reflexionar: Conectar información de dos o más textos, o relacionar el texto con conocimiento externo relevante (datos históricos, científicos, culturales). Las preguntas de textos paralelos o 'dossier' exigen esta habilidad. También incluye reflexionar sobre el efecto del texto en el lector y su propósito comunicativo global dentro de un contexto cultural o disciplinar específico."
         ]
       },
       {
-        "heading": "Formato de la prueba",
+        "heading": "3. Método paso a paso — identificar la habilidad exigida",
         "items": [
-          "65 preguntas de alternativa",
-          "2 horas 30 minutos",
-          "Textos literarios, no literarios y multimodales",
-          "Administra tiempo: no te quedes atrapado en un solo pasaje"
+          "Paso 1 — Lee el enunciado y subraya el VERBO PRINCIPAL: 'señala', 'menciona', 'afirma' → Localizar; 'se puede inferir', 'sugiere', 'significa en el contexto', 'se deduce' → Interpretar; 'evalúa', 'la evidencia más sólida', 'la estrategia del autor', 'el argumento es débil porque' → Evaluar; 'en relación con el texto 2', 'ambos textos coinciden en', 'reflexiona sobre' → Integrar.",
+          "Paso 2 — Clasifica la pregunta ANTES de releer el texto. Esto activa el modo mental correcto de búsqueda: literal (Localizar), inferencial (Interpretar), crítico-evaluativo (Evaluar) o intertextual (Integrar). Cambiar de modo a mitad de respuesta es la causa principal de errores.",
+          "Paso 3 — Para Localizar: busca el párrafo relevante con una palabra clave del enunciado, lee literalmente, elimina paráfrasis que agreguen información. Para Interpretar: lee el contexto amplio (oración anterior y posterior), pregúntate '¿qué quiere decir el autor aquí considerando el párrafo completo?'. Para Evaluar: identifica la tesis, los argumentos y la evidencia; pregúntate '¿qué tan bien sustentado está y qué falla en la cadena lógica?'. Para Integrar: compara posición, tono, foco y propósito entre textos, buscando convergencia o divergencia explícita.",
+          "Paso 4 — Elimina por descarte activo: en Localizar, rechaza cualquier opción que agregue información no presente en el texto. En Interpretar, rechaza lo demasiado literal y lo demasiado especulativo. En Evaluar, rechaza juicios basados en conocimiento externo al texto. En Integrar, rechaza generalizaciones que un solo texto no sostiene independientemente."
+        ]
+      },
+      {
+        "heading": "4. Ejemplos trabajados",
+        "paragraphs": [
+          "EJEMPLO 1 — LOCALIZAR. Fragmento: 'El estudio de Ramírez (2019) registró un descenso del 12% en la tasa de deserción escolar tras la implementación del programa de tutorías en zonas rurales de la región del Maule.' Pregunta: '¿Qué porcentaje de descenso en la deserción escolar registró el estudio citado?' Alternativas: (A) 8% / (B) 12% / (C) 15% / (D) 20%. Respuesta correcta: B. Análisis del proceso: la cifra está literalmente en el fragmento; no hay nada que inferir. Distractores frecuentes: (A) y (C) son porcentajes plausibles dentro del campo educativo pero ausentes del texto. Trampa específica: (D) se elige cuando el lector 'recuerda' haber visto un número grande sin volver al texto. Protocolo correcto: localiza la palabra 'descenso' en el texto, lee la cifra exacta, verifica la alternativa.",
+          "EJEMPLO 2 — INTERPRETAR (significado contextual). Fragmento: 'El discurso del ministro fue recibido con escepticismo por los académicos, quienes consideraron que sus propuestas carecían del rigor necesario para transformar el sistema educativo.' Pregunta: '¿Qué significa «rigor» en el contexto del fragmento?' Alternativas: (A) dureza o severidad en el trato / (B) frialdad emocional / (C) solidez metodológica y sustento técnico-científico / (D) disciplina jerárquica institucional. Respuesta correcta: C. Análisis: el campo semántico (académicos, propuestas, transformar el sistema) activa la acepción disciplinar de 'rigor': sustento metodológico y técnico. (A) y (D) activan acepciones coloquiales de la palabra desconectadas del contexto académico. (B) es completamente ajeno al campo semántico del fragmento. Clave: siempre lee al menos dos oraciones alrededor de la palabra consultada.",
+          "EJEMPLO 3 — EVALUAR. Fragmento: 'El calentamiento global es responsable del aumento sostenido de huracanes de alta intensidad, como lo prueban los cinco huracanes de categoría 5 que azotaron el Caribe en 2017.' Pregunta: '¿Cuál es la principal debilidad lógica del argumento presentado?' Alternativas: (A) No cita a ningún científico ni institución / (B) Usa solo un año como evidencia, lo que impide establecer una tendencia estadística / (C) El Caribe no es una región representativa para el estudio del clima global / (D) No menciona el efecto del ciclo solar en los huracanes. Respuesta correcta: B. Análisis: el argumento comete el error clásico de generalización apresurada (hasty generalization): un año de datos no es suficiente para establecer causalidad ni tendencia. (A) es una debilidad menor que la estructura lógica del argumento. (C) es incorrecto; el Caribe es altamente relevante para el estudio de huracanes. (D) introduce conocimiento externo no requerido por el texto. En Evaluar, la debilidad que buscas es siempre la que falla en la cadena lógica interna del argumento."
+        ]
+      },
+      {
+        "heading": "5. Trampas frecuentes",
+        "items": [
+          "TRAMPA 1 — Paráfrasis con información adicional en Localizar: la alternativa incluye el dato correcto pero agrega una causa, consecuencia o juicio que el texto no establece. Recházala aunque el dato base sea correcto.",
+          "TRAMPA 2 — Sobre-inferencia en Interpretar: la alternativa dice algo que 'podría' ser verdad pero que el texto no avala directamente. Si necesitas información externa para validarla, no es la respuesta correcta.",
+          "TRAMPA 3 — Opinión personal en Evaluar: la pregunta pide evaluar la construcción del texto, no lo que tú piensas del tema. Ancla tu razonamiento siempre en la lógica interna del texto, no en tu conocimiento previo del mundo.",
+          "TRAMPA 4 — Confundir tema con tesis: el tema es de qué habla el texto (sustantivo o frase nominal); la tesis o idea principal es qué afirma el texto sobre ese tema (oración completa con verbo y predicado). Una pregunta por 'idea principal' exige la segunda, no la primera.",
+          "TRAMPA 5 — Ignorar conectores de contraste: 'sin embargo', 'no obstante', 'aunque', 'a pesar de' invierten el sentido esperado de la oración. La lectura rápida hace que se omitan y se marque la alternativa opuesta a la correcta.",
+          "TRAMPA 6 — Elegir la alternativa más extrema en Evaluar: los textos académicos y periodísticos serios suelen ser matizados. Las alternativas con cuantificadores absolutos ('siempre', 'nunca', 'completamente', 'es imposible') rara vez son correctas."
+        ]
+      },
+      {
+        "heading": "6. Checklist antes del mini ensayo",
+        "items": [
+          "¿Identifiqué la habilidad que pide cada pregunta antes de responder (L / I / E / Integrar)?",
+          "¿Localicé el párrafo específico del texto antes de elegir la alternativa?",
+          "¿Leí el contexto completo para preguntas de Interpretar (no solo la oración con la palabra clave)?",
+          "¿Anclé mi razonamiento evaluativo en el texto, sin mezclar opinión personal?",
+          "¿Eliminé al menos dos alternativas por razones explícitas y verificables, no por instinto?",
+          "¿Verifiqué que la alternativa elegida NO agrega información ausente en el texto?"
         ]
       }
     ]
@@ -50,46 +82,81 @@
   {
     "id": "cl-estrategias",
     "area": "Competencia Lectora",
-    "title": "Estrategias de lectura",
-    "duration": "12 min",
+    "title": "Estrategias de lectura activa para la PAES CL",
+    "duration": "22 min",
     "practiceKeywords": [
       "contexto",
       "significa",
-      "palabra",
+      "palabra en contexto",
       "idea principal",
-      "inferen",
+      "inferencia",
+      "inferir",
       "argumento",
+      "propósito del autor",
+      "estructura del texto",
+      "conector",
+      "función del párrafo",
+      "texto multimodal",
+      "passage",
       "autor",
-      "passage"
+      "distractor"
     ],
     "sections": [
       {
-        "heading": "Antes de responder",
-        "text": "No leas el texto “en vacío”. Primero mira la pregunta: sabrás qué tipo de evidencia necesitas.",
-        "items": [
-          "Lee la pregunta y las alternativas antes de releer el párrafo clave",
-          "Subraya datos: causas, consecuencias, contrastes, conectores",
-          "Separa hecho (verificable) de opinión (valoración del autor)",
-          "Busca anáforas: ‘esto’, ‘ello’, ‘dicho fenómeno’ remiten a algo previo"
+        "heading": "1. Para qué sirve en la PAES",
+        "paragraphs": [
+          "Una estrategia de lectura es un procedimiento consciente y deliberado que el lector aplica para maximizar la comprensión y la velocidad de respuesta. En la PAES CL dispones de 2 horas 30 minutos para 65 preguntas, lo que equivale a aproximadamente 2 minutos 18 segundos por pregunta. Leer sin estrategia no es una opción viable si aspiras a puntajes de excelencia.",
+          "Las estrategias de este módulo son las que separan a los lectores que alcanzan el percentil 90 de los que quedan en el promedio. No se aprenden leyendo esta ficha una vez: se automatizan con práctica cronometrada. Usa el mini ensayo para medir cuántas aplicas de forma espontánea y cuántas aún requieren esfuerzo consciente."
         ]
       },
       {
-        "heading": "Tipos de preguntas frecuentes",
-        "items": [
-          "Idea principal o propósito global del texto",
-          "Significado de una palabra/expresión en contexto",
-          "Inferencias: lo que se deduce sin estar dicho literalmente",
-          "Evaluación del argumento: premisa, evidencia, conclusión",
-          "Función de un párrafo o de un recurso retórico"
+        "heading": "2. Principios teóricos — cómo funciona la lectura experta",
+        "paragraphs": [
+          "La lectura experta no es más rápida que la lectura novata porque el experto tiene 'ojos más rápidos': es más eficiente porque el experto construye un modelo mental del texto desde el primer párrafo y usa ese modelo para predecir dónde estará la información que necesita. Cada vez que el texto confirma o corrige esa predicción, el modelo mental se ajusta con mínimo costo cognitivo.",
+          "Los textos de la PAES siguen estructuras predecibles según el género discursivo: los textos argumentativos presentan tesis → argumentos de apoyo → refutación de contraargumentos → conclusión; los expositivos presentan problema o fenómeno → desarrollo explicativo → síntesis o implicaciones; los narrativos presentan situación inicial → quiebre o conflicto → resolución o desenlace. Reconocer el esqueleto estructural del texto en los primeros treinta segundos de lectura te permite ubicar cualquier tipo de información sin releer el pasaje completo.",
+          "Los conectores lógicos son señales de tráfico del texto y merecen atención especial. Aprende a leerlos como instrucciones de navegación: 'sin embargo' y 'no obstante' = inversión de dirección, lo que viene contradice lo anterior; 'por lo tanto' y 'en consecuencia' = conclusión inminente; 'además' y 'asimismo' = acumulación del mismo argumento; 'aunque' y 'a pesar de' = concesión que no invalida la tesis principal; 'es decir' y 'esto es' = paráfrasis aclaratoria. Identificar estos conectores en el primer paseo reduce el tiempo de relectura a la mitad porque sabes exactamente qué tipo de relación lógica encontrarás en cada transición."
         ]
       },
       {
-        "heading": "Errores típicos",
+        "heading": "3. Protocolo de ataque a cada pregunta (paso a paso)",
         "items": [
-          "Elegir una opción verdadera en general, pero no apoyada por el texto",
-          "Quedarse con una frase aislada e ignorar el párrafo completo",
-          "Confundir tema (“de qué habla”) con idea principal (“qué afirma”)",
-          "Marcar la opción más ‘extrema’ cuando el texto es matizado"
+          "PASO 1 — Lectura inicial del texto completo (3-4 minutos por pasaje largo): lee de forma activa, no pasiva. Mientras lees, construye mentalmente: '¿De qué trata? ¿Qué posición adopta el autor? ¿Cuál es la estructura discursiva? ¿Hay contraste de ideas, concesiones o cambios de perspectiva?'. Subraya conectores y palabras clave del argumento.",
+          "PASO 2 — Lee la pregunta completa y clasifícala en Localizar / Interpretar / Evaluar / Integrar. Subrayar el verbo del enunciado toma tres segundos y evita responder la pregunta equivocada por un mal diagnóstico inicial de la tarea cognitiva requerida.",
+          "PASO 3 — Vuelve al texto solo al párrafo o fragmento relevante. Para localización, busca el dato con una palabra clave del enunciado. Para inferencia o interpretación, lee la oración anterior y posterior al fragmento citado para tener contexto suficiente.",
+          "PASO 4 — Formula tu respuesta ANTES de leer las alternativas. Dilo en voz baja o mentalmente: 'La respuesta debería referirse a X'. Este paso protege tu razonamiento de los distractores, que están diseñados para activar asociaciones falsas en quien lee las alternativas en blanco.",
+          "PASO 5 — Lee las cuatro alternativas y elimina activamente con criterio: descarta las que contradigan el texto, las que agreguen información nueva no sustentada, las que sean demasiado generales para lo que pide la pregunta, y las que usen el vocabulario del texto pero lo reordenen de forma incorrecta.",
+          "PASO 6 — Si quedan dos alternativas plausibles, vuelve al texto y busca la diferencia puntual entre ambas. La alternativa correcta siempre tiene sustento textual directo y verificable en el pasaje; la incorrecta depende de una inferencia no autorizada por el texto o de un matiz que el texto no establece."
+        ]
+      },
+      {
+        "heading": "4. Ejemplos trabajados — tipos de preguntas",
+        "paragraphs": [
+          "EJEMPLO 1 — IDEA PRINCIPAL. Pasaje (fragmento): 'La automatización no solo transforma los procesos productivos: redefine la naturaleza misma del trabajo humano, desplazando tareas rutinarias y exigiendo competencias cognitivas de orden superior. Sin una política pública que anticipe esta transición, el desempleo estructural podría convertirse en el principal problema social de las próximas décadas.' Pregunta: '¿Cuál es la idea principal del fragmento?' Alternativas: (A) La automatización elimina empleos en general / (B) La automatización exige competencias cognitivas nuevas / (C) Sin políticas públicas adecuadas, la automatización podría generar desempleo estructural crónico / (D) El desempleo es el principal problema social de Chile en la actualidad. Respuesta correcta: C. Análisis: (A) es el tema amplio, no la tesis específica del fragmento. (B) es un argumento de apoyo dentro del razonamiento, no la afirmación central. (D) distorsiona el texto al eliminar la condición ('sin política pública') y modificar el tiempo verbal ('podría' → presente definitivo). Solo (C) integra la condición causal con la consecuencia proyectada, que es la afirmación principal del fragmento.",
+          "EJEMPLO 2 — SIGNIFICADO CONTEXTUAL. Pasaje: 'La propuesta del investigador fue recibida con frialdad por la comunidad científica, que exigió datos más granulares antes de validar sus conclusiones.' Pregunta: '¿Qué significa «granulares» en el contexto del fragmento?' Alternativas: (A) detallados, desagregados y específicos / (B) de textura física rugosa o arenosa / (C) de origen mineral o geológico / (D) estadísticamente significativos con p<0.05. Respuesta correcta: A. Análisis: en el lenguaje científico contemporáneo, 'granular' aplicado a datos refiere a alta resolución o desagregación de la información. El contexto —comunidad científica, validar conclusiones— confirma que se exige precisión analítica y detalle, no rugosidad física. (B) y (C) activan acepciones físicas del adjetivo completamente fuera del campo semántico. (D) es parcialmente plausible pero introduce una especificidad estadística que el texto no establece.",
+          "EJEMPLO 3 — FUNCIÓN DE UN PÁRRAFO. Pasaje (párrafo en texto argumentativo): 'Algunos podrían objetar que la dieta mediterránea no es replicable en contextos de pobreza, dado el costo elevado de frutas frescas, aceite de oliva y pescado. Esta objeción, aunque válida en apariencia, no considera que los componentes más protectores de dicha dieta —legumbres, cereales integrales y verduras de temporada— son precisamente los alimentos más accesibles económicamente.' Pregunta: '¿Cuál es la función de este párrafo dentro del texto?' Alternativas: (A) Introduce una tesis contraria que el texto adopta como propia / (B) Presenta una objeción al argumento central y la refuta con evidencia / (C) Resume los argumentos previos del texto antes de la conclusión / (D) Proporciona datos científicos sobre los componentes nutricionales de la dieta mediterránea. Respuesta correcta: B. Análisis: la estructura del párrafo es canónica: contraargumento presentado ('algunos podrían objetar') seguido de refutación explícita ('esta objeción no considera'). (A) confunde el contraargumento citado con la posición del autor. (C) es incorrecto porque el párrafo introduce contenido nuevo, no resume. (D) confunde mencionar componentes alimentarios con proveer datos científicos nutricionales. Identifica siempre el movimiento discursivo completo del párrafo: ¿qué hace el párrafo en relación con el párrafo anterior y el siguiente?"
+        ]
+      },
+      {
+        "heading": "5. Trampas frecuentes en estrategia de lectura",
+        "items": [
+          "TRAMPA 1 — Leer demasiado lento en el primer paseo: en la PAES no necesitas memorizar el texto, necesitas mapearlo. Lee para entender la estructura, el argumento central y el tono, no para recordar cada dato.",
+          "TRAMPA 2 — Responder desde el conocimiento propio sin volver al texto: aunque tengas sólidos conocimientos del tema tratado, la respuesta correcta es la que el texto sostiene, no la que tú sabes que es verdad en el mundo real.",
+          "TRAMPA 3 — No formular la respuesta antes de leer las alternativas: los distractores están diseñados para activar asociaciones falsas y resultarle plausibles al lector no preparado. Si ya tienes una respuesta formulada, los distractores pierden su poder de seducción.",
+          "TRAMPA 4 — Invertir tiempo excesivo en una pregunta difícil: si llevas más de tres minutos en una pregunta, márcala con una señal, continúa con las siguientes y regresa al final. El tiempo perdido en una pregunta difícil compromete la respuesta correcta de cuatro o cinco preguntas fáciles.",
+          "TRAMPA 5 — Confundir la posición del autor con la de una fuente citada o un contraargumento presentado: el autor puede citar opiniones que no comparte o presentar argumentos que luego refuta. Identifica siempre quién habla en cada fragmento antes de asignarle esa posición al texto.",
+          "TRAMPA 6 — Ignorar textos multimodales (tablas, gráficos, infografías, mapas): en la PAES CL aparecen textos con elementos visuales. Lee siempre el título del gráfico, los ejes o leyendas y la nota al pie antes de responder preguntas sobre ellos, porque la información clave suele estar en esos elementos paratextuales."
+        ]
+      },
+      {
+        "heading": "6. Checklist antes del mini ensayo",
+        "items": [
+          "¿Realicé una lectura inicial activa del texto completo antes de ir a las preguntas?",
+          "¿Clasifiqué cada pregunta (Localizar / Interpretar / Evaluar / Integrar) antes de responderla?",
+          "¿Formulé mentalmente la respuesta esperada antes de leer las alternativas?",
+          "¿Volví al párrafo específico relevante en lugar de releer todo el texto desde el inicio?",
+          "¿Eliminé al menos dos alternativas con justificación explícita y verificable, no por instinto?",
+          "¿Controlé el tiempo y evité quedarme atascado más de tres minutos en una sola pregunta?",
+          "¿Identifiqué correctamente quién habla en cada fragmento citado (autor vs. fuente citada)?"
         ]
       }
     ]

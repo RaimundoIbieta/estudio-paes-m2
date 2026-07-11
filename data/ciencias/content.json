@@ -2,47 +2,108 @@
   {
     "id": "ci-formato",
     "area": "Ciencias",
-    "title": "Formato de la prueba de Ciencias PAES",
-    "duration": "10 min",
+    "title": "Formato y habilidades científicas PAES",
+    "duration": "22 min",
     "practiceKeywords": [
       "experimento",
-      "grafico",
       "gráfico",
+      "grafico",
       "modelo",
-      "hipotesis",
       "hipótesis",
+      "hipotesis",
       "variable",
+      "conclusión",
       "conclusion",
-      "conclusión"
+      "control",
+      "dato",
+      "tendencia"
     ],
     "sections": [
       {
-        "heading": "Estructura",
-        "text": "Ciencias integra Biología, Física y Química. Además del contenido, evalúa si sabes leer un experimento o un gráfico.",
-        "items": [
-          "80 preguntas de alternativa",
-          "2 horas de duración",
-          "Tres disciplinas: Biología, Física y Química",
-          "Temario DEMRE de enseñanza media"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "La PAES Ciencias no es solo memorizar fórmulas y definiciones: aproximadamente un tercio de sus preguntas evalúa habilidades de razonamiento científico. Eso significa que aunque no recuerdes un dato específico, puedes responder correctamente si sabes interpretar un experimento, leer un gráfico o identificar una variable mal controlada.",
+          "Comprender el formato te permite aplicar estrategias transversales en las tres disciplinas (Biología, Física y Química). Una pregunta sobre fotosíntesis y una sobre circuitos eléctricos pueden compartir la misma estructura lógica: se da un experimento, se muestran datos y se pregunta qué conclusión es válida o qué variable se debió controlar. Dominar esta habilidad es especialmente rentable en puntaje porque una misma estrategia sirve para docenas de preguntas de distinto contenido disciplinar."
         ]
       },
       {
-        "heading": "Habilidades",
+        "heading": "Estructura de la prueba",
+        "text": "La PAES Ciencias consta de 80 preguntas de alternativa (5 opciones: A–E) con un tiempo de 2 horas. Se divide en tres módulos disciplinarios: Biología, Física y Química, siguiendo el temario oficial del DEMRE para enseñanza media. Algunas preguntas integran dos disciplinas (por ejemplo, bioenergética combina Biología y Química). El puntaje va de 150 a 1000 puntos en la escala estándar.",
         "items": [
-          "Reconocer conceptos y leyes",
-          "Aplicar modelos a situaciones nuevas",
-          "Analizar datos experimentales y gráficos",
-          "Evaluar procedimientos y conclusiones",
-          "Tip: identifica variable independiente, dependiente y controladas"
+          "80 preguntas de alternativa (A–E)",
+          "2 horas de duración total",
+          "Tres disciplinas: Biología (~28 preg.), Física (~26 preg.), Química (~26 preg.)",
+          "Puntaje de 150 a 1000 (escala estándar DEMRE)",
+          "Temario DEMRE: contenidos de 1° a 4° Medio"
         ]
       },
       {
-        "heading": "Cómo leer un experimento",
+        "heading": "Habilidades científicas evaluadas",
+        "paragraphs": [
+          "El DEMRE clasifica las habilidades en cuatro grandes categorías. La primera es Reconocer: identificar conceptos, leyes, definiciones y relaciones dentro de un contexto dado. La segunda es Aplicar: usar modelos o principios en situaciones nuevas o no vistas antes. La tercera es Analizar: descomponer un problema, identificar relaciones causales e interpretar datos experimentales o gráficos. La cuarta es Evaluar: juzgar la validez de un procedimiento, una conclusión o un diseño experimental.",
+          "Para la admisión a Medicina e Ingeniería, las preguntas de Aplicar, Analizar y Evaluar son las que más diferencian puntajes en el tramo 700–900. Un estudiante que solo reconoce conceptos difícilmente supera 700 puntos. Dominar el razonamiento científico es tan crucial como saber las fórmulas y las definiciones."
+        ],
         "items": [
-          "Variable independiente: la que manipulas",
-          "Variable dependiente: la que mides",
-          "Controladas: se mantienen constantes",
-          "Una conclusión válida debe apoyarse en los datos, no en expectativas"
+          "Reconocer: datos, conceptos, leyes (~20–25% de preguntas)",
+          "Aplicar: usar modelos en contextos nuevos (~30%)",
+          "Analizar: relaciones, gráficos, experimentos (~25%)",
+          "Evaluar: procedimientos, conclusiones, diseños (~20–25%)"
+        ]
+      },
+      {
+        "heading": "Método para leer un experimento (paso a paso)",
+        "paragraphs": [
+          "Cuando encuentres una pregunta con un experimento, sigue este protocolo de cinco pasos antes de leer las alternativas. Hacerlo sistemáticamente evita caer en las trampas más comunes.",
+          "Paso 1 — Identifica el objetivo: ¿qué quiere probar el investigador? Generalmente está en la primera oración del enunciado o en el título de la tabla. Paso 2 — Identifica la variable independiente (VI): aquella que el investigador manipula deliberadamente (por ejemplo, concentración de luz, temperatura, masa administrada). Paso 3 — Identifica la variable dependiente (VD): aquella que se mide como respuesta a los cambios en la VI (por ejemplo, tasa de crecimiento, velocidad de reacción, pH final). Paso 4 — Identifica las variables controladas (VC): todo lo que se mantiene constante para que los cambios en la VD sean atribuibles solo a la VI. Si una variable relevante no fue controlada, el experimento tiene un defecto metodológico. Paso 5 — Lee los datos con atención: ¿hay una tendencia clara, un máximo, un mínimo, una relación directa o inversa, un plateau?"
+        ],
+        "items": [
+          "Paso 1: Identifica el objetivo del experimento (¿qué se quiere probar?)",
+          "Paso 2: Variable independiente = la que el investigador manipula",
+          "Paso 3: Variable dependiente = la que se mide como respuesta",
+          "Paso 4: Variables controladas = las que se mantienen constantes intencionalmente",
+          "Paso 5: Lee la tendencia o patrón en los datos antes de evaluar las conclusiones"
+        ]
+      },
+      {
+        "heading": "Cómo leer un gráfico científico",
+        "paragraphs": [
+          "Los gráficos en PAES suelen ser de línea, barra o dispersión. Antes de interpretar, lee los ejes: el eje horizontal (x) generalmente representa la variable independiente; el eje vertical (y) representa la variable dependiente. Verifica siempre las unidades y la escala (¿empieza en cero el eje y? Si no, ojo con la magnitud real de las diferencias).",
+          "Para gráficos de línea: una pendiente positiva indica relación directa (al aumentar x, aumenta y); pendiente negativa indica relación inversa. Un plateau o meseta indica que se alcanzó un límite o punto de saturación, lo que es científicamente relevante (por ejemplo, saturación de luz en fotosíntesis, temperatura óptima de enzima). Para gráficos de barra: compara alturas relativas e identifica cuál condición produjo el mayor o menor efecto. Un grupo de barras claramente diferente al control sugiere efecto del tratamiento."
+        ],
+        "items": [
+          "Lee siempre los rótulos de los ejes y las unidades antes de interpretar",
+          "Pendiente positiva = relación directa; negativa = inversa",
+          "Plateau o meseta = punto de saturación o límite del sistema",
+          "Grupo control = condición sin el factor experimental (línea base de comparación)",
+          "Escala logarítmica: diferencias pequeñas en el gráfico pueden ser enormes en valor real"
+        ]
+      },
+      {
+        "heading": "Ejemplos resueltos",
+        "paragraphs": [
+          "Ejemplo 1 — Identificar variables: Un investigador somete plantas de tomate a tres intensidades de luz (200, 400 y 600 lux) y mide la producción de oxígeno en ml/h. Mantiene temperatura, CO₂ y humedad constantes en todos los grupos. ¿Cuál es la variable independiente? → La intensidad de luz (200, 400, 600 lux), porque el investigador la manipuló de forma deliberada. ¿Cuál es la variable dependiente? → La producción de oxígeno (ml/h), porque es lo que se midió en respuesta. ¿Variables controladas? → Temperatura, CO₂ y humedad.",
+          "Ejemplo 2 — Evaluar una conclusión: Los resultados muestran que a 600 lux se produce el doble de O₂ que a 200 lux. Un estudiante concluye: 'La fotosíntesis es ilimitada: a más luz, siempre más oxígeno.' Esta conclusión es INVÁLIDA porque extrapola más allá de los datos: el experimento solo llegó hasta 600 lux y no demostró ausencia de límite. Una conclusión válida y bien restringida sería: 'En el rango 200–600 lux, la producción de O₂ aumenta con la intensidad de luz en plantas de tomate.'",
+          "Ejemplo 3 — Leer una curva enzimática: Se muestra un gráfico de actividad enzimática (eje y, en unidades relativas) vs. temperatura (eje x, en °C). La curva sube progresivamente hasta un máximo en 37 °C y luego cae bruscamente. Pregunta: ¿Qué fenómeno explica la caída a temperaturas superiores a 37 °C? → La desnaturalización de la enzima: el calor excesivo altera los puentes de hidrógeno y las interacciones que mantienen la estructura tridimensional de la proteína, destruyendo el sitio activo. La temperatura óptima es 37 °C (punto máximo del gráfico), y ese dato es directamente legible del gráfico sin necesitar saber el nombre de la enzima."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Confundir VI y VD: recuerda, la VI es la causa deliberada (lo que cambia el investigador); la VD es el efecto observado (lo que se mide).",
+          "Aceptar conclusiones que van más allá de los datos: si el experimento midió un rango, no puedes afirmar nada fuera de ese rango (extrapolación no respaldada).",
+          "Ignorar el grupo control: sin grupo control no hay comparación válida; identifícalo siempre antes de evaluar conclusiones.",
+          "Confundir correlación con causalidad: dos variables que cambian juntas no implican que una cause la otra.",
+          "Leer el gráfico sin verificar la escala: un eje que no empieza en 0 puede hacer que una diferencia pequeña parezca enorme o que una diferencia real parezca insignificante."
+        ]
+      },
+      {
+        "heading": "Checklist antes de responder",
+        "items": [
+          "¿Identifiqué claramente la VI, la VD y las VC del experimento?",
+          "¿Leí los rótulos de ambos ejes del gráfico, incluyendo unidades y escala?",
+          "¿La conclusión que elijo está respaldada estrictamente por los datos mostrados?",
+          "¿Descarté alternativas que extrapolan más allá del rango experimental?",
+          "¿Verifiqué que el grupo control está presente y lo usé como línea base de comparación?"
         ]
       }
     ]
@@ -50,52 +111,126 @@
   {
     "id": "ci-bio-celula",
     "area": "Biología",
-    "title": "La célula y los procesos vitales",
-    "duration": "12 min",
+    "title": "La célula: estructura, organelos y metabolismo",
+    "duration": "22 min",
     "practiceKeywords": [
-      "celula",
       "célula",
+      "celula",
       "mitocondria",
       "cloroplasto",
-      "fotosintesis",
       "fotosíntesis",
-      "respiracion",
+      "fotosintesis",
       "respiración",
-      "membran",
+      "respiracion",
+      "membrana",
       "procariota",
       "eucariota",
-      "adn",
-      "ATP"
+      "ADN",
+      "ATP",
+      "ribosoma",
+      "homeostasis",
+      "osmosis",
+      "ósmosis"
     ],
     "sections": [
       {
-        "heading": "Organización celular",
-        "text": "Toda célula tiene membrana y material genético. La presencia de núcleo distingue eucariotas de procariotas.",
-        "items": [
-          "Procariota: sin núcleo (bacterias)",
-          "Eucariota: núcleo definido (animal, vegetal, hongos)",
-          "Orgánulos clave: mitocondria (ATP), cloroplasto (fotosíntesis), ribosoma (proteínas)"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "La célula es la unidad fundamental de la vida y representa uno de los bloques temáticos más evaluados en PAES Biología. Las preguntas abordan tres niveles: (1) identificar tipos y componentes celulares, (2) explicar procesos metabólicos como fotosíntesis y respiración celular, y (3) relacionar la estructura con la función, especialmente en el contexto de homeostasis y transporte de membrana.",
+          "Para Medicina, este tema es base de Bioquímica, Histología y Fisiología celular. Para Ingeniería en Biotecnología, es esencial para entender fermentación, bioproducción y diseño de biorreactores. Dominar la célula con profundidad y precisión conceptual diferencia a quienes aspiran a puntajes superiores a 800."
         ]
       },
       {
-        "heading": "Metabolismo",
-        "formulas": [
-          "Fotosíntesis: CO₂ + H₂O + luz → glucosa + O₂",
-          "Respiración: glucosa + O₂ → CO₂ + H₂O + ATP"
+        "heading": "Tipos celulares: procariota y eucariota",
+        "paragraphs": [
+          "Existen dos grandes tipos de células: procariota y eucariota. Las células procariotas (bacterias y arqueas) carecen de núcleo definido: su material genético (ADN circular) flota en el citoplasma en una región llamada nucleoide. No tienen organelos membranosos internos, pero sí ribosomas (más pequeños, 70S). Son las células más antiguas evolutivamente y las más abundantes en la biosfera.",
+          "Las células eucariotas poseen núcleo verdadero delimitado por la envoltura nuclear. Incluyen células animales, vegetales, fúngicas y protistas. Tienen organelos membranosos especializados que permiten compartimentar reacciones químicas, aumentando la eficiencia metabólica y evitando interferencias entre vías metabólicas incompatibles. Sus ribosomas son más grandes (80S). La célula vegetal se distingue de la animal por tener pared celular de celulosa, cloroplastos y una vacuola central grande."
         ],
         "items": [
-          "Fotosíntesis ocurre en cloroplastos; respiración en mitocondrias",
-          "Ambos procesos están complementarios en el flujo de materia y energía",
-          "Homeostasis: mantener condiciones internas estables"
+          "Procariota: sin núcleo definido, ADN circular en nucleoide, ribosomas 70S — bacterias y arqueas",
+          "Eucariota animal: núcleo, mitocondrias, RE rugoso y liso, aparato de Golgi, lisosomas, centríolos",
+          "Eucariota vegetal: igual que animal + cloroplastos, pared celular de celulosa, vacuola central grande",
+          "Diferencia crítica PAES: célula vegetal tiene pared celular y cloroplastos; la animal no"
         ]
       },
       {
-        "heading": "Para la PAES",
+        "heading": "Organelos y sus funciones",
+        "paragraphs": [
+          "Cada organelo cumple una función específica que la célula no podría realizar sin él. Conocer la relación estructura-función es fundamental para responder preguntas que presentan un escenario ('se observa acumulación de proteínas sin modificar en el citoplasma; ¿qué organelo está fallando?').",
+          "La mitocondria es el centro de producción de ATP mediante respiración aeróbica. Tiene doble membrana; la interna forma pliegues llamados crestas que aumentan enormemente la superficie disponible para la cadena de transporte de electrones. El cloroplasto (solo en células vegetales y algas) realiza la fotosíntesis. Contiene tilacoides apilados en granas (fase lumínica) y el estroma (fase oscura o ciclo de Calvin). El ribosoma sintetiza proteínas traduciendo la información del ARN mensajero; está presente en todas las células vivas. El retículo endoplasmático rugoso (RER), cubierto de ribosomas, sintetiza y procesa proteínas destinadas a secreción o a la membrana. El retículo endoplasmático liso (REL) sintetiza lípidos y es responsable de la detoxificación. El aparato de Golgi modifica, etiqueta y empaqueta proteínas en vesículas secretoras. El lisosoma digiere macromoléculas, partículas externas y organelos dañados (autofagia). La vacuola central en células vegetales mantiene la turgencia almacenando agua, pigmentos y metabolitos."
+        ],
         "items": [
-          "Si el gráfico muestra O₂ producido con luz, piensa en fotosíntesis",
-          "Si mencionan ATP y mitocondria, es respiración celular",
-          "Celula animal ≠ vegetal: la vegetal tiene pared y cloroplastos",
-          "Membrana = control de entrada/salida (permeabilidad selectiva)"
+          "Mitocondria → respiración celular aeróbica → producción de ATP (energía)",
+          "Cloroplasto → fotosíntesis → síntesis de glucosa a partir de CO₂ y H₂O",
+          "Ribosoma → síntesis de proteínas (presente en todos los seres vivos)",
+          "RE rugoso → procesamiento y transporte de proteínas",
+          "Aparato de Golgi → modificación, empaque y envío de proteínas",
+          "Lisosoma → digestión intracelular (autofagia, fagocitosis)",
+          "Vacuola central (vegetal) → turgencia, almacenamiento, pigmentación"
+        ]
+      },
+      {
+        "heading": "Metabolismo celular: fotosíntesis y respiración",
+        "formulas": [
+          "Fotosíntesis: 6CO₂ + 6H₂O + energía lumínica → C₆H₁₂O₆ + 6O₂",
+          "Respiración aeróbica: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ~38 ATP",
+          "Fermentación láctica: C₆H₁₂O₆ → 2 CH₃CHOHCOOH + 2 ATP (sin O₂)",
+          "Fermentación alcohólica: C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP (sin O₂)"
+        ],
+        "paragraphs": [
+          "La fotosíntesis ocurre en los cloroplastos en dos etapas estrechamente acopladas. La fase lumínica (en las membranas tilacoidales) capta la energía de la luz solar para descomponer agua (fotólisis), liberar O₂ como subproducto, y producir ATP y NADPH. La fase oscura o ciclo de Calvin (en el estroma del cloroplasto) usa ese ATP y NADPH para incorporar CO₂ atmosférico y sintetizar glucosa. La fotosíntesis es el proceso que introduce energía solar al ciclo de la materia orgánica.",
+          "La respiración celular aeróbica ocurre en tres etapas: glucólisis (en el citoplasma, convierte glucosa en dos moléculas de piruvato produciendo 2 ATP netos), ciclo de Krebs (en la matriz mitocondrial, oxida el piruvato y produce NADH y FADH₂) y cadena de transporte de electrones (en la membrana interna mitocondrial, usa el NADH y FADH₂ para producir ~34 ATP mediante la síntesis oxidativa). Sin oxígeno, las células recurren a la fermentación, que produce solo 2 ATP pero permite regenerar el NAD⁺ necesario para que continúe la glucólisis.",
+          "Homeostasis es la capacidad de los seres vivos de mantener condiciones internas estables (temperatura, pH, concentración de solutos, presión osmótica) frente a cambios del ambiente externo. En el nivel celular, mecanismos como el transporte activo, la ósmosis y las bombas iónicas (por ejemplo, la bomba Na⁺/K⁺) son esenciales para este equilibrio dinámico."
+        ]
+      },
+      {
+        "heading": "Transporte de membrana",
+        "paragraphs": [
+          "La membrana plasmática es una bicapa fosfolipídica con proteínas integrales y periféricas (modelo de mosaico fluido). Su función principal es regular qué entra y sale de la célula (permeabilidad selectiva). El transporte pasivo no requiere energía y ocurre a favor del gradiente de concentración: difusión simple (moléculas pequeñas y apolares como O₂, CO₂, y etanol), difusión facilitada (mediante proteínas canal o transportadoras, para glucosa e iones) y ósmosis (movimiento del agua hacia la zona de mayor concentración de solutos a través de acuaporinas). El transporte activo requiere energía en forma de ATP y mueve sustancias contra el gradiente de concentración (por ejemplo, la bomba Na⁺/K⁺ saca 3 Na⁺ y entra 2 K⁺ por cada ATP hidrolizado)."
+        ],
+        "items": [
+          "Difusión simple: O₂, CO₂, alcoholes — a favor del gradiente, sin proteínas ni energía",
+          "Difusión facilitada: glucosa, iones — con proteínas, a favor del gradiente, sin energía",
+          "Ósmosis: agua hacia zona de mayor concentración de solutos (sin energía directa)",
+          "Transporte activo: contra el gradiente, requiere ATP (ej. bomba Na⁺/K⁺)"
+        ]
+      },
+      {
+        "heading": "Método paso a paso para preguntas de célula",
+        "items": [
+          "1. Identifica qué tipo de célula describe el enunciado: ¿procariota o eucariota? ¿animal o vegetal?",
+          "2. Si el enunciado menciona producción de O₂ con luz → fotosíntesis → organelo: cloroplasto.",
+          "3. Si menciona consumo de glucosa y producción de ATP → respiración celular → organelo: mitocondria.",
+          "4. Para transporte: verifica si hay gradiente (pasivo, sin ATP) o si se gasta energía (activo, con ATP).",
+          "5. Para homeostasis: identifica qué variable interna se está regulando y cuál mecanismo la mantiene."
+        ]
+      },
+      {
+        "heading": "Ejemplos resueltos",
+        "paragraphs": [
+          "Ejemplo 1 — Tipo celular: Se describe un organismo unicelular sin núcleo definido que habita en manantiales de temperatura superior a 80 °C. ¿Es procariota o eucariota? → Procariota (sin envoltura nuclear = sin núcleo definido), probablemente una arquea termófila. No tiene cloroplastos ni mitocondrias; su metabolismo puede ser quimiosintético o fermentativo.",
+          "Ejemplo 2 — Punto de compensación lumínica: Un gráfico muestra que a 0 lux una planta solo consume O₂ (neta negativa: solo respiración). Al aumentar la intensidad de luz, en un punto determinado la producción fotosintética de O₂ iguala exactamente el consumo respiratorio: ese punto se llama punto de compensación lumínica. Por encima de ese umbral, la planta tiene ganancia neta de O₂ (fotosíntesis > respiración). El experimento solo con la planta en luz no revela su tasa real de fotosíntesis porque simultáneamente está respirando.",
+          "Ejemplo 3 — Ósmosis: Una célula vegetal turgente se traslada a una solución hipertónica (mayor concentración de solutos que el citoplasma). El agua sale de la célula por ósmosis (hacia donde hay más solutos). La vacuola central se contrae, la membrana plasmática se separa de la pared celular → plasmólisis. Si en cambio se coloca en solución hipotónica (menos solutos que el interior), el agua entra, la vacuola se llena y la célula se pone turgente, ejerciendo presión de turgencia sobre la pared celular."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Procariota no es sinónimo de 'simple': algunas bacterias realizan fotosíntesis oxigénica (cianobacterias).",
+          "La fotosíntesis ocurre en el CLOROPLASTO, no en la mitocondria; la respiración celular en la MITOCONDRIA.",
+          "Respiración celular ≠ respiración pulmonar: la celular ocurre en todas las células (incluyendo plantas y bacterias).",
+          "ATP es la moneda energética que usa directamente la célula; la glucosa almacena energía pero debe procesarse primero.",
+          "Ósmosis: el agua se mueve hacia donde hay MÁS solutos (mayor concentración osmótica), no hacia donde hay más agua."
+        ]
+      },
+      {
+        "heading": "Checklist",
+        "items": [
+          "¿Identifiqué si la célula es procariota o eucariota (animal o vegetal)?",
+          "¿Relacioné cada organelo con su función metabólica específica?",
+          "¿Distinguí fotosíntesis (cloroplasto, luz + CO₂ → glucosa + O₂) de respiración (mitocondria, glucosa + O₂ → CO₂ + ATP)?",
+          "¿Apliqué correctamente el concepto de ósmosis (agua hacia mayor concentración de solutos)?",
+          "¿Determiné si el transporte de membrana requiere o no energía (pasivo vs. activo)?"
         ]
       }
     ]
@@ -103,50 +238,146 @@
   {
     "id": "ci-bio-evolucion",
     "area": "Biología",
-    "title": "Genética, evolución y ecosistemas",
-    "duration": "12 min",
+    "title": "Genética, evolución y ecología de ecosistemas",
+    "duration": "22 min",
     "practiceKeywords": [
       "gen",
-      "adn",
+      "ADN",
+      "cromosoma",
       "cromosom",
       "dominante",
       "recesivo",
-      "seleccion",
       "selección",
+      "seleccion",
       "ecosistema",
-      "trofica",
       "trófica",
-      "mutacion",
+      "trofica",
       "mutación",
+      "mutacion",
+      "evolución",
       "evolucion",
-      "evolución"
+      "genotipo",
+      "fenotipo",
+      "alelo",
+      "biodiversidad"
     ],
     "sections": [
       {
-        "heading": "Genética básica",
-        "text": "El ADN contiene genes. El genotipo es la información genética; el fenotipo, la expresión observable.",
-        "items": [
-          "Dominante vs recesivo",
-          "Mutaciones aportan variabilidad",
-          "Cromosomas son ADN empaquetado"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "Genética, evolución y ecología forman tres de los ejes más evaluados en PAES Biología. La genética aparece en preguntas de herencia mendeliana (cruzas, cuadros de Punnett, probabilidad de genotipos), estructura del ADN y relación gen-proteína-fenotipo. La evolución abarca selección natural, adaptación, especiación y evidencias del proceso evolutivo. La ecología incluye cadenas y redes tróficas, flujo de energía, ciclos biogeoquímicos y relaciones interespecíficas.",
+          "Para Medicina, la genética es base de Genómica, Genética Médica, Oncología y Farmacogenómica. Para Ingeniería Biotecnológica, es esencial en edición génica, clonación y bioingeniería. Comprender ecosistemas conecta con Ingeniería Ambiental y Ciencias de la Sustentabilidad, áreas de alta demanda laboral."
         ]
       },
       {
-        "heading": "Evolución y ecología",
+        "heading": "Bases de genética molecular",
+        "paragraphs": [
+          "El ADN (ácido desoxirribonucleico) es la molécula portadora de la información genética. Está formado por nucleótidos: cada uno contiene un azúcar (desoxirribosa), un grupo fosfato y una base nitrogenada. Las cuatro bases son adenina (A), timina (T), citosina (C) y guanina (G). La doble hélice se sostiene por puentes de hidrógeno entre bases complementarias: A empareja con T, y C empareja con G (regla de Chargaff). Esta complementariedad es la base de la replicación fiel del ADN.",
+          "Un gen es un segmento de ADN que codifica la secuencia de aminoácidos de una proteína (o un ARN funcional). Los genes se ubican en cromosomas, que son moléculas de ADN empaquetadas con proteínas histonas. Los humanos tienen 46 cromosomas (23 pares): 22 pares de autosomas y 1 par de cromosomas sexuales (XX en mujeres, XY en hombres). El genotipo es el conjunto de alelos que posee un individuo; el fenotipo es la expresión observable del genotipo en interacción con el ambiente."
+        ],
         "items": [
-          "Selección natural favorece rasgos que aumentan sobrevivencia/reproducción",
-          "Cadenas y redes tróficas: flujo de energía",
-          "Relaciones: competencia, depredación, mutualismo",
-          "Impacto humano: contaminación y pérdida de biodiversidad"
+          "ADN: doble hélice, complementariedad A-T y C-G",
+          "Gen: segmento de ADN que codifica información funcional (proteína o ARN)",
+          "Cromosoma: ADN compactado con histonas (46 en humanos = 23 pares)",
+          "Alelo: versión alternativa de un gen en un locus dado",
+          "Genotipo: constitución alélica del individuo (ej. AA, Aa, aa)",
+          "Fenotipo: expresión observable del genotipo + ambiente"
         ]
       },
       {
-        "heading": "Para la PAES",
+        "heading": "Herencia mendeliana y cuadro de Punnett",
+        "paragraphs": [
+          "Mendel formuló las leyes de la herencia estudiando plantas de guisante con caracteres de herencia simple. La Ley de Segregación establece que cada individuo lleva dos alelos para cada gen y los separa al formar gametos, de modo que cada gameto lleva solo uno. La Ley de Distribución Independiente establece que genes en cromosomas distintos se heredan de forma independiente (no ligada).",
+          "Un alelo dominante (convención: letra mayúscula, ej. A) se expresa fenotípicamente con una sola copia (en individuos AA o Aa). Un alelo recesivo (letra minúscula, ej. a) solo se expresa cuando el individuo porta dos copias (aa). El cuadro de Punnett organiza los gametos posibles de cada progenitor para calcular probabilidades de genotipos y fenotipos en la descendencia. Para un cruce Aa × Aa: probabilidades genotípicas 1 AA : 2 Aa : 1 aa, y proporción fenotípica 3 dominante : 1 recesivo."
+        ],
         "items": [
-          "Selección natural no ‘elige a propósito’: favorece rasgos ya existentes",
-          "En una red trófica, la energía disminuye hacia los niveles superiores",
-          "Genotipo vs fenotipo: una mutación puede no verse si es recesiva",
-          "Impacto humano: interpreta tablas de biodiversidad o contaminación"
+          "Homocigoto dominante (AA): fenotipo dominante",
+          "Heterocigoto (Aa): fenotipo dominante (A enmascara a)",
+          "Homocigoto recesivo (aa): fenotipo recesivo",
+          "Cruce Aa × Aa → proporción fenotípica 3:1 (dominante:recesivo)",
+          "Cruce Aa × aa → proporción fenotípica 1:1 (dominante:recesivo)"
+        ]
+      },
+      {
+        "heading": "Mutaciones y variabilidad genética",
+        "paragraphs": [
+          "Una mutación es un cambio permanente en la secuencia de bases del ADN. Pueden ser puntuales (sustitución de una base), por inserción o deleción de bases (que desplazan el marco de lectura y suelen ser más graves), o cromosómicas (cambios en número de cromosomas, como trisomía 21, o en estructura). Las mutaciones son la fuente última de toda variabilidad genética en las poblaciones: sin mutaciones, no habría materia prima para la evolución.",
+          "No toda mutación tiene efecto fenotípico observable. Una mutación silenciosa cambia una base pero no altera el aminoácido sintetizado (por la redundancia del código genético). Una mutación en región no codificante puede no afectar ninguna proteína. Las mutaciones en células germinales (óvulos y espermatozoides) se transmiten a la descendencia; las mutaciones somáticas solo afectan al individuo. Las mutaciones también pueden ser el origen de enfermedades genéticas (ej. fibrosis quística, anemia falciforme) o de variaciones benignas."
+        ]
+      },
+      {
+        "heading": "Evolución y selección natural",
+        "paragraphs": [
+          "La teoría de la evolución por selección natural, propuesta por Charles Darwin y Alfred Russel Wallace, se basa en tres premisas fundamentales: (1) existe variabilidad heritable entre los individuos de una misma población; (2) los recursos son limitados y no todos los individuos sobreviven ni se reproducen igual de bien; (3) los individuos con variantes que favorecen su supervivencia y reproducción en ese ambiente específico dejan más descendencia que porta esas variantes. A lo largo de muchas generaciones, esas variantes aumentan su frecuencia en la población: la población evoluciona.",
+          "Es esencial comprender que la selección natural NO crea variaciones nuevas: solo actúa sobre variaciones que ya existen, generadas por mutaciones y recombinación genética. Los individuos no se 'adaptan a propósito': la selección es un proceso ciego que favorece lo que ya funciona en un ambiente dado. La evolución opera sobre poblaciones a través del tiempo, no sobre individuos durante su vida.",
+          "Las evidencias de la evolución incluyen: el registro fósil (que muestra formas ancestrales y trayectorias de cambio), las estructuras homólogas (estructuras con el mismo origen embrionario pero distintas funciones, como el ala del murciélago, la aleta de la ballena y el brazo humano), las estructuras análogas (misma función pero distinto origen, como el ala del ave y el ala del insecto, evidencia de evolución convergente), la biología molecular (similitud en secuencias de ADN y proteínas entre especies emparentadas) y la biogeografía (distribución geográfica de las especies que refleja su historia evolutiva y de deriva continental)."
+        ],
+        "items": [
+          "Selección natural: actúa sobre variación ya existente, no crea variaciones nuevas",
+          "Adaptación: rasgo heredable que aumenta el éxito reproductivo en un ambiente dado",
+          "Especiación: formación de nuevas especies, generalmente por aislamiento reproductivo",
+          "Evidencias evolutivas: fósiles, estructuras homólogas, similitud molecular, biogeografía"
+        ]
+      },
+      {
+        "heading": "Ecología: ecosistemas, flujo de energía y redes tróficas",
+        "paragraphs": [
+          "Un ecosistema es el sistema formado por la comunidad de organismos (componente biótico) y el entorno físico-químico (componente abiótico) con el que interactúan e intercambian materia y energía. La energía fluye en una sola dirección: sol → productores → consumidores primarios → consumidores secundarios → consumidores terciarios → descomponedores. En cada traspaso de un nivel trófico al siguiente se pierde aproximadamente el 90% de la energía como calor (segundo principio de la termodinámica), por lo que las cadenas tróficas raramente superan cuatro o cinco niveles.",
+          "Los productores primarios (plantas, algas, cianobacterias) son autótrofos: capturan energía solar mediante fotosíntesis y la convierten en materia orgánica. Los consumidores son heterótrofos: obtienen energía ingiriendo a otros organismos. Los descomponedores (hongos y bacterias saprofitas) degradan la materia orgánica muerta y devuelven nutrientes minerales al sustrato, cerrando los ciclos biogeoquímicos."
+        ],
+        "items": [
+          "Cadena trófica básica: Productor → Consumidor 1° → Consumidor 2° → Descomponedor",
+          "Pirámide de energía: cada nivel posee ~10% de la energía del nivel inferior",
+          "Red trófica: múltiples cadenas interconectadas = mayor resiliencia del ecosistema",
+          "Bioacumulación: ciertos contaminantes (ej. mercurio, DDT) se concentran en los niveles tróficos superiores (biomagnificación)"
+        ]
+      },
+      {
+        "heading": "Relaciones interespecíficas",
+        "items": [
+          "Depredación: depredador (+) se beneficia; presa (−) es perjudicada",
+          "Parasitismo: parásito (+) se beneficia; hospedero (−) es perjudicado",
+          "Mutualismo: ambas especies se benefician (+/+) — ej. abeja y flor en polinización",
+          "Comensalismo: una especie se beneficia (+), la otra no se afecta (0) — ej. rémora y tiburón",
+          "Competencia interespecífica: ambas se perjudican (−/−) al disputar recursos limitados"
+        ]
+      },
+      {
+        "heading": "Método paso a paso",
+        "items": [
+          "1. Para genética: escribe los genotipos de los progenitores y construye el cuadro de Punnett.",
+          "2. Calcula la proporción de genotipos y traduce a fenotipos según la dominancia indicada.",
+          "3. Para evolución: identifica si la pregunta pide el mecanismo (cómo ocurre), la evidencia (qué lo demuestra) o el resultado (cómo cambia la población).",
+          "4. Para ecología: traza la cadena o red trófica y sigue la dirección del flujo de energía (siempre unidireccional).",
+          "5. En impacto humano: relaciona la perturbación (contaminación, deforestación, caza) con sus consecuencias en la red trófica (cascadas tróficas, pérdida de biodiversidad)."
+        ]
+      },
+      {
+        "heading": "Ejemplos resueltos",
+        "paragraphs": [
+          "Ejemplo 1 — Herencia monohíbrida: Dos padres con ojos marrones de genotipo Aa se cruzan (Aa × Aa). Cuadro de Punnett: AA (25%), Aa (50%), aa (25%). Fenotipo marrón (A_) = 75%; azul (aa) = 25% = probabilidad de 1 en 4 por hijo. Si tienen cuatro hijos, estadísticamente 1 tendrá ojos azules, aunque puede variar por azar en una familia concreta.",
+          "Ejemplo 2 — Selección natural (melanism industrial): En poblaciones de la polilla Biston betularia en Inglaterra preindustrial, la mayoría era de color claro (mejor camuflaje sobre líquenes claros). Con la industrialización, los troncos se ennegrecieron. Las polillas oscuras (mutantes melánicas) pasaron a estar mejor camufladas y fueron depredadas menos. Su frecuencia aumentó en la población en pocas décadas. Este cambio no ocurrió porque las polillas 'eligieran' volverse oscuras: la variante ya existía como mutación; la selección simplemente cambió cuál fenotipo sobrevivía mejor.",
+          "Ejemplo 3 — Cascada trófica: En el Parque Yellowstone (EE.UU.), la eliminación de los lobos hizo que la población de ciervos aumentara sin control. El sobrepastoreo destruyó la vegetación ribereña, causó erosión y degradó los ríos. Al reintroducir lobos en 1995, la vegetación se recuperó y hasta cambió el curso de algunos ríos (fenómeno llamado 'ecología del miedo'). Pregunta tipo PAES: 'Si se elimina el depredador tope de un ecosistema, ¿qué ocurre primero?' → Aumenta la población de sus presas (consumidores primarios), lo que lleva a sobreconsumo de los productores."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "La selección natural NO es intencional ni teleológica: los organismos no 'se adaptan a propósito'.",
+          "Una mutación NO garantiza cambio fenotípico: puede ser silenciosa, en región no codificante, o recesiva.",
+          "La energía en redes tróficas fluye en un solo sentido y se pierde (~90%) en cada nivel; la materia sí se recicla.",
+          "Un alelo dominante no necesariamente es el más frecuente en la población: ej. la polidactilia es dominante pero poco frecuente.",
+          "Genotipo heterocigoto (Aa) expresa el fenotipo dominante, NO una mezcla intermedia (salvo casos de dominancia incompleta o codominancia, que deben estar indicados explícitamente)."
+        ]
+      },
+      {
+        "heading": "Checklist",
+        "items": [
+          "¿Definí genotipo y fenotipo correctamente y apliqué la dominancia o recesividad indicada?",
+          "¿Construí el cuadro de Punnett correctamente y calculé las proporciones genotípica y fenotípica?",
+          "¿Identifiqué el mecanismo de la selección natural: variación heredable → diferencial reproductivo → cambio en frecuencias alélicas?",
+          "¿Tracé la cadena o red trófica correctamente y seguí la dirección del flujo de energía?",
+          "¿Reconocí el tipo de relación interespecífica indicada en el enunciado (+/+, +/−, etc.)?"
         ]
       }
     ]
@@ -154,70 +385,151 @@
   {
     "id": "ci-fis-mecanica",
     "area": "Física",
-    "title": "Mecánica: movimiento y fuerzas",
-    "duration": "12 min",
+    "title": "Mecánica, energía y electricidad básica",
+    "duration": "22 min",
     "practiceKeywords": [
       "velocidad",
-      "aceleracion",
       "aceleración",
+      "aceleracion",
       "newton",
       "fuerza",
       "MRU",
       "MRUA",
-      "energia",
       "energía",
+      "energia",
       "trabajo",
       "ohm",
-      "m/s"
+      "m/s",
+      "resistencia",
+      "corriente",
+      "voltaje",
+      "cinemática",
+      "dinamica"
     ],
     "sections": [
       {
-        "heading": "Cinemática",
-        "text": "Describe el movimiento sin preguntar por sus causas. Distingue MRU (a=0) de MRUA (a constante).",
-        "formulas": [
-          "v = Δx/Δt",
-          "a = Δv/Δt",
-          "MRUA: x = v₀t + (1/2)at²"
-        ],
-        "items": [
-          "Gráfico x-t: pendiente = velocidad",
-          "Gráfico v-t: pendiente = aceleración; área ≈ desplazamiento"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "La Física en la PAES evalúa cuatro grandes bloques: cinemática (descripción cuantitativa del movimiento), dinámica (causas del movimiento mediante las leyes de Newton), trabajo y energía (conservación y transformación), y electricidad básica (Ley de Ohm y circuitos simples). Estos son los temas con mayor frecuencia en el banco de Física PAES, y también los que más dificultad generan porque requieren manejar simultáneamente conceptos cualitativos, ecuaciones algebraicas e interpretación gráfica.",
+          "Para Ingeniería, la mecánica clásica es la columna vertebral de Estática, Dinámica, Termodinámica y todos los cursos de Física universitaria. Para Medicina, las aplicaciones de fuerzas, presión hidrostática, fluidos y electricidad son la base de Biofísica y Biomecánica. Invertir tiempo en dominar este bloque tiene un retorno muy alto en puntaje diferenciador."
         ]
       },
       {
-        "heading": "Dinámica y energía",
+        "heading": "Cinemática: MRU y MRUA",
         "formulas": [
-          "F = m·a",
-          "P = m·g",
-          "Ec = (1/2)mv²",
-          "Ep = mgh"
+          "Velocidad media: v = Δx / Δt",
+          "Aceleración: a = Δv / Δt",
+          "MRU (velocidad constante): x = x₀ + v·t",
+          "MRUA — velocidad en función del tiempo: v = v₀ + a·t",
+          "MRUA — posición en función del tiempo: x = x₀ + v₀·t + (1/2)·a·t²",
+          "MRUA — velocidad sin tiempo: v² = v₀² + 2·a·Δx",
+          "Caída libre: a = g ≈ 9,8 m/s² ≈ 10 m/s² (hacia abajo)"
+        ],
+        "paragraphs": [
+          "La cinemática describe el movimiento sin preguntar por sus causas. El Movimiento Rectilíneo Uniforme (MRU) se caracteriza por velocidad constante y aceleración cero. El Movimiento Rectilíneo Uniformemente Acelerado (MRUA) tiene aceleración constante y no nula, lo que produce velocidad cambiante de forma lineal y posición cambiante de forma parabólica.",
+          "Los gráficos son una herramienta clave. En el gráfico posición-tiempo (x-t): si la curva es una línea recta, la pendiente es la velocidad (MRU); si es una parábola, hay aceleración (MRUA). En el gráfico velocidad-tiempo (v-t): la pendiente es la aceleración; el área bajo la curva (entre dos instantes) es el desplazamiento. Una línea horizontal en v-t significa aceleración cero (MRU); una línea con pendiente constante significa MRUA.",
+          "La caída libre es un caso especial de MRUA: la aceleración es siempre g = 9,8 m/s² hacia abajo, independientemente de la masa del cuerpo (en ausencia de fricción del aire). Al lanzar un objeto verticalmente hacia arriba, sube desacelerando a 9,8 m/s²; en el punto máximo v=0 (pero a=g, no es cero); luego cae acelerando a 9,8 m/s²."
         ],
         "items": [
-          "1ª ley: inercia",
-          "2ª ley: F=ma",
-          "3ª ley: acción-reacción",
-          "Trabajo = fuerza × desplazamiento (en la dirección de la fuerza)"
+          "Gráfico x-t recto y con pendiente constante → MRU (v = constante, a = 0)",
+          "Gráfico x-t curvo (parábola) → MRUA (a = constante ≠ 0)",
+          "Gráfico v-t: pendiente = aceleración; área entre dos tiempos = desplazamiento",
+          "Caída libre: a = g = 9,8 m/s², independiente de la masa del cuerpo"
         ]
       },
       {
-        "heading": "Para la PAES",
+        "heading": "Dinámica: Leyes de Newton",
+        "formulas": [
+          "1ª Ley (inercia): si ΣF = 0, entonces v = constante (puede ser v = 0 o v ≠ 0)",
+          "2ª Ley (fundamental): ΣF = m · a (fuerza neta en Newtons, masa en kg, a en m/s²)",
+          "3ª Ley (acción-reacción): F₁₂ = −F₂₁ (actúan sobre cuerpos DISTINTOS)",
+          "Peso: P = m · g (en Newtons; g ≈ 9,8 m/s² ≈ 10 m/s²)",
+          "Fuerza de roce cinético: f_r = μ_c · N",
+          "Fuerza normal N = mg (sobre superficie horizontal sin otras fuerzas verticales)"
+        ],
+        "paragraphs": [
+          "La Primera Ley de Newton (inercia) establece que un cuerpo persiste en su estado de reposo o de movimiento uniforme a menos que una fuerza neta no nula actúe sobre él. Esto desmiente la intuición aristotélica de que 'hace falta fuerza para mantener el movimiento': en realidad, la fuerza solo es necesaria para cambiar el estado de movimiento. Si un objeto viaja a velocidad constante, la fuerza neta es cero (las fuerzas están equilibradas).",
+          "La Segunda Ley relaciona fuerza neta, masa y aceleración: ΣF = m·a. Si la fuerza neta es hacia la derecha y la masa es de 5 kg y produce 10 m/s², basta con que ΣF = 50 N. Doble fuerza → doble aceleración. Doble masa con la misma fuerza → mitad de aceleración. Siempre debes sumar vectorialmente TODAS las fuerzas que actúan sobre el cuerpo antes de aplicar esta ley.",
+          "La Tercera Ley establece que toda fuerza de acción tiene una reacción igual en magnitud y opuesta en dirección, pero ambas actúan sobre CUERPOS DISTINTOS. Por eso no se cancelan: si el suelo empuja al pie hacia arriba (normal) y el pie empuja al suelo hacia abajo (reacción), estas fuerzas no se anulan porque actúan sobre objetos diferentes. El error más común es querer cancelar fuerzas de la 3ª Ley al hacer la sumatoria sobre un solo cuerpo."
+        ],
         "items": [
-          "Primero clasifica: ¿te dan x-t, v-t o fuerzas?",
-          "MRU: v constante; MRUA: a constante",
-          "Peso P=mg no es lo mismo que masa m",
-          "Conservación de energía: Ec+Ep se mantiene si no hay fricción/trabajo externo"
+          "1ª Ley: ΣF=0 → el cuerpo permanece en reposo o en MRU",
+          "2ª Ley: ΣF = m·a → mayor fuerza o menor masa produce mayor aceleración",
+          "3ª Ley: las fuerzas acción-reacción actúan sobre CUERPOS DISTINTOS (no se anulan entre sí)",
+          "Peso P = mg (en Newtons, fuerza gravitacional) ≠ masa m (en kg, propiedad del cuerpo)"
         ]
       },
       {
-        "heading": "Electricidad básica (repaso frecuente)",
+        "heading": "Trabajo y energía mecánica",
         "formulas": [
-          "V = I·R (Ohm)",
-          "P = V·I"
+          "Trabajo: W = F · d · cos(θ) (en Joules; θ es el ángulo entre F y el desplazamiento)",
+          "Energía cinética: Ec = (1/2) · m · v²",
+          "Energía potencial gravitatoria: Ep = m · g · h",
+          "Energía mecánica total: Em = Ec + Ep",
+          "Conservación: Em₁ = Em₂ si no hay fricción ni trabajo externo",
+          "Potencia: P = W / t = F · v (en Watts)"
+        ],
+        "paragraphs": [
+          "El trabajo es la energía transferida a un objeto por la acción de una fuerza cuando existe desplazamiento en la dirección de esa fuerza. Si la fuerza es perpendicular al desplazamiento (θ = 90°, como la fuerza normal sobre un objeto que se mueve horizontalmente, o la fuerza centrípeta en movimiento circular), el trabajo es cero. Si la fuerza es opuesta al desplazamiento (θ = 180°), el trabajo es negativo (la fuerza extrae energía del objeto, como la fricción).",
+          "El teorema trabajo-energía establece que el trabajo neto realizado sobre un cuerpo es igual al cambio en su energía cinética. La conservación de la energía mecánica es una herramienta poderosa: si no hay fricción ni fuerzas externas distintas de la gravedad, la suma de energía cinética y potencial se conserva (Em₁ = Em₂). Esto permite resolver problemas de altura-velocidad sin necesitar el tiempo ni la aceleración."
+        ]
+      },
+      {
+        "heading": "Electricidad: Ley de Ohm y circuitos",
+        "formulas": [
+          "Ley de Ohm: V = I · R (V en Volts, I en Amperes, R en Ohms)",
+          "Potencia eléctrica: P = V · I = I² · R = V² / R (en Watts)",
+          "Resistencias en serie: R_eq = R₁ + R₂ + R₃ + ...",
+          "Resistencias en paralelo: 1/R_eq = 1/R₁ + 1/R₂ + 1/R₃ + ...",
+          "Energía eléctrica: E = P · t = V · I · t (en Joules)"
+        ],
+        "paragraphs": [
+          "La Ley de Ohm relaciona diferencia de potencial (voltaje, V), corriente eléctrica (I) y resistencia (R): V = I·R. La corriente eléctrica es el flujo de cargas (electrones en metales) por unidad de tiempo; la resistencia es la oposición al flujo de cargas. A mayor voltaje aplicado con la misma resistencia, más corriente circula. A mayor resistencia con el mismo voltaje, menos corriente.",
+          "En circuitos en serie, la corriente eléctrica es idéntica en todos los componentes (no se 'gasta'), pero el voltaje total se reparte entre las resistencias en proporción a su valor. La resistencia equivalente es la suma de todas las individuales, siempre mayor que cualquiera por separado. En circuitos en paralelo, el voltaje es el mismo en todas las ramas, pero la corriente total se divide entre ellas. La resistencia equivalente en paralelo es siempre menor que la menor de las resistencias individuales."
         ],
         "items": [
-          "Mayor resistencia → menor corriente (mismo V)",
-          "Circuitos serie: misma I; paralelo: mismo V",
-          "Si aparece Ohm en el banco, vuelve a V=IR"
+          "Serie: misma I en todos los elementos; V total se divide proporcionalmente",
+          "Paralelo: mismo V en todas las ramas; I total se divide entre las ramas",
+          "Mayor R → menor I para el mismo V (relación inversa)",
+          "R_eq en paralelo siempre es MENOR que la menor resistencia individual"
+        ]
+      },
+      {
+        "heading": "Método paso a paso",
+        "items": [
+          "1. Cinemática: clasifica el movimiento leyendo el gráfico o el enunciado (MRU: a=0 / MRUA: a=cte). Selecciona la fórmula adecuada.",
+          "2. Dinámica: dibuja el diagrama de cuerpo libre, identifica todas las fuerzas sobre el objeto y suma vectorialmente para obtener ΣF. Aplica ΣF = m·a.",
+          "3. Energía: identifica los dos instantes clave del problema (inicio y final). Si no hay fricción, aplica Em₁ = Em₂.",
+          "4. Electricidad: determina si los componentes están en serie o en paralelo antes de calcular R_eq. Luego aplica V = I·R.",
+          "5. Verifica siempre las unidades del Sistema Internacional: F en N, m en kg, a en m/s², V en Volts, I en A, R en Ω."
+        ]
+      },
+      {
+        "heading": "Ejemplos resueltos",
+        "paragraphs": [
+          "Ejemplo 1 — MRU: Un automóvil viaja a velocidad constante de 25 m/s. ¿Cuánto avanza en 12 s? → x = v·t = 25 × 12 = 300 m. Verificación: velocidad constante confirma MRU; se usa x = v·t (no la ecuación con a porque a=0).",
+          "Ejemplo 2 — MRUA con 2ª Ley de Newton: Un bloque de 8 kg parte del reposo y se le aplica una fuerza neta de 40 N. Calcular: (a) aceleración: a = ΣF/m = 40/8 = 5 m/s². (b) velocidad después de 6 s: v = v₀ + at = 0 + 5×6 = 30 m/s. (c) desplazamiento en esos 6 s: x = (1/2)at² = (1/2)(5)(36) = 90 m.",
+          "Ejemplo 3 — Conservación de energía: Una pelota de 3 kg cae desde una altura de 5 m (parte del reposo, g=10 m/s²). ¿Velocidad al llegar al suelo? Ep_inicial = mgh = 3×10×5 = 150 J = Ec_final = (1/2)mv². Despejando: v² = 2×150/3 = 100 → v = 10 m/s. No se necesitó usar las ecuaciones de cinemática: la conservación de energía fue más directa."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Masa (kg) ≠ Peso (N): P = mg. En la Luna, la masa no cambia pero el peso disminuye (g_Luna ≈ 1,6 m/s²).",
+          "MRU en gráfico v-t es una LÍNEA HORIZONTAL (velocidad constante), NO una línea con pendiente.",
+          "3ª Ley: las fuerzas de acción-reacción actúan sobre CUERPOS DISTINTOS; no se cancelan en la sumatoria de un mismo cuerpo.",
+          "Trabajo = 0 cuando la fuerza es perpendicular al desplazamiento (fuerza normal, fuerza centrípeta).",
+          "En Ohm: aumentar R con V constante REDUCE la corriente (I = V/R); no la aumenta."
+        ]
+      },
+      {
+        "heading": "Checklist",
+        "items": [
+          "¿Identifiqué si el movimiento es MRU (a=0) o MRUA (a=cte) y usé la fórmula correspondiente?",
+          "¿Dibujé el diagrama de cuerpo libre e incluí TODAS las fuerzas antes de aplicar ΣF=ma?",
+          "¿Apliqué conservación de energía mecánica identificando correctamente los dos instantes de interés?",
+          "¿Determiné si los resistores están en serie o en paralelo antes de calcular R_equivalente?",
+          "¿Verifiqué que todas las unidades son coherentes en el Sistema Internacional?"
         ]
       }
     ]
@@ -225,53 +537,157 @@
   {
     "id": "ci-quim-estructura",
     "area": "Química",
-    "title": "Estructura atómica y enlaces",
-    "duration": "12 min",
+    "title": "Estructura atómica, tabla periódica, enlaces y estequiometría",
+    "duration": "22 min",
     "practiceKeywords": [
-      "atomo",
       "átomo",
+      "atomo",
+      "protón",
       "proton",
       "electrón",
+      "electron",
+      "neutrón",
       "neutron",
       "mol",
       "enlace",
-      "ionico",
       "iónico",
+      "ionico",
       "covalente",
       "pH",
-      "acido",
       "ácido",
-      "reaccion",
+      "acido",
       "reacción",
-      "estequiometr"
+      "reaccion",
+      "estequiometr",
+      "tabla periódica",
+      "electronegatividad"
     ],
     "sections": [
       {
-        "heading": "Átomo y tabla periódica",
-        "text": "El número atómico (Z) es la cantidad de protones. El número másico (A) es protones + neutrones.",
-        "items": [
-          "Electrones = protones en un átomo neutro",
-          "Grupos: columnas; periodos: filas",
-          "Metales (izquierda), no metales (derecha), gases nobles (grupo 18)"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "La Química en la PAES evalúa tres grandes bloques que se conectan entre sí: (1) estructura atómica y tabla periódica — cómo está construido el átomo y cómo se organizan los elementos según sus propiedades; (2) tipos de enlace — cómo los átomos se unen para formar compuestos con propiedades predecibles; y (3) estequiometría y reacciones químicas — cómo se cuantifican y balancean las transformaciones químicas, incluyendo el concepto de mol, masa molar y pH.",
+          "Para Medicina, la Química es esencial en Bioquímica (metabolismo, enzimas, ácidos nucleicos), Farmacología (interacciones fármaco-receptor, grupos funcionales) y Fisiología (pH sanguíneo, equilibrio ácido-base). Para Ingeniería, es base de Termodinámica Química, Ciencia de Materiales y Procesos Industriales. Los fundamentos de estructura atómica también conectan con Biología (estructura del ADN, proteínas) y con Física (modelos atómicos, espectroscopía)."
         ]
       },
       {
-        "heading": "Enlaces, mol y reacciones",
+        "heading": "Estructura atómica",
+        "formulas": [
+          "Número atómico: Z = número de protones (identifica al elemento)",
+          "Número másico: A = Z + N (protones + neutrones)",
+          "Neutrones: N = A − Z",
+          "Átomo neutro: número de electrones = número de protones = Z",
+          "Isótopos: mismo Z, diferente A (mismo elemento, diferente número de neutrones)"
+        ],
+        "paragraphs": [
+          "El átomo es la unidad básica de la materia y está compuesto por un núcleo (protones con carga positiva y neutrones sin carga) rodeado de electrones (carga negativa) que se distribuyen en niveles de energía o capas electrónicas. El número atómico (Z) identifica inequívocamente al elemento: todos los átomos de carbono tienen Z=6, todos los de oxígeno tienen Z=8, sin excepción. El número másico (A) es la suma de protones y neutrones en el núcleo; como los electrones tienen masa despreciable, A aproxima la masa del átomo en unidades de masa atómica (uma).",
+          "Los isótopos son átomos del mismo elemento que difieren en el número de neutrones (mismo Z, diferente A). Por ejemplo, ¹²C (carbono-12) tiene 6 protones y 6 neutrones; ¹⁴C (carbono-14) tiene 6 protones y 8 neutrones. Ambos son carbono y se comportan químicamente de forma casi idéntica (misma configuración electrónica), pero ¹⁴C es radiactivo, lo que se usa en datación radiométrica. Los iones se forman cuando un átomo neutro gana electrones (anión, carga negativa) o pierde electrones (catión, carga positiva). La carga del ion indica cuántos electrones se ganaron o perdieron respecto al átomo neutro."
+        ],
         "items": [
-          "Iónico: metal + no metal (transferencia de electrones)",
-          "Covalente: no metales (comparten electrones)",
-          "Mol y masa molar para estequiometría",
-          "Balancea átomos a ambos lados de la ecuación",
-          "pH: ácidos <7, neutro =7, bases >7"
+          "Z = protones = número atómico (define la identidad del elemento)",
+          "A = protones + neutrones = número másico",
+          "N (neutrones) = A − Z",
+          "Átomo neutro: electrones = protones",
+          "Catión (ej. Na⁺): perdió electrones, carga positiva",
+          "Anión (ej. Cl⁻): ganó electrones, carga negativa"
         ]
       },
       {
-        "heading": "Para la PAES",
+        "heading": "Tabla periódica: organización y tendencias",
+        "paragraphs": [
+          "La tabla periódica organiza los 118 elementos conocidos por número atómico creciente en filas llamadas períodos (7 en total) y en columnas llamadas grupos o familias (18 grupos). Los elementos del mismo grupo tienen la misma cantidad de electrones en la capa de valencia (capa más externa), lo que les confiere propiedades químicas similares y explica por qué los halogenuros (grupo 17) siempre forman iones con carga −1 o por qué los alcalinos (grupo 1) forman iones con carga +1.",
+          "Las tendencias periódicas son herramientas predictivas. La electronegatividad (capacidad de atraer hacia sí los electrones de un enlace) aumenta de izquierda a derecha en un período y de abajo hacia arriba en un grupo: el flúor es el elemento más electronegativo. El radio atómico (tamaño del átomo) tiene la tendencia inversa: aumenta hacia abajo y hacia la izquierda. La energía de ionización (energía mínima para arrancar un electrón de un átomo gaseoso) aumenta de izquierda a derecha y de abajo hacia arriba. Estas tendencias permiten comparar elementos sin memorizar valores exactos."
+        ],
         "items": [
-          "Z = protones; A − Z = neutrones",
-          "Iones: pierden/ganan electrones (carga)",
-          "Balancea primero átomos, después verifica coeficientes",
-          "pH: cada unidad es ×10 en [H⁺]; no es escala lineal ‘suave’"
+          "Grupo 1 (alcalinos): Na, K — pierden 1 e⁻ → catión +1, muy reactivos",
+          "Grupo 2 (alcalinotérreos): Mg, Ca — pierden 2 e⁻ → catión +2",
+          "Grupos 13–17: no metales con alta electronegatividad hacia la derecha",
+          "Grupo 17 (halógenos): F, Cl — ganan 1 e⁻ → anión −1",
+          "Grupo 18 (gases nobles): Ne, Ar — configuración estable, muy poco reactivos",
+          "Electronegatividad y energía de ionización ↑ → hacia arriba y derecha",
+          "Radio atómico ↑ → hacia abajo e izquierda"
+        ]
+      },
+      {
+        "heading": "Tipos de enlace químico",
+        "paragraphs": [
+          "Un enlace químico es la fuerza electrostática que mantiene unidos a los átomos en una molécula o en un cristal. El tipo de enlace que se forma depende fundamentalmente de la diferencia de electronegatividad (ΔEN) entre los átomos involucrados y de si son metales o no metales.",
+          "El enlace iónico se forma principalmente entre un metal y un no metal cuando la ΔEN es grande (>1,7 en la escala de Pauling). El metal, con baja electronegatividad, cede uno o más electrones al no metal, más electronegativo, formando cationes y aniones que se atraen electrostáticamente en una red cristalina tridimensional. Ejemplo clásico: NaCl (sal de mesa), donde Na dona un electrón a Cl → Na⁺ y Cl⁻. Los compuestos iónicos son sólidos a temperatura ambiente, tienen alto punto de fusión y conducen electricidad cuando están fundidos o disueltos en agua (porque los iones quedan libres para moverse).",
+          "El enlace covalente se forma entre no metales que comparten uno o más pares de electrones. Si la ΔEN es pequeña (<0,5), el enlace es covalente apolar (los electrones se comparten de forma simétrica): H₂, O₂, N₂, Cl₂. Si la ΔEN es intermedia (0,5–1,7), el enlace es covalente polar: un átomo atrae los electrones compartidos con más fuerza, creando un dipolo eléctrico. Ejemplos: H₂O (O más electronegativo que H), HCl, NH₃. El enlace metálico ocurre entre átomos de metales: los electrones de valencia se deslocalizan formando una 'nube electrónica' que rodea a la red de cationes metálicos positivos. Esto explica la conductividad eléctrica y térmica, la maleabilidad y el brillo de los metales."
+        ],
+        "items": [
+          "Iónico: metal + no metal, transferencia de e⁻, red cristalina (ej. NaCl, MgO, CaCl₂)",
+          "Covalente apolar: no metales con ΔEN < 0,5, comparten e⁻ simétricamente (ej. H₂, O₂, N₂)",
+          "Covalente polar: no metales con ΔEN 0,5–1,7, comparten e⁻ asimétricamente (ej. H₂O, HCl, NH₃)",
+          "Metálico: red de cationes + nube de e⁻ libres → conductividad, maleabilidad"
+        ]
+      },
+      {
+        "heading": "Mol, masa molar y estequiometría",
+        "formulas": [
+          "Número de Avogadro: Nₐ = 6,022 × 10²³ partículas/mol",
+          "Moles: n = masa (g) / masa molar M (g/mol)",
+          "Masa molar de un compuesto: suma de masas atómicas × número de átomos de cada elemento",
+          "En una reacción balanceada: los coeficientes son las razones molares entre todas las sustancias",
+          "Reactivo limitante: el que se agota primero; determina la cantidad máxima de producto",
+          "Rendimiento: % = (moles obtenidos experimentalmente / moles teóricos) × 100"
+        ],
+        "paragraphs": [
+          "El mol es la unidad del Sistema Internacional para cantidad de sustancia: 1 mol contiene exactamente 6,022 × 10²³ partículas (átomos, moléculas o iones). La masa molar de un elemento (en g/mol) es numéricamente igual a su masa atómica promedio que aparece en la tabla periódica. La masa molar de un compuesto se obtiene sumando las masas atómicas de todos sus átomos según la fórmula química.",
+          "La estequiometría cuantifica las relaciones entre reactantes y productos en una reacción química. El primer paso SIEMPRE es balancear la ecuación: los coeficientes deben asegurar que el número de átomos de cada elemento sea idéntico en reactantes y productos (Ley de Conservación de la Masa). Una vez balanceada, los coeficientes actúan como factores de conversión molar. El procedimiento estándar es: (1) convertir gramos a moles del reactante dado; (2) multiplicar por la razón molar de la ecuación balanceada; (3) convertir moles del producto a gramos usando su masa molar."
+        ]
+      },
+      {
+        "heading": "Ácidos, bases y pH",
+        "formulas": [
+          "pH = −log₁₀[H⁺] (escala logarítmica de base 10)",
+          "pH < 7: solución ácida ([H⁺] > [OH⁻])",
+          "pH = 7: solución neutra (agua pura a 25 °C)",
+          "pH > 7: solución básica o alcalina ([OH⁻] > [H⁺])",
+          "Cada unidad de pH representa un factor ×10 en concentración de H⁺",
+          "Neutralización: ácido + base → sal + H₂O (ej. HCl + NaOH → NaCl + H₂O)"
+        ],
+        "paragraphs": [
+          "Según la definición de Arrhenius, un ácido es una sustancia que al disolverse en agua libera iones H⁺ (protones), aumentando la concentración de iones hidronio [H₃O⁺]. Una base libera iones OH⁻. El pH es la escala logarítmica (de 0 a 14 en condiciones estándar) que mide la acidez o basicidad de una solución. Por ser logarítmica, una diferencia de 1 unidad en pH corresponde a una diferencia de 10 veces en la concentración de H⁺: una solución de pH 3 es 10 veces más ácida que una de pH 4, y 100 veces más ácida que una de pH 5.",
+          "Los ácidos fuertes (HCl, H₂SO₄, HNO₃) se disocian completamente en agua. Los ácidos débiles (CH₃COOH = ácido acético del vinagre) solo se disocian parcialmente. Lo mismo aplica a bases: NaOH es una base fuerte (disociación total), mientras que NH₃ (amoníaco) es una base débil. La reacción de neutralización entre un ácido fuerte y una base fuerte en cantidades estequiométricas produce una sal con pH neutro (7)."
+        ]
+      },
+      {
+        "heading": "Método paso a paso",
+        "items": [
+          "1. Átomo: lee el símbolo, obtén Z de la tabla periódica, calcula N = A − Z; para iones, ajusta el número de electrones según la carga.",
+          "2. Tabla periódica: usa las tendencias (electronegatividad, radio, energía de ionización) para comparar elementos sin memorizar valores exactos.",
+          "3. Enlace: identifica si los átomos son metal+no metal (→ iónico) o no metal+no metal (→ covalente, polar o apolar según ΔEN).",
+          "4. Estequiometría: balancea la ecuación primero; luego convierte masa → moles → moles del otro compuesto (usando razón molar) → masa.",
+          "5. pH: si [H⁺] = 10⁻ⁿ M, entonces pH = n. Para estimar: pH < 7 = ácido; recuerda que cada unidad de pH es un factor de ×10."
+        ]
+      },
+      {
+        "heading": "Ejemplos resueltos",
+        "paragraphs": [
+          "Ejemplo 1 — Átomo e ión: El cloro tiene Z=17 y A=35. Protones = 17, Neutrones = 35−17 = 18, Electrones = 17 (átomo neutro). Si forma el ión Cl⁻ (anión), gana 1 electrón: ahora tiene 18 electrones y 17 protones, carga neta = −1. Nota que la identidad del elemento no cambia (Z sigue siendo 17, es cloro); solo cambia el número de electrones.",
+          "Ejemplo 2 — Estequiometría completa: ¿Cuántos gramos de H₂O se producen al quemar completamente 4 g de H₂? Reacción: 2H₂ + O₂ → 2H₂O (ya balanceada; razón molar H₂:H₂O = 2:2 = 1:1). Paso 1: n(H₂) = 4 g ÷ 2 g/mol = 2 mol. Paso 2: razón 1:1 → n(H₂O) = 2 mol. Paso 3: masa(H₂O) = 2 mol × 18 g/mol = 36 g. Respuesta: se producen 36 g de agua.",
+          "Ejemplo 3 — pH y escala logarítmica: Solución A tiene [H⁺] = 10⁻² M → pH = 2. Solución B tiene [H⁺] = 10⁻⁵ M → pH = 5. ¿Cuántas veces es más ácida A que B? → 10⁻² / 10⁻⁵ = 10³ = 1000 veces. La solución A es 1000 veces más ácida aunque la diferencia en pH solo sea 3 unidades. Este cálculo demuestra por qué el pH es engañoso si se interpreta como una escala lineal."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Z ≠ A: Z es el número de protones (identidad del elemento); A incluye también los neutrones.",
+          "Los isótopos tienen el MISMO Z (son el mismo elemento) pero diferente A → mismas propiedades químicas, diferentes propiedades nucleares.",
+          "Enlace iónico no forma moléculas discretas: NaCl es una red cristalina infinita, no moléculas 'NaCl'.",
+          "pH no es lineal: pH 1 no es 'un poco más ácido' que pH 3; es 100 veces más ácido. Aplica el factor ×10 por unidad.",
+          "Al balancear ecuaciones: NUNCA cambies los subíndices de las fórmulas (alterarías los compuestos); SOLO modifica los coeficientes delante de cada fórmula."
+        ]
+      },
+      {
+        "heading": "Checklist",
+        "items": [
+          "¿Determiné correctamente Z, A, N y el número de electrones del átomo o ión dado?",
+          "¿Identifiqué el tipo de enlace basándome en metal/no metal y en la diferencia de electronegatividad?",
+          "¿Balanceé la ecuación química ANTES de realizar cualquier cálculo estequiométrico?",
+          "¿Seguí el procedimiento: masa → moles → moles del producto (por razón molar) → masa?",
+          "¿Apliqué la escala logarítmica del pH correctamente (cada unidad = ×10 en [H⁺])?"
         ]
       }
     ]

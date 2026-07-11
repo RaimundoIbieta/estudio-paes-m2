@@ -2,8 +2,8 @@
   {
     "id": "hcs-formato",
     "area": "Historia y Ciencias Sociales",
-    "title": "Formato y habilidades de la prueba",
-    "duration": "10 min",
+    "title": "Formato y habilidades de la PAES HCS",
+    "duration": "22 min",
     "practiceKeywords": [
       "fuente",
       "mapa",
@@ -12,36 +12,82 @@
       "argumento",
       "perspectiva",
       "localizar",
-      "analizar"
+      "analizar",
+      "habilidad",
+      "inferir",
+      "evaluar"
     ],
     "sections": [
       {
-        "heading": "Estructura PAES HCS",
-        "text": "La prueba combina Historia, Geografía y Educación ciudadana. Muchas preguntas parten de una fuente (texto, mapa o gráfico).",
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "La PAES de Historia y Ciencias Sociales no evalúa la capacidad de memorizar fechas ni de recitar nombres de batallas: evalúa si el estudiante puede razonar con fuentes históricas, geográficas y ciudadanas, extraer conclusiones fundamentadas y distinguir entre hechos e interpretaciones. Comprender a fondo el formato de la prueba es, en sí mismo, una ventaja competitiva: quien sabe qué tipo de habilidad se mide en cada ítem puede orientar su lectura, administrar su tiempo y descartar alternativas erróneas con mucha mayor eficiencia que quien entra sin esa conciencia estratégica.",
+          "La prueba consta de 65 preguntas de selección múltiple con cuatro alternativas y se rinde en 2 horas y 30 minutos, lo que deja un promedio de poco más de dos minutos por ítem. Los contenidos abarcan desde 1° hasta 4° medio y se organizan en tres ejes: Historia de Chile e Historia Universal, Geografía y territorio, y Educación ciudadana. Aproximadamente la mitad de las preguntas van acompañadas de una fuente primaria, una infografía, un mapa temático o un gráfico estadístico que el estudiante debe leer e interpretar antes de responder. Las preguntas sin fuente exigen aplicar conceptos o relacionar procesos a partir del conocimiento construido durante la enseñanza media.",
+          "Dominar el formato implica también reconocer los verbos que enuncian la habilidad requerida en cada ítem —localizar, identificar, interpretar, analizar, evaluar, relacionar, proponer— y aceptar que la alternativa correcta siempre debe poder sustentarse en evidencia explícita: en la fuente dada o en un concepto disciplinar preciso. Nunca en suposiciones, en lo que 'se sabe en general' o en información externa no vinculada al enunciado. Administrar el tiempo también es habilidad: si una pregunta toma más de tres minutos, conviene marcar la mejor opción disponible y continuar, revisando al final si hay tiempo."
+        ],
         "items": [
-          "65 preguntas de alternativa",
-          "2 horas de duración",
-          "Contenidos de 1° a 4° medio",
-          "Tres ejes: Historia, Geografía y Educación ciudadana"
+          "65 preguntas de selección múltiple, 2 h 30 min (~2 min por pregunta)",
+          "Tres ejes: Historia, Geografía, Educación ciudadana",
+          "~50 % de preguntas con fuente adjunta (texto, mapa o gráfico)",
+          "Alternativa correcta: siempre sustentable en evidencia explícita"
         ]
       },
       {
-        "heading": "Habilidades evaluadas",
+        "heading": "Habilidades cognitivas evaluadas",
+        "paragraphs": [
+          "La DEMRE distingue cuatro habilidades cognitivas progresivas. Localizar información consiste en identificar datos explícitos dentro de la fuente sin necesidad de inferencia: el dato está literalmente en el texto, la tabla o el gráfico y solo hay que encontrarlo y reconocerlo. Interpretar implica dar sentido a la información: conectar datos de la fuente con conocimiento previo o con otras partes del mismo documento para extraer una conclusión que no aparece escrita de forma literal. Evaluar exige tomar distancia crítica: juzgar la pertinencia, la coherencia o la confiabilidad de un argumento, identificar el punto de vista del autor o comparar dos interpretaciones distintas sobre un mismo fenómeno histórico o social. Proponer o aplicar supone trasladar un concepto o modelo explicativo a un caso nuevo que la fuente no presenta directamente, demostrando comprensión profunda del proceso o principio.",
+          "En la práctica, las preguntas de localización son las más rápidas de resolver pero también pueden ser tramposas si se lee apresuradamente: la alternativa incorrecta suele emplear vocabulario muy similar al del texto pero cambia sutilmente el sentido o la relación entre los elementos. Las preguntas de interpretación y evaluación son las más frecuentes en la PAES HCS y las que mayor diferencia estadística generan entre puntajes altos y medios. Para abordarlas correctamente, la secuencia recomendada es: leer la fuente completa sin apresurarse, formular con palabras propias la tesis o argumento central, revisar las cuatro alternativas y eliminar primero las que claramente contradigan la fuente o introduzcan información externa, y finalmente elegir la más precisa y acotada a lo que el enunciado realmente pregunta."
+        ],
         "items": [
-          "Localizar información en fuentes",
-          "Analizar e interpretar procesos históricos y sociales",
-          "Evaluar argumentos y perspectivas",
-          "Aplicar conceptos a situaciones concretas",
-          "Tip: primero clasifica la fuente (¿qué tipo de documento es?) y luego responde"
+          "Localizar: encontrar datos explícitos en la fuente",
+          "Interpretar: conectar datos con contexto para concluir algo no literal",
+          "Evaluar: juzgar argumentos, sesgos y fiabilidad",
+          "Proponer/aplicar: transferir conceptos a nuevas situaciones",
+          "Las preguntas de interpretación y evaluación son las más discriminantes"
         ]
       },
       {
-        "heading": "Cómo enfrentar una fuente",
+        "heading": "Método para enfrentar fuentes",
+        "paragraphs": [
+          "Ante cualquier fuente adjunta, el protocolo correcto sigue siempre el mismo orden: primero leer el encabezado antes que el cuerpo del documento —título, autor, fecha, institución de origen o contexto de producción—; segundo, preguntarse cuál es el propósito del documento (¿informa, persuade, registra, denuncia, legitima?); tercero, formular en una oración propia la idea central; y solo entonces leer las preguntas y las alternativas. Este orden evita el error más frecuente: ir directamente a la pregunta y buscar en la fuente únicamente lo que se quiere encontrar, distorsionando la lectura del documento completo. Para fuentes del siglo XIX o XX escritas en lenguaje formal o arcaico, no conviene detenerse en cada palabra desconocida; es más efectivo identificar el sujeto de cada oración principal, qué acción realiza y sobre qué objeto o consecuencia.",
+          "Para mapas temáticos, la secuencia es: leer primero la leyenda completa (categorías, colores o tramas), identificar la escala y la orientación, y solo entonces interpretar las distribuciones, concentraciones o vacíos representados. Confundir o ignorar la leyenda es el error más frecuente en preguntas de geografía. Para gráficos estadísticos —barras, líneas, torta, pirámides poblacionales—, comenzar por identificar el título, las variables en cada eje, la unidad de medida y la tendencia general antes de comparar valores puntuales específicos. En climogramas, recordar que la línea continua representa temperatura (eje izquierdo) y las barras representan precipitación (eje derecho); las escalas de ambos ejes son distintas y no pueden compararse directamente como si fueran la misma magnitud."
+        ],
         "items": [
-          "Lee el título, la fecha y el origen del documento",
-          "Pregunta: ¿quién habla? ¿con qué interés?",
-          "En mapas/gráficos: unidad, escala y tendencia antes del cálculo",
-          "Descarta alternativas que contradicen la fuente aunque ‘suenen’ correctas"
+          "Textos: encabezado → propósito → idea central → alternativas",
+          "Mapas: leyenda → escala → orientación → distribuciones",
+          "Gráficos: título → variables/unidades → tendencia → valores puntuales",
+          "Climogramas: línea = temperatura (izq.), barras = precipitación (der.), escalas distintas",
+          "Nunca elijas una alternativa que introduzca información ajena a la fuente"
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Fuente textual. Se presenta un fragmento de un discurso parlamentario de 1890 en que un diputado critica que el Presidente de la República puede remover ministros y nombrar funcionarios sin control del Congreso, concentrando atribuciones que deberían ser compartidas con el poder legislativo. La pregunta pide identificar el argumento central del autor. Alternativas: (A) el presidente debería ser elegido por el Congreso; (B) el sistema parlamentario limitaría los abusos del ejecutivo; (C) la Constitución de 1833 debe ser reemplazada de inmediato; (D) los ministros deberían ser elegidos por voto popular. Razonamiento: la queja del autor es que el ejecutivo acumula poder sin contrapeso legislativo, fundamento exacto del argumento parlamentarista. La opción A va más allá del texto. La C propone algo que la fuente no menciona. La D introduce una idea ausente. Respuesta: B.",
+          "Ejemplo 2 — Mapa demográfico. Se muestra un mapa de Chile con densidad poblacional por región. La pregunta pide explicar por qué la zona central concentra la mayor densidad. Un estudiante promedio responde solo 'porque ahí está Santiago'. El estudiante de alto puntaje conecta tres dimensiones: histórica (sede del poder colonial desde el siglo XVI y del republicano desde el XIX), geográfica (clima mediterráneo favorable para la agricultura y la habitabilidad) y económica (mayor oferta de empleo, servicios educacionales y oportunidades). La alternativa que solo menciona 'la capital' es incompleta; la que dice 'mayor extensión territorial' es errónea porque confunde superficie con densidad relativa.",
+          "Ejemplo 3 — Caso ciudadano. El Ejecutivo dicta un reglamento que amplía las facultades policiales sin respaldo en una ley aprobada por el Congreso. La Contraloría General de la República representa el decreto por inconstitucionalidad. La pregunta pide identificar el principio del Estado de derecho involucrado. Razonamiento: la Contraloría ejerce el control preventivo de legalidad sobre los actos administrativos; el principio en juego es el de legalidad, que establece que los órganos del Estado solo pueden hacer aquello que la ley expresamente les autoriza. 'Separación de poderes' describe la organización del Estado en tres ramas, no el mecanismo de control de los actos administrativos. 'Soberanía popular' alude al origen del poder, no a su control."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Elegir la alternativa históricamente verdadera pero que no se desprende de la fuente entregada en el ítem",
+          "Confundir el tema del texto con la postura del autor: el tema puede ser 'la independencia'; la postura es la evaluación que hace el autor sobre ella",
+          "En gráficos, comparar dos valores puntuales sin observar la tendencia del conjunto",
+          "En mapas, confundir extensión territorial con densidad poblacional",
+          "Suponer que la alternativa más larga o más detallada es necesariamente la correcta",
+          "No leer el encabezado de la fuente y perder el contexto de producción del documento"
+        ]
+      },
+      {
+        "heading": "Checklist de repaso",
+        "items": [
+          "¿Sé cuántas preguntas tiene la prueba y cuánto tiempo promedio puedo dedicar a cada una?",
+          "¿Identifico los cuatro verbos de habilidad cognitiva: localizar, interpretar, evaluar, proponer?",
+          "¿Aplico el protocolo encabezado → propósito → idea central → alternativas?",
+          "¿Leo leyenda y ejes antes de interpretar mapas y gráficos?",
+          "¿Elimino alternativas que van más allá de lo que dice la fuente o que la contradicen?",
+          "¿Distingo el tema del texto de la postura del autor?"
         ]
       }
     ]
@@ -49,8 +95,8 @@
   {
     "id": "hcs-chile-xix",
     "area": "Historia",
-    "title": "Chile en el siglo XIX: formación del Estado",
-    "duration": "12 min",
+    "title": "Chile en el siglo XIX: de la Independencia al Estado salitrero",
+    "duration": "22 min",
     "practiceKeywords": [
       "independencia",
       "constitucion",
@@ -62,35 +108,75 @@
       "xix",
       "1810",
       "1818",
-      "1879"
+      "1879",
+      "portales",
+      "araucania",
+      "pacifico"
     ],
     "sections": [
       {
-        "heading": "Ideas clave",
-        "text": "El siglo XIX va de la Independencia a la consolidación del Estado republicano y la expansión territorial. En la PAES importa más la relación causa–efecto que memorizar una fecha aislada.",
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "El siglo XIX chileno es uno de los períodos más evaluados en la PAES HCS porque condensa procesos fundacionales que explican la estructura del Chile contemporáneo: la ruptura con el Imperio español, la construcción del aparato estatal republicano, la formación de una economía de enclave exportador y la definición del territorio nacional. La prueba no pregunta cuándo ocurrió cada batalla; pregunta por qué ocurrió, qué cambió a consecuencia de eso y qué continuó igual. Comprender este período como una secuencia de problemas y soluciones —no como una lista de fechas— es la clave para responder correctamente los ítems.",
+          "Las fuentes del XIX que suelen aparecer en la PAES son documentos políticos (discursos parlamentarios, proclamas, constituciones), textos de viajeros extranjeros que describen la sociedad chilena, y estadísticas o gráficos sobre producción minera o comercio exterior. En todos los casos, el examinador busca que el estudiante identifique el contexto del documento, el propósito del autor y la relación entre el contenido de la fuente y el proceso histórico que se está estudiando. Una respuesta de alto puntaje conecta la fuente con el proceso más amplio: no basta citar lo que dice el texto, hay que explicar por qué importa en ese momento histórico."
+        ],
         "items": [
-          "Independencia (1810–1818): ruptura con España; figuras como O'Higgins y San Martín",
-          "Organización republicana: Constitución de 1833 y orden portaliano",
-          "Expansión territorial hacia el sur y el norte",
-          "Economía salitrera y consolidación del Estado liberal"
+          "Proceso, no fechas: causa–efecto, continuidad–cambio",
+          "Fuentes frecuentes: proclamas, constituciones, estadísticas económicas, viajeros",
+          "Período: desde la Independencia (1810–1818) hasta la crisis parlamentaria (1891)",
+          "Pregunta tipo: ¿qué problema resolvía o generaba una medida política?"
         ]
       },
       {
-        "heading": "Para la PAES",
-        "items": [
-          "Relaciona causas y consecuencias (no solo fechas)",
-          "Identifica continuidades y cambios entre periodos",
-          "Distingue hechos de interpretaciones historiográficas",
-          "Ejemplo de pregunta: ¿qué problema político resolvía la Constitución de 1833?"
+        "heading": "Concepto y teoría — procesos del siglo XIX",
+        "paragraphs": [
+          "La independencia de Chile no fue una ruptura espontánea sino la consecuencia de una crisis profunda del Imperio español desencadenada por la invasión napoleónica a la Península Ibérica en 1808 y la abdicación forzada de los Borbones. Al desaparecer la autoridad legítima en España, las élites criollas americanas —que habían acumulado poder económico y resentimiento frente a las restricciones del sistema colonial mercantilista— aprovecharon el vacío político para crear juntas de gobierno que, nominalmente en nombre del rey cautivo Fernando VII, comenzaron a ejercer un autogobierno creciente. En Chile, la Primera Junta de Gobierno de 1810 marcó el inicio del proceso: no era todavía una declaración de independencia, sino un primer paso hacia la autonomía que, tras la Reconquista española (1814–1817), la victoria patriota en Chacabuco (1817) y Maipú (1818), desembocó en la Declaración de Independencia del 12 de febrero de 1818. La continuidad con el período colonial es mayor de lo que el relato heroico sugiere: las mismas familias criollas que se habían enriquecido bajo la Corona dirigieron el nuevo Estado, preservando la estructura social jerárquica.",
+          "La construcción del Estado republicano tras la independencia fue un proceso tortuoso marcado por conflictos entre distintos proyectos políticos. El período conocido como la 'anarquía' (1823–1830) vio desfilar numerosos gobiernos y constituciones fracasadas porque las élites no lograban acordar un modelo de organización: los liberales-federalistas querían descentralización y mayor participación; los conservadores defendían un poder central fuerte y la alianza con la Iglesia Católica. El triunfo conservador en la batalla de Lircay (1830) permitió al comerciante Diego Portales imponer su proyecto de 'orden y estabilidad': una autoridad ejecutiva poderosa, capaz de disciplinar tanto a las facciones políticas como a los sectores populares. La Constitución de 1833, vigente hasta 1925, consagró ese modelo: presidencialismo fuerte con períodos de cinco años renovables, sufragio censitario que excluía a analfabetos y sin renta (es decir, a la gran mayoría de la población), religión católica como oficial del Estado y un Consejo de Estado que asesoraba al Ejecutivo. Este orden permitió a Chile una relativa estabilidad política que contrastó con el caos de otras repúblicas latinoamericanas y facilitó la consolidación del aparato estatal.",
+          "La economía del siglo XIX chileno siguió el patrón de la economía de enclave exportador: la riqueza generada por los recursos naturales —plata en Copiapó (décadas de 1840–1870), trigo en el Valle Central (exportado masivamente durante la fiebre del oro californiana y australiana en 1849–1855), cobre en el norte chico y, finalmente, salitre en el extremo norte tras la Guerra del Pacífico— fluyó principalmente hacia los mercados europeos y norteamericanos, dejando escasos encadenamientos productivos internos. La dependencia de un único producto de exportación significó que cada caída del precio internacional del nitrato o del cobre generaba crisis fiscal, desempleo y tensión social en Chile. Este modelo de 'crecimiento hacia afuera' condicionó también la estructura social: junto a la oligarquía terrateniente y minera, fue emergiendo desde mediados del siglo XIX una clase media urbana (empleados públicos, comerciantes, profesionales) y un proletariado minero que comenzó a organizarse sindicalmente a fines del siglo, anticipando la 'cuestión social' del siglo XX. La figura del inquilino en la hacienda y del peón minero ilustra cómo el crecimiento económico no se traducía en bienestar para los sectores populares.",
+          "La expansión del territorio nacional fue otro proceso definitorio del siglo XIX y debe entenderse como una política deliberada del Estado, no como un evento puntual. Hacia el sur, la Araucanía seguía siendo territorio autónomo mapuche cuando comenzó el período republicano: el río Biobío había funcionado como frontera desde la época colonial. La 'Pacificación de la Araucanía' (1861–1883) fue en realidad una campaña militar de ocupación que desplazó a las comunidades mapuche de sus territorios y abrió la región a la colonización agrícola con inmigrantes europeos —especialmente alemanes en la zona lacustre del sur. Hacia el norte, la Guerra del Pacífico (1879–1884) enfrentó a Chile con Bolivia y Perú por el control de las provincias salitreras de Tarapacá y Antofagasta: Bolivia había aumentado unilateralmente los impuestos a la empresa salitrera chilena Compañía de Salitres de Antofagasta en 1878, violando el tratado de 1874, y Chile respondió apoyando militarmente a sus ciudadanos e intereses en la región. La victoria chilena incorporó los territorios más ricos en nitrato y dejó a Bolivia sin acceso al mar. Hacia el oriente, el Tratado de Límites con Argentina (1881) entregó la Patagonia a cambio de garantías sobre el estrecho de Magallanes. La Isla de Pascua fue anexada en 1888. Este conjunto de expansiones definió el mapa del Chile actual y sus conflictos territoriales latentes."
         ]
       },
       {
-        "heading": "Hitos que suelen aparecer",
+        "heading": "Método para analizar el período",
+        "paragraphs": [
+          "Al estudiar el siglo XIX con fines PAES, organiza el período en tres grandes etapas relacionadas causalmente: (1) Independencia y primeros intentos de organización (1810–1833): pregúntate quiénes se beneficiaban del nuevo orden y quiénes quedaban excluidos; (2) República conservadora y expansión (1833–1879): analiza qué papel jugaron el Estado, la Iglesia, el comercio exterior y las guerras en la consolidación del orden político; (3) Auge salitrero y crisis oligárquica (1879–1891): examina cómo la riqueza del salitre transformó las relaciones entre el Ejecutivo, el Congreso y los empresarios, y cómo eso desembocó en la guerra civil de 1891. Cada etapa hereda los problemas no resueltos de la anterior.",
+          "Para analizar fuentes del XIX, distingue siempre el tipo de documento: (a) texto normativo (constitución, ley, decreto) → pregúntate qué problema político resolvía y a quién beneficiaba; (b) discurso o proclama política → identifica quién habla, a quién se dirige y qué quiere convencer; (c) dato económico o estadística → observa la tendencia general antes de fijar un valor específico, y conéctalo con el modelo de economía exportadora; (d) descripción de un viajero → considera el sesgo cultural y la perspectiva externa, que puede diferir radicalmente de la visión interna criolla o mapuche. En todos los casos, el contexto de producción —¿en qué momento político fue escrito?, ¿quién lo escribió?— es tan importante como el contenido explícito."
+        ],
         "items": [
-          "Guerra del Pacífico (1879) y consolidación territorial del norte",
-          "Ocupación de la Araucanía y expansión hacia el sur",
-          "Ciclo del salitre: bonanza, dependencia y crisis posterior",
-          "No memorices solo el año: relaciona con el modelo de Estado"
+          "Etapa 1 (1810–1833): independencia y organización — ¿quién gana, quién pierde?",
+          "Etapa 2 (1833–1879): república conservadora — Estado, Iglesia, economía exportadora",
+          "Etapa 3 (1879–1891): salitre y crisis — relaciones Estado / empresariado / Congreso",
+          "Fuentes normativas: ¿qué problema resolvían? ¿a quién beneficiaban?",
+          "Estadísticas económicas: tendencia general antes del valor puntual"
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Fuente sobre Portales. Se presenta un fragmento en que Diego Portales, en una carta privada de 1834, afirma que el país necesita un 'gobierno fuerte, centralizador, cuyos hombres sean verdaderos modelos de virtud y patriotismo'. La pregunta pide identificar qué principio político sintetiza esa postura. Alternativas: (A) federalismo; (B) liberalismo político; (C) conservadurismo autoritario; (D) anarquismo. Razonamiento: Portales aboga por centralización y gobierno fuerte, que define al conservadurismo autoritario del período portaliano. El federalismo propugna exactamente lo contrario. El liberalismo defiende separación de poderes y pluralismo. El anarquismo rechaza toda autoridad estatal. Respuesta: C.",
+          "Ejemplo 2 — Guerra del Pacífico. La pregunta pide explicar por qué Chile, Bolivia y Perú entraron en conflicto en 1879. Una respuesta básica dice 'por el salitre'. Una respuesta de nivel PAES desarrolla: Bolivia aumentó unilateralmente los impuestos a la empresa salitrera chilena violando el tratado de 1874, que prohibía ese aumento por 25 años; Chile reclamó que eso rompía el acuerdo y apoyó militarmente a sus ciudadanos con intereses en la zona; Perú estaba aliado secretamente con Bolivia desde 1873 mediante el Tratado de Alianza Defensiva y debió intervenir. La causa inmediata fue el impuesto boliviano; la causa estructural, la disputa por el control de los ingresos del salitre en territorios donde coexistían capitales e intereses de los tres países.",
+          "Ejemplo 3 — Fuente sobre la Araucanía. Se presenta un fragmento de un diario de campaña militar de 1870 que describe el avance del Ejército chileno hacia el sur 'para llevar la civilización a las tierras bárbaras'. La pregunta pide identificar la perspectiva del autor y su limitación como fuente histórica. Razonamiento: el autor usa el discurso de la 'civilización versus barbarie', característico del pensamiento positivista-liberal del siglo XIX, que legitimaba la expansión estatal sobre territorios indígenas. Esta perspectiva silencia completamente la visión mapuche, que defendía su autonomía territorial. Para la PAES, la clave es reconocer que la fuente es parcial y que un análisis riguroso debe contrastarla con fuentes de las comunidades afectadas o con historiografía crítica."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Confundir la Primera Junta de Gobierno (1810) con la Declaración de Independencia (1818): son etapas distintas de un mismo proceso",
+          "Presentar la Constitución de 1833 como democrática: tenía sufragio censitario y excluía a la gran mayoría de la población",
+          "Reducir la Guerra del Pacífico a una causa única (el salitre) sin ver las tensiones geopolíticas previas y el tratado violado",
+          "Llamar 'Pacificación' a la ocupación de la Araucanía sin reconocer que fue una política de desplazamiento forzado desde la perspectiva mapuche",
+          "Creer que la estabilidad del siglo XIX fue fruto de consenso: fue resultado de la imposición de un orden por la fuerza tras Lircay (1830)"
+        ]
+      },
+      {
+        "heading": "Checklist de repaso",
+        "items": [
+          "¿Puedo explicar por qué la Primera Junta de 1810 no fue una declaración de independencia?",
+          "¿Entiendo qué problemas políticos resolvía y cuáles creaba la Constitución de 1833?",
+          "¿Distingo las causas inmediatas de las causas estructurales de la Guerra del Pacífico?",
+          "¿Puedo ubicar la Araucanía, Tarapacá, Antofagasta y Patagonia en un mapa de Chile?",
+          "¿Puedo explicar cómo el modelo exportador del salitre limitaba el desarrollo económico interno?",
+          "¿Reconozco el sesgo de las fuentes del XIX (viajeros, militares, políticos criollos)?"
         ]
       }
     ]
@@ -98,8 +184,8 @@
   {
     "id": "hcs-chile-xx",
     "area": "Historia",
-    "title": "Chile siglo XX: crisis, reformas y dictadura",
-    "duration": "12 min",
+    "title": "Chile en el siglo XX: crisis, reformas, dictadura y transición",
+    "duration": "22 min",
     "practiceKeywords": [
       "1973",
       "dictadura",
@@ -110,35 +196,77 @@
       "cobre",
       "reforma",
       "derechos humanos",
-      "xx"
+      "xx",
+      "golpe",
+      "allende",
+      "pinochet",
+      "1925",
+      "1988"
     ],
     "sections": [
       {
-        "heading": "Hitos principales",
-        "text": "El siglo XX combina crisis del modelo oligárquico, reformas sociales, polarización política, dictadura y transición democrática.",
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "El siglo XX chileno es el período más reciente y también uno de los más controversiales en la historiografía, lo que hace que la PAES ponga especial énfasis en la habilidad de evaluar fuentes con perspectivas distintas —incluso contradictorias— sobre los mismos hechos. Preguntas sobre la Unidad Popular, el golpe de 1973, la dictadura y la transición aparecen con alta frecuencia, a menudo acompañadas de fuentes primarias como discursos, documentos oficiales o datos económicos. La clave para responder bien no es tener una opinión política, sino comprender los procesos causales y los distintos puntos de vista con rigor histórico.",
+          "Este período cubre desde la crisis del modelo oligárquico-parlamentario a comienzos del siglo XX hasta la transición democrática de las décadas de 1980 y 1990, pasando por la industrialización, las reformas estructurales y la polarización política. La PAES evalúa si el estudiante puede relacionar causas estructurales (económicas, sociales) con desencadenantes coyunturales (crisis políticas, decisiones de actores) y si puede identificar continuidades entre períodos que superficialmente parecen radicalmente distintos. Por ejemplo, comprender que el neoliberalismo de la dictadura respondía a la crisis del Estado de Compromiso es tan importante como saber las fechas del golpe."
+        ],
         "items": [
-          "Crisis del modelo oligárquico y surgimiento de movimientos sociales",
-          "Reformas: educación, salud, nacionalización del cobre",
-          "Unidad Popular y crisis política de 1973",
-          "Dictadura militar (1973–1990) y transición a la democracia"
+          "Período: desde la crisis parlamentaria (1891) hasta la transición democrática (1990+)",
+          "Alta presencia de fuentes con perspectivas en conflicto sobre los mismos hechos",
+          "Clave: relacionar causas estructurales con desencadenantes coyunturales",
+          "Evaluar sin sesgos: distinguir descripción histórica de juicio moral"
         ]
       },
       {
-        "heading": "Conceptos frecuentes",
-        "items": [
-          "Democracia vs autoritarismo",
-          "Derechos humanos y memoria histórica",
-          "Reforma vs revolución",
-          "Economía de mercado vs intervención estatal"
+        "heading": "Concepto y teoría — procesos del siglo XX",
+        "paragraphs": [
+          "El siglo XX chileno comienza con la crisis del modelo oligárquico-parlamentario instalado tras la guerra civil de 1891. El sistema parlamentario favoreció la fragmentación política, la corrupción electoral y la parálisis del Ejecutivo, mientras la economía del salitre —que financiaba la mayor parte del presupuesto fiscal— comenzaba su declive ante la competencia del salitre sintético alemán (proceso Haber-Bosch, 1909) y la crisis global de posguerra en la década de 1920. Esta convergencia de crisis política y crisis económica creó las condiciones para la irrupción de nuevos actores sociales: los movimientos obreros organizados en sindicatos y mancomunales reclamaban condiciones laborales dignas en las salitreras y los puertos —la masacre de la Escuela Santa María de Iquique en 1907 marcó el punto máximo de esa tensión—, y la clase media urbana exigía acceso a la educación pública y a la administración del Estado. La 'cuestión social' —el conjunto de problemas de habitación, salud, trabajo y educación de los sectores populares— se convirtió en el problema político central de las primeras décadas del siglo, incapaz de ser resuelto por el sistema oligárquico.",
+          "Arturo Alessandri Palma llegó al gobierno en 1920 con el apoyo de la clase media y los sectores populares, prometiendo reformas sociales que el Congreso oligárquico bloqueó sistemáticamente. El conflicto entre el Ejecutivo reformista y el Legislativo conservador culminó en una inestabilidad que derivó en la intervención militar de 1924 y los sucesivos gobiernos de facto. En ese contexto se promulgó la Constitución de 1925, que reemplazó al parlamentarismo por un presidencialismo reforzado, separó formalmente la Iglesia del Estado, estableció derechos sociales básicos (trabajo, previsión, instrucción) y creó el Banco Central. La constitución del 25 instauró el Estado de Compromiso: el gobierno asumió un rol activo en la regulación económica y la provisión de bienestar. Durante las décadas de 1940 y 1960, el país avanzó en industrialización por sustitución de importaciones a través de la CORFO (fundada en 1939 tras el terremoto de Chillán), en educación pública masiva y en la ampliación de derechos políticos (voto femenino en 1949, extensión del sufragio a analfabetos en 1970).",
+          "Las décadas de 1960 y comienzos de 1970 estuvieron marcadas por un debate de fondo sobre el modelo de desarrollo: ¿reforma gradual o transformación estructural? El gobierno democratacristiano de Eduardo Frei Montalva (1964–1970) impulsó la 'chilenización' del cobre —compra del 51 % de las acciones de las empresas norteamericanas Anaconda y Kennecott—, la reforma agraria que redistribuyó tierras e intentó modernizar el agro, y una masiva expansión educacional. Sin embargo, la velocidad y el alcance de las reformas no satisfacían ni a la derecha (que las consideraba demasiado profundas) ni a la izquierda (que las consideraba insuficientes). En 1970 triunfó, por primera vez en una democracia occidental, un gobierno de izquierda marxista mediante elecciones libres: Salvador Allende, con la coalición Unidad Popular, obtuvo el 36,2 % de los votos y fue confirmado por el Congreso como presidente. Su programa incluía la nacionalización total del cobre (aprobada por unanimidad en el Congreso en 1971), la profundización de la reforma agraria, las estatizaciones industriales y la política de redistribución de ingresos a través del área social. Las tensiones sociales y políticas se agudizaron por la oposición organizada de la derecha, el bloqueo económico externo promovido por el gobierno de Nixon, el desabastecimiento de productos básicos y las contradicciones internas de la coalición, desembocando en el golpe militar del 11 de septiembre de 1973.",
+          "La dictadura militar encabezada por Augusto Pinochet (1973–1990) tuvo tres dimensiones simultáneas que deben comprenderse como un proyecto integral. La primera es la represión sistemática de derechos humanos: la Dirección de Inteligencia Nacional (DINA) y otras agencias operaron con detenciones arbitrarias, torturas, ejecuciones y desapariciones de opositores; el Informe Rettig (1991) documentó cerca de 3.200 víctimas de ejecución política y desaparición forzada. La segunda es la transformación radical del modelo económico: bajo la influencia de los 'Chicago Boys' —economistas formados en la escuela de Milton Friedman— se privatizaron las empresas estatales, se abrió la economía al comercio internacional, se redujo el Estado de Bienestar y se instauró un modelo de libre mercado que incluía el sistema de AFP (pensiones privadas) y la privatización parcial de salud (ISAPRES) y educación. La tercera es el cierre del espacio político: disolvió los partidos, quemó registros electorales, impuso censura de prensa y prohibió la actividad sindical. La Constitución de 1980, aprobada en un plebiscito sin garantías democráticas, sentó las bases del orden institucional que, con reformas, sigue vigente hasta hoy. El régimen comenzó su declive con la crisis económica de 1982, que pulverizó el 'milagro económico' y abrió paso a la protesta social masiva. El plebiscito de 1988, en que el 'No' a la continuidad de Pinochet triunfó con el 55,99 % de los votos, marcó el inicio formal de la transición. El primer presidente elegido democráticamente, Patricio Aylwin, asumió en 1990 enfrentando el legado de las violaciones de derechos humanos bajo la fórmula de 'verdad, justicia en la medida de lo posible y reconciliación'."
         ]
       },
       {
-        "heading": "Para la PAES",
+        "heading": "Método para analizar el período",
+        "paragraphs": [
+          "Para estudiar el siglo XX con eficacia en la PAES, organiza el período en cuatro etapas conectadas causalmente: (1) Crisis del modelo oligárquico y surgimiento de la cuestión social (1891–1932): el agotamiento del salitre y el parlamentarismo condicionan la inestabilidad y las reformas de los años 20; (2) Estado de Compromiso y reformismo (1932–1964): industrialización vía CORFO, ampliación de derechos, partidos de masas; (3) Polarización y reformas estructurales (1964–1973): reforma agraria, chilenización del cobre, Unidad Popular; (4) Dictadura y transición (1973–1990+): represión, neoliberalismo, recuperación democrática condicionada. Cada etapa hereda los problemas no resueltos de la anterior: la polarización de los 60 y 70 se explica por las reformas incompletas del Estado de Compromiso; el neoliberalismo de la dictadura responde a la crisis del modelo intervencionista.",
+          "Cuando la PAES te presente una fuente del siglo XX —un discurso de Allende, un comunicado de la Junta Militar, estadísticas de crecimiento económico, testimonios de víctimas—, aplica este protocolo: identifica quién habla y desde qué posición de poder (gobernante, opositor, víctima, organismo internacional); distingue entre lo que la fuente dice explícitamente y lo que omite o silencia; conecta el documento con la etapa histórica en que se inserta (¿en qué momento del proceso fue producido?); evalúa si el argumento de la fuente puede sustentarse en evidencia externa o es una construcción retórica para legitimar una posición. En fuentes sobre la dictadura o la represión, diferencia entre el lenguaje oficial —que tiende a justificar con argumentos del orden, la seguridad y el comunismo— y el lenguaje de las víctimas o los organismos de derechos humanos —que tiende a denunciar y documentar."
+        ],
         "items": [
-          "Distingue causas estructurales (economía, desigualdad) de desencadenantes",
-          "Dictadura: represión, transformación económica y cierre político",
-          "Transición: recuperación democrática con legados institucionales",
-          "Pregunta tipo: ¿qué continuidad/cambio hay entre 1970 y 1990?"
+          "Etapa 1 (1891–1932): crisis oligárquica, cuestión social, ruina del salitre",
+          "Etapa 2 (1932–1964): Estado de Compromiso, CORFO, industrialización",
+          "Etapa 3 (1964–1973): polarización, chilenización vs. nacionalización del cobre",
+          "Etapa 4 (1973–1990+): dictadura integral (represión + neoliberalismo) y transición",
+          "Fuentes del XX: ¿quién habla?, ¿qué omite?, ¿qué busca legitimar?"
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Continuidad y cambio. La pregunta pide identificar qué continuó igual entre el gobierno de Frei Montalva y el de Allende. Un estudiante promedio dice 'nada, eran proyectos opuestos'. Un estudiante de alto puntaje identifica las continuidades estructurales: ambos impulsaron la redistribución de tierras (la reforma agraria de Frei fue acelerada por Allende), ambos avanzaron en la participación ciudadana, y ambos operaron dentro del marco constitucional de 1925 con legitimidad democrática. El cambio relevante fue la profundidad y el ritmo de las transformaciones, el modelo de propiedad (mixta vs. estatización total) y la base social de apoyo (clase media democratacristiana vs. coalición obrera y campesina). La habilidad que se evalúa es distinguir entre cambio radical y cambio gradual de un mismo proceso.",
+          "Ejemplo 2 — Fuente sobre el golpe de 1973. Se presenta el primer bando militar del 11 de septiembre de 1973, en que la Junta declara que el 'vacío de poder' y el 'caos' obligan a las Fuerzas Armadas a asumir el gobierno para 'restablecer el orden'. La pregunta pide identificar el argumento que usa la Junta para justificar el golpe. Alternativas: (A) defender la soberanía frente a una invasión extranjera; (B) restablecer el orden ante la crisis institucional; (C) implementar un modelo económico eficiente; (D) proteger los derechos de los trabajadores. Razonamiento: el bando habla de 'vacío de poder' y 'caos', apelando a restablecer el orden. No menciona invasión extranjera ni derechos laborales; la C puede describir la política posterior, pero no es el argumento del bando. Respuesta: B.",
+          "Ejemplo 3 — La transición pactada. La pregunta pide explicar por qué la transición chilena se considera 'pactada' o 'negociada'. Razonamiento: a diferencia de otras transiciones latinoamericanas (Argentina, donde la dictadura colapsó tras la derrota en Malvinas), la transición chilena se realizó dentro del marco constitucional de 1980 impuesto por la propia dictadura, lo que significó que la democracia recuperada heredó enclaves autoritarios: senadores designados, la inamovilidad de Pinochet como Comandante en Jefe del Ejército hasta 1998, leyes de amnistía de 1978 que dificultaban el enjuiciamiento de los responsables. El proceso fue gradual y negociado, lo que explicó tanto la estabilidad de la transición como sus limitaciones para hacer justicia plena."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Presentar el golpe de 1973 como consecuencia únicamente de factores externos (EE.UU.) o únicamente internos: fue la interacción de ambos",
+          "Confundir la Constitución de 1925 (Estado de Compromiso) con la de 1980 (neoliberal y sin garantías democráticas en su origen): son proyectos opuestos",
+          "Asumir que la 'chilenización' del cobre (Frei, 1969) y la 'nacionalización' (Allende, 1971) son lo mismo: la primera fue compra parcial del 51 %; la segunda fue expropiación total",
+          "Creer que el plebiscito de 1988 restauró automáticamente la democracia: fue el inicio de un proceso que incluyó elecciones presidenciales, reformas constitucionales y comisiones de verdad",
+          "Olvidar que la represión de derechos humanos fue una política sistemática del Estado, no excesos individuales de agentes aislados"
+        ]
+      },
+      {
+        "heading": "Checklist de repaso",
+        "items": [
+          "¿Puedo explicar qué era la 'cuestión social' y por qué el parlamentarismo no podía resolverla?",
+          "¿Entiendo las diferencias de fondo entre la Constitución de 1925 y la de 1980?",
+          "¿Distingo claramente 'chilenización' (Frei) de 'nacionalización' (Allende) del cobre?",
+          "¿Puedo identificar los argumentos que usó la dictadura para justificar el golpe y contrastarlos con el relato de las víctimas?",
+          "¿Sé qué fue el Informe Rettig y qué papel jugó en la transición democrática?",
+          "¿Entiendo por qué la transición chilena se llama 'pactada' y cuáles fueron sus limitaciones?"
         ]
       }
     ]
@@ -146,8 +274,8 @@
   {
     "id": "hcs-geografia",
     "area": "Geografía",
-    "title": "Geografía de Chile y globalización",
-    "duration": "10 min",
+    "title": "Geografía de Chile: territorio, población, riesgos y globalización",
+    "duration": "22 min",
     "practiceKeywords": [
       "mapa",
       "clima",
@@ -158,33 +286,75 @@
       "sismo",
       "globaliz",
       "territorio",
-      "zona"
+      "zona",
+      "densidad",
+      "migración",
+      "volcan",
+      "humboldt"
     ],
     "sections": [
       {
-        "heading": "Chile: diversidad territorial",
-        "text": "La geografía chilena se explica por latitud, relieve y corriente de Humboldt. Eso condiciona clima, población y riesgos.",
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "El eje de Geografía en la PAES HCS evalúa principalmente habilidades de lectura e interpretación de fuentes cartográficas y estadísticas —mapas temáticos, climogramas, pirámides de población, gráficos de urbanización— más que la memorización de datos geográficos aislados. El estudiante debe ser capaz de leer correctamente la leyenda de un mapa, extraer la tendencia general de un gráfico demográfico y relacionar un fenómeno geográfico (por ejemplo, la concentración poblacional en el centro de Chile) con sus causas históricas, económicas y físicas. También se evalúa la comprensión de procesos contemporáneos como la globalización económica, la urbanización acelerada, la migración nacional e internacional y los riesgos naturales.",
+          "Chile presenta características geográficas excepcionales que se derivan de tres factores determinantes que conviene aprender como sistema, no como lista: su latitud extrema (desde los 17° S en el norte hasta los 56° S en el cabo de Hornos), su relieve (la Cordillera de los Andes al este, la Cordillera de la Costa al oeste y la Depresión Intermedia habitada entre ambas) y la corriente de Humboldt, que enfría el océano Pacífico frente a las costas chilenas reduciendo la evaporación y haciendo más árido el norte de lo que su latitud tropical sugeriría. La comprensión de estos tres factores permite deducir, sin memorizar, los rasgos de cada zona climática del país."
+        ],
         "items": [
-          "Zonas: norte árido, centro mediterráneo, sur lluvioso, zona austral/antártica",
-          "Concentración poblacional en el centro (empleo, servicios, histórico)",
-          "Riesgos: sismos, tsunamis, sequías, erupciones"
+          "PAES evalúa lectura de mapas, climogramas y gráficos demográficos, no memorización",
+          "Relacionar geografía física con dinámicas humanas (población, economía, riesgos)",
+          "Tres factores explicativos: latitud, relieve, corriente de Humboldt",
+          "Procesos actuales: globalización, urbanización, migración, riesgos naturales"
         ]
       },
       {
-        "heading": "Globalización y territorio",
-        "items": [
-          "Flujos de personas, bienes, capital e información",
-          "Urbanización y problemas metropolitanos (congestión, segregación)",
-          "Lee siempre la leyenda de mapas, climogramas y gráficos demográficos"
+        "heading": "Concepto y teoría — geografía de Chile y globalización",
+        "paragraphs": [
+          "Las zonas climáticas de Chile son consecuencia directa de la latitud y la corriente de Humboldt. El norte grande (regiones de Arica-Parinacota, Tarapacá y Antofagasta) alberga el desierto de Atacama, el más árido del mundo, con precipitaciones inferiores a 1 mm anual en algunas estaciones y extrema radiación solar; el altiplano andino de esta zona, sin embargo, recibe lluvias estivales (invierno boliviano). El norte chico (Atacama y Coquimbo) presenta un clima semiárido con vegetación de matorral y ocasionales florecimientos del desierto. La zona central (Valparaíso, Metropolitana, O'Higgins y parte del Maule) tiene un clima mediterráneo con veranos secos y calurosos e inviernos lluviosos, el más favorable para la habitabilidad humana y la agricultura de riego, lo que explica históricamente la concentración de población en esa zona. La zona sur (desde el Maule hasta Los Lagos) tiene un clima oceánico con lluvias distribuidas a lo largo del año y vegetación de bosque templado valdiviano. La zona austral (Aysén y Magallanes) presenta un clima frío-húmedo con vientos intensos, precipitaciones elevadas al occidente y estepa patagónica al oriente, con escasísima población.",
+          "La distribución de la población chilena es marcadamente desigual: más del 40 % de los aproximadamente 19 millones de habitantes se concentra en la Región Metropolitana de Santiago, y el 87 % de la población vive en zonas urbanas. Esta concentración es resultado de un proceso histórico de largo plazo: la zona central fue el asiento del poder colonial y republicano, la sede de la economía agrícola e industrial y el destino de sucesivas migraciones internas desde el norte minero (en declive tras la crisis del salitre en los años 20) y el sur agrícola. La urbanización chilena fue especialmente acelerada entre 1940 y 1980, generando problemas de segregación residencial (los sectores de menores ingresos se instalan en la periferia con menor acceso a servicios, transporte y áreas verdes), congestión vial, déficit habitacional y contaminación atmosférica (el smog de Santiago se intensifica por la cuenca rodeada de cordillera y el fenómeno de inversión térmica en invierno). Desde la década de 2000, la migración internacional ha transformado el perfil demográfico: la llegada de inmigrantes venezolanos, peruanos, haitianos y colombianos ha generado desafíos de integración cultural, acceso a servicios y regulación migratoria.",
+          "Chile es uno de los países con mayor exposición a riesgos naturales del mundo, lo que se explica por su posición en el Cinturón de Fuego del Pacífico. La subducción de la Placa de Nazca bajo la Placa Sudamericana genera una intensa actividad sísmica y volcánica: Chile concentra el 10 % de los volcanes activos del planeta y ha sufrido los terremotos más potentes registrados (Valdivia 1960, 9,5 en la escala de Richter; Maule 2010, 8,8). Los terremotos submarinos generan tsunamis que afectan las costas, como ocurrió en 2010 en las localidades de Constitución y Dichato. Las sequías afectan crecientemente la zona central y sur-centro como consecuencia del cambio climático, reduciendo la disponibilidad de agua para consumo humano, agricultura y generación eléctrica. Las inundaciones y aluviones afectan el norte en años de fenómeno de El Niño y el sur en períodos de alta pluviometría. La gestión del riesgo requiere planificación territorial (restricción de construcción en zonas de inundación o tsunami), sistemas de alerta temprana y educación de la ciudadanía para respuestas de evacuación. La globalización agrega un nuevo vector: eventos climáticos extremos en otros continentes afectan los precios de alimentos y energía en Chile, mostrando la interdependencia planetaria."
         ]
       },
       {
-        "heading": "Lectura de mapas y datos",
+        "heading": "Método para leer fuentes geográficas",
+        "paragraphs": [
+          "Ante un mapa temático en la PAES, sigue esta secuencia sin excepción: (1) leer el título completo del mapa para entender qué fenómeno representa; (2) leer la leyenda de arriba a abajo, anotando qué significa cada color, trama o símbolo; (3) identificar la escala para dimensionar las distancias reales; (4) observar la orientación (flecha norte) para ubicar correctamente las zonas; (5) solo entonces interpretar los patrones de distribución, concentración o ausencia representados. El error más frecuente en la PAES es interpretar un mapa sin leer bien la leyenda: un color oscuro puede significar 'mayor densidad' en un mapa de población y 'menor temperatura' en uno climático, dependiendo del fenómeno representado. No asumas el significado de los colores sin leer la leyenda.",
+          "Para climogramas, recuerda que el eje vertical izquierdo representa temperatura (en °C, línea continua generalmente roja) y el eje vertical derecho representa precipitación (en mm, barras generalmente azules); las dos escalas son completamente distintas y no pueden compararse entre sí. El análisis correcto identifica: el mes de temperatura máxima y mínima, el mes de mayor y menor precipitación, y la relación entre ambas variables (¿coincide el período lluvioso con el más frío o con el más cálido? En el clima mediterráneo, las lluvias son invernales; en el ecuatorial, las lluvias son todo el año). Para pirámides poblacionales, la base ancha indica alta natalidad y estructura joven (países en desarrollo); la base estrecha con cima más amplia indica envejecimiento y baja natalidad (países desarrollados). La comparación entre dos pirámides muestra la transición demográfica o el efecto de la migración (que concentra adultos jóvenes en la franja de 20–40 años)."
+        ],
         "items": [
-          "Ubica coordenadas, leyenda y orientación del mapa",
-          "Climogramas: temperatura (línea) vs precipitación (barras)",
-          "Densidad poblacional ≠ tamaño absoluto de población",
-          "Globalización: conecta un fenómeno local con un flujo mundial"
+          "Mapa: título → leyenda (¡no asumas colores!) → escala → orientación → distribución",
+          "Climograma: línea izq. = temperatura (°C), barras der. = precipitación (mm), escalas distintas",
+          "Pirámide: base ancha = joven/alta natalidad; base estrecha = envejecimiento",
+          "Densidad ≠ extensión: una región muy grande puede tener baja densidad poblacional",
+          "Globalización: conecta fenómenos locales con flujos mundiales (capital, personas, bienes, información)"
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Climograma de Santiago. El eje izquierdo muestra temperatura con máximo en enero (~28 °C) y mínimo en julio (~8 °C). El eje derecho muestra precipitación con máximo en junio-julio (~80 mm) y prácticamente cero en enero. La pregunta pide identificar el tipo de clima. Razonamiento: las lluvias se concentran en invierno (junio-julio) y las temperaturas son más altas en verano (enero), con una estación seca muy marcada. Eso define el clima mediterráneo. No es clima oceánico (en ese caso las lluvias serían distribuidas todo el año). No es desértico (habría precipitación casi nula siempre). No es continental (la amplitud térmica anual sería mucho mayor y las lluvias serían primaverales o estivales).",
+          "Ejemplo 2 — Mapa de riesgos sísmicos. Se muestra un mapa de Chile con zonas sombreadas según el riesgo sísmico. La pregunta pide explicar por qué Chile tiene alta sismicidad. Razonamiento: Chile está sobre la zona de subducción entre la Placa de Nazca (oceánica, más densa) y la Placa Sudamericana (continental); la primera se hunde bajo la segunda generando presión tectónica que se libera periódicamente en forma de terremotos. No es correcto decir que Chile tiene sismos 'por el clima' o 'por los Andes en sí mismos'; los Andes son también resultado del mismo proceso de subducción, no su causa. La respuesta correcta menciona las placas tectónicas y el proceso de subducción.",
+          "Ejemplo 3 — Globalización y economía chilena. La pregunta pide dar un ejemplo de cómo la globalización afecta a Chile. Una respuesta de nivel básico: 'Chile exporta cobre'. Una respuesta de nivel PAES: Chile se integra en los mercados mundiales como exportador de materias primas (cobre, litio, fruta, salmón, celulosa) e importador de tecnología, manufacturas y servicios financieros; los tratados de libre comercio (con EE.UU., la UE, China) han abierto mercados pero también aumentado la dependencia de precios internacionales; la migración es un flujo de trabajo intensificado por la globalización; las redes sociales y los medios digitales son un flujo de información que reconfigura la cultura y el consumo local. La globalización tiene así dimensiones económicas, demográficas y culturales simultáneas."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Confundir extensión territorial con densidad poblacional: la Región de Aysén es la más grande del país pero tiene una densidad de menos de 1 hab/km²",
+          "Leer el climograma comparando temperatura y precipitación en la misma escala: tienen ejes distintos y no son directamente comparables",
+          "Atribuir la aridez del norte solo a la latitud tropical: la corriente de Humboldt es igualmente determinante al enfriar el océano y reducir la evaporación",
+          "Creer que la globalización solo tiene efectos económicos, ignorando los culturales, demográficos y ambientales",
+          "Confundir riesgo (probabilidad y vulnerabilidad ante un evento potencial) con desastre (cuando el evento ocurre y afecta a una población sin capacidad de respuesta)"
+        ]
+      },
+      {
+        "heading": "Checklist de repaso",
+        "items": [
+          "¿Puedo explicar por qué el norte de Chile es desértico usando los tres factores (latitud, corriente de Humboldt, relieve)?",
+          "¿Identifico correctamente las zonas climáticas del país de norte a sur?",
+          "¿Leo un climograma sin confundir las escalas de temperatura y precipitación?",
+          "¿Distingo densidad poblacional de extensión territorial al interpretar un mapa?",
+          "¿Puedo relacionar la concentración de población en la zona central con causas históricas, geográficas y económicas?",
+          "¿Entiendo qué es la subducción y cómo explica tanto la sismicidad como el volcanismo chileno?"
         ]
       }
     ]
@@ -192,8 +362,8 @@
   {
     "id": "hcs-ciudadania",
     "area": "Educación ciudadana",
-    "title": "Democracia, instituciones y participación",
-    "duration": "10 min",
+    "title": "Estado de derecho, poderes del Estado y participación ciudadana",
+    "duration": "22 min",
     "practiceKeywords": [
       "democracia",
       "constitucion",
@@ -204,34 +374,73 @@
       "elección",
       "ciudadan",
       "estado de derecho",
-      "particip"
+      "particip",
+      "legalidad",
+      "soberania"
     ],
     "sections": [
       {
-        "heading": "Sistema político chileno",
-        "text": "El Estado de derecho se sostiene en la separación de poderes y en derechos fundamentales garantizados por la Constitución.",
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "El eje de Educación Ciudadana en la PAES HCS evalúa si el estudiante comprende cómo funciona el Estado democrático de derecho, qué derechos fundamentales garantiza, cómo se organiza el poder político en tres ramas y órganos autónomos, y cuáles son los mecanismos de participación ciudadana disponibles. Las preguntas suelen presentar un caso concreto —una decisión del gobierno, una ley impugnada, una movilización social, una resolución judicial— y piden identificar qué principio del Estado de derecho está en juego, qué poder del Estado interviene o qué derecho fundamental es relevante. La clave es conocer los principios y aplicarlos al caso concreto, no memorizar artículos de la Constitución.",
+          "La Educación Ciudadana abarca también la comprensión crítica de la democracia como sistema que va mucho más allá del acto de votar: incluye la deliberación pública, la fiscalización del poder, la defensa de los derechos humanos y la participación activa en organizaciones de la sociedad civil. La PAES puede presentar fuentes sobre movimientos sociales, organizaciones intermedias, medios de comunicación o mecanismos institucionales de rendición de cuentas, y pedir que el estudiante identifique el tipo de participación que representan, qué principio democrático expresan o qué tensión revelan entre distintos valores del sistema político."
+        ],
         "items": [
-          "Poderes: Ejecutivo, Legislativo y Judicial",
-          "Constitución, derechos y deberes ciudadanos",
-          "Elecciones, partidos y representación"
+          "Evalúa principios del Estado de derecho aplicados a casos concretos",
+          "Tres poderes: Ejecutivo, Legislativo, Judicial + órganos autónomos (TC, Contraloría)",
+          "Participación ciudadana: más allá del voto (fiscalización, deliberación, organización)",
+          "Derechos fundamentales: constitucionales e internacionales de DDHH"
         ]
       },
       {
-        "heading": "Ciudadanía activa",
-        "items": [
-          "Participar: votar, organizarse, fiscalizar, dialogar",
-          "Medios de comunicación y opinión pública",
-          "Diversidad, inclusión y no discriminación",
-          "Pregunta tipo: ¿qué principio del Estado de derecho limita el poder arbitrario?"
+        "heading": "Concepto y teoría — Estado de derecho y democracia",
+        "paragraphs": [
+          "El Estado de derecho es el sistema político en que el ejercicio del poder está sometido a normas jurídicas que nadie —ni las personas ni los propios órganos del Estado— puede transgredir sin consecuencias jurídicas. Sus cuatro principios fundamentales son: el principio de legalidad (los órganos del Estado solo pueden hacer lo que la ley expresamente les autoriza; los particulares, en cambio, pueden hacer todo lo que la ley no prohíba, diferencia crucial para la PAES); el principio de igualdad ante la ley (todas las personas son iguales frente a las normas jurídicas, sin discriminación arbitraria por origen, raza, sexo, condición económica o cualquier otra circunstancia); el principio de separación de poderes (el poder político se divide en Ejecutivo, Legislativo y Judicial para evitar la concentración y el abuso, mediante un sistema de frenos y contrapesos en que cada poder limita a los otros); y el principio de garantía de los derechos fundamentales (la Constitución y los tratados internacionales reconocen derechos que el Estado debe proteger activamente y que incluso los particulares deben respetar). Sin estos cuatro principios operando simultáneamente, puede existir un Estado como organización de poder, pero no un Estado de derecho.",
+          "En Chile, el Poder Ejecutivo está encabezado por el Presidente de la República, quien es jefe de Estado y jefe de Gobierno simultáneamente, elegido por sufragio universal directo por cuatro años sin reelección inmediata. El Presidente dirige la administración del Estado, promulga las leyes aprobadas por el Congreso, conduce las relaciones exteriores y tiene iniciativa exclusiva en materias de gasto público. El Poder Legislativo es bicameral: la Cámara de Diputadas y Diputados (155 miembros elegidos cada cuatro años en distritos plurinominales) y el Senado (50 senadores elegidos por ocho años, con renovación parcial cada cuatro años). El Congreso legisla, fiscaliza los actos del gobierno mediante interpelaciones y comisiones investigadoras, y aprueba el presupuesto nacional. El Poder Judicial está encabezado por la Corte Suprema y garantiza la aplicación imparcial de las leyes, protegiendo los derechos de las personas tanto frente al Estado como frente a otros particulares. Junto a estos tres poderes operan órganos autónomos de gran relevancia constitucional: la Contraloría General de la República controla la legalidad de los actos administrativos y la correcta inversión de los fondos públicos mediante la toma de razón; el Tribunal Constitucional realiza el control abstracto de constitucionalidad de las leyes; el Banco Central regula la política monetaria; y el Servicio Electoral (SERVEL) organiza los procesos electorales.",
+          "Los derechos fundamentales son garantías que el ordenamiento jurídico reconoce a todas las personas por el solo hecho de ser personas, con independencia de su nacionalidad, condición social o cualquier otra característica. La Constitución chilena los recoge en su artículo 19: el derecho a la vida e integridad física y psíquica, la igualdad ante la ley, la igual protección de la ley en el ejercicio de los derechos, la libertad de expresión, el derecho a la educación, la libertad de conciencia y religión, el derecho al trabajo en condiciones dignas, la libertad de asociación y la no discriminación arbitraria, entre los más relevantes para la PAES. Los tratados internacionales de derechos humanos ratificados por Chile —el Pacto Internacional de Derechos Civiles y Políticos, la Convención Americana sobre Derechos Humanos (Pacto de San José de Costa Rica), la Convención sobre los Derechos del Niño— tienen una jerarquía normativa superior a las leyes ordinarias. Los mecanismos de protección incluyen el recurso de protección (amparo de derechos constitucionales ante las Cortes de Apelaciones, procedimiento rápido y cautelar), el recurso de amparo o habeas corpus (protección de la libertad personal frente a detenciones ilegales o arbitrarias) y la acción de inconstitucionalidad ante el Tribunal Constitucional."
         ]
       },
       {
-        "heading": "Para la PAES",
+        "heading": "Método para analizar casos ciudadanos",
+        "paragraphs": [
+          "Cuando la PAES presente un caso ciudadano, aplica este protocolo de análisis en cinco pasos: (1) identifica quién actúa y en qué calidad (órgano del Estado, funcionario público, empresa privada, ciudadano organizado); (2) identifica qué acción realiza y si esa acción está autorizada o prohibida por la ley o la Constitución; (3) determina qué principio del Estado de derecho está en juego (legalidad, igualdad, separación de poderes, garantía de derechos); (4) identifica si existe un derecho fundamental que podría estar siendo protegido o vulnerado; (5) solo entonces lee las alternativas y elige la que aplique correctamente el principio identificado al caso concreto. Este protocolo evita el error más común: elegir la alternativa que 'suena bien' políticamente sin conectarla con el principio jurídico o institucional preciso que corresponde.",
+          "Para preguntas sobre participación ciudadana, recuerda que la democracia incluye múltiples formas de participación que la PAES distingue: la participación electoral (votar en elecciones presidenciales, parlamentarias, municipales y plebiscitos; postularse como candidato); la participación orgánica (integrarse a partidos políticos, sindicatos, juntas de vecinos, colegios profesionales, organizaciones medioambientales o de consumidores); la participación deliberativa (asistir a consultas ciudadanas, cabildos, audiencias públicas, debates); la participación fiscalizadora (ejercer el derecho de acceso a información pública, presentar denuncias ante organismos de control como la Contraloría o la Fiscalía, interponer recursos legales); y la participación expresiva (manifestarse en marchas, huelgas legales, campañas de comunicación en medios o redes sociales). Cada una tiene distinto grado de vinculación formal con las decisiones del Estado, pero todas son expresiones legítimas de la democracia."
+        ],
         "items": [
-          "Separación de poderes limita el poder arbitrario",
-          "Derechos fundamentales vs deberes ciudadanos",
-          "Participación no se reduce al voto: también fiscalización y organización",
-          "Si dan un caso, identifica el principio (igualdad, legalidad, pluralismo)"
+          "Paso 1: ¿quién actúa y en qué calidad (Estado o particular)?",
+          "Paso 2: ¿la acción está autorizada o prohibida por la ley?",
+          "Paso 3: ¿qué principio del Estado de derecho aplica?",
+          "Paso 4: ¿qué derecho fundamental está involucrado?",
+          "Paso 5: elige la alternativa que aplique el principio al caso concreto"
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Principio de legalidad. El Ejecutivo dicta un decreto supremo que prohíbe las manifestaciones públicas en plazas de ciudades con más de 100.000 habitantes sin autorización previa de la autoridad regional. Una organización de derechos humanos impugna el decreto ante el Tribunal Constitucional argumentando que vulnera la libertad de reunión. La pregunta pide identificar qué principio del Estado de derecho está en el centro del conflicto. Razonamiento: el Ejecutivo no puede restringir un derecho fundamental por decreto sin base en una ley aprobada por el Congreso; si lo hace, viola el principio de legalidad (un órgano del Estado no puede actuar más allá de lo que la ley autoriza) y el principio de reserva legal (las limitaciones a los derechos fundamentales solo pueden establecerse mediante ley). Respuesta: principio de legalidad / reserva legal.",
+          "Ejemplo 2 — Separación de poderes y órganos autónomos. La pregunta señala que un tribunal de primera instancia ha declarado inconstitucional una ley y pregunta si eso es correcto en el sistema chileno. Razonamiento: en Chile, la competencia para declarar inconstitucional una ley corresponde al Tribunal Constitucional, no a los tribunales ordinarios. Los tribunales ordinarios (Corte Suprema, Cortes de Apelaciones, jueces de letras) aplican las leyes a casos concretos, pero no tienen la potestad de expulsar una norma del ordenamiento jurídico. Un estudiante que confunda estos órganos marcará la respuesta equivocada aunque comprenda el principio de separación de poderes. La distinción entre TC y Corte Suprema es una de las más frecuentes en la PAES de ciudadanía.",
+          "Ejemplo 3 — Participación ciudadana y democracia. Una comunidad vecinal convoca a una consulta local sobre la instalación de una central termoeléctrica en su territorio, reúne firmas de oposición y presenta los resultados al municipio y a la Superintendencia del Medio Ambiente. La pregunta pide identificar qué tipos de participación ciudadana ilustra el caso y qué valor democrático expresan. Razonamiento: el caso combina participación deliberativa (la consulta y el debate), participación orgánica (la acción colectiva de la comunidad organizada) y participación fiscalizadora (el control sobre una decisión con impacto ambiental). El valor democrático es la ampliación del espacio de deliberación más allá del voto periódico, fortaleciendo la rendición de cuentas de las autoridades y las empresas ante los ciudadanos directamente afectados."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Confundir el Tribunal Constitucional con la Corte Suprema: el TC controla constitucionalidad de las leyes; la Corte Suprema aplica las leyes a casos concretos",
+          "Creer que 'separación de poderes' significa independencia absoluta: en realidad los poderes se controlan mutuamente mediante frenos y contrapesos",
+          "Reducir la participación ciudadana al voto y olvidar que incluye organización, deliberación, fiscalización y expresión colectiva",
+          "Aplicar el principio de legalidad a los particulares: ese principio obliga al Estado (que solo puede hacer lo que la ley le autoriza); los particulares pueden hacer todo lo que la ley no prohíba",
+          "Confundir el recurso de protección (amparo de derechos constitucionales) con el recurso de amparo o habeas corpus (protección de la libertad personal ante detenciones)"
+        ]
+      },
+      {
+        "heading": "Checklist de repaso",
+        "items": [
+          "¿Puedo explicar el principio de legalidad y en qué se diferencia según aplique al Estado o a los particulares?",
+          "¿Distingo las funciones del Tribunal Constitucional, la Corte Suprema y la Contraloría General?",
+          "¿Conozco al menos cuatro formas distintas de participación ciudadana además del voto?",
+          "¿Puedo identificar qué principio del Estado de derecho aplica cuando se me presenta un caso concreto?",
+          "¿Entiendo qué es el recurso de protección y en qué situaciones procede?",
+          "¿Sé en qué se diferencia el principio de igualdad ante la ley del concepto de igualdad de resultados?"
         ]
       }
     ]

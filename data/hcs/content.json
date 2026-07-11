@@ -444,5 +444,325 @@
         ]
       }
     ]
+  },
+  {
+    "id": "hcs-fuentes",
+    "area": "Historia y Ciencias Sociales",
+    "title": "Análisis profundo de fuentes históricas: tipos, sesgo y perspectiva",
+    "duration": "22 min",
+    "practiceKeywords": [
+      "fuente",
+      "documento",
+      "testimonio",
+      "sesgo",
+      "perspectiva",
+      "primaria"
+    ],
+    "sections": [
+      {
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "El análisis de fuentes históricas es la habilidad central que diferencia a los estudiantes con puntajes altos en la PAES HCS de los que obtienen puntajes medios. Aproximadamente la mitad de los ítems de la prueba van acompañados de algún tipo de fuente —texto, mapa, gráfico estadístico, caricatura política, fotografía— y las preguntas más discriminantes son aquellas que exigen no solo extraer información de la fuente sino evaluar su confiabilidad, identificar el sesgo del autor, comparar la perspectiva de la fuente con la de otros actores y conectar el documento con el contexto histórico en que fue producido.",
+          "El razonamiento histórico con fuentes tiene una lógica propia: el historiador nunca acepta una fuente como un reflejo transparente de la realidad, sino como un testimonio producido por un actor específico, en un momento específico, con un propósito específico y desde una posición de poder o de marginación determinada. Internalizar esta actitud crítica ante las fuentes es lo que permite responder correctamente las preguntas de Evaluar en la PAES HCS, que son exactamente las que piden identificar el punto de vista del autor, la limitación de la fuente o la razón por la que el documento fue producido."
+        ]
+      },
+      {
+        "heading": "Tipos de fuentes: primarias y secundarias",
+        "paragraphs": [
+          "Una fuente primaria es un documento producido durante el período histórico que se estudia, por un actor que participó o fue testigo de los hechos: cartas, discursos, proclamas, leyes, decretos, crónicas de época, diarios personales, fotografías contemporáneas, estadísticas gubernamentales, mapas del período, testimonios orales de sobrevivientes o partícipes. La fuente primaria tiene el valor irremplazable de mostrar cómo los actores del período percibían, interpretaban y comunicaban los hechos desde dentro de ese mundo, con las categorías conceptuales, los prejuicios y las limitaciones de información propias de su época. Sin embargo, precisamente por eso, la fuente primaria no es 'la verdad objetiva': es la verdad de quien la produjo, desde su posición, con su propósito y con sus omisiones.",
+          "Una fuente secundaria es un texto producido con posterioridad al período estudiado, generalmente por un historiador u otro académico que analiza e interpreta las fuentes primarias y otros estudios. Los libros de historia, los artículos científicos de historiografía, los informes de comisiones de verdad como el Informe Rettig y las síntesis de manuales escolares son fuentes secundarias. Su valor es la distancia analítica, el acceso a múltiples fuentes primarias y la posibilidad de establecer comparaciones que los contemporáneos de los hechos no podían hacer. Su limitación es que también reflejan el marco teórico, los valores y las preguntas de la época y la disciplina en que fueron producidas: la historiografía sobre la Independencia escrita en 1910 no es la misma que la escrita en 2010 con nuevas preguntas sobre género, clase y etnia.",
+          "Además de la distinción primaria/secundaria, las fuentes se pueden clasificar por tipo: textuales (discursos, cartas, leyes, crónicas), estadísticas y cuantitativas (censos, datos comerciales, estadísticas de mortalidad), cartográficas (mapas del período), iconográficas (pinturas, caricaturas, fotografías) y materiales (objetos, arquitectura, monedas). Cada tipo de fuente requiere un protocolo de lectura específico: una caricatura política exige leer el contexto de publicación, el medio y el mensaje visual antes que el texto verbal; un mapa histórico requiere identificar qué entidad lo produjo, para qué propósito y qué decisión política o militar representaba en ese momento."
+        ],
+        "items": [
+          "Fuente primaria: producida durante el período por un participante o testigo → alta cercanía, alto sesgo posible",
+          "Fuente secundaria: análisis posterior por historiadores → distancia analítica, también sujeta a marcos interpretativos",
+          "Textual: discursos, cartas, leyes, crónicas → identifica autor, destinatario, propósito",
+          "Estadística: censos, comercio, mortalidad → identifica quién recopiló los datos y con qué fin",
+          "Iconográfica: pinturas, caricaturas, fotografías → interpreta el mensaje visual en su contexto político",
+          "Cartográfica: mapas del período → observa qué territorio representa, quién lo elaboró y qué decisión refleja"
+        ]
+      },
+      {
+        "heading": "Sesgo, perspectiva y contexto de producción",
+        "paragraphs": [
+          "El sesgo no es necesariamente una mentira deliberada: es la distorsión inevitable que introduce el punto de vista del autor, su posición social, sus intereses, sus valores culturales y las limitaciones de información disponibles en su época. Todo texto es producido desde algún lugar: un funcionario colonial escribe sobre los pueblos indígenas desde la perspectiva del Imperio; un líder mapuche describe el mismo proceso desde la resistencia; un viajero europeo del siglo XIX describe las costumbres chilenas desde el etnocentrismo de la Ilustración. Ninguna de estas perspectivas es neutral ni completa, pero cada una es valiosa precisamente por lo que revela sobre la posición del autor y sobre las tensiones del período.",
+          "El contexto de producción es el conjunto de condiciones históricas, políticas, sociales e institucionales en que la fuente fue producida. Una fuente de propaganda gubernamental durante una dictadura está condicionada por la censura y el temor; un testimonio dado ante una comisión de verdad décadas después está condicionado por la memoria selectiva, el duelo y el contexto político de la transición; una estadística colonial sobre la producción agrícola fue diseñada para satisfacer las necesidades fiscales del Imperio, no para registrar la realidad económica completa de la colonia. Sin entender el contexto de producción, es imposible evaluar correctamente el valor y las limitaciones de una fuente.",
+          "Las preguntas de la PAES que evalúan sesgo y perspectiva suelen preguntar: '¿Cuál es la perspectiva del autor de la fuente?' (identificar la posición del sujeto enunciante dentro de la estructura social o política del período), '¿Cuál es la principal limitación de esta fuente para el historiador?' (identificar qué silencia, omite o distorsiona por razones de posición, propósito o época), o '¿Para qué propósito fue producido este documento?' (identificar la intención comunicativa: informar, persuadir, legitimar, registrar, denunciar)."
+        ],
+        "items": [
+          "Sesgo: distorsión inevitable del punto de vista del autor (posición, interés, valores, época)",
+          "Perspectiva: el lugar desde donde el autor ve y describe la realidad histórica",
+          "Contexto de producción: condiciones históricas, políticas e institucionales en que se creó la fuente",
+          "Propósito: ¿para qué fue producido el documento? (informar, persuadir, legitimar, registrar, denunciar)",
+          "Silencio o ausencia: lo que la fuente no dice puede ser tan revelador como lo que sí dice"
+        ]
+      },
+      {
+        "heading": "Método para analizar una fuente en la PAES",
+        "items": [
+          "Paso 1 — Lee el encabezado completo antes que el cuerpo del documento: autor, cargo o condición social del autor, fecha, lugar, destinatario, tipo de documento (carta, discurso, decreto, crónica). Estos datos son el contexto de producción mínimo indispensable.",
+          "Paso 2 — Identifica el propósito del documento: ¿qué quiere lograr el autor con este texto? ¿informa, persuade, ordena, denuncia, legitima, registra? El propósito condiciona todo el contenido.",
+          "Paso 3 — Formula la idea central en una oración propia: ¿qué afirma o describe fundamentalmente este documento?",
+          "Paso 4 — Identifica la perspectiva o posición del autor: ¿a qué sector social, político o institucional pertenece? ¿qué intereses tiene en juego respecto al tema que trata?",
+          "Paso 5 — Detecta los sesgos y las omisiones: ¿qué actores, perspectivas o hechos quedan fuera de esta fuente? ¿qué habría dicho sobre el mismo tema un actor de la posición contraria?",
+          "Paso 6 — Conecta la fuente con el proceso histórico más amplio: ¿en qué etapa del proceso se inserta? ¿qué relación tiene con las causas o consecuencias del período estudiado?"
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Fuente primaria colonial. Se presenta un fragmento de una crónica del siglo XVI escrita por un conquistador español que describe a los pueblos mapuche como 'bárbaros sin ley ni fe' que 'resisten la civilización cristiana.' La pregunta pide identificar la perspectiva del autor y su limitación como fuente histórica. Razonamiento: el cronista español habla desde la perspectiva del Imperio y de la evangelización cristiana; usa categorías coloniales (civilización/barbarie) que justifican la conquista. La fuente es valiosa para conocer cómo el conquistador percibía la realidad, pero está sesgada por su posición de poder y completamente silencia la perspectiva mapuche. Para un análisis históricamente riguroso, esta fuente debe cruzarse con registros arqueológicos, fuentes mapuche posteriores o historiografía crítica del colonialismo.",
+          "Ejemplo 2 — Fuente secundaria e interpretación historiográfica. Se presenta un fragmento de un historiador de 1920 que describe la Independencia de Chile como 'el glorioso triunfo de la raza criolla por la libertad.' La pregunta pide identificar el marco interpretativo del historiador y sus limitaciones. Razonamiento: el historiador usa una narrativa épica y racial propia del nacionalismo latinoamericano de principios del siglo XX; su marco excluye a los sectores populares, los mapuche y las mujeres, que también fueron actores del período pero no encajan en el relato del 'héroe criollo.' Una historiografía más reciente se preguntaría qué cambió y qué continuó para los sectores excluidos, y releería el mismo período con preguntas distintas.",
+          "Ejemplo 3 — Comparar perspectivas en conflicto. Se presentan dos fragmentos sobre el mismo evento: (A) un discurso del General en Jefe del Ejército chileno de 1879 describiendo la Guerra del Pacífico como 'una defensa de los legítimos intereses de Chile'; (B) un telegrama del gobierno boliviano de 1879 describiendo el mismo conflicto como 'una agresión imperialista contra la soberanía boliviana.' Pregunta: '¿En qué coinciden y en qué difieren estas dos fuentes?' Razonamiento de alto puntaje: coinciden en reconocer que hubo un conflicto armado internacional entre Chile y Bolivia en 1879; difieren en la atribución de responsabilidad (defensa vs. agresión) y en el sujeto que se presenta como víctima. Ambas son fuentes primarias oficiales que reflejan la perspectiva de sus respectivos Estados en un momento de guerra: ninguna es objetiva ni pretende serlo. La coexistencia de estas dos perspectivas en conflicto es exactamente lo que el análisis histórico riguroso debe integrar y explicar."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Tratar la fuente primaria como si fuera la verdad objetiva de los hechos: toda fuente tiene una perspectiva y silencia algo; no existe una fuente completamente neutral.",
+          "Ignorar el encabezado de la fuente y perder el contexto de producción: el autor, la fecha y el tipo de documento son tan importantes como el contenido explícito.",
+          "Confundir el propósito del documento con su contenido: una ley que declara la libertad de los esclavos puede tener propósitos políticos muy distintos de la emancipación real.",
+          "Elegir la alternativa históricamente verdadera pero que no se desprende de la fuente entregada: la respuesta debe sustentarse en la fuente dada, no en conocimiento general del período.",
+          "No identificar a qué actor pertenece la perspectiva: cuando el texto habla en primera persona plural ('nosotros'), verifica siempre a qué grupo representa ese 'nosotros' en el contexto del documento."
+        ]
+      },
+      {
+        "heading": "Checklist de repaso",
+        "items": [
+          "¿Leí el encabezado completo de la fuente (autor, fecha, tipo, destinatario) antes del cuerpo del texto?",
+          "¿Identifiqué el propósito del documento (informar, persuadir, legitimar, denunciar, registrar)?",
+          "¿Determiné la perspectiva del autor y qué intereses tiene en juego respecto al tema?",
+          "¿Identifiqué qué actores, perspectivas o hechos quedan fuera o silenciados en la fuente?",
+          "¿Distinqué entre fuente primaria (del período, testimonio directo) y fuente secundaria (análisis posterior)?",
+          "¿Conecté el documento con el proceso histórico más amplio en el que se inserta?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hcs-economia-sociedad",
+    "area": "Historia",
+    "title": "Economía y sociedad en Chile: del salitre al neoliberalismo y conceptos clave",
+    "duration": "22 min",
+    "practiceKeywords": [
+      "economia",
+      "economía",
+      "salitr",
+      "cobre",
+      "neoliberal",
+      "desigualdad",
+      "trabajo"
+    ],
+    "sections": [
+      {
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "La dimensión económica de la historia chilena es uno de los ejes más recurrentes en la PAES HCS porque permite conectar múltiples períodos y procesos: el modelo de enclave exportador del salitre explica la crisis social de principios del siglo XX; el auge del cobre y la CORFO explican el Estado de Compromiso y la industrialización; la crisis del modelo intervencionista de los años 60 y 70 explica las reformas estructurales de Allende y el neoliberalismo de la dictadura; y las consecuencias sociales de ese modelo —desigualdad, precariedad laboral, deuda— explican muchas tensiones del Chile contemporáneo. La PAES no pregunta por cifras aisladas: pregunta por procesos, causas y consecuencias.",
+          "Para responder correctamente los ítems sobre economía y sociedad en Chile, necesitas manejar los conceptos fundamentales de cada modelo económico en sus dimensiones de rol del Estado, distribución del ingreso, estructura del mercado del trabajo y relaciones con la economía internacional. Estos conceptos se aplican al análisis de fuentes estadísticas (gráficos de PIB, datos de distribución del ingreso, índices de desempleo) y textuales (discursos económicos, programas de gobierno, informes de organismos internacionales). La combinación de comprensión conceptual y lectura de fuentes es exactamente lo que diferencia los puntajes de excelencia en este eje."
+        ]
+      },
+      {
+        "heading": "La economía del salitre y la cuestión social (1880–1930)",
+        "paragraphs": [
+          "Tras la Guerra del Pacífico (1879–1884), Chile incorporó las provincias salitreras de Tarapacá y Antofagasta, lo que disparó los ingresos fiscales: en algunos años del período 1880–1920, el salitre financiaba entre el 50 y el 70 % del presupuesto del Estado chileno. Esta abundancia fiscal permitió construir ferrocarriles, expandir la educación pública y modernizar las ciudades, pero a la vez generó una dependencia estructural peligrosa: cuando el salitre sintético alemán (proceso Haber-Bosch, patentado en 1909 y masificado tras la Primera Guerra Mundial) comenzó a reemplazar al salitre natural en el mercado mundial de fertilizantes, la economía chilena entró en una crisis profunda de la que no logró salir sin una transformación del modelo productivo.",
+          "La economía salitrera generó una estructura social profundamente desigual. En el Norte Grande surgió un proletariado minero numeroso y concentrado geográficamente, que vivía en campamentos (oficinas salitreras) controlados por las empresas —mayoritariamente inglesas y, más tarde, chilenas— bajo el sistema de fichas (pago en especie canjeable solo en la pulpería de la empresa). Las condiciones laborales eran precarias: largas jornadas, accidentes frecuentes, nula protección legal. Esta combinación de explotación y concentración geográfica favoreció la organización obrera: surgieron las mancomunales, precursoras de los sindicatos modernos, y la ideología anarquista y socialista se expandió rápidamente en el Norte. La masacre de la Escuela Santa María de Iquique (1907), en que el Ejército disparó sobre una huelga obrera matando a cientos de personas, marcó el punto máximo de tensión entre el Estado oligárquico y la clase obrera emergente, y quedó como símbolo de la 'cuestión social': el conjunto de problemas de habitación, salud, trabajo y educación que el modelo exportador no resolvía para los sectores populares."
+        ],
+        "items": [
+          "Salitre: 50–70 % del presupuesto fiscal en el auge; dependencia estructural peligrosa",
+          "Salitre sintético alemán (1909+): reemplazó al natural en mercado mundial, causó crisis fiscal chilena",
+          "Sistema de fichas: pago en especie, explotación laboral sin protección legal en oficinas salitreras",
+          "Mancomunales: primeras organizaciones obreras en el Norte Grande",
+          "Masacre Santa María de Iquique (1907): símbolo de la represión obrera bajo el Estado oligárquico",
+          "Cuestión social: déficits de vivienda, salud, trabajo y educación para los sectores populares"
+        ]
+      },
+      {
+        "heading": "El cobre, la CORFO y el Estado de Compromiso (1930–1970)",
+        "paragraphs": [
+          "La crisis mundial de 1929 y el derrumbe de los precios del salitre forzaron a Chile a replantear su modelo de desarrollo. La respuesta fue la industrialización por sustitución de importaciones (ISI): el Estado debía liderar la diversificación de la economía, reducir la dependencia de las exportaciones primarias y crear una base industrial interna. La fundación de la Corporación de Fomento de la Producción (CORFO) en 1939, bajo el gobierno de Pedro Aguirre Cerda, fue el instrumento central de este nuevo modelo: la CORFO financió y creó empresas en sectores estratégicos como la energía eléctrica (ENDESA), el petróleo (ENAP), el acero (CAP) y las telecomunicaciones. Este Estado activo y empresario es el núcleo del 'Estado de Compromiso': el Estado como árbitro entre el capital y el trabajo, como proveedor de bienestar básico (salud, educación, previsión) y como motor de la inversión productiva.",
+          "El cobre reemplazó al salitre como principal producto de exportación desde la década de 1930. Las grandes minas (Chuquicamata, El Teniente, El Salvador) eran controladas mayoritariamente por las empresas norteamericanas Anaconda y Kennecott, que repatriaban gran parte de las utilidades sin reinvertir en Chile. El debate sobre el cobre se convirtió en el debate sobre la soberanía económica y el modelo de desarrollo: la 'chilenización' del cobre promovida por Frei Montalva (1964–1969) buscó que el Estado chileno comprara el 51 % de las acciones para capturar más renta sin expropiar; la 'nacionalización' de Allende (1971), aprobada por unanimidad en el Congreso, expropió totalmente las empresas y transfirió el control al Estado. Ambas políticas respondían a la misma constatación: el modelo de enclave exportador que dejaba la mayor parte de la renta en manos extranjeras era incompatible con el desarrollo económico autónomo de Chile."
+        ],
+        "items": [
+          "ISI (industrialización por sustitución de importaciones): Estado lidera diversificación económica",
+          "CORFO (1939): financia y crea empresas estratégicas (ENDESA, ENAP, CAP)",
+          "Estado de Compromiso: Estado árbitro, proveedor de bienestar y motor de inversión",
+          "Anaconda y Kennecott: empresas norteamericanas que controlaban el gran cobre hasta 1971",
+          "Chilenización (Frei, 1969): Estado compra 51 % de acciones — control sin expropiación total",
+          "Nacionalización (Allende, 1971): expropiación total aprobada por unanimidad del Congreso"
+        ]
+      },
+      {
+        "heading": "El modelo neoliberal y sus consecuencias sociales (1973–presente)",
+        "paragraphs": [
+          "El golpe de 1973 inauguró una transformación radical del modelo económico chileno, implementada por los 'Chicago Boys' —economistas formados en la Universidad de Chicago bajo la influencia de Milton Friedman— siguiendo los principios del monetarismo y el libre mercado: apertura comercial unilateral (reducción arancelaria drástica), privatización de las empresas estatales creadas por la CORFO y otras, desregulación de los mercados financiero y laboral, reducción del gasto social público y creación de sistemas privatizados en pensiones (AFP, 1981), salud (ISAPRES, 1981) y educación (municipalización y subsidio a la demanda). Este modelo produjo un crecimiento económico significativo desde mediados de los años 80, especialmente en exportaciones de cobre, fruta, salmón y celulosa, pero también generó una de las distribuciones del ingreso más desiguales de América Latina: el índice de Gini chileno se mantuvo en niveles elevados durante décadas.",
+          "Las consecuencias sociales del modelo neoliberal son el sustrato explicativo de muchas tensiones del Chile contemporáneo: la precariedad del trabajo (contratos a plazo fijo, externalización, bajos salarios en sectores de servicios), el endeudamiento de los hogares para acceder a bienes básicos antes provistos por el Estado, la desigualdad territorial en calidad de educación y salud según el poder adquisitivo de las familias y el municipio de residencia, y la desconfianza en las instituciones como el sistema de AFP, que dejó sin pensiones dignas a miles de trabajadores. El estallido social de octubre de 2019 y el proceso constituyente posterior son, en parte, la expresión política de estas tensiones acumuladas durante décadas."
+        ],
+        "items": [
+          "Chicago Boys: economistas formados en Chicago, implementaron el neoliberalismo en dictadura",
+          "Privatizaciones: ENACAR, ENDESA, bancos, telecomunicaciones vendidos al sector privado",
+          "AFP (1981): sistema de pensiones de capitalización individual — reemplazó el sistema de reparto",
+          "ISAPRES (1981): sistema de salud privado paralelo a FONASA",
+          "Municipalización educacional: escuelas transferidas a municipios con recursos desiguales",
+          "Consecuencias: crecimiento con alta desigualdad (Gini elevado), precariedad laboral, endeudamiento"
+        ]
+      },
+      {
+        "heading": "Conceptos económicos clave para la PAES HCS",
+        "items": [
+          "Economía de enclave: sector exportador controlado por capital extranjero con escasos vínculos con la economía interna",
+          "Términos de intercambio: relación entre los precios de las exportaciones y los de las importaciones; deterioro cuando los precios de las materias primas caen frente a los de las manufacturas",
+          "Desigualdad: distribución desigual del ingreso o la riqueza; el coeficiente de Gini mide qué tan desigual es esa distribución (0=perfecta igualdad, 1=máxima desigualdad)",
+          "Mercado del trabajo: conjunto de relaciones entre oferta de trabajo (trabajadores) y demanda de trabajo (empresas); el salario mínimo y los derechos laborales son formas de regulación estatal",
+          "Política fiscal: decisiones del Estado sobre gasto público e impuestos; expansiva (más gasto, más déficit) o contractiva (menos gasto, superávit)",
+          "Política monetaria: decisiones del Banco Central sobre la oferta de dinero y la tasa de interés para controlar la inflación y estimular o enfriar la economía"
+        ]
+      },
+      {
+        "heading": "Método para analizar textos sobre economía y sociedad",
+        "items": [
+          "Paso 1 — Identifica el modelo económico al que se refiere el texto o la fuente: ¿economía de enclave exportador? ¿industrialización sustitutiva? ¿economía neoliberal de libre mercado? El modelo define quién toma las decisiones, qué papel juega el Estado y cómo se distribuye la renta.",
+          "Paso 2 — Para gráficos económicos (PIB, desempleo, desigualdad, precios): lee el título, los ejes y la leyenda antes de leer los valores; identifica la tendencia general; relaciona los puntos de inflexión del gráfico con eventos históricos del período.",
+          "Paso 3 — Para textos de política económica: identifica quién habla (gobierno, empresario, trabajador, economista), desde qué posición y con qué argumento; evalúa si el diagnóstico del texto corresponde a la evidencia estadística disponible en el período.",
+          "Paso 4 — Relaciona los cambios económicos con sus consecuencias sociales: ¿quién se beneficia del modelo?, ¿quién pierde?, ¿cómo cambia la distribución del ingreso?, ¿qué organizaciones sociales surgen en respuesta?"
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Salitre y vulnerabilidad. Un gráfico muestra el porcentaje de los ingresos fiscales chilenos proveniente del salitre entre 1880 y 1930: sube hasta el 68 % en 1910 y cae bruscamente a menos del 20 % en 1925. Pregunta: '¿Qué fenómeno explica mejor la caída representada en el gráfico?' Alternativas: (A) la Guerra del Pacífico redujo la producción salitrera / (B) la invención del salitre sintético alemán desplazó al natural en los mercados mundiales / (C) el gobierno chileno decidió diversificar voluntariamente su economía / (D) la crisis política de la guerra civil de 1891 arruinó la economía exportadora. Respuesta correcta: B. El salitre sintético (proceso Haber-Bosch) fue el factor externo que determinó la caída de la demanda mundial del salitre natural chileno, reduciendo los ingresos fiscales que dependían de él.",
+          "Ejemplo 2 — Chilenización versus nacionalización. Pregunta: '¿En qué se diferencia la chilenización del cobre propuesta por Frei Montalva de la nacionalización implementada por Allende?' Razonamiento de alto puntaje: la chilenización (1969) fue una compra negociada en que el Estado chileno adquirió el 51 % de las acciones de las empresas mineras norteamericanas Anaconda y Kennecott, manteniendo a estas últimas con participación minoritaria y pagando compensaciones acordadas; la nacionalización (1971) fue la expropiación total sin compensación o con compensación descontada por la 'renta excesiva' que las empresas habían obtenido históricamente. Ambas buscaban que Chile retuviera más de la renta del cobre, pero diferían radicalmente en el papel del capital extranjero y en el mecanismo jurídico-político utilizado.",
+          "Ejemplo 3 — Modelo neoliberal y desigualdad. Un texto afirma: 'El modelo económico implementado en Chile desde 1975 logró reducir la pobreza pero no la desigualdad; el índice de Gini se mantuvo en niveles elevados incluso en los períodos de mayor crecimiento económico.' Pregunta: '¿Qué implica esta afirmación respecto a la relación entre crecimiento y distribución del ingreso?' Razonamiento: implica que el crecimiento económico puede coexistir con alta desigualdad si los beneficios del crecimiento se distribuyen de forma concentrada; el crecimiento del PIB no garantiza por sí solo la reducción de la desigualdad; las políticas redistributivas (impuestos progresivos, gasto social focalizado, regulación laboral) son necesarias para que el crecimiento beneficie a los sectores de menores ingresos."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Confundir el auge del salitre con el bienestar general de la población: el salitre enriqueció al Estado y a la oligarquía minera, pero no mejoró las condiciones de vida de los trabajadores de las oficinas.",
+          "Creer que la nacionalización del cobre fue obra exclusiva de Allende: fue aprobada por unanimidad en el Congreso, con votos de todos los partidos incluyendo la derecha.",
+          "Asumir que el modelo neoliberal solo tuvo efectos negativos: también produjo crecimiento económico significativo y reducción de la pobreza en términos absolutos, aunque con alta desigualdad persistente.",
+          "Confundir chilenización (Frei, compra del 51 %) con nacionalización (Allende, expropiación total): son políticas distintas con mecanismos jurídicos y consecuencias geopolíticas diferentes.",
+          "Olvidar que las AFP son un sistema de capitalización individual, no de reparto: en el sistema de AFP cada trabajador tiene una cuenta propia; en el sistema de reparto los activos financian las pensiones de los pasivos."
+        ]
+      },
+      {
+        "heading": "Checklist de repaso",
+        "items": [
+          "¿Puedo explicar por qué la dependencia del salitre era estructuralmente peligrosa para la economía chilena?",
+          "¿Entiendo qué era la CORFO y qué papel jugó en la industrialización sustitutiva?",
+          "¿Distingo claramente chilenización (Frei, 51 %) de nacionalización total (Allende, 1971)?",
+          "¿Puedo explicar qué significa que el modelo neoliberal generó 'crecimiento con desigualdad'?",
+          "¿Sé qué es el coeficiente de Gini y para qué sirve como indicador económico-social?",
+          "¿Puedo relacionar el estallido social de 2019 con consecuencias del modelo económico instalado desde 1975?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hcs-mundo-contemporaneo",
+    "area": "Historia",
+    "title": "Procesos del mundo contemporáneo: Guerras Mundiales, Guerra Fría y globalización",
+    "duration": "22 min",
+    "practiceKeywords": [
+      "guerra",
+      "frio",
+      "frío",
+      "globaliz",
+      "internacional",
+      "ONU",
+      "bipolar"
+    ],
+    "sections": [
+      {
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "La PAES HCS no evalúa solo la historia de Chile: incluye Historia Universal contemporánea en la medida en que estos procesos mundiales condicionan o explican la historia chilena. Las Guerras Mundiales del siglo XX, la Guerra Fría, la descolonización, la globalización y el orden internacional de la posguerra son marcos explicativos esenciales para comprender eventos chilenos como la crisis del salitre (ligada a la Primera Guerra Mundial y al bloqueo alemán), la Unidad Popular y el golpe de 1973 (ligados al contexto de la Guerra Fría y la política exterior de Estados Unidos), o la inserción económica de Chile en los mercados globales desde los años 80.",
+          "Las preguntas de la PAES sobre el mundo contemporáneo suelen presentar fuentes —mapas de alianzas militares, gráficos de comercio internacional, discursos de organismos internacionales, declaraciones de líderes de la Guerra Fría— y pedir que el estudiante identifique qué proceso global está representado, cuál fue su impacto en Chile o en América Latina, o qué relación tienen dos eventos de distinto nivel (local/global). El estudiante que maneja con solidez los marcos conceptuales del siglo XX puede responder estas preguntas sin memorizar fechas exactas, usando la lógica causal de los procesos."
+        ]
+      },
+      {
+        "heading": "Las Guerras Mundiales y su impacto en Chile",
+        "paragraphs": [
+          "La Primera Guerra Mundial (1914–1918) tuvo consecuencias directas e inmediatas para la economía chilena: el bloqueo naval alemán y la destrucción de los mercados europeos redujeron las exportaciones de salitre, que era utilizado como fertilizante y también como componente del explosivo TNT (trinitrotolueno). Simultáneamente, Alemania masificó el salitre sintético por necesidades bélicas de su industria de explosivos, acelerando el proceso que terminaría por hundir la economía del salitre natural chileno después de 1918. Paradójicamente, durante los años de guerra la demanda bélica de explosivos mantuvo cierta demanda de salitre chileno, pero la posguerra selló el destino del modelo: el salitre sintético barato inundó el mercado y los precios del natural colapsaron definitivamente.",
+          "La Segunda Guerra Mundial (1939–1945) tuvo para Chile consecuencias menos directas pero igualmente significativas. Durante los años de conflicto, la demanda de materias primas estratégicas —especialmente cobre para uso militar— benefició la economía chilena. Chile mantuvo una posición de neutralidad hasta 1943, cuando rompió relaciones con el Eje y en 1945 declaró la guerra a Japón y Alemania, requisito para ingresar como miembro fundador de la ONU. La postguerra configuró el nuevo orden internacional: el Plan Marshall reconstruyó Europa occidental bajo la órbita de Estados Unidos; la creación de la ONU en 1945 estableció un marco de derecho internacional con el Consejo de Seguridad como órgano de poder real; el mundo quedó organizado en torno a dos superpotencias con proyectos civilizatorios, económicos y militares opuestos."
+        ],
+        "items": [
+          "I GM y salitre: bloqueo naval + invención del salitre sintético → colapso del modelo exportador chileno",
+          "II GM y cobre: demanda bélica beneficia temporalmente las exportaciones chilenas",
+          "Chile en la II GM: neutralidad hasta 1943, ruptura con el Eje y entrada en la ONU en 1945",
+          "Posguerra: Plan Marshall, bipolaridad EE.UU./URSS, Naciones Unidas y derecho internacional"
+        ]
+      },
+      {
+        "heading": "La Guerra Fría y su impacto en América Latina y Chile",
+        "paragraphs": [
+          "La Guerra Fría (1947–1991) fue el conflicto global entre dos superpotencias —Estados Unidos y la Unión Soviética— que no se enfrentaron militarmente de forma directa entre sí, sino mediante guerras por representación (proxy wars), presión económica, competencia tecnológica y propaganda ideológica en países de todo el mundo. El mundo quedó organizado en un sistema bipolar: el bloque occidental capitalista liderado por EE.UU. (con la OTAN como alianza militar) y el bloque oriental comunista liderado por la URSS (con el Pacto de Varsovia). Los países no alineados formaron un tercer bloque que buscó mantener autonomía, pero ningún rincón del planeta quedó al margen de la lógica del conflicto.",
+          "En América Latina, la Guerra Fría se manifestó en el apoyo de Estados Unidos a los gobiernos que resistían el avance comunista —incluyendo dictaduras militares— y en la intervención directa e indirecta en los procesos políticos internos. La Revolución Cubana de 1959 alteró radicalmente la estrategia de EE.UU. en la región: la existencia de un gobierno marxista a 90 millas de sus costas llevó a la Alianza para el Progreso (1961), un programa de ayuda económica condicionada a reformas sociales para prevenir el contagio revolucionario. El triunfo de Allende en Chile en 1970 fue percibido en Washington como una amenaza: la CIA financió la oposición política, promovió el desabastecimiento económico y apoyó a los militares conspiradores, aunque el peso de los factores internos en el golpe de 1973 sigue siendo debatido por los historiadores.",
+          "La Doctrina de Seguridad Nacional fue el marco ideológico que legitimó la intervención militar en toda América Latina durante la Guerra Fría: definía al 'enemigo interno' (comunistas, sindicalistas, intelectuales de izquierda) como una amenaza igual o mayor que el enemigo externo, y otorgaba a las Fuerzas Armadas el rol de garantes del orden social y la seguridad del Estado frente a esa amenaza. Esta doctrina fue la base conceptual que usaron los militares chilenos, argentinos, uruguayos, brasileños y otros para justificar los golpes de Estado y la represión sistemática de derechos humanos en las décadas de 1960 a 1980. La Operación Cóndor fue una red de cooperación entre los servicios de inteligencia de las dictaduras del Cono Sur para perseguir, torturar y asesinar disidentes más allá de las fronteras nacionales."
+        ],
+        "items": [
+          "Bipolaridad: EE.UU. (capitalismo, OTAN) vs. URSS (comunismo, Pacto de Varsovia)",
+          "Proxy wars: conflictos armados en terceros países como Korea, Vietnam, Angola, Nicaragua",
+          "Revolución Cubana (1959): cambia la estrategia de EE.UU. en América Latina",
+          "Alianza para el Progreso (1961): ayuda económica de EE.UU. condicionada a reformas sociales",
+          "Doctrina de Seguridad Nacional: 'enemigo interno' comunista como amenaza existencial",
+          "Operación Cóndor: red de inteligencia de dictaduras del Cono Sur contra disidentes en el exilio"
+        ]
+      },
+      {
+        "heading": "La globalización y el orden internacional contemporáneo",
+        "paragraphs": [
+          "La caída del Muro de Berlín (1989) y la disolución de la URSS (1991) marcaron el fin de la bipolaridad. El mundo entró en una etapa de unipolaridad hegemónica de Estados Unidos y de aceleración del proceso de globalización: la integración de los mercados financieros, comerciales, tecnológicos y culturales a escala planetaria. La globalización no es un fenómeno nuevo —el comercio mundial lleva siglos existiendo— sino una intensificación sin precedentes de los flujos de capital, mercancías, información, tecnología y personas a través de las fronteras, facilitada por la revolución digital, la reducción de los costos de transporte y la proliferación de acuerdos de libre comercio.",
+          "La Organización de Naciones Unidas (ONU), creada en 1945 con el propósito de mantener la paz y la seguridad internacionales, promover los derechos humanos y el desarrollo sostenible, se convirtió en el marco institucional central del orden internacional de la posguerra. Sus órganos principales son: la Asamblea General (todos los Estados miembros con igual voto en debates y resoluciones no vinculantes), el Consejo de Seguridad (15 miembros, 5 permanentes con derecho a veto —EE.UU., Rusia, China, Francia, Reino Unido— y 10 rotativos; único órgano con poder de tomar resoluciones vinculantes sobre paz y seguridad) y la Corte Internacional de Justicia (órgano judicial para disputas entre Estados). La ONU también agrupa organismos especializados como la OMS (salud), la FAO (agricultura y alimentación), la UNESCO (educación, ciencia y cultura) y la OIT (trabajo).",
+          "Para Chile, la globalización significó la profundización del modelo exportador: los tratados de libre comercio con Estados Unidos (2004), la Unión Europea (2002) y China (2006) abrieron mercados para las exportaciones chilenas de cobre, fruta, vino y salmón, pero también aumentaron la dependencia de precios internacionales de las materias primas. La migración internacional —fenómeno también intensificado por la globalización— transformó la composición demográfica y cultural de Chile en las décadas de 2000 y 2010, especialmente con la llegada de inmigrantes peruanos, bolivianos, haitianos, venezolanos y colombianos."
+        ],
+        "items": [
+          "Caída del Muro de Berlín (1989) y disolución URSS (1991): fin de la bipolaridad",
+          "Globalización: integración de mercados financieros, comerciales, tecnológicos y culturales",
+          "ONU (1945): Asamblea General (todos los Estados), Consejo de Seguridad (5 permanentes con veto)",
+          "Organismos especializados ONU: OMS, FAO, UNESCO, OIT",
+          "TLC de Chile: EE.UU. (2004), UE (2002), China (2006) — integración en cadenas globales",
+          "Migración global: flujos intensificados por globalización, desigualdad Norte-Sur y conflictos"
+        ]
+      },
+      {
+        "heading": "Método para preguntas de historia universal aplicada a Chile",
+        "items": [
+          "Paso 1 — Identifica el proceso mundial al que se refiere la fuente o el enunciado: ¿Primera o Segunda Guerra Mundial? ¿Guerra Fría? ¿descolonización? ¿globalización neoliberal?",
+          "Paso 2 — Establece la conexión con Chile o América Latina: ¿qué impacto tuvo ese proceso mundial en la economía, la política o la sociedad chilena? Las preguntas buscan que articules los dos niveles de análisis.",
+          "Paso 3 — Para preguntas sobre la Guerra Fría y Chile: distingue entre las causas internas del proceso político chileno y la influencia externa de las superpotencias; la PAES valora la capacidad de integrar ambas dimensiones sin reducirlo todo a factores externos.",
+          "Paso 4 — Para preguntas sobre organismos internacionales: identifica qué órgano de la ONU tiene poder vinculante (el Consejo de Seguridad) versus cuáles solo emiten recomendaciones (Asamblea General), y qué organismos especializados corresponden a qué área temática.",
+          "Paso 5 — Para preguntas sobre globalización: conecta la dimensión económica (TLC, exportaciones, inversión extranjera) con las dimensiones cultural (homogeneización vs. resistencia cultural) y demográfica (migraciones, diásporas)."
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Primera Guerra Mundial y Chile. Pregunta: '¿Por qué el conflicto bélico europeo de 1914–1918 afectó negativamente la economía chilena a largo plazo?' Respuesta de nivel básico: 'porque hubo guerra y bajaron las exportaciones.' Respuesta de nivel PAES: la Primera Guerra Mundial aceleró el desarrollo del salitre sintético alemán por necesidades de la industria bélica; una vez que el conflicto terminó, el salitre sintético —más barato de producir— inundó el mercado mundial de fertilizantes, desplazando definitivamente al salitre natural chileno; los ingresos fiscales de Chile, que dependían en un 50–70 % de las exportaciones salitreras, colapsaron en los años 20, generando una crisis económica y social profunda que condujo a la inestabilidad política de la década de 1920 y a la quiebra del modelo oligárquico-parlamentario.",
+          "Ejemplo 2 — Guerra Fría y golpe de 1973. Se presenta un fragmento de un documento desclasificado de la CIA de 1970 en que el entonces director Richard Helms anota que Nixon ordenó 'hacer chillar la economía chilena' para desestabilizar al gobierno de Allende. La pregunta pide evaluar qué evidencia aporta este documento sobre el papel de EE.UU. en el golpe de 1973. Razonamiento: el documento es una fuente primaria de alto valor porque proviene del propio servicio de inteligencia norteamericano; aporta evidencia directa de que EE.UU. tuvo una política activa de desestabilización económica. Sin embargo, el documento por sí solo no prueba que EE.UU. organizó el golpe militarmente: muestra una de las condiciones externas que lo facilitaron, pero el peso de los factores internos —crisis económica, polarización política, decisión de los militares chilenos— también debe considerarse para una explicación completa.",
+          "Ejemplo 3 — ONU y derecho internacional. Pregunta: '¿Cuál órgano de la ONU tiene la autoridad para imponer sanciones económicas o militares a un Estado miembro?' Alternativas: (A) la Asamblea General / (B) la Corte Internacional de Justicia / (C) el Consejo de Seguridad / (D) el Secretario General. Respuesta correcta: C. Razonamiento: solo el Consejo de Seguridad puede tomar decisiones vinculantes, incluidas sanciones económicas o la autorización de uso de la fuerza militar; sus cinco miembros permanentes (EE.UU., Rusia, China, Francia, Reino Unido) tienen derecho de veto. La Asamblea General tiene voto de todos los Estados pero sus resoluciones no son vinculantes."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Confundir el Consejo de Seguridad de la ONU (resolutivo, vinculante, 5 vetos) con la Asamblea General (deliberativa, no vinculante, todos los Estados).",
+          "Creer que la Guerra Fría fue un conflicto armado directo entre EE.UU. y la URSS: nunca se enfrentaron directamente; el conflicto fue ideológico, económico y mediante guerras por representación en terceros países.",
+          "Reducir el golpe de 1973 solo a factores externos (CIA) o solo a factores internos: fue el resultado de una interacción compleja entre ambos niveles que la PAES valora que el estudiante sepa articular.",
+          "Confundir los Tratados de Libre Comercio con acuerdos de integración política: los TLC regulan el comercio de bienes y servicios pero no implican integración política ni instituciones supranacionales.",
+          "Asumir que la globalización es un fenómeno completamente nuevo: el comercio internacional y la migración existen desde hace siglos; lo nuevo del siglo XX y XXI es la velocidad, el volumen y la tecnología que los potencia."
+        ]
+      },
+      {
+        "heading": "Checklist de repaso",
+        "items": [
+          "¿Puedo explicar cómo la Primera Guerra Mundial aceleró el colapso de la economía salitrera chilena?",
+          "¿Entiendo qué es la bipolaridad y cómo se organizó el mundo durante la Guerra Fría?",
+          "¿Puedo explicar la Doctrina de Seguridad Nacional y su relación con los golpes de Estado en América Latina?",
+          "¿Distingo el Consejo de Seguridad (vinculante, veto) de la Asamblea General (no vinculante)?",
+          "¿Puedo conectar la globalización con la política exterior de Chile (TLC) y con los flujos migratorios que transformaron el país?",
+          "¿Entiendo el concepto de 'guerra por representación' (proxy war) y puedo dar ejemplos de su aplicación en América Latina?"
+        ]
+      }
+    ]
   }
 ]

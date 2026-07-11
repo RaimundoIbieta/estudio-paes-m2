@@ -80,15 +80,14 @@ export async function renderHome(container) {
       </article>
       <article class="card">
         <h3>📊 Progreso</h3>
-        <p>${doneSteps}/${steps.length} pasos completados.</p>
+        <p>${doneSteps}/${steps.length} pasos · racha ${stats.streak || 0} día(s).</p>
         <a href="#/progreso" class="btn btn-secondary" data-route>Mi ruta</a>
       </article>
-      ${testId === 'm2' ? `
       <article class="card">
         <h3>📁 Biblioteca</h3>
-        <p>11 PDFs de material M2.</p>
+        <p>Temarios, pruebas oficiales y clavijeros DEMRE.</p>
         <a href="#/biblioteca" class="btn btn-primary" data-route>Ver PDFs</a>
-      </article>` : ''}
+      </article>
     </div>
 
     <section class="card" style="margin-top:1.25rem">

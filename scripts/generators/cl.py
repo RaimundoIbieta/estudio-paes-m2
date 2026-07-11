@@ -3,19 +3,19 @@ import random
 from .common import fill_pool, shuffle_mcq
 
 PASSAGE_TEMPLATES = [
-    {"area": "Localizar", "template": (
+    {"area": "Localizar", "topic": "localizar", "template": (
         "El informe de {org} ({year}) senala que en la region de {region} "
         "la temperatura media anual alcanzo {temp} C, un aumento de {delta} C "
         "respecto a la decada anterior. La precipitacion disminuyo un {pct}%."),
      "questions": [
         ("Cual fue la temperatura media anual reportada?",
          lambda d: (f"{d['temp']} C", [f"{d['temp']+2} C", f"{d['temp']-3} C", f"{d['delta']} C"]),
-         lambda d: f"Dato explicito: {d['temp']} C."),
+         lambda d: f"Dato explicito en el texto: {d['temp']} C."),
         ("En cuantos grados aumento la temperatura?",
          lambda d: (f"{d['delta']} C", [f"{d['pct']}%", f"{d['temp']} C", f"{d['year']} C"]),
-         lambda d: f"Aumento de {d['delta']} C."),
+         lambda d: f"El texto indica un aumento de {d['delta']} C."),
      ]},
-    {"area": "Interpretar", "template": (
+    {"area": "Interpretar", "topic": "interpretar", "template": (
         "En su ensayo '{titulo}', la autora {autora} sostiene que {tema} es resultado "
         "de decisiones colectivas. Relata la experiencia de una familia de {ciudad} "
         "cuando {evento}."),
@@ -23,25 +23,25 @@ PASSAGE_TEMPLATES = [
         ("Cual es la idea central?",
          lambda d: (f"{d['tema']} es producto de decisiones colectivas",
                     [f"{d['tema']} afecta solo a una familia", "La autora rechaza adaptacion", f"{d['evento']} es inevitable"]),
-         lambda d: "Vincula fenomeno con decisiones colectivas."),
+         lambda d: "La autora vincula el fenomeno con decisiones colectivas."),
      ]},
-    {"area": "Evaluar", "template": (
+    {"area": "Evaluar", "topic": "evaluar", "template": (
         "Un columnista afirma que {medida} reducira {problema}. Estudios de la U. {uni} "
         "muestran resultados mixtos segun contexto."),
      "questions": [
         ("Que critica al columnista?",
          lambda d: ("Simplifica una relacion dependiente del contexto",
                     ["Carece de evidencia", "Esta totalmente respaldada", "No menciona el problema"]),
-         lambda d: "Resultados mixtos segun contexto."),
+         lambda d: "Los estudios mixtos indican que la relacion depende del contexto."),
      ]},
-    {"area": "Integrar", "template": (
+    {"area": "Integrar", "topic": "integrar", "template": (
         "El poema de {poeta} y el articulo de {periodista} abordan {tema}. "
         "El poema enfatiza emocion; el articulo cifras en {pais}."),
      "questions": [
         ("Que aporta integrar ambos textos?",
          lambda d: ("Comprender desde lo humano y lo social",
                     ["Eliminar subjetividad", "Demostrar que el articulo es falso", "Reemplazar poesia"]),
-         lambda d: "Dimensiones complementarias."),
+         lambda d: "Ambos textos aportan dimensiones complementarias del mismo tema."),
      ]},
 ]
 
@@ -74,7 +74,7 @@ def _cl_passage_question():
     q_tpl, ans_fn, expl_fn = random.choice(tpl["questions"])
     correct, wrong = ans_fn(data)
     opts, ai = shuffle_mcq(correct, wrong)
-    return {"area": tpl["area"],
+    return {"area": tpl["area"], "topic": tpl["topic"],
             "question": f"<p class='passage'>{passage}</p><p><strong>{q_tpl}</strong></p>",
             "options": opts, "answer": ai, "answerKey": chr(65 + ai),
             "explanation": expl_fn(data), "difficulty": "Medio"}
@@ -85,7 +85,7 @@ def _vocab_context():
              ("efimero", "de corta duracion", "permanente", "fuerte", "claro")]
     w, correct, *wrong = random.choice(words)
     opts, ai = shuffle_mcq(correct, list(wrong))
-    return {"area": "Interpretar",
+    return {"area": "Interpretar", "topic": "vocabulario",
             "question": f"Palabra '{w}' en contexto significa:",
             "options": opts, "answer": ai, "answerKey": chr(65 + ai),
             "explanation": f"'{w}' = {correct}", "difficulty": "Medio"}

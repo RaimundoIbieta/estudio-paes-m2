@@ -12,14 +12,16 @@ def _log_value():
     wrong = [str(val + d) for d in random.sample([1, -1, base], 3)]
     opts, ai = shuffle_mcq(str(exp), wrong)
     return {"question": f"log_{base}({val})?", "options": opts, "answer": ai,
-            "answerKey": chr(65 + ai), "explanation": f"{base}^{exp}={val}", "difficulty": "Medio"}
+            "answerKey": chr(65 + ai), "explanation": f"{base}^{exp}={val}", "difficulty": "Medio",
+            "topic": "logaritmos"}
 
 def _log_product():
     correct = "log a + log b"
     wrong = ["log(a+b)", "log a * log b", "log(a-b)"]
     opts, ai = shuffle_mcq(correct, wrong)
     return {"question": "Propiedad de log(a*b)?", "options": opts, "answer": ai,
-            "answerKey": chr(65 + ai), "explanation": "log(ab)=log a+log b", "difficulty": "Medio"}
+            "answerKey": chr(65 + ai), "explanation": "log(ab)=log a+log b", "difficulty": "Medio",
+            "topic": "logaritmos"}
 
 def _sin_cos():
     angles = {30: (0.5, 0.866), 45: (0.707, 0.707), 60: (0.866, 0.5)}
@@ -30,7 +32,8 @@ def _sin_cos():
     wrong = [f"{val+d:.3f}" for d in random.sample([0.1, -0.1, 0.2], 3)]
     opts, ai = shuffle_mcq(correct, wrong)
     return {"question": f"{fn}({ang} grados) aprox?", "options": opts, "answer": ai,
-            "answerKey": chr(65 + ai), "explanation": correct, "difficulty": "Medio"}
+            "answerKey": chr(65 + ai), "explanation": correct, "difficulty": "Medio",
+            "topic": "trig"}
 
 def _cylinder_volume():
     r, h = random.randint(2, 8), random.randint(5, 15)
@@ -38,7 +41,8 @@ def _cylinder_volume():
     wrong = [str(ans + d) for d in random.sample([50, -50, 100], 3)]
     opts, ai = shuffle_mcq(f"{ans} cm3", [f"{w} cm3" for w in wrong])
     return {"question": f"Cilindro r={r} h={h}. Volumen?", "options": opts, "answer": ai,
-            "answerKey": chr(65 + ai), "explanation": f"V={ans}", "difficulty": "Medio"}
+            "answerKey": chr(65 + ai), "explanation": f"V=pi*r^2*h ~ {ans}", "difficulty": "Medio",
+            "topic": "volumen"}
 
 def _sphere_volume():
     r = random.randint(2, 9)
@@ -46,7 +50,8 @@ def _sphere_volume():
     wrong = [str(int(4 * math.pi * r * r)), str(int(math.pi * r ** 3)), str(int(ans * 1.5))]
     opts, ai = shuffle_mcq(f"{ans} cm3", [f"{w} cm3" for w in wrong])
     return {"question": f"Esfera r={r}. Volumen aprox?", "options": opts, "answer": ai,
-            "answerKey": chr(65 + ai), "explanation": f"V={ans}", "difficulty": "Dificil"}
+            "answerKey": chr(65 + ai), "explanation": f"V=(4/3)pi*r^3 ~ {ans}", "difficulty": "Dificil",
+            "topic": "volumen"}
 
 def _quadratic_discriminant():
     b, c = random.randint(-10, 10), random.randint(-10, 10)
@@ -57,7 +62,8 @@ def _quadratic_discriminant():
     sb = f"+ {b}x" if b >= 0 else f"- {abs(b)}x"
     sc = f"+ {c}" if c >= 0 else f"- {abs(c)}"
     return {"question": f"Raices reales de x^2 {sb} {sc}=0? (delta={d})", "options": opts, "answer": ai,
-            "answerKey": chr(65 + ai), "explanation": nature, "difficulty": "Dificil"}
+            "answerKey": chr(65 + ai), "explanation": f"delta={d} -> {nature}", "difficulty": "Dificil",
+            "topic": "cuadratic"}
 
 def _exponential():
     base, exp = random.choice([2, 3, 5]), random.randint(2, 6)
@@ -65,7 +71,8 @@ def _exponential():
     wrong = [str(base ** (exp + d)) for d in random.sample([-1, 1, 2], 3)]
     opts, ai = shuffle_mcq(str(ans), wrong)
     return {"question": f"{base}^{exp}?", "options": opts, "answer": ai,
-            "answerKey": chr(65 + ai), "explanation": str(ans), "difficulty": "Facil"}
+            "answerKey": chr(65 + ai), "explanation": str(ans), "difficulty": "Facil",
+            "topic": "exponencial"}
 
 def _permutation_simple():
     n = random.randint(5, 9)
@@ -73,7 +80,8 @@ def _permutation_simple():
     wrong = [str(n ** 2), str(n + n - 1), str(n * 3)]
     opts, ai = shuffle_mcq(str(ans), wrong)
     return {"question": f"P({n},2)?", "options": opts, "answer": ai,
-            "answerKey": chr(65 + ai), "explanation": f"{n}*{n-1}={ans}", "difficulty": "Dificil"}
+            "answerKey": chr(65 + ai), "explanation": f"{n}*{n-1}={ans}", "difficulty": "Dificil",
+            "topic": "probabilidad"}
 
 def _binomial_prob():
     n, k = 3, random.randint(1, 2)
@@ -81,7 +89,8 @@ def _binomial_prob():
     wrong = [f"{k}/{n}", f"1/{2**n}", f"{n}/{2**k}"]
     opts, ai = shuffle_mcq(correct, wrong)
     return {"question": f"3 monedas: P({k} caras)?", "options": opts, "answer": ai,
-            "answerKey": chr(65 + ai), "explanation": correct, "difficulty": "Dificil"}
+            "answerKey": chr(65 + ai), "explanation": correct, "difficulty": "Dificil",
+            "topic": "probabilidad"}
 
 def generate_m2(target=1000):
     gens = [

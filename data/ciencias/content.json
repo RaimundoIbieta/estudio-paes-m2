@@ -691,5 +691,348 @@
         ]
       }
     ]
+  },
+  {
+    "id": "ci-bio-cuerpo",
+    "area": "Biología",
+    "title": "Sistemas del cuerpo humano: integración, homeostasis y fisiología PAES",
+    "duration": "20 min",
+    "practiceKeywords": [
+      "sistema",
+      "nervioso",
+      "circulator",
+      "digestiv",
+      "hormon",
+      "homeostas",
+      "organo",
+      "órgano"
+    ],
+    "sections": [
+      {
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "Los sistemas del cuerpo humano son uno de los bloques temáticos más frecuentes y más relevantes en la PAES Biología, especialmente para quienes aspiran a ingresar a Medicina o a carreras de la salud. Las preguntas abarcan tres niveles: (1) identificar los órganos y su función dentro de cada sistema; (2) explicar cómo los sistemas se coordinan para mantener el equilibrio interno del organismo (homeostasis); y (3) analizar cómo la alteración de un sistema —enfermedad, lesión, cambio en el ambiente externo— afecta a los demás sistemas interconectados. No se trata de memorizar listas de órganos: se trata de comprender la lógica funcional de cada sistema y las relaciones de integración entre ellos.",
+          "Para Medicina, la comprensión profunda de los sistemas del cuerpo humano es la base de Anatomía, Fisiología, Fisiopatología y todas las especialidades clínicas. Un estudiante que domina estos sistemas desde la PAES llega a la universidad con ventajas concretas y medibles en los primeros años de la carrera. Las preguntas PAES sobre cuerpo humano frecuentemente presentan experimentos o escenarios clínicos simplificados y piden identificar qué sistema está involucrado, qué órgano está fallando o qué mecanismo homeostático está activado en respuesta a un estímulo."
+        ]
+      },
+      {
+        "heading": "Sistema nervioso: estructura y función",
+        "paragraphs": [
+          "El sistema nervioso es el sistema de control y coordinación más rápido del organismo. Se divide en Sistema Nervioso Central (SNC) —encéfalo y médula espinal— y Sistema Nervioso Periférico (SNP) —todos los nervios que conectan el SNC con el resto del cuerpo—. La unidad funcional del sistema nervioso es la neurona: célula altamente especializada que recibe, integra y transmite señales eléctricas y químicas. Las neuronas se comunican entre sí en sinapsis, donde la neurona presináptica libera neurotransmisores (serotonina, dopamina, acetilcolina, noradrenalina) que se unen a receptores específicos en la membrana de la neurona postsináptica.",
+          "Funcionalmente, el SNP se divide en Sistema Nervioso Somático —controla los músculos esqueléticos de forma voluntaria— y Sistema Nervioso Autónomo —regula de forma involuntaria los órganos viscerales: corazón, pulmones, tracto digestivo, glándulas—. El Sistema Autónomo tiene dos ramas con efectos generalmente antagónicos: el Sistema Simpático (activa respuestas de 'lucha o huida': aumenta la frecuencia cardiaca, dilata los bronquios, reduce la digestión, aumenta la glucosa en sangre) y el Sistema Parasimpático (promueve el 'descanso y digestión': reduce la frecuencia cardiaca, estimula la digestión, contrae los bronquios). Este antagonismo simpático-parasimpático es un mecanismo fundamental de homeostasis autónoma."
+        ],
+        "items": [
+          "SNC: encéfalo (cerebro, cerebelo, tronco encefálico) + médula espinal",
+          "SNP: nervios craneales y espinales que conectan SNC con el resto del cuerpo",
+          "Neurona: unidad funcional; comunica señales eléctricas mediante potencial de acción",
+          "Sinapsis: comunicación química entre neuronas mediante neurotransmisores",
+          "Simpático: 'lucha o huida' → taquicardia, broncodilatación, glucosa elevada",
+          "Parasimpático: 'descanso y digestión' → bradicardia, estimulación digestiva"
+        ]
+      },
+      {
+        "heading": "Sistema circulatorio: transporte y regulación",
+        "paragraphs": [
+          "El sistema circulatorio cumple la función esencial de transportar oxígeno, nutrientes, hormonas y desechos metabólicos a todos los tejidos del organismo. El corazón es la bomba muscular central: su contracción rítmica (latido) impulsa la sangre a través de dos circuitos: la circulación pulmonar o menor (ventrículo derecho → pulmones → aurícula izquierda, donde la sangre se oxigena y elimina CO₂) y la circulación sistémica o mayor (ventrículo izquierdo → todo el cuerpo → aurícula derecha, donde la sangre distribuye O₂ y recoge CO₂ y desechos).",
+          "La sangre es un tejido conectivo líquido compuesto por plasma (55 %, agua con proteínas, glucosa, iones y hormonas disueltos) y elementos figurados: glóbulos rojos o eritrocitos (transportan O₂ gracias a la hemoglobina), glóbulos blancos o leucocitos (función inmunológica: fagocitosis, producción de anticuerpos) y plaquetas o trombocitos (coagulación). La presión arterial —la fuerza que ejerce la sangre sobre las paredes de las arterias— es regulada por el corazón (gasto cardiaco) y el tono de los vasos sanguíneos (vasoconstricción y vasodilatación); su regulación involucra el sistema nervioso autónomo, el sistema renina-angiotensina-aldosterona (renal) y hormonas como la vasopresina. La hipertensión arterial crónica es un factor de riesgo mayor para accidente cerebrovascular, infarto al miocardio e insuficiencia renal."
+        ],
+        "items": [
+          "Circulación menor (pulmonar): corazón derecho → pulmones (oxigenación) → corazón izquierdo",
+          "Circulación mayor (sistémica): corazón izquierdo → todo el cuerpo → corazón derecho",
+          "Eritrocitos: transportan O₂ con hemoglobina (proteína con hierro)",
+          "Leucocitos: defensa inmunológica (fagocitosis, anticuerpos)",
+          "Plaquetas: coagulación de la sangre en lesiones vasculares",
+          "Presión arterial: regulada por SNA, sistema renina-angiotensina y hormonas como vasopresina"
+        ]
+      },
+      {
+        "heading": "Sistema digestivo y sistema endocrino",
+        "paragraphs": [
+          "El sistema digestivo transforma los alimentos ingeridos en nutrientes absorbibles mediante procesos mecánicos (masticación, peristalsis) y químicos (enzimas digestivas). El recorrido inicia en la boca (amilasa salival desdobla almidón), continúa por el esófago hasta el estómago (pepsina y HCl desnaturalizan proteínas en medio ácido, pH 1,5–3,5), pasa al intestino delgado —donde ocurre la mayor parte de la digestión enzimática (lipasa pancreática, amilasa pancreática, proteasas del páncreas) y la absorción de nutrientes a través de las vellosidades intestinales— y termina en el intestino grueso, donde se absorbe agua, se forman las heces y se concentra la microbiota intestinal. El hígado produce bilis (emulsiona las grasas) y el páncreas secreta el jugo pancreático con enzimas y bicarbonato que neutraliza el quimo ácido del estómago.",
+          "El sistema endocrino regula funciones corporales a largo plazo mediante hormonas —mensajeros químicos secretados por glándulas endocrinas directamente al torrente sanguíneo—. Las hormonas actúan sobre órganos diana específicos a distancia. Los ejes hormonales más relevantes para la PAES son: eje hipotálamo-hipófisis-tiroides (regula el metabolismo basal mediante TSH y tiroxina), eje hipotálamo-hipófisis-suprarrenales (regula la respuesta al estrés mediante cortisol y adrenalina), y el eje hipotálamo-hipófisis-gónadas (regula la reproducción mediante LH, FSH, estrógenos y testosterona). La insulina (páncreas endocrino, células beta) y el glucagón (células alfa) regulan la glucemia: la insulina disminuye la glucosa en sangre promoviendo su captación por las células; el glucagón la aumenta estimulando la liberación de glucosa hepática. La diabetes mellitus tipo 1 resulta de la destrucción autoinmune de las células beta; la tipo 2, de la resistencia periférica a la insulina."
+        ],
+        "items": [
+          "Digestión química: boca (amilasa salival) → estómago (pepsina, HCl) → intestino delgado (lipasa, proteasas pancreáticas)",
+          "Absorción: vellosidades del intestino delgado (superficie máxima para nutrientes)",
+          "Hígado: produce bilis para emulsionar grasas; metaboliza fármacos y toxinas",
+          "Insulina (células beta): disminuye la glucemia → diabetes tipo 1 (falta) o tipo 2 (resistencia)",
+          "Cortisol (suprarrenal): hormona del estrés → aumenta glucosa, suprime la inflamación",
+          "Tiroxina (tiroides): regula el metabolismo basal; hipotiroidismo = lentitud metabólica"
+        ]
+      },
+      {
+        "heading": "Homeostasis: el principio integrador de todos los sistemas",
+        "paragraphs": [
+          "La homeostasis es la capacidad del organismo de mantener condiciones internas estables —temperatura corporal, pH sanguíneo, concentración de glucosa, presión osmótica, presión arterial— dentro de rangos compatibles con la vida, a pesar de los cambios del ambiente externo. Es un equilibrio dinámico, no estático: los valores fluctúan constantemente alrededor de un punto de ajuste (set point) mediante mecanismos de retroalimentación negativa.",
+          "El mecanismo de retroalimentación negativa es el más común en la homeostasis: cuando una variable se desvía de su valor de referencia, los receptores detectan el cambio y activan una respuesta que devuelve la variable al punto de ajuste, oponiéndose a la desviación. Ejemplo clásico: si la glucemia sube tras una comida, el páncreas secreta insulina, que promueve la captación de glucosa por las células y el almacenamiento de glucógeno en el hígado, reduciendo la glucemia de vuelta al rango normal. La retroalimentación positiva, mucho menos frecuente, amplifica la desviación para completar un proceso (como las contracciones del parto o la coagulación sanguínea). Un fallo en los mecanismos homeostáticos produce enfermedad: la fiebre muy alta, la hipertensión no controlada, la hipoglucemia severa o la acidosis metabólica son ejemplos de homeostasis fallida con consecuencias potencialmente letales."
+        ],
+        "items": [
+          "Homeostasis: mantenimiento de condiciones internas estables (temperatura, pH, glucemia, presión)",
+          "Retroalimentación negativa: la respuesta se opone a la desviación y devuelve la variable al punto de ajuste",
+          "Ejemplo: glucemia alta → insulina → captación celular → glucemia normal",
+          "Retroalimentación positiva: amplifica la desviación (parto, coagulación) — mucho menos frecuente",
+          "Sistemas involucrados: nervioso (rápido), endocrino (lento pero sostenido), renal, cardiovascular"
+        ]
+      },
+      {
+        "heading": "Método paso a paso para preguntas de cuerpo humano",
+        "items": [
+          "1. Identifica qué sistema o sistemas menciona el enunciado y cuál es su función principal (transporte, coordinación, digestión, regulación hormonal, etc.).",
+          "2. Para preguntas sobre integración de sistemas: traza el camino de un estímulo o sustancia a través del organismo, identificando qué órganos intervienen en secuencia.",
+          "3. Para preguntas sobre homeostasis: identifica cuál variable interna está siendo regulada, qué mecanismo detecta la desviación y qué respuesta corrige la desviación.",
+          "4. Para preguntas sobre enfermedades o disfunciones: aplica la lógica 'si falla X, ¿qué consecuencias tiene sobre Y e Z?' siguiendo las relaciones de interdependencia entre sistemas.",
+          "5. Para preguntas sobre hormonas: recuerda que la hormona actúa a distancia sobre un órgano diana específico; identifica la glándula que la produce, la señal que la libera y el efecto que produce en el órgano diana."
+        ]
+      },
+      {
+        "heading": "Ejemplos resueltos",
+        "paragraphs": [
+          "Ejemplo 1 — Integración sistemas nervioso y endocrino. Durante una situación de peligro, el organismo responde aumentando la frecuencia cardiaca, dilatando los bronquios y elevando la glucosa en sangre. Pregunta: '¿Qué sistema nervioso y qué hormona explican estas respuestas?' Respuesta: el Sistema Nervioso Simpático activa la respuesta de lucha o huida en segundos; simultáneamente, activa la médula suprarrenal para secretar adrenalina (epinefrina), que amplifica y prolonga las mismas respuestas (taquicardia, broncodilatación, glucogenólisis hepática). Es un ejemplo de cooperación entre el sistema nervioso autónomo y el sistema endocrino para una respuesta integrada.",
+          "Ejemplo 2 — Diabetes y homeostasis de la glucemia. Un paciente presenta glucemia de 250 mg/dL en ayunas (valor normal: 70–99 mg/dL). Sus células beta pancreáticas han sido destruidas por un proceso autoinmune. Pregunta: '¿Por qué no se activa el mecanismo homeostático que debería reducir la glucemia?' Respuesta: las células beta destruidas no pueden producir insulina; sin insulina, las células de tejidos periféricos (músculo, tejido adiposo) no pueden captar glucosa, que se acumula en sangre. El mecanismo de retroalimentación negativa está roto en su eslabón efector. Este es el mecanismo fisiopatológico de la diabetes mellitus tipo 1.",
+          "Ejemplo 3 — Sistema digestivo y pH. El estómago produce HCl que baja el pH a 1,5–3,5 para activar la pepsina y matar bacterias. Cuando el quimo ácido pasa al duodeno, el páncreas secreta bicarbonato (NaHCO₃) que neutraliza el ácido. Pregunta: '¿Qué sucedería con la actividad de las enzimas pancreáticas si el páncreas no secretara bicarbonato?' Respuesta: las enzimas pancreáticas (lipasa, amilasa, tripsina) tienen una actividad óptima a pH neutro o ligeramente básico (~7–8); si el ambiente duodenal permaneciera ácido, las enzimas se desnaturalizarían y la digestión de grasas, almidones y proteínas se vería gravemente comprometida, produciendo malabsorción de nutrientes."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Confundir el sistema nervioso simpático con el parasimpático: simpático = lucha/huida (taquicardia); parasimpático = reposo/digestión (bradicardia). Son antagonistas.",
+          "Creer que la insulina eleva la glucemia: es exactamente lo contrario; la insulina baja la glucemia promoviendo la captación celular. El glucagón la eleva.",
+          "Confundir circulación menor (pulmonar) con menor importancia: es el circuito donde ocurre el intercambio gaseoso O₂/CO₂, absolutamente esencial.",
+          "Asumir que la homeostasis mantiene valores absolutamente fijos: mantiene valores dentro de un rango fluctuante alrededor de un punto de ajuste, no un valor único inmutable.",
+          "Olvidar que el páncreas tiene función tanto endocrina (insulina, glucagón) como exocrina (enzimas digestivas, bicarbonato): son compartimentos distintos del mismo órgano."
+        ]
+      },
+      {
+        "heading": "Checklist",
+        "items": [
+          "¿Identifiqué el sistema o sistemas relevantes para la pregunta y su función principal?",
+          "¿Tracé el camino correcto de una sustancia u hormona desde su origen hasta su órgano diana?",
+          "¿Identifiqué la variable homeostática regulada, el sensor y el mecanismo de retroalimentación?",
+          "¿Apliqué la lógica 'si falla X, ¿qué ocurre con Y?' para preguntas sobre disfunciones o enfermedades?",
+          "¿Distinguí entre acciones del sistema simpático y parasimpático sin confundirlas?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ci-fis-ondas",
+    "area": "Física",
+    "title": "Ondas, sonido y luz: fundamentos para la PAES Física",
+    "duration": "20 min",
+    "practiceKeywords": [
+      "onda",
+      "frecuencia",
+      "longitud",
+      "sonido",
+      "luz",
+      "reflexion",
+      "reflexión"
+    ],
+    "sections": [
+      {
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "Las ondas son uno de los bloques temáticos más versátiles de la PAES Física porque conectan conceptos de mecánica (ondas mecánicas), electromagnetismo (ondas EM), sonido (ondas de presión) y óptica (luz). Las preguntas sobre ondas pueden presentar gráficos de onda en el espacio (amplitud vs. posición) o en el tiempo (amplitud vs. tiempo) y pedir identificar longitud de onda, frecuencia, amplitud o período; también pueden preguntar por la relación entre frecuencia y velocidad, o por los fenómenos de reflexión, refracción, difracción e interferencia. Dominar los conceptos de onda permite responder correctamente preguntas de tres módulos distintos: Física mecánica (sonido), Física electromagnética (luz y ondas EM) y aplicaciones tecnológicas (ecografías, telescopios, comunicaciones).",
+          "Para Medicina, los fenómenos de ondas son la base de tecnologías diagnósticas cruciales: la ecografía usa ondas de ultrasonido (reflexión y refracción); la resonancia magnética usa ondas de radiofrecuencia; la radiografía usa rayos X (ondas EM de alta frecuencia); el electroencefalograma registra variaciones de potencial eléctrico del cerebro que se representan como ondas. Para Ingeniería, el diseño de sistemas de comunicación, sensores acústicos, fibra óptica y antenas depende del dominio profundo de la física ondulatoria."
+        ]
+      },
+      {
+        "heading": "Concepto de onda: parámetros fundamentales",
+        "formulas": [
+          "Velocidad de propagación: v = λ · f (v en m/s, λ = longitud de onda en m, f = frecuencia en Hz)",
+          "Período: T = 1/f (T en segundos, f en Hz)",
+          "Longitud de onda: λ = v / f",
+          "Velocidad del sonido en aire (~20 °C): v_s ≈ 343 m/s",
+          "Velocidad de la luz en el vacío: c = 3 × 10⁸ m/s"
+        ],
+        "paragraphs": [
+          "Una onda es una perturbación que se propaga transportando energía sin transportar materia. Los parámetros fundamentales de toda onda son: la amplitud (A), que es la máxima desplazamiento desde la posición de equilibrio y determina la intensidad o energía de la onda —mayor amplitud = más energía—; la longitud de onda (λ), que es la distancia entre dos puntos consecutivos en la misma fase (cresta a cresta o valle a valle); la frecuencia (f), que es el número de ciclos completos por segundo, medida en hertz (Hz); el período (T), que es el tiempo que tarda en completarse un ciclo completo —la inversa de la frecuencia—; y la velocidad de propagación (v), que es la rapidez con que la perturbación avanza en el medio.",
+          "Las ondas mecánicas requieren un medio material para propagarse (sólido, líquido o gas): el sonido es el ejemplo más importante. Las ondas electromagnéticas no requieren medio material: pueden propagarse en el vacío. La luz visible, los rayos X, las microondas, las ondas de radio y la radiación ultravioleta son todas ondas electromagnéticas que se propagan a la velocidad de la luz (c = 3 × 10⁸ m/s) en el vacío, aunque se retardan al atravesar medios materiales. Las ondas transversales tienen la perturbación perpendicular a la dirección de propagación (olas en el agua, ondas EM); las ondas longitudinales tienen la perturbación paralela a la dirección de propagación (sonido = compresiones y rarefacciones del aire)."
+        ],
+        "items": [
+          "Amplitud A: máximo desplazamiento desde el equilibrio → determina la energía de la onda",
+          "Longitud de onda λ: distancia cresta a cresta (o valle a valle)",
+          "Frecuencia f: ciclos por segundo (Hz); período T = 1/f",
+          "v = λ · f: la velocidad depende del medio, no de la frecuencia",
+          "Onda transversal: perturbación ⊥ propagación (luz, olas) — longitudinal: perturbación ∥ propagación (sonido)"
+        ]
+      },
+      {
+        "heading": "Sonido: características y fenómenos",
+        "paragraphs": [
+          "El sonido es una onda mecánica longitudinal: se propaga como variaciones de presión (compresiones y rarefacciones) en un medio material. Requiere un medio para propagarse: viaja más rápido en sólidos que en líquidos y más rápido en líquidos que en gases. En el aire a 20 °C, la velocidad del sonido es aproximadamente 343 m/s; en el agua, aproximadamente 1.480 m/s; en el acero, alrededor de 5.100 m/s. En el vacío el sonido NO se propaga (no hay moléculas que transmitan las vibraciones).",
+          "Las propiedades perceptibles del sonido se relacionan directamente con sus parámetros físicos: la altura o tono (grave vs. agudo) depende de la frecuencia —mayor frecuencia = sonido más agudo—; la intensidad o volumen (fuerte vs. débil) depende de la amplitud —mayor amplitud = mayor presión sonora = sonido más fuerte—; el timbre o calidad del sonido depende de la forma de la onda, es decir, de cuáles armónicos (frecuencias múltiplas de la fundamental) están presentes y en qué proporción. El rango audible humano es aproximadamente 20 Hz a 20.000 Hz (20 kHz); el ultrasonido está por encima de 20 kHz (no audible por humanos) y tiene aplicaciones en ecografía médica, ecolocalización de murciélagos y control de calidad industrial.",
+          "El efecto Doppler es el cambio aparente en la frecuencia de una onda cuando la fuente y el observador se mueven uno respecto al otro. Si la fuente se acerca al observador, el observador percibe una frecuencia mayor (sonido más agudo); si la fuente se aleja, percibe una frecuencia menor (sonido más grave). Este efecto es utilizado en el radar de velocidad de tráfico, en la ecografía Doppler para medir el flujo sanguíneo, y en astronomía para determinar si una estrella se aleja o se acerca (corrimiento al rojo o al azul)."
+        ],
+        "items": [
+          "Sonido: onda mecánica longitudinal, requiere medio material — NO se propaga en el vacío",
+          "Velocidad: sólido > líquido > gas (en aire ~343 m/s; en agua ~1.480 m/s)",
+          "Tono/altura: depende de la frecuencia (alta f = agudo; baja f = grave)",
+          "Intensidad/volumen: depende de la amplitud (mayor A = más fuerte)",
+          "Ultrasonido: f > 20 kHz, invisible al oído humano → ecografía, sonar",
+          "Efecto Doppler: frecuencia aparente aumenta si fuente se acerca, disminuye si se aleja"
+        ]
+      },
+      {
+        "heading": "Luz: fenómenos de reflexión, refracción y espectro electromagnético",
+        "paragraphs": [
+          "La luz visible es una fracción del espectro electromagnético que el ojo humano puede detectar, con longitudes de onda entre aproximadamente 380 nm (violeta) y 700 nm (rojo). El espectro EM completo, de menor a mayor longitud de onda (o de mayor a menor frecuencia y energía), incluye: rayos gamma, rayos X, ultravioleta, luz visible, infrarrojo, microondas y ondas de radio. Todas estas radiaciones viajan a la velocidad de la luz (c = 3 × 10⁸ m/s) en el vacío y se propagan sin necesitar medio material.",
+          "La reflexión ocurre cuando una onda choca con una superficie y rebota. La Ley de la Reflexión establece que el ángulo de incidencia (medido respecto a la normal a la superficie) es igual al ángulo de reflexión. Esta ley explica el funcionamiento de los espejos, los periscópios y los sistemas de fibra óptica basados en reflexión interna total. La refracción ocurre cuando la luz pasa de un medio a otro con distinta velocidad de propagación: cambia de velocidad y, si incide en ángulo, cambia de dirección. El índice de refracción (n = c/v_medio) mide cuánto se retarda la luz en el medio. La refracción explica por qué un lápiz parece doblado al introducirlo en agua, por qué los lentes ópticos convergen o divergen la luz y por qué el prisma separa la luz blanca en sus componentes de color (dispersión: cada frecuencia tiene distinto índice de refracción en el vidrio)."
+        ],
+        "items": [
+          "Espectro EM (↑ longitud de onda, ↓ frecuencia, ↓ energía): γ → X → UV → visible → IR → microondas → radio",
+          "Luz visible: 380 nm (violeta) a 700 nm (rojo) — viaja a c = 3 × 10⁸ m/s en el vacío",
+          "Reflexión: ángulo incidencia = ángulo reflexión (respecto a la normal) → espejos, fibra óptica",
+          "Refracción: cambio de velocidad al cambiar de medio → índice de refracción n = c / v_medio",
+          "Dispersión: separación de la luz blanca por el prisma porque cada color tiene distinto n en el vidrio",
+          "Reflexión total interna: fundamento de la fibra óptica (la luz queda atrapada dentro del cable)"
+        ]
+      },
+      {
+        "heading": "Método paso a paso para preguntas de ondas",
+        "items": [
+          "1. Identifica qué tipo de onda es: mecánica (necesita medio) o electromagnética (no necesita medio). Si es mecánica, identifica el medio de propagación.",
+          "2. Para gráficos de onda: distingue si el eje horizontal es posición (gráfico espacial → puedes leer λ directamente) o tiempo (gráfico temporal → puedes leer T = período directamente; luego f = 1/T).",
+          "3. Para calcular: usa v = λ · f como ecuación central. Identifica cuáles dos de las tres magnitudes te dan y despeja la tercera.",
+          "4. Para preguntas de sonido: recuerda que la velocidad depende del medio (no de la frecuencia); el tono depende de f y el volumen depende de la amplitud.",
+          "5. Para preguntas de reflexión o refracción: aplica la ley de reflexión (ángulo incidencia = ángulo reflexión) o identifica que la refracción cambia la dirección porque cambia la velocidad al cambiar de medio."
+        ]
+      },
+      {
+        "heading": "Ejemplos resueltos",
+        "paragraphs": [
+          "Ejemplo 1 — Cálculo con v = λ · f. Un parlante emite un sonido de frecuencia 440 Hz (nota La). Si la velocidad del sonido en el aire es 340 m/s, ¿cuál es la longitud de onda de ese sonido? Despejando λ = v/f = 340 m/s ÷ 440 Hz = 0,773 m ≈ 77,3 cm. Interpretación: cada ciclo de compresión-rarefacción tiene una extensión espacial de 77 cm en el aire a esa temperatura. Si la temperatura del aire aumenta, la velocidad del sonido aumenta y la longitud de onda también aumentaría para la misma frecuencia.",
+          "Ejemplo 2 — Leer un gráfico de onda. Se presenta un gráfico de amplitud vs. posición que muestra una onda sinusoidal con dos crestas completas en 8 m de distancia. Pregunta: '¿Cuál es la longitud de onda?' Razonamiento: si hay dos ciclos completos en 8 m, cada ciclo (longitud de onda) mide 8/2 = 4 m. Trampa frecuente: si el gráfico mostrara una cresta y un valle (medio ciclo) en 8 m, la longitud de onda sería 16 m, no 8 m; medio ciclo = media longitud de onda.",
+          "Ejemplo 3 — Efecto Doppler en contexto médico. Un ultrasonido de 3 MHz es emitido hacia el corazón de un paciente. El equipo detecta que la frecuencia reflejada por la sangre en movimiento es mayor que 3 MHz. Pregunta: '¿Qué inferencia se puede hacer sobre el flujo sanguíneo?' Respuesta: si la frecuencia reflejada es mayor, la sangre se mueve hacia el transductor (acortando el camino de retorno de las ondas, lo que eleva la frecuencia percibida). Este principio es la base del Doppler cardíaco para medir velocidades del flujo sanguíneo y detectar obstrucciones."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Creer que al cambiar el medio cambia la frecuencia del sonido o la luz: la frecuencia NO cambia al cambiar de medio; cambia la velocidad y por lo tanto la longitud de onda (λ = v/f).",
+          "Confundir gráfico espacial (amplitud vs. posición → se lee λ) con gráfico temporal (amplitud vs. tiempo → se lee T, luego f = 1/T).",
+          "Confundir amplitud con longitud de onda: amplitud es la 'altura' de la onda (energía); longitud de onda es la 'anchura' de un ciclo completo.",
+          "Creer que el sonido viaja más rápido en el vacío: el sonido no se propaga en el vacío porque es una onda mecánica que requiere moléculas para transmitir las variaciones de presión.",
+          "Confundir reflexión (el rayo rebota en la misma superficie) con refracción (el rayo penetra y cambia de dirección al cambiar de medio)."
+        ]
+      },
+      {
+        "heading": "Checklist",
+        "items": [
+          "¿Identifiqué si la onda es mecánica (necesita medio) o electromagnética (no necesita medio)?",
+          "¿Leí correctamente el gráfico de onda (espacial → leo λ; temporal → leo T, calculo f = 1/T)?",
+          "¿Usé v = λ · f correctamente identificando cuáles dos variables están dadas?",
+          "¿Recordé que la velocidad del sonido depende del medio y aumenta con mayor temperatura y en medios más rígidos?",
+          "¿Apliqué la ley de reflexión (ángulos iguales respecto a la normal) sin confundirla con refracción?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ci-quim-reacciones",
+    "area": "Química",
+    "title": "Reacciones químicas, balanceo y estequiometría en profundidad",
+    "duration": "22 min",
+    "practiceKeywords": [
+      "reaccion",
+      "reacción",
+      "balance",
+      "estequiometr",
+      "mol",
+      "reactivo",
+      "producto"
+    ],
+    "sections": [
+      {
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "Las reacciones químicas son el corazón de la Química: todo proceso químico —la respiración celular, la combustión de un combustible, la síntesis de un fármaco, la corrosión del hierro— involucra una transformación de reactivos en productos con reorganización de los enlaces químicos. La PAES evalúa este bloque en tres niveles de profundidad: (1) identificar el tipo de reacción según sus características (síntesis, descomposición, combustión, sustitución, neutralización, redox); (2) balancear ecuaciones químicas asegurando la Ley de Conservación de la Masa; y (3) realizar cálculos estequiométricos que cuantifican las relaciones molares entre reactivos y productos, incluyendo la identificación del reactivo limitante y el cálculo del rendimiento.",
+          "Para Medicina, las reacciones químicas son la base de la Bioquímica (metabolismo celular = reacciones enzimáticas encadenadas), la Farmacología (síntesis y degradación de fármacos), la Toxicología (mecanismos de intoxicación) y los análisis de laboratorio clínico (reacciones de precipitación, oxidación-reducción y neutralización en reactivos de diagnóstico). Para Ingeniería Química y de Procesos, el diseño de reactores, la optimización de rendimientos y el balance de materia son directamente dependientes de la estequiometría. Dominar este bloque en la PAES es, por lo tanto, una inversión de alto retorno para ambas carreras."
+        ]
+      },
+      {
+        "heading": "Tipos de reacciones químicas",
+        "paragraphs": [
+          "Las reacciones químicas se clasifican según el patrón de reorganización de los reactivos y los productos. Las más frecuentes en la PAES son: SÍNTESIS o COMBINACIÓN: dos o más reactivos se unen para formar un único producto. Esquema general: A + B → AB. Ejemplo: 2H₂ + O₂ → 2H₂O. DESCOMPOSICIÓN: un reactivo se descompone en dos o más productos. Esquema: AB → A + B. Ejemplo: 2H₂O₂ → 2H₂O + O₂ (descomposición del peróxido de hidrógeno con catalizador MnO₂). SUSTITUCIÓN SIMPLE (desplazamiento): un elemento desplaza a otro en un compuesto. Esquema: A + BC → AC + B. Ejemplo: Zn + 2HCl → ZnCl₂ + H₂↑. SUSTITUCIÓN DOBLE (intercambio o metátesis): dos compuestos intercambian sus partes. Esquema: AB + CD → AD + CB. Ejemplo: NaCl + AgNO₃ → AgCl↓ + NaNO₃ (reacción de precipitación del cloruro de plata). COMBUSTIÓN: un combustible reacciona con O₂ produciendo calor, CO₂ y H₂O (combustión completa) o CO (combustión incompleta). Ejemplo completo: CH₄ + 2O₂ → CO₂ + 2H₂O. NEUTRALIZACIÓN: ácido + base → sal + agua. Ejemplo: HCl + NaOH → NaCl + H₂O. REDOX (oxidación-reducción): hay transferencia de electrones; el agente reductor pierde electrones (se oxida) y el agente oxidante gana electrones (se reduce).",
+          "Las reacciones redox son las más complejas y frecuentes en la naturaleza: la respiración celular (oxidación de la glucosa), la fotosíntesis (reducción del CO₂), la corrosión de los metales, las pilas y baterías eléctricas (celdas galvánicas) y la electrólisis son todas reacciones redox. Para identificar una reacción redox, verifica si los estados de oxidación de algún elemento cambian entre reactivos y productos: si el número de oxidación de un átomo aumenta, ese átomo se oxidó (perdió electrones); si disminuye, se redujo (ganó electrones)."
+        ],
+        "items": [
+          "Síntesis: A + B → AB (ej. 2H₂ + O₂ → 2H₂O)",
+          "Descomposición: AB → A + B (ej. 2H₂O₂ → 2H₂O + O₂)",
+          "Sustitución simple: A + BC → AC + B (ej. Zn + 2HCl → ZnCl₂ + H₂)",
+          "Sustitución doble / metátesis: AB + CD → AD + CB (ej. NaCl + AgNO₃ → AgCl↓ + NaNO₃)",
+          "Combustión completa: CₓHᵧ + O₂ → CO₂ + H₂O (con exceso de O₂)",
+          "Neutralización: ácido + base → sal + H₂O",
+          "Redox: transferencia de electrones; oxidación = pierde e⁻; reducción = gana e⁻"
+        ]
+      },
+      {
+        "heading": "Balanceo de ecuaciones químicas",
+        "paragraphs": [
+          "Balancear una ecuación química es el proceso de ajustar los coeficientes estequiométricos de reactivos y productos para que el número de átomos de cada elemento sea idéntico en ambos lados de la ecuación, cumpliendo la Ley de Conservación de la Masa: en una reacción química, la masa total de los reactivos es igual a la masa total de los productos porque los átomos no se crean ni se destruyen, solo se reorganizan. El punto crítico y que más errores genera en la PAES es: NUNCA cambies los subíndices de las fórmulas moleculares para balancear; SOLO modifica los coeficientes delante de cada fórmula. Cambiar un subíndice es cambiar la identidad del compuesto (H₂O ≠ H₂O₂), lo que es un error conceptual grave.",
+          "El método más sistemático para balancear ecuaciones en la PAES es el método de tanteo o inspección: (1) comienza por los elementos que aparecen en menos compuestos; (2) deja el H y el O para el final en reacciones de combustión; (3) usa fracciones temporalmente si es necesario y multiplica toda la ecuación por un entero al final para eliminarlas. Para reacciones más complejas, el método de cambio de número de oxidación (método redox) asegura que los electrones ganados sean iguales a los perdidos. Ejemplo de balanceo completo: Balancear la combustión del propano C₃H₈ + O₂ → CO₂ + H₂O. Paso 1: balancea C: C₃H₈ + O₂ → 3CO₂ + H₂O. Paso 2: balancea H: C₃H₈ + O₂ → 3CO₂ + 4H₂O. Paso 3: cuenta O en productos: 3×2 + 4×1 = 10 átomos de O → necesitas 5O₂ en reactivos. Ecuación balanceada: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. Verificación: C: 3=3 ✓; H: 8=8 ✓; O: 10=10 ✓."
+        ],
+        "items": [
+          "Ley de Conservación de la Masa: átomos no se crean ni destruyen → mismo número en reactivos y productos",
+          "NUNCA cambies subíndices de fórmulas para balancear: solo modifica coeficientes",
+          "Método de inspección: comienza por los elementos en menos compuestos; H y O al final en combustiones",
+          "Verificación final: cuenta el número de átomos de cada elemento en ambos lados y confirma igualdad"
+        ]
+      },
+      {
+        "heading": "Estequiometría en profundidad: mol, masa y reactivo limitante",
+        "formulas": [
+          "Moles de una sustancia: n = masa (g) / masa molar M (g/mol)",
+          "Masa molar de compuesto: sumar masas atómicas de todos los átomos × sus subíndices",
+          "Razón molar: los coeficientes de la ecuación balanceada dan la relación moles:moles",
+          "Reactivo limitante: el que produce la menor cantidad de producto; se agota primero",
+          "Reactivo en exceso: el que sobra una vez consumido el limitante",
+          "Rendimiento porcentual: % rendimiento = (moles obtenidos experimentalmente / moles teóricos máximos) × 100"
+        ],
+        "paragraphs": [
+          "La estequiometría cuantifica con precisión las relaciones entre reactivos y productos usando el mol como unidad central. Una vez que la ecuación está balanceada, los coeficientes actúan como factores de conversión molar: en la reacción N₂ + 3H₂ → 2NH₃, 1 mol de N₂ reacciona exactamente con 3 mol de H₂ para producir 2 mol de NH₃. El procedimiento estándar para todos los cálculos estequiométricos sigue tres pasos fundamentales: (1) convierte la masa del reactivo dado a moles usando su masa molar; (2) multiplica por la razón molar de la ecuación balanceada para obtener los moles del compuesto buscado; (3) convierte los moles del producto a gramos multiplicando por su masa molar.",
+          "El reactivo limitante es el reactivo que se consume completamente primero y determina la cantidad máxima de producto que puede obtenerse en la reacción. El reactivo en exceso es el que sobra. Para identificar el reactivo limitante cuando se dan las cantidades de dos o más reactivos: convierte todos a moles, divide cada uno por su coeficiente en la ecuación balanceada, y el que dé el resultado más pequeño es el reactivo limitante. El rendimiento de una reacción es el porcentaje entre la cantidad de producto realmente obtenida en el laboratorio y la cantidad teórica máxima calculada estequiométricamente. Las causas de un rendimiento menor al 100 % incluyen reacciones secundarias, pérdidas durante la purificación y el hecho de que muchas reacciones son reversibles y no llegan a completarse."
+        ]
+      },
+      {
+        "heading": "Método paso a paso para cálculos estequiométricos",
+        "items": [
+          "Paso 1 — Balancea la ecuación correctamente antes de cualquier cálculo: no puedes usar las razones molares si la ecuación no está balanceada.",
+          "Paso 2 — Convierte la masa del reactivo o producto dado a moles: n = masa (g) / M (g/mol). Calcula M sumando las masas atómicas de todos los átomos de la fórmula.",
+          "Paso 3 — Aplica la razón molar de la ecuación balanceada: n(buscado) = n(dado) × [coeficiente buscado / coeficiente dado].",
+          "Paso 4 — Convierte los moles del compuesto buscado a gramos si lo pide: masa = n × M.",
+          "Paso 5 — Si hay dos reactivos con sus masas dadas, identifica el reactivo limitante: convierte ambos a moles, divide por sus coeficientes, el menor es el limitante. Usa solo el limitante para calcular el producto.",
+          "Paso 6 — Si pide rendimiento: calcula los moles teóricos (paso 3), compara con los experimentales: % rendimiento = (experimental/teórico) × 100."
+        ]
+      },
+      {
+        "heading": "Ejemplos resueltos",
+        "paragraphs": [
+          "Ejemplo 1 — Balanceo y estequiometría completos. ¿Cuántos gramos de NH₃ se producen si se consumen completamente 14 g de N₂ según la reacción N₂ + 3H₂ → 2NH₃? Paso 1: ecuación ya balanceada. Paso 2: M(N₂) = 2 × 14 = 28 g/mol → n(N₂) = 14/28 = 0,5 mol. Paso 3: razón molar N₂:NH₃ = 1:2 → n(NH₃) = 0,5 × 2 = 1,0 mol. Paso 4: M(NH₃) = 14 + 3×1 = 17 g/mol → masa(NH₃) = 1,0 × 17 = 17 g. Respuesta: se producen 17 g de amoníaco. Verificación conceptual: los átomos de N y H se conservan en ambos lados.",
+          "Ejemplo 2 — Reactivo limitante. Se mezclan 4 g de H₂ y 32 g de O₂ para producir agua según 2H₂ + O₂ → 2H₂O. ¿Cuál es el reactivo limitante y cuánta agua se produce? Paso 1: n(H₂) = 4/2 = 2 mol; n(O₂) = 32/32 = 1 mol. Paso 2: divide por coeficientes: H₂ → 2/2 = 1; O₂ → 1/1 = 1. Resultado igual → ambos se consumen exactamente (reacción estequiométrica, sin reactivo limitante ni en exceso). Producto: razón H₂:H₂O = 2:2 = 1:1 → n(H₂O) = 2 mol → masa = 2 × 18 = 36 g. Si en cambio se hubieran mezclado 2 g de H₂ (1 mol) y 32 g de O₂ (1 mol): H₂ → 1/2 = 0,5; O₂ → 1/1 = 1 → H₂ es el limitante; produce n(H₂O) = 1 mol = 18 g; sobran 0,5 mol de O₂.",
+          "Ejemplo 3 — Rendimiento. La combustión de 10 g de propano C₃H₈ debería producir teóricamente cierta masa de CO₂ según C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. Calcula teóricamente: M(C₃H₈) = 3×12 + 8×1 = 44 g/mol → n(C₃H₈) = 10/44 = 0,227 mol → n(CO₂) = 0,227 × 3 = 0,682 mol → masa teórica CO₂ = 0,682 × 44 = 30,0 g. Si en el laboratorio se obtienen 27 g de CO₂, el rendimiento es: % = (27/30) × 100 = 90 %. El 10 % no obtenido puede deberse a combustión incompleta (formación de CO en lugar de CO₂) u otras pérdidas."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Cambiar subíndices de fórmulas para balancear: NUNCA; solo modificas coeficientes. Cambiar un subíndice cambia la identidad del compuesto.",
+          "Olvidar balancear antes de calcular: cualquier cálculo estequiométrico sobre una ecuación sin balancear dará un resultado incorrecto.",
+          "No identificar el reactivo limitante cuando se dan masas de dos reactivos: si no identificas cuál se agota primero, calcularás más producto del que realmente se puede obtener.",
+          "Confundir masa molar de elemento (masa atómica × número de átomos) con la de compuesto (suma de todas las masas atómicas según la fórmula).",
+          "Asumir que el rendimiento es siempre 100 %: en la práctica casi nunca lo es; el problema puede indicar un rendimiento menor y pedir calcular la masa real obtenida, no la teórica máxima."
+        ]
+      },
+      {
+        "heading": "Checklist",
+        "items": [
+          "¿Balanceé la ecuación ANTES de realizar cualquier cálculo estequiométrico?",
+          "¿Calculé correctamente la masa molar de cada compuesto sumando todas las masas atómicas con sus subíndices?",
+          "¿Seguí el procedimiento: masa → moles → moles del otro compuesto (por razón molar) → masa?",
+          "¿Identifiqué el reactivo limitante cuando se dieron masas de dos o más reactivos?",
+          "¿Si el problema daba un rendimiento menor al 100 %, lo apliqué al calcular la masa real de producto?"
+        ]
+      }
+    ]
   }
 ]

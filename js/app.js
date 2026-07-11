@@ -113,6 +113,7 @@ async function render() {
         const { startPathEssay } = await loadEssayEngine();
         if (params[0] === 'diagnostico') await startPathEssay(view, 'diagnostic');
         else if (params[0] === 'progreso') await startPathEssay(view, 'checkpoint');
+        else if (params[0] === 'libre') await startPathEssay(view, 'libre');
         else if (params[0] === 'unidad' && params[1]) await startPathEssay(view, 'unit', params[1]);
         else await renderEssays(view);
         break;

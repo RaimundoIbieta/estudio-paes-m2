@@ -67,19 +67,39 @@ export function updateTestProgress(testId, patch) {
   return p.tests[testId];
 }
 
+/** Actualiza racha diaria (días consecutivos con actividad). */
+export function touchStreak() {
+  const p = loadProgress();
+  const today = new Date().toISOString().slice(0, 10);
+  const last = (p.lastVisit || '').slice(0, 10);
+  if (last === today) {
+    p.lastVisit = new Date().toISOString();
+    saveProgress(p);
+    return p.streak || 0;
+  }
+  const yesterday = new Date();
+  yesterday.setDate(yesterday.getDate() - 1);
+  const y = yesterday.toISOString().slice(0, 10);
+  p.streak = last === y ? (p.streak || 0) + 1 : 1;
+  p.lastVisit = new Date().toISOString();
+  saveProgress(p);
+  return p.streak;
+}
+
 export function recordExercise(id, correct) {
   const p = loadProgress();
   if (!p.exercises[id]) p.exercises[id] = { attempts: 0, correct: 0 };
   p.exercises[id].attempts += 1;
   if (correct) p.exercises[id].correct += 1;
-  p.lastVisit = new Date().toISOString();
   saveProgress(p);
+  touchStreak();
 }
 
 export function recordEssay(result) {
   const p = loadProgress();
   p.essays.push({ ...result, date: new Date().toISOString() });
   saveProgress(p);
+  touchStreak();
 }
 
 export function markLessonRead(id) {
@@ -95,6 +115,22 @@ export function completeLesson(testId, lessonId) {
     updateTestProgress(testId, { lessonsCompleted: tp.lessonsCompleted });
   }
   markLessonRead(lessonId);
+  touchStreak();
+}
+
+export function getAchievements(testId = null) {
+  const p = loadProgress();
+  const tp = testId ? (p.tests?.[testId] || {}) : {};
+  const essays = (p.essays || []).filter(e => !testId || e.testId === testId);
+  const badges = [];
+  if (tp.diagnosticDone) badges.push({ id: 'diag', label: 'Diagnóstico rendido', icon: '🎯' });
+  if ((tp.lessonsCompleted || []).length >= 3) badges.push({ id: 'u3', label: '3 unidades estudiadas', icon: '📚' });
+  if ((tp.lessonsCompleted || []).length >= 8) badges.push({ id: 'u8', label: '8 unidades estudiadas', icon: '🏆' });
+  if (Object.keys(tp.unitEssays || {}).length >= 2) badges.push({ id: 'me2', label: '2 mini ensayos', icon: '⏱️' });
+  if ((tp.checkpoints || []).length >= 1) badges.push({ id: 'cp', label: 'Ensayo de progreso', icon: '📈' });
+  if ((p.streak || 0) >= 3) badges.push({ id: 'streak3', label: `Racha ${p.streak} días`, icon: '🔥' });
+  if (essays.some(e => (e.score || 0) >= 70)) badges.push({ id: '70', label: 'Ensayo ≥ 70%', icon: '⭐' });
+  return { streak: p.streak || 0, badges };
 }
 
 export function getStats(testId = null) {
@@ -125,6 +161,7 @@ export function getStats(testId = null) {
     exercises,
     tests: p.tests || {},
     lastVisit: p.lastVisit,
+    streak: p.streak || 0,
   };
 }
 

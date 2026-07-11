@@ -1,7 +1,21 @@
-import { getStats, resetProgress } from '../storage.js';
+import { getStats, resetProgress, getAchievements } from '../storage.js';
 import { getCurrentTest, loadTests } from '../test-context.js';
 import { getStudyRoadmap, getGate } from '../learning-path.js';
 import { getUser } from '../auth.js';
+
+function areaLabelFromQuestionId(id, testId) {
+  const s = String(id || '').toLowerCase();
+  if (s.includes('geo') || s.includes('angulo') || s.includes('triang') || s.includes('trig')) return 'Geometría';
+  if (s.includes('alg') || s.includes('ecuacion') || s.includes('func') || s.includes('log')) return 'Álgebra';
+  if (s.includes('num') || s.includes('porcent') || s.includes('potenc')) return 'Números';
+  if (s.includes('prob') || s.includes('estad')) return 'Probabilidad';
+  if (s.startsWith('cl-') || s.includes('localizar') || s.includes('interpret')) return 'Competencia Lectora';
+  if (s.startsWith('hcs-')) return 'HCS';
+  if (s.startsWith('ci-') || s.includes('bio') || s.includes('fis') || s.includes('quim')) return 'Ciencias';
+  if (testId === 'm1') return 'M1';
+  if (testId === 'm2') return 'M2';
+  return (testId || 'general').toUpperCase();
+}
 
 export async function renderProgress(container) {
   try {
@@ -10,6 +24,7 @@ export async function renderProgress(container) {
     const tests = await loadTests();
     const test = tests.find(t => t.id === testId);
     const stats = getStats(testId);
+    const { streak, badges } = getAchievements(testId);
 
     if (!testId) {
       container.innerHTML = `
@@ -24,8 +39,7 @@ export async function renderProgress(container) {
     const areaStats = {};
     for (const [id, data] of Object.entries(stats.exercises || {})) {
       if (!data) continue;
-      const area = id.split('-')[0];
-      const areaName = { geo: 'Geometría', alg: 'Álgebra', num: 'Números', prob: 'Probabilidad', m1: 'M1', cl: 'CL', hcs: 'HCS', ci: 'Ciencias' }[area] || area;
+      const areaName = areaLabelFromQuestionId(id, testId);
       if (!areaStats[areaName]) areaStats[areaName] = { attempts: 0, correct: 0 };
       areaStats[areaName].attempts += data.attempts || 0;
       areaStats[areaName].correct += data.correct || 0;
@@ -42,6 +56,21 @@ export async function renderProgress(container) {
         <h3>⚡ Siguiente paso obligatorio</h3>
         <p><strong>${gate.title}</strong> — ${gate.description}</p>
         <a href="${gate.route}" class="btn btn-primary" data-route>Comenzar ahora</a>
+      </section>` : ''}
+
+      <div class="results-grid" style="margin-top:1rem">
+        <div class="stat-box"><strong>${streak}</strong><span>Racha (días)</span></div>
+        <div class="stat-box"><strong>${badges.length}</strong><span>Logros</span></div>
+        <div class="stat-box"><strong>${stats.accuracy || 0}%</strong><span>Precisión</span></div>
+        <div class="stat-box"><strong>${testEssays.length}</strong><span>Ensayos</span></div>
+      </div>
+
+      ${badges.length ? `
+      <section class="card" style="margin-top:1rem">
+        <h3>Logros</h3>
+        <div class="topic-list" style="margin-top:0.5rem">
+          ${badges.map(b => `<div class="topic-item" style="cursor:default"><div><strong>${b.icon} ${b.label}</strong></div></div>`).join('')}
+        </div>
       </section>` : ''}
 
       <section class="card" style="margin-top:1rem">

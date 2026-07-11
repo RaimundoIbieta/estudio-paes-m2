@@ -160,5 +160,261 @@
         ]
       }
     ]
+  },
+  {
+    "id": "cl-multimodales",
+    "area": "Competencia Lectora",
+    "title": "Textos multimodales: integrar gráficos, imágenes y tablas en la PAES CL",
+    "duration": "20 min",
+    "practiceKeywords": [
+      "multimodal",
+      "grafico",
+      "gráfico",
+      "imagen",
+      "tabla",
+      "figura",
+      "infograf"
+    ],
+    "sections": [
+      {
+        "heading": "1. Para qué sirve en la PAES",
+        "paragraphs": [
+          "Un texto multimodal combina dos o más sistemas de representación para construir significado: lenguaje verbal escrito, gráficos estadísticos, tablas de datos, infografías, fotografías o diagramas. La PAES Competencia Lectora incorpora de forma sistemática este tipo de textos, y sus preguntas exigen un procesamiento diferente al de los textos puramente verbales: el lector debe integrar la información visual con la información escrita para alcanzar una comprensión completa que ninguno de los dos modos por separado podría entregar. Saltarse el gráfico o la tabla y leer solo el texto escrito es uno de los errores más frecuentes y más costosos en la prueba, porque una sola alternativa mal respondida por ignorar el elemento visual puede costar entre tres y cinco puntos en la escala final.",
+          "Los textos multimodales aparecen principalmente en secuencias de ítems sobre temas científicos, sociales o económicos, y representan aproximadamente entre el 20 y el 30 % de las preguntas de la PAES CL. Las habilidades que activan son principalmente Interpretar —extraer significado integrado de dos modos distintos— e Integrar/Reflexionar —relacionar la información verbal con la visual y detectar relaciones de confirmación, complementación o contradicción entre ellas—. Dominar estas habilidades elimina una fuente completa de error sistemático y puede marcar una diferencia significativa en el puntaje final, especialmente en el tramo de 700 a 900 puntos donde la prueba discrimina con mayor precisión entre estudiantes."
+        ]
+      },
+      {
+        "heading": "2. Tipos de elementos visuales y protocolo de lectura",
+        "paragraphs": [
+          "GRÁFICOS ESTADÍSTICOS (barras, líneas, torta, dispersión): Aplica siempre esta secuencia antes de interpretar cualquier dato. Primero, lee el título completo del gráfico: te dice exactamente qué variable se representa, en qué período o contexto geográfico y qué tipo de medida se usa. Segundo, lee los títulos de ambos ejes y sus unidades de medida (porcentaje, millones de personas, toneladas métricas, pesos corrientes, etc.): confundir 'millones' con 'miles' o 'porcentaje' con 'número absoluto' invalida cualquier lectura posterior. Tercero, lee la leyenda si el gráfico tiene más de una serie de datos: confundir la barra azul con la roja o la línea continua con la discontinua lleva a elegir exactamente la alternativa contraria a la correcta. Cuarto, verifica si el eje vertical comienza en cero: un eje que empieza en 80 puede hacer que una diferencia de dos puntos parezca enormemente significativa visualmente aunque en términos absolutos sea marginal. Solo tras completar estos cuatro pasos, lee los valores específicos y extrae conclusiones estrictamente acotadas al rango de datos que el gráfico efectivamente muestra.",
+          "TABLAS DE DATOS: Las tablas organizan información en filas y columnas con encabezados. Lee primero todos los encabezados de columna para saber qué variable representa cada columna y en qué unidad está expresada. Identifica luego la variable de las filas: qué caso, período, región o categoría representa cada fila. Las preguntas sobre tablas piden habitualmente el valor máximo o mínimo de una variable, la diferencia entre dos valores de la misma columna, la relación proporcional entre columnas, o la identificación de una tendencia al comparar varias filas. El error más frecuente es leer el dato de la fila equivocada por apresuramiento o confundir el valor de una columna con el de la columna contigua; siempre verifica dónde está el dedo antes de anotar mentalmente el número.",
+          "INFOGRAFÍAS: Combinan texto breve, íconos, números y organización espacial para comunicar información de forma sintética y visualmente atractiva. Lee siempre en este orden: título de la infografía completa → subtítulos de cada sección → texto de los globos o recuadros → valores numéricos asociados a cada ícono o figura. Las preguntas sobre infografías pueden pedir: identificar la tesis central que articula todos los elementos visuales, relacionar dos datos específicos de secciones distintas de la infografía, o detectar si el texto verbal y el elemento gráfico son coherentes entre sí o si existe una contradicción interna que el lector debe saber reconocer.",
+          "IMÁGENES Y FOTOGRAFÍAS: En textos literarios o periodísticos, una imagen funciona como paratexto que puede apoyar, ampliar, ironizar o contrastar el sentido del texto verbal. Para responder preguntas sobre la función de una imagen, identifica primero el elemento central o dominante de la imagen y luego pregúntate: ¿refuerza la idea principal del párrafo adjunto?, ¿introduce una perspectiva o dimensión que el texto verbal no menciona explícitamente?, ¿crea un efecto de contraste o ironía respecto al tono del texto? La respuesta a alguna de estas preguntas generalmente es la clave de la alternativa correcta."
+        ]
+      },
+      {
+        "heading": "3. Método paso a paso para textos multimodales",
+        "items": [
+          "Paso 1 — Lee el título del texto completo y el título de cada elemento visual antes de entrar en detalles: esto establece el tema global y el propósito específico de cada figura.",
+          "Paso 2 — Lee el texto verbal completo prestando atención a las referencias explícitas al elemento visual: frases como 'como muestra el gráfico', 'según la tabla adjunta', 'en la figura 2 se observa' te señalan la relación prevista entre texto e imagen.",
+          "Paso 3 — Lee el elemento visual de forma sistemática siguiendo el protocolo del tipo correspondiente: para gráficos y tablas, sigue título → ejes o encabezados → leyenda → valores → tendencia general; para infografías, recorre todos los elementos en el orden espacial de su presentación.",
+          "Paso 4 — Establece explícitamente la relación entre los dos modos: ¿el elemento visual confirma, cuantifica, complementa, matiza o contradice lo que dice el texto verbal? Esta relación es el núcleo de la mayoría de las preguntas multimodales.",
+          "Paso 5 — Lee la pregunta e identifica a cuál modo se refiere: si pide un dato numérico exacto, vuelve al gráfico o tabla; si pide una idea o argumento, vuelve al texto verbal; si pide la relación entre ambos, integra los dos modos antes de elegir la alternativa."
+        ]
+      },
+      {
+        "heading": "4. Ejemplos trabajados",
+        "paragraphs": [
+          "EJEMPLO 1 — GRÁFICO QUE MATIZA EL TEXTO. El texto afirma: 'La tasa de analfabetismo en Chile disminuyó de manera sostenida durante las últimas cuatro décadas, reflejando el éxito de las políticas de educación universal.' El gráfico de líneas adjunto muestra la tasa entre 1980 y 2020: cae de 11 % a 3 %, pero entre 2010 y 2015 exhibe un plateau —una estabilización sin descenso—. Pregunta: '¿Cuál de las siguientes afirmaciones es más precisa considerando texto y gráfico a la vez?' Alternativas: (A) La tasa descendió de forma constante e ininterrumpida en todo el período / (B) La tasa descendió en general pero mostró un período de estabilización entre 2010 y 2015 / (C) La tasa aumentó entre 2010 y 2015 antes de volver a descender / (D) La tasa se redujo solo en la segunda mitad del período analizado. Respuesta correcta: B. Análisis: el texto habla de descenso 'sostenido', pero el gráfico agrega el matiz del plateau. La alternativa correcta integra la tendencia general del texto con el detalle preciso que aporta el gráfico. La alternativa (A) ignora el plateau; (C) invierte lo que el gráfico muestra; (D) contradice el inicio del gráfico que muestra descenso desde 1980.",
+          "EJEMPLO 2 — TABLA Y CÁLCULO DE BRECHA. Una tabla muestra el porcentaje de hogares con acceso a internet por región en 2023: Metropolitana 92 %, Valparaíso 85 %, Biobío 78 %, Araucanía 61 %, Magallanes 72 %. Pregunta: '¿Qué región presenta la mayor brecha digital respecto a la Región Metropolitana?' Razonamiento: calcula la diferencia entre la Metropolitana y cada región: 92−85=7 puntos, 92−78=14 puntos, 92−61=31 puntos, 92−72=20 puntos. La mayor brecha es la de la Araucanía con 31 puntos porcentuales. Trampa habitual: la pregunta pide la mayor brecha —diferencia relativa a la Metropolitana—, no simplemente el valor más bajo. En este caso ambos coinciden, pero la distinción conceptual es importante y en otras versiones del ítem podría no coincidir si el punto de referencia fuera diferente.",
+          "EJEMPLO 3 — INFOGRAFÍA CON CONTRADICCIÓN INTERNA. Una infografía sobre energía renovable indica en su texto central: 'Chile lidera la producción de energía solar en Latinoamérica.' El gráfico de barras de la misma infografía muestra que Brasil genera el triple de energía solar que Chile en el mismo año. Pregunta: '¿Qué relación existe entre el texto verbal y el gráfico de barras en esta infografía?' Alternativas: (A) el gráfico confirma la afirmación del texto / (B) el gráfico contradice la afirmación del texto / (C) el gráfico y el texto se refieren a variables completamente distintas / (D) el gráfico complementa el texto sin confirmarlo ni desmentirlo. Respuesta correcta: B. Análisis: el gráfico muestra que Chile no lidera la producción solar latinoamericana porque Brasil lo supera con creces; por lo tanto, el gráfico contradice directamente la afirmación verbal. Este ítem evalúa específicamente si el lector confronta activamente ambos modos en lugar de aceptar pasivamente la afirmación escrita."
+        ]
+      },
+      {
+        "heading": "5. Trampas frecuentes",
+        "items": [
+          "TRAMPA 1 — Responder solo con el texto verbal sin consultar el elemento visual: la alternativa correcta puede depender de un dato exclusivo del gráfico o tabla que el texto no menciona o menciona de forma incorrecta.",
+          "TRAMPA 2 — Extrapolar más allá del rango del gráfico: si el gráfico muestra datos de 2000 a 2022, no puedes afirmar nada sobre tendencias posteriores o anteriores basándote únicamente en él.",
+          "TRAMPA 3 — Ignorar las unidades de medida: si el eje vertical está en miles y lo lees como si fueran unidades, tus cálculos estarán equivocados por un factor de 1.000; siempre lee la unidad antes de leer el valor.",
+          "TRAMPA 4 — Asumir que el gráfico confirma el texto sin verificarlo: el ítem puede estar diseñado precisamente para detectar si el lector identifica la tensión o contradicción entre los dos modos semióticos.",
+          "TRAMPA 5 — Confundir columnas contiguas en una tabla por apresuramiento: verifica siempre que estás leyendo la columna correcta antes de registrar mentalmente el número.",
+          "TRAMPA 6 — No leer la leyenda en gráficos con múltiples series de datos: confundir qué serie representa qué variable puede llevar a elegir exactamente la alternativa opuesta a la correcta."
+        ]
+      },
+      {
+        "heading": "6. Checklist antes del mini ensayo",
+        "items": [
+          "¿Leí el título del texto y de cada elemento visual antes de entrar en sus detalles?",
+          "¿Identifiqué qué representan los ejes y sus unidades en todos los gráficos presentes?",
+          "¿Leí la leyenda completa en gráficos con más de una serie de datos?",
+          "¿Verifiqué si el eje vertical del gráfico comienza o no en cero?",
+          "¿Establecí explícitamente la relación entre texto verbal y elemento visual (confirma, complementa, matiza, contradice)?",
+          "¿Limité mis conclusiones al rango de datos que el gráfico o tabla efectivamente muestra, sin extrapolar fuera de ese rango?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cl-tipos-texto",
+    "area": "Competencia Lectora",
+    "title": "Tipos de texto y géneros discursivos: literarios versus no literarios",
+    "duration": "20 min",
+    "practiceKeywords": [
+      "literari",
+      "narrativ",
+      "ensayo",
+      "noticia",
+      "cientific",
+      "científico",
+      "genero",
+      "género"
+    ],
+    "sections": [
+      {
+        "heading": "1. Para qué sirve en la PAES",
+        "paragraphs": [
+          "La PAES CL evalúa la comprensión de textos de distintos tipos y géneros: el estudiante debe reconocer si está ante un texto literario —cuento, novela, poema, drama— o no literario —noticia, ensayo, texto científico, crónica, artículo de divulgación— y comprender cómo ese tipo de texto condiciona la forma de leer, las estrategias adecuadas y las preguntas que se pueden formular. Identificar el género discursivo activa el esquema mental correcto: sabemos que un cuento tiene narrador, personajes y conflicto; que una noticia organiza la información en pirámide invertida con voluntad de objetividad; que un ensayo tiene un yo reflexivo que argumenta desde una perspectiva personal y que un texto científico cita fuentes verificables y usa terminología técnica precisa.",
+          "En la práctica PAES, identificar el tipo de texto te permite: (a) anticipar la estructura del texto antes de terminar de leerlo; (b) identificar más rápidamente la tesis o idea central según el esquema propio de cada género; (c) interpretar correctamente recursos como la ironía literaria, la metáfora, el tono argumentativo o la función del dato estadístico; (d) no confundir la posición del narrador literario con la del autor real, ni la voz personal del ensayista con un dato objetivo verificable. Estas distinciones aparecen directamente en varios ítems de la prueba y son fuente frecuente de errores para quienes no las han internalizado como hábito de lectura."
+        ]
+      },
+      {
+        "heading": "2. Textos literarios: características y géneros",
+        "paragraphs": [
+          "Los textos literarios se caracterizan por su función estética y expresiva: buscan generar en el lector una experiencia emocional, intelectual o sensorial, y utilizan el lenguaje de forma desautomatizada, cargando las palabras de significados connotativos que van más allá del sentido literal del diccionario. El lenguaje literario es predominantemente polisémico —admite múltiples interpretaciones— y hace un uso consciente de recursos retóricos como la metáfora, el símil, la ironía, la hipérbole, la aliteración, la anáfora y la personificación. La literariedad no es una propiedad absoluta sino relativa: un mismo texto puede leerse con una función literaria o informativa dependiendo del contexto de recepción, aunque para efectos de la PAES los textos literarios son aquellos que el propio texto o su paratexto marca como ficción o como elaboración artística del lenguaje.",
+          "Los tres grandes géneros literarios son: NARRATIVA (cuento, novela, crónica literaria, novela gráfica): un narrador cuenta una historia que involucra personajes, acciones, tiempo, espacio y conflicto. El narrador puede ser homodiegético —personaje de la propia historia, narra en primera persona— o heterodiegético —narrador externo que narra en tercera persona—. La focalización puede ser interna (el narrador solo sabe lo que sabe un personaje específico), externa (el narrador sabe menos que los personajes) u omnisciente (el narrador sabe más que cualquier personaje). LÍRICA (poema, oda, elegía, soneto, haiku): el texto expresa estados interiores, emociones y percepciones a través de recursos formales como el verso, la rima, el ritmo y figuras retóricas intensas. No hay necesariamente narrador ni personajes; hay un hablante lírico o yo poético que no debe confundirse con el autor biográfico. DRAMÁTICA (obra de teatro, guion): está escrita para ser representada; incluye diálogos directos entre personajes y acotaciones escénicas; no hay narrador que medie la acción, sino que los personajes hablan y actúan directamente."
+        ],
+        "items": [
+          "Narrativa: narrador (homo o heterodiegético), personajes, conflicto, tiempo, espacio — cuento, novela, crónica literaria",
+          "Lírica: hablante lírico, verso, ritmo, figuras retóricas (metáfora, anáfora, símil) — poema, soneto",
+          "Dramática: diálogos directos + acotaciones, sin narrador — teatro, guion",
+          "Narrador homodiegético = en primera persona, personaje de la historia",
+          "Narrador heterodiegético = en tercera persona, externo a la historia",
+          "Focalización omnisciente: narrador sabe todo; interna: solo lo de un personaje; externa: menos que los personajes"
+        ]
+      },
+      {
+        "heading": "3. Textos no literarios: características y géneros",
+        "paragraphs": [
+          "Los textos no literarios tienen como función principal comunicar información de forma verificable, argumentar una postura o instruir sobre un procedimiento, privilegiando la claridad, la precisión y la verificabilidad sobre la expresividad estética. El lenguaje tiende a ser predominantemente denotativo —busca un significado único y preciso—, aunque esto no implica que carezca de recursos retóricos ni que sea ideológicamente neutro: todo texto no literario tiene también un propósito comunicativo, una perspectiva y una posición frente al tema que aborda, que el lector crítico debe identificar y evaluar.",
+          "Los géneros no literarios más frecuentes en la PAES CL son: ENSAYO: texto argumentativo-reflexivo en que el autor expone su punto de vista sobre un tema con voluntad argumentativa pero también con libertad de estilo personal. Tiene un yo enunciativo explícito; usa la primera persona o estructuras que evidencian una voz subjetiva y reflexiva. No es un texto neutral: hay una tesis que el autor defiende con argumentos, ejemplos y citas. TEXTO INFORMATIVO / NOTICIA / CRÓNICA PERIODÍSTICA: busca reportar hechos verificables respondiendo las preguntas quién, qué, cuándo, dónde, cómo y por qué. La noticia usa la estructura de pirámide invertida: la información más relevante aparece primero. La crónica periodística combina información factual con la perspectiva narrativa del cronista. TEXTO EXPOSITIVO / CIENTÍFICO / DE DIVULGACIÓN: explica un fenómeno, proceso o concepto con precisión usando terminología técnica; cita fuentes con criterios académicos; organiza la información de forma deductiva (de lo general a lo particular) o inductiva (de los datos particulares a la conclusión general). TEXTO INSTRUCTIVO: indica un procedimiento o conjunto de pasos para realizar una acción (recetas, manuales de uso, reglamentos). Predominan los verbos en imperativo o en infinitivo y la organización es estrictamente secuencial."
+        ],
+        "items": [
+          "Ensayo: yo enunciativo visible, tesis personal argumentada, libertad de estilo reflexivo",
+          "Noticia: hechos verificables, pirámide invertida (lo más importante primero), pretensión de objetividad",
+          "Crónica periodística: hechos verificables + perspectiva narrativa del cronista",
+          "Texto científico o de divulgación: terminología técnica, citas de fuentes, estructura deductiva o inductiva",
+          "Texto instructivo: verbos en imperativo o infinitivo, pasos numerados y secuenciales"
+        ]
+      },
+      {
+        "heading": "4. Método para identificar tipo y género de un texto",
+        "items": [
+          "Paso 1 — Lee el paratexto: título, subtítulo, nombre del autor, publicación de origen o fuente, fecha y género declarado si aparece. Esta información suele bastar para clasificar correctamente el texto antes de leer el cuerpo completo.",
+          "Paso 2 — Identifica la función predominante: ¿informa de forma neutral? (informativo) ¿argumenta una postura personal? (argumentativo/ensayo) ¿narra una historia con recursos de ficción? (narrativo literario) ¿genera una experiencia estética con el lenguaje? (lírica) ¿instruye sobre un procedimiento? (instructivo).",
+          "Paso 3 — Identifica el tipo de voz enunciativa: ¿hay un narrador que cuenta una historia ficticia? (narrativa literaria) ¿hay un yo que reflexiona y argumenta sobre un tema? (ensayo) ¿es una voz que pretende ser neutral y externa a los hechos? (periodístico/científico) ¿es un hablante lírico que expresa estados interiores? (lírica).",
+          "Paso 4 — Aplica el esquema de lectura adecuado al género: para narrativa literaria, busca narrador, tipo de focalización, personaje central, conflicto, tiempo y espacio; para ensayo, busca tesis, argumentos y ejemplos de apoyo; para texto científico, busca problema o fenómeno, desarrollo explicativo y conclusiones o implicancias.",
+          "Paso 5 — No confundas la voz del narrador literario o del personaje con la del autor real. Tampoco confundas la posición personal del ensayista con un dato objetivo comprobable. La PAES pregunta frecuente y explícitamente sobre estas distinciones."
+        ]
+      },
+      {
+        "heading": "5. Ejemplos trabajados",
+        "paragraphs": [
+          "EJEMPLO 1 — IDENTIFICAR EL GÉNERO DISCURSIVO. Fragmento: 'La ciudad me recibió con lluvia y con la certeza de que nada había cambiado. Caminé por las mismas calles empedradas y silenciosas en que había aprendido a mentirme a mí mismo.' Pregunta: '¿Cuál es el género discursivo de este fragmento?' Alternativas: (A) texto informativo periodístico / (B) texto científico de divulgación / (C) texto narrativo literario / (D) ensayo argumentativo. Razonamiento: hay un narrador en primera persona que relata experiencias en pasado (caminé, había aprendido), con lenguaje cargado de connotaciones subjetivas ('mentirme a mí mismo') y sin datos verificables ni argumentación explícita. Respuesta: C. Trampa frecuente: la primera persona también aparece en el ensayo, pero en el ensayo el yo reflexiona y argumenta; en este fragmento el yo narra una experiencia con voluntad estética, no argumenta una tesis.",
+          "EJEMPLO 2 — DISTINCIÓN NARRADOR VERSUS AUTOR. Fragmento de cuento: 'Yo soy el asesino. Lo he sido siempre, aunque durante treinta años logré convencer al mundo —y casi a mí mismo— de lo contrario.' Pregunta: '¿A quién corresponde la voz que habla en el fragmento?' Alternativas: (A) al autor del cuento / (B) al narrador-personaje del relato / (C) a un periodista que investiga un crimen / (D) al protagonista de un ensayo autobiográfico. Respuesta correcta: B. Análisis: el fragmento pertenece a un cuento; la voz en primera persona corresponde al narrador homodiegético —un personaje de la historia—, no al autor empírico real. Este es uno de los errores más frecuentes: atribuirle al autor las afirmaciones del narrador o de los personajes de su obra.",
+          "EJEMPLO 3 — FUNCIÓN DE UN TEXTO NO LITERARIO. Fragmento: 'Las emisiones globales de CO₂ aumentaron un 1,2 % durante 2023, alcanzando un nuevo récord histórico de 37,4 gigatoneladas según el Informe del Global Carbon Project. Esta trayectoria sitúa al planeta en un escenario de calentamiento de entre 2,5 y 3 grados centígrados para 2100.' Pregunta: '¿Cuál es la función principal de este texto?' Alternativas: (A) narrar una historia sobre el cambio climático / (B) instruir al lector sobre cómo reducir sus emisiones / (C) informar con datos verificables sobre la situación climática global / (D) argumentar que los gobiernos deben actuar de inmediato. Respuesta correcta: C. Análisis: el fragmento cita una fuente reconocida, entrega datos cuantitativos precisos y no contiene ningún llamado a la acción ni instrucciones: es un texto expositivo informativo basado en evidencia empírica. (D) podría ser el propósito de un editorial sobre el mismo tema, pero el fragmento dado no hace eso: solo informa."
+        ]
+      },
+      {
+        "heading": "6. Trampas frecuentes",
+        "items": [
+          "TRAMPA 1 — Confundir la primera persona del narrador literario con la del ensayista: en el cuento el yo narra; en el ensayo el yo argumenta. Lee el contexto completo para determinar cuál función cumple esa voz enunciativa.",
+          "TRAMPA 2 — Creer que todo texto en tercera persona es científico o periodístico: la narrativa literaria en tercera persona (narrador heterodiegético omnisciente) es igualmente frecuente.",
+          "TRAMPA 3 — Confundir la posición del personaje con la del autor real: el autor puede dar voz a personajes cuyas ideas no comparte, y esa distancia es precisamente lo que la PAES evalúa que el lector reconozca.",
+          "TRAMPA 4 — Asumir que un texto con datos numéricos es necesariamente científico: el ensayo puede incluir estadísticas para apoyar su argumentación sin dejar de ser un texto argumentativo con voz personal explícita.",
+          "TRAMPA 5 — Identificar el tema con el género: un texto puede tratar el amor de forma periodística, científica, literaria o en ensayo; el tema no determina el género ni la función del texto."
+        ]
+      },
+      {
+        "heading": "7. Checklist antes del mini ensayo",
+        "items": [
+          "¿Leí el paratexto (título, autor, fuente de publicación) antes de clasificar el texto?",
+          "¿Identifiqué la función predominante del texto (informar, argumentar, narrar, instruir, expresar estéticamente)?",
+          "¿Determiné el tipo de voz enunciativa (narrador literario, yo ensayístico, voz periodística, hablante lírico)?",
+          "¿Apliqué el esquema de lectura adecuado al género identificado?",
+          "¿Distinguí entre la voz del narrador o el personaje y la del autor real?",
+          "¿Evité confundir el tema del texto con su género discursivo?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cl-argumentacion",
+    "area": "Competencia Lectora",
+    "title": "Estructura de la argumentación: premisas, evidencia, falacias y contraargumento",
+    "duration": "22 min",
+    "practiceKeywords": [
+      "argument",
+      "premis",
+      "evidencia",
+      "conclusion",
+      "conclusión",
+      "falacia",
+      "contraargument"
+    ],
+    "sections": [
+      {
+        "heading": "1. Para qué sirve en la PAES",
+        "paragraphs": [
+          "La argumentación es la estructura discursiva más evaluada en la PAES CL en las habilidades de Evaluar e Integrar: el estudiante debe identificar la tesis de un texto argumentativo, distinguir los argumentos de apoyo de los contraargumentos, evaluar la calidad de la evidencia presentada, detectar cuando un argumento incurre en una falacia lógica y comparar la posición argumentativa de dos textos distintos. Estas habilidades son directamente transferibles al ejercicio profesional: en Medicina, la evaluación crítica de estudios clínicos y guías terapéuticas exige exactamente la misma capacidad de analizar la cadena lógica de un argumento y detectar sus debilidades; en Ingeniería, el análisis de informes técnicos y proyectos requiere distinguir los datos verificables de las interpretaciones no respaldadas.",
+          "En la PAES, aproximadamente un tercio de las preguntas de Competencia Lectora activa alguna dimensión del razonamiento argumentativo: identificar la tesis, evaluar la validez de un argumento, reconocer una estrategia discursiva, detectar una falacia o comparar los argumentos de dos textos en paralelo. Dominar la estructura de la argumentación no es opcional si se aspira a puntajes superiores a 750: es la habilidad que con mayor consistencia estadística diferencia los puntajes en el tramo alto de la distribución."
+        ]
+      },
+      {
+        "heading": "2. Estructura del argumento: tesis, premisas, evidencia y conclusión",
+        "paragraphs": [
+          "Un argumento en sentido lógico es una estructura de razonamiento que conecta una o más premisas con una conclusión. La tesis es la afirmación central que el texto defiende —lo que el autor quiere que el lector acepte como verdadero o válido—. Las premisas son las razones que el autor ofrece para sostener esa tesis; pueden ser afirmaciones generales (principios, valores, leyes) o específicas (datos, hechos, ejemplos). La evidencia es el material empírico o documental que sustenta las premisas: estadísticas, experimentos, testimonios de expertos, citas textuales, estudios de caso. La conclusión es la afirmación que se sigue lógicamente de las premisas si estas son verdaderas y la inferencia es válida.",
+          "Un argumento es válido cuando la conclusión se sigue necesariamente de las premisas; es sólido cuando además las premisas son verdaderas. Un argumento puede ser inválido —la conclusión no se sigue de las premisas aunque estas sean verdaderas— o insostenido —las premisas son falsas o no tienen evidencia suficiente aunque la lógica formal sea correcta—. La PAES evalúa ambos tipos de debilidad, pero especialmente las falacias —errores sistemáticos en el razonamiento que hacen que un argumento parezca válido cuando no lo es—. El contraargumento es una objeción a la tesis o a alguno de sus argumentos de apoyo: puede refutar la premisa, cuestionar la evidencia, o señalar consecuencias no previstas de la conclusión.",
+          "Las estrategias argumentativas que el autor puede usar para defender su tesis incluyen: el argumento por evidencia empírica (cita datos, estudios o experimentos verificables), el argumento por autoridad (cita la opinión de expertos reconocidos en la materia), el argumento por analogía (compara la situación que defiende con otra situación similar cuyos resultados ya son conocidos), el argumento por consecuencias (demuestra que aceptar la tesis produce buenos resultados o que rechazarla produce consecuencias negativas), y el argumento por principio general (apela a valores, normas o principios ampliamente aceptados). Identificar cuál estrategia usa el autor es clave para evaluar la solidez del argumento."
+        ],
+        "items": [
+          "Tesis: la afirmación central que el autor defiende (responde a '¿qué quiere que el lector acepte?')",
+          "Premisas: las razones que sustentan la tesis (afirmaciones generales o específicas)",
+          "Evidencia: material empírico que sustenta las premisas (datos, estudios, testimonios)",
+          "Conclusión: lo que se sigue lógicamente de las premisas si son verdaderas",
+          "Contraargumento: objeción a la tesis o a un argumento; puede refutarse o concederse parcialmente",
+          "Concesión táctica: el autor reconoce parcialmente el contraargumento antes de refutarlo"
+        ]
+      },
+      {
+        "heading": "3. Falacias argumentativas frecuentes en la PAES",
+        "items": [
+          "Generalización apresurada (hasty generalization): se concluye algo universal a partir de muy pocos casos o de una muestra no representativa. Ejemplo: 'Entrevisté a tres médicos y los tres apoyan este tratamiento; por lo tanto, todos los médicos lo apoyan.'",
+          "Pendiente resbaladiza (slippery slope): se afirma que aceptar una pequeña medida llevaría inevitablemente a consecuencias extremas, sin demostrar por qué cada paso de esa cadena es necesario. Ejemplo: 'Si permitimos este cambio, pronto lo perderemos todo.'",
+          "Ad hominem: se ataca la persona que formula el argumento en lugar de refutar el argumento mismo. Ejemplo: 'No vale la pena escuchar su propuesta porque él no tiene título universitario.'",
+          "Apelación a la autoridad irrelevante: se cita como experto a alguien cuya área de conocimiento no es la del argumento en cuestión. Ejemplo: citar a un actor famoso como aval de un tratamiento médico.",
+          "Falsa dicotomía (o disyunción excluyente falsa): se presentan solo dos alternativas como si fueran las únicas posibles, ignorando opciones intermedias o distintas. Ejemplo: 'O apoyas esta ley o estás en contra del progreso.'",
+          "Post hoc ergo propter hoc: se afirma que A causó B solo porque A ocurrió antes que B, sin demostrar la relación causal. Ejemplo: 'Desde que instalamos el semáforo, los accidentes aumentaron; el semáforo causó los accidentes.'"
+        ]
+      },
+      {
+        "heading": "4. Método para analizar la estructura argumentativa de un texto",
+        "items": [
+          "Paso 1 — Identifica la tesis: busca la afirmación principal que el autor defiende. Suele estar en el primer párrafo o en el último. Formula la tesis en una oración completa con sujeto y predicado (no basta identificar el tema).",
+          "Paso 2 — Identifica los argumentos de apoyo: ¿cuáles son las razones que el autor da para sostener la tesis? Pueden ser uno o varios argumentos organizados en párrafos distintos.",
+          "Paso 3 — Evalúa la calidad de la evidencia: ¿los datos son actuales, verificables y de fuentes confiables? ¿la muestra es representativa? ¿la analogía es pertinente? ¿la autoridad citada es experta en el tema específico?",
+          "Paso 4 — Detecta si hay contraargumentos y cómo los maneja el autor: ¿los reconoce y refuta (concesión-refutación)? ¿los ignora? ¿los tergiversa para refutarlos más fácilmente (hombre de paja)?",
+          "Paso 5 — Verifica si la conclusión se sigue lógicamente de las premisas o si hay un salto lógico no justificado. En preguntas de Evaluar, la debilidad a identificar es casi siempre una falacia o un salto lógico en la cadena de razonamiento."
+        ]
+      },
+      {
+        "heading": "5. Ejemplos trabajados",
+        "paragraphs": [
+          "EJEMPLO 1 — IDENTIFICAR TESIS Y ARGUMENTO CENTRAL. Fragmento: 'El acceso irrestricto a internet en la primera infancia no desarrolla habilidades cognitivas: las destruye. Tres estudios longitudinales en más de veinte países demuestran que los niños expuestos a pantallas más de dos horas diarias antes de los cinco años muestran déficits significativos en atención sostenida, lenguaje oral y capacidad de representación simbólica. La evidencia no admite interpretaciones alternativas: limitar el acceso a pantallas en la primera infancia es una necesidad de salud pública.' Pregunta: '¿Cuál es la tesis principal del fragmento?' Alternativas: (A) los estudios científicos son la mejor forma de tomar decisiones / (B) el acceso irrestricto a internet antes de los cinco años perjudica el desarrollo cognitivo / (C) los niños deben evitar las pantallas en toda su infancia y adolescencia / (D) el gobierno debería regular el contenido de internet para menores. Respuesta correcta: B. Análisis: la tesis está en la primera oración y se refiere específicamente a la primera infancia. (C) amplía el rango de edad más allá de lo que el texto dice. (D) es una conclusión política que el texto no plantea. (A) no es la tesis sino un presupuesto metodológico del argumento.",
+          "EJEMPLO 2 — DETECTAR UNA FALACIA. Fragmento: 'El aumento del consumo de café en Europa durante los años noventa coincidió exactamente con el período de mayor crecimiento económico del continente. Es evidente que el café estimula la productividad económica a nivel macroeconómico.' Pregunta: '¿Qué debilidad lógica presenta el argumento?' Alternativas: (A) el café no tiene efectos fisiológicos conocidos / (B) el autor confunde correlación con causalidad, asumiendo que la coincidencia temporal implica relación causal / (C) los datos sobre el crecimiento europeo son incorrectos / (D) el argumento ignora que Europa tiene más de veinte países con economías distintas. Respuesta correcta: B. Análisis: la falacia es post hoc ergo propter hoc —coincidencia temporal no implica causalidad—. (A) introduce conocimiento externo irrelevante para evaluar la lógica interna del argumento. (D) puede ser verdad pero no es la debilidad central del razonamiento: el problema está en el salto lógico de la correlación a la causa.",
+          "EJEMPLO 3 — EVALUAR UN CONTRAARGUMENTO. Fragmento: 'Algunos podrían objetar que subir el salario mínimo destruye empleo porque encarece el trabajo. Sin embargo, estudios realizados en regiones fronterizas de Estados Unidos donde el salario mínimo varió entre jurisdicciones adyacentes muestran que el impacto negativo sobre el empleo fue estadísticamente insignificante en el sector de bajos salarios. La objeción se basa en un modelo teórico de mercado perfecto que no coincide con la realidad de los mercados laborales locales.' Pregunta: '¿Cómo maneja el autor la objeción presentada?' Alternativas: (A) la ignora y continúa con su argumento / (B) la reconoce, presenta evidencia empírica en su contra y señala la limitación del modelo teórico que la sustenta / (C) la acepta como válida y modifica su tesis / (D) la descalifica atacando a quienes la sostienen. Respuesta correcta: B. Análisis: el patrón argumentativo es clásico: presentación del contraargumento + refutación con evidencia empírica + cuestionamiento del marco teórico subyacente del contraargumento. Este patrón se llama concesión-refutación y es una de las estructuras más frecuentes en los textos argumentativos de alto nivel de la PAES."
+        ]
+      },
+      {
+        "heading": "6. Trampas frecuentes",
+        "items": [
+          "TRAMPA 1 — Confundir el tema con la tesis: el tema es de qué habla el texto (sustantivo o frase nominal); la tesis es qué afirma el texto sobre ese tema (oración completa con sujeto, verbo y predicado).",
+          "TRAMPA 2 — Evaluar la verdad de las premisas con conocimiento externo en lugar de la lógica interna del argumento: la PAES pide evaluar la cadena argumentativa del texto, no comparar las premisas con lo que tú sabes del mundo.",
+          "TRAMPA 3 — Confundir la objeción citada por el autor con la posición del autor: cuando el texto dice 'algunos podrían objetar que…', esa es la voz del contraargumento, no la del propio autor.",
+          "TRAMPA 4 — Aceptar una analogía solo porque suena bien: una analogía es válida argumentativamente solo si las dos situaciones comparadas son relevantemente similares en los aspectos que importan para la conclusión.",
+          "TRAMPA 5 — No distinguir entre argumentos de distinto peso: la evidencia empírica verificable de un estudio con muestra representativa tiene más peso que la anécdota o el testimonio aislado; las preguntas de Evaluar frecuentemente te piden que hagas esta distinción."
+        ]
+      },
+      {
+        "heading": "7. Checklist antes del mini ensayo",
+        "items": [
+          "¿Identifiqué la tesis del texto en una oración completa (no solo el tema)?",
+          "¿Listé los argumentos de apoyo y los distinguí de la evidencia que los sustenta?",
+          "¿Evalué la calidad de la evidencia (fuente confiable, muestra representativa, pertinencia de la analogía)?",
+          "¿Identifiqué si el texto presenta contraargumentos y cómo los maneja (concede y refuta, ignora, tergiversa)?",
+          "¿Verifiqué si la conclusión se sigue lógicamente de las premisas o si hay un salto o falacia identificable?",
+          "¿Evalué el argumento con base en la lógica interna del texto, sin mezclar mi opinión personal sobre el tema?"
+        ]
+      }
+    ]
   }
 ]

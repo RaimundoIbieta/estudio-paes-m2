@@ -5,3 +5,10 @@ dist/
 
 __pycache__/
 .venv/
+
+# PDFs fuente locales (el sitio sirve desde assets/contenidos/)
+Contenidos/
+
+# Capturas / checks de depuración de figuras
+assets/_chk-*.png
+assets/_v30-*.png

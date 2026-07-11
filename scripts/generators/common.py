@@ -21,9 +21,10 @@ def make_q(
     wrong: List[str],
     explanation: str,
     difficulty: Optional[str] = None,
+    topic: Optional[str] = None,
 ) -> dict:
     options, answer = shuffle_mcq(correct, wrong)
-    return {
+    q = {
         "id": f"{test_id}-gen-{idx:05d}",
         "area": area,
         "question": question,
@@ -35,6 +36,9 @@ def make_q(
         "source": "generado",
         "countsForScore": True,
     }
+    if topic:
+        q["topic"] = topic
+    return q
 
 
 def fill_pool(test_id: str, generators: List[Tuple[str, Callable[[], Optional[dict]]]], target: int) -> List[dict]:
@@ -49,7 +53,8 @@ def fill_pool(test_id: str, generators: List[Tuple[str, Callable[[], Optional[di
         if not q:
             continue
         q["id"] = f"{test_id}-gen-{idx:05d}"
-        q["area"] = area
+        # Preserve generator area/topic when present (CL passages, etc.)
+        q.setdefault("area", area)
         q.setdefault("source", "generado")
         q.setdefault("countsForScore", True)
         out.append(q)

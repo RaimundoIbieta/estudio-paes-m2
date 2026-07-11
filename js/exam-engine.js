@@ -46,6 +46,7 @@ export async function runTimedEssay(container, {
       <div class="timer-wrap">
         <span class="topic-meta" style="color:rgba(255,255,255,0.7);font-size:0.75rem">Tiempo restante</span>
         <div class="timer" id="timer">${formatTimeHMS(secondsLeft)}</div>
+        <button type="button" class="btn btn-secondary" id="pause-essay" style="margin-top:0.35rem;padding:0.25rem 0.6rem;font-size:0.8rem">Pausar</button>
         <span class="topic-meta" style="font-size:0.65rem;opacity:0.6">ensayo v${ESSAY_ENGINE_BUILD}</span>
       </div>
     </div>
@@ -57,10 +58,12 @@ export async function runTimedEssay(container, {
   `;
 
   const timerEl = container.querySelector('#timer');
+  const pauseBtn = container.querySelector('#pause-essay');
   const quizEl = container.querySelector('#essay-quiz');
-  const fullTest = essayType === 'diagnostic' || essayType === 'checkpoint';
+  const fullTest = essayType === 'diagnostic' || essayType === 'checkpoint' || essayType === 'libre';
   const { loadBank, scoreWithClavijero } = await bankModule();
   const bank = await loadBank(testId);
+  let paused = false;
 
   const finishEssay = async (responses, reason = 'manual') => {
     if (finishing) return;
@@ -95,7 +98,8 @@ export async function runTimedEssay(container, {
     showResult(container, { title, essayType, lessonId, ...result, finishReason: reason });
   };
 
-  timerId = setInterval(() => {
+  const tick = () => {
+    if (paused || finishing) return;
     secondsLeft -= 1;
     timerEl.textContent = formatTimeHMS(Math.max(0, secondsLeft));
     if (secondsLeft <= 60) timerEl.classList.add('danger');
@@ -104,9 +108,17 @@ export async function runTimedEssay(container, {
       timerEl.textContent = '00:00:00';
       submitExam('timeout');
     }
-  }, 1000);
+  };
+  timerId = setInterval(tick, 1000);
 
   let submitExam = () => {};
+
+  pauseBtn?.addEventListener('click', () => {
+    paused = !paused;
+    pauseBtn.textContent = paused ? 'Reanudar' : 'Pausar';
+    quizEl.style.opacity = paused ? '0.45' : '1';
+    quizEl.style.pointerEvents = paused ? 'none' : '';
+  });
 
   const cancel = () => {
     if (!confirm('¿Salir del ensayo? Se perdera el avance de esta sesion.')) return;
@@ -380,6 +392,11 @@ export async function startPathEssay(container, type, lessonId = null) {
     return;
   }
 
+  if (type === 'libre') {
+    await startLibreEssay(container);
+    return;
+  }
+
   const { buildQuestionSet, getEssayMeta, recordDiagnostic, recordUnitEssay, recordCheckpoint } =
     await import(`./learning-path.js?v=${CACHE_VERSION}`);
   const tests = await loadTests();
@@ -402,5 +419,28 @@ export async function startPathEssay(container, type, lessonId = null) {
       else if (type === 'unit') recordUnitEssay(testId, lessonId, result);
       else if (type === 'checkpoint') recordCheckpoint(testId, result);
     },
+  });
+}
+
+/** Ensayo libre a tamaño PAES (no avanza la ruta de estudio). */
+export async function startLibreEssay(container) {
+  const testId = getCurrentTest();
+  if (!testId) {
+    location.hash = '#/pruebas';
+    return;
+  }
+  const tests = await loadTests();
+  const test = tests.find(t => t.id === testId);
+  const count = test?.questions || 65;
+  const durationMinutes = test?.durationMinutes || 140;
+  const { buildQuestionSet } = await import(`./learning-path.js?v=${CACHE_VERSION}`);
+  const questions = await buildQuestionSet(testId, { type: 'diagnostic', count });
+  await runTimedEssay(container, {
+    title: `Ensayo libre — ${test?.short || testId.toUpperCase()}`,
+    description: `Simulacro completo · ${count} preguntas · ${durationMinutes} min · no altera la ruta`,
+    questions,
+    durationMinutes,
+    testId,
+    essayType: 'libre',
   });
 }

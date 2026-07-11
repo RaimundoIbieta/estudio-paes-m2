@@ -55,6 +55,10 @@ export async function renderEssays(container) {
           <div><strong>Ensayo de progreso</strong><div class="topic-meta">Cada 2 unidades · ${test?.questions || 65} preguntas</div></div>
           <span class="badge">Ruta</span>
         </a>
+        <a class="topic-item" href="#/ensayo/libre" data-route>
+          <div><strong>Ensayo libre (simulacro completo)</strong><div class="topic-meta">${test?.questions || 65} preguntas · ${test?.durationMinutes || 140} min · pausable · no altera la ruta</div></div>
+          <span class="badge">Libre</span>
+        </a>
       </div>
     </section>
 

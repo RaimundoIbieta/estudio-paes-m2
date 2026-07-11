@@ -16,11 +16,11 @@ Plataforma web **gratuita y de acceso masivo** para preparar la PAES: M1, M2, Co
 
 | Prueba | Estado | Preguntas | Tiempo |
 |--------|--------|-----------|--------|
-| M1 | ✅ Activa | 65 | 2h 20min |
-| M2 | ✅ Activa | 55 | 2h 20min |
-| Competencia Lectora | 🔜 Próximamente | 65 | 2h 30min |
-| Historia y CS | 🔜 Próximamente | 65 | 2h |
-| Ciencias | 🔜 Próximamente | 80 | 2h |
+| M1 | Activa | 65 | 2h 20min |
+| M2 | Activa | 55 | 2h 20min |
+| Competencia Lectora | Activa | 65 | 2h 30min |
+| Historia y CS | Activa | 65 | 2h |
+| Ciencias | Activa | 80 | 2h |
 
 ## Activar cuentas de usuario (Supabase — gratis)
 

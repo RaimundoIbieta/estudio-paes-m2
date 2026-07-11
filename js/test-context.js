@@ -26,9 +26,24 @@ export async function fetchTestData(testId, type) {
   return [];
 }
 
+function sectionParagraphs(sec) {
+  if (Array.isArray(sec.paragraphs) && sec.paragraphs.length) {
+    return sec.paragraphs.map(p => String(p).trim()).filter(Boolean);
+  }
+  if (sec.text) {
+    return String(sec.text)
+      .split(/\n\s*\n/)
+      .map(p => p.trim())
+      .filter(Boolean);
+  }
+  return [];
+}
+
 export function renderSectionHtml(sec) {
   let html = `<h2>${sec.heading}</h2>`;
-  if (sec.text) html += `<p>${sec.text}</p>`;
+  for (const p of sectionParagraphs(sec)) {
+    html += `<p>${p}</p>`;
+  }
   if (sec.diagramType) html += `<div class="diagram-svg">${renderDiagram(sec.diagramType)}</div>`;
   else if (sec.diagram) html += `<div class="diagram">${sec.diagram}</div>`;
   if (sec.items) html += `<ul>${sec.items.map(i => `<li>${i}</li>`).join('')}</ul>`;

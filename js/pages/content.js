@@ -10,6 +10,7 @@ function estimateReadingMinutes(lesson) {
   let chars = 0;
   for (const s of lesson.sections || []) {
     chars += (s.text || '').length;
+    for (const p of s.paragraphs || []) chars += String(p).length;
     for (const item of s.items || []) chars += item.length;
     for (const f of s.formulas || []) chars += f.length;
   }

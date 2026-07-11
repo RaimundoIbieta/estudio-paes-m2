@@ -1,5 +1,5 @@
 /** Incrementar en cada deploy para forzar recarga de modulos JS (ensayo, banco, etc.) */
-export const CACHE_VERSION = '38';
+export const CACHE_VERSION = '39';
 
 export const APP_CONFIG = {
   superadminEmail: 'raimundoibieta@gmail.com',

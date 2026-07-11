@@ -3,7 +3,7 @@
     "id": "geometria-angulos",
     "area": "Geometría",
     "title": "Ángulos y rectas paralelas",
-    "duration": "10 min",
+    "duration": "18 min",
     "practiceKeywords": [
       "angulo",
       "ángulo",
@@ -11,38 +11,80 @@
       "paralela",
       "transversal",
       "complement",
-      "suplement"
+      "suplement",
+      "opuesto",
+      "colateral",
+      "alterno",
+      "correspondiente"
     ],
     "sections": [
       {
-        "heading": "Clasificación de ángulos",
-        "text": "En M2 conviene memorizar nombres y relaciones: complementarios suman 90° y suplementarios 180°. Un error típico es confundir ambos.",
-        "diagramType": "angulos-tipos",
-        "items": [
-          "Agudo < 90°, recto = 90°, obtuso entre 90° y 180°, llano = 180°",
-          "Complementario de 35° = 55°; suplementario de 35° = 145°",
-          "Ángulos opuestos por el vértice son iguales"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "Los ángulos y las relaciones entre rectas paralelas son uno de los contenidos de mayor rentabilidad en M2: aparecen directamente en preguntas de geometría plana y como herramienta auxiliar en problemas de triángulos, polígonos y figuras compuestas. Dominar este tema te permite resolver de 3 a 5 ítems en menos de 90 segundos cada uno, lo que libera tiempo para preguntas más complejas.",
+          "En la PAES M2, el formato más habitual es una figura con dos o más rectas paralelas cortadas por una transversal, donde se proporciona uno o dos ángulos y se pide determinar los demás. También aparece la propiedad de la suma de ángulos interiores del triángulo y el ángulo exterior, especialmente en figuras geométricas compuestas. Puntuar aquí no requiere cálculo intenso, sino reconocimiento de patrones y aplicación precisa de las relaciones."
         ]
       },
       {
-        "heading": "Paralelas cortadas por transversal",
-        "text": "Si L₁ ∥ L₂ y una transversal las corta, se forman 8 ángulos. Correspondientes y alternos internos son iguales; colaterales internos suman 180°.",
-        "diagramType": "paralelas-transversal",
-        "items": [
-          "Correspondientes iguales (misma posición relativa)",
-          "Alternos internos iguales (entre las paralelas, lados opuestos)",
-          "Colaterales internos: suman 180°",
-          "Ejemplo: si un correspondiente mide 110°, su colateral interno mide 70°"
-        ]
-      },
-      {
-        "heading": "En triángulos",
-        "formulas": [
-          "α + β + γ = 180°",
-          "Ángulo exterior = suma de los dos interiores no adyacentes"
+        "heading": "Concepto y teoría",
+        "paragraphs": [
+          "Un ángulo se forma por dos semirrectas que comparten el mismo origen, llamado vértice. Su medida se expresa en grados (°). Los ángulos se clasifican según su amplitud: agudo cuando 0° < α < 90°, recto cuando α = 90°, obtuso cuando 90° < α < 180°, llano cuando α = 180° y completo cuando α = 360°.",
+          "Las relaciones entre pares de ángulos son fundamentales. Dos ángulos son complementarios si su suma es 90°; son suplementarios si su suma es 180°. Cuando dos rectas se intersectan en un punto, los cuatro ángulos formados presentan dos parejas de ángulos opuestos por el vértice (OPV), que son iguales entre sí. Además, cada par de ángulos adyacentes es suplementario.",
+          "Cuando una recta transversal corta dos rectas paralelas L₁ ∥ L₂, se forman 8 ángulos (cuatro en cada intersección). Estos ángulos presentan relaciones precisas: los ángulos correspondientes (misma posición relativa en cada intersección) son iguales; los ángulos alternos internos (ubicados entre las paralelas, a lados opuestos de la transversal) son iguales; los ángulos colaterales internos (entre las paralelas, al mismo lado de la transversal) son suplementarios, es decir, suman exactamente 180°.",
+          "En un triángulo, la suma de los tres ángulos interiores siempre es igual a 180°. El ángulo exterior de un triángulo (formado por un lado y la prolongación del lado adyacente) es igual a la suma de los dos ángulos interiores no adyacentes a él. Esta propiedad es muy útil para plantear ecuaciones cuando se desconoce un ángulo."
         ],
+        "diagramType": "paralelas-transversal"
+      },
+      {
+        "heading": "Fórmulas y relaciones clave",
+        "diagramType": "angulos-tipos",
+        "formulas": [
+          "Complementarios: α + β = 90°",
+          "Suplementarios: α + β = 180°",
+          "Opuestos por el vértice: α = γ",
+          "L₁ ∥ L₂ — Correspondientes: α₁ = α₂",
+          "L₁ ∥ L₂ — Alternos internos: β₁ = β₂",
+          "L₁ ∥ L₂ — Colaterales internos: γ₁ + γ₂ = 180°",
+          "Triángulo: α + β + γ = 180°",
+          "Ángulo exterior = suma de los dos ángulos interiores no adyacentes"
+        ]
+      },
+      {
+        "heading": "Método paso a paso",
         "items": [
-          "Si dos ángulos miden 40° y 65°, el tercero mide 75°"
+          "Paso 1 — Lee el enunciado y revisa la figura. Marca explícitamente qué rectas son paralelas y cuál es la transversal. Si no hay figura, dibuja una.",
+          "Paso 2 — Identifica el tipo de par de ángulos que intervienen: ¿correspondientes? ¿alternos internos? ¿colaterales internos? ¿OPV?",
+          "Paso 3 — Aplica la relación correspondiente: igualdad para correspondientes y alternos internos; suplementariedad (suma 180°) para colaterales internos y ángulos adyacentes.",
+          "Paso 4 — Si hay triángulos en la figura, aplica la suma de ángulos interiores (180°) o la propiedad del ángulo exterior según convenga.",
+          "Paso 5 — Verifica el resultado: los cuatro ángulos en cada intersección deben sumar 360°; los ángulos del triángulo deben sumar 180°."
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "items": [
+          "Ejemplo 1 — Transversal estándar. L₁ ∥ L₂. La transversal forma un ángulo de 115° en la intersección con L₁ (ángulo obtuso, parte superior derecha). Se pide el ángulo alterno interno en L₂ y el colateral interno en L₂. Razonamiento: los alternos internos son iguales → el alterno interno en L₂ = 115°. Los colaterales internos suman 180° → el colateral interno = 180° − 115° = 65°. Verificación: en la intersección con L₂, los cuatro ángulos son 115°, 65°, 115°, 65° → suman 360° ✓",
+          "Ejemplo 2 — Ángulo exterior de triángulo. En un triángulo ABC, el ángulo en A mide 52° y el ángulo en B mide 74°. (a) ¿Cuánto mide el ángulo en C? → Suma interior = 180° → C = 180° − 52° − 74° = 54°. (b) ¿Cuánto mide el ángulo exterior adyacente a C? → 180° − 54° = 126°. Verificación con la propiedad del exterior: 52° + 74° = 126° ✓",
+          "Ejemplo 3 — Figura compuesta con paralelas y triángulo. Dos rectas paralelas L₁ y L₂ son cortadas por dos transversales que se cruzan entre ellas, formando un triángulo interior. Un ángulo del triángulo en L₁ mide 58°; otro en L₂ mide 67°. El tercer ángulo del triángulo = 180° − 58° − 67° = 55°. Un ángulo que corresponde al de 58° en L₁ también mide 58° (correspondientes). El suplemento del de 67° en L₂ vale 180° − 67° = 113°. Esto permite encontrar todos los ángulos de la figura sin dato adicional."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Confundir complementario (suma 90°) con suplementario (suma 180°). Regla práctica: 'complementario' tiene c de 'corto' (90°) y 'suplementario' tiene s de 'solo' (180°, el llano).",
+          "Aplicar las relaciones de correspondientes o alternos internos sin verificar primero que L₁ ∥ L₂. Si las rectas no son paralelas, esas relaciones no se cumplen.",
+          "Asumir ángulos iguales solo por aspecto visual en la figura, sin respaldo en ninguna propiedad. Siempre justifica cada paso con su relación geométrica.",
+          "Olvidar que los OPV son iguales solo cuando ambas rectas se cruzan exactamente en un punto. En vértices compartidos de polígonos, la situación puede ser diferente.",
+          "En problemas con variables (ángulo = 3x + 10°, otro = 5x − 20°), plantear la ecuación incorrecta: por ejemplo, igualar en vez de sumar 180° cuando los ángulos son colaterales internos, o viceversa."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "☐ Distingo los tres tipos de pares de ángulos con paralelas (correspondientes, alternos internos, colaterales internos) y sé qué relación aplica a cada uno.",
+          "☐ Calculo el complemento (90° − α) y el suplemento (180° − α) de cualquier ángulo sin dudar.",
+          "☐ Aplico suma de ángulos interiores del triángulo (180°) y la propiedad del ángulo exterior de inmediato.",
+          "☐ Verifico que los ángulos en cada intersección suman 360° y que los del triángulo suman 180°.",
+          "☐ Cuando hay una incógnita, planteo la ecuación correcta según el tipo de par de ángulos."
         ]
       }
     ]
@@ -50,8 +92,8 @@
   {
     "id": "geometria-triangulos",
     "area": "Geometría",
-    "title": "Triángulos y cuadriláteros",
-    "duration": "12 min",
+    "title": "Triángulos, cuadriláteros y áreas",
+    "duration": "20 min",
     "practiceKeywords": [
       "triangulo",
       "triángulo",
@@ -63,47 +105,87 @@
       "trapecio",
       "rombo",
       "rectangulo",
-      "rectángulo"
+      "rectángulo",
+      "perimetro",
+      "perímetro",
+      "equilatero",
+      "isosceles"
     ],
     "sections": [
       {
-        "heading": "Clasificación y casos notables",
-        "diagramType": "triangulo-rectangulo",
-        "items": [
-          "Por lados: equilátero, isósceles, escaleno",
-          "Por ángulos: acutángulo, rectángulo, obtusángulo",
-          "30°-60°-90°: lados a, a√3, 2a",
-          "45°-45°-90°: catetos a, a; hipotenusa a√2"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "Triángulos y cuadriláteros son el núcleo de la geometría plana en PAES M2. Aparecen en preguntas directas de cálculo de área o perímetro, en problemas de Pitágoras, en ítems con triángulos notables (30-60-90 y 45-45-90) y como base de preguntas de trigonometría. Se estima que entre 6 y 10 preguntas de la prueba involucran este contenido de manera directa o indirecta.",
+          "El dominio de este tema implica tres habilidades: clasificar figuras correctamente, seleccionar la fórmula adecuada y ejecutar el cálculo sin errores aritméticos. Los errores más caros en la PAES se producen al aplicar Pitágoras a un triángulo que no es rectángulo, o al mezclar base y altura en una fórmula de área."
         ]
       },
       {
-        "heading": "Áreas y Pitágoras",
-        "formulas": [
-          "Triángulo: A = (b·h)/2",
-          "Trapecio: A = (B+b)·h/2",
-          "Círculo: A = πr²",
-          "Pitágoras: a² + b² = c²"
+        "heading": "Concepto y teoría — Triángulos",
+        "paragraphs": [
+          "Los triángulos se clasifican por sus lados: equilátero (tres lados iguales, tres ángulos de 60°), isósceles (dos lados iguales, dos ángulos de la base iguales) y escaleno (todos los lados distintos). Por sus ángulos: acutángulo (todos agudos), rectángulo (un ángulo de 90°) y obtusángulo (un ángulo mayor de 90°).",
+          "Los triángulos notables son especialmente frecuentes. El triángulo 30°-60°-90° tiene lados en proporción a : a√3 : 2a (opuesto a 30°, opuesto a 60°, hipotenusa). El triángulo 45°-45°-90° tiene lados a : a : a√2 (catetos iguales, hipotenusa = cateto × √2). Reconocer estas proporciones permite calcular lados sin trigonometría explícita.",
+          "El Teorema de Pitágoras establece que en todo triángulo rectángulo se cumple a² + b² = c², donde c es la hipotenusa (el lado opuesto al ángulo recto). La terna (3, 4, 5) y sus múltiplos (6, 8, 10) son las más comunes en la PAES; también aparecen (5, 12, 13) y (8, 15, 17)."
         ],
-        "items": [
-          "Catetos 6 y 8 → hipotenusa 10",
-          "No uses Pitágoras si el triángulo no es rectángulo"
+        "diagramType": "triangulo-rectangulo"
+      },
+      {
+        "heading": "Concepto y teoría — Cuadriláteros",
+        "paragraphs": [
+          "Los cuadriláteros más importantes son: paralelogramo (lados opuestos iguales y paralelos, ángulos opuestos iguales), rectángulo (paralelogramo con cuatro ángulos rectos), rombo (paralelogramo con cuatro lados iguales, diagonales perpendiculares que se bisecan), cuadrado (rombo y rectángulo a la vez) y trapecio (exactamente un par de lados paralelos, llamados bases mayor B y menor b).",
+          "En el rombo, las diagonales se intersecan en ángulo recto y cada una biseca a la otra. Esta propiedad permite calcular el área usando las diagonales: A = (d₁ × d₂) / 2. En el trapecio, la altura h es la distancia perpendicular entre las dos bases paralelas."
         ]
       },
       {
-        "heading": "Cuadriláteros",
-        "items": [
-          "Paralelogramo: lados opuestos iguales y paralelos",
-          "Rombo: 4 lados iguales; diagonales perpendiculares",
-          "Rectángulo: 4 ángulos rectos",
-          "Trapecio: exactamente un par de lados paralelos"
+        "heading": "Fórmulas clave",
+        "formulas": [
+          "Triángulo: A = (b × h) / 2",
+          "Pitágoras: a² + b² = c²  (c = hipotenusa)",
+          "30°-60°-90°: lados a, a√3, 2a",
+          "45°-45°-90°: lados a, a, a√2",
+          "Paralelogramo / rectángulo: A = b × h",
+          "Trapecio: A = (B + b) × h / 2",
+          "Rombo: A = (d₁ × d₂) / 2",
+          "Círculo: A = πr²,  C = 2πr",
+          "Cuadrado: A = l²,  P = 4l",
+          "Triángulo equilátero: A = (l² × √3) / 4"
         ]
       },
       {
-        "heading": "Para la PAES",
+        "heading": "Método paso a paso",
         "items": [
-          "Clasifica el triángulo antes de aplicar una fórmula",
-          "Si hay altura fuera del triángulo obtusángulo, úsala con cuidado",
-          "En cuadriláteros, marca paralelos e iguales en el dibujo"
+          "Paso 1 — Identifica la figura: clasifícala por tipo (triángulo rectángulo, trapecio, rombo, etc.) y anota los datos del enunciado directamente sobre el esquema.",
+          "Paso 2 — Verifica si tienes base y altura perpendicular disponibles. Si falta alguna, usa Pitágoras o las proporciones de los triángulos notables para calcularla.",
+          "Paso 3 — Selecciona la fórmula correcta. Recuerda que h siempre debe ser perpendicular a la base, no un lado inclinado.",
+          "Paso 4 — Realiza el cálculo ordenado. Opera primero dentro de paréntesis, luego multiplica y finalmente divide.",
+          "Paso 5 — Verifica el orden de magnitud: el área de un triángulo de base 6 y altura 4 no puede ser mayor que el rectángulo envolvente (6 × 4 = 24); debe ser exactamente 12."
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "items": [
+          "Ejemplo 1 — Pitágoras y área. Un triángulo rectángulo tiene catetos de 5 y 12 cm. (a) Hipotenusa: c² = 5² + 12² = 25 + 144 = 169, c = 13 cm. (b) Área: A = (5 × 12)/2 = 30 cm². (c) Perímetro: 5 + 12 + 13 = 30 cm. Nota: que área y perímetro sean iguales (30) es una coincidencia de esta terna particular, no una regla general.",
+          "Ejemplo 2 — Trapecio. Un trapecio tiene bases B = 14 cm y b = 8 cm, y una altura de 6 cm. Área: A = (14 + 8) × 6 / 2 = 22 × 3 = 66 cm². Error frecuente: tomar como altura un lado inclinado del trapecio. La altura siempre va de base a base en forma perpendicular.",
+          "Ejemplo 3 — Triángulo 30-60-90. Un triángulo rectángulo tiene un ángulo de 30° y la hipotenusa mide 10 cm. Cateto opuesto a 30° = 10/2 = 5 cm. Cateto opuesto a 60° = 5√3 cm ≈ 8,66 cm. Área = (5 × 5√3)/2 = 25√3/2 ≈ 21,65 cm². Verificación: el cateto mayor (5√3) siempre supera al menor (5), lo que es consistente con que 60° > 30°."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Usar Pitágoras en un triángulo que no es rectángulo. Antes de aplicar a² + b² = c², confirma que hay un ángulo de exactamente 90°.",
+          "Confundir lado inclinado con altura. La altura h debe ser perpendicular a la base. En un triángulo obtusángulo, la altura puede caer fuera del triángulo.",
+          "En el rombo, confundir lado con diagonal. Las fórmulas A = l² y A = (d₁×d₂)/2 son para figuras distintas (cuadrado vs. rombo en general).",
+          "En el trapecio, sumar las dos bases sin multiplicar por h/2, o multiplicar (B+b)×h sin dividir entre 2.",
+          "En triángulos 30-60-90, asignar √3 al lado equivocado. Recuerda: el lado más largo opone al ángulo más grande. Cateto opuesto a 60° = a√3 es mayor que el opuesto a 30° = a."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "☐ Clasifico el triángulo (por lados y por ángulos) antes de aplicar cualquier fórmula.",
+          "☐ Reconozco de inmediato las ternas pitagóricas más comunes: (3,4,5), (5,12,13), (6,8,10).",
+          "☐ Identifico los triángulos notables 30-60-90 y 45-45-90 y sé sus proporciones de memoria.",
+          "☐ En cuadriláteros, marco en el dibujo los lados paralelos y las medidas antes de operar.",
+          "☐ Verifico que la altura que uso es perpendicular a la base y no un lado inclinado."
         ]
       }
     ]
@@ -112,54 +194,99 @@
     "id": "algebra-ecuaciones",
     "area": "Álgebra",
     "title": "Ecuaciones y sistemas",
-    "duration": "12 min",
+    "duration": "20 min",
     "practiceKeywords": [
       "resuelve",
       "ecuacion",
+      "ecuación",
       "sistema",
       "x =",
       "ax",
       "cuadratic",
-      "discriminante"
+      "discriminante",
+      "Δ",
+      "igualacion",
+      "sustitución",
+      "reducción"
     ],
     "sections": [
       {
-        "heading": "Ecuaciones lineales",
-        "text": "Aísla la incógnita con operaciones inversas y verifica reemplazando.",
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "Las ecuaciones y los sistemas son el eje central del eje Álgebra y funciones en M2. De los cuatro ejes de la prueba, Álgebra suele concentrar entre 20 y 25% de las preguntas. Las ecuaciones lineales y cuadráticas aparecen tanto en ítems directos ('resuelve la ecuación') como en contextos aplicados (problemas de edades, precios, áreas, velocidades), donde la dificultad real está en plantear el modelo algebraico correcto.",
+          "Dominar sistemas de ecuaciones 2×2 es especialmente valioso: permite resolver problemas de mezclas, tarifas y situaciones de dos condiciones simultáneas, que son populares en la PAES porque evalúan modelamiento matemático. La ecuación cuadrática también aparece asociada a funciones, vértices de parábolas y raíces."
+        ]
+      },
+      {
+        "heading": "Concepto y teoría — Ecuación lineal",
+        "paragraphs": [
+          "Una ecuación lineal en una incógnita es de la forma ax + b = c, donde a ≠ 0. La estrategia de resolución es aislar x mediante operaciones inversas: primero trasladar términos independientes al lado derecho y luego dividir por el coeficiente de x. La verificación consiste en sustituir la solución en la ecuación original y comprobar que se cumple la igualdad.",
+          "Las ecuaciones lineales con fracciones se simplifican multiplicando ambos miembros por el mínimo común múltiplo de los denominadores, eliminando así las fracciones antes de despejar. Las ecuaciones con paréntesis requieren aplicar la propiedad distributiva antes de agrupar términos semejantes."
+        ]
+      },
+      {
+        "heading": "Concepto y teoría — Sistemas 2×2",
+        "paragraphs": [
+          "Un sistema de dos ecuaciones con dos incógnitas (x, y) puede resolverse por tres métodos: sustitución (despejar una incógnita en una ecuación y reemplazar en la otra), igualación (despejar la misma incógnita en ambas ecuaciones y luego igualar las expresiones resultantes) y reducción (multiplicar las ecuaciones por constantes para hacer que los coeficientes de una incógnita sean opuestos y luego sumarlas).",
+          "Un sistema puede tener una única solución (rectas no paralelas que se cruzan), infinitas soluciones (misma recta, ecuaciones proporcionales) o ninguna solución (rectas paralelas distintas, sistema incompatible). Reconocer rápidamente el tipo de sistema evita cálculos innecesarios."
+        ]
+      },
+      {
+        "heading": "Concepto y teoría — Ecuación cuadrática",
+        "paragraphs": [
+          "Una ecuación cuadrática es de la forma ax² + bx + c = 0 con a ≠ 0. Sus soluciones se obtienen con la fórmula general, que involucra el discriminante Δ = b² − 4ac. Si Δ > 0, existen dos raíces reales distintas. Si Δ = 0, existe una raíz real doble. Si Δ < 0, no existen soluciones reales (la parábola no corta al eje X).",
+          "Cuando el trinomio factoriza fácilmente (por ejemplo, x² − 5x + 6 = (x−2)(x−3) = 0), el método de factorización es más rápido que la fórmula general. Identifica si los coeficientes son pequeños y busca dos números cuyo producto sea c y cuya suma sea b antes de recurrir a la fórmula."
+        ]
+      },
+      {
+        "heading": "Fórmulas clave",
         "formulas": [
-          "ax + b = c → x = (c − b)/a"
-        ],
-        "items": [
-          "3x − 5 = 10 → x = 5",
-          "Si aparece una fracción, multiplica ambos lados por el denominador"
+          "Lineal: ax + b = c  →  x = (c − b) / a",
+          "Cuadrática general: x = (−b ± √Δ) / (2a)",
+          "Discriminante: Δ = b² − 4ac",
+          "Δ > 0 → dos raíces reales distintas",
+          "Δ = 0 → una raíz real doble",
+          "Δ < 0 → sin raíces reales",
+          "Suma de raíces: x₁ + x₂ = −b/a",
+          "Producto de raíces: x₁ · x₂ = c/a"
         ]
       },
       {
-        "heading": "Sistemas 2×2",
+        "heading": "Método paso a paso",
         "items": [
-          "Sustitución: despeja una y reemplaza",
-          "Igualación: iguala dos expresiones de la misma variable",
-          "Reducción: suma/resta para eliminar una variable",
-          "Ejemplo: x+y=10, x−y=2 → x=6, y=4"
+          "Paso 1 — Lee el problema completo y define las variables antes de escribir cualquier ecuación. Si es contextual, asigna letras con significado claro (p. ej.: p = precio unitario, n = número de artículos).",
+          "Paso 2 — Traduce las condiciones del problema a ecuaciones. Cada condición independiente genera una ecuación.",
+          "Paso 3 — Elige el método de resolución: sustitución si una variable se despeja limpiamente, reducción si los coeficientes permiten cancelar fácilmente, factorización si la cuadrática es simple.",
+          "Paso 4 — Resuelve operando paso a paso y sin saltarse líneas. Los errores aritméticos son la causa número uno de respuestas incorrectas.",
+          "Paso 5 — Verifica sustituyendo los valores encontrados en todas las ecuaciones originales, no solo en la que usaste para despejar."
         ]
       },
       {
-        "heading": "Ecuación cuadrática",
-        "formulas": [
-          "ax² + bx + c = 0",
-          "x = (−b ± √Δ)/(2a)",
-          "Δ = b² − 4ac"
-        ],
+        "heading": "Ejemplos trabajados",
         "items": [
-          "Δ>0 dos raíces; Δ=0 una; Δ<0 ninguna real"
+          "Ejemplo 1 — Sistema por sustitución. Dos números suman 40 y su diferencia es 12. Planteamiento: x + y = 40, x − y = 12. Despejando de la segunda: x = y + 12. Reemplazando en la primera: (y + 12) + y = 40 → 2y = 28 → y = 14. Entonces x = 14 + 12 = 26. Verificación: 26 + 14 = 40 ✓ y 26 − 14 = 12 ✓",
+          "Ejemplo 2 — Sistema por reducción en contexto. Dos productos cuestan en total $9.500. Si el primero sube 10% y el segundo sube 20%, el total pasa a $10.700. Planteamiento: p₁ + p₂ = 9.500 y 1,1p₁ + 1,2p₂ = 10.700. Multiplico la primera por −1,1: −1,1p₁ − 1,1p₂ = −10.450. Sumo ambas: 0,1p₂ = 250 → p₂ = 2.500. Luego p₁ = 9.500 − 2.500 = 7.000.",
+          "Ejemplo 3 — Ecuación cuadrática. Resolver 2x² − 7x + 3 = 0. a=2, b=−7, c=3. Δ = (−7)² − 4(2)(3) = 49 − 24 = 25. √25 = 5. x₁ = (7 + 5)/4 = 3; x₂ = (7 − 5)/4 = 1/2. Verificación de x₁=3: 2(9) − 7(3) + 3 = 18 − 21 + 3 = 0 ✓. Verificación de x₂=1/2: 2(1/4) − 7/2 + 3 = 1/2 − 7/2 + 6/2 = 0 ✓"
         ]
       },
       {
-        "heading": "Para la PAES",
+        "heading": "Trampas frecuentes",
         "items": [
-          "Si el sistema es contextual (precios, edades), define bien las variables",
-          "Tras resolver, verifica en ambas ecuaciones",
-          "En cuadráticas, revisa Δ antes de afirmar cuántas soluciones hay"
+          "Plantear la ecuación con la variable equivocada como punto de partida. Define siempre las variables antes de escribir nada.",
+          "En la reducción, multiplicar solo una ecuación y olvidar multiplicar el otro miembro. Cada operación debe hacerse a ambos lados de la igualdad.",
+          "En la fórmula cuadrática, calcular Δ con signos incorrectos: si b = −7, b² = (−7)² = 49, nunca −49.",
+          "Verificar la solución solo en una de las dos ecuaciones del sistema. Siempre verifica en ambas.",
+          "En problemas contextuales, obtener x = −5 y declararlo como respuesta sin notar que la interpretación (cantidad, precio, etc.) exige que x sea positiva. Analiza si la solución es coherente con el contexto."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "☐ Defino las variables antes de escribir las ecuaciones en cualquier problema contextual.",
+          "☐ Conozco los tres métodos para sistemas 2×2 y sé cuándo usar cada uno.",
+          "☐ Calculo el discriminante correctamente (b² − 4ac) y determino el número de soluciones antes de operar.",
+          "☐ Verifico la solución sustituyendo en todas las ecuaciones originales.",
+          "☐ En contextos, desecho soluciones negativas o no enteras cuando el enunciado las hace inválidas."
         ]
       }
     ]
@@ -168,7 +295,7 @@
     "id": "algebra-funciones",
     "area": "Álgebra",
     "title": "Funciones lineales y cuadráticas",
-    "duration": "12 min",
+    "duration": "20 min",
     "practiceKeywords": [
       "f(x)",
       "pendiente",
@@ -177,41 +304,86 @@
       "parabol",
       "vertice",
       "vértice",
-      "funciones"
+      "funciones",
+      "dominio",
+      "recorrido",
+      "cero",
+      "raiz",
+      "intercepto"
     ],
     "sections": [
       {
-        "heading": "Función lineal",
-        "text": "f(x)=mx+n es una recta. m controla la inclinación; n el corte con el eje Y.",
-        "formulas": [
-          "f(x) = mx + n",
-          "m = (y₂−y₁)/(x₂−x₁)"
-        ],
-        "items": [
-          "m>0 creciente; m<0 decreciente; m=0 constante",
-          "Por (0,2) y (4,10): m = 8/4 = 2 → f(x)=2x+2",
-          "Dos puntos bastan para determinar la recta"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "Las funciones son uno de los contenidos con mayor peso en el eje Álgebra y funciones de la PAES M2. Aparecen en preguntas sobre lectura de gráficos, determinación de pendiente, cálculo de vértice y raíces, y análisis de dominio y recorrido. En algunos años, las preguntas de funciones representan hasta el 20% del total de la prueba.",
+          "Para Ingeniería, comprender las funciones lineales y cuadráticas es la base de todos los cursos de cálculo y álgebra lineal del primer año universitario. Un dominio sólido de este tema en la PAES indica madurez matemática al seleccionador."
         ]
       },
       {
-        "heading": "Función cuadrática",
-        "text": "f(x)=ax²+bx+c es una parábola. Usa el vértice para máximos/mínimos.",
-        "formulas": [
-          "f(x) = ax² + bx + c",
-          "x_v = −b/(2a)"
-        ],
-        "items": [
-          "a>0 abre hacia arriba (mínimo); a<0 hacia abajo (máximo)",
-          "f(x)=x²−4 corta el eje X en x=±2",
-          "El vértice es el extremo de la parábola"
+        "heading": "Concepto y teoría — Función lineal",
+        "paragraphs": [
+          "Una función lineal tiene la forma f(x) = mx + n, donde m es la pendiente y n es el intercepto en el eje Y (también llamado término independiente). Geométricamente, su gráfico es una recta. La pendiente m mide la razón de cambio: por cada unidad que aumenta x, f(x) cambia en m unidades. Si m > 0 la función es creciente; si m < 0 es decreciente; si m = 0 es constante (recta horizontal).",
+          "La pendiente entre dos puntos (x₁, y₁) y (x₂, y₂) se calcula como m = (y₂ − y₁) / (x₂ − x₁). Con la pendiente y un punto, la ecuación de la recta se puede escribir en forma punto-pendiente: y − y₁ = m(x − x₁), que luego se convierte a la forma f(x) = mx + n despejando.",
+          "El cero de una función lineal (punto donde cruza el eje X) se obtiene igualando f(x) = 0: 0 = mx + n → x = −n/m. El dominio de toda función lineal (sin restricciones) es ℝ y el recorrido también es ℝ (salvo si m = 0, donde el recorrido es solo {n})."
         ]
       },
       {
-        "heading": "Para la PAES",
+        "heading": "Concepto y teoría — Función cuadrática",
+        "paragraphs": [
+          "Una función cuadrática tiene la forma f(x) = ax² + bx + c con a ≠ 0. Su gráfico es una parábola. Si a > 0 la parábola abre hacia arriba (tiene mínimo); si a < 0 abre hacia abajo (tiene máximo). El eje de simetría es la recta vertical x = −b/(2a) y el vértice V = (−b/(2a), f(−b/(2a))) es el punto más alto o más bajo de la parábola.",
+          "Las raíces de la función cuadrática (puntos donde corta el eje X) se calculan igualando f(x) = 0 y aplicando la fórmula general o factorizando. El discriminante Δ = b² − 4ac determina la cantidad de cortes con el eje X: dos raíces distintas (Δ > 0), un punto de tangencia (Δ = 0) o ningún corte (Δ < 0).",
+          "La forma vértice f(x) = a(x − h)² + k hace evidente el vértice (h, k) y la apertura. Para convertir de forma general a forma vértice se usa completación de cuadrado: f(x) = a(x + b/(2a))² + c − b²/(4a). Reconocer ambas formas es clave para responder preguntas de gráficos."
+        ]
+      },
+      {
+        "heading": "Fórmulas clave",
+        "formulas": [
+          "Lineal: f(x) = mx + n",
+          "Pendiente: m = (y₂ − y₁) / (x₂ − x₁)",
+          "Cero lineal: x = −n / m",
+          "Cuadrática: f(x) = ax² + bx + c",
+          "Eje de simetría: x_v = −b / (2a)",
+          "Vértice: V = (−b/(2a),  f(−b/(2a)))",
+          "Forma vértice: f(x) = a(x − h)² + k",
+          "Raíces: x = (−b ± √Δ) / (2a)"
+        ]
+      },
+      {
+        "heading": "Método paso a paso",
         "items": [
-          "Identifica si el gráfico es recta o parábola antes de formular",
-          "Si piden ‘valor máximo’, busca vértice con a<0",
-          "Verifica dominio y recorrido cuando aparezcan restricciones"
+          "Paso 1 — Determina si la función es lineal (grado 1) o cuadrática (grado 2) según el exponente máximo de x. Esto define todo lo que sigue.",
+          "Paso 2 — Para la función lineal: identifica m y n directamente de f(x) = mx + n. Si tienes dos puntos, calcula m primero y luego n.",
+          "Paso 3 — Para la función cuadrática: identifica a, b y c. Calcula el vértice con x_v = −b/(2a) y evalúa f(x_v) para obtener el y del vértice.",
+          "Paso 4 — Si piden raíces, calcula Δ primero para saber cuántas hay antes de operar.",
+          "Paso 5 — Verifica con el gráfico mental: ¿la parábola abre hacia arriba o abajo? ¿El vértice está en el cuadrante correcto? ¿Las raíces son coherentes con el signo de a y el valor de n?"
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "items": [
+          "Ejemplo 1 — Función lineal con dos puntos. Una función lineal pasa por A(2, 5) y B(6, 13). Pendiente: m = (13−5)/(6−2) = 8/4 = 2. Ecuación: y − 5 = 2(x − 2) → y = 2x + 1. Verificación con B: f(6) = 2(6)+1 = 13 ✓. Cero de f: 0 = 2x+1 → x = −1/2, es decir, la recta corta al eje X en (−0,5 ; 0).",
+          "Ejemplo 2 — Máximo de parábola. f(x) = −3x² + 12x − 7. a = −3 < 0, la parábola abre hacia abajo y tiene máximo. Eje: x_v = −12/(2·(−3)) = −12/(−6) = 2. Valor máximo: f(2) = −3(4)+12(2)−7 = −12+24−7 = 5. El máximo es 5 y se alcanza en x = 2. El vértice es V(2, 5).",
+          "Ejemplo 3 — Raíces e interpretación. f(x) = x² − 6x + 5. a=1, b=−6, c=5. Δ = 36−20 = 16. Raíces: x = (6±4)/2 → x₁=5, x₂=1. La parábola corta al eje X en x=1 y x=5. El eje de simetría es x = (1+5)/2 = 3 (promedio de las raíces, siempre funciona). Vértice: f(3) = 9−18+5 = −4, es decir V(3, −4). Mínimo de −4 en x = 3."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Confundir el signo de la pendiente al calcularla: m = (y₂−y₁)/(x₂−x₁), no al revés. Si calculas (x₂−x₁)/(y₂−y₁), obtienes 1/m.",
+          "En la parábola, declarar que el vértice es mínimo cuando a < 0 (en realidad es máximo) o viceversa. Recuerda: a > 0 → abre arriba → mínimo; a < 0 → abre abajo → máximo.",
+          "Calcular el vértice con x_v = b/(2a) en vez de x_v = −b/(2a) (olvidar el signo negativo).",
+          "Confundir dominio con recorrido: el dominio es el conjunto de x permitidos; el recorrido (imagen) es el conjunto de valores que toma f(x). Para la función cuadrática con a>0, el recorrido es [k, +∞) siendo k el mínimo.",
+          "En gráficos, leer la pendiente como positiva cuando la recta desciende de izquierda a derecha. Siempre verifica la dirección visual antes de asignar signo."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "☐ Identifico de inmediato si una función es lineal o cuadrática y cuál es su gráfico.",
+          "☐ Calculo la pendiente entre dos puntos y la ecuación de la recta correctamente.",
+          "☐ Encuentro el vértice de una parábola con x_v = −b/(2a) y evalúo f(x_v).",
+          "☐ Uso el discriminante para determinar el número de raíces antes de calcularlas.",
+          "☐ Sé leer en un gráfico la pendiente, los ceros y el término independiente de una función."
         ]
       }
     ]
@@ -220,7 +392,7 @@
     "id": "numeros-porcentaje",
     "area": "Números",
     "title": "Porcentaje y proporcionalidad",
-    "duration": "10 min",
+    "duration": "18 min",
     "practiceKeywords": [
       "%",
       "porcent",
@@ -229,36 +401,85 @@
       "proporci",
       "obrero",
       "razon",
-      "razón"
+      "razón",
+      "regla de tres",
+      "directa",
+      "inversa",
+      "factor"
     ],
     "sections": [
       {
-        "heading": "Porcentaje",
-        "text": "El % es una razón de denominador 100. En aumentos y descuentos multiplica por (1±x/100).",
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "El porcentaje y la proporcionalidad son temas del eje Números que combinan facilidad aparente con trampas sutiles. Aparecen en problemas de precios (descuentos, aumentos, IVA), problemas de trabajo (obreros y días), mezclas y razones. Una parte significativa de los estudiantes pierde puntos aquí por aplicar mecánicamente el producto cruzado sin verificar si la proporción es directa o inversa.",
+          "Para Ingeniería, la proporcionalidad es la base conceptual de la regla de tres simple y compuesta, que tiene aplicación directa en física (velocidad, fuerza, presión) y en química (concentraciones y estequiometría). Dominar este tema en la PAES también refleja solidez en el razonamiento cuantitativo, evaluado en pruebas de admisión universitaria internacionales."
+        ]
+      },
+      {
+        "heading": "Concepto y teoría — Porcentaje",
+        "paragraphs": [
+          "El porcentaje es una razón con denominador 100. Expresar p% de una cantidad N significa calcular (p/100) × N. Para calcular aumentos, se multiplica por el factor (1 + p/100); para descuentos, por (1 − p/100). Esta multiplicación por factor es la forma más eficiente y reduce errores en cálculos sucesivos.",
+          "Cuando se aplican dos variaciones porcentuales sucesivas, los factores se multiplican entre sí: un aumento de 20% seguido de un descuento de 20% no recupera el precio original. El factor resultante es 1,2 × 0,8 = 0,96, es decir, el precio final es un 4% menor que el original. Este resultado contraintuitivo es una trampa clásica de la PAES.",
+          "Para calcular el porcentaje que representa A respecto de B, la fórmula es (A/B) × 100. Para calcular el valor original si ya se aplicó un aumento o descuento, se divide el precio final por el factor: precio original = precio final / (1 ± p/100)."
+        ]
+      },
+      {
+        "heading": "Concepto y teoría — Proporcionalidad",
+        "paragraphs": [
+          "Dos magnitudes son directamente proporcionales cuando su razón es constante: si A/B = k, al duplicar A también se duplica B. Se resuelve con producto cruzado: A₁/B₁ = A₂/B₂.",
+          "Dos magnitudes son inversamente proporcionales cuando su producto es constante: si A × B = k, al duplicar A se reduce B a la mitad. Se resuelve con la relación A₁ × B₁ = A₂ × B₂. El ejemplo clásico es obreros y días: más obreros, menos días para la misma obra (el trabajo total es constante).",
+          "Antes de plantear cualquier regla de tres, identifica el tipo de proporción analizando la relación cualitativa: si aumentar una magnitud hace aumentar la otra → directa; si hace disminuir la otra → inversa. Aplicar el método incorrecto invierte la respuesta y produce un error grande."
+        ]
+      },
+      {
+        "heading": "Fórmulas clave",
         "formulas": [
-          "x% de N = (x/100)·N",
-          "Aumento: N(1 + x/100)",
-          "Descuento: N(1 − x/100)"
-        ],
-        "items": [
-          "20% de descuento sobre $20.000 → $16.000"
+          "p% de N = (p/100) × N",
+          "Aumento: N × (1 + p/100)",
+          "Descuento: N × (1 − p/100)",
+          "Precio original tras aumento: P_final / (1 + p/100)",
+          "% que A representa de B: (A/B) × 100",
+          "Variaciones sucesivas: factor total = f₁ × f₂ × ... × fₙ",
+          "Proporción directa: A₁/B₁ = A₂/B₂",
+          "Proporción inversa: A₁ × B₁ = A₂ × B₂"
         ]
       },
       {
-        "heading": "Directa vs inversa",
-        "text": "Directa: al aumentar una magnitud, la otra aumenta (a/b = c/x). Inversa: el producto se mantiene (a·b = c·x).",
+        "heading": "Método paso a paso",
         "items": [
-          "Obreros/días es inversa: más obreros → menos días",
-          "Ejemplo inverso: 3 obreros en 12 días → 6 obreros en 6 días",
-          "Error típico: aplicar producto cruzado de directa a un caso inverso"
+          "Paso 1 — Lee el enunciado y determina qué se pide: ¿calcular el porcentaje de un valor? ¿el valor original? ¿el valor final tras un cambio?",
+          "Paso 2 — Para porcentajes sucesivos, calcula el factor de cada cambio (1+p/100 o 1−p/100) y multiplícalos entre sí.",
+          "Paso 3 — Para proporciones, identifica si son directas o inversas antes de plantear la ecuación. Usa el criterio cualitativo: ¿qué le pasa a B cuando A aumenta?",
+          "Paso 4 — Plantea la ecuación y resuelve. Verifica el resultado comprobando que tenga sentido con el razonamiento cualitativo.",
+          "Paso 5 — Revisa las unidades y asegúrate de que la respuesta está en las unidades que pide el enunciado (precio en pesos, tiempo en días, etc.)."
         ]
       },
       {
-        "heading": "Para la PAES",
+        "heading": "Ejemplos trabajados",
         "items": [
-          "Aumento de 20% seguido de descuento de 20% NO vuelve al precio original",
-          "20%↑ y luego 20%↓ → factor 1,2×0,8=0,96 (queda 4% menos)",
-          "Lee si el % es “de” o “sobre” el valor inicial"
+          "Ejemplo 1 — Descuento y precio original. Un artículo se vende con 30% de descuento en $35.000. ¿Cuál era el precio original? Razonamiento: $35.000 corresponde al 70% del precio original (100% − 30% = 70%). Precio original = 35.000 / 0,70 = 50.000. Verificación: 50.000 × 0,70 = 35.000 ✓",
+          "Ejemplo 2 — Variaciones sucesivas. Un producto sube 25% en enero y luego baja 20% en febrero. ¿Cuál es el cambio neto respecto al precio de diciembre? Factor enero: 1,25. Factor febrero: 0,80. Factor total: 1,25 × 0,80 = 1,00. El precio vuelve exactamente al precio de diciembre. Nota: esto no siempre da 1. Con 20% y 20% opuestos da 0,96 (−4%), como vimos en la teoría.",
+          "Ejemplo 3 — Proporción inversa. 8 operarios terminan una construcción en 15 días. ¿Cuántos días tardarán 12 operarios? Análisis: más operarios → menos días → proporción inversa. Usamos A₁ × B₁ = A₂ × B₂: 8 × 15 = 12 × d → d = 120/12 = 10 días. Verificación cualitativa: 12 > 8 y 10 < 15 ✓"
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Aplicar producto cruzado de proporción directa a un problema de proporción inversa. El resultado es el inverso del correcto, que suele ser una opción de respuesta trampa.",
+          "Creer que un aumento de p% seguido de un descuento de p% devuelve al valor inicial. Nunca es así (salvo p=0), porque los porcentajes se aplican sobre bases distintas.",
+          "Calcular el descuento sobre el precio final en vez del precio original. El porcentaje siempre se aplica sobre la base indicada en el enunciado.",
+          "Confundir '20% más barato' (multiplicar por 0,80) con '20% del precio' (multiplicar por 0,20). Son cosas muy distintas.",
+          "En problemas de obreros/días, no verificar que el trabajo total (obreros × días) sea el mismo en ambas condiciones."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "☐ Convierto cualquier porcentaje a factor multiplicativo (p% → 1 ± p/100) de forma automática.",
+          "☐ Para variaciones sucesivas, multiplico los factores (no los sumo ni los resto).",
+          "☐ Antes de plantear la regla de tres, identifico si la proporción es directa o inversa.",
+          "☐ Para recuperar el precio original, divido el valor final por el factor (no resto el porcentaje).",
+          "☐ Verifico el resultado con razonamiento cualitativo: ¿es mayor o menor de lo esperado?"
         ]
       }
     ]
@@ -267,7 +488,7 @@
     "id": "probabilidad-basica",
     "area": "Probabilidad",
     "title": "Probabilidad y estadística básica",
-    "duration": "10 min",
+    "duration": "18 min",
     "practiceKeywords": [
       "probabilidad",
       "P(",
@@ -275,42 +496,86 @@
       "mediana",
       "moda",
       "dado",
-      "estadistica"
+      "estadistica",
+      "estadística",
+      "complemento",
+      "independiente",
+      "union",
+      "interseccion",
+      "al menos"
     ],
     "sections": [
       {
-        "heading": "Probabilidad clásica",
-        "text": "Si los resultados son igualmente posibles, P = favorables/posibles. Siempre simplifica.",
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "Probabilidad y estadística es uno de los cuatro ejes de la PAES M2, aunque con menor peso relativo que Álgebra o Geometría. Aun así, las preguntas de este eje suelen ser accesibles si se conocen bien los conceptos básicos: probabilidad clásica, eventos complementarios, independencia y medidas de tendencia central. Una preparación focalizada de 20 minutos en este tema puede asegurar 2 a 4 puntos adicionales.",
+          "Los errores más comunes en este eje no son de cálculo, sino conceptuales: confundir eventos independientes con mutuamente excluyentes, o elegir la media aritmética cuando la mediana representaría mejor a los datos. Comprenderlos bien es suficiente para dominar la mayoría de las preguntas."
+        ]
+      },
+      {
+        "heading": "Concepto y teoría — Probabilidad clásica",
+        "paragraphs": [
+          "La probabilidad clásica se aplica cuando todos los resultados posibles del experimento son igualmente posibles. En ese caso, la probabilidad de un evento A es P(A) = número de resultados favorables / número de resultados totales posibles. La probabilidad siempre es un número entre 0 y 1 (inclusive). P = 0 significa imposible y P = 1 significa seguro.",
+          "El evento complementario de A, denotado Ā o A', contiene todos los resultados posibles que no pertenecen a A. Se cumple que P(A) + P(Ā) = 1, es decir, P(Ā) = 1 − P(A). Esta propiedad es especialmente útil para calcular probabilidades del tipo 'al menos uno', que se resuelven más fácilmente calculando el complemento ('ninguno').",
+          "Para eventos que pueden ocurrir simultáneamente, la regla de la unión es P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Si los eventos son mutuamente excluyentes (no pueden ocurrir a la vez), P(A ∩ B) = 0 y la fórmula se simplifica a P(A ∪ B) = P(A) + P(B). Para eventos independientes (el resultado de uno no afecta al otro), P(A ∩ B) = P(A) × P(B)."
+        ]
+      },
+      {
+        "heading": "Concepto y teoría — Medidas de tendencia central",
+        "paragraphs": [
+          "La media aritmética (promedio) se calcula sumando todos los datos y dividiendo por la cantidad de datos. Es sensible a valores atípicos (muy altos o muy bajos) porque les da el mismo peso que al resto. La mediana es el valor central cuando los datos están ordenados de menor a mayor; si la cantidad de datos es par, es el promedio de los dos valores centrales. La moda es el valor que se repite con mayor frecuencia.",
+          "Cuando un conjunto de datos tiene valores atípicos (outliers), la mediana es una medida más representativa que la media, porque no se ve afectada por valores extremos. Por ejemplo, si los sueldos de un grupo son {200.000, 210.000, 220.000, 230.000, 5.000.000}, la media sube drásticamente por el valor extremo, pero la mediana (220.000) representa mejor a la mayoría."
+        ]
+      },
+      {
+        "heading": "Fórmulas clave",
         "formulas": [
-          "P(A) = favorables/posibles",
+          "P(A) = favorables / posibles",
           "0 ≤ P(A) ≤ 1",
-          "P(A)+P(no A)=1"
-        ],
-        "items": [
-          "Dado justo, P(>4)=2/6=1/3",
-          "P(par)=3/6=1/2",
-          "Dos monedas: P(exactamente una cara)=2/4=1/2"
+          "P(Ā) = 1 − P(A)",
+          "P(A ∪ B) = P(A) + P(B) − P(A ∩ B)",
+          "Mutuamente excluyentes: P(A ∪ B) = P(A) + P(B)",
+          "Independientes: P(A ∩ B) = P(A) × P(B)",
+          "Media: x̄ = (x₁ + x₂ + ... + xₙ) / n",
+          "Mediana: valor central de datos ordenados"
         ]
       },
       {
-        "heading": "Medidas de tendencia central",
-        "text": "Media, mediana y moda no siempre coinciden. Con atípicos, la mediana suele ser más estable.",
+        "heading": "Método paso a paso",
         "items": [
-          "Promedio = suma/cantidad",
-          "Mediana = valor central ordenado",
-          "Moda = valor más frecuente",
-          "Datos 1,2,2,9 → media=3,5; mediana=2; moda=2"
+          "Paso 1 — Lee el experimento y determina el espacio muestral (todos los resultados posibles). Para experimentos simples (un dado, una moneda), lista los casos.",
+          "Paso 2 — Identifica los resultados favorables al evento pedido. Cuéntalos cuidadosamente.",
+          "Paso 3 — Si el evento es complejo ('al menos uno', 'más de dos', etc.), considera usar el complemento para simplificar.",
+          "Paso 4 — Antes de multiplicar probabilidades, verifica si los eventos son independientes. Si el resultado de uno cambia la probabilidad del otro, no son independientes.",
+          "Paso 5 — Para estadística, ordena los datos antes de calcular la mediana. Para la media, verifica la suma total antes de dividir."
         ]
       },
       {
-        "heading": "Eventos compuestos (repaso)",
-        "formulas": [
-          "P(A∩B)=P(A)·P(B) si independientes",
-          "P(A∪B)=P(A)+P(B)−P(A∩B)"
-        ],
+        "heading": "Ejemplos trabajados",
         "items": [
-          "Decide independencia antes de multiplicar",
-          "‘Al menos uno’ suele pedirse como 1 − P(ninguno)"
+          "Ejemplo 1 — Dado y complemento. Se lanza un dado justo. P(sacar un 6) = 1/6. P(no sacar un 6) = 1 − 1/6 = 5/6. P(sacar un número mayor que 4) = P(5 o 6) = 2/6 = 1/3. P(sacar un número par) = P(2, 4 o 6) = 3/6 = 1/2. Estas tres probabilidades son independientes entre respuestas; no se suman entre sí.",
+          "Ejemplo 2 — Probabilidad de 'al menos uno'. Se lanzan dos monedas. P(obtener al menos una cara). Por complemento: P(ninguna cara) = P(sello y sello) = (1/2)(1/2) = 1/4. P(al menos una cara) = 1 − 1/4 = 3/4. Verificación enumerando el espacio: {CC, CS, SC, SS} → 3 casos favorables de 4 → 3/4 ✓",
+          "Ejemplo 3 — Medidas de tendencia central. Datos: 3, 7, 7, 8, 10, 12, 15. n = 7 datos. Media: (3+7+7+8+10+12+15)/7 = 62/7 ≈ 8,86. Mediana: datos ya ordenados, el valor central es el 4° dato → mediana = 8. Moda: 7 (es el único que se repite). Conclusión: media > mediana > moda en distribución con cola derecha."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Sumar probabilidades de eventos que no son mutuamente excluyentes sin restar la intersección. Si A y B pueden ocurrir juntos, P(A∪B) ≠ P(A) + P(B).",
+          "Multiplicar P(A) × P(B) asumiendo independencia cuando los eventos en realidad no lo son (por ejemplo, extraer sin reposición cambia la probabilidad del segundo evento).",
+          "Calcular la mediana sin ordenar los datos previamente. El valor central de datos desordenados no es la mediana.",
+          "Confundir moda con mediana. La moda es frecuencia, no posición central.",
+          "En 'al menos uno', enumerar todos los casos favorables en vez de usar el complemento, lo que produce errores por omisión en espacios muestrales grandes."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "☐ Para cualquier experimento simple, sé construir el espacio muestral y contar los casos favorables.",
+          "☐ Uso P(Ā) = 1 − P(A) cuando el enunciado dice 'al menos uno' o 'ninguno'.",
+          "☐ Verifico si los eventos son independientes o mutuamente excluyentes antes de operar.",
+          "☐ Ordeno los datos antes de calcular la mediana.",
+          "☐ Sé cuándo la mediana es más representativa que la media (cuando hay datos atípicos)."
         ]
       }
     ]
@@ -318,54 +583,96 @@
   {
     "id": "algebra-exp-log",
     "area": "Álgebra",
-    "title": "Funciones exponenciales y logarítmicas (M2)",
-    "duration": "12 min",
+    "title": "Funciones exponenciales y logarítmicas",
+    "duration": "22 min",
     "practiceKeywords": [
       "log",
       "ln",
       "expon",
       "e^",
       "a^",
-      "logarit"
+      "logarit",
+      "base",
+      "dominio",
+      "crecimiento",
+      "decaimiento",
+      "propiedades"
     ],
     "sections": [
       {
-        "heading": "Exponencial",
-        "text": "f(x)=aˣ (a>0, a≠1). Siempre pasa por (0,1). Si a>1 crece; si 0<a<1 decrece.",
-        "formulas": [
-          "f(x) = aˣ",
-          "f(0) = 1",
-          "a^(x+y)=aˣ·aʸ"
-        ],
-        "items": [
-          "Modela crecimiento poblacional y decaimiento",
-          "2ˣ nunca es negativa",
-          "Si aˣ=aʸ entonces x=y (a≠1)"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "Las funciones exponenciales y logarítmicas son exclusivas del temario M2 (no aparecen en M1) y suelen ser el contenido que mayor diferencia hace entre puntajes medios y altos. Aparecen en preguntas de dominio de función, propiedades algebraicas de logaritmos, gráficos de funciones y resolución de ecuaciones exponenciales y logarítmicas.",
+          "Para Ingeniería, este contenido es la puerta de entrada a la función exponencial en cálculo, a los logaritmos en álgebra lineal y a los modelos de crecimiento/decaimiento en física, química e ingeniería civil. Dominarlo bien en la PAES M2 da una ventaja real en los ramos del primer año."
         ]
       },
       {
-        "heading": "Logaritmo",
-        "text": "y = logₐ(x) es la inversa de aʸ = x. Dominio: x>0.",
-        "formulas": [
-          "y = logₐ(x) ↔ aʸ = x",
-          "logₐ(1)=0",
-          "logₐ(a)=1",
-          "log(xy)=log x + log y",
-          "log(x/y)=log x − log y",
-          "log(xⁿ)=n·log x"
-        ],
-        "items": [
-          "Para resolver aˣ=b, aplica log en ambos lados",
-          "Verifica que la solución quede en el dominio (argumento > 0)",
-          "log₂(8)=3 porque 2³=8"
+        "heading": "Concepto y teoría — Función exponencial",
+        "paragraphs": [
+          "La función exponencial tiene la forma f(x) = aˣ, donde a > 0 y a ≠ 1. La base a determina el comportamiento: si a > 1, la función es estrictamente creciente (modela crecimiento exponencial); si 0 < a < 1, es estrictamente decreciente (modela decaimiento exponencial). En ambos casos, f(0) = a⁰ = 1, por lo que el gráfico siempre pasa por el punto (0, 1).",
+          "El dominio de la función exponencial es ℝ (todos los reales) y el recorrido es (0, +∞): la función nunca toma valores negativos ni el valor cero. La función exponencial base e (número de Euler, e ≈ 2,718) es especialmente importante: f(x) = eˣ se llama exponencial natural y su inversa es el logaritmo natural ln(x).",
+          "Las propiedades algebraicas de los exponentes son esenciales: aᵐ · aⁿ = aᵐ⁺ⁿ, aᵐ/aⁿ = aᵐ⁻ⁿ, (aᵐ)ⁿ = aᵐⁿ y a⁰ = 1. Si aˣ = aʸ y a ≠ 1, entonces x = y (la función es inyectiva)."
         ]
       },
       {
-        "heading": "Para la PAES",
+        "heading": "Concepto y teoría — Función logarítmica",
+        "paragraphs": [
+          "El logaritmo de base a de x, escrito logₐ(x), es el exponente al que hay que elevar a para obtener x. Es decir: y = logₐ(x) ↔ aʸ = x. Esto significa que la función logarítmica es la inversa de la exponencial: si f(x) = aˣ, entonces f⁻¹(x) = logₐ(x).",
+          "El dominio de logₐ(x) es (0, +∞) porque el argumento x debe ser estrictamente positivo (no puede tomarse el logaritmo de cero ni de números negativos). La base a debe ser positiva y distinta de 1. El recorrido es ℝ. Valores importantes: logₐ(1) = 0 (porque a⁰ = 1) y logₐ(a) = 1 (porque a¹ = a).",
+          "Las propiedades algebraicas de los logaritmos permiten simplificar expresiones complejas: log(xy) = log x + log y, log(x/y) = log x − log y y log(xⁿ) = n·log x. Estas propiedades son válidas para cualquier base válida. El cambio de base permite convertir entre bases: logₐ(x) = log(x)/log(a), donde log puede ser en cualquier base (habitualmente base 10 o e)."
+        ]
+      },
+      {
+        "heading": "Fórmulas clave",
+        "formulas": [
+          "Exponencial: f(x) = aˣ  (a > 0, a ≠ 1)",
+          "y = logₐ(x)  ↔  aʸ = x",
+          "logₐ(1) = 0",
+          "logₐ(a) = 1",
+          "log(x·y) = log x + log y",
+          "log(x/y) = log x − log y",
+          "log(xⁿ) = n · log x",
+          "Cambio de base: logₐ(x) = log(x) / log(a)",
+          "Inversa: logₐ(aˣ) = x  y  a^(logₐ x) = x",
+          "aˣ = aʸ  →  x = y  (si a ≠ 1)"
+        ]
+      },
+      {
+        "heading": "Método paso a paso",
         "items": [
-          "Cambia todo a la misma base cuando puedas",
-          "Dominio del log: argumento > 0; base > 0 y ≠ 1",
-          "Si aparece eˣ o ln, usa que son inversas"
+          "Paso 1 — Identifica la base de la función exponencial o logarítmica. Si es base e, recuerda que ln(x) = logₑ(x).",
+          "Paso 2 — Para resolver ecuaciones exponenciales: si las bases son iguales, iguala exponentes. Si no, aplica logaritmo en ambos miembros.",
+          "Paso 3 — Para ecuaciones logarítmicas: aplica propiedades para simplificar y luego convierte a forma exponencial (aʸ = x).",
+          "Paso 4 — Verifica el dominio: la solución debe satisfacer que todos los argumentos de logaritmos sean estrictamente positivos.",
+          "Paso 5 — Para identificar si el gráfico es creciente o decreciente, revisa si a > 1 (crece) o 0 < a < 1 (decrece). Recuerda que el logaritmo tiene comportamiento opuesto al exponencial de la misma base."
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "items": [
+          "Ejemplo 1 — Ecuación exponencial. Resolver 4ˣ = 32. Reescribir en base 2: (2²)ˣ = 2⁵ → 2²ˣ = 2⁵. Igualando exponentes: 2x = 5 → x = 5/2. Verificación: 4^(5/2) = (4^(1/2))⁵ = 2⁵ = 32 ✓",
+          "Ejemplo 2 — Propiedades de logaritmos. Simplificar log₂(16) + log₂(4) − log₂(2). Usando propiedades: log₂(16) = log₂(2⁴) = 4; log₂(4) = log₂(2²) = 2; log₂(2) = 1. Resultado: 4 + 2 − 1 = 5. Verificación directa: 4 + 2 − 1 = 5, y log₂(16 × 4 / 2) = log₂(32) = log₂(2⁵) = 5 ✓",
+          "Ejemplo 3 — Dominio de función logarítmica compuesta. Determinar el dominio de f(x) = log₃(x² − 9). El argumento debe ser positivo: x² − 9 > 0 → x² > 9 → |x| > 3 → x > 3 o x < −3. El dominio es (−∞, −3) ∪ (3, +∞). Error típico: resolver x² > 9 como x > 3 únicamente, olvidando la solución negativa."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Calcular log(x + y) = log x + log y. Esto es falso. La propiedad correcta es log(x · y) = log x + log y. Log de una suma no se puede descomponer.",
+          "Olvidar verificar el dominio al resolver ecuaciones logarítmicas. Una solución algebraicamente correcta puede ser inválida si hace el argumento negativo o cero.",
+          "Confundir la base y el exponente en la definición: logₐ(x) = y significa aʸ = x, no xᵃ = y ni xʸ = a.",
+          "En ecuaciones exponenciales, convertir 4ˣ a (2²)ˣ = 2ˣ² en vez de 2²ˣ. El exponente del exponente se multiplica: (aᵐ)ⁿ = aᵐⁿ.",
+          "Afirmar que ln(x) o log(x) están definidos para x = 0. El dominio excluye siempre al 0."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "☐ Sé convertir entre forma exponencial y logarítmica: aʸ = x ↔ y = logₐ(x).",
+          "☐ Aplico correctamente las tres propiedades principales del logaritmo (producto, cociente, potencia).",
+          "☐ Para resolver ecuaciones exponenciales, intento igualar bases primero; si no puedo, aplico logaritmo.",
+          "☐ Verifico el dominio de toda función o ecuación logarítmica: argumento > 0, base > 0 y ≠ 1.",
+          "☐ Identifico si el gráfico exponencial o logarítmico es creciente o decreciente según su base."
         ]
       }
     ]
@@ -374,7 +681,7 @@
     "id": "geometria-trigonometria",
     "area": "Geometría",
     "title": "Trigonometría en triángulo rectángulo",
-    "duration": "12 min",
+    "duration": "20 min",
     "practiceKeywords": [
       "sen",
       "cos",
@@ -383,39 +690,85 @@
       "trig",
       "opuesto",
       "adyacente",
-      "hipotenusa"
+      "hipotenusa",
+      "elevacion",
+      "depresion",
+      "angulo",
+      "altura"
     ],
     "sections": [
       {
-        "heading": "Razones trigonométricas",
-        "diagramType": "triangulo-rectangulo",
-        "text": "Define el ángulo y marca opuesto, adyacente e hipotenusa antes de escribir la razón.",
-        "formulas": [
-          "sen α = opuesto/hipotenusa",
-          "cos α = adyacente/hipotenusa",
-          "tg α = opuesto/adyacente"
-        ],
-        "items": [
-          "Identidad útil: sen²α + cos²α = 1",
-          "tg α = sen α / cos α",
-          "Error típico: invertir opuesto/adyacente"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "La trigonometría del triángulo rectángulo es uno de los contenidos más diferenciadores de M2 respecto de M1. Aparece en preguntas de cálculo de lados a partir de ángulos y viceversa, en problemas contextuales de altura de edificios y distancias, y como herramienta auxiliar en Geometría cuando hay figuras con ángulos conocidos.",
+          "Para Ingeniería, la trigonometría es un lenguaje fundamental que aparece en física (descomposición de vectores, ondas), mecánica, y cursos de cálculo multivariable. Tener los valores de sen, cos y tg para 30°, 45° y 60° memorizados ahorra tiempo y evita errores en los primeros semestres universitarios."
         ]
+      },
+      {
+        "heading": "Concepto y teoría — Razones trigonométricas",
+        "paragraphs": [
+          "En un triángulo rectángulo, para un ángulo agudo α, los tres lados se denominan: hipotenusa (el lado opuesto al ángulo recto, siempre el más largo), cateto opuesto a α (el lado que no toca a α pero está en el triángulo) y cateto adyacente a α (el lado que sí toca a α y no es la hipotenusa). Las tres razones trigonométricas fundamentales se definen a partir de estos lados.",
+          "La identidad trigonométrica fundamental establece que sen²α + cos²α = 1 para cualquier ángulo α. Esta relación se deriva directamente del Teorema de Pitágoras y permite calcular una razón trigonométrica si se conoce otra. Dividiendo toda la identidad por cos²α se obtiene tg²α + 1 = 1/cos²α (sec²α), y dividiendo por sen²α se obtiene 1 + cotg²α = 1/sen²α (cosec²α)."
+        ],
+        "diagramType": "triangulo-rectangulo"
       },
       {
         "heading": "Valores notables",
-        "items": [
-          "30°: sen=1/2, cos=√3/2, tg=√3/3",
-          "45°: sen=cos=√2/2, tg=1",
-          "60°: sen=√3/2, cos=1/2, tg=√3",
-          "Memoriza la tabla; evita calcular de cero en el ensayo"
+        "paragraphs": [
+          "Los ángulos de 30°, 45° y 60° tienen valores exactos que deben memorizarse. Para 30°: sen = 1/2, cos = √3/2, tg = 1/√3 = √3/3. Para 45°: sen = cos = √2/2, tg = 1. Para 60°: sen = √3/2, cos = 1/2, tg = √3. Una forma de recordarlo: el sen de 30°, 45° y 60° va como √1/2, √2/2, √3/2, es decir, la raíz del índice dividida por 2.",
+          "En aplicaciones prácticas, el ángulo de elevación es el ángulo que forma la línea de visión con la horizontal cuando se mira hacia arriba. El ángulo de depresión es el que forma cuando se mira hacia abajo. En ambos casos, se forma un triángulo rectángulo entre el observador, el punto observado y la proyección horizontal."
         ]
       },
       {
-        "heading": "Aplicaciones",
+        "heading": "Fórmulas clave",
+        "formulas": [
+          "sen α = cateto opuesto / hipotenusa",
+          "cos α = cateto adyacente / hipotenusa",
+          "tg α = cateto opuesto / cateto adyacente",
+          "tg α = sen α / cos α",
+          "Identidad: sen²α + cos²α = 1",
+          "30°: sen=1/2, cos=√3/2, tg=√3/3",
+          "45°: sen=√2/2, cos=√2/2, tg=1",
+          "60°: sen=√3/2, cos=1/2, tg=√3",
+          "Altura (elevación): h = d · tg(α)"
+        ]
+      },
+      {
+        "heading": "Método paso a paso",
         "items": [
-          "Altura = distancia × tg(ángulo de elevación)",
-          "Si conoces hipotenusa y un ángulo, despeja un cateto con sen/cos",
-          "Dibuja siempre el triángulo rectángulo del enunciado"
+          "Paso 1 — Dibuja el triángulo rectángulo e identifica el ángulo recto (90°). Si el problema no tiene figura, dibuja una.",
+          "Paso 2 — Fija el ángulo α de referencia (el que te dan o el que buscas). Etiqueta los tres lados: opuesto, adyacente e hipotenusa respecto de α.",
+          "Paso 3 — Identifica qué datos tienes (lados o ángulos) y qué necesitas calcular. Elige la razón trigonométrica que relacione los datos conocidos con la incógnita.",
+          "Paso 4 — Plantea la ecuación y despeja la incógnita. Si buscas un lado: multiplica o divide. Si buscas un ángulo: usa la función inversa (arcsen, arccos, arctg).",
+          "Paso 5 — Verifica que el resultado sea consistente: la hipotenusa siempre es el mayor de los tres lados; si no lo es, revisa qué lado etiquetaste mal."
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "items": [
+          "Ejemplo 1 — Calcular altura con ángulo de elevación. Desde un punto en el suelo, a 40 m de la base de una torre, el ángulo de elevación hasta la cima es 60°. ¿Cuál es la altura de la torre? El cateto adyacente es 40 m (la distancia horizontal), el cateto opuesto es la altura h, y α = 60°. tg(60°) = h/40 → √3 = h/40 → h = 40√3 ≈ 69,3 m.",
+          "Ejemplo 2 — Calcular un lado con sen. En un triángulo rectángulo, la hipotenusa mide 26 cm y uno de los ángulos agudos es 30°. ¿Cuánto mide el cateto opuesto a ese ángulo? sen(30°) = opuesto/26 → 1/2 = opuesto/26 → opuesto = 13 cm. Cateto adyacente = √(26² − 13²) = √(676 − 169) = √507 = 13√3 cm. Verificación: es un triángulo 30-60-90, lados a=13, a√3=13√3, 2a=26 ✓",
+          "Ejemplo 3 — Usar identidad. Si sen α = 3/5 y α es agudo, calcula cos α y tg α. De la identidad: cos²α = 1 − sen²α = 1 − 9/25 = 16/25 → cos α = 4/5 (positivo porque α es agudo). tg α = sen/cos = (3/5)/(4/5) = 3/4. Verificación: (3/5)² + (4/5)² = 9/25 + 16/25 = 25/25 = 1 ✓"
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Invertir opuesto y adyacente. El cateto opuesto es el que está frente al ángulo de referencia y no lo toca; el adyacente lo toca. Si cambias uno por otro, obtienes 1/tg en vez de tg.",
+          "Olvidar que la hipotenusa es siempre el lado opuesto al ángulo de 90° y no el más largo 'visualmente'. En el dibujo, asegúrate de identificar primero el ángulo recto.",
+          "Calcular tg(60°) = √3/3 en vez de √3. Recuerda: tg(60°) = √3 y tg(30°) = √3/3 = 1/√3. Son inversos entre sí.",
+          "En problemas de ángulo de elevación/depresión, confundir el ángulo de elevación (formado con la horizontal) con el ángulo del triángulo interior de la figura.",
+          "Asumir que todos los ángulos de la figura son los que se dan explícitamente. En figuras complejas, el ángulo α puede no ser uno de los ángulos del triángulo que te muestra el esquema."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "☐ Tengo memorizados los valores de sen, cos y tg para 30°, 45° y 60°.",
+          "☐ Antes de escribir cualquier razón, etiqueto los tres lados del triángulo respecto del ángulo de referencia.",
+          "☐ Uso la identidad sen²α + cos²α = 1 para calcular la segunda razón cuando tengo la primera.",
+          "☐ En problemas de ángulo de elevación, identifico correctamente la distancia horizontal como adyacente y la altura como opuesto.",
+          "☐ Verifico que la hipotenusa calculada sea mayor que ambos catetos."
         ]
       }
     ]
@@ -424,7 +777,7 @@
     "id": "numeros-potencias",
     "area": "Números",
     "title": "Potencias, raíces y notación científica",
-    "duration": "10 min",
+    "duration": "18 min",
     "practiceKeywords": [
       "^",
       "potenc",
@@ -433,45 +786,85 @@
       "√",
       "10^",
       "cientific",
-      "científic"
+      "científic",
+      "exponente",
+      "mantisa",
+      "fraccionario"
     ],
     "sections": [
       {
-        "heading": "Leyes de exponentes",
-        "text": "Opera primero con la misma base. Si las bases difieren, factoriza o convierte a la misma potencia.",
-        "formulas": [
-          "aᵐ·aⁿ=aᵐ⁺ⁿ",
-          "aᵐ/aⁿ=aᵐ⁻ⁿ",
-          "(aᵐ)ⁿ=aᵐⁿ",
-          "a⁰=1",
-          "a⁻ⁿ=1/aⁿ"
-        ],
-        "items": [
-          "2³·2²=2⁵=32",
-          "a^(1/n)=ⁿ√a",
-          "(3²)³=3⁶=729",
-          "No combines bases distintas sin factorizar"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "Potencias y raíces son la base de casi todo el álgebra de M2: aparecen en leyes de exponentes, funciones exponenciales, notación científica y simplificación de expresiones. Los ítems directos de este tema suelen ser de dificultad media pero con trampas en los signos y en la operación entre bases distintas.",
+          "La notación científica es especialmente frecuente en preguntas contextualizadas con datos muy grandes o muy pequeños (como distancias astronómicas o tamaño de partículas), donde el DEMRE evalúa la capacidad de operar con eficiencia y sin errores de potencia de 10. Conocer bien este tema evita errores en una amplia variedad de preguntas."
         ]
       },
       {
-        "heading": "Notación científica",
-        "text": "Sirve para números muy grandes o muy pequeños. La mantisa a cumple 1 ≤ a < 10.",
-        "formulas": [
-          "N = a × 10ⁿ, con 1 ≤ a < 10"
-        ],
-        "items": [
-          "3.200.000 = 3,2 × 10⁶",
-          "0,00045 = 4,5 × 10⁻⁴",
-          "Al multiplicar: (a×10ᵐ)(b×10ⁿ)= (a·b)×10ᵐ⁺ⁿ",
-          "Normaliza si a·b ≥ 10 (ej.: 3×4=12 → 1,2×10¹ extra)"
+        "heading": "Concepto y teoría — Leyes de exponentes",
+        "paragraphs": [
+          "Una potencia aⁿ representa el producto de a multiplicado n veces. La base es a y el exponente es n. Las leyes de exponentes permiten simplificar productos, cocientes y potencias de potencias cuando las bases son iguales: al multiplicar, se suman los exponentes; al dividir, se restan; al elevar una potencia a otra, se multiplican los exponentes.",
+          "Los exponentes especiales más importantes son: exponente cero (a⁰ = 1 para todo a ≠ 0), exponente negativo (a⁻ⁿ = 1/aⁿ, es decir, el recíproco de aⁿ) y exponente fraccionario (a^(1/n) = ⁿ√a, la raíz n-ésima de a). Un exponente racional general a^(m/n) = (ⁿ√a)ᵐ = ⁿ√(aᵐ). Convertir raíces a exponentes fraccionarios simplifica muchas operaciones.",
+          "Una advertencia clave: las leyes de exponentes solo se aplican directamente cuando las bases son iguales. Si las bases son distintas (por ejemplo, 2³ × 3²), no se puede simplificar a menos que se factorize el resultado o se trabaje con el valor numérico."
         ]
       },
       {
-        "heading": "Para la PAES",
+        "heading": "Concepto y teoría — Notación científica",
+        "paragraphs": [
+          "La notación científica expresa cualquier número real en la forma N = a × 10ⁿ, donde 1 ≤ a < 10 (la mantisa) y n es un entero (el orden de magnitud). Para convertir un número a notación científica, se mueve la coma decimal hasta que quede un dígito antes de la coma; el número de posiciones movidas es |n|, y si la coma se movió a la izquierda, n es positivo; si se movió a la derecha, n es negativo.",
+          "Al multiplicar en notación científica: (a × 10ᵐ) × (b × 10ⁿ) = (a × b) × 10ᵐ⁺ⁿ. Si el producto a × b resulta mayor o igual a 10, hay que normalizar: pasar un factor de 10 al exponente. Al dividir: (a × 10ᵐ) / (b × 10ⁿ) = (a/b) × 10ᵐ⁻ⁿ. Si a/b < 1, también hay que normalizar ajustando el exponente."
+        ]
+      },
+      {
+        "heading": "Fórmulas clave",
+        "formulas": [
+          "aᵐ · aⁿ = aᵐ⁺ⁿ",
+          "aᵐ / aⁿ = aᵐ⁻ⁿ",
+          "(aᵐ)ⁿ = aᵐⁿ",
+          "(a·b)ⁿ = aⁿ · bⁿ",
+          "a⁰ = 1  (a ≠ 0)",
+          "a⁻ⁿ = 1 / aⁿ",
+          "a^(1/n) = ⁿ√a",
+          "a^(m/n) = (ⁿ√a)ᵐ",
+          "Notación científica: N = a × 10ⁿ, 1 ≤ a < 10",
+          "Producto: (a×10ᵐ)(b×10ⁿ) = (a·b)×10ᵐ⁺ⁿ"
+        ]
+      },
+      {
+        "heading": "Método paso a paso",
         "items": [
-          "Convierte raíces a exponentes fraccionarios si facilita",
-          "En notación científica, normaliza la mantisa al final",
-          "Revisa signos en exponentes negativos"
+          "Paso 1 — Identifica las bases. Si todas son iguales, aplica las leyes de exponentes directamente. Si hay bases distintas, busca factorizar a una base común.",
+          "Paso 2 — Para potencias de potencias, multiplica los exponentes: (aᵐ)ⁿ = aᵐⁿ. No cometas el error de sumarlos.",
+          "Paso 3 — Para exponentes negativos, reescribe como fracción: a⁻ⁿ = 1/aⁿ antes de operar.",
+          "Paso 4 — Para notación científica: convierte cada número al formato a × 10ⁿ, opera con las mantisas y las potencias de 10 por separado, y al final normaliza si la mantisa resultante queda fuera del rango [1, 10).",
+          "Paso 5 — Verifica el resultado con estimación de orden de magnitud: si multiplicas un número de magnitud 10⁶ por otro de 10³, el resultado debe estar cerca de 10⁹."
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "items": [
+          "Ejemplo 1 — Leyes de exponentes con simplificación. Simplificar (2³ × 2⁴) / 2⁵. Numerador: 2³⁺⁴ = 2⁷ = 128. Cociente: 2⁷/2⁵ = 2⁷⁻⁵ = 2² = 4. También se puede hacer directo: (3+4−5) = 2, es decir 2² = 4. Verificación: 8 × 16 = 128; 128/32 = 4 ✓",
+          "Ejemplo 2 — Exponentes fraccionarios y raíces. Simplificar 8^(2/3). Reescribir: 8^(2/3) = (8^(1/3))² = (³√8)² = 2² = 4. Alternativa: 8^(2/3) = (8²)^(1/3) = 64^(1/3) = ³√64 = 4 ✓. Ambos caminos dan el mismo resultado.",
+          "Ejemplo 3 — Multiplicación en notación científica. Calcular (3,2 × 10⁵) × (4,0 × 10³). Mantisas: 3,2 × 4,0 = 12,8. Potencias: 10⁵ × 10³ = 10⁸. Resultado provisional: 12,8 × 10⁸. Normalización: 12,8 = 1,28 × 10¹, así que 12,8 × 10⁸ = 1,28 × 10⁹. Respuesta: 1,28 × 10⁹."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Sumar exponentes en una potencia de potencia: (a²)³ = a⁶, no a⁵. La regla es multiplicar exponentes, no sumarlos.",
+          "Aplicar leyes de exponentes a bases distintas: 2³ × 3² no es 6⁵. Solo se pueden combinar exponentes con la misma base.",
+          "Confundir el signo del exponente en potencias negativas: 2⁻³ = 1/8, no −8. El exponente negativo indica recíproco, no valor negativo de la base.",
+          "En notación científica, olvidar normalizar la mantisa. Si la mantisa resulta en 15,3, debe reescribirse como 1,53 × 10 y ajustar el exponente.",
+          "Confundir (−2)² = 4 con −2² = −4. El paréntesis incluye el signo; sin paréntesis, el cuadrado opera sobre 2 y el menos queda afuera."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "☐ Aplico las cinco leyes de exponentes (producto, cociente, potencia de potencia, exponente cero, exponente negativo) sin dudar.",
+          "☐ Convierto exponentes fraccionarios a raíces y viceversa de forma fluida.",
+          "☐ Para notación científica, verifico que la mantisa esté en [1, 10) antes de dar la respuesta final.",
+          "☐ Al multiplicar en notación científica, opero mantisas y potencias de 10 por separado.",
+          "☐ Identifico correctamente (−a)ⁿ vs −aⁿ según el enunciado lo indique."
         ]
       }
     ]
@@ -484,19 +877,31 @@
     "practiceKeywords": [
       "temario",
       "demre",
-      "admision"
+      "admision",
+      "admisión",
+      "pdf",
+      "ejes"
     ],
     "sections": [
       {
-        "heading": "Documento oficial",
-        "text": "Usa el temario DEMRE como checklist de temas. Esta unidad es de orientación, no de ejercicios.",
+        "heading": "Documento oficial DEMRE",
+        "paragraphs": [
+          "El temario oficial del DEMRE es el documento de referencia definitivo para la PAES M2. Describe todos los contenidos, habilidades y ejes temáticos que pueden ser evaluados. Úsalo como checklist de diagnóstico: marca los temas que ya dominas y prioriza el estudio en los que aún presentas debilidades."
+        ],
         "items": [
           "<a href=\"assets/m2/2027-26-03-19-temario-paes-regular-m2.pdf\" target=\"_blank\" rel=\"noopener\">Descargar temario PAES M2 (PDF)</a>",
-          "<a href=\"#/biblioteca\" data-route>Ver todos los materiales PDF</a>",
-          "Ejes: Números, Álgebra y funciones, Geometría, Probabilidad y estadística",
-          "Marca en el PDF los temas que aún no dominas",
-          "Prioriza Álgebra/funciones y Geometría si tu diagnóstico sale bajo ahí",
-          "Vuelve a esta checklist después de cada ensayo oficial"
+          "<a href=\"#/biblioteca\" data-route>Ver todos los materiales PDF en la Biblioteca</a>"
+        ]
+      },
+      {
+        "heading": "Ejes y prioridades",
+        "items": [
+          "Eje 1 — Números: potencias, raíces, notación científica, porcentaje, proporcionalidad.",
+          "Eje 2 — Álgebra y funciones: ecuaciones, sistemas, funciones lineales y cuadráticas, exponencial y logarítmica.",
+          "Eje 3 — Geometría: ángulos, triángulos, cuadriláteros, trigonometría en triángulo rectángulo.",
+          "Eje 4 — Probabilidad y estadística: probabilidad clásica, medidas de tendencia central.",
+          "Prioridad para Ingeniería: Álgebra/funciones y Geometría concentran la mayor cantidad de preguntas.",
+          "Después de cada ensayo oficial, vuelve al temario y marca los ejes donde cometiste más errores."
         ]
       }
     ]

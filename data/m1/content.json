@@ -3,7 +3,7 @@
     "id": "m1-numeros",
     "area": "Números",
     "title": "Números enteros y racionales",
-    "duration": "8 min",
+    "duration": "20 min",
     "practiceKeywords": [
       "%",
       "porcent",
@@ -12,42 +12,108 @@
       "fracci",
       "(-",
       "enteros",
-      "porcentaje"
+      "porcentaje",
+      "racional",
+      "mcm",
+      "mcd"
     ],
     "sections": [
       {
-        "heading": "Enteros y orden de operaciones",
-        "text": "En ℤ trabajas con positivos, negativos y cero. El orden obligatorio es: paréntesis → potencias → multiplicación/división (de izquierda a derecha) → suma/resta.",
-        "items": [
-          "Producto de signos: (−)·(−) = +, (−)·(+) = −",
-          "Ejemplo: (−3)×(−4) − 2² = 12 − 4 = 8",
-          "Cuidado: −3² = −9, pero (−3)² = 9"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "Los números enteros y racionales son la base de toda la prueba M1. Aparecen directamente en ítems de aritmética y, de forma implícita, dentro de problemas de álgebra, geometría y probabilidad. Si cometes un error de signo o de fracción en medio de un problema de geometría, pierdes el ítem aunque hayas planteado bien la parte geométrica.",
+          "En la PAES M1 se ha evaluado sistemáticamente: operar con números negativos (especialmente potencias y productos), simplificar fracciones mixtas, calcular porcentajes de aumento o descuento y combinar más de una operación en una expresión. Dominar este módulo te da puntos directos y evita errores en cascada."
         ]
       },
       {
-        "heading": "Fracciones",
-        "text": "Con el mismo denominador se suman/restan solo los numeradores. Con distinto denominador, busca el mcm.",
+        "heading": "Concepto y teoría: números enteros",
+        "paragraphs": [
+          "El conjunto de los enteros ℤ incluye los naturales, el cero y los negativos: {..., −3, −2, −1, 0, 1, 2, 3, ...}. La recta numérica los ordena de izquierda (negativos) a derecha (positivos). Un número negativo es siempre menor que cualquier positivo.",
+          "El orden de operaciones (jerarquía) es obligatorio: primero se resuelven los paréntesis, después las potencias, luego multiplicaciones y divisiones de izquierda a derecha, y finalmente sumas y restas de izquierda a derecha. Si saltas este orden, el resultado cambia completamente.",
+          "Las reglas de signo en multiplicación y división son simples pero fáciles de olvidar bajo presión: positivo por positivo da positivo, negativo por negativo da positivo, y signos distintos dan negativo. En suma y resta de negativos, convierte todo a adición y aplica la regla de valor absoluto."
+        ],
+        "formulas": [
+          "(−)×(−) = (+)  ;  (−)×(+) = (−)",
+          "−3² = −9  (el cuadrado aplica solo al 3)",
+          "(−3)² = +9  (el cuadrado aplica al −3 completo)",
+          "|a + b| ≠ |a| + |b|  en general"
+        ]
+      },
+      {
+        "heading": "Concepto y teoría: fracciones y racionales",
+        "paragraphs": [
+          "Los números racionales ℚ son todos los que se pueden escribir como cociente a/b con b ≠ 0. Incluyen los enteros (b = 1), las fracciones propias (|a| < |b|) e impropias (|a| ≥ |b|) y los decimales finitos o periódicos.",
+          "Para sumar o restar fracciones con distinto denominador debes encontrar el mínimo común múltiplo (mcm) de los denominadores. El mcm es el menor número que es múltiplo de ambos. Una vez igualados los denominadores, operas solo los numeradores. Para multiplicar fracciones: numerador con numerador y denominador con denominador. Para dividir: multiplica por el recíproco (invierte la segunda fracción).",
+          "El máximo común divisor (mcd) sirve para simplificar fracciones: divides numerador y denominador por el mcd hasta que la fracción esté en su mínima expresión. Una fracción no simplificada generalmente no coincide con las alternativas de la PAES, así que siempre simplifica al final."
+        ],
         "formulas": [
           "a/c + b/c = (a+b)/c",
-          "a/b + c/d = (ad+bc)/(bd)"
-        ],
-        "items": [
-          "Ejemplo: 2/5 + 1/5 = 3/5",
-          "Ejemplo: 1/3 + 1/6 = 2/6 + 1/6 = 1/2"
+          "a/b + c/d = (ad + bc)/(bd)",
+          "(a/b)×(c/d) = (ac)/(bd)",
+          "(a/b) ÷ (c/d) = (a/b)×(d/c) = (ad)/(bc)"
         ]
       },
       {
-        "heading": "Porcentaje",
-        "text": "El porcentaje es una fracción de denominador 100. En M1 aparece en descuentos, aumentos e impuestos.",
+        "heading": "Concepto y teoría: porcentajes",
+        "paragraphs": [
+          "El porcentaje expresa una fracción de 100. Cuando la PAES pregunta por precios con descuento, aumentos de sueldo o impuestos, siempre trabaja con el factor multiplicativo: en lugar de calcular el 20% y restarlo, multiplica directamente por 0,80. Esto reduce errores y pasos.",
+          "Es fundamental distinguir entre porcentaje de un valor y variación porcentual. Si un precio sube un 20% y luego baja un 20%, NO vuelve al precio original: 100 × 1,20 × 0,80 = 96, no 100. Este tipo de trampa aparece regularmente en la PAES."
+        ],
         "formulas": [
           "x% de N = (x/100) × N",
-          "Aumento: N(1 + x/100)",
-          "Descuento: N(1 − x/100)"
-        ],
+          "Aumento del x%: N × (1 + x/100)",
+          "Descuento del x%: N × (1 − x/100)",
+          "Variación % = (valor final − valor inicial)/valor inicial × 100"
+        ]
+      },
+      {
+        "heading": "Método paso a paso: operar enteros",
         "items": [
-          "15% de 200 = 0,15 × 200 = 30",
-          "Producto de $20.000 con 20% de descuento → 20.000 × 0,8 = $16.000",
-          "No confundas con proporcionalidad de obreros: eso es otra unidad"
+          "Paso 1: Identifica todos los paréntesis y resuélvelos desde el más interno al más externo.",
+          "Paso 2: Evalúa las potencias, cuidando si el signo negativo está dentro o fuera del paréntesis.",
+          "Paso 3: Realiza multiplicaciones y divisiones de izquierda a derecha, aplicando la regla de signos.",
+          "Paso 4: Suma y resta de izquierda a derecha.",
+          "Paso 5: Verifica que el signo final sea correcto."
+        ]
+      },
+      {
+        "heading": "Método paso a paso: operar fracciones",
+        "items": [
+          "Paso 1: Factoriza los denominadores para encontrar el mcm.",
+          "Paso 2: Convierte cada fracción al denominador común.",
+          "Paso 3: Opera solo los numeradores, manteniendo el denominador común.",
+          "Paso 4: Simplifica el resultado dividiendo por el mcd entre numerador y denominador.",
+          "Paso 5: Si es fracción impropia y el problema pide número mixto, convierte."
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Operación con enteros: calcula −2³ + (−3)×(−4) − (−1)². Primero las potencias: −2³ = −8 (el exponente no afecta el signo externo) y (−1)² = 1. Luego el producto: (−3)×(−4) = +12. Ahora la suma: −8 + 12 − 1 = 3. Respuesta: 3.",
+          "Ejemplo 2 — Suma de fracciones: calcula 3/4 + 5/6. El mcm(4,6) = 12. Convierte: 3/4 = 9/12 y 5/6 = 10/12. Suma: (9+10)/12 = 19/12. No se simplifica porque mcd(19,12) = 1. En formato mixto: 1 y 7/12.",
+          "Ejemplo 3 — Porcentaje con descuento y luego alza: un producto cuesta $80.000. Primero tiene un descuento del 15% y luego un alza del 10%. ¿Cuál es el precio final? Después del descuento: 80.000 × 0,85 = 68.000. Después del alza: 68.000 × 1,10 = 74.800. El precio final es $74.800, que es distinto de 80.000 × (0,85 × 1,10) en apariencia, pero la multiplicación de factores lleva al mismo resultado. Nota: 0,85 × 1,10 = 0,935, lo que equivale a una baja neta del 6,5%, no del 5%."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Confundir −3² con (−3)²: el primero es −9, el segundo es +9.",
+          "Sumar porcentajes directamente: un descuento del 20% seguido de otro del 10% NO es 30%. Es 0,80 × 0,90 = 0,72, es decir, 28% de descuento.",
+          "Calcular el mcm incorrectamente cuando hay tres o más denominadores.",
+          "Olvidar simplificar la fracción resultado antes de comparar con las alternativas.",
+          "Cambiar el signo del denominador sin cambiar el del numerador al hacer negativos de fracciones.",
+          "Confundir 'descuento del 30%' con 'queda el 30%': queda el 70%."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "¿Resolví los paréntesis antes de multiplicar?",
+          "¿Apliqué la regla de signos en cada producto/cociente?",
+          "¿Encontré el mcm correcto para sumar fracciones?",
+          "¿Simplifiqué el resultado final?",
+          "¿En porcentajes usé el factor multiplicativo y no solo el porcentaje suelto?",
+          "¿Distinguí entre bajar un % y quedar en un %?"
         ]
       }
     ]
@@ -56,51 +122,103 @@
     "id": "m1-numeros-potencias",
     "area": "Números",
     "title": "Potencias y raíces en ℤ y ℚ",
-    "duration": "8 min",
+    "duration": "20 min",
     "practiceKeywords": [
       "^",
       "potenc",
       "raiz",
       "sqrt",
       "√",
-      "potencias"
+      "potencias",
+      "exponente",
+      "base",
+      "simplifica"
     ],
     "sections": [
       {
-        "heading": "Propiedades de potencias",
-        "text": "Con la misma base, al multiplicar se suman exponentes; al elevar una potencia, se multiplican. Nunca combines bases distintas sin factorizar.",
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "Las potencias y raíces aparecen en la PAES M1 tanto en ítems directos de simplificación como embebidos en problemas de geometría (áreas, volúmenes) y de álgebra (discriminante, vértice de parábola). Si manejas bien las propiedades de potencias, simplificas expresiones que parecen complicadas en pocos pasos.",
+          "Los errores en este eje suelen costar puntos valiosos porque el estudiante confía en que sabe 'las reglas' pero las aplica con la base equivocada o mezcla sumas con productos de potencias. En la PAES se ha preguntado frecuentemente: simplificar expresiones con exponentes negativos, racionalizar denominadores con raíces y calcular el valor numérico de una expresión con potencias fraccionarias."
+        ]
+      },
+      {
+        "heading": "Concepto y teoría: propiedades de potencias",
+        "paragraphs": [
+          "Una potencia aⁿ significa multiplicar la base a por sí misma n veces. Los exponentes tienen propiedades que permiten simplificar sin calcular el valor exacto. Las propiedades más importantes para la PAES son: multiplicación de misma base (se suman exponentes), división de misma base (se restan), potencia de potencia (se multiplican) y exponente cero (siempre 1, con base distinta de cero).",
+          "Los exponentes negativos no significan 'negativo': a⁻ⁿ = 1/aⁿ. Por ejemplo, 2⁻³ = 1/8, que es un número positivo menor que 1. Esta confusión es una de las más comunes en la prueba.",
+          "Los exponentes fraccionarios conectan potencias con raíces: a^(1/n) = ⁿ√a y a^(m/n) = ⁿ√(aᵐ). Esto permite convertir raíces a potencias y usar las propiedades de exponentes para simplificar."
+        ],
         "formulas": [
           "aᵐ · aⁿ = aᵐ⁺ⁿ",
+          "aᵐ / aⁿ = aᵐ⁻ⁿ",
           "(aᵐ)ⁿ = aᵐⁿ",
-          "a⁰ = 1 (a≠0)",
-          "a⁻ⁿ = 1/aⁿ"
-        ],
-        "items": [
-          "2³ · 2² = 2⁵ = 32",
-          "(2³)² = 2⁶ = 64",
-          "Cuidado: 2³ · 3² no se puede ‘juntar’ en una sola base"
+          "(a·b)ⁿ = aⁿ·bⁿ",
+          "a⁰ = 1  (a ≠ 0)",
+          "a⁻ⁿ = 1/aⁿ",
+          "a^(m/n) = ⁿ√(aᵐ)"
         ]
       },
       {
-        "heading": "Raíces",
-        "text": "La raíz cuadrada deshace el cuadrado (para no negativos). Simplifica sacando factores cuadrados perfectos.",
+        "heading": "Concepto y teoría: raíces",
+        "paragraphs": [
+          "La raíz cuadrada √a es el número no negativo cuyo cuadrado es a. Solo está definida para a ≥ 0 en los reales. La raíz de un producto es el producto de las raíces, lo que permite simplificar factorizando el radicando.",
+          "Para simplificar √N, factoriza N buscando cuadrados perfectos: √72 = √(36·2) = 6√2. Para racionalizar un denominador del tipo 1/√a, multiplica numerador y denominador por √a: 1/√a = √a/a. Esto se pide en varias preguntas de la PAES.",
+          "Un error muy grave es creer que √(a+b) = √a + √b. Esto es falso en general. Por ejemplo, √(9+16) = √25 = 5, pero √9 + √16 = 3 + 4 = 7 ≠ 5. Nunca distribuyas la raíz sobre una suma."
+        ],
         "formulas": [
           "√(a·b) = √a · √b",
+          "√(a/b) = √a / √b",
           "√(a²) = |a|",
-          "ⁿ√(aᵐ) = a^(m/n)"
-        ],
-        "items": [
-          "√50 = √(25·2) = 5√2",
-          "√(9/16) = 3/4",
-          "Error típico: √(a+b) ≠ √a + √b"
+          "√(a+b) ≠ √a + √b  (error frecuente)"
         ]
       },
       {
-        "heading": "Para la PAES",
+        "heading": "Método paso a paso: simplificar expresiones con potencias",
         "items": [
-          "Reescribe primero con exponentes y después simplifica",
-          "Si hay negativo en base par, revisa el dominio",
-          "Ejemplo tipo: simplifica (√12 · √3)/√4"
+          "Paso 1: Reescribe todo en forma de potencias con la misma base si es posible (factoriza bases).",
+          "Paso 2: Aplica las propiedades: multiplicación suma exponentes, división resta, potencia de potencia multiplica.",
+          "Paso 3: Convierte exponentes negativos a fracciones positivas.",
+          "Paso 4: Si quedan raíces, convierte a exponentes fraccionarios y simplifica.",
+          "Paso 5: Calcula el valor numérico solo al final, cuando la expresión ya esté simplificada."
+        ]
+      },
+      {
+        "heading": "Método paso a paso: simplificar raíces",
+        "items": [
+          "Paso 1: Factoriza el radicando buscando cuadrados perfectos (4, 9, 16, 25, 36, 49, 64, 81, 100).",
+          "Paso 2: Separa √(cuadrado × resto) = √cuadrado × √resto.",
+          "Paso 3: Simplifica la raíz del cuadrado perfecto.",
+          "Paso 4: El factor irracional (√resto) se deja indicado si no es cuadrado perfecto.",
+          "Paso 5: Si hay un cociente bajo la raíz, simplifica numerador y denominador por separado."
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Simplificar con propiedades: simplifica (2⁵ · 2⁻²) / 2³. Aplica multiplicación: 2⁵ · 2⁻² = 2^(5+(−2)) = 2³. Luego divide: 2³ / 2³ = 2⁰ = 1. El resultado es 1, no 0.",
+          "Ejemplo 2 — Raíz simplificada: simplifica √(12) · √(3) / √(4). Primero el numerador: √12 · √3 = √(12·3) = √36 = 6. Luego divide: 6 / √4 = 6/2 = 3. Si hubieras calculado √12 ≈ 3,46 con calculadora mental habrías tardado más y arriesgado error.",
+          "Ejemplo 3 — Exponentes negativos y fraccionarios: calcula 8^(2/3) · 8⁻¹. Primero 8^(2/3) = (³√8)² = 2² = 4. Luego 8⁻¹ = 1/8. El producto es 4 × (1/8) = 4/8 = 1/2. Alternativamente: 8^(2/3) · 8⁻¹ = 8^(2/3 − 1) = 8^(−1/3) = 1/8^(1/3) = 1/2. Ambos caminos dan 1/2."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Sumar las bases en lugar de los exponentes: 2³ · 2⁴ ≠ 4⁷. Solo se suman exponentes cuando la BASE es la misma.",
+          "Creer que a⁻ⁿ es negativo: 3⁻² = 1/9, número positivo.",
+          "Distribuir la raíz sobre sumas: √(a+b) ≠ √a + √b.",
+          "Olvidar el valor absoluto en √(a²) = |a|: si a puede ser negativo, el resultado siempre es no negativo.",
+          "Confundir potencia de potencia con multiplicación de potencias: (2³)² = 2⁶, no 2⁵."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "¿Las bases son iguales antes de sumar o restar exponentes?",
+          "¿Convertí exponentes negativos a fracciones?",
+          "¿No distribuí la raíz sobre una suma?",
+          "¿Simplifiqué el radicando extrayendo cuadrados perfectos?",
+          "¿Verifiqué el signo del resultado final?"
         ]
       }
     ]
@@ -109,35 +227,87 @@
     "id": "m1-numeros-proporcionalidad",
     "area": "Números",
     "title": "Proporcionalidad y regla de tres",
-    "duration": "9 min",
+    "duration": "20 min",
     "practiceKeywords": [
       "obrero",
       "proporci",
       "tardan",
       "dias",
       "proporcionalidad",
-      "regla de tres"
+      "regla de tres",
+      "inversa",
+      "directa",
+      "razón",
+      "razones"
     ],
     "sections": [
       {
-        "heading": "Directa vs inversa",
-        "text": "Primero identifica el tipo. Si al aumentar una magnitud la otra también aumenta (a ritmo constante), es directa. Si al aumentar una la otra disminuye manteniendo el producto constante, es inversa.",
-        "items": [
-          "Directa: más km → más litros de bencina (razón constante)",
-          "Inversa: más obreros → menos días (producto obreros×días constante)",
-          "Error clásico: aplicar ‘multiplicar cruzado’ de directa a un problema inverso"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "La proporcionalidad es uno de los ejes con mayor frecuencia de aparición en la PAES M1. Se evalúa en contextos de problemas de trabajo (obreros y días), velocidad y distancia, mezclas, mapas y escalas, y situaciones de precio-cantidad. Reconocer el tipo correcto de proporcionalidad (directa o inversa) es la decisión más crítica del problema: equivocarse en ese paso lleva a una respuesta incorrecta sin importar cuán bien se calcule después.",
+          "Además, la proporcionalidad directa está conectada con las funciones lineales y con las razones trigonométricas en geometría. Dominar este concepto te ayuda a resolver problemas de varios módulos."
         ]
       },
       {
-        "heading": "Regla de tres inversa (obreros)",
-        "text": "Si a obreros demoran b días, c obreros demoran x días: a·b = c·x → x = (a·b)/c.",
-        "formulas": [
-          "Inversa: a·b = c·x",
-          "Directa: a/b = c/x → a·x = b·c"
+        "heading": "Concepto y teoría: proporcionalidad directa",
+        "paragraphs": [
+          "Dos magnitudes son directamente proporcionales cuando al multiplicar una por un factor k, la otra también se multiplica por el mismo k. La razón entre ellas es constante: a/b = k para todo par de valores. Gráficamente, una función directamente proporcional es una recta que pasa por el origen.",
+          "Ejemplos cotidianos: la cantidad de litros de bencina consumidos y los kilómetros recorridos (si el rendimiento es constante); el precio total y la cantidad de unidades compradas al mismo precio unitario; el tiempo trabajado y el salario con tarifa fija por hora.",
+          "En la regla de tres directa, si a corresponde a b, y c corresponde a x, entonces a/b = c/x, por lo tanto x = (b·c)/a. También puedes pensar que el producto cruzado es igual: a·x = b·c."
         ],
+        "formulas": [
+          "Directa: a/b = c/x  →  x = (b·c)/a",
+          "Razón constante: y/x = k  →  y = k·x"
+        ]
+      },
+      {
+        "heading": "Concepto y teoría: proporcionalidad inversa",
+        "paragraphs": [
+          "Dos magnitudes son inversamente proporcionales cuando al multiplicar una por un factor k, la otra se divide por k. El producto entre ellas es constante: a·b = k para todo par de valores. Gráficamente, corresponde a una hipérbola.",
+          "El ejemplo clásico en la PAES es el de obreros y días: si se aumenta la cantidad de obreros, el trabajo se termina en menos días. No es que cada uno trabaje menos, sino que entre todos completan más rápido la misma tarea. También aplica a velocidad y tiempo para una distancia fija: más velocidad implica menos tiempo.",
+          "En la regla de tres inversa: si a obreros demoran b días, entonces c obreros demoran x días donde a·b = c·x, por lo tanto x = (a·b)/c. No uses 'multiplicación cruzada' directa porque eso aplica a proporcionalidad directa."
+        ],
+        "formulas": [
+          "Inversa: a·b = c·x  →  x = (a·b)/c",
+          "Producto constante: x·y = k"
+        ]
+      },
+      {
+        "heading": "Método paso a paso: resolver un problema de proporcionalidad",
         "items": [
-          "Ejemplo: 3 obreros en 12 días → 6 obreros: x = (3·12)/6 = 6 días",
-          "Si hubieras hecho directa mal: (12·6)/3 = 24 (incorrecto)"
+          "Paso 1: Lee el problema e identifica las dos magnitudes que se relacionan.",
+          "Paso 2: Pregúntate: si aumento la magnitud A, ¿la magnitud B aumenta (directa) o disminuye (inversa)?",
+          "Paso 3: Escribe la fórmula correcta según el tipo (directa o inversa).",
+          "Paso 4: Sustituye los datos y despeja x.",
+          "Paso 5: Verifica que la respuesta tenga sentido: si pusiste más obreros, el resultado debe ser menos días."
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Inversa (obreros y días): 8 obreros construyen un muro en 15 días. ¿Cuántos días tardarán 12 obreros? Más obreros → menos días: es inversa. Aplica a·b = c·x: 8 × 15 = 12 × x → 120 = 12x → x = 10 días. Verificación: 12 obreros es 1,5 veces más que 8, así que deben tardar 1,5 veces menos: 15/1,5 = 10. Correcto.",
+          "Ejemplo 2 — Directa (precio-cantidad): si 5 kg de fruta cuestan $3.500, ¿cuánto cuestan 8 kg? Más kg → más precio: es directa. a/b = c/x: 5/3500 = 8/x → x = (3500 × 8)/5 = 28000/5 = $5.600. Verificación: el precio por kg es 3500/5 = $700, así que 8 × 700 = $5.600. Correcto.",
+          "Ejemplo 3 — Escala en mapa: en un mapa con escala 1:500.000, una distancia medida en el mapa es 3,2 cm. ¿Cuál es la distancia real? Es proporcionalidad directa: si 1 cm en el mapa corresponde a 500.000 cm en la realidad, entonces 3,2 cm corresponden a 3,2 × 500.000 = 1.600.000 cm = 16 km."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Aplicar proporcionalidad directa cuando es inversa: en un problema de obreros, más obreros dan MENOS días, no más.",
+          "En problemas de velocidad-tiempo-distancia, si la distancia cambia, ya no es una regla de tres simple sino un sistema.",
+          "No distinguir entre '¿cuánto tarda uno más?' y '¿cuántos se necesitan para terminar antes?': son preguntas distintas sobre el mismo modelo.",
+          "Usar el dato de la razón de la manera equivocada: en escala 1:500.000, el denominador es la realidad, no el mapa.",
+          "Mezclar unidades: si los días son enteros pero el resultado da fracción, revisar si el enunciado pide días completos."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "¿Identifiqué si es directa o inversa ANTES de plantear la ecuación?",
+          "¿Usé la fórmula correcta para cada tipo?",
+          "¿Las unidades de ambas magnitudes son consistentes?",
+          "¿El resultado tiene sentido lógico (más ayuda → menos tiempo)?",
+          "¿Simplifiqué bien la fracción resultante?"
         ]
       }
     ]
@@ -146,7 +316,7 @@
     "id": "m1-algebra",
     "area": "Álgebra",
     "title": "Ecuaciones y funciones lineales",
-    "duration": "9 min",
+    "duration": "22 min",
     "practiceKeywords": [
       "resuelve",
       "ecuacion",
@@ -154,40 +324,81 @@
       "f(x)",
       "lineal",
       "ecuaciones",
-      "funciones"
+      "funciones",
+      "recta",
+      "intercepto",
+      "gráfico"
     ],
     "sections": [
       {
-        "heading": "Ecuaciones lineales",
-        "text": "Aísla la incógnita aplicando la operación inversa a ambos lados. Verifica siempre reemplazando.",
-        "formulas": [
-          "ax + b = c  →  x = (c − b)/a"
-        ],
-        "items": [
-          "3x − 5 = 10 → 3x = 15 → x = 5",
-          "Si hay fracción, multiplica ambos lados por el denominador",
-          "(2x+1)/3 = 5 → 2x+1 = 15 → x = 7"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "Las ecuaciones lineales y las funciones del tipo f(x) = mx + n son el núcleo del eje de Álgebra en M1. La PAES las evalúa en múltiples formatos: resolver una ecuación dada, encontrar la ecuación de una recta dados dos puntos o un punto y la pendiente, leer información de un gráfico de recta, y modelar situaciones de la vida real (tarifas, costos, producción) con funciones lineales.",
+          "También se evalúa la intersección entre dos rectas (que conecta con el módulo de sistemas) y la interpretación del significado de la pendiente y del intercepto en contexto. Un estudiante que entiende estos conceptos puede resolver el 25-30% de la prueba con solvencia."
         ]
       },
       {
-        "heading": "Función lineal",
-        "text": "f(x) = mx + n es una recta. m es la pendiente; n el corte con el eje Y.",
+        "heading": "Concepto y teoría: ecuaciones lineales",
+        "paragraphs": [
+          "Una ecuación lineal en una variable tiene la forma ax + b = c, donde a ≠ 0. La solución es el valor único de x que satisface la igualdad. Para encontrarla, aplica operaciones inversas: si hay una suma, resta; si hay multiplicación, divide; siempre a ambos lados de la ecuación para mantener el equilibrio.",
+          "Cuando la ecuación tiene paréntesis, primero distribúyelos usando la propiedad distributiva: a(b + c) = ab + ac. Si hay fracciones, multiplica ambos lados por el denominador mínimo común para eliminarlas. Si hay dos variables a ambos lados, agrupa los términos con la variable en un lado y los términos constantes en el otro.",
+          "Siempre verifica la solución sustituyendo en la ecuación original. En la PAES, una sustitución rápida puede confirmar que tu respuesta está entre las alternativas o detectar un error de cálculo."
+        ],
+        "formulas": [
+          "ax + b = c  →  x = (c − b)/a",
+          "Distribución: a(b+c) = ab + ac",
+          "Con fracción: (ax+b)/c = d  →  ax+b = cd"
+        ]
+      },
+      {
+        "heading": "Concepto y teoría: función lineal",
+        "paragraphs": [
+          "La función lineal f(x) = mx + n traza una línea recta en el plano cartesiano. El parámetro m es la pendiente: indica cuánto sube (o baja) y en el eje vertical por cada unidad que avanza en x. La pendiente se calcula entre dos puntos como m = (y₂ − y₁)/(x₂ − x₁). Si m > 0, la función es creciente; si m < 0, decreciente; si m = 0, constante (línea horizontal).",
+          "El parámetro n es el intercepto con el eje y: es el valor de f(0), es decir, donde la recta cruza el eje vertical. En problemas de contexto, n suele ser el 'costo fijo' o 'valor inicial'. La pendiente m suele ser el 'costo por unidad' o 'tasa de cambio'.",
+          "Para determinar la ecuación de una recta que pasa por dos puntos (x₁,y₁) y (x₂,y₂), primero calcula m, luego usa uno de los puntos: y − y₁ = m(x − x₁) y despeja y para obtener la forma y = mx + n."
+        ],
         "formulas": [
           "f(x) = mx + n",
-          "m = (y₂−y₁)/(x₂−x₁)"
-        ],
-        "items": [
-          "m > 0 creciente; m < 0 decreciente; m = 0 constante",
-          "Por (0,2) y (4,10): m = 8/4 = 2 → f(x)=2x+2",
-          "El signo de m decide si la recta ‘sube’ o ‘baja’"
+          "m = (y₂−y₁)/(x₂−x₁)",
+          "Ecuación punto-pendiente: y − y₁ = m(x − x₁)"
         ]
       },
       {
-        "heading": "Errores frecuentes",
+        "heading": "Método paso a paso: encontrar la ecuación de una recta",
         "items": [
-          "Cambiar de miembro sin cambiar de signo",
-          "Confundir pendiente con el intercepto",
-          "Olvidar que dos puntos bastan para determinar la recta"
+          "Paso 1: Si te dan dos puntos, calcula la pendiente m = (y₂−y₁)/(x₂−x₁).",
+          "Paso 2: Usa la ecuación punto-pendiente: y − y₁ = m(x − x₁).",
+          "Paso 3: Despeja y para obtener la forma y = mx + n.",
+          "Paso 4: Verifica que el segundo punto también satisface la ecuación.",
+          "Paso 5: Si el problema es de contexto, interpreta m (tasa de cambio) y n (valor inicial)."
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Ecuación con paréntesis: resuelve 2(3x − 4) + 5 = 3(x + 1). Distribuye: 6x − 8 + 5 = 3x + 3. Simplifica: 6x − 3 = 3x + 3. Agrupa: 6x − 3x = 3 + 3 → 3x = 6 → x = 2. Verifica: 2(6−4)+5 = 2(2)+5 = 9 y 3(2+1) = 9. Correcto.",
+          "Ejemplo 2 — Recta por dos puntos: encuentra la ecuación de la recta que pasa por A(1, 3) y B(4, 9). Pendiente: m = (9−3)/(4−1) = 6/3 = 2. Ecuación: y − 3 = 2(x − 1) → y = 2x − 2 + 3 → y = 2x + 1. Verificación con B: y = 2(4)+1 = 9. Correcto.",
+          "Ejemplo 3 — Problema de contexto: un fontanero cobra $15.000 de visita fija más $8.000 por cada hora de trabajo. ¿Cuántas horas trabajó si el total fue $47.000? Modelo: 15.000 + 8.000x = 47.000 → 8.000x = 32.000 → x = 4 horas. La pendiente 8.000 representa el costo por hora y el intercepto 15.000 el costo fijo."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Cambiar el signo de un término al pasar al otro lado: si tienes −2x = 8, entonces x = −4, no x = 4.",
+          "Confundir pendiente con intercepto al leer la ecuación y = mx + n: m es el coeficiente de x, no el término independiente.",
+          "Calcular la pendiente con las coordenadas en orden incorrecto: (y₂−y₁)/(x₂−x₁) no es lo mismo que (x₂−x₁)/(y₂−y₁).",
+          "No verificar la solución en la ecuación original, especialmente cuando hay paréntesis o fracciones.",
+          "En gráficos, leer la pendiente como positiva cuando la recta baja: si baja de izquierda a derecha, m < 0."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "¿Apliqué la operación inversa a ambos lados de la ecuación?",
+          "¿Distribuí correctamente los paréntesis?",
+          "¿Calculé la pendiente como (y₂−y₁)/(x₂−x₁) en ese orden?",
+          "¿Identifiqué m (pendiente) y n (intercepto) correctamente en la ecuación?",
+          "¿Verifiqué la solución sustituyendo?"
         ]
       }
     ]
@@ -196,32 +407,89 @@
     "id": "m1-algebra-sistemas",
     "area": "Álgebra",
     "title": "Sistemas de ecuaciones 2×2",
-    "duration": "8 min",
+    "duration": "20 min",
     "practiceKeywords": [
       "sistema",
       "sistemas",
       "igualacion",
-      "sustitucion"
+      "sustitucion",
+      "reduccion",
+      "solución única",
+      "inconsistente",
+      "dependiente"
     ],
     "sections": [
       {
-        "heading": "Métodos",
-        "text": "Un sistema 2×2 busca el par (x,y) que cumple ambas ecuaciones a la vez. Elige el método según cómo estén escritas.",
-        "items": [
-          "Sustitución: despeja una variable y reemplázala en la otra",
-          "Igualación: iguala dos expresiones de la misma variable",
-          "Reducción: suma/resta para eliminar una variable",
-          "Ejemplo: x+y=10, x−y=2 → sumando: 2x=12 → x=6, y=4"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "Los sistemas de ecuaciones lineales 2×2 se evalúan en la PAES M1 tanto en forma algebraica (resolver para encontrar x e y) como en forma gráfica (interpretar la posición relativa de dos rectas) y en problemas de contexto (dos condiciones sobre dos cantidades desconocidas). También aparecen como herramienta para resolver problemas de mezcla, dinero o distancia.",
+          "Un ítem frecuente consiste en analizar si un sistema tiene solución única, no tiene solución o tiene infinitas soluciones sin resolverlo completamente. Reconocer estos casos a partir de los coeficientes te ahorra tiempo."
         ]
       },
       {
-        "heading": "Interpretación gráfica",
-        "text": "Cada ecuación es una recta. La solución es la intersección.",
+        "heading": "Concepto y teoría: qué es un sistema y sus métodos",
+        "paragraphs": [
+          "Un sistema de ecuaciones 2×2 es un par de ecuaciones lineales con dos incógnitas, x e y. La solución es el par (x, y) que satisface ambas ecuaciones simultáneamente. Geométricamente, cada ecuación es una recta, y la solución es el punto de intersección.",
+          "El método de sustitución consiste en despejar una variable de una ecuación y sustituir la expresión resultante en la otra. Es útil cuando una de las ecuaciones ya tiene una variable despejada o se despeja fácilmente (coeficiente 1 o −1).",
+          "El método de reducción (o eliminación) suma o resta las ecuaciones (multiplicadas por factores adecuados) para eliminar una variable. Es eficiente cuando los coeficientes son simples o cuando una variable tiene el mismo coeficiente (o de signo contrario) en ambas ecuaciones.",
+          "El método de igualación despeja la misma variable en ambas ecuaciones y luego iguala las dos expresiones. Se usa cuando ambas ecuaciones expresan la misma variable en forma similar."
+        ],
+        "formulas": [
+          "Sistema general: { a₁x + b₁y = c₁ ; a₂x + b₂y = c₂ }",
+          "Sustitución: despeja x en ec.1, sustituye en ec.2",
+          "Reducción: multiplica para igualar coeficientes, luego suma o resta"
+        ]
+      },
+      {
+        "heading": "Concepto y teoría: tipos de solución",
+        "paragraphs": [
+          "Un sistema puede tener exactamente una solución (rectas secantes), ninguna solución (rectas paralelas, sistema inconsistente) o infinitas soluciones (misma recta, sistema dependiente).",
+          "Para identificar el tipo sin resolver: si al intentar eliminar una variable obtienes una igualdad falsa como 0 = 5, el sistema es inconsistente (sin solución). Si obtienes una igualdad verdadera como 0 = 0, tiene infinitas soluciones. Si obtienes un valor numérico, la solución es única.",
+          "En forma de razones: si a₁/a₂ = b₁/b₂ ≠ c₁/c₂, el sistema es inconsistente. Si a₁/a₂ = b₁/b₂ = c₁/c₂, tiene infinitas soluciones."
+        ],
+        "formulas": [
+          "Inconsistente (sin sol.): a₁/a₂ = b₁/b₂ ≠ c₁/c₂",
+          "Dependiente (∞ sol.): a₁/a₂ = b₁/b₂ = c₁/c₂",
+          "Única solución: a₁/a₂ ≠ b₁/b₂"
+        ]
+      },
+      {
+        "heading": "Método paso a paso: sustitución",
         "items": [
-          "Una solución: rectas secantes",
-          "Sin solución: paralelas (mismo m, distinto n)",
-          "Infinitas: la misma recta (proporcionales)",
-          "Si al eliminar obtienes 0=5 → inconsistente; 0=0 → infinitas"
+          "Paso 1: Elige la ecuación más simple para despejar una variable.",
+          "Paso 2: Expresa esa variable en términos de la otra.",
+          "Paso 3: Sustituye la expresión en la otra ecuación, obteniendo una ecuación de una sola variable.",
+          "Paso 4: Resuelve esa ecuación.",
+          "Paso 5: Sustituye el valor encontrado en la expresión del Paso 2 para obtener la segunda variable.",
+          "Paso 6: Verifica el par (x, y) en ambas ecuaciones originales."
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Reducción: resuelve el sistema { 3x + 2y = 16 ; x − 2y = 0 }. Como los coeficientes de y son 2 y −2, sumas directamente: (3x+2y) + (x−2y) = 16+0 → 4x = 16 → x = 4. Sustituye en la segunda: 4 − 2y = 0 → y = 2. Solución: (4, 2). Verifica: 3(4)+2(2)=16 ✓ y 4−2(2)=0 ✓.",
+          "Ejemplo 2 — Sustitución con contexto: un alumno compra 3 lápices y 2 cuadernos por $2.200, y 1 lápiz y 4 cuadernos por $2.800. ¿Cuánto cuesta cada uno? Llama L al precio del lápiz y C al del cuaderno. Sistema: {3L+2C=2200 ; L+4C=2800}. De la segunda: L = 2800−4C. Sustituye: 3(2800−4C)+2C = 2200 → 8400−12C+2C = 2200 → −10C = −6200 → C = 620. Luego L = 2800−4(620) = 2800−2480 = 320. Lápiz: $320, cuaderno: $620.",
+          "Ejemplo 3 — Sistema sin solución: analiza { 2x + 4y = 8 ; x + 2y = 5 }. Multiplica la segunda por 2: 2x+4y=10. Pero la primera dice 2x+4y=8. Contradicción: 8 ≠ 10. Sistema inconsistente, sin solución. Las rectas son paralelas."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Sustituir en la ecuación de la que se despejó en lugar de en la otra: eso siempre da una identidad 0=0, que no ayuda.",
+          "Olvidar distribuir el signo negativo al multiplicar una ecuación entera antes de sumar.",
+          "No verificar la solución en AMBAS ecuaciones originales.",
+          "Interpretar '0=0' como 'sin solución' cuando en realidad significa infinitas soluciones.",
+          "En problemas de contexto, olvidar definir las variables y confundir cuál corresponde a qué cantidad."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "¿Definí claramente qué representa cada variable?",
+          "¿Apliqué el método más conveniente según la forma de las ecuaciones?",
+          "¿Verifiqué la solución en ambas ecuaciones?",
+          "¿Reconocí si el sistema era inconsistente o dependiente?",
+          "¿La respuesta tiene sentido en el contexto del problema?"
         ]
       }
     ]
@@ -230,7 +498,7 @@
     "id": "m1-algebra-funcion-cuadratica",
     "area": "Álgebra",
     "title": "Función cuadrática",
-    "duration": "9 min",
+    "duration": "22 min",
     "practiceKeywords": [
       "cuadratic",
       "parabol",
@@ -238,43 +506,86 @@
       "vertice",
       "discriminante",
       "ax²",
-      "x^2"
+      "x^2",
+      "raíces",
+      "ceros",
+      "delta"
     ],
     "sections": [
       {
-        "heading": "Forma y vértice",
-        "text": "f(x)=ax²+bx+c es una parábola. El signo de a decide si abre hacia arriba (mínimo) o abajo (máximo).",
-        "formulas": [
-          "f(x) = ax² + bx + c",
-          "x_vértice = −b/(2a)",
-          "y_v = f(x_v)"
-        ],
-        "items": [
-          "a > 0: ∪ (mínimo); a < 0: ∩ (máximo)",
-          "f(x)=x²−4x+3 → x_v=2; y_v=−1",
-          "El vértice es el punto extremo de la parábola"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "La función cuadrática es uno de los contenidos con mayor peso relativo en M1. La PAES la evalúa en múltiples formatos: identificar el vértice de una parábola dada su ecuación o su gráfico, determinar las raíces usando la fórmula general, analizar el número de raíces a partir del discriminante, y resolver problemas de optimización (encontrar el máximo o mínimo de una magnitud modelada por una cuadrática).",
+          "Los problemas de área máxima, proyectil en el aire o distancia óptima que aparecen en la PAES se modelan con funciones cuadráticas. Un estudiante que domina este contenido puede resolver 3-4 ítems adicionales por prueba."
         ]
       },
       {
-        "heading": "Raíces y discriminante",
-        "text": "Las raíces son los cortes con el eje X. El discriminante Δ indica cuántas hay.",
+        "heading": "Concepto y teoría: la parábola y sus parámetros",
+        "paragraphs": [
+          "La función cuadrática tiene la forma f(x) = ax² + bx + c, con a ≠ 0. Su gráfico es una parábola. El signo de a determina la orientación: si a > 0 la parábola abre hacia arriba (tiene mínimo), si a < 0 abre hacia abajo (tiene máximo). El valor de |a| determina el 'ancho': mayor |a| significa parábola más estrecha.",
+          "El vértice es el punto extremo de la parábola. Su coordenada x se calcula como x_v = −b/(2a). La coordenada y se obtiene evaluando f(x_v). El vértice es el punto de máximo (si a < 0) o mínimo (si a > 0). En problemas de optimización, buscar el vértice es el objetivo.",
+          "La parábola también puede escribirse en forma vertex: f(x) = a(x−h)² + k, donde (h, k) es el vértice. Convertir entre la forma estándar y la forma vertex se hace completando el cuadrado."
+        ],
+        "formulas": [
+          "f(x) = ax² + bx + c  (forma estándar)",
+          "f(x) = a(x−h)² + k  (forma vértice, con vértice en (h,k))",
+          "x_vértice = −b/(2a)",
+          "y_vértice = f(x_vértice) = c − b²/(4a)"
+        ]
+      },
+      {
+        "heading": "Concepto y teoría: raíces y discriminante",
+        "paragraphs": [
+          "Las raíces (o ceros) de una función cuadrática son los valores de x donde f(x) = 0, es decir, donde la parábola corta al eje x. Se calculan con la fórmula cuadrática general, también llamada fórmula de Bhaskara.",
+          "El discriminante Δ = b² − 4ac determina cuántas raíces reales existen. Si Δ > 0, hay dos raíces reales y distintas: la parábola corta dos veces al eje x. Si Δ = 0, hay una raíz real doble: la parábola es tangente al eje x (toca pero no cruza). Si Δ < 0, no hay raíces reales: la parábola no corta al eje x.",
+          "Una propiedad útil: si la ecuación factoriza fácilmente, úsala en lugar de la fórmula general. Por ejemplo, x²−5x+6=0 factoriza como (x−2)(x−3)=0, dando x=2 y x=3 directamente."
+        ],
         "formulas": [
           "Δ = b² − 4ac",
-          "x = (−b ± √Δ)/(2a)"
-        ],
-        "items": [
-          "Δ>0 dos raíces reales distintas",
-          "Δ=0 una raíz (doble)",
-          "Δ<0 ninguna raíz real",
-          "f(x)=x²−4 → ceros en x=±2"
+          "x = (−b ± √Δ) / (2a)",
+          "Δ > 0: dos raíces reales distintas",
+          "Δ = 0: una raíz real doble (x = −b/(2a))",
+          "Δ < 0: sin raíces reales"
         ]
       },
       {
-        "heading": "Para la PAES",
+        "heading": "Método paso a paso: analizar una función cuadrática",
         "items": [
-          "Primero identifica a, b y c; después decide si piden vértice, raíces o rango",
-          "Si dan tabla o gráfico, lee el vértice visualmente",
-          "Error típico: usar −b/2a con signo incorrecto de b"
+          "Paso 1: Identifica a, b y c de la forma estándar ax²+bx+c.",
+          "Paso 2: Determina la orientación: a>0 (abre arriba, mínimo) o a<0 (abre abajo, máximo).",
+          "Paso 3: Calcula el vértice: x_v = −b/(2a) y luego y_v = f(x_v).",
+          "Paso 4: Calcula el discriminante Δ = b²−4ac.",
+          "Paso 5: Si Δ≥0, usa la fórmula cuadrática para encontrar las raíces.",
+          "Paso 6: Determina el dominio (todos los reales) y el rango según la orientación y el vértice.",
+          "Paso 7: Si el problema pide el valor máximo o mínimo, ese es y_v."
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Vértice y raíces: analiza f(x) = x² − 6x + 5. Aquí a=1, b=−6, c=5. Como a>0, abre hacia arriba y tiene mínimo. Vértice: x_v = −(−6)/(2·1) = 3; y_v = 9−18+5 = −4. Raíces: Δ = 36−20 = 16 > 0 → dos raíces. x = (6 ± 4)/2: x₁=5, x₂=1. La parábola corta en (1,0) y (5,0), tiene vértice en (3,−4) y mínimo igual a −4.",
+          "Ejemplo 2 — Sin raíces reales: determina si f(x) = x²+2x+5 tiene ceros. Δ = 4−20 = −16 < 0. No tiene raíces reales: la parábola no cruza el eje x. Como a>0 y el vértice tiene y_v = 5−1 = 4 > 0, la parábola entera está por encima del eje x.",
+          "Ejemplo 3 — Problema de optimización: un agricultor tiene 120 m de cerco para encerrar un rectángulo. Si llama x al ancho, el largo es (120−2x)/2 = 60−x. El área es A(x) = x(60−x) = 60x−x². Como a=−1<0, la función tiene un máximo. El vértice se obtiene con x_v = −60/(2·(−1)) = 30. Área máxima: A(30) = 30×30 = 900 m². El rectángulo óptimo es un cuadrado de 30×30 m."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Calcular x_v como b/(2a) olvidando el signo negativo: la fórmula es −b/(2a).",
+          "Confundir el vértice con las raíces: el vértice no es necesariamente un cero.",
+          "Asumir que toda parábola corta el eje x sin verificar el discriminante.",
+          "Confundir 'máximo valor de f' con 'máximo valor de x': el máximo de f está en el vértice.",
+          "En problemas de contexto, olvidar las restricciones del dominio: si x representa una longitud, x>0."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "¿Identifiqué a, b y c correctamente?",
+          "¿Usé −b/(2a) con el signo negativo?",
+          "¿Calculé el discriminante para saber cuántas raíces hay?",
+          "¿El sentido de apertura (arriba/abajo) es consistente con el signo de a?",
+          "¿Si hay contexto, las soluciones tienen sentido físico (positivas, acotadas)?"
         ]
       }
     ]
@@ -282,8 +593,8 @@
   {
     "id": "m1-geometria",
     "area": "Geometría",
-    "title": "Figuras planas y perímetro",
-    "duration": "10 min",
+    "title": "Figuras planas, perímetro y Pitágoras",
+    "duration": "22 min",
     "practiceKeywords": [
       "área",
       "area",
@@ -297,43 +608,90 @@
       "cateto",
       "hipotenusa",
       "areas",
-      "pitagoras"
+      "pitagoras",
+      "trapecio",
+      "diagonal"
     ],
     "sections": [
       {
-        "heading": "Áreas y perímetros",
-        "text": "Área mide superficie; perímetro, el contorno. En la PAES suelen mezclar ambas para atraparte.",
-        "formulas": [
-          "Rectángulo: A = b·h , P = 2(b+h)",
-          "Triángulo: A = b·h/2",
-          "Círculo: A = πr² , P = 2πr"
-        ],
-        "items": [
-          "Rectángulo 8×5 → A=40, P=26",
-          "No confundas área con perímetro",
-          "Si dan diámetro, el radio es la mitad"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "La geometría plana es uno de los ejes con más ítems en la PAES M1. Se evalúan áreas y perímetros de figuras básicas (rectángulo, triángulo, círculo, trapecio) y sus combinaciones (figuras compuestas). El teorema de Pitágoras aparece tanto en ítems directos como en problemas de volumen (para calcular alturas de pirámides o diagonales de sólidos).",
+          "Un error típico es confundir área con perímetro o usar el radio cuando se da el diámetro. Estos errores son fácilmente evitables con un procedimiento disciplinado. Los ítems de geometría suelen presentarse con figuras, así que leer bien la imagen es clave."
         ]
       },
       {
-        "heading": "Pitágoras",
-        "text": "Solo en triángulos rectángulos: el cuadrado de la hipotenusa es la suma de los cuadrados de los catetos.",
-        "formulas": [
-          "a² + b² = c²"
+        "heading": "Concepto y teoría: áreas y perímetros de figuras básicas",
+        "paragraphs": [
+          "El área mide la superficie encerrada por una figura, en unidades cuadradas (cm², m², etc.). El perímetro mide la longitud total del contorno de la figura, en unidades lineales (cm, m, etc.). Son magnitudes distintas y no se pueden comparar ni sumar directamente.",
+          "Para el rectángulo (o cuadrado como caso especial), el área es base por altura, y el perímetro es dos veces la suma de ambas dimensiones. Para el triángulo, el área es la mitad del producto de base por altura perpendicular, no por el lado oblicuo. Para el círculo, el área depende del radio al cuadrado, y la circunferencia (perímetro) depende del radio en primera potencia; si te dan el diámetro, el radio es la mitad.",
+          "Para el trapecio, el área se calcula promediando las dos bases paralelas y multiplicando por la altura perpendicular entre ellas. Este dato aparece en preguntas de nivel medio-alto en M1."
         ],
-        "items": [
-          "Catetos 6 y 8 → c=10",
-          "Si conoces hipotenusa y un cateto, despeja el otro",
-          "Verifica: el lado mayor debe ser la hipotenusa"
+        "formulas": [
+          "Rectángulo: A = b·h  ;  P = 2(b+h)",
+          "Cuadrado: A = l²  ;  P = 4l",
+          "Triángulo: A = (b·h)/2",
+          "Círculo: A = πr²  ;  C = 2πr",
+          "Trapecio: A = ((B+b)/2)·h  (B, b bases paralelas, h altura)"
         ]
       },
       {
-        "heading": "Paralelas y transversal",
-        "text": "Si L₁ ∥ L₂ y una transversal las corta, los ángulos correspondientes y los alternos internos son iguales.",
-        "diagramType": "paralelas-transversal",
+        "heading": "Concepto y teoría: figuras compuestas",
+        "paragraphs": [
+          "Las figuras compuestas son regiones formadas por la unión o diferencia de figuras simples. Para calcular su área, divide la figura en partes simples cuya área puedes calcular, luego suma o resta según corresponda. Por ejemplo, una figura en forma de L se divide en dos rectángulos; un círculo con un agujero cuadrado requiere restar el área del cuadrado del área del círculo.",
+          "En la PAES, estas figuras se presentan con dimensiones que debes identificar cuidadosamente en el diagrama. A veces un dato no aparece directamente sino que debes calcularlo a partir de los dados."
+        ]
+      },
+      {
+        "heading": "Concepto y teoría: teorema de Pitágoras",
+        "paragraphs": [
+          "El teorema de Pitágoras es válido exclusivamente en triángulos rectángulos: el cuadrado de la hipotenusa (el lado opuesto al ángulo recto, siempre el mayor) es igual a la suma de los cuadrados de los dos catetos. La hipotenusa siempre es el lado más largo.",
+          "Las ternas pitagóricas más comunes que aparecen en la PAES son: (3,4,5), (5,12,13) y (8,15,17), y cualquier múltiplo de estas. Reconocerlas ahorra el cálculo de raíces.",
+          "El recíproco del teorema también es verdadero: si en un triángulo se cumple a²+b²=c², entonces es rectángulo. Esto se usa para verificar si un triángulo tiene ángulo recto."
+        ],
+        "formulas": [
+          "a² + b² = c²  (a, b catetos; c hipotenusa)",
+          "c = √(a²+b²)",
+          "Cateto: a = √(c²−b²)"
+        ]
+      },
+      {
+        "heading": "Método paso a paso: problemas de área",
         "items": [
-          "Correspondientes iguales",
-          "Alternos internos iguales",
-          "Colaterales internos suman 180°"
+          "Paso 1: Lee el diagrama e identifica todas las dimensiones dadas.",
+          "Paso 2: Identifica la figura o las figuras que forman la región.",
+          "Paso 3: Si es compuesta, dibuja las líneas de partición mentalmente o en el papel.",
+          "Paso 4: Aplica las fórmulas de área a cada parte, usando las dimensiones correctas.",
+          "Paso 5: Suma (o resta) las áreas parciales.",
+          "Paso 6: Verifica las unidades: el resultado de área siempre es cuadrado."
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Triángulo y círculo: una figura consiste en un semicírculo de radio 5 cm sobre un triángulo de base 10 cm y altura 8 cm. ¿Cuál es el área total? Área del semicírculo: (1/2)·π·25 = 12,5π ≈ 39,27 cm². Área del triángulo: (10·8)/2 = 40 cm². Área total: 40 + 12,5π cm² ≈ 79,27 cm². Si las alternativas tienen π, deja indicado: (40 + 12,5π) cm².",
+          "Ejemplo 2 — Pitágoras para hallar la altura: un triángulo isósceles tiene base 16 cm y lados iguales de 10 cm. ¿Cuál es su área? La altura divide la base en dos partes iguales de 8 cm. Aplica Pitágoras: h² + 8² = 10² → h² = 100−64 = 36 → h = 6 cm. Área = (16·6)/2 = 48 cm².",
+          "Ejemplo 3 — Diagonal de un rectángulo: un rectángulo mide 9 cm × 40 cm. ¿Cuánto mide su diagonal? Aplica Pitágoras: d² = 9²+40² = 81+1600 = 1681 → d = 41 cm. Nota: 9, 40, 41 no es una terna 'de memoria', pero el cálculo es directo."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Usar el diámetro como radio en la fórmula del círculo: A = π(d/2)² = πd²/4, no πd².",
+          "Confundir el perímetro del semicírculo (no es solo πr; incluye también el diámetro 2r).",
+          "Usar el lado oblicuo como altura del triángulo: la altura debe ser perpendicular a la base.",
+          "Aplicar Pitágoras en triángulos que no son rectángulos.",
+          "En figuras compuestas, olvidar restar el área del hueco cuando la figura tiene una cavidad."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "¿Identifiqué si me dan radio o diámetro?",
+          "¿La altura que uso es perpendicular a la base?",
+          "¿Separé correctamente la figura compuesta en partes simples?",
+          "¿Apliqué Pitágoras solo en triángulos rectángulos?",
+          "¿El resultado de área está en unidades cuadradas?"
         ]
       }
     ]
@@ -341,8 +699,8 @@
   {
     "id": "m1-geometria-angulos",
     "area": "Geometría",
-    "title": "Ángulos y semejanza",
-    "duration": "8 min",
+    "title": "Ángulos, semejanza y paralelismo",
+    "duration": "20 min",
     "practiceKeywords": [
       "ángulo",
       "angulo",
@@ -350,38 +708,93 @@
       "semejan",
       "homólogo",
       "homologo",
-      "angulos"
+      "angulos",
+      "paralelas",
+      "transversal",
+      "alternos",
+      "correspondiente"
     ],
     "sections": [
       {
-        "heading": "Tipos de ángulos",
-        "diagramType": "angulos-tipos",
-        "text": "Clasifica primero el ángulo y luego usa relaciones (complemento/suplemento).",
-        "items": [
-          "Agudo < 90°, recto = 90°, obtuso entre 90° y 180°, llano = 180°",
-          "Complementarios suman 90°; suplementarios suman 180°",
-          "Complementario de 35° = 55°; suplementario = 145°",
-          "Opuestos por el vértice son iguales"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "Los ángulos y la semejanza de triángulos se evalúan constantemente en M1 con figuras que requieren identificar relaciones angulares (complemento, suplemento, opuestos por el vértice, alternos internos) y proporciones entre lados homólogos. Errores en este módulo suelen ser de reconocimiento: el estudiante sabe las fórmulas pero no identifica qué tipo de ángulos tiene.",
+          "La semejanza de triángulos también es herramienta para resolver problemas de alturas inaccesibles (medición indirecta), escalas y proporciones geométricas. Es un contenido transversal que aparece con otros módulos."
         ]
       },
       {
-        "heading": "Semejanza",
-        "text": "Triángulos semejantes tienen ángulos iguales y lados homólogos proporcionales. La razón de semejanza escala longitudes.",
-        "items": [
-          "Criterio AA: dos ángulos iguales bastan",
-          "Si la razón de lados es 2:3 y el menor mide 8, el mayor mide 12",
-          "Áreas se escalan con el cuadrado de la razón (si k=2, área ×4)",
-          "Marca lados homólogos antes de armar la proporción"
-        ]
-      },
-      {
-        "heading": "En triángulos",
-        "formulas": [
-          "α + β + γ = 180°"
+        "heading": "Concepto y teoría: tipos y relaciones de ángulos",
+        "paragraphs": [
+          "Un ángulo se clasifica por su medida: agudo (0°<α<90°), recto (α=90°), obtuso (90°<α<180°), llano (α=180°) y reflexo (180°<α<360°). Dos ángulos son complementarios si suman 90° y suplementarios si suman 180°.",
+          "Cuando dos rectas se cortan, se forman cuatro ángulos. Los ángulos opuestos por el vértice (OPV) son iguales. Los ángulos adyacentes son suplementarios (suman 180°). Esta relación es aplicable en todo tipo de figuras donde aparezcan rectas que se intersecan.",
+          "Cuando una transversal corta a dos rectas paralelas, se generan varios pares de ángulos con propiedades especiales: los ángulos correspondientes son iguales (misma posición en cada intersección), los ángulos alternos internos son iguales (a lados opuestos de la transversal, entre las paralelas) y los ángulos colaterales internos son suplementarios (suman 180°)."
         ],
+        "diagramType": "paralelas-transversal",
+        "formulas": [
+          "Complementarios: α + β = 90°",
+          "Suplementarios: α + β = 180°",
+          "Ángulos en triángulo: α + β + γ = 180°",
+          "Ángulo exterior de triángulo = suma de los dos interiores no adyacentes"
+        ]
+      },
+      {
+        "heading": "Concepto y teoría: tipos de ángulos en figuras",
+        "diagramType": "angulos-tipos",
+        "paragraphs": [
+          "En triángulos, la suma de los tres ángulos interiores siempre es 180°. Esto permite calcular el tercer ángulo si se conocen dos. El ángulo exterior de un triángulo es igual a la suma de los dos ángulos interiores no adyacentes (el que no lo toca).",
+          "En polígonos regulares, la suma de los ángulos interiores es (n−2)×180°, donde n es el número de lados. Para un cuadrilátero: 360°; para un pentágono: 540°; para un hexágono: 720°."
+        ],
+        "formulas": [
+          "Suma ángulos interiores polígono n lados = (n−2)×180°"
+        ]
+      },
+      {
+        "heading": "Concepto y teoría: semejanza de triángulos",
+        "paragraphs": [
+          "Dos triángulos son semejantes (△ABC ∼ △DEF) si tienen los mismos ángulos y sus lados homólogos son proporcionales. La razón de semejanza k es el cociente entre un par de lados homólogos. Si k = 2, todos los lados del segundo triángulo son el doble del primero.",
+          "Los criterios de semejanza son: AA (dos ángulos iguales bastan, porque el tercero queda determinado), LAL (dos lados proporcionales y el ángulo comprendido iguales) y LLL (los tres lados proporcionales). En la PAES, el criterio AA es el más usado.",
+          "Una propiedad importante: si dos triángulos son semejantes con razón k, sus áreas son proporcionales a k². Si k=3, el área del segundo es 9 veces la del primero. Esta relación de áreas aparece en ítems de nivel avanzado."
+        ],
+        "formulas": [
+          "Razón de semejanza: k = A'B'/AB = B'C'/BC = A'C'/AC",
+          "Razón de áreas: A₂/A₁ = k²"
+        ]
+      },
+      {
+        "heading": "Método paso a paso: semejanza de triángulos",
         "items": [
-          "Si dos ángulos miden 40° y 70°, el tercero mide 70° (isósceles)",
-          "Ángulo exterior = suma de los dos interiores no adyacentes"
+          "Paso 1: Identifica los ángulos iguales entre los dos triángulos (busca marcas iguales o datos del enunciado).",
+          "Paso 2: Ordena los vértices en correspondencia (el ángulo mayor de uno frente al mayor del otro).",
+          "Paso 3: Escribe la proporción de lados homólogos: A'B'/AB = B'C'/BC.",
+          "Paso 4: Sustituye los valores conocidos y despeja el lado desconocido.",
+          "Paso 5: Verifica que la razón sea consistente para todos los pares de lados."
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Ángulos en paralelas: dos rectas paralelas son cortadas por una transversal. Uno de los ángulos formados mide 65°. Encuentra los otros tres ángulos de esa intersección. El ángulo adyacente (suplementario) mide 180°−65°=115°. El OPV del ángulo de 65° mide 65°. El OPV del ángulo de 115° mide 115°. Resultado: 65°, 115°, 65°, 115°.",
+          "Ejemplo 2 — Ángulo exterior: en un triángulo, dos ángulos interiores miden 48° y 73°. El ángulo exterior adyacente al tercer ángulo mide 48°+73°=121°. Verificación: el tercer ángulo interior mide 180°−48°−73°=59°, y 180°−59°=121°. Correcto.",
+          "Ejemplo 3 — Semejanza: dos triángulos semejantes tienen lados de 6, 8 y 10 cm el primero, y el lado homólogo al de 6 cm en el segundo mide 9 cm. ¿Cuánto miden los otros dos lados? La razón de semejanza es k = 9/6 = 1,5. Segundo lado: 8×1,5 = 12 cm. Tercer lado: 10×1,5 = 15 cm."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Confundir alternos internos con correspondientes: los correspondientes están en la misma posición en distintas intersecciones; los alternos están entre las paralelas pero a lados opuestos.",
+          "Identificar mal los lados homólogos en semejanza: siempre ordena los triángulos con ángulos correspondientes alineados.",
+          "Olvidar que el ángulo exterior del triángulo no es el suplementario del ángulo interior adyacente (sí lo es, pero también es la suma de los dos interiores no adyacentes).",
+          "Escalar áreas con la razón lineal k en lugar de k²."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "¿Identifiqué correctamente qué tipo de ángulos son (complementarios, suplementarios, OPV)?",
+          "¿Verifiqué que la suma de ángulos del triángulo sea 180°?",
+          "¿En semejanza, los lados homólogos están ordenados correctamente?",
+          "¿Usé k² para comparar áreas de figuras semejantes?",
+          "¿Los ángulos alternos internos son iguales y los colaterales suman 180°?"
         ]
       }
     ]
@@ -390,7 +803,7 @@
     "id": "m1-geometria-cuerpos",
     "area": "Geometría",
     "title": "Cuerpos geométricos y volumen",
-    "duration": "8 min",
+    "duration": "20 min",
     "practiceKeywords": [
       "volumen",
       "cilindro",
@@ -399,41 +812,85 @@
       "pirámide",
       "piramide",
       "cm³",
-      "cm3"
+      "cm3",
+      "esfera",
+      "superficie",
+      "lateral"
     ],
     "sections": [
       {
-        "heading": "Prismas y cilindros",
-        "text": "El volumen de un cuerpo ‘recto’ es área de la base por la altura.",
-        "formulas": [
-          "V prisma = Área base × h",
-          "V cilindro = πr²h"
-        ],
-        "items": [
-          "Cilindro r=2, h=5 → V = π·4·5 = 20π ≈ 62,8",
-          "Prisma rectangular 3×4×5 → V=60",
-          "Unidades: cm³, m³ (volumen); cm² (área)"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "Los cuerpos geométricos se evalúan en M1 principalmente con preguntas de volumen y, en menor medida, de área de superficie. Los errores más frecuentes son: olvidar el factor 1/3 en pirámides y conos, usar el diámetro en vez del radio, y confundir la altura perpendicular con la generatriz inclinada.",
+          "Este eje suele aparecer en preguntas de contexto: capacidad de un estanque cilíndrico, material necesario para forrar una pirámide, comparación entre volúmenes de recipientes. La clave es identificar el cuerpo geométrico que el problema describe antes de buscar la fórmula."
         ]
       },
       {
-        "heading": "Pirámides y conos",
-        "text": "Pirámides y conos llevan el factor 1/3. Olvidarlo es el error más frecuente.",
-        "formulas": [
-          "V pirámide = (1/3)·Área base·h",
-          "V cono = (1/3)πr²h"
+        "heading": "Concepto y teoría: prismas y cilindros",
+        "paragraphs": [
+          "Un prisma es un cuerpo con dos bases paralelas e iguales (polígonos) y caras laterales rectangulares. El volumen de cualquier prisma recto se calcula multiplicando el área de la base por la altura perpendicular entre las bases. Si la base es un rectángulo de dimensiones a×b, el volumen del ortoedro (prisma rectangular) es a×b×h.",
+          "El cilindro circular recto es el análogo del prisma con base circular. Su volumen es el área del círculo por la altura: V = πr²h. El área lateral es la circunferencia de la base por la altura: A_lat = 2πrh. El área total incluye además las dos bases: A_tot = 2πrh + 2πr² = 2πr(h+r).",
+          "Cuando el problema pide cuántos litros caben en un cilindro, recuerda que 1 dm³ = 1 litro. Si las unidades del problema son cm, el volumen en cm³ debe dividirse entre 1000 para convertir a litros."
         ],
-        "items": [
-          "Cono r=3, h=4 → V = (1/3)π·9·4 = 12π",
-          "Si comparan cilindro y cono de misma base y altura: V_cono = (1/3)V_cilindro",
-          "No confundas altura inclinada (generatriz) con altura perpendicular"
+        "formulas": [
+          "V prisma = Área_base × h",
+          "V cilindro = πr²h",
+          "A_lateral cilindro = 2πrh",
+          "A_total cilindro = 2πr(h + r)"
         ]
       },
       {
-        "heading": "Para la PAES",
+        "heading": "Concepto y teoría: pirámides y conos",
+        "paragraphs": [
+          "Una pirámide tiene una base poligonal y caras triangulares laterales que convergen en un vértice (ápice). Un cono tiene una base circular y una superficie lateral que converge en el vértice. Lo que tienen en común es el factor 1/3 en sus fórmulas de volumen: el volumen de una pirámide o cono es exactamente un tercio del volumen del prisma o cilindro con la misma base y altura.",
+          "La altura de la pirámide o del cono es la distancia perpendicular desde el vértice hasta la base, no la longitud de una arista lateral. La generatriz (o apotema lateral en conos) es la distancia desde el vértice hasta el borde de la base siguiendo la superficie; es mayor que la altura. Confundir ambas es el error más grave en este módulo.",
+          "La esfera tiene solo un parámetro: el radio. Su volumen es (4/3)πr³ y su área de superficie es 4πr². Estos datos se pedirán directamente con la fórmula dada o en forma de comparación entre dos esferas de radios distintos."
+        ],
+        "formulas": [
+          "V pirámide = (1/3) × Área_base × h",
+          "V cono = (1/3) × πr²h",
+          "V esfera = (4/3)πr³",
+          "A_esfera = 4πr²",
+          "A_lateral cono = πr·g  (g = generatriz)"
+        ]
+      },
+      {
+        "heading": "Método paso a paso: calcular volumen",
         "items": [
-          "Dibuja el cuerpo y marca radio/altura antes de reemplazar",
-          "Si dan diámetro, convierte a radio",
-          "Revisa si piden volumen o área total/lateral"
+          "Paso 1: Identifica el tipo de cuerpo (prisma, cilindro, pirámide, cono, esfera).",
+          "Paso 2: Si es pirámide o cono, anota mentalmente el factor 1/3.",
+          "Paso 3: Identifica el radio (no diámetro) y la altura perpendicular (no la generatriz).",
+          "Paso 4: Calcula el área de la base.",
+          "Paso 5: Multiplica por la altura (y por 1/3 si corresponde).",
+          "Paso 6: Verifica las unidades: si r está en cm y h en cm, el volumen es cm³."
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Cilindro: un estanque cilíndrico tiene diámetro 6 m y altura 4 m. ¿Cuántos m³ de agua puede almacenar? El radio es 6/2 = 3 m. V = π(3²)(4) = 36π ≈ 113,1 m³.",
+          "Ejemplo 2 — Comparación cono y cilindro: un cono y un cilindro tienen la misma base (radio r) y la misma altura h. ¿Qué fracción del volumen del cilindro ocupa el cono? V_cono = (1/3)πr²h y V_cilindro = πr²h. Fracción = (1/3)πr²h / (πr²h) = 1/3. El cono ocupa exactamente un tercio del cilindro.",
+          "Ejemplo 3 — Pirámide con Pitágoras: una pirámide cuadrada tiene base de 8 cm de lado y arista lateral de 5 cm. Para encontrar la altura, la apotema del triángulo lateral es la arista lateral (5 cm) y la mitad de la base es 4 cm (el apotema del cuadrado hasta el centro). Pitágoras: h² + 4² = 5² → h² = 9 → h = 3 cm. Volumen: (1/3)(8²)(3) = (1/3)(64)(3) = 64 cm³."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Olvidar el factor 1/3 en pirámides y conos.",
+          "Usar el diámetro en lugar del radio en πr².",
+          "Confundir la generatriz (arista lateral inclinada) con la altura perpendicular.",
+          "Mezclar unidades: área en cm² y altura en m → volumen incorrecto.",
+          "Calcular área en lugar de volumen o viceversa según lo que pide el problema."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "¿Identifiqué el tipo de cuerpo y si necesito el factor 1/3?",
+          "¿Usé el radio, no el diámetro?",
+          "¿La altura que uso es perpendicular a la base?",
+          "¿Las unidades son consistentes en todos los datos?",
+          "¿El problema pide volumen, área lateral o área total?"
         ]
       }
     ]
@@ -441,49 +898,90 @@
   {
     "id": "m1-probabilidad",
     "area": "Probabilidad",
-    "title": "Probabilidad y promedio",
-    "duration": "8 min",
+    "title": "Probabilidad clásica y medidas de tendencia central",
+    "duration": "20 min",
     "practiceKeywords": [
       "probabilidad",
       "P(",
       "promedio",
       "dado",
       "moneda",
-      "media"
+      "media",
+      "espacio muestral",
+      "evento",
+      "complemento"
     ],
     "sections": [
       {
-        "heading": "Probabilidad clásica",
-        "text": "Cuando todos los resultados son igualmente posibles, la probabilidad es favorable sobre posible.",
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "La probabilidad clásica y las medidas de tendencia central (media, mediana, moda) son contenidos de acceso directo en M1: los ítems son de resolución moderada y los errores suelen ser conceptuales, no de cálculo complejo. La PAES pregunta con frecuencia: probabilidad de eventos simples con dados, cartas o monedas; cálculo de la media de un conjunto dado un dato faltante; y comparación entre media, mediana y moda en distribuciones con valores atípicos.",
+          "Dominar este módulo bien y rápido te libera tiempo para los ítems más complejos de álgebra o geometría."
+        ]
+      },
+      {
+        "heading": "Concepto y teoría: probabilidad clásica",
+        "paragraphs": [
+          "La probabilidad clásica (o laplaciana) se aplica cuando todos los resultados posibles del experimento son igualmente probables. En ese caso, la probabilidad de un evento A es el número de resultados favorables dividido por el número total de resultados posibles.",
+          "El espacio muestral es el conjunto de todos los resultados posibles. Para un dado de 6 caras: {1,2,3,4,5,6}. Para lanzar dos monedas: {CC, CS, SC, SS} donde C=cara y S=sello. Construir explícitamente el espacio muestral evita errores de conteo.",
+          "La probabilidad del complemento de A (que A no ocurra) es 1 − P(A). Esto es útil cuando calcular P(no A) es más sencillo que calcular P(A) directamente. Por ejemplo, 'al menos uno' en varios lanzamientos se calcula más fácil como 1 − P(ninguno)."
+        ],
         "formulas": [
-          "P(A) = casos favorables / casos posibles",
+          "P(A) = n(A) / n(Ω)  (casos favorables / casos posibles)",
           "0 ≤ P(A) ≤ 1",
-          "P(no A) = 1 − P(A)"
-        ],
-        "items": [
-          "Dado justo, P(>4) = 2/6 = 1/3",
-          "Dos monedas, P(exactamente una cara) = 2/4 = 1/2",
-          "Simplifica siempre la fracción"
+          "P(Aᶜ) = 1 − P(A)",
+          "P(Ω) = 1  ;  P(∅) = 0"
         ]
       },
       {
-        "heading": "Promedio (media)",
-        "text": "La media aritmética resume un conjunto. Un valor extremo la desplaza mucho.",
+        "heading": "Concepto y teoría: media aritmética",
+        "paragraphs": [
+          "La media aritmética (promedio) es la suma de todos los valores dividida por la cantidad de valores. Es una medida de tendencia central que resume el conjunto en un único número representativo. Sin embargo, la media es sensible a valores extremos (outliers): un valor muy grande o muy pequeño desplaza la media significativamente.",
+          "Un tipo de pregunta muy frecuente en la PAES es: 'El promedio de n valores es X. Si se agrega un nuevo valor, el promedio cambia a Y. ¿Cuál es el nuevo valor?'. Para resolverlo, usa que suma_original = X·n y suma_nueva = Y·(n+1), así el nuevo valor = Y·(n+1) − X·n.",
+          "La mediana es el valor central cuando los datos se ordenan de menor a mayor. Si hay un número par de datos, es el promedio de los dos del centro. La moda es el valor que más se repite. Puede haber varios valores modales o ninguno."
+        ],
         "formulas": [
-          "media = suma / cantidad"
-        ],
-        "items": [
-          "Si el promedio de 5,7,9 y x es 8 → (21+x)/4=8 → x=11",
-          "Para subir un promedio, el nuevo valor debe ser mayor que el promedio actual",
-          "No confundas promedio con mediana"
+          "Media = (x₁+x₂+...+xₙ)/n = Σxᵢ/n",
+          "Nuevo valor al agregar a promedio: v = Y·(n+1) − X·n"
         ]
       },
       {
-        "heading": "Errores típicos",
+        "heading": "Método paso a paso: probabilidad clásica",
         "items": [
-          "Contar mal los casos posibles (olvidar orden o repetición)",
-          "Sumar probabilidades de eventos no excluyentes sin restar la intersección",
-          "Usar porcentajes sin convertir a fracción o decimal"
+          "Paso 1: Escribe o imagina el espacio muestral completo.",
+          "Paso 2: Identifica los resultados favorables al evento A.",
+          "Paso 3: Cuenta n(A) y n(Ω).",
+          "Paso 4: Calcula P(A) = n(A)/n(Ω).",
+          "Paso 5: Simplifica la fracción.",
+          "Paso 6: Si pide probabilidad del complemento, calcula 1 − P(A)."
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Dado: se lanza un dado justo. ¿Cuál es la probabilidad de obtener un número par mayor que 2? El espacio muestral tiene 6 elementos. Los favorables son 4 y 6 (pares mayores que 2): n(A)=2. P(A) = 2/6 = 1/3.",
+          "Ejemplo 2 — Promedio con incógnita: el promedio de los valores 8, 5, 12, x y 10 es 9. ¿Cuál es x? Suma total = 9×5 = 45. Suma de los conocidos = 8+5+12+10 = 35. Entonces x = 45−35 = 10.",
+          "Ejemplo 3 — Comparación media y mediana: el conjunto {2, 3, 4, 5, 100} tiene media = 114/5 = 22,8 y mediana = 4. Si hay un valor atípico como 100, la mediana (4) es más representativa del centro que la media (22,8). La PAES pregunta cuál medida es más adecuada en distribuciones sesgadas."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Contar mal el espacio muestral: en dos dados, hay 36 combinaciones, no 12.",
+          "No simplificar la fracción de probabilidad: 3/6 debe expresarse como 1/2.",
+          "Confundir media con mediana: la media usa todos los valores, la mediana solo depende de la posición central.",
+          "Al calcular la media de un conjunto con dato faltante, plantear la ecuación incorrectamente.",
+          "Sumar las probabilidades de eventos que NO son excluyentes sin restar la intersección."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "¿Construí el espacio muestral completo y correcto?",
+          "¿Simplifiqué la fracción de probabilidad?",
+          "¿Verifiqué que P(A) ≤ 1?",
+          "¿Para la media con dato faltante, planteé bien la ecuación?",
+          "¿Sé cuándo usar mediana en lugar de media (con atípicos)?"
         ]
       }
     ]
@@ -492,7 +990,7 @@
     "id": "m1-probabilidad-estadistica",
     "area": "Probabilidad",
     "title": "Estadística descriptiva y gráficos",
-    "duration": "8 min",
+    "duration": "20 min",
     "practiceKeywords": [
       "mediana",
       "moda",
@@ -500,28 +998,88 @@
       "histograma",
       "cuartil",
       "estadistica",
-      "estadística"
+      "estadística",
+      "dispersión",
+      "rango",
+      "frecuencia"
     ],
     "sections": [
       {
-        "heading": "Medidas de tendencia central",
-        "text": "Media, mediana y moda resumen el centro de distinta forma. Elige según la forma de los datos.",
-        "items": [
-          "Media: suma/n; sensible a valores extremos",
-          "Mediana: valor central ordenado (mejor con atípicos)",
-          "Moda: valor más frecuente",
-          "Datos 2,4,4,6 → media=4; mediana=4; moda=4",
-          "Datos 2,3,4,100 → media alta; mediana=3,5 más representativa"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "La estadística descriptiva es un eje donde la PAES evalúa comprensión, no solo cálculo. Los ítems suelen presentar una tabla de datos, un histograma, un diagrama de caja o un gráfico de barras, y piden identificar una medida de tendencia central, interpretar la dispersión o reconocer la medida más adecuada para describir el conjunto. Leer bien los ejes y las escalas de un gráfico es tan importante como saber las fórmulas.",
+          "En los últimos años, la PAES ha incluido preguntas sobre cuartiles y la interpretación del diagrama de caja (boxplot). Conocer estos conceptos marca la diferencia entre un puntaje medio y uno alto en este módulo."
         ]
       },
       {
-        "heading": "Gráficos",
-        "text": "En la PAES casi siempre hay un gráfico o tabla. Lee ejes, unidades y leyenda antes de calcular.",
+        "heading": "Concepto y teoría: medidas de tendencia central",
+        "paragraphs": [
+          "La media aritmética, la mediana y la moda son las tres medidas principales de tendencia central. La media es la suma dividida por el total de datos; la mediana es el valor central en los datos ordenados; la moda es el valor que más se repite.",
+          "Cada medida tiene ventajas y limitaciones. La media considera todos los valores y es la más usada en estadística formal, pero es muy sensible a valores extremos (outliers). La mediana es robusta ante outliers y describe mejor el centro de distribuciones sesgadas (como ingresos o precios). La moda es útil para datos categóricos o cuando interesa el valor más popular.",
+          "Cuando la distribución es simétrica y sin outliers, media ≈ mediana ≈ moda. Cuando hay valores extremos hacia arriba (sesgo positivo), la media > mediana > moda. La PAES pregunta explícitamente cuál medida representa mejor el centro en una situación dada."
+        ],
+        "formulas": [
+          "Media = Σxᵢ/n",
+          "Mediana: valor central en datos ordenados (si n impar) o promedio de los dos centrales (si n par)",
+          "Moda: valor con mayor frecuencia"
+        ]
+      },
+      {
+        "heading": "Concepto y teoría: medidas de dispersión",
+        "paragraphs": [
+          "El rango es la diferencia entre el valor máximo y el mínimo. Es la medida de dispersión más simple pero la menos robusta, ya que solo depende de los extremos. Si hay un outlier, el rango lo exagera.",
+          "Los cuartiles dividen los datos ordenados en cuatro partes iguales. Q₁ es el percentil 25 (un cuarto de los datos está por debajo), Q₂ es la mediana (percentil 50) y Q₃ es el percentil 75. El rango intercuartílico (RIC = Q₃ − Q₁) mide la dispersión del 50% central de los datos y es mucho más robusto que el rango.",
+          "El diagrama de caja (boxplot) representa visualmente Q₁, Q₂, Q₃ y los extremos. La caja contiene el 50% central de los datos. Los 'bigotes' se extienden hasta el mínimo y el máximo (o hasta 1,5 veces el RIC para identificar outliers). Reconocer la forma del boxplot indica si la distribución es simétrica o sesgada."
+        ],
+        "formulas": [
+          "Rango = Valor máximo − Valor mínimo",
+          "RIC = Q₃ − Q₁"
+        ]
+      },
+      {
+        "heading": "Concepto y teoría: lectura de gráficos estadísticos",
+        "paragraphs": [
+          "El histograma representa la distribución de frecuencias de datos agrupados en intervalos. El eje horizontal muestra los intervalos de clase y el eje vertical muestra la frecuencia (o frecuencia relativa). El área de cada barra es proporcional a la frecuencia, no la altura por sí sola si los intervalos son distintos.",
+          "El gráfico de barras es similar al histograma pero para datos categóricos o discretos: los valores del eje horizontal son categorías separadas, no intervalos continuos. El gráfico circular (de torta) muestra proporciones: cada sector representa una fracción del total.",
+          "Antes de responder cualquier pregunta con gráfico, verifica: ¿cuáles son las unidades del eje y? ¿La escala empieza en cero o en otro valor? ¿Qué representa cada barra o sector?"
+        ]
+      },
+      {
+        "heading": "Método paso a paso: encontrar cuartiles",
         "items": [
-          "Histograma: frecuencias por intervalo",
-          "Diagrama de caja: cuartiles, mediana y extremos",
-          "Gráfico de barras: categorías discretas",
-          "Pregunta tip: ¿qué medida representa mejor el centro si hay un outlier?"
+          "Paso 1: Ordena los datos de menor a mayor.",
+          "Paso 2: Encuentra la mediana (Q₂): si n es impar, es el valor central; si n es par, es el promedio de los dos centrales.",
+          "Paso 3: Q₁ es la mediana de la mitad inferior de los datos (sin incluir Q₂ si n es impar).",
+          "Paso 4: Q₃ es la mediana de la mitad superior de los datos.",
+          "Paso 5: Calcula RIC = Q₃ − Q₁."
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Cuartiles: para el conjunto {3, 7, 8, 10, 14, 16, 19, 22, 25}, n=9. Q₂ = valor central = 14. Mitad inferior: {3,7,8,10} → Q₁ = (7+8)/2 = 7,5. Mitad superior: {16,19,22,25} → Q₃ = (19+22)/2 = 20,5. RIC = 20,5−7,5 = 13.",
+          "Ejemplo 2 — Lectura de histograma: un histograma muestra que en el intervalo [10,20) hay 15 estudiantes y en [20,30) hay 25 estudiantes. ¿Qué porcentaje del total está en el intervalo [20,30) si el total es 80 alumnos? 25/80 = 0,3125 = 31,25%. Redondea según las alternativas.",
+          "Ejemplo 3 — Medida adecuada: las notas de una clase son {2,0; 4,5; 5,0; 5,5; 6,0; 6,5; 7,0}. Media = (2,0+4,5+5,0+5,5+6,0+6,5+7,0)/7 = 36,5/7 ≈ 5,21. Mediana = 5,5 (valor central). El 2,0 arrastra la media hacia abajo, así que la mediana (5,5) representa mejor el rendimiento del grupo."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Olvidar ordenar los datos antes de calcular la mediana o los cuartiles.",
+          "Calcular el promedio de todos los datos en lugar del promedio de los dos centrales cuando n es par.",
+          "En histogramas, leer la frecuencia del intervalo más alto como la moda (la moda de datos agrupados es el punto medio del intervalo de mayor frecuencia).",
+          "Confundir 'el 50% de los datos está por debajo de Q₂' con 'el 50% de los datos está en la caja del boxplot' (que va de Q₁ a Q₃).",
+          "Sumar frecuencias relativas de intervalos sin convertirlas a frecuencias absolutas cuando el problema lo requiere."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "¿Ordené los datos antes de buscar mediana o cuartiles?",
+          "¿Leí los ejes del gráfico (unidades, escala, etiquetas) antes de responder?",
+          "¿Sé qué medida es más adecuada según la distribución (simétrica o sesgada)?",
+          "¿Calculé el RIC como Q₃ − Q₁?",
+          "¿Identifiqué correctamente si el eje del histograma es frecuencia absoluta o relativa?"
         ]
       }
     ]
@@ -529,8 +1087,8 @@
   {
     "id": "m1-probabilidad-compuesta",
     "area": "Probabilidad",
-    "title": "Probabilidad compuesta",
-    "duration": "8 min",
+    "title": "Probabilidad compuesta y condicional",
+    "duration": "22 min",
     "practiceKeywords": [
       "compuesta",
       "independiente",
@@ -538,33 +1096,93 @@
       "intersección",
       "unión",
       "y ",
-      " o "
+      " o ",
+      "dependiente",
+      "sin reposición",
+      "con reposición",
+      "al menos"
     ],
     "sections": [
       {
-        "heading": "Eventos compuestos",
-        "text": "Primero decide si los eventos son independientes o excluyentes. Eso define la fórmula.",
-        "formulas": [
-          "P(A ∩ B) = P(A)·P(B) (independientes)",
-          "P(A ∪ B) = P(A)+P(B)−P(A ∩ B)",
-          "Si excluyentes: P(A ∩ B)=0 → P(A ∪ B)=P(A)+P(B)"
-        ],
-        "items": [
-          "Independientes: el resultado de uno no cambia al otro (dos monedas)",
-          "Excluyentes: no pueden ocurrir a la vez (sacar 1 y 6 en un mismo dado)",
-          "Ejemplo: P(cara)=1/2; P(dos caras)=1/4"
+        "heading": "Para qué sirve en la PAES",
+        "paragraphs": [
+          "La probabilidad compuesta y condicional es el contenido de probabilidad de mayor dificultad en M1. La PAES evalúa la unión e intersección de eventos, la regla de la multiplicación para eventos independientes y dependientes, y la probabilidad condicional. Los enunciados suelen contener frases clave como 'y' (intersección), 'o' (unión), 'dado que' o 'sabiendo que' (condicional), 'al menos uno' y 'exactamente n veces'.",
+          "Estos ítems concentran mayor puntaje por su dificultad y su capacidad de discriminar entre candidatos a carrera de alta selectividad. Un estudiante que los maneja bien gana una ventaja real en el puntaje final."
         ]
       },
       {
-        "heading": "Condicional (idea)",
-        "text": "P(A|B) es la probabilidad de A sabiendo que ocurrió B. Se reduce el espacio muestral.",
-        "formulas": [
-          "P(A|B) = P(A ∩ B)/P(B)"
+        "heading": "Concepto y teoría: eventos independientes y dependientes",
+        "paragraphs": [
+          "Dos eventos A y B son independientes si el resultado de uno no afecta la probabilidad del otro. En ese caso, la probabilidad de que ambos ocurran (intersección) es simplemente el producto de sus probabilidades individuales: P(A∩B) = P(A)·P(B). Ejemplos: lanzar dos monedas, tirar dos dados, sacar una carta y reponerla antes de sacar otra.",
+          "Cuando los eventos son dependientes, la probabilidad de la intersección requiere considerar cómo el resultado de A afecta a B. Esto ocurre al extraer elementos sin reposición de un conjunto finito. En ese caso, P(A∩B) = P(A)·P(B|A), donde P(B|A) es la probabilidad de B dado que ya ocurrió A.",
+          "El error más común es aplicar la fórmula de independencia (producto simple) a un problema de extracción sin reposición, donde los eventos son dependientes."
         ],
+        "formulas": [
+          "Independientes: P(A∩B) = P(A)·P(B)",
+          "Dependientes: P(A∩B) = P(A)·P(B|A)",
+          "P(B|A) = P(A∩B) / P(A)"
+        ]
+      },
+      {
+        "heading": "Concepto y teoría: unión de eventos",
+        "paragraphs": [
+          "La probabilidad de que ocurra A o B (unión) se calcula sumando las probabilidades individuales y restando la intersección para no contarla dos veces: P(A∪B) = P(A) + P(B) − P(A∩B). Si los eventos son mutuamente excluyentes (no pueden ocurrir a la vez), entonces P(A∩B) = 0 y la fórmula se simplifica: P(A∪B) = P(A) + P(B).",
+          "Es fundamental distinguir entre 'o inclusivo' (A ocurre, o B ocurre, o ambos) y 'o exclusivo' (A o B pero no ambos). En probabilidad, 'o' siempre se refiere al inclusivo, así que la resta de la intersección es necesaria a menos que los eventos sean excluyentes."
+        ],
+        "formulas": [
+          "P(A∪B) = P(A) + P(B) − P(A∩B)",
+          "Si A y B excluyentes: P(A∪B) = P(A) + P(B)"
+        ]
+      },
+      {
+        "heading": "Concepto y teoría: probabilidad condicional",
+        "paragraphs": [
+          "La probabilidad condicional P(B|A) es la probabilidad de que B ocurra, sabiendo que ya ocurrió A. Al condicionar a A, el espacio muestral se reduce: solo se consideran los resultados donde A ya sucedió. La fórmula es P(B|A) = P(A∩B)/P(A).",
+          "Un caso importante es la extracción sin reposición: si se sacan dos cartas de una baraja de 52, la probabilidad de que la segunda sea un as depende de si la primera lo fue. Si la primera fue un as (probabilidad 4/52), entonces quedan 3 ases en 51 cartas: P(segunda as | primera as) = 3/51. Si la primera no fue as, quedan 4 ases en 51 cartas.",
+          "Frases como 'al menos uno' se resuelven más eficientemente con el complemento: P(al menos un éxito) = 1 − P(ningún éxito). Esto evita sumar múltiples casos favorables."
+        ],
+        "formulas": [
+          "P(B|A) = P(A∩B) / P(A)",
+          "P(al menos uno) = 1 − P(ninguno)"
+        ]
+      },
+      {
+        "heading": "Método paso a paso: probabilidad compuesta",
         "items": [
-          "Si ya salió un as en una carta, el espacio cambia para la siguiente",
-          "Con reposición: independientes; sin reposición: dependientes",
-          "Lee con cuidado: ‘al menos uno’, ‘exactamente’, ‘ambos’"
+          "Paso 1: Lee el enunciado e identifica las palabras clave: 'y' (intersección), 'o' (unión), 'dado que' (condicional), 'al menos' (complemento).",
+          "Paso 2: Determina si los eventos son independientes (con reposición, experimentos distintos) o dependientes (sin reposición).",
+          "Paso 3: Elige la fórmula correcta.",
+          "Paso 4: Calcula las probabilidades simples primero.",
+          "Paso 5: Combina usando la fórmula elegida.",
+          "Paso 6: Verifica que el resultado esté entre 0 y 1."
+        ]
+      },
+      {
+        "heading": "Ejemplos trabajados",
+        "paragraphs": [
+          "Ejemplo 1 — Unión con no excluyentes: en un curso, el 60% practica fútbol y el 40% practica basquetbol. El 20% practica ambos. ¿Qué porcentaje practica al menos uno? P(F∪B) = 0,60 + 0,40 − 0,20 = 0,80 = 80%. Si solo hubieras sumado 60%+40%=100%, habrías contado dos veces el 20% que practica ambos.",
+          "Ejemplo 2 — Sin reposición: una urna tiene 5 bolas rojas y 3 azules. Se extraen dos sin reposición. ¿Cuál es la probabilidad de que ambas sean rojas? P(1ª roja) = 5/8. P(2ª roja | 1ª roja) = 4/7 (quedan 4 rojas en 7 bolas). P(ambas rojas) = (5/8)·(4/7) = 20/56 = 5/14.",
+          "Ejemplo 3 — Al menos uno: se lanza una moneda 4 veces. ¿Cuál es la probabilidad de obtener al menos una cara? P(ninguna cara) = (1/2)⁴ = 1/16. P(al menos una cara) = 1 − 1/16 = 15/16. Si hubieras intentado sumar los casos favorables directamente: P(exactamente 1) + P(exactamente 2) + P(exactamente 3) + P(exactamente 4), habrías necesitado calcular cuatro términos con combinatoria."
+        ]
+      },
+      {
+        "heading": "Trampas frecuentes",
+        "items": [
+          "Aplicar P(A)·P(B) (independencia) en un problema sin reposición donde los eventos son dependientes.",
+          "Sumar probabilidades de eventos no excluyentes sin restar la intersección.",
+          "Confundir P(A|B) con P(B|A): la probabilidad condicional no es simétrica en general.",
+          "En problemas de 'al menos uno', intentar sumar todos los casos favorables en lugar de usar el complemento.",
+          "No actualizar el espacio muestral al condicionar: al saber que A ocurrió, el total de casos posibles cambia."
+        ]
+      },
+      {
+        "heading": "Checklist antes del mini ensayo",
+        "items": [
+          "¿Identifiqué las palabras clave del enunciado (y, o, dado que, al menos)?",
+          "¿Los eventos son independientes o dependientes (con o sin reposición)?",
+          "¿Usé la fórmula de unión con resta de intersección para eventos no excluyentes?",
+          "¿Para 'al menos uno' usé el complemento en lugar de sumar casos?",
+          "¿El resultado de probabilidad está entre 0 y 1?"
         ]
       }
     ]

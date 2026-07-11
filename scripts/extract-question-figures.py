@@ -265,98 +265,185 @@ def is_grid_layout(markers: list[dict]) -> bool:
     return abs(rows[0][0]["x0"] - rows[0][1]["x0"]) > 80
 
 
-def column_x_bounds(marker: dict, row: list[dict], page_width: float) -> tuple[float, float]:
-    """Limites horizontales de una celda en una fila de alternativas."""
-    right_x = page_width - PAGE_MARGIN_X
-    if len(row) == 1:
-        return PAGE_MARGIN_X, right_x
-    xs = [m["x0"] for m in row]
-    mids = [(xs[i] + xs[i + 1]) / 2 for i in range(len(xs) - 1)]
-    idx = next(i for i, m in enumerate(row) if m["letter"] == marker["letter"])
-    if idx == 0:
-        return PAGE_MARGIN_X, mids[0]
-    if idx == len(row) - 1:
-        return mids[-1], right_x
-    return mids[idx - 1], mids[idx]
-
-
-def cell_ink_bottom(
-    page: fitz.Page, x0: float, x1: float, y0: float, y1_limit: float
-) -> float:
-    """Borde inferior de tinta dentro de una celda de alternativa."""
-    bottom = y0
-    for d in page.get_drawings():
-        r = d.get("rect")
-        if not r:
-            continue
-        cx = (r.x0 + r.x1) / 2
-        cy = (r.y0 + r.y1) / 2
-        if x0 <= cx <= x1 and y0 - 8 <= cy <= y1_limit + 50:
-            bottom = max(bottom, r.y1)
-    for info in page.get_image_info(xrefs=True):
-        bx = info["bbox"]
-        cx = (bx[0] + bx[2]) / 2
-        cy = (bx[1] + bx[3]) / 2
-        if x0 <= cx <= x1 and y0 - 8 <= cy <= y1_limit + 50:
-            bottom = max(bottom, bx[3])
-    for w in page.get_text("words"):
-        cx = (w[0] + w[2]) / 2
-        cy = (w[1] + w[3]) / 2
-        if x0 <= cx <= x1 and y0 - 8 <= cy <= y1_limit + 50:
-            bottom = max(bottom, w[3])
-    return bottom
-
-
 def grid_option_bounds(
     page: fitz.Page,
     markers: list[dict],
     stem_bottom: float,
     hard_end: float,
 ) -> list[dict]:
-    """Recorte por celda cuando A,B y C,D comparten fila (graficos 2x2)."""
+    """Recorte 2x2: cada celda nace en su letra y crece solo con su tinta/imagen."""
     rows = cluster_option_rows(markers)
     page_width = page.rect.width
-    row_centers = [
-        sum((m["y0"] + m["y1"]) / 2 for m in row) / len(row) for row in rows
-    ]
-    bands: list[dict] = []
-    for ri, row in enumerate(rows):
-        if ri == 0:
-            y0 = stem_bottom + 0.5
-        else:
-            y0 = (row_centers[ri - 1] + row_centers[ri]) / 2
-        if ri + 1 < len(rows):
-            y1 = (row_centers[ri] + row_centers[ri + 1]) / 2
-        else:
-            y1 = row_centers[ri] + 60
+    right_x = page_width - PAGE_MARGIN_X
+    assert len(rows) == 2 and all(len(r) == 2 for r in rows)
 
-        y0 = max(stem_bottom + 0.5, min(m["y0"] for m in row) - OPT_EDGE_PAD)
+    left_x = (rows[0][0]["x0"] + rows[1][0]["x0"]) / 2
+    right_col_x = (rows[0][1]["x0"] + rows[1][1]["x0"]) / 2
+    x_mid = (left_x + right_col_x) / 2
 
-        ink_y1 = y0 + 30
-        row_ink_limit = (
-            y1
-            if ri + 1 < len(rows)
-            else min(hard_end, min(m["y0"] for m in row) + 140)
+    letter_at = {
+        (0, 0): rows[0][0]["letter"],
+        (0, 1): rows[0][1]["letter"],
+        (1, 0): rows[1][0]["letter"],
+        (1, 1): rows[1][1]["letter"],
+    }
+    marker_by = {m["letter"]: m for m in markers}
+
+    cells = {}
+    for ri in range(2):
+        for ci in range(2):
+            letter = letter_at[(ri, ci)]
+            m = marker_by[letter]
+            cells[letter] = {
+                "letter": letter,
+                "ri": ri,
+                "ci": ci,
+                "x0": m["x0"] - 6,
+                "x1": m["x0"] + 70,
+                "y0": m["y0"] - OPT_EDGE_PAD,
+                "y1": m["y1"] + 20,
+            }
+
+    def owning_letter(cx: float, cy: float) -> str | None:
+        if cy < stem_bottom - 10 or cy > hard_end + 15:
+            return None
+        if cy < min(m["y0"] for m in markers) - 25:
+            return None
+        # Centro de atraccion bajo la letra (donde esta el grafico)
+        centers = {
+            m["letter"]: (m["x0"] + 55, m["y0"] + 75)
+            for m in markers
+        }
+        best = min(
+            centers.items(),
+            key=lambda item: (cx - item[1][0]) ** 2 + (cy - item[1][1]) ** 2,
         )
-        for m in row:
-            x0, x1 = column_x_bounds(m, row, page_width)
-            ink_bottom = cell_ink_bottom(page, x0, x1, m["y0"] - 4, row_ink_limit)
-            ink_y1 = max(ink_y1, ink_bottom + OPT_EDGE_PAD)
+        letter, (mx, my) = best
+        # Rechazar tinta demasiado lejos del marcador (siguiente pregunta)
+        if abs(cx - mx) > 180 or cy - marker_by[letter]["y0"] > 220:
+            return None
+        if marker_by[letter]["y0"] - cy > 40:
+            return None
+        return letter
 
-        y1 = min(hard_end, max(y1, ink_y1))
-        if y1 - y0 < 22:
-            y1 = min(hard_end, y0 + 26)
+    def expand(letter: str, x0, y0, x1, y1, pad=4):
+        c = cells[letter]
+        c["x0"] = min(c["x0"], x0 - pad)
+        c["y0"] = min(c["y0"], y0 - pad)
+        c["x1"] = max(c["x1"], x1 + pad)
+        c["y1"] = max(c["y1"], y1 + pad)
 
-        for m in row:
-            x0, x1 = column_x_bounds(m, row, page_width)
-            bands.append({
-                "letter": m["letter"],
-                "y0": y0,
-                "y1": y1,
-                "x0": x0,
-                "x1": x1,
-            })
-    bands.sort(key=lambda b: "ABCD".index(b["letter"]))
+    for info in page.get_image_info(xrefs=True):
+        x0, y0, x1, y1 = info["bbox"]
+        if (x1 - x0) < 40 or (y1 - y0) < 40:
+            continue
+        letter = owning_letter((x0 + x1) / 2, (y0 + y1) / 2)
+        if letter:
+            expand(letter, x0, y0, x1, y1, pad=8)
+
+    for d in page.get_drawings():
+        r = d.get("rect")
+        if not r:
+            continue
+        letter = owning_letter((r.x0 + r.x1) / 2, (r.y0 + r.y1) / 2)
+        if not letter:
+            continue
+        if r.width >= 12 or r.height >= 12 or r.width == 0 or r.height == 0:
+            expand(letter, r.x0, r.y0, r.x1, r.y1, pad=6)
+
+    for w in page.get_text("words"):
+        wx0, wy0, wx1, wy1, text = w[0], w[1], w[2], w[3], w[4]
+        if text in ("A)", "B)", "C)", "D)", "E)"):
+            continue
+        letter = owning_letter((wx0 + wx1) / 2, (wy0 + wy1) / 2)
+        if letter:
+            expand(letter, wx0, wy0, wx1, wy1, pad=3)
+
+    # Separar solo si hay solape real (no recortar graficos con y_mid/x_mid a ciegas)
+    for ri in range(2):
+        L = cells[letter_at[(ri, 0)]]
+        R = cells[letter_at[(ri, 1)]]
+        if L["x1"] > R["x0"]:
+            mid = (L["x1"] + R["x0"]) / 2
+            L["x1"] = mid
+            R["x0"] = mid
+    for ci in range(2):
+        T = cells[letter_at[(0, ci)]]
+        B = cells[letter_at[(1, ci)]]
+        if T["y1"] > B["y0"]:
+            mid = (T["y1"] + B["y0"]) / 2
+            T["y1"] = mid
+            B["y0"] = mid
+
+    # Si hay imagen de grafico, ajustar la celda al bbox imagen+letra (sin medio pagina vacio)
+    images_by: dict[str, list[tuple[float, float, float, float]]] = {L: [] for L in cells}
+    for info in page.get_image_info(xrefs=True):
+        x0, y0, x1, y1 = info["bbox"]
+        if (x1 - x0) < 40 or (y1 - y0) < 40:
+            continue
+        letter = owning_letter((x0 + x1) / 2, (y0 + y1) / 2)
+        if not letter:
+            continue
+        images_by[letter].append((x0, y0, x1, y1))
+
+    for letter, imgs in images_by.items():
+        if not imgs:
+            continue
+        m = marker_by[letter]
+        c = cells[letter]
+        c["x0"] = min(m["x0"] - 6, min(b[0] for b in imgs) - 6)
+        c["x1"] = max(m["x0"] + 40, max(b[2] for b in imgs) + 6)
+        c["y0"] = min(m["y0"] - OPT_EDGE_PAD, min(b[1] for b in imgs) - 6)
+        c["y1"] = max(m["y1"] + 10, max(b[3] for b in imgs) + 12)
+        for w in page.get_text("words"):
+            wx0, wy0, wx1, wy1, text = w[0], w[1], w[2], w[3], w[4]
+            if text in ("A)", "B)", "C)", "D)", "E)"):
+                continue
+            wcx, wcy = (wx0 + wx1) / 2, (wy0 + wy1) / 2
+            if any(b[0] - 35 <= wcx <= b[2] + 35 and b[1] - 45 <= wcy <= b[3] + 45 for b in imgs):
+                c["x0"] = min(c["x0"], wx0 - 3)
+                c["x1"] = max(c["x1"], wx1 + 3)
+                c["y0"] = min(c["y0"], wy0 - 3)
+                c["y1"] = max(c["y1"], wy1 + 3)
+
+    for ri in range(2):
+        L = cells[letter_at[(ri, 0)]]
+        R = cells[letter_at[(ri, 1)]]
+        if L["x1"] > R["x0"]:
+            mid = (L["x1"] + R["x0"]) / 2
+            L["x1"] = mid
+            R["x0"] = mid
+    for ci in range(2):
+        T = cells[letter_at[(0, ci)]]
+        B = cells[letter_at[(1, ci)]]
+        if T["y1"] > B["y0"]:
+            mid = (T["y1"] + B["y0"]) / 2
+            T["y1"] = mid
+            B["y0"] = mid
+
+    bands = []
+    for letter in "ABCD":
+        if letter not in cells:
+            continue
+        c = cells[letter]
+        c["x0"] = max(PAGE_MARGIN_X - 4, c["x0"])
+        c["x1"] = min(right_x + 4, c["x1"])
+        c["y0"] = max(stem_bottom + 0.5, c["y0"])
+        c["y1"] = min(hard_end, c["y1"])
+        if c["x1"] - c["x0"] < 50:
+            if c["ci"] == 0:
+                c["x0"], c["x1"] = PAGE_MARGIN_X, x_mid - 2
+            else:
+                c["x0"], c["x1"] = x_mid + 2, right_x
+        if c["y1"] - c["y0"] < 36:
+            c["y1"] = min(hard_end, c["y0"] + 50)
+        bands.append({
+            "letter": letter,
+            "y0": c["y0"],
+            "y1": c["y1"],
+            "x0": c["x0"],
+            "x1": c["x1"],
+        })
     return bands
 
 

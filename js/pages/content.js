@@ -6,6 +6,27 @@ export async function loadContent() {
   return fetchTestData(null, 'content');
 }
 
+function estimateReadingMinutes(lesson) {
+  let chars = 0;
+  for (const s of lesson.sections || []) {
+    chars += (s.text || '').length;
+    for (const item of s.items || []) chars += item.length;
+    for (const f of s.formulas || []) chars += f.length;
+  }
+  const computed = Math.max(2, Math.round(chars / 500));
+  if (lesson.duration && /^\d+\s*min/.test(lesson.duration)) {
+    const claimed = parseInt(lesson.duration, 10);
+    // Contornos muy cortos: no mostrar 12 min si hay poco texto
+    if (chars < 350) return Math.min(claimed, computed);
+    return claimed;
+  }
+  return computed;
+}
+
+function readingLabel(lesson) {
+  return `${estimateReadingMinutes(lesson)} min de lectura estimada`;
+}
+
 export async function renderContentList(container) {
   const testId = getCurrentTest();
   if (!testId) {
@@ -70,7 +91,7 @@ function topicCard(t, unlocked) {
     <a href="#/contenido/${t.id}" class="topic-item" data-route>
       <div>
         <strong>${t.title}</strong>
-        <div class="topic-meta">${t.area} · ${t.duration}</div>
+        <div class="topic-meta">${t.area} · ${readingLabel(t)}</div>
       </div>
       <span class="badge">Leer</span>
     </a>`;
@@ -105,7 +126,7 @@ export async function renderLesson(container, id) {
     <article class="lesson">
       <span class="badge">${lesson.area}</span>
       <h1 class="page-title" style="margin-top:0.5rem">${lesson.title}</h1>
-      <p class="page-sub">${lesson.duration} de lectura estimada</p>
+      <p class="page-sub">${readingLabel(lesson)}</p>
       ${lesson.sections.map(renderSectionHtml).join('')}
     </article>
     <div style="margin-top:1rem;display:flex;gap:0.75rem;flex-wrap:wrap">

@@ -191,12 +191,15 @@ export function recordCheckpoint(testId, result) {
 
 export async function buildQuestionSet(testId, { type, lessonId = null, count }) {
   let lessonArea = null;
+  let practiceKeywords = null;
   if (lessonId) {
     const lessons = await loadLessons(testId);
-    lessonArea = lessons.find(l => l.id === lessonId)?.area || null;
+    const lesson = lessons.find(l => l.id === lessonId);
+    lessonArea = lesson?.area || null;
+    practiceKeywords = lesson?.practiceKeywords || null;
   }
   const { buildQuestionSet: fromBank, normalizeQuestion } = await import(`./question-bank.js?v=${CACHE_VERSION}`);
-  const raw = await fromBank(testId, { type, lessonArea, count });
+  const raw = await fromBank(testId, { type, lessonArea, count, practiceKeywords });
   return raw.map(normalizeQuestion);
 }
 

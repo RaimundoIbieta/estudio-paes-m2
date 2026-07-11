@@ -116,9 +116,15 @@ export function pickOfficialSet(bank, totalNeeded) {
   return [...ordered, ...extra].slice(0, totalNeeded);
 }
 
-export function pickPracticeSet(bank, totalNeeded, area = null) {
+export function pickPracticeSet(bank, totalNeeded, area = null, practiceKeywords = null) {
   let pool = bank.practiceQuestions || bank.questions || [];
-  if (area) {
+  if (Array.isArray(practiceKeywords) && practiceKeywords.length) {
+    const keyed = pool.filter(q => {
+      const blob = `${q.topic || ''} ${q.question || ''} ${(q.options || []).join(' ')}`.toLowerCase();
+      return practiceKeywords.some(k => blob.includes(String(k).toLowerCase()));
+    });
+    if (keyed.length >= Math.min(totalNeeded, 8)) pool = keyed;
+  } else if (area) {
     const normalized = area.toLowerCase();
     const areaPool = pool.filter(q => {
       const a = labelArea(q.area).toLowerCase();
@@ -247,21 +253,21 @@ function pickDiagnosticSetFixed(bank, totalNeeded) {
   return slots.slice(0, totalNeeded);
 }
 
-export function pickUnitSet(bank, area, count) {
-  return pickPracticeSet(bank, count, area);
+export function pickUnitSet(bank, area, count, practiceKeywords = null) {
+  return pickPracticeSet(bank, count, area, practiceKeywords);
 }
 
 export function pickCheckpointSet(bank, totalNeeded) {
   return pickDiagnosticSet(bank, totalNeeded);
 }
 
-export async function buildQuestionSet(testId, { type, lessonArea = null, count }) {
+export async function buildQuestionSet(testId, { type, lessonArea = null, count, practiceKeywords = null }) {
   const bank = await loadBank(testId);
   if (!bank) {
     const legacy = await fetchTestData(testId, 'exercises');
     return shuffle(legacy).slice(0, count);
   }
-  if (type === 'unit') return pickUnitSet(bank, lessonArea || '', count);
+  if (type === 'unit') return pickUnitSet(bank, lessonArea || '', count, practiceKeywords);
   if (type === 'diagnostic') return pickDiagnosticSet(bank, count);
   return pickCheckpointSet(bank, count);
 }

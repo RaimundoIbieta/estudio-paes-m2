@@ -28,7 +28,16 @@ function previewText(q, max = 140) {
 function matchArea(questionArea, lessonArea) {
   const a = (questionArea || '').toLowerCase();
   const b = (lessonArea || '').toLowerCase();
-  return a.includes(b) || b.includes(a.split(' ')[0]);
+  if (!a || !b) return false;
+  return a.includes(b) || b.includes(a.split(' ')[0]) || a.split(' ')[0] === b.split(' ')[0];
+}
+
+/** Filtra por keywords/topic de la unidad (evita mezclar % con obreros, etc.). */
+function matchLessonTopic(q, lesson) {
+  const keys = lesson.practiceKeywords;
+  if (!Array.isArray(keys) || !keys.length) return matchArea(q.area, lesson.area);
+  const blob = `${q.topic || ''} ${q.question || ''} ${(q.options || []).join(' ')}`.toLowerCase();
+  return keys.some(k => blob.includes(String(k).toLowerCase()));
 }
 
 export async function startUnitPractice(container, lessonId) {
@@ -42,7 +51,18 @@ export async function startUnitPractice(container, lessonId) {
   }
 
   const all = await loadExercises();
-  let pool = all.filter(q => matchArea(q.area, lesson.area));
+  let pool = all.filter(q => matchLessonTopic(q, lesson));
+  if (pool.length < 5) {
+    // Respaldo: misma area, pero sin keywords de otras unidades del area
+    const siblings = topics.filter(t => t.id !== lesson.id && matchArea(t.area, lesson.area));
+    const foreign = siblings.flatMap(t => t.practiceKeywords || []);
+    pool = all.filter(q => {
+      if (!matchArea(q.area, lesson.area)) return false;
+      const blob = `${q.topic || ''} ${q.question || ''}`.toLowerCase();
+      return !foreign.some(k => blob.includes(String(k).toLowerCase()));
+    });
+  }
+  if (pool.length < 5) pool = all.filter(q => matchArea(q.area, lesson.area));
   if (pool.length < 5) pool = all;
   const questions = [...pool].sort(() => Math.random() - 0.5).slice(0, 8);
 

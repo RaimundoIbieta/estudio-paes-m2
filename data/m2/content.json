@@ -34,6 +34,12 @@
           "Ángulo exterior = suma de los dos interiores no adyacentes"
         ]
       }
+    ],
+    "practiceKeywords": [
+      "angulo",
+      "grados",
+      "paralela",
+      "ángulo"
     ]
   },
   {
@@ -70,6 +76,16 @@
           "Trapecio: un par de lados paralelos"
         ]
       }
+    ],
+    "practiceKeywords": [
+      "angulo",
+      "grados",
+      "paralela",
+      "pitagor",
+      "semejan",
+      "triangulo",
+      "triángulo",
+      "ángulo"
     ]
   },
   {
@@ -102,6 +118,12 @@
           "Δ = b² − 4ac: Δ>0 dos soluciones, Δ=0 una, Δ<0 sin reales"
         ]
       }
+    ],
+    "practiceKeywords": [
+      "ecuacion",
+      "f(x)",
+      "resuelve",
+      "sistema"
     ]
   },
   {
@@ -186,6 +208,12 @@
           "Moda: valor que más se repite"
         ]
       }
+    ],
+    "practiceKeywords": [
+      "P(",
+      "mediana",
+      "probabilidad",
+      "promedio"
     ]
   },
   {
@@ -196,18 +224,43 @@
     "sections": [
       {
         "heading": "Función exponencial",
-        "formulas": ["f(x) = aˣ, con a > 0 y a ≠ 1", "f(0) = 1", "Si a > 1: creciente; si 0 < a < 1: decreciente"],
-        "items": ["Modela crecimiento y decaimiento", "Corte con eje Y en (0, 1)"]
+        "formulas": [
+          "f(x) = aˣ, con a > 0 y a ≠ 1",
+          "f(0) = 1",
+          "Si a > 1: creciente; si 0 < a < 1: decreciente"
+        ],
+        "items": [
+          "Modela crecimiento y decaimiento",
+          "Corte con eje Y en (0, 1)"
+        ]
       },
       {
         "heading": "Función logarítmica",
-        "formulas": ["y = logₐ(x) ↔ aʸ = x", "logₐ(1) = 0", "logₐ(a) = 1", "log(xy) = log x + log y"],
-        "items": ["Es la inversa de la exponencial", "Dominio: x > 0"]
+        "formulas": [
+          "y = logₐ(x) ↔ aʸ = x",
+          "logₐ(1) = 0",
+          "logₐ(a) = 1",
+          "log(xy) = log x + log y"
+        ],
+        "items": [
+          "Es la inversa de la exponencial",
+          "Dominio: x > 0"
+        ]
       },
       {
         "heading": "Ecuaciones",
-        "items": ["Igualar exponentes si misma base", "Aplicar logaritmo en ambos lados", "Verificar soluciones en el dominio"]
+        "items": [
+          "Igualar exponentes si misma base",
+          "Aplicar logaritmo en ambos lados",
+          "Verificar soluciones en el dominio"
+        ]
       }
+    ],
+    "practiceKeywords": [
+      "e^",
+      "expon",
+      "ln",
+      "log"
     ]
   },
   {
@@ -235,8 +288,26 @@
       },
       {
         "heading": "Aplicaciones PAES",
-        "items": ["Elevación y depresión angular", "Altura de edificios con distancia conocida", "Vectores y componentes"]
+        "items": [
+          "Elevación y depresión angular",
+          "Altura de edificios con distancia conocida",
+          "Vectores y componentes"
+        ]
       }
+    ],
+    "practiceKeywords": [
+      "angulo",
+      "cos",
+      "grados",
+      "paralela",
+      "pitagor",
+      "semejan",
+      "sen",
+      "tan",
+      "triangulo",
+      "trig",
+      "triángulo",
+      "ángulo"
     ]
   },
   {
@@ -247,13 +318,26 @@
     "sections": [
       {
         "heading": "Leyes de exponentes",
-        "formulas": ["aᵐ · aⁿ = aᵐ⁺ⁿ", "aᵐ / aⁿ = aᵐ⁻ⁿ", "(aᵐ)ⁿ = aᵐⁿ", "a⁰ = 1"],
-        "items": ["Exponentes negativos: a⁻ⁿ = 1/aⁿ", "Exponentes fraccionarios: a^(1/n) = ⁿ√a"]
+        "formulas": [
+          "aᵐ · aⁿ = aᵐ⁺ⁿ",
+          "aᵐ / aⁿ = aᵐ⁻ⁿ",
+          "(aᵐ)ⁿ = aᵐⁿ",
+          "a⁰ = 1"
+        ],
+        "items": [
+          "Exponentes negativos: a⁻ⁿ = 1/aⁿ",
+          "Exponentes fraccionarios: a^(1/n) = ⁿ√a"
+        ]
       },
       {
         "heading": "Notación científica",
-        "formulas": ["N = a × 10ⁿ, con 1 ≤ a < 10"],
-        "items": ["Útil para números muy grandes o pequeños", "Operaciones: combinar potencias de 10"]
+        "formulas": [
+          "N = a × 10ⁿ, con 1 ≤ a < 10"
+        ],
+        "items": [
+          "Útil para números muy grandes o pequeños",
+          "Operaciones: combinar potencias de 10"
+        ]
       }
     ]
   },

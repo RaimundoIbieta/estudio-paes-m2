@@ -4,7 +4,15 @@
     "area": "Geometría",
     "title": "Ángulos y rectas paralelas",
     "duration": "10 min",
-    "practiceKeywords": ["angulo", "ángulo", "grados", "paralela", "transversal", "complement", "suplement"],
+    "practiceKeywords": [
+      "angulo",
+      "ángulo",
+      "grados",
+      "paralela",
+      "transversal",
+      "complement",
+      "suplement"
+    ],
     "sections": [
       {
         "heading": "Clasificación de ángulos",
@@ -29,8 +37,13 @@
       },
       {
         "heading": "En triángulos",
-        "formulas": ["α + β + γ = 180°", "Ángulo exterior = suma de los dos interiores no adyacentes"],
-        "items": ["Si dos ángulos miden 40° y 65°, el tercero mide 75°"]
+        "formulas": [
+          "α + β + γ = 180°",
+          "Ángulo exterior = suma de los dos interiores no adyacentes"
+        ],
+        "items": [
+          "Si dos ángulos miden 40° y 65°, el tercero mide 75°"
+        ]
       }
     ]
   },
@@ -39,7 +52,19 @@
     "area": "Geometría",
     "title": "Triángulos y cuadriláteros",
     "duration": "12 min",
-    "practiceKeywords": ["triangulo", "triángulo", "pitagor", "cateto", "hipotenusa", "area", "área", "trapecio", "rombo", "rectangulo", "rectángulo"],
+    "practiceKeywords": [
+      "triangulo",
+      "triángulo",
+      "pitagor",
+      "cateto",
+      "hipotenusa",
+      "area",
+      "área",
+      "trapecio",
+      "rombo",
+      "rectangulo",
+      "rectángulo"
+    ],
     "sections": [
       {
         "heading": "Clasificación y casos notables",
@@ -72,6 +97,14 @@
           "Rectángulo: 4 ángulos rectos",
           "Trapecio: exactamente un par de lados paralelos"
         ]
+      },
+      {
+        "heading": "Para la PAES",
+        "items": [
+          "Clasifica el triángulo antes de aplicar una fórmula",
+          "Si hay altura fuera del triángulo obtusángulo, úsala con cuidado",
+          "En cuadriláteros, marca paralelos e iguales en el dibujo"
+        ]
       }
     ]
   },
@@ -80,13 +113,26 @@
     "area": "Álgebra",
     "title": "Ecuaciones y sistemas",
     "duration": "12 min",
-    "practiceKeywords": ["resuelve", "ecuacion", "sistema", "x =", "ax", "cuadratic", "discriminante"],
+    "practiceKeywords": [
+      "resuelve",
+      "ecuacion",
+      "sistema",
+      "x =",
+      "ax",
+      "cuadratic",
+      "discriminante"
+    ],
     "sections": [
       {
         "heading": "Ecuaciones lineales",
         "text": "Aísla la incógnita con operaciones inversas y verifica reemplazando.",
-        "formulas": ["ax + b = c → x = (c − b)/a"],
-        "items": ["3x − 5 = 10 → x = 5", "Si aparece una fracción, multiplica ambos lados por el denominador"]
+        "formulas": [
+          "ax + b = c → x = (c − b)/a"
+        ],
+        "items": [
+          "3x − 5 = 10 → x = 5",
+          "Si aparece una fracción, multiplica ambos lados por el denominador"
+        ]
       },
       {
         "heading": "Sistemas 2×2",
@@ -99,8 +145,22 @@
       },
       {
         "heading": "Ecuación cuadrática",
-        "formulas": ["ax² + bx + c = 0", "x = (−b ± √Δ)/(2a)", "Δ = b² − 4ac"],
-        "items": ["Δ>0 dos raíces; Δ=0 una; Δ<0 ninguna real"]
+        "formulas": [
+          "ax² + bx + c = 0",
+          "x = (−b ± √Δ)/(2a)",
+          "Δ = b² − 4ac"
+        ],
+        "items": [
+          "Δ>0 dos raíces; Δ=0 una; Δ<0 ninguna real"
+        ]
+      },
+      {
+        "heading": "Para la PAES",
+        "items": [
+          "Si el sistema es contextual (precios, edades), define bien las variables",
+          "Tras resolver, verifica en ambas ecuaciones",
+          "En cuadráticas, revisa Δ antes de afirmar cuántas soluciones hay"
+        ]
       }
     ]
   },
@@ -109,24 +169,49 @@
     "area": "Álgebra",
     "title": "Funciones lineales y cuadráticas",
     "duration": "12 min",
-    "practiceKeywords": ["f(x)", "pendiente", "lineal", "cuadratic", "parabol", "vertice", "vértice", "funciones"],
+    "practiceKeywords": [
+      "f(x)",
+      "pendiente",
+      "lineal",
+      "cuadratic",
+      "parabol",
+      "vertice",
+      "vértice",
+      "funciones"
+    ],
     "sections": [
       {
         "heading": "Función lineal",
         "text": "f(x)=mx+n es una recta. m controla la inclinación; n el corte con el eje Y.",
-        "formulas": ["f(x) = mx + n", "m = (y₂−y₁)/(x₂−x₁)"],
+        "formulas": [
+          "f(x) = mx + n",
+          "m = (y₂−y₁)/(x₂−x₁)"
+        ],
         "items": [
           "m>0 creciente; m<0 decreciente; m=0 constante",
-          "Por (0,2) y (4,10): m = 8/4 = 2"
+          "Por (0,2) y (4,10): m = 8/4 = 2 → f(x)=2x+2",
+          "Dos puntos bastan para determinar la recta"
         ]
       },
       {
         "heading": "Función cuadrática",
-        "formulas": ["f(x) = ax² + bx + c", "x_v = −b/(2a)"],
+        "text": "f(x)=ax²+bx+c es una parábola. Usa el vértice para máximos/mínimos.",
+        "formulas": [
+          "f(x) = ax² + bx + c",
+          "x_v = −b/(2a)"
+        ],
         "items": [
           "a>0 abre hacia arriba (mínimo); a<0 hacia abajo (máximo)",
-          "El vértice es el extremo de la parábola",
-          "f(x)=x²−4 corta el eje X en x=±2"
+          "f(x)=x²−4 corta el eje X en x=±2",
+          "El vértice es el extremo de la parábola"
+        ]
+      },
+      {
+        "heading": "Para la PAES",
+        "items": [
+          "Identifica si el gráfico es recta o parábola antes de formular",
+          "Si piden ‘valor máximo’, busca vértice con a<0",
+          "Verifica dominio y recorrido cuando aparezcan restricciones"
         ]
       }
     ]
@@ -136,7 +221,16 @@
     "area": "Números",
     "title": "Porcentaje y proporcionalidad",
     "duration": "10 min",
-    "practiceKeywords": ["%", "porcent", "descuento", "aumento", "proporci", "obrero", "razon", "razón"],
+    "practiceKeywords": [
+      "%",
+      "porcent",
+      "descuento",
+      "aumento",
+      "proporci",
+      "obrero",
+      "razon",
+      "razón"
+    ],
     "sections": [
       {
         "heading": "Porcentaje",
@@ -146,7 +240,9 @@
           "Aumento: N(1 + x/100)",
           "Descuento: N(1 − x/100)"
         ],
-        "items": ["20% de descuento sobre $20.000 → $16.000"]
+        "items": [
+          "20% de descuento sobre $20.000 → $16.000"
+        ]
       },
       {
         "heading": "Directa vs inversa",
@@ -156,6 +252,14 @@
           "Ejemplo inverso: 3 obreros en 12 días → 6 obreros en 6 días",
           "Error típico: aplicar producto cruzado de directa a un caso inverso"
         ]
+      },
+      {
+        "heading": "Para la PAES",
+        "items": [
+          "Aumento de 20% seguido de descuento de 20% NO vuelve al precio original",
+          "20%↑ y luego 20%↓ → factor 1,2×0,8=0,96 (queda 4% menos)",
+          "Lee si el % es “de” o “sobre” el valor inicial"
+        ]
       }
     ]
   },
@@ -164,20 +268,49 @@
     "area": "Probabilidad",
     "title": "Probabilidad y estadística básica",
     "duration": "10 min",
-    "practiceKeywords": ["probabilidad", "P(", "promedio", "mediana", "moda", "dado", "estadistica"],
+    "practiceKeywords": [
+      "probabilidad",
+      "P(",
+      "promedio",
+      "mediana",
+      "moda",
+      "dado",
+      "estadistica"
+    ],
     "sections": [
       {
         "heading": "Probabilidad clásica",
-        "formulas": ["P(A) = favorables/posibles", "0 ≤ P(A) ≤ 1", "P(A)+P(no A)=1"],
-        "items": ["Dado justo, P(>4)=2/6=1/3", "Simplifica siempre la fracción resultante"]
+        "text": "Si los resultados son igualmente posibles, P = favorables/posibles. Siempre simplifica.",
+        "formulas": [
+          "P(A) = favorables/posibles",
+          "0 ≤ P(A) ≤ 1",
+          "P(A)+P(no A)=1"
+        ],
+        "items": [
+          "Dado justo, P(>4)=2/6=1/3",
+          "P(par)=3/6=1/2",
+          "Dos monedas: P(exactamente una cara)=2/4=1/2"
+        ]
       },
       {
         "heading": "Medidas de tendencia central",
+        "text": "Media, mediana y moda no siempre coinciden. Con atípicos, la mediana suele ser más estable.",
         "items": [
           "Promedio = suma/cantidad",
           "Mediana = valor central ordenado",
           "Moda = valor más frecuente",
-          "Con atípicos, la mediana suele representar mejor el centro"
+          "Datos 1,2,2,9 → media=3,5; mediana=2; moda=2"
+        ]
+      },
+      {
+        "heading": "Eventos compuestos (repaso)",
+        "formulas": [
+          "P(A∩B)=P(A)·P(B) si independientes",
+          "P(A∪B)=P(A)+P(B)−P(A∩B)"
+        ],
+        "items": [
+          "Decide independencia antes de multiplicar",
+          "‘Al menos uno’ suele pedirse como 1 − P(ninguno)"
         ]
       }
     ]
@@ -187,13 +320,28 @@
     "area": "Álgebra",
     "title": "Funciones exponenciales y logarítmicas (M2)",
     "duration": "12 min",
-    "practiceKeywords": ["log", "ln", "expon", "e^", "a^", "logarit"],
+    "practiceKeywords": [
+      "log",
+      "ln",
+      "expon",
+      "e^",
+      "a^",
+      "logarit"
+    ],
     "sections": [
       {
         "heading": "Exponencial",
         "text": "f(x)=aˣ (a>0, a≠1). Siempre pasa por (0,1). Si a>1 crece; si 0<a<1 decrece.",
-        "formulas": ["f(x) = aˣ", "f(0) = 1"],
-        "items": ["Modela crecimiento poblacional y decaimiento"]
+        "formulas": [
+          "f(x) = aˣ",
+          "f(0) = 1",
+          "a^(x+y)=aˣ·aʸ"
+        ],
+        "items": [
+          "Modela crecimiento poblacional y decaimiento",
+          "2ˣ nunca es negativa",
+          "Si aˣ=aʸ entonces x=y (a≠1)"
+        ]
       },
       {
         "heading": "Logaritmo",
@@ -202,9 +350,23 @@
           "y = logₐ(x) ↔ aʸ = x",
           "logₐ(1)=0",
           "logₐ(a)=1",
-          "log(xy)=log x + log y"
+          "log(xy)=log x + log y",
+          "log(x/y)=log x − log y",
+          "log(xⁿ)=n·log x"
         ],
-        "items": ["Para resolver aˣ=b, aplica log en ambos lados", "Verifica que la solución quede en el dominio"]
+        "items": [
+          "Para resolver aˣ=b, aplica log en ambos lados",
+          "Verifica que la solución quede en el dominio (argumento > 0)",
+          "log₂(8)=3 porque 2³=8"
+        ]
+      },
+      {
+        "heading": "Para la PAES",
+        "items": [
+          "Cambia todo a la misma base cuando puedas",
+          "Dominio del log: argumento > 0; base > 0 y ≠ 1",
+          "Si aparece eˣ o ln, usa que son inversas"
+        ]
       }
     ]
   },
@@ -213,7 +375,16 @@
     "area": "Geometría",
     "title": "Trigonometría en triángulo rectángulo",
     "duration": "12 min",
-    "practiceKeywords": ["sen", "cos", "tan", "tg", "trig", "opuesto", "adyacente", "hipotenusa"],
+    "practiceKeywords": [
+      "sen",
+      "cos",
+      "tan",
+      "tg",
+      "trig",
+      "opuesto",
+      "adyacente",
+      "hipotenusa"
+    ],
     "sections": [
       {
         "heading": "Razones trigonométricas",
@@ -223,6 +394,11 @@
           "sen α = opuesto/hipotenusa",
           "cos α = adyacente/hipotenusa",
           "tg α = opuesto/adyacente"
+        ],
+        "items": [
+          "Identidad útil: sen²α + cos²α = 1",
+          "tg α = sen α / cos α",
+          "Error típico: invertir opuesto/adyacente"
         ]
       },
       {
@@ -231,7 +407,15 @@
           "30°: sen=1/2, cos=√3/2, tg=√3/3",
           "45°: sen=cos=√2/2, tg=1",
           "60°: sen=√3/2, cos=1/2, tg=√3",
-          "Aplicación: altura = distancia × tg(ángulo de elevación)"
+          "Memoriza la tabla; evita calcular de cero en el ensayo"
+        ]
+      },
+      {
+        "heading": "Aplicaciones",
+        "items": [
+          "Altura = distancia × tg(ángulo de elevación)",
+          "Si conoces hipotenusa y un ángulo, despeja un cateto con sen/cos",
+          "Dibuja siempre el triángulo rectángulo del enunciado"
         ]
       }
     ]
@@ -241,24 +425,53 @@
     "area": "Números",
     "title": "Potencias, raíces y notación científica",
     "duration": "10 min",
-    "practiceKeywords": ["^", "potenc", "raiz", "sqrt", "√", "10^", "cientific", "científic"],
+    "practiceKeywords": [
+      "^",
+      "potenc",
+      "raiz",
+      "sqrt",
+      "√",
+      "10^",
+      "cientific",
+      "científic"
+    ],
     "sections": [
       {
         "heading": "Leyes de exponentes",
-        "formulas": ["aᵐ·aⁿ=aᵐ⁺ⁿ", "aᵐ/aⁿ=aᵐ⁻ⁿ", "(aᵐ)ⁿ=aᵐⁿ", "a⁰=1", "a⁻ⁿ=1/aⁿ"],
+        "text": "Opera primero con la misma base. Si las bases difieren, factoriza o convierte a la misma potencia.",
+        "formulas": [
+          "aᵐ·aⁿ=aᵐ⁺ⁿ",
+          "aᵐ/aⁿ=aᵐ⁻ⁿ",
+          "(aᵐ)ⁿ=aᵐⁿ",
+          "a⁰=1",
+          "a⁻ⁿ=1/aⁿ"
+        ],
         "items": [
           "2³·2²=2⁵=32",
           "a^(1/n)=ⁿ√a",
+          "(3²)³=3⁶=729",
           "No combines bases distintas sin factorizar"
         ]
       },
       {
         "heading": "Notación científica",
-        "formulas": ["N = a × 10ⁿ, con 1 ≤ a < 10"],
+        "text": "Sirve para números muy grandes o muy pequeños. La mantisa a cumple 1 ≤ a < 10.",
+        "formulas": [
+          "N = a × 10ⁿ, con 1 ≤ a < 10"
+        ],
         "items": [
           "3.200.000 = 3,2 × 10⁶",
           "0,00045 = 4,5 × 10⁻⁴",
-          "Al multiplicar/dividir, opera las potencias de 10 por separado"
+          "Al multiplicar: (a×10ᵐ)(b×10ⁿ)= (a·b)×10ᵐ⁺ⁿ",
+          "Normaliza si a·b ≥ 10 (ej.: 3×4=12 → 1,2×10¹ extra)"
+        ]
+      },
+      {
+        "heading": "Para la PAES",
+        "items": [
+          "Convierte raíces a exponentes fraccionarios si facilita",
+          "En notación científica, normaliza la mantisa al final",
+          "Revisa signos en exponentes negativos"
         ]
       }
     ]
@@ -267,8 +480,12 @@
     "id": "recursos-temario",
     "area": "Recursos",
     "title": "Temario oficial M2 (DEMRE)",
-    "duration": "3 min",
-    "practiceKeywords": ["temario", "demre", "admision"],
+    "duration": "5 min",
+    "practiceKeywords": [
+      "temario",
+      "demre",
+      "admision"
+    ],
     "sections": [
       {
         "heading": "Documento oficial",
@@ -276,7 +493,10 @@
         "items": [
           "<a href=\"assets/m2/2027-26-03-19-temario-paes-regular-m2.pdf\" target=\"_blank\" rel=\"noopener\">Descargar temario PAES M2 (PDF)</a>",
           "<a href=\"#/biblioteca\" data-route>Ver todos los materiales PDF</a>",
-          "Ejes: Números, Álgebra y funciones, Geometría, Probabilidad y estadística"
+          "Ejes: Números, Álgebra y funciones, Geometría, Probabilidad y estadística",
+          "Marca en el PDF los temas que aún no dominas",
+          "Prioriza Álgebra/funciones y Geometría si tu diagnóstico sale bajo ahí",
+          "Vuelve a esta checklist después de cada ensayo oficial"
         ]
       }
     ]

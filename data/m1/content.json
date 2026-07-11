@@ -4,7 +4,16 @@
     "area": "Números",
     "title": "Números enteros y racionales",
     "duration": "8 min",
-    "practiceKeywords": ["%", "porcent", "descuento", "aumento", "fracci", "(-", "enteros", "porcentaje"],
+    "practiceKeywords": [
+      "%",
+      "porcent",
+      "descuento",
+      "aumento",
+      "fracci",
+      "(-",
+      "enteros",
+      "porcentaje"
+    ],
     "sections": [
       {
         "heading": "Enteros y orden de operaciones",
@@ -18,8 +27,14 @@
       {
         "heading": "Fracciones",
         "text": "Con el mismo denominador se suman/restan solo los numeradores. Con distinto denominador, busca el mcm.",
-        "formulas": ["a/c + b/c = (a+b)/c", "a/b + c/d = (ad+bc)/(bd)"],
-        "items": ["Ejemplo: 2/5 + 1/5 = 3/5", "Ejemplo: 1/3 + 1/6 = 2/6 + 1/6 = 1/2"]
+        "formulas": [
+          "a/c + b/c = (a+b)/c",
+          "a/b + c/d = (ad+bc)/(bd)"
+        ],
+        "items": [
+          "Ejemplo: 2/5 + 1/5 = 3/5",
+          "Ejemplo: 1/3 + 1/6 = 2/6 + 1/6 = 1/2"
+        ]
       },
       {
         "heading": "Porcentaje",
@@ -42,19 +57,51 @@
     "area": "Números",
     "title": "Potencias y raíces en ℤ y ℚ",
     "duration": "8 min",
-    "practiceKeywords": ["^", "potenc", "raiz", "sqrt", "√", "potencias"],
+    "practiceKeywords": [
+      "^",
+      "potenc",
+      "raiz",
+      "sqrt",
+      "√",
+      "potencias"
+    ],
     "sections": [
       {
         "heading": "Propiedades de potencias",
-        "text": "Con la misma base, al multiplicar se suman exponentes; al elevar una potencia, se multiplican.",
-        "formulas": ["aᵐ · aⁿ = aᵐ⁺ⁿ", "(aᵐ)ⁿ = aᵐⁿ", "a⁰ = 1 (a≠0)", "a⁻ⁿ = 1/aⁿ"],
-        "items": ["2³ · 2² = 2⁵ = 32", "Cuidado: 2³ · 3² no se puede ‘juntar’ en una sola base"]
+        "text": "Con la misma base, al multiplicar se suman exponentes; al elevar una potencia, se multiplican. Nunca combines bases distintas sin factorizar.",
+        "formulas": [
+          "aᵐ · aⁿ = aᵐ⁺ⁿ",
+          "(aᵐ)ⁿ = aᵐⁿ",
+          "a⁰ = 1 (a≠0)",
+          "a⁻ⁿ = 1/aⁿ"
+        ],
+        "items": [
+          "2³ · 2² = 2⁵ = 32",
+          "(2³)² = 2⁶ = 64",
+          "Cuidado: 2³ · 3² no se puede ‘juntar’ en una sola base"
+        ]
       },
       {
         "heading": "Raíces",
         "text": "La raíz cuadrada deshace el cuadrado (para no negativos). Simplifica sacando factores cuadrados perfectos.",
-        "formulas": ["√(a·b) = √a · √b", "√(a²) = |a|"],
-        "items": ["√50 = √(25·2) = 5√2", "√(9/16) = 3/4"]
+        "formulas": [
+          "√(a·b) = √a · √b",
+          "√(a²) = |a|",
+          "ⁿ√(aᵐ) = a^(m/n)"
+        ],
+        "items": [
+          "√50 = √(25·2) = 5√2",
+          "√(9/16) = 3/4",
+          "Error típico: √(a+b) ≠ √a + √b"
+        ]
+      },
+      {
+        "heading": "Para la PAES",
+        "items": [
+          "Reescribe primero con exponentes y después simplifica",
+          "Si hay negativo en base par, revisa el dominio",
+          "Ejemplo tipo: simplifica (√12 · √3)/√4"
+        ]
       }
     ]
   },
@@ -63,7 +110,14 @@
     "area": "Números",
     "title": "Proporcionalidad y regla de tres",
     "duration": "9 min",
-    "practiceKeywords": ["obrero", "proporci", "tardan", "dias", "proporcionalidad", "regla de tres"],
+    "practiceKeywords": [
+      "obrero",
+      "proporci",
+      "tardan",
+      "dias",
+      "proporcionalidad",
+      "regla de tres"
+    ],
     "sections": [
       {
         "heading": "Directa vs inversa",
@@ -77,7 +131,10 @@
       {
         "heading": "Regla de tres inversa (obreros)",
         "text": "Si a obreros demoran b días, c obreros demoran x días: a·b = c·x → x = (a·b)/c.",
-        "formulas": ["Inversa: a·b = c·x", "Directa: a/b = c/x → a·x = b·c"],
+        "formulas": [
+          "Inversa: a·b = c·x",
+          "Directa: a/b = c/x → a·x = b·c"
+        ],
         "items": [
           "Ejemplo: 3 obreros en 12 días → 6 obreros: x = (3·12)/6 = 6 días",
           "Si hubieras hecho directa mal: (12·6)/3 = 24 (incorrecto)"
@@ -90,19 +147,48 @@
     "area": "Álgebra",
     "title": "Ecuaciones y funciones lineales",
     "duration": "9 min",
-    "practiceKeywords": ["resuelve", "ecuacion", "pendiente", "f(x)", "lineal", "ecuaciones", "funciones"],
+    "practiceKeywords": [
+      "resuelve",
+      "ecuacion",
+      "pendiente",
+      "f(x)",
+      "lineal",
+      "ecuaciones",
+      "funciones"
+    ],
     "sections": [
       {
         "heading": "Ecuaciones lineales",
-        "text": "Aísla la incógnita aplicando la operación inversa a ambos lados.",
-        "formulas": ["ax + b = c  →  x = (c − b)/a"],
-        "items": ["3x − 5 = 10 → 3x = 15 → x = 5", "Verifica siempre reemplazando en la ecuación original"]
+        "text": "Aísla la incógnita aplicando la operación inversa a ambos lados. Verifica siempre reemplazando.",
+        "formulas": [
+          "ax + b = c  →  x = (c − b)/a"
+        ],
+        "items": [
+          "3x − 5 = 10 → 3x = 15 → x = 5",
+          "Si hay fracción, multiplica ambos lados por el denominador",
+          "(2x+1)/3 = 5 → 2x+1 = 15 → x = 7"
+        ]
       },
       {
         "heading": "Función lineal",
         "text": "f(x) = mx + n es una recta. m es la pendiente; n el corte con el eje Y.",
-        "formulas": ["f(x) = mx + n", "m = (y₂−y₁)/(x₂−x₁)"],
-        "items": ["m > 0 creciente; m < 0 decreciente", "Por (0,2) y (4,10): m = 8/4 = 2"]
+        "formulas": [
+          "f(x) = mx + n",
+          "m = (y₂−y₁)/(x₂−x₁)"
+        ],
+        "items": [
+          "m > 0 creciente; m < 0 decreciente; m = 0 constante",
+          "Por (0,2) y (4,10): m = 8/4 = 2 → f(x)=2x+2",
+          "El signo de m decide si la recta ‘sube’ o ‘baja’"
+        ]
+      },
+      {
+        "heading": "Errores frecuentes",
+        "items": [
+          "Cambiar de miembro sin cambiar de signo",
+          "Confundir pendiente con el intercepto",
+          "Olvidar que dos puntos bastan para determinar la recta"
+        ]
       }
     ]
   },
@@ -111,24 +197,31 @@
     "area": "Álgebra",
     "title": "Sistemas de ecuaciones 2×2",
     "duration": "8 min",
-    "practiceKeywords": ["sistema", "sistemas", "igualacion", "sustitucion"],
+    "practiceKeywords": [
+      "sistema",
+      "sistemas",
+      "igualacion",
+      "sustitucion"
+    ],
     "sections": [
       {
         "heading": "Métodos",
-        "text": "Un sistema 2×2 busca el par (x,y) que cumple ambas ecuaciones a la vez.",
+        "text": "Un sistema 2×2 busca el par (x,y) que cumple ambas ecuaciones a la vez. Elige el método según cómo estén escritas.",
         "items": [
           "Sustitución: despeja una variable y reemplázala en la otra",
           "Igualación: iguala dos expresiones de la misma variable",
-          "Reducción: suma/resta para eliminar una variable"
+          "Reducción: suma/resta para eliminar una variable",
+          "Ejemplo: x+y=10, x−y=2 → sumando: 2x=12 → x=6, y=4"
         ]
       },
       {
         "heading": "Interpretación gráfica",
+        "text": "Cada ecuación es una recta. La solución es la intersección.",
         "items": [
           "Una solución: rectas secantes",
-          "Sin solución: paralelas",
-          "Infinitas: la misma recta",
-          "Ejemplo: x+y=10, x−y=2 → sumando: 2x=12 → x=6, y=4"
+          "Sin solución: paralelas (mismo m, distinto n)",
+          "Infinitas: la misma recta (proporcionales)",
+          "Si al eliminar obtienes 0=5 → inconsistente; 0=0 → infinitas"
         ]
       }
     ]
@@ -138,18 +231,51 @@
     "area": "Álgebra",
     "title": "Función cuadrática",
     "duration": "9 min",
-    "practiceKeywords": ["cuadratic", "parabol", "vértice", "vertice", "discriminante", "ax²", "x^2"],
+    "practiceKeywords": [
+      "cuadratic",
+      "parabol",
+      "vértice",
+      "vertice",
+      "discriminante",
+      "ax²",
+      "x^2"
+    ],
     "sections": [
       {
         "heading": "Forma y vértice",
-        "text": "f(x)=ax²+bx+c es una parábola. El signo de a decide si abre hacia arriba o abajo.",
-        "formulas": ["f(x) = ax² + bx + c", "x_vértice = −b/(2a)"],
-        "items": ["a > 0: ∪ ; a < 0: ∩", "El vértice es máximo o mínimo según a"]
+        "text": "f(x)=ax²+bx+c es una parábola. El signo de a decide si abre hacia arriba (mínimo) o abajo (máximo).",
+        "formulas": [
+          "f(x) = ax² + bx + c",
+          "x_vértice = −b/(2a)",
+          "y_v = f(x_v)"
+        ],
+        "items": [
+          "a > 0: ∪ (mínimo); a < 0: ∩ (máximo)",
+          "f(x)=x²−4x+3 → x_v=2; y_v=−1",
+          "El vértice es el punto extremo de la parábola"
+        ]
       },
       {
         "heading": "Raíces y discriminante",
-        "formulas": ["Δ = b² − 4ac", "x = (−b ± √Δ)/(2a)"],
-        "items": ["Δ>0 dos raíces; Δ=0 una; Δ<0 ninguna real", "f(x)=x²−4 → ceros en x=±2"]
+        "text": "Las raíces son los cortes con el eje X. El discriminante Δ indica cuántas hay.",
+        "formulas": [
+          "Δ = b² − 4ac",
+          "x = (−b ± √Δ)/(2a)"
+        ],
+        "items": [
+          "Δ>0 dos raíces reales distintas",
+          "Δ=0 una raíz (doble)",
+          "Δ<0 ninguna raíz real",
+          "f(x)=x²−4 → ceros en x=±2"
+        ]
+      },
+      {
+        "heading": "Para la PAES",
+        "items": [
+          "Primero identifica a, b y c; después decide si piden vértice, raíces o rango",
+          "Si dan tabla o gráfico, lee el vértice visualmente",
+          "Error típico: usar −b/2a con signo incorrecto de b"
+        ]
       }
     ]
   },
@@ -158,28 +284,57 @@
     "area": "Geometría",
     "title": "Figuras planas y perímetro",
     "duration": "10 min",
-    "practiceKeywords": ["área", "area", "perímetro", "perimetro", "rectángulo", "rectangulo", "círculo", "circulo", "pitagor", "cateto", "hipotenusa", "areas", "pitagoras"],
+    "practiceKeywords": [
+      "área",
+      "area",
+      "perímetro",
+      "perimetro",
+      "rectángulo",
+      "rectangulo",
+      "círculo",
+      "circulo",
+      "pitagor",
+      "cateto",
+      "hipotenusa",
+      "areas",
+      "pitagoras"
+    ],
     "sections": [
       {
         "heading": "Áreas y perímetros",
+        "text": "Área mide superficie; perímetro, el contorno. En la PAES suelen mezclar ambas para atraparte.",
         "formulas": [
           "Rectángulo: A = b·h , P = 2(b+h)",
           "Triángulo: A = b·h/2",
           "Círculo: A = πr² , P = 2πr"
         ],
-        "items": ["Rectángulo 8×5 → A=40", "No confundas área con perímetro"]
+        "items": [
+          "Rectángulo 8×5 → A=40, P=26",
+          "No confundas área con perímetro",
+          "Si dan diámetro, el radio es la mitad"
+        ]
       },
       {
         "heading": "Pitágoras",
-        "text": "En un triángulo rectángulo, el cuadrado de la hipotenusa es la suma de los cuadrados de los catetos.",
-        "formulas": ["a² + b² = c²"],
-        "items": ["Catetos 6 y 8 → c=10", "Si conoces hipotenusa y un cateto, despeja el otro"]
+        "text": "Solo en triángulos rectángulos: el cuadrado de la hipotenusa es la suma de los cuadrados de los catetos.",
+        "formulas": [
+          "a² + b² = c²"
+        ],
+        "items": [
+          "Catetos 6 y 8 → c=10",
+          "Si conoces hipotenusa y un cateto, despeja el otro",
+          "Verifica: el lado mayor debe ser la hipotenusa"
+        ]
       },
       {
         "heading": "Paralelas y transversal",
         "text": "Si L₁ ∥ L₂ y una transversal las corta, los ángulos correspondientes y los alternos internos son iguales.",
         "diagramType": "paralelas-transversal",
-        "items": ["Correspondientes iguales", "Alternos internos iguales"]
+        "items": [
+          "Correspondientes iguales",
+          "Alternos internos iguales",
+          "Colaterales internos suman 180°"
+        ]
       }
     ]
   },
@@ -188,21 +343,46 @@
     "area": "Geometría",
     "title": "Ángulos y semejanza",
     "duration": "8 min",
-    "practiceKeywords": ["ángulo", "angulo", "complement", "semejan", "homólogo", "homologo", "angulos"],
+    "practiceKeywords": [
+      "ángulo",
+      "angulo",
+      "complement",
+      "semejan",
+      "homólogo",
+      "homologo",
+      "angulos"
+    ],
     "sections": [
       {
         "heading": "Tipos de ángulos",
         "diagramType": "angulos-tipos",
+        "text": "Clasifica primero el ángulo y luego usa relaciones (complemento/suplemento).",
         "items": [
-          "Agudo < 90°, recto = 90°, obtuso > 90°, llano = 180°",
+          "Agudo < 90°, recto = 90°, obtuso entre 90° y 180°, llano = 180°",
           "Complementarios suman 90°; suplementarios suman 180°",
-          "Complementario de 35° = 55°"
+          "Complementario de 35° = 55°; suplementario = 145°",
+          "Opuestos por el vértice son iguales"
         ]
       },
       {
         "heading": "Semejanza",
-        "text": "Triángulos semejantes tienen ángulos iguales y lados homólogos proporcionales.",
-        "items": ["Criterio AA: dos ángulos iguales bastan", "Si la razón de lados es 2:3 y el menor mide 8, el mayor mide 12"]
+        "text": "Triángulos semejantes tienen ángulos iguales y lados homólogos proporcionales. La razón de semejanza escala longitudes.",
+        "items": [
+          "Criterio AA: dos ángulos iguales bastan",
+          "Si la razón de lados es 2:3 y el menor mide 8, el mayor mide 12",
+          "Áreas se escalan con el cuadrado de la razón (si k=2, área ×4)",
+          "Marca lados homólogos antes de armar la proporción"
+        ]
+      },
+      {
+        "heading": "En triángulos",
+        "formulas": [
+          "α + β + γ = 180°"
+        ],
+        "items": [
+          "Si dos ángulos miden 40° y 70°, el tercero mide 70° (isósceles)",
+          "Ángulo exterior = suma de los dos interiores no adyacentes"
+        ]
       }
     ]
   },
@@ -211,17 +391,50 @@
     "area": "Geometría",
     "title": "Cuerpos geométricos y volumen",
     "duration": "8 min",
-    "practiceKeywords": ["volumen", "cilindro", "prisma", "cono", "pirámide", "piramide", "cm³", "cm3"],
+    "practiceKeywords": [
+      "volumen",
+      "cilindro",
+      "prisma",
+      "cono",
+      "pirámide",
+      "piramide",
+      "cm³",
+      "cm3"
+    ],
     "sections": [
       {
         "heading": "Prismas y cilindros",
-        "formulas": ["V prisma = Área base × h", "V cilindro = πr²h"],
-        "items": ["Cilindro r=2, h=5 → V≈3,14×4×5=62,8"]
+        "text": "El volumen de un cuerpo ‘recto’ es área de la base por la altura.",
+        "formulas": [
+          "V prisma = Área base × h",
+          "V cilindro = πr²h"
+        ],
+        "items": [
+          "Cilindro r=2, h=5 → V = π·4·5 = 20π ≈ 62,8",
+          "Prisma rectangular 3×4×5 → V=60",
+          "Unidades: cm³, m³ (volumen); cm² (área)"
+        ]
       },
       {
         "heading": "Pirámides y conos",
-        "formulas": ["V pirámide = (1/3)·Área base·h", "V cono = (1/3)πr²h"],
-        "items": ["El factor 1/3 es el error más frecuente al olvidarlo"]
+        "text": "Pirámides y conos llevan el factor 1/3. Olvidarlo es el error más frecuente.",
+        "formulas": [
+          "V pirámide = (1/3)·Área base·h",
+          "V cono = (1/3)πr²h"
+        ],
+        "items": [
+          "Cono r=3, h=4 → V = (1/3)π·9·4 = 12π",
+          "Si comparan cilindro y cono de misma base y altura: V_cono = (1/3)V_cilindro",
+          "No confundas altura inclinada (generatriz) con altura perpendicular"
+        ]
+      },
+      {
+        "heading": "Para la PAES",
+        "items": [
+          "Dibuja el cuerpo y marca radio/altura antes de reemplazar",
+          "Si dan diámetro, convierte a radio",
+          "Revisa si piden volumen o área total/lateral"
+        ]
       }
     ]
   },
@@ -230,16 +443,48 @@
     "area": "Probabilidad",
     "title": "Probabilidad y promedio",
     "duration": "8 min",
-    "practiceKeywords": ["probabilidad", "P(", "promedio", "dado", "moneda", "media"],
+    "practiceKeywords": [
+      "probabilidad",
+      "P(",
+      "promedio",
+      "dado",
+      "moneda",
+      "media"
+    ],
     "sections": [
       {
         "heading": "Probabilidad clásica",
-        "formulas": ["P(A) = casos favorables / casos posibles", "0 ≤ P(A) ≤ 1"],
-        "items": ["Dado justo, P(>4) = 2/6 = 1/3", "Dos monedas, P(exactamente una cara) = 2/4 = 1/2"]
+        "text": "Cuando todos los resultados son igualmente posibles, la probabilidad es favorable sobre posible.",
+        "formulas": [
+          "P(A) = casos favorables / casos posibles",
+          "0 ≤ P(A) ≤ 1",
+          "P(no A) = 1 − P(A)"
+        ],
+        "items": [
+          "Dado justo, P(>4) = 2/6 = 1/3",
+          "Dos monedas, P(exactamente una cara) = 2/4 = 1/2",
+          "Simplifica siempre la fracción"
+        ]
       },
       {
-        "heading": "Promedio",
-        "items": ["Promedio = suma / cantidad", "Si el promedio de 5,7,9 y x es 8 → x=11"]
+        "heading": "Promedio (media)",
+        "text": "La media aritmética resume un conjunto. Un valor extremo la desplaza mucho.",
+        "formulas": [
+          "media = suma / cantidad"
+        ],
+        "items": [
+          "Si el promedio de 5,7,9 y x es 8 → (21+x)/4=8 → x=11",
+          "Para subir un promedio, el nuevo valor debe ser mayor que el promedio actual",
+          "No confundas promedio con mediana"
+        ]
+      },
+      {
+        "heading": "Errores típicos",
+        "items": [
+          "Contar mal los casos posibles (olvidar orden o repetición)",
+          "Sumar probabilidades de eventos no excluyentes sin restar la intersección",
+          "Usar porcentajes sin convertir a fracción o decimal"
+        ]
       }
     ]
   },
@@ -248,20 +493,36 @@
     "area": "Probabilidad",
     "title": "Estadística descriptiva y gráficos",
     "duration": "8 min",
-    "practiceKeywords": ["mediana", "moda", "media", "histograma", "cuartil", "estadistica", "estadística"],
+    "practiceKeywords": [
+      "mediana",
+      "moda",
+      "media",
+      "histograma",
+      "cuartil",
+      "estadistica",
+      "estadística"
+    ],
     "sections": [
       {
         "heading": "Medidas de tendencia central",
+        "text": "Media, mediana y moda resumen el centro de distinta forma. Elige según la forma de los datos.",
         "items": [
-          "Media: sensible a valores extremos",
+          "Media: suma/n; sensible a valores extremos",
           "Mediana: valor central ordenado (mejor con atípicos)",
           "Moda: valor más frecuente",
-          "Datos 2,4,4,6 → mediana = 4"
+          "Datos 2,4,4,6 → media=4; mediana=4; moda=4",
+          "Datos 2,3,4,100 → media alta; mediana=3,5 más representativa"
         ]
       },
       {
         "heading": "Gráficos",
-        "items": ["Histograma: frecuencias por intervalo", "Diagrama de caja: cuartiles y extremos", "Lee siempre los ejes y las unidades"]
+        "text": "En la PAES casi siempre hay un gráfico o tabla. Lee ejes, unidades y leyenda antes de calcular.",
+        "items": [
+          "Histograma: frecuencias por intervalo",
+          "Diagrama de caja: cuartiles, mediana y extremos",
+          "Gráfico de barras: categorías discretas",
+          "Pregunta tip: ¿qué medida representa mejor el centro si hay un outlier?"
+        ]
       }
     ]
   },
@@ -270,16 +531,41 @@
     "area": "Probabilidad",
     "title": "Probabilidad compuesta",
     "duration": "8 min",
-    "practiceKeywords": ["compuesta", "independiente", "condicional", "intersección", "unión", "y ", " o "],
+    "practiceKeywords": [
+      "compuesta",
+      "independiente",
+      "condicional",
+      "intersección",
+      "unión",
+      "y ",
+      " o "
+    ],
     "sections": [
       {
         "heading": "Eventos compuestos",
-        "text": "Para eventos independientes, P(A y B) = P(A)·P(B). Para la unión sin exclusión mutua: P(A o B) = P(A)+P(B)−P(A y B).",
+        "text": "Primero decide si los eventos son independientes o excluyentes. Eso define la fórmula.",
         "formulas": [
           "P(A ∩ B) = P(A)·P(B) (independientes)",
-          "P(A ∪ B) = P(A)+P(B)−P(A ∩ B)"
+          "P(A ∪ B) = P(A)+P(B)−P(A ∩ B)",
+          "Si excluyentes: P(A ∩ B)=0 → P(A ∪ B)=P(A)+P(B)"
         ],
-        "items": ["Identifica si los eventos se afectan mutuamente antes de multiplicar"]
+        "items": [
+          "Independientes: el resultado de uno no cambia al otro (dos monedas)",
+          "Excluyentes: no pueden ocurrir a la vez (sacar 1 y 6 en un mismo dado)",
+          "Ejemplo: P(cara)=1/2; P(dos caras)=1/4"
+        ]
+      },
+      {
+        "heading": "Condicional (idea)",
+        "text": "P(A|B) es la probabilidad de A sabiendo que ocurrió B. Se reduce el espacio muestral.",
+        "formulas": [
+          "P(A|B) = P(A ∩ B)/P(B)"
+        ],
+        "items": [
+          "Si ya salió un as en una carta, el espacio cambia para la siguiente",
+          "Con reposición: independientes; sin reposición: dependientes",
+          "Lee con cuidado: ‘al menos uno’, ‘exactamente’, ‘ambos’"
+        ]
       }
     ]
   }

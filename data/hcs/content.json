@@ -3,8 +3,17 @@
     "id": "hcs-formato",
     "area": "Historia y Ciencias Sociales",
     "title": "Formato y habilidades de la prueba",
-    "duration": "8 min",
-    "practiceKeywords": ["fuente", "mapa", "grafico", "gráfico", "argumento", "perspectiva", "localizar", "analizar"],
+    "duration": "10 min",
+    "practiceKeywords": [
+      "fuente",
+      "mapa",
+      "grafico",
+      "gráfico",
+      "argumento",
+      "perspectiva",
+      "localizar",
+      "analizar"
+    ],
     "sections": [
       {
         "heading": "Estructura PAES HCS",
@@ -25,6 +34,15 @@
           "Aplicar conceptos a situaciones concretas",
           "Tip: primero clasifica la fuente (¿qué tipo de documento es?) y luego responde"
         ]
+      },
+      {
+        "heading": "Cómo enfrentar una fuente",
+        "items": [
+          "Lee el título, la fecha y el origen del documento",
+          "Pregunta: ¿quién habla? ¿con qué interés?",
+          "En mapas/gráficos: unidad, escala y tendencia antes del cálculo",
+          "Descarta alternativas que contradicen la fuente aunque ‘suenen’ correctas"
+        ]
       }
     ]
   },
@@ -33,7 +51,19 @@
     "area": "Historia",
     "title": "Chile en el siglo XIX: formación del Estado",
     "duration": "12 min",
-    "practiceKeywords": ["independencia", "constitucion", "1833", "ohiggins", "o'higgins", "salitr", "republic", "xix", "1810", "1818", "1879"],
+    "practiceKeywords": [
+      "independencia",
+      "constitucion",
+      "1833",
+      "ohiggins",
+      "o'higgins",
+      "salitr",
+      "republic",
+      "xix",
+      "1810",
+      "1818",
+      "1879"
+    ],
     "sections": [
       {
         "heading": "Ideas clave",
@@ -53,6 +83,15 @@
           "Distingue hechos de interpretaciones historiográficas",
           "Ejemplo de pregunta: ¿qué problema político resolvía la Constitución de 1833?"
         ]
+      },
+      {
+        "heading": "Hitos que suelen aparecer",
+        "items": [
+          "Guerra del Pacífico (1879) y consolidación territorial del norte",
+          "Ocupación de la Araucanía y expansión hacia el sur",
+          "Ciclo del salitre: bonanza, dependencia y crisis posterior",
+          "No memorices solo el año: relaciona con el modelo de Estado"
+        ]
       }
     ]
   },
@@ -61,7 +100,18 @@
     "area": "Historia",
     "title": "Chile siglo XX: crisis, reformas y dictadura",
     "duration": "12 min",
-    "practiceKeywords": ["1973", "dictadura", "unidad popular", "democracia", "transicion", "transición", "cobre", "reforma", "derechos humanos", "xx"],
+    "practiceKeywords": [
+      "1973",
+      "dictadura",
+      "unidad popular",
+      "democracia",
+      "transicion",
+      "transición",
+      "cobre",
+      "reforma",
+      "derechos humanos",
+      "xx"
+    ],
     "sections": [
       {
         "heading": "Hitos principales",
@@ -81,6 +131,15 @@
           "Reforma vs revolución",
           "Economía de mercado vs intervención estatal"
         ]
+      },
+      {
+        "heading": "Para la PAES",
+        "items": [
+          "Distingue causas estructurales (economía, desigualdad) de desencadenantes",
+          "Dictadura: represión, transformación económica y cierre político",
+          "Transición: recuperación democrática con legados institucionales",
+          "Pregunta tipo: ¿qué continuidad/cambio hay entre 1970 y 1990?"
+        ]
       }
     ]
   },
@@ -89,7 +148,18 @@
     "area": "Geografía",
     "title": "Geografía de Chile y globalización",
     "duration": "10 min",
-    "practiceKeywords": ["mapa", "clima", "poblacion", "población", "urban", "riesgo", "sismo", "globaliz", "territorio", "zona"],
+    "practiceKeywords": [
+      "mapa",
+      "clima",
+      "poblacion",
+      "población",
+      "urban",
+      "riesgo",
+      "sismo",
+      "globaliz",
+      "territorio",
+      "zona"
+    ],
     "sections": [
       {
         "heading": "Chile: diversidad territorial",
@@ -107,6 +177,15 @@
           "Urbanización y problemas metropolitanos (congestión, segregación)",
           "Lee siempre la leyenda de mapas, climogramas y gráficos demográficos"
         ]
+      },
+      {
+        "heading": "Lectura de mapas y datos",
+        "items": [
+          "Ubica coordenadas, leyenda y orientación del mapa",
+          "Climogramas: temperatura (línea) vs precipitación (barras)",
+          "Densidad poblacional ≠ tamaño absoluto de población",
+          "Globalización: conecta un fenómeno local con un flujo mundial"
+        ]
       }
     ]
   },
@@ -115,7 +194,18 @@
     "area": "Educación ciudadana",
     "title": "Democracia, instituciones y participación",
     "duration": "10 min",
-    "practiceKeywords": ["democracia", "constitucion", "constitución", "derecho", "poder", "eleccion", "elección", "ciudadan", "estado de derecho", "particip"],
+    "practiceKeywords": [
+      "democracia",
+      "constitucion",
+      "constitución",
+      "derecho",
+      "poder",
+      "eleccion",
+      "elección",
+      "ciudadan",
+      "estado de derecho",
+      "particip"
+    ],
     "sections": [
       {
         "heading": "Sistema político chileno",
@@ -133,6 +223,15 @@
           "Medios de comunicación y opinión pública",
           "Diversidad, inclusión y no discriminación",
           "Pregunta tipo: ¿qué principio del Estado de derecho limita el poder arbitrario?"
+        ]
+      },
+      {
+        "heading": "Para la PAES",
+        "items": [
+          "Separación de poderes limita el poder arbitrario",
+          "Derechos fundamentales vs deberes ciudadanos",
+          "Participación no se reduce al voto: también fiscalización y organización",
+          "Si dan un caso, identifica el principio (igualdad, legalidad, pluralismo)"
         ]
       }
     ]

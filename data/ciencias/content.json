@@ -3,8 +3,18 @@
     "id": "ci-formato",
     "area": "Ciencias",
     "title": "Formato de la prueba de Ciencias PAES",
-    "duration": "8 min",
-    "practiceKeywords": ["experimento", "grafico", "gráfico", "modelo", "hipotesis", "hipótesis", "variable", "conclusion", "conclusión"],
+    "duration": "10 min",
+    "practiceKeywords": [
+      "experimento",
+      "grafico",
+      "gráfico",
+      "modelo",
+      "hipotesis",
+      "hipótesis",
+      "variable",
+      "conclusion",
+      "conclusión"
+    ],
     "sections": [
       {
         "heading": "Estructura",
@@ -25,6 +35,15 @@
           "Evaluar procedimientos y conclusiones",
           "Tip: identifica variable independiente, dependiente y controladas"
         ]
+      },
+      {
+        "heading": "Cómo leer un experimento",
+        "items": [
+          "Variable independiente: la que manipulas",
+          "Variable dependiente: la que mides",
+          "Controladas: se mantienen constantes",
+          "Una conclusión válida debe apoyarse en los datos, no en expectativas"
+        ]
       }
     ]
   },
@@ -33,7 +52,21 @@
     "area": "Biología",
     "title": "La célula y los procesos vitales",
     "duration": "12 min",
-    "practiceKeywords": ["celula", "célula", "mitocondria", "cloroplasto", "fotosintesis", "fotosíntesis", "respiracion", "respiración", "membran", "procariota", "eucariota", "adn", "ATP"],
+    "practiceKeywords": [
+      "celula",
+      "célula",
+      "mitocondria",
+      "cloroplasto",
+      "fotosintesis",
+      "fotosíntesis",
+      "respiracion",
+      "respiración",
+      "membran",
+      "procariota",
+      "eucariota",
+      "adn",
+      "ATP"
+    ],
     "sections": [
       {
         "heading": "Organización celular",
@@ -55,6 +88,15 @@
           "Ambos procesos están complementarios en el flujo de materia y energía",
           "Homeostasis: mantener condiciones internas estables"
         ]
+      },
+      {
+        "heading": "Para la PAES",
+        "items": [
+          "Si el gráfico muestra O₂ producido con luz, piensa en fotosíntesis",
+          "Si mencionan ATP y mitocondria, es respiración celular",
+          "Celula animal ≠ vegetal: la vegetal tiene pared y cloroplastos",
+          "Membrana = control de entrada/salida (permeabilidad selectiva)"
+        ]
       }
     ]
   },
@@ -63,7 +105,22 @@
     "area": "Biología",
     "title": "Genética, evolución y ecosistemas",
     "duration": "12 min",
-    "practiceKeywords": ["gen", "adn", "cromosom", "dominante", "recesivo", "seleccion", "selección", "ecosistema", "trofica", "trófica", "mutacion", "mutación", "evolucion", "evolución"],
+    "practiceKeywords": [
+      "gen",
+      "adn",
+      "cromosom",
+      "dominante",
+      "recesivo",
+      "seleccion",
+      "selección",
+      "ecosistema",
+      "trofica",
+      "trófica",
+      "mutacion",
+      "mutación",
+      "evolucion",
+      "evolución"
+    ],
     "sections": [
       {
         "heading": "Genética básica",
@@ -82,6 +139,15 @@
           "Relaciones: competencia, depredación, mutualismo",
           "Impacto humano: contaminación y pérdida de biodiversidad"
         ]
+      },
+      {
+        "heading": "Para la PAES",
+        "items": [
+          "Selección natural no ‘elige a propósito’: favorece rasgos ya existentes",
+          "En una red trófica, la energía disminuye hacia los niveles superiores",
+          "Genotipo vs fenotipo: una mutación puede no verse si es recesiva",
+          "Impacto humano: interpreta tablas de biodiversidad o contaminación"
+        ]
       }
     ]
   },
@@ -90,12 +156,29 @@
     "area": "Física",
     "title": "Mecánica: movimiento y fuerzas",
     "duration": "12 min",
-    "practiceKeywords": ["velocidad", "aceleracion", "aceleración", "newton", "fuerza", "MRU", "MRUA", "energia", "energía", "trabajo", "ohm", "m/s"],
+    "practiceKeywords": [
+      "velocidad",
+      "aceleracion",
+      "aceleración",
+      "newton",
+      "fuerza",
+      "MRU",
+      "MRUA",
+      "energia",
+      "energía",
+      "trabajo",
+      "ohm",
+      "m/s"
+    ],
     "sections": [
       {
         "heading": "Cinemática",
         "text": "Describe el movimiento sin preguntar por sus causas. Distingue MRU (a=0) de MRUA (a constante).",
-        "formulas": ["v = Δx/Δt", "a = Δv/Δt", "MRUA: x = v₀t + (1/2)at²"],
+        "formulas": [
+          "v = Δx/Δt",
+          "a = Δv/Δt",
+          "MRUA: x = v₀t + (1/2)at²"
+        ],
         "items": [
           "Gráfico x-t: pendiente = velocidad",
           "Gráfico v-t: pendiente = aceleración; área ≈ desplazamiento"
@@ -103,12 +186,38 @@
       },
       {
         "heading": "Dinámica y energía",
-        "formulas": ["F = m·a", "P = m·g", "Ec = (1/2)mv²", "Ep = mgh"],
+        "formulas": [
+          "F = m·a",
+          "P = m·g",
+          "Ec = (1/2)mv²",
+          "Ep = mgh"
+        ],
         "items": [
           "1ª ley: inercia",
           "2ª ley: F=ma",
           "3ª ley: acción-reacción",
           "Trabajo = fuerza × desplazamiento (en la dirección de la fuerza)"
+        ]
+      },
+      {
+        "heading": "Para la PAES",
+        "items": [
+          "Primero clasifica: ¿te dan x-t, v-t o fuerzas?",
+          "MRU: v constante; MRUA: a constante",
+          "Peso P=mg no es lo mismo que masa m",
+          "Conservación de energía: Ec+Ep se mantiene si no hay fricción/trabajo externo"
+        ]
+      },
+      {
+        "heading": "Electricidad básica (repaso frecuente)",
+        "formulas": [
+          "V = I·R (Ohm)",
+          "P = V·I"
+        ],
+        "items": [
+          "Mayor resistencia → menor corriente (mismo V)",
+          "Circuitos serie: misma I; paralelo: mismo V",
+          "Si aparece Ohm en el banco, vuelve a V=IR"
         ]
       }
     ]
@@ -118,7 +227,24 @@
     "area": "Química",
     "title": "Estructura atómica y enlaces",
     "duration": "12 min",
-    "practiceKeywords": ["atomo", "átomo", "proton", "electrón", "neutron", "mol", "enlace", "ionico", "iónico", "covalente", "pH", "acido", "ácido", "reaccion", "reacción", "estequiometr"],
+    "practiceKeywords": [
+      "atomo",
+      "átomo",
+      "proton",
+      "electrón",
+      "neutron",
+      "mol",
+      "enlace",
+      "ionico",
+      "iónico",
+      "covalente",
+      "pH",
+      "acido",
+      "ácido",
+      "reaccion",
+      "reacción",
+      "estequiometr"
+    ],
     "sections": [
       {
         "heading": "Átomo y tabla periódica",
@@ -137,6 +263,15 @@
           "Mol y masa molar para estequiometría",
           "Balancea átomos a ambos lados de la ecuación",
           "pH: ácidos <7, neutro =7, bases >7"
+        ]
+      },
+      {
+        "heading": "Para la PAES",
+        "items": [
+          "Z = protones; A − Z = neutrones",
+          "Iones: pierden/ganan electrones (carga)",
+          "Balancea primero átomos, después verifica coeficientes",
+          "pH: cada unidad es ×10 en [H⁺]; no es escala lineal ‘suave’"
         ]
       }
     ]

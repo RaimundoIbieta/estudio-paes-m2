@@ -3,8 +3,18 @@
     "id": "cl-habilidades",
     "area": "Competencia Lectora",
     "title": "Habilidades evaluadas en la PAES",
-    "duration": "10 min",
-    "practiceKeywords": ["localizar", "interpretar", "evaluar", "integrar", "idea principal", "proposito", "propósito", "inferen", "passage"],
+    "duration": "12 min",
+    "practiceKeywords": [
+      "localizar",
+      "interpretar",
+      "evaluar",
+      "integrar",
+      "idea principal",
+      "proposito",
+      "propósito",
+      "inferen",
+      "passage"
+    ],
     "sections": [
       {
         "heading": "Las 4 habilidades (DEMRE)",
@@ -22,7 +32,8 @@
           "“Según el texto…” o “se menciona…” → suele ser localizar",
           "“Se puede inferir…” / “el autor sugiere…” → interpretar",
           "“La estrategia del autor…” / “la evidencia más sólida…” → evaluar",
-          "“En relación con…” / comparar textos → integrar"
+          "“En relación con…” / comparar textos → integrar",
+          "Si dudas, vuelve al verbo del enunciado: localizar ≠ opinar"
         ]
       },
       {
@@ -30,7 +41,8 @@
         "items": [
           "65 preguntas de alternativa",
           "2 horas 30 minutos",
-          "Textos literarios, no literarios y multimodales"
+          "Textos literarios, no literarios y multimodales",
+          "Administra tiempo: no te quedes atrapado en un solo pasaje"
         ]
       }
     ]
@@ -40,7 +52,16 @@
     "area": "Competencia Lectora",
     "title": "Estrategias de lectura",
     "duration": "12 min",
-    "practiceKeywords": ["contexto", "significa", "palabra", "idea principal", "inferen", "argumento", "autor", "passage"],
+    "practiceKeywords": [
+      "contexto",
+      "significa",
+      "palabra",
+      "idea principal",
+      "inferen",
+      "argumento",
+      "autor",
+      "passage"
+    ],
     "sections": [
       {
         "heading": "Antes de responder",
@@ -48,7 +69,8 @@
         "items": [
           "Lee la pregunta y las alternativas antes de releer el párrafo clave",
           "Subraya datos: causas, consecuencias, contrastes, conectores",
-          "Separa hecho (verificable) de opinión (valoración del autor)"
+          "Separa hecho (verificable) de opinión (valoración del autor)",
+          "Busca anáforas: ‘esto’, ‘ello’, ‘dicho fenómeno’ remiten a algo previo"
         ]
       },
       {
@@ -57,7 +79,8 @@
           "Idea principal o propósito global del texto",
           "Significado de una palabra/expresión en contexto",
           "Inferencias: lo que se deduce sin estar dicho literalmente",
-          "Evaluación del argumento: premisa, evidencia, conclusión"
+          "Evaluación del argumento: premisa, evidencia, conclusión",
+          "Función de un párrafo o de un recurso retórico"
         ]
       },
       {
@@ -65,7 +88,8 @@
         "items": [
           "Elegir una opción verdadera en general, pero no apoyada por el texto",
           "Quedarse con una frase aislada e ignorar el párrafo completo",
-          "Confundir tema (“de qué habla”) con idea principal (“qué afirma”)"
+          "Confundir tema (“de qué habla”) con idea principal (“qué afirma”)",
+          "Marcar la opción más ‘extrema’ cuando el texto es matizado"
         ]
       }
     ]

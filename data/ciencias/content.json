@@ -4,23 +4,26 @@
     "area": "Ciencias",
     "title": "Formato de la prueba de Ciencias PAES",
     "duration": "8 min",
+    "practiceKeywords": ["experimento", "grafico", "gráfico", "modelo", "hipotesis", "hipótesis", "variable", "conclusion", "conclusión"],
     "sections": [
       {
         "heading": "Estructura",
+        "text": "Ciencias integra Biología, Física y Química. Además del contenido, evalúa si sabes leer un experimento o un gráfico.",
         "items": [
           "80 preguntas de alternativa",
           "2 horas de duración",
           "Tres disciplinas: Biología, Física y Química",
-          "Contenidos de enseñanza media según temario DEMRE"
+          "Temario DEMRE de enseñanza media"
         ]
       },
       {
         "heading": "Habilidades",
         "items": [
-          "Reconocer conceptos y leyes científicas",
+          "Reconocer conceptos y leyes",
           "Aplicar modelos a situaciones nuevas",
           "Analizar datos experimentales y gráficos",
-          "Evaluar procedimientos y conclusiones"
+          "Evaluar procedimientos y conclusiones",
+          "Tip: identifica variable independiente, dependiente y controladas"
         ]
       }
     ]
@@ -29,22 +32,28 @@
     "id": "ci-bio-celula",
     "area": "Biología",
     "title": "La célula y los procesos vitales",
-    "duration": "14 min",
+    "duration": "12 min",
+    "practiceKeywords": ["celula", "célula", "mitocondria", "cloroplasto", "fotosintesis", "fotosíntesis", "respiracion", "respiración", "membran", "procariota", "eucariota", "adn", "ATP"],
     "sections": [
       {
         "heading": "Organización celular",
+        "text": "Toda célula tiene membrana y material genético. La presencia de núcleo distingue eucariotas de procariotas.",
         "items": [
-          "Célula procariota vs. eucariota",
-          "Orgánulos: núcleo, mitocondria, cloroplasto, ribosomas, membrana",
-          "Teoría celular: todas las células provienen de células"
+          "Procariota: sin núcleo (bacterias)",
+          "Eucariota: núcleo definido (animal, vegetal, hongos)",
+          "Orgánulos clave: mitocondria (ATP), cloroplasto (fotosíntesis), ribosoma (proteínas)"
         ]
       },
       {
         "heading": "Metabolismo",
+        "formulas": [
+          "Fotosíntesis: CO₂ + H₂O + luz → glucosa + O₂",
+          "Respiración: glucosa + O₂ → CO₂ + H₂O + ATP"
+        ],
         "items": [
-          "Fotosíntesis: CO₂ + H₂O + luz → glucosa + O₂ (cloroplastos)",
-          "Respiración celular: glucosa + O₂ → CO₂ + H₂O + ATP (mitocondrias)",
-          "Homeostasis y transporte a través de membranas"
+          "Fotosíntesis ocurre en cloroplastos; respiración en mitocondrias",
+          "Ambos procesos están complementarios en el flujo de materia y energía",
+          "Homeostasis: mantener condiciones internas estables"
         ]
       }
     ]
@@ -53,23 +62,25 @@
     "id": "ci-bio-evolucion",
     "area": "Biología",
     "title": "Genética, evolución y ecosistemas",
-    "duration": "14 min",
+    "duration": "12 min",
+    "practiceKeywords": ["gen", "adn", "cromosom", "dominante", "recesivo", "seleccion", "selección", "ecosistema", "trofica", "trófica", "mutacion", "mutación", "evolucion", "evolución"],
     "sections": [
       {
         "heading": "Genética básica",
+        "text": "El ADN contiene genes. El genotipo es la información genética; el fenotipo, la expresión observable.",
         "items": [
-          "ADN, genes y cromosomas",
-          "Herencia: dominante, recesivo, genotipo y fenotipo",
-          "Mutaciones y variabilidad"
+          "Dominante vs recesivo",
+          "Mutaciones aportan variabilidad",
+          "Cromosomas son ADN empaquetado"
         ]
       },
       {
         "heading": "Evolución y ecología",
         "items": [
-          "Selección natural y adaptación",
-          "Cadenas y redes tróficas",
-          "Relaciones ecológicas: competencia, depredación, mutualismo",
-          "Impacto humano: contaminación, pérdida de biodiversidad"
+          "Selección natural favorece rasgos que aumentan sobrevivencia/reproducción",
+          "Cadenas y redes tróficas: flujo de energía",
+          "Relaciones: competencia, depredación, mutualismo",
+          "Impacto humano: contaminación y pérdida de biodiversidad"
         ]
       }
     ]
@@ -78,22 +89,26 @@
     "id": "ci-fis-mecanica",
     "area": "Física",
     "title": "Mecánica: movimiento y fuerzas",
-    "duration": "14 min",
+    "duration": "12 min",
+    "practiceKeywords": ["velocidad", "aceleracion", "aceleración", "newton", "fuerza", "MRU", "MRUA", "energia", "energía", "trabajo", "ohm", "m/s"],
     "sections": [
       {
         "heading": "Cinemática",
+        "text": "Describe el movimiento sin preguntar por sus causas. Distingue MRU (a=0) de MRUA (a constante).",
+        "formulas": ["v = Δx/Δt", "a = Δv/Δt", "MRUA: x = v₀t + (1/2)at²"],
         "items": [
-          "Posición, velocidad y aceleración",
-          "Movimiento rectilíneo uniforme (MRU) y uniformemente acelerado (MRUA)",
-          "Lectura de gráficos posición-tiempo y velocidad-tiempo"
+          "Gráfico x-t: pendiente = velocidad",
+          "Gráfico v-t: pendiente = aceleración; área ≈ desplazamiento"
         ]
       },
       {
-        "heading": "Dinámica",
+        "heading": "Dinámica y energía",
+        "formulas": ["F = m·a", "P = m·g", "Ec = (1/2)mv²", "Ep = mgh"],
         "items": [
-          "Leyes de Newton: inercia, F = m·a, acción-reacción",
-          "Peso, fuerza normal, roce",
-          "Trabajo, energía cinética y potencial"
+          "1ª ley: inercia",
+          "2ª ley: F=ma",
+          "3ª ley: acción-reacción",
+          "Trabajo = fuerza × desplazamiento (en la dirección de la fuerza)"
         ]
       }
     ]
@@ -102,23 +117,26 @@
     "id": "ci-quim-estructura",
     "area": "Química",
     "title": "Estructura atómica y enlaces",
-    "duration": "14 min",
+    "duration": "12 min",
+    "practiceKeywords": ["atomo", "átomo", "proton", "electrón", "neutron", "mol", "enlace", "ionico", "iónico", "covalente", "pH", "acido", "ácido", "reaccion", "reacción", "estequiometr"],
     "sections": [
       {
         "heading": "Átomo y tabla periódica",
+        "text": "El número atómico (Z) es la cantidad de protones. El número másico (A) es protones + neutrones.",
         "items": [
-          "Protones, neutrones y electrones",
-          "Número atómico y másico",
-          "Grupos y periodos: metales, no metales, gases nobles"
+          "Electrones = protones en un átomo neutro",
+          "Grupos: columnas; periodos: filas",
+          "Metales (izquierda), no metales (derecha), gases nobles (grupo 18)"
         ]
       },
       {
-        "heading": "Enlaces y reacciones",
+        "heading": "Enlaces, mol y reacciones",
         "items": [
-          "Enlace iónico, covalente y metálico",
-          "Fórmulas químicas y balance de ecuaciones",
-          "Mol, masa molar y estequiometría básica",
-          "Ácidos, bases y pH (introducción)"
+          "Iónico: metal + no metal (transferencia de electrones)",
+          "Covalente: no metales (comparten electrones)",
+          "Mol y masa molar para estequiometría",
+          "Balancea átomos a ambos lados de la ecuación",
+          "pH: ácidos <7, neutro =7, bases >7"
         ]
       }
     ]

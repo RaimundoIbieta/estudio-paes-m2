@@ -3,68 +3,65 @@
     "id": "geometria-angulos",
     "area": "Geometría",
     "title": "Ángulos y rectas paralelas",
-    "duration": "15 min",
+    "duration": "10 min",
+    "practiceKeywords": ["angulo", "ángulo", "grados", "paralela", "transversal", "complement", "suplement"],
     "sections": [
       {
         "heading": "Clasificación de ángulos",
+        "text": "En M2 conviene memorizar nombres y relaciones: complementarios suman 90° y suplementarios 180°. Un error típico es confundir ambos.",
         "diagramType": "angulos-tipos",
         "items": [
-          "Agudo: entre 0° y 90°",
-          "Recto: 90°",
-          "Obtuso: entre 90° y 180°",
-          "Suplementarios: suman 180°",
-          "Complementarios: suman 90°"
+          "Agudo < 90°, recto = 90°, obtuso entre 90° y 180°, llano = 180°",
+          "Complementario de 35° = 55°; suplementario de 35° = 145°",
+          "Ángulos opuestos por el vértice son iguales"
         ]
       },
       {
-        "heading": "Rectas paralelas y transversal",
-        "text": "Cuando L₁ ∥ L₂ y una transversal T las corta, se forman 8 ángulos numerados del 1 al 8.",
+        "heading": "Paralelas cortadas por transversal",
+        "text": "Si L₁ ∥ L₂ y una transversal las corta, se forman 8 ángulos. Correspondientes y alternos internos son iguales; colaterales internos suman 180°.",
         "diagramType": "paralelas-transversal",
         "items": [
-          "Alternos internos (iguales): ∠4 = ∠5 y ∠3 = ∠6",
-          "Alternos externos (iguales): ∠1 = ∠8 y ∠2 = ∠7",
-          "Correspondientes (iguales): ∠1=∠5, ∠2=∠6, ∠3=∠7, ∠4=∠8",
-          "Colaterales (suman 180°): ∠4+∠5=180° y ∠3+∠6=180°"
+          "Correspondientes iguales (misma posición relativa)",
+          "Alternos internos iguales (entre las paralelas, lados opuestos)",
+          "Colaterales internos: suman 180°",
+          "Ejemplo: si un correspondiente mide 110°, su colateral interno mide 70°"
         ]
       },
       {
         "heading": "En triángulos",
-        "items": [
-          "Suma de ángulos interiores: α + β + γ = 180°",
-          "Ángulo exterior = suma de los dos interiores no adyacentes"
-        ]
+        "formulas": ["α + β + γ = 180°", "Ángulo exterior = suma de los dos interiores no adyacentes"],
+        "items": ["Si dos ángulos miden 40° y 65°, el tercero mide 75°"]
       }
-    ],
-    "practiceKeywords": [
-      "angulo",
-      "grados",
-      "paralela",
-      "ángulo"
     ]
   },
   {
     "id": "geometria-triangulos",
     "area": "Geometría",
     "title": "Triángulos y cuadriláteros",
-    "duration": "20 min",
+    "duration": "12 min",
+    "practiceKeywords": ["triangulo", "triángulo", "pitagor", "cateto", "hipotenusa", "area", "área", "trapecio", "rombo", "rectangulo", "rectángulo"],
     "sections": [
       {
-        "heading": "Clasificación de triángulos",
+        "heading": "Clasificación y casos notables",
         "diagramType": "triangulo-rectangulo",
         "items": [
           "Por lados: equilátero, isósceles, escaleno",
           "Por ángulos: acutángulo, rectángulo, obtusángulo",
-          "Triángulo 30°-60°-90°: lados a, a√3 y 2a",
-          "Triángulo 45°-45°-90°: catetos a, a; hipotenusa a√2"
+          "30°-60°-90°: lados a, a√3, 2a",
+          "45°-45°-90°: catetos a, a; hipotenusa a√2"
         ]
       },
       {
-        "heading": "Áreas",
+        "heading": "Áreas y Pitágoras",
         "formulas": [
-          "Triángulo: A = (base × altura) / 2",
-          "Rectángulo: A = b × h",
-          "Trapecio: A = (B + b) × h / 2",
-          "Círculo: A = πr²"
+          "Triángulo: A = (b·h)/2",
+          "Trapecio: A = (B+b)·h/2",
+          "Círculo: A = πr²",
+          "Pitágoras: a² + b² = c²"
+        ],
+        "items": [
+          "Catetos 6 y 8 → hipotenusa 10",
+          "No uses Pitágoras si el triángulo no es rectángulo"
         ]
       },
       {
@@ -73,85 +70,63 @@
           "Paralelogramo: lados opuestos iguales y paralelos",
           "Rombo: 4 lados iguales; diagonales perpendiculares",
           "Rectángulo: 4 ángulos rectos",
-          "Trapecio: un par de lados paralelos"
+          "Trapecio: exactamente un par de lados paralelos"
         ]
       }
-    ],
-    "practiceKeywords": [
-      "angulo",
-      "grados",
-      "paralela",
-      "pitagor",
-      "semejan",
-      "triangulo",
-      "triángulo",
-      "ángulo"
     ]
   },
   {
     "id": "algebra-ecuaciones",
     "area": "Álgebra",
     "title": "Ecuaciones y sistemas",
-    "duration": "18 min",
+    "duration": "12 min",
+    "practiceKeywords": ["resuelve", "ecuacion", "sistema", "x =", "ax", "cuadratic", "discriminante"],
     "sections": [
       {
         "heading": "Ecuaciones lineales",
-        "items": [
-          "Despejar la incógnita aplicando operaciones inversas",
-          "Si ax + b = c → x = (c − b) / a",
-          "Verificar reemplazando en la ecuación original"
-        ]
+        "text": "Aísla la incógnita con operaciones inversas y verifica reemplazando.",
+        "formulas": ["ax + b = c → x = (c − b)/a"],
+        "items": ["3x − 5 = 10 → x = 5", "Si aparece una fracción, multiplica ambos lados por el denominador"]
       },
       {
         "heading": "Sistemas 2×2",
         "items": [
-          "Método sustitución: despejar una variable y reemplazar",
-          "Método igualación: igualar dos expresiones",
-          "Método reducción: sumar/restar ecuaciones para eliminar variable"
+          "Sustitución: despeja una y reemplaza",
+          "Igualación: iguala dos expresiones de la misma variable",
+          "Reducción: suma/resta para eliminar una variable",
+          "Ejemplo: x+y=10, x−y=2 → x=6, y=4"
         ]
       },
       {
         "heading": "Ecuación cuadrática",
-        "formulas": [
-          "ax² + bx + c = 0",
-          "x = (−b ± √(b² − 4ac)) / 2a",
-          "Δ = b² − 4ac: Δ>0 dos soluciones, Δ=0 una, Δ<0 sin reales"
-        ]
+        "formulas": ["ax² + bx + c = 0", "x = (−b ± √Δ)/(2a)", "Δ = b² − 4ac"],
+        "items": ["Δ>0 dos raíces; Δ=0 una; Δ<0 ninguna real"]
       }
-    ],
-    "practiceKeywords": [
-      "ecuacion",
-      "f(x)",
-      "resuelve",
-      "sistema"
     ]
   },
   {
     "id": "algebra-funciones",
     "area": "Álgebra",
     "title": "Funciones lineales y cuadráticas",
-    "duration": "20 min",
+    "duration": "12 min",
+    "practiceKeywords": ["f(x)", "pendiente", "lineal", "cuadratic", "parabol", "vertice", "vértice", "funciones"],
     "sections": [
       {
         "heading": "Función lineal",
-        "formulas": [
-          "f(x) = mx + n",
-          "m = pendiente (inclinación)",
-          "n = intercepto con el eje y"
-        ],
+        "text": "f(x)=mx+n es una recta. m controla la inclinación; n el corte con el eje Y.",
+        "formulas": ["f(x) = mx + n", "m = (y₂−y₁)/(x₂−x₁)"],
         "items": [
-          "m > 0: función creciente",
-          "m < 0: función decreciente",
-          "m = 0: función constante"
+          "m>0 creciente; m<0 decreciente; m=0 constante",
+          "Por (0,2) y (4,10): m = 8/4 = 2"
         ]
       },
       {
         "heading": "Función cuadrática",
-        "formulas": [
-          "f(x) = ax² + bx + c",
-          "Vértice: xᵥ = −b/(2a)",
-          "Si a > 0: abre hacia arriba (mínimo)",
-          "Si a < 0: abre hacia abajo (máximo)"
+        "formulas": ["f(x) = ax² + bx + c", "x_v = −b/(2a)"],
+        "items": [
+          "a>0 abre hacia arriba (mínimo); a<0 hacia abajo (máximo)",
+          "El vértice es el extremo de la parábola",
+          "f(x)=x²−4 corta el eje X en x=±2"
         ]
       }
     ]
@@ -160,28 +135,26 @@
     "id": "numeros-porcentaje",
     "area": "Números",
     "title": "Porcentaje y proporcionalidad",
-    "duration": "15 min",
+    "duration": "10 min",
+    "practiceKeywords": ["%", "porcent", "descuento", "aumento", "proporci", "obrero", "razon", "razón"],
     "sections": [
       {
         "heading": "Porcentaje",
-        "items": [
-          "x% de N = (x/100) × N",
-          "Aumento del x%: N × (1 + x/100)",
-          "Descuento del x%: N × (1 − x/100)"
-        ]
-      },
-      {
-        "heading": "Regla de tres",
-        "items": [
-          "Directa: si más → más (producto cruzado igual)",
-          "Inversa: si más → menos (producto en línea igual)"
-        ]
-      },
-      {
-        "heading": "Razón y proporción",
+        "text": "El % es una razón de denominador 100. En aumentos y descuentos multiplica por (1±x/100).",
         "formulas": [
-          "a/b = c/d → a·d = b·c",
-          "Razón: comparación de dos cantidades"
+          "x% de N = (x/100)·N",
+          "Aumento: N(1 + x/100)",
+          "Descuento: N(1 − x/100)"
+        ],
+        "items": ["20% de descuento sobre $20.000 → $16.000"]
+      },
+      {
+        "heading": "Directa vs inversa",
+        "text": "Directa: al aumentar una magnitud, la otra aumenta (a/b = c/x). Inversa: el producto se mantiene (a·b = c·x).",
+        "items": [
+          "Obreros/días es inversa: más obreros → menos días",
+          "Ejemplo inverso: 3 obreros en 12 días → 6 obreros en 6 días",
+          "Error típico: aplicar producto cruzado de directa a un caso inverso"
         ]
       }
     ]
@@ -190,92 +163,66 @@
     "id": "probabilidad-basica",
     "area": "Probabilidad",
     "title": "Probabilidad y estadística básica",
-    "duration": "18 min",
+    "duration": "10 min",
+    "practiceKeywords": ["probabilidad", "P(", "promedio", "mediana", "moda", "dado", "estadistica"],
     "sections": [
       {
-        "heading": "Probabilidad",
-        "formulas": [
-          "P(A) = casos favorables / casos posibles",
-          "0 ≤ P(A) ≤ 1",
-          "P(A) + P(no A) = 1"
-        ]
+        "heading": "Probabilidad clásica",
+        "formulas": ["P(A) = favorables/posibles", "0 ≤ P(A) ≤ 1", "P(A)+P(no A)=1"],
+        "items": ["Dado justo, P(>4)=2/6=1/3", "Simplifica siempre la fracción resultante"]
       },
       {
-        "heading": "Promedio y mediana",
+        "heading": "Medidas de tendencia central",
         "items": [
-          "Promedio: suma de datos / cantidad de datos",
-          "Mediana: valor central al ordenar los datos",
-          "Moda: valor que más se repite"
+          "Promedio = suma/cantidad",
+          "Mediana = valor central ordenado",
+          "Moda = valor más frecuente",
+          "Con atípicos, la mediana suele representar mejor el centro"
         ]
       }
-    ],
-    "practiceKeywords": [
-      "P(",
-      "mediana",
-      "probabilidad",
-      "promedio"
     ]
   },
   {
     "id": "algebra-exp-log",
     "area": "Álgebra",
     "title": "Funciones exponenciales y logarítmicas (M2)",
-    "duration": "22 min",
+    "duration": "12 min",
+    "practiceKeywords": ["log", "ln", "expon", "e^", "a^", "logarit"],
     "sections": [
       {
-        "heading": "Función exponencial",
-        "formulas": [
-          "f(x) = aˣ, con a > 0 y a ≠ 1",
-          "f(0) = 1",
-          "Si a > 1: creciente; si 0 < a < 1: decreciente"
-        ],
-        "items": [
-          "Modela crecimiento y decaimiento",
-          "Corte con eje Y en (0, 1)"
-        ]
+        "heading": "Exponencial",
+        "text": "f(x)=aˣ (a>0, a≠1). Siempre pasa por (0,1). Si a>1 crece; si 0<a<1 decrece.",
+        "formulas": ["f(x) = aˣ", "f(0) = 1"],
+        "items": ["Modela crecimiento poblacional y decaimiento"]
       },
       {
-        "heading": "Función logarítmica",
+        "heading": "Logaritmo",
+        "text": "y = logₐ(x) es la inversa de aʸ = x. Dominio: x>0.",
         "formulas": [
           "y = logₐ(x) ↔ aʸ = x",
-          "logₐ(1) = 0",
-          "logₐ(a) = 1",
-          "log(xy) = log x + log y"
+          "logₐ(1)=0",
+          "logₐ(a)=1",
+          "log(xy)=log x + log y"
         ],
-        "items": [
-          "Es la inversa de la exponencial",
-          "Dominio: x > 0"
-        ]
-      },
-      {
-        "heading": "Ecuaciones",
-        "items": [
-          "Igualar exponentes si misma base",
-          "Aplicar logaritmo en ambos lados",
-          "Verificar soluciones en el dominio"
-        ]
+        "items": ["Para resolver aˣ=b, aplica log en ambos lados", "Verifica que la solución quede en el dominio"]
       }
-    ],
-    "practiceKeywords": [
-      "e^",
-      "expon",
-      "ln",
-      "log"
     ]
   },
   {
     "id": "geometria-trigonometria",
     "area": "Geometría",
     "title": "Trigonometría en triángulo rectángulo",
-    "duration": "20 min",
+    "duration": "12 min",
+    "practiceKeywords": ["sen", "cos", "tan", "tg", "trig", "opuesto", "adyacente", "hipotenusa"],
     "sections": [
       {
         "heading": "Razones trigonométricas",
         "diagramType": "triangulo-rectangulo",
+        "text": "Define el ángulo y marca opuesto, adyacente e hipotenusa antes de escribir la razón.",
         "formulas": [
-          "sen α = cateto opuesto / hipotenusa",
-          "cos α = cateto adyacente / hipotenusa",
-          "tg α = cateto opuesto / cateto adyacente"
+          "sen α = opuesto/hipotenusa",
+          "cos α = adyacente/hipotenusa",
+          "tg α = opuesto/adyacente"
         ]
       },
       {
@@ -283,60 +230,35 @@
         "items": [
           "30°: sen=1/2, cos=√3/2, tg=√3/3",
           "45°: sen=cos=√2/2, tg=1",
-          "60°: sen=√3/2, cos=1/2, tg=√3"
-        ]
-      },
-      {
-        "heading": "Aplicaciones PAES",
-        "items": [
-          "Elevación y depresión angular",
-          "Altura de edificios con distancia conocida",
-          "Vectores y componentes"
+          "60°: sen=√3/2, cos=1/2, tg=√3",
+          "Aplicación: altura = distancia × tg(ángulo de elevación)"
         ]
       }
-    ],
-    "practiceKeywords": [
-      "angulo",
-      "cos",
-      "grados",
-      "paralela",
-      "pitagor",
-      "semejan",
-      "sen",
-      "tan",
-      "triangulo",
-      "trig",
-      "triángulo",
-      "ángulo"
     ]
   },
   {
     "id": "numeros-potencias",
     "area": "Números",
     "title": "Potencias, raíces y notación científica",
-    "duration": "18 min",
+    "duration": "10 min",
+    "practiceKeywords": ["^", "potenc", "raiz", "sqrt", "√", "10^", "cientific", "científic"],
     "sections": [
       {
         "heading": "Leyes de exponentes",
-        "formulas": [
-          "aᵐ · aⁿ = aᵐ⁺ⁿ",
-          "aᵐ / aⁿ = aᵐ⁻ⁿ",
-          "(aᵐ)ⁿ = aᵐⁿ",
-          "a⁰ = 1"
-        ],
+        "formulas": ["aᵐ·aⁿ=aᵐ⁺ⁿ", "aᵐ/aⁿ=aᵐ⁻ⁿ", "(aᵐ)ⁿ=aᵐⁿ", "a⁰=1", "a⁻ⁿ=1/aⁿ"],
         "items": [
-          "Exponentes negativos: a⁻ⁿ = 1/aⁿ",
-          "Exponentes fraccionarios: a^(1/n) = ⁿ√a"
+          "2³·2²=2⁵=32",
+          "a^(1/n)=ⁿ√a",
+          "No combines bases distintas sin factorizar"
         ]
       },
       {
         "heading": "Notación científica",
-        "formulas": [
-          "N = a × 10ⁿ, con 1 ≤ a < 10"
-        ],
+        "formulas": ["N = a × 10ⁿ, con 1 ≤ a < 10"],
         "items": [
-          "Útil para números muy grandes o pequeños",
-          "Operaciones: combinar potencias de 10"
+          "3.200.000 = 3,2 × 10⁶",
+          "0,00045 = 4,5 × 10⁻⁴",
+          "Al multiplicar/dividir, opera las potencias de 10 por separado"
         ]
       }
     ]
@@ -345,14 +267,15 @@
     "id": "recursos-temario",
     "area": "Recursos",
     "title": "Temario oficial M2 (DEMRE)",
-    "duration": "5 min",
+    "duration": "3 min",
+    "practiceKeywords": ["temario", "demre", "admision"],
     "sections": [
       {
         "heading": "Documento oficial",
-        "text": "Puedes descargar el temario completo de la PAES M2 publicado por el DEMRE para el proceso de Admisión 2027.",
+        "text": "Usa el temario DEMRE como checklist de temas. Esta unidad es de orientación, no de ejercicios.",
         "items": [
           "<a href=\"assets/m2/2027-26-03-19-temario-paes-regular-m2.pdf\" target=\"_blank\" rel=\"noopener\">Descargar temario PAES M2 (PDF)</a>",
-          "<a href=\"#/biblioteca\" data-route>Ver todos los materiales PDF (11 documentos)</a>",
+          "<a href=\"#/biblioteca\" data-route>Ver todos los materiales PDF</a>",
           "Ejes: Números, Álgebra y funciones, Geometría, Probabilidad y estadística"
         ]
       }

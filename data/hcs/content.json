@@ -4,9 +4,11 @@
     "area": "Historia y Ciencias Sociales",
     "title": "Formato y habilidades de la prueba",
     "duration": "8 min",
+    "practiceKeywords": ["fuente", "mapa", "grafico", "gráfico", "argumento", "perspectiva", "localizar", "analizar"],
     "sections": [
       {
         "heading": "Estructura PAES HCS",
+        "text": "La prueba combina Historia, Geografía y Educación ciudadana. Muchas preguntas parten de una fuente (texto, mapa o gráfico).",
         "items": [
           "65 preguntas de alternativa",
           "2 horas de duración",
@@ -17,10 +19,11 @@
       {
         "heading": "Habilidades evaluadas",
         "items": [
-          "Localizar información en fuentes (textos, mapas, gráficos)",
+          "Localizar información en fuentes",
           "Analizar e interpretar procesos históricos y sociales",
           "Evaluar argumentos y perspectivas",
-          "Aplicar conceptos a situaciones concretas"
+          "Aplicar conceptos a situaciones concretas",
+          "Tip: primero clasifica la fuente (¿qué tipo de documento es?) y luego responde"
         ]
       }
     ]
@@ -29,14 +32,16 @@
     "id": "hcs-chile-xix",
     "area": "Historia",
     "title": "Chile en el siglo XIX: formación del Estado",
-    "duration": "15 min",
+    "duration": "12 min",
+    "practiceKeywords": ["independencia", "constitucion", "1833", "ohiggins", "o'higgins", "salitr", "republic", "xix", "1810", "1818", "1879"],
     "sections": [
       {
         "heading": "Ideas clave",
+        "text": "El siglo XIX va de la Independencia a la consolidación del Estado republicano y la expansión territorial. En la PAES importa más la relación causa–efecto que memorizar una fecha aislada.",
         "items": [
-          "Independencia (1810–1818): ruptura con España, figuras como O'Higgins y San Martín",
-          "Organización republicana: Constitución de 1833, presidencia fuerte",
-          "Expansión territorial: incorporación de territorios al sur y norte",
+          "Independencia (1810–1818): ruptura con España; figuras como O'Higgins y San Martín",
+          "Organización republicana: Constitución de 1833 y orden portaliano",
+          "Expansión territorial hacia el sur y el norte",
           "Economía salitrera y consolidación del Estado liberal"
         ]
       },
@@ -45,7 +50,8 @@
         "items": [
           "Relaciona causas y consecuencias (no solo fechas)",
           "Identifica continuidades y cambios entre periodos",
-          "Distingue hechos de interpretaciones historiográficas"
+          "Distingue hechos de interpretaciones historiográficas",
+          "Ejemplo de pregunta: ¿qué problema político resolvía la Constitución de 1833?"
         ]
       }
     ]
@@ -54,23 +60,26 @@
     "id": "hcs-chile-xx",
     "area": "Historia",
     "title": "Chile siglo XX: crisis, reformas y dictadura",
-    "duration": "15 min",
+    "duration": "12 min",
+    "practiceKeywords": ["1973", "dictadura", "unidad popular", "democracia", "transicion", "transición", "cobre", "reforma", "derechos humanos", "xx"],
     "sections": [
       {
         "heading": "Hitos principales",
+        "text": "El siglo XX combina crisis del modelo oligárquico, reformas sociales, polarización política, dictadura y transición democrática.",
         "items": [
           "Crisis del modelo oligárquico y surgimiento de movimientos sociales",
-          "Reformas estructurales (siglo XX): educación, salud, nacionalización del cobre",
-          "Gobierno de la Unidad Popular y crisis política de 1973",
+          "Reformas: educación, salud, nacionalización del cobre",
+          "Unidad Popular y crisis política de 1973",
           "Dictadura militar (1973–1990) y transición a la democracia"
         ]
       },
       {
         "heading": "Conceptos frecuentes",
         "items": [
-          "Democracia, autoritarismo, derechos humanos",
-          "Reforma vs. revolución",
-          "Economía de mercado vs. intervención estatal"
+          "Democracia vs autoritarismo",
+          "Derechos humanos y memoria histórica",
+          "Reforma vs revolución",
+          "Economía de mercado vs intervención estatal"
         ]
       }
     ]
@@ -79,22 +88,24 @@
     "id": "hcs-geografia",
     "area": "Geografía",
     "title": "Geografía de Chile y globalización",
-    "duration": "12 min",
+    "duration": "10 min",
+    "practiceKeywords": ["mapa", "clima", "poblacion", "población", "urban", "riesgo", "sismo", "globaliz", "territorio", "zona"],
     "sections": [
       {
         "heading": "Chile: diversidad territorial",
+        "text": "La geografía chilena se explica por latitud, relieve y corriente de Humboldt. Eso condiciona clima, población y riesgos.",
         "items": [
-          "Zonas naturales: norte árido, centro mediterráneo, sur lluvioso, antártica",
-          "Factores que explican la concentración poblacional en el centro",
-          "Riesgos naturales: sismos, tsunamis, sequías, erupciones volcánicas"
+          "Zonas: norte árido, centro mediterráneo, sur lluvioso, zona austral/antártica",
+          "Concentración poblacional en el centro (empleo, servicios, histórico)",
+          "Riesgos: sismos, tsunamis, sequías, erupciones"
         ]
       },
       {
         "heading": "Globalización y territorio",
         "items": [
           "Flujos de personas, bienes, capital e información",
-          "Urbanización y problemas metropolitanos",
-          "Lectura de mapas, climogramas y gráficos demográficos"
+          "Urbanización y problemas metropolitanos (congestión, segregación)",
+          "Lee siempre la leyenda de mapas, climogramas y gráficos demográficos"
         ]
       }
     ]
@@ -103,22 +114,25 @@
     "id": "hcs-ciudadania",
     "area": "Educación ciudadana",
     "title": "Democracia, instituciones y participación",
-    "duration": "12 min",
+    "duration": "10 min",
+    "practiceKeywords": ["democracia", "constitucion", "constitución", "derecho", "poder", "eleccion", "elección", "ciudadan", "estado de derecho", "particip"],
     "sections": [
       {
         "heading": "Sistema político chileno",
+        "text": "El Estado de derecho se sostiene en la separación de poderes y en derechos fundamentales garantizados por la Constitución.",
         "items": [
-          "Estado de derecho: separación de poderes (Ejecutivo, Legislativo, Judicial)",
-          "Constitución, derechos fundamentales y deberes ciudadanos",
-          "Elecciones, partidos políticos y representación"
+          "Poderes: Ejecutivo, Legislativo y Judicial",
+          "Constitución, derechos y deberes ciudadanos",
+          "Elecciones, partidos y representación"
         ]
       },
       {
         "heading": "Ciudadanía activa",
         "items": [
-          "Participación: votar, organizarse, fiscalizar, dialogar",
+          "Participar: votar, organizarse, fiscalizar, dialogar",
           "Medios de comunicación y opinión pública",
-          "Diversidad, inclusión y no discriminación"
+          "Diversidad, inclusión y no discriminación",
+          "Pregunta tipo: ¿qué principio del Estado de derecho limita el poder arbitrario?"
         ]
       }
     ]

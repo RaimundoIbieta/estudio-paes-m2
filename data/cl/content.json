@@ -4,14 +4,25 @@
     "area": "Competencia Lectora",
     "title": "Habilidades evaluadas en la PAES",
     "duration": "10 min",
+    "practiceKeywords": ["localizar", "interpretar", "evaluar", "integrar", "idea principal", "proposito", "propósito", "inferen", "passage"],
     "sections": [
       {
         "heading": "Las 4 habilidades (DEMRE)",
+        "text": "Cada pregunta mide una habilidad. Identificar qué te piden evita marcar distractores literales o demasiado generales.",
         "items": [
-          "Localizar: encontrar información explícita en el texto",
-          "Interpretar: comprender significados, relaciones y propósitos",
-          "Evaluar: juzgar la información, argumentos y estrategias del autor",
-          "Reflexionar e integrar: conectar el texto con conocimientos previos y otros textos"
+          "Localizar: información explícita (dato, fecha, nombre, cifra)",
+          "Interpretar: relaciones, significados y propósito del texto",
+          "Evaluar: juicio sobre argumentos, evidencia o estrategias del autor",
+          "Integrar/reflexionar: conectar con conocimiento previo u otros textos"
+        ]
+      },
+      {
+        "heading": "Cómo reconocerlas en el enunciado",
+        "items": [
+          "“Según el texto…” o “se menciona…” → suele ser localizar",
+          "“Se puede inferir…” / “el autor sugiere…” → interpretar",
+          "“La estrategia del autor…” / “la evidencia más sólida…” → evaluar",
+          "“En relación con…” / comparar textos → integrar"
         ]
       },
       {
@@ -29,22 +40,32 @@
     "area": "Competencia Lectora",
     "title": "Estrategias de lectura",
     "duration": "12 min",
+    "practiceKeywords": ["contexto", "significa", "palabra", "idea principal", "inferen", "argumento", "autor", "passage"],
     "sections": [
       {
         "heading": "Antes de responder",
+        "text": "No leas el texto “en vacío”. Primero mira la pregunta: sabrás qué tipo de evidencia necesitas.",
         "items": [
-          "Lee primero la pregunta para saber qué buscar",
-          "Subraya datos clave: fechas, nombres, causas, consecuencias",
-          "Distingue opinión de información objetiva"
+          "Lee la pregunta y las alternativas antes de releer el párrafo clave",
+          "Subraya datos: causas, consecuencias, contrastes, conectores",
+          "Separa hecho (verificable) de opinión (valoración del autor)"
         ]
       },
       {
         "heading": "Tipos de preguntas frecuentes",
         "items": [
-          "Idea principal o propósito del texto",
-          "Significado de una palabra en contexto",
-          "Inferencias (lo que se deduce pero no está dicho literalmente)",
-          "Evaluación del argumento del autor"
+          "Idea principal o propósito global del texto",
+          "Significado de una palabra/expresión en contexto",
+          "Inferencias: lo que se deduce sin estar dicho literalmente",
+          "Evaluación del argumento: premisa, evidencia, conclusión"
+        ]
+      },
+      {
+        "heading": "Errores típicos",
+        "items": [
+          "Elegir una opción verdadera en general, pero no apoyada por el texto",
+          "Quedarse con una frase aislada e ignorar el párrafo completo",
+          "Confundir tema (“de qué habla”) con idea principal (“qué afirma”)"
         ]
       }
     ]

@@ -1,7 +1,8 @@
-import { getStats, resetProgress, getAchievements } from '../storage.js';
-import { getCurrentTest, loadTests } from '../test-context.js';
+import { getStats, resetProgress, getAchievements, getTestProgress } from '../storage.js';
+import { getCurrentTest, loadTests, setCurrentTest, fetchTestData } from '../test-context.js';
 import { getStudyRoadmap, getGate } from '../learning-path.js';
 import { getUser } from '../auth.js';
+import { summarizeTest } from './select-test.js';
 
 function areaLabelFromQuestionId(id, testId) {
   const s = String(id || '').toLowerCase();
@@ -17,20 +18,62 @@ function areaLabelFromQuestionId(id, testId) {
   return (testId || 'general').toUpperCase();
 }
 
+function bindFocus(container) {
+  container.querySelectorAll('[data-focus]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      setCurrentTest(btn.dataset.focus);
+      const tp = getTestProgress(btn.dataset.focus);
+      if (tp.diagnosticDone) {
+        location.hash = '#/progreso';
+        renderProgress(container);
+      } else {
+        location.hash = '#/ensayo/diagnostico';
+      }
+    });
+  });
+}
+
 export async function renderProgress(container) {
   try {
     const user = getUser();
     const testId = getCurrentTest();
-    const tests = await loadTests();
+    const tests = (await loadTests()).filter(t => t.ready);
     const test = tests.find(t => t.id === testId);
     const stats = getStats(testId);
     const { streak, badges } = getAchievements(testId);
 
+    const allCards = [];
+    for (const t of tests) {
+      const lessons = (await fetchTestData(t.id, 'content')).filter(l => l.id !== 'placeholder');
+      allCards.push({ t, s: summarizeTest(t.id, lessons.length), lessons: lessons.length });
+    }
+
+    const overview = `
+      <section class="card" style="margin-bottom:1rem">
+        <h3>Avance en todas las pruebas</h3>
+        <p class="page-sub">Puedes estudiar varias PAES en paralelo. Toca una para enfocarte en ella.</p>
+        <div class="grid" style="margin-top:0.75rem">
+          ${allCards.map(({ t, s, lessons }) => `
+            <button type="button" class="card test-card ${testId === t.id ? 'test-card-active' : ''}" data-focus="${t.id}"
+              style="border-top:4px solid ${t.color};text-align:left;cursor:pointer;width:100%">
+              <strong>${t.short}</strong>
+              <div class="topic-meta">${s.status}</div>
+              <div class="progress-bar-wrap" style="margin-top:0.4rem">
+                <div class="progress-bar"><span style="width:${s.pct}%;background:${t.color}"></span></div>
+              </div>
+              <div class="topic-meta">${s.lessonsDone}/${lessons} unidades · Diag. ${s.diagnosticDone ? '✓' : '—'}</div>
+            </button>
+          `).join('')}
+        </div>
+      </section>`;
+
     if (!testId) {
       container.innerHTML = `
         <h1 class="page-title">Tu progreso</h1>
-        <div class="card"><p>Primero elige una prueba PAES para ver tu ruta de estudio.</p>
-        <a href="#/pruebas" class="btn btn-primary" data-route>Elegir prueba</a></div>`;
+        ${overview}
+        <div class="card"><p>Elige una prueba para ver la ruta detallada.</p>
+        <a href="#/pruebas" class="btn btn-primary" data-route>Mis pruebas</a></div>`;
+      bindFocus(container);
       return;
     }
 
@@ -49,11 +92,13 @@ export async function renderProgress(container) {
 
     container.innerHTML = `
       <h1 class="page-title">Tu progreso — ${test?.short || ''}</h1>
-      <p class="page-sub">${user ? `Cuenta: ${user.email}` : 'Inicia sesión para guardar tu avance en este dispositivo.'}</p>
+      <p class="page-sub">${user ? `Cuenta: ${user.email}` : 'Inicia sesión para guardar tu avance en este dispositivo.'} · Ruta detallada de la prueba activa.</p>
+
+      ${overview}
 
       ${gate.blocked?.length ? `
       <section class="gate-banner card">
-        <h3>⚡ Siguiente paso obligatorio</h3>
+        <h3>⚡ Siguiente paso obligatorio (${test?.short})</h3>
         <p><strong>${gate.title}</strong> — ${gate.description}</p>
         <a href="${gate.route}" class="btn btn-primary" data-route>Comenzar ahora</a>
       </section>` : ''}
@@ -62,7 +107,7 @@ export async function renderProgress(container) {
         <div class="stat-box"><strong>${streak}</strong><span>Racha (días)</span></div>
         <div class="stat-box"><strong>${badges.length}</strong><span>Logros</span></div>
         <div class="stat-box"><strong>${stats.accuracy || 0}%</strong><span>Precisión</span></div>
-        <div class="stat-box"><strong>${testEssays.length}</strong><span>Ensayos</span></div>
+        <div class="stat-box"><strong>${testEssays.length}</strong><span>Ensayos ${test?.short || ''}</span></div>
       </div>
 
       ${badges.length ? `
@@ -74,7 +119,7 @@ export async function renderProgress(container) {
       </section>` : ''}
 
       <section class="card" style="margin-top:1rem">
-        <h3>Ruta de estudio</h3>
+        <h3>Ruta de estudio — ${test?.short}</h3>
         <div class="roadmap">
           ${steps.map(step => `
             <div class="roadmap-step ${step.done ? 'done' : ''} ${step.current ? 'current' : ''}">
@@ -92,16 +137,9 @@ export async function renderProgress(container) {
 
       <div class="results-grid" style="margin-top:1rem">
         <div class="stat-box"><strong>${testProgress?.diagnosticDone ? '✓' : '—'}</strong><span>Diagnóstico</span></div>
-        <div class="stat-box"><strong>${(testProgress?.lessonsCompleted || []).length}</strong><span>Unidades estudiadas</span></div>
+        <div class="stat-box"><strong>${(testProgress?.lessonsCompleted || []).length}</strong><span>Unidades</span></div>
         <div class="stat-box"><strong>${Object.keys(testProgress?.unitEssays || {}).length}</strong><span>Mini ensayos</span></div>
         <div class="stat-box"><strong>${(testProgress?.checkpoints || []).length}</strong><span>Ensayos progreso</span></div>
-      </div>
-
-      <div class="results-grid" style="margin-top:0.75rem">
-        <div class="stat-box"><strong>${stats.totalAttempts || 0}</strong><span>Respuestas totales</span></div>
-        <div class="stat-box"><strong>${stats.accuracy || 0}%</strong><span>Precisión global</span></div>
-        <div class="stat-box"><strong>${testEssays.length}</strong><span>Ensayos rendidos</span></div>
-        <div class="stat-box"><strong>${testEssays.length ? Math.round(testEssays.reduce((s,e)=>s+(e.score||0),0)/testEssays.length) : 0}%</strong><span>Promedio ensayos</span></div>
       </div>
 
       <section class="card" style="margin-top:1rem">
@@ -138,8 +176,9 @@ export async function renderProgress(container) {
       </div>
     `;
 
+    bindFocus(container);
     container.querySelector('#reset-progress')?.addEventListener('click', () => {
-      if (confirm('¿Seguro? Se borrará todo tu progreso local.')) {
+      if (confirm('¿Seguro? Se borrará todo tu progreso local de todas las pruebas.')) {
         resetProgress();
         renderProgress(container);
       }

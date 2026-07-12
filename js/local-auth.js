@@ -177,6 +177,80 @@ export async function signUp(email, password, name = '') {
   return currentUser;
 }
 
+/**
+ * Crea un usuario desde el panel admin sin iniciar sesión como él.
+ * @param {{ email: string, password: string, name?: string, months?: number }} opts
+ */
+export async function adminCreateUser({ email, password, name = '', months = 0 }) {
+  if (!isSuperAdmin()) throw new Error('Sin permisos.');
+  const em = email.trim().toLowerCase();
+  const nm = (name || '').trim();
+  if (!em || !password || password.length < 6) {
+    throw new Error('Correo válido y contraseña de al menos 6 caracteres.');
+  }
+  if (await getUserByEmail(em)) throw new Error('Este correo ya está registrado.');
+  const role = em === APP_CONFIG.superadminEmail.toLowerCase() ? 'superadmin' : 'student';
+  const user = {
+    email: em,
+    name: nm || em.split('@')[0],
+    passwordHash: await hashPassword(password),
+    role,
+    createdAt: new Date().toISOString(),
+    createdBy: currentUser?.email || 'admin',
+  };
+  await saveUser(user);
+  const monthsN = Number(months) || 0;
+  if (monthsN > 0 && role !== 'superadmin') {
+    const until = new Date();
+    until.setMonth(until.getMonth() + monthsN);
+    await saveSubscription({
+      email: em,
+      plan: 'monthly',
+      until: until.toISOString(),
+      activatedAt: new Date().toISOString(),
+      grantedBy: currentUser?.email || 'admin',
+    });
+  }
+  return {
+    email: user.email,
+    name: user.name,
+    role: user.role,
+    created_at: user.createdAt,
+    monthsGranted: monthsN,
+  };
+}
+
+export async function adminResetPassword(email, newPassword) {
+  if (!isSuperAdmin()) throw new Error('Sin permisos.');
+  const em = email.trim().toLowerCase();
+  if (!newPassword || newPassword.length < 6) throw new Error('Contraseña de al menos 6 caracteres.');
+  const user = await getUserByEmail(em);
+  if (!user) throw new Error('Usuario no encontrado.');
+  user.passwordHash = await hashPassword(newPassword);
+  await saveUser(user);
+  return true;
+}
+
+export async function adminDeleteUser(email) {
+  if (!isSuperAdmin()) throw new Error('Sin permisos.');
+  const em = email.trim().toLowerCase();
+  if (em === APP_CONFIG.superadminEmail.toLowerCase()) {
+    throw new Error('No puedes eliminar la cuenta superadmin.');
+  }
+  if (em === currentUser?.email) throw new Error('No puedes eliminar tu propia sesión activa.');
+  const d = await openDb();
+  await new Promise((resolve, reject) => {
+    const tx = d.transaction(['users', 'subscriptions'], 'readwrite');
+    tx.objectStore('users').delete(em);
+    if (d.objectStoreNames.contains('subscriptions')) {
+      tx.objectStore('subscriptions').delete(em);
+    }
+    tx.oncomplete = () => resolve();
+    tx.onerror = () => reject(tx.error);
+  });
+  return true;
+}
+
 export async function signIn(email, password) {
   const em = email.trim().toLowerCase();
   const user = await getUserByEmail(em);
@@ -198,18 +272,25 @@ export async function signOut() {
 export async function fetchAllProfiles() {
   if (!isSuperAdmin()) return [];
   const d = await openDb();
-  return new Promise((resolve, reject) => {
+  const users = await new Promise((resolve, reject) => {
     const tx = d.transaction('users', 'readonly');
     const req = tx.objectStore('users').getAll();
-    req.onsuccess = () => {
-      const users = (req.result || []).map(u => ({
-        email: u.email,
-        name: u.name,
-        role: u.role,
-        created_at: u.createdAt,
-      }));
-      resolve(users.sort((a, b) => b.created_at.localeCompare(a.created_at)));
-    };
+    req.onsuccess = () => resolve(req.result || []);
     req.onerror = () => reject(req.error);
   });
+  const out = [];
+  for (const u of users) {
+    const sub = await getSubscription(u.email);
+    const until = sub?.until || null;
+    const active = until ? new Date(until) > new Date() : false;
+    out.push({
+      email: u.email,
+      name: u.name,
+      role: u.role,
+      created_at: u.createdAt,
+      subscriptionUntil: until,
+      subscriptionActive: u.role === 'superadmin' ? true : active,
+    });
+  }
+  return out.sort((a, b) => String(b.created_at || '').localeCompare(String(a.created_at || '')));
 }

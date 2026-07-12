@@ -513,6 +513,32 @@ body {
   box-shadow: 0 0 0 4px rgba(30, 90, 158, 0.15);
 }
 
+.test-switcher {
+  display: flex;
+  align-items: center;
+  margin-right: 0.35rem;
+}
+.test-switcher-label {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: rgba(255,255,255,0.9);
+  font-size: 0.78rem;
+}
+.test-switcher-label select {
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.25rem 0.4rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.25);
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+}
+.test-switcher-label option {
+  color: #111;
+}
+
 .auth-slot {
   display: flex;
   align-items: center;

@@ -14,6 +14,7 @@ import { renderLanding } from './pages/landing.js';
 import { renderSubscription } from './pages/subscription.js';
 import { CACHE_VERSION } from './config.js';
 import { getAppShellMode, getRedirectForGuest, getRedirectIfLoggedIn } from './guards.js';
+import { getCurrentTest, loadTests, setCurrentTest } from './test-context.js';
 
 async function loadEssayEngine() {
   return import(`./exam-engine.js?v=${CACHE_VERSION}`);
@@ -24,6 +25,7 @@ const nav = document.getElementById('main-nav');
 const topbar = document.getElementById('topbar');
 const navToggle = document.getElementById('nav-toggle');
 const authSlot = document.getElementById('auth-slot');
+const testSwitcher = document.getElementById('test-switcher');
 
 let booted = false;
 
@@ -33,11 +35,43 @@ document.addEventListener('click', e => {
   if (e.target.closest('[data-route]')) nav?.classList.remove('open');
 });
 
+async function updateTestSwitcher() {
+  if (!testSwitcher) return;
+  if (!getUser()) {
+    testSwitcher.hidden = true;
+    testSwitcher.innerHTML = '';
+    return;
+  }
+  const tests = (await loadTests()).filter(t => t.ready);
+  const current = getCurrentTest();
+  testSwitcher.hidden = false;
+  testSwitcher.innerHTML = `
+    <label class="test-switcher-label">
+      <span>Prueba</span>
+      <select id="test-switch-select" aria-label="Cambiar prueba activa">
+        <option value="">Todas…</option>
+        ${tests.map(t => `<option value="${t.id}" ${current === t.id ? 'selected' : ''}>${t.short}</option>`).join('')}
+      </select>
+    </label>
+  `;
+  testSwitcher.querySelector('#test-switch-select')?.addEventListener('change', e => {
+    const id = e.target.value;
+    if (!id) {
+      location.hash = '#/pruebas';
+      return;
+    }
+    setCurrentTest(id);
+    location.hash = '#/app';
+    render();
+  });
+}
+
 function setShell(path) {
   const mode = getAppShellMode(path);
   const isPublic = mode === 'public';
   topbar?.classList.toggle('topbar-public', isPublic);
   nav?.classList.toggle('hidden', isPublic || !getUser());
+  updateTestSwitcher().catch(() => {});
 }
 
 function showError(err) {

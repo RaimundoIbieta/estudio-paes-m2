@@ -1,10 +1,10 @@
 /** Incrementar en cada deploy para forzar recarga de modulos JS (ensayo, banco, etc.) */
-export const CACHE_VERSION = '44';
+export const CACHE_VERSION = '45';
 
 export const APP_CONFIG = {
   superadminEmail: 'raimundoibieta@gmail.com',
-  supabaseUrl: '',
-  supabaseAnonKey: '',
+  supabaseUrl: 'https://kmilfxkrbkljmddadymc.supabase.co',
+  supabaseAnonKey: 'sb_publishable_nCFJG_c5aj0NfB8aFsgMvg_wjUxX6fl',
   brandName: 'Preuniversitario PAES',
   tagline: 'Tu camino a la educación superior',
   pricing: {

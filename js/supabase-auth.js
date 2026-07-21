@@ -3,7 +3,7 @@
  * Cuentas compartidas entre navegadores/dispositivos.
  */
 import { APP_CONFIG } from './config.js';
-import { createClient } from 'https://esm.sh/@supabase/supabase-js@2.49.1';
+import { createClient } from 'https://esm.sh/@supabase/supabase-js@2.49.8';
 
 let supabase = null;
 let currentUser = null;

@@ -1,4 +1,4 @@
-import { signIn, signUp, signOut, getUser, isSuperAdmin, hasActiveSubscription } from '../auth.js';
+import { signIn, signUp, signOut, getUser, isSuperAdmin, hasActiveSubscription, isCloudAuthConfigured } from '../auth.js';
 import { APP_CONFIG } from '../config.js';
 
 export function renderAuthButton(container) {
@@ -20,13 +20,18 @@ export function renderAuthButton(container) {
 
 export function renderLogin(container, mode = 'login') {
   const isRegister = mode === 'registro';
+  const cloud = isCloudAuthConfigured();
   container.innerHTML = `
     <div class="auth-card">
       <h1 class="page-title">${isRegister ? 'Crear cuenta' : 'Ingresar'}</h1>
       <p class="page-sub">${isRegister ? `Regístrate y activa tu plan desde ${APP_CONFIG.pricing.label}.` : 'Accede a tu ruta de estudio PAES.'}</p>
+      ${cloud ? '' : `
+      <p class="auth-error" style="min-height:0;margin-bottom:0.85rem">
+        Modo local: la cuenta solo existe en <strong>este navegador</strong>. Si el admin te creó la cuenta en otro dispositivo, no podrás entrar hasta configurar Supabase.
+      </p>`}
       <form id="login-form" class="auth-form">
         <label>Correo<input type="email" name="email" required autocomplete="email" placeholder="tu@correo.cl"/></label>
-        <label>Contraseña<input type="password" name="password" required minlength="6" autocomplete="current-password" placeholder="Mínimo 6 caracteres"/></label>
+        <label>Contraseña<input type="password" name="password" required minlength="6" autocomplete="${isRegister ? 'new-password' : 'current-password'}" placeholder="Mínimo 6 caracteres"/></label>
         <div id="auth-error" class="auth-error"></div>
         <button type="submit" class="btn btn-primary btn-block">${isRegister ? 'Crear cuenta' : 'Ingresar'}</button>
       </form>

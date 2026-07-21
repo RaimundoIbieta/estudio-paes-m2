@@ -294,3 +294,12 @@ export async function fetchAllProfiles() {
   }
   return out.sort((a, b) => String(b.created_at || '').localeCompare(String(a.created_at || '')));
 }
+
+
+export function getAuthBackend() {
+  return 'local';
+}
+
+export function isCloudAuthConfigured() {
+  return false;
+}

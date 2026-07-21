@@ -22,22 +22,22 @@ Plataforma web **gratuita y de acceso masivo** para preparar la PAES: M1, M2, Co
 | Historia y CS | Activa | 65 | 2h |
 | Ciencias | Activa | 80 | 2h |
 
-## Activar cuentas de usuario (Supabase — gratis)
+## Cuentas entre navegadores (Supabase)
 
-1. Crea un proyecto en [supabase.com](https://supabase.com)
-2. Ve a **SQL Editor** y ejecuta `supabase/schema.sql`
-3. En **Settings → API**, copia URL y `anon` key
-4. Edita `js/config.js`:
+Sin configurar Supabase, las cuentas viven solo en el navegador (IndexedDB) y **no funcionan en otro dispositivo**.
+
+1. Crea un proyecto gratis en [supabase.com](https://supabase.com)
+2. SQL Editor → ejecuta todo el archivo `supabase/schema.sql`
+3. Authentication → Providers → Email → **desactiva “Confirm email”**
+4. Settings → API → copia Project URL y `anon` `public` key
+5. Edita `js/config.js`:
 
 ```javascript
-export const APP_CONFIG = {
-  superadminEmail: 'raimundoibieta@gmail.com',
-  supabaseUrl: 'https://TU-PROYECTO.supabase.co',
-  supabaseAnonKey: 'TU_ANON_KEY',
-};
+supabaseUrl: 'https://TU-PROYECTO.supabase.co',
+supabaseAnonKey: 'TU_ANON_KEY',
 ```
 
-5. Sube los cambios a GitHub
+6. Publica el cambio y registra primero el superadmin (`raimundoibieta@gmail.com`). Luego crea alumnos desde Admin.
 
 Al registrarte con `raimundoibieta@gmail.com` tendrás acceso al **panel Admin**.
 

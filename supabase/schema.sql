@@ -60,6 +60,8 @@ create policy "Insert propio perfil"
 -- Subscriptions policies
 drop policy if exists "Ver propia suscripcion" on public.subscriptions;
 drop policy if exists "Superadmin gestiona suscripciones" on public.subscriptions;
+drop policy if exists "Usuario gestiona su suscripcion" on public.subscriptions;
+drop policy if exists "Usuario actualiza su suscripcion" on public.subscriptions;
 
 create policy "Ver propia suscripcion"
   on public.subscriptions for select
